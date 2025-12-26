@@ -1,65 +1,179 @@
-import Image from "next/image";
+import { getAllRankings } from '@/lib/data';
+import Link from 'next/link';
+import { Suspense } from 'react';
+import { Navigation } from '@/components/navigation';
+import { Footer } from '@/components/footer';
+import { HeroSection } from '@/components/hero-section';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { ArrowRight } from 'lucide-react';
 
-export default function Home() {
+interface RankingsPageProps {
+  searchParams: Promise<{ search?: string }>;
+}
+
+export default async function RankingsPage({ searchParams }: RankingsPageProps) {
+  const { search } = await searchParams;
+  const searchQuery = search;
+  const rankings = await getAllRankings(searchQuery);
+  
+  // Get most recent rankings for showcase (when no search)
+  const recentRankings = searchQuery ? rankings : rankings.slice(0, 9);
+
+  // If there's a search query, show search results page
+  if (searchQuery) {
+    return (
+      <div className="min-h-screen bg-background flex flex-col">
+        <Suspense fallback={
+          <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="flex h-16 items-center justify-between gap-4">
+                <div className="text-xl font-bold bg-gradient-to-r from-slate-600 to-slate-500 bg-clip-text text-transparent">
+                  DecisionRank
+                </div>
+              </div>
+            </div>
+          </nav>
+        }>
+          <Navigation />
+        </Suspense>
+        <main className="flex-1">
+          <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+            <div className="mb-8">
+              <h1 className="text-3xl font-bold text-foreground mb-2">
+                Search Results
+              </h1>
+              <p className="text-muted-foreground">
+                Found {rankings.length} {rankings.length === 1 ? 'ranking' : 'rankings'} for &quot;{searchQuery}&quot;
+              </p>
+            </div>
+
+            {rankings.length === 0 ? (
+              <Card>
+                <CardContent className="p-12 text-center">
+                  <p className="text-muted-foreground">
+                    No rankings found matching your search.
+                  </p>
+                </CardContent>
+              </Card>
+            ) : (
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {rankings.map((ranking) => (
+                  <Link 
+                    key={ranking.id} 
+                    href={`/${ranking.category.slug}/${ranking.slug}`}
+                  >
+                    <Card className="group h-full transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
+                      <CardHeader>
+                        <div className="flex items-start justify-between gap-2 mb-2">
+                          <Badge variant="secondary" className="text-xs">
+                            {ranking.category.name}
+                          </Badge>
+                        </div>
+                        <CardTitle className="text-lg group-hover:text-slate-600 transition-colors">
+                          {ranking.question}
+                        </CardTitle>
+                        {ranking.description && (
+                          <CardDescription className="line-clamp-3 mt-2">
+                            {ranking.description}
+                          </CardDescription>
+                        )}
+                      </CardHeader>
+                      <CardContent>
+                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                          View Ranking
+                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+
+  // Landing page with hero and showcase
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <div className="min-h-screen bg-background flex flex-col">
+      <Suspense fallback={
+        <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex h-16 items-center justify-between gap-4">
+              <div className="text-xl font-bold bg-gradient-to-r from-slate-600 to-slate-500 bg-clip-text text-transparent">
+                DecisionRank
+              </div>
+            </div>
+          </div>
+        </nav>
+      }>
+        <Navigation />
+      </Suspense>
+      <main className="flex-1">
+        <HeroSection />
+        
+        {/* Recent Rankings Showcase */}
+        <section id="rankings" className="py-20 sm:py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                Recent Rankings
+              </h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Explore our latest product comparisons and rankings
+              </p>
+            </div>
+
+            {recentRankings.length === 0 ? (
+              <Card>
+                <CardContent className="p-12 text-center">
+                  <p className="text-muted-foreground">
+                    No rankings available.
+                  </p>
+                </CardContent>
+              </Card>
+            ) : (
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {recentRankings.map((ranking) => (
+                  <Link 
+                    key={ranking.id} 
+                    href={`/${ranking.category.slug}/${ranking.slug}`}
+                  >
+                    <Card className="group h-full transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
+                      <CardHeader>
+                        <div className="flex items-start justify-between gap-2 mb-2">
+                          <Badge variant="secondary" className="text-xs">
+                            {ranking.category.name}
+                          </Badge>
+                        </div>
+                        <CardTitle className="text-lg group-hover:text-slate-600 transition-colors">
+                          {ranking.question}
+                        </CardTitle>
+                        {ranking.description && (
+                          <CardDescription className="line-clamp-3 mt-2">
+                            {ranking.description}
+                          </CardDescription>
+                        )}
+                      </CardHeader>
+                      <CardContent>
+                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                          View Ranking
+                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
       </main>
+      <Footer />
     </div>
   );
 }
