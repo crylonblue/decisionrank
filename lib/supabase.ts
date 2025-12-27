@@ -42,6 +42,16 @@ export type Product = {
   updated_at: string;
 };
 
+export type Asset = {
+  id: string;
+  product_id: string;
+  type: 'image' | 'youtube';
+  url: string;
+  display_order: number;
+  created_at: string;
+  updated_at: string;
+};
+
 export type User = {
   id: string;
   name: string;
@@ -113,7 +123,9 @@ export type SentimentWithUser = Sentiment & {
 };
 
 export type RankingProductWithDetails = RankingProduct & {
-  product: Product;
+  product: Product & {
+    assets?: Asset[];
+  };
   sentiments: SentimentWithUser[];
   specifications: Specification[];
 };

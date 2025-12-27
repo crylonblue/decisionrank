@@ -4,32 +4,30 @@ import { Separator } from '@/components/ui/separator';
 export function ProductCardSkeleton() {
   return (
     <Card className="overflow-hidden">
-      <CardHeader>
-        <div className="flex flex-col sm:flex-row items-start justify-between gap-6">
-          <div className="flex gap-6 w-full">
-            {/* Image skeleton */}
-            <div className="w-[140px] h-[140px] rounded-xl bg-muted flex-shrink-0 animate-shimmer" />
-            
-            <div className="flex-1 space-y-3">
-              {/* Title skeleton */}
-              <div className="h-8 w-3/4 bg-muted rounded animate-shimmer" />
-              
-              {/* Description skeleton */}
-              <div className="space-y-2">
-                <div className="h-4 w-full bg-muted rounded animate-shimmer" />
-                <div className="h-4 w-5/6 bg-muted rounded animate-shimmer" />
-              </div>
-              
-              {/* Link skeleton */}
-              <div className="h-4 w-32 bg-muted rounded animate-shimmer" />
-            </div>
+      <CardHeader className="pb-4">
+        {/* Score and Title on same line skeleton */}
+        <div className="flex items-center gap-4 mb-4">
+          <div className="rounded-2xl bg-muted/50 px-4 py-2 animate-shimmer">
+            <div className="h-6 w-10 bg-muted rounded animate-shimmer" />
           </div>
-          
-          {/* Score section skeleton */}
-          <div className="text-right sm:text-left sm:min-w-[140px]">
-            <div className="h-4 w-24 bg-muted rounded mb-2 animate-shimmer" />
-            <div className="h-10 w-16 bg-muted rounded mb-2 animate-shimmer" />
-            <div className="h-6 w-20 bg-muted rounded animate-shimmer" />
+          <div className="h-9 flex-1 bg-muted rounded animate-shimmer" />
+        </div>
+        
+        {/* Description skeleton */}
+        <div className="space-y-2 mb-4">
+          <div className="h-4 w-full bg-muted rounded animate-shimmer" />
+          <div className="h-4 w-5/6 bg-muted rounded animate-shimmer" />
+        </div>
+        
+        {/* Link skeleton */}
+        <div className="h-4 w-32 bg-muted rounded mb-6 animate-shimmer" />
+
+        {/* Asset carousel skeleton */}
+        <div className="w-full -mx-6 px-6">
+          <div className="flex gap-4 overflow-hidden">
+            {[1, 2, 3].map((i) => (
+              <div key={i} className="flex-shrink-0 w-[300px] aspect-[4/3] rounded-xl bg-muted animate-shimmer" />
+            ))}
           </div>
         </div>
       </CardHeader>

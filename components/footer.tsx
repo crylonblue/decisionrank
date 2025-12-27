@@ -12,22 +12,16 @@ export function Footer() {
           {/* Links */}
           <nav className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <Link 
-              href="/" 
+              href="/imprint" 
               className="transition-colors hover:text-slate-600"
             >
-              Home
+              Imprint
             </Link>
             <Link 
-              href="/" 
+              href="/privacy-policy" 
               className="transition-colors hover:text-slate-600"
             >
-              About
-            </Link>
-            <Link 
-              href="/" 
-              className="transition-colors hover:text-slate-600"
-            >
-              Contact
+              Privacy Policy
             </Link>
           </nav>
 

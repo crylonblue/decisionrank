@@ -1,4 +1,4 @@
-import { supabase, type Ranking, type RankingProductWithDetails, type Product, type Sentiment, type Specification, type User, type SentimentWithUser, type Category } from './supabase';
+import { supabase, type Ranking, type RankingProductWithDetails, type Product, type Sentiment, type Specification, type User, type SentimentWithUser, type Category, type Asset } from './supabase';
 
 // Fetch all rankings with basic info
 export async function getAllRankings(searchQuery?: string) {
@@ -62,12 +62,15 @@ export async function getRankingBySlug(slug: string, categorySlug: string) {
     throw new Error('Ranking does not belong to the specified category');
   }
 
-  // Fetch ranking products with products
+  // Fetch ranking products with products and assets
   const { data: rankingProducts, error: rankingProductsError } = await supabase
     .from('ranking_products')
     .select(`
       *,
-      product:products(*)
+      product:products(
+        *,
+        assets:assets(*)
+      )
     `)
     .eq('ranking_id', ranking.id)
     .order('rank_position', { ascending: true });
@@ -104,7 +107,11 @@ export async function getRankingBySlug(slug: string, categorySlug: string) {
 
   // Combine the data
   const rankingProductsWithDetails: RankingProductWithDetails[] = rankingProducts.map(rp => {
-    const product = rp.product as Product;
+    const productWithAssets = rp.product as Product & { assets?: Asset[] };
+    const product = {
+      ...productWithAssets,
+      assets: productWithAssets.assets ? productWithAssets.assets.sort((a, b) => a.display_order - b.display_order) : undefined,
+    };
     const productSentiments: SentimentWithUser[] = sentiments
       .filter(s => s.ranking_product_id === rp.id)
       .map(s => ({

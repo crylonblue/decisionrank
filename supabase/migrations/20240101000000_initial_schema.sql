@@ -1,9 +1,6 @@
--- Enable UUID extension
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
-
 -- Rankings table
 CREATE TABLE rankings (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   slug TEXT UNIQUE NOT NULL,
   question TEXT NOT NULL,
   description TEXT,
@@ -14,7 +11,7 @@ CREATE TABLE rankings (
 
 -- Products table (reusable across rankings)
 CREATE TABLE products (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   name TEXT NOT NULL,
   description TEXT,
   created_at TIMESTAMPTZ DEFAULT NOW(),
@@ -23,7 +20,7 @@ CREATE TABLE products (
 
 -- Ranking Products junction table (mandatory, includes scores and rank)
 CREATE TABLE ranking_products (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   ranking_id UUID NOT NULL REFERENCES rankings(id) ON DELETE CASCADE,
   product_id UUID NOT NULL REFERENCES products(id) ON DELETE CASCADE,
   score DECIMAL(10, 2) NOT NULL,
@@ -36,7 +33,7 @@ CREATE TABLE ranking_products (
 
 -- Criteria table (ranking-specific criteria)
 CREATE TABLE criteria (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   ranking_id UUID NOT NULL REFERENCES rankings(id) ON DELETE CASCADE,
   name TEXT NOT NULL,
   weight DECIMAL(5, 2) DEFAULT 1.0,
@@ -46,7 +43,7 @@ CREATE TABLE criteria (
 
 -- Criterion Scores table (scores for each product on each criterion)
 CREATE TABLE criterion_scores (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   ranking_product_id UUID NOT NULL REFERENCES ranking_products(id) ON DELETE CASCADE,
   criterion_id UUID NOT NULL REFERENCES criteria(id) ON DELETE CASCADE,
   score DECIMAL(10, 2) NOT NULL,
@@ -57,7 +54,7 @@ CREATE TABLE criterion_scores (
 
 -- Specifications table (product specifications)
 CREATE TABLE specifications (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   product_id UUID NOT NULL REFERENCES products(id) ON DELETE CASCADE,
   name TEXT NOT NULL,
   value TEXT NOT NULL,
@@ -68,7 +65,7 @@ CREATE TABLE specifications (
 
 -- Sentiments table (pros, cons, comments)
 CREATE TABLE sentiments (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   ranking_product_id UUID NOT NULL REFERENCES ranking_products(id) ON DELETE CASCADE,
   type TEXT NOT NULL CHECK (type IN ('pro', 'con', 'comment')),
   content TEXT NOT NULL,

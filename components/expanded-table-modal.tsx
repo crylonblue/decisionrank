@@ -4,7 +4,8 @@ import { useRef, useState, useEffect } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
+import { ProductAssetCarousel } from '@/components/product-asset-carousel';
+import { ScoreBadge } from '@/components/score-badge';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import type { RankingProductWithDetails } from '@/lib/supabase';
 
@@ -41,24 +42,14 @@ export function ExpandedTableModal({
   // Calculate max translateX and update button states
   const checkScrollButtons = () => {
     if (!carouselContainerRef.current) {
-      console.log('checkScrollButtons: container ref is null');
       return;
     }
     
     const containerWidth = carouselContainerRef.current.clientWidth;
     const maxTranslateX = Math.max(0, totalContentWidth - containerWidth);
     
-    console.log('checkScrollButtons:', {
-      containerWidth,
-      totalContentWidth,
-      maxTranslateX,
-      currentTranslateX: translateX
-    });
-    
     const canScrollLeftValue = translateX < -1;
     const canScrollRightValue = maxTranslateX > 0 && translateX > -maxTranslateX + 1;
-    
-    console.log('Button states:', { canScrollLeftValue, canScrollRightValue });
     
     setCanScrollLeft(canScrollLeftValue);
     setCanScrollRight(canScrollRightValue);
@@ -67,7 +58,8 @@ export function ExpandedTableModal({
   // Update button states when translateX changes
   useEffect(() => {
     checkScrollButtons();
-  }, [translateX, open, specNames.length]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [translateX, open, specNames.length, totalContentWidth]);
 
   // Reset position and check buttons when modal opens
   useEffect(() => {
@@ -75,7 +67,6 @@ export function ExpandedTableModal({
       setTranslateX(0);
       // Check buttons after a delay to ensure DOM is ready
       const timer = setTimeout(() => {
-        console.log('Checking buttons after modal open');
         checkScrollButtons();
       }, 200);
       return () => clearTimeout(timer);
@@ -83,9 +74,7 @@ export function ExpandedTableModal({
   }, [open]);
 
   const scrollSpecs = (direction: 'left' | 'right') => {
-    console.log('scrollSpecs called', direction, 'current translateX:', translateX);
     if (!carouselContainerRef.current) {
-      console.log('carouselContainerRef is null');
       return;
     }
     
@@ -93,15 +82,12 @@ export function ExpandedTableModal({
     const maxTranslateX = Math.max(0, totalContentWidth - containerWidth);
     const scrollAmount = 300; // pixels to scroll
     
-    console.log('Container width:', containerWidth, 'Total content width:', totalContentWidth, 'Max translateX:', maxTranslateX);
-    
     // Right button: move content left (translateX becomes more negative)
     // Left button: move content right (translateX becomes less negative, towards 0)
     const newTranslateX = direction === 'right' 
       ? Math.max(-maxTranslateX, translateX - scrollAmount)
       : Math.min(0, translateX + scrollAmount);
     
-    console.log('Setting translateX to:', newTranslateX);
     setTranslateX(newTranslateX);
   };
 
@@ -119,10 +105,7 @@ export function ExpandedTableModal({
             style={{ pointerEvents: 'auto' }}
           >
             <button
-              onClick={(e) => {
-                console.log('LEFT BUTTON CLICKED!', e);
-                e.preventDefault();
-                e.stopPropagation();
+              onClick={() => {
                 scrollSpecs('left');
               }}
               disabled={!canScrollLeft}
@@ -132,10 +115,7 @@ export function ExpandedTableModal({
               <ChevronLeft className="h-4 w-4" />
             </button>
             <button
-              onClick={(e) => {
-                console.log('RIGHT BUTTON CLICKED!', e);
-                e.preventDefault();
-                e.stopPropagation();
+              onClick={() => {
                 scrollSpecs('right');
               }}
               disabled={!canScrollRight}
@@ -180,15 +160,12 @@ export function ExpandedTableModal({
                   >
                     <div className="px-6 py-4 w-full">
                       <div className="flex items-center gap-3">
-                        {rp.product.image_url && (
-                          <Image
-                            src={rp.product.image_url}
-                            alt={rp.product.name}
-                            width={56}
-                            height={56}
-                            className="rounded-lg object-cover border border-border flex-shrink-0"
-                          />
-                        )}
+                        <ProductAssetCarousel
+                          assets={rp.product.assets}
+                          productName={rp.product.name}
+                          fallbackImageUrl={rp.product.image_url}
+                          size="xs"
+                        />
                         <div className="min-w-0 flex-1">
                           <div className="flex items-center gap-2 mb-1">
                             <Badge variant="secondary" className="w-6 h-6 rounded-full p-0 flex items-center justify-center text-xs">
@@ -313,9 +290,7 @@ export function ExpandedTableModal({
                             className="px-6 py-4 text-right flex items-center justify-end"
                             style={{ width: SPEC_COLUMN_WIDTH }}
                           >
-                            <span className="text-lg font-bold text-card-foreground">
-                              {rp.score.toFixed(1)}
-                            </span>
+                            <ScoreBadge score={rp.score} size="small" />
                           </div>
                         </div>
                       ))}

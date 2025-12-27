@@ -39,7 +39,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         <Navigation />
       </Suspense>
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Back link */}
         <Link
           href="/"
@@ -87,7 +87,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             ))}
           </div>
         )}
-        </div>
+      </div>
       </main>
       <Footer />
     </div>

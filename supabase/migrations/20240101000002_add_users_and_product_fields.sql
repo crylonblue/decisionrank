@@ -1,6 +1,6 @@
 -- Add users table
 CREATE TABLE users (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   name TEXT NOT NULL,
   profile_picture_url TEXT,
   created_at TIMESTAMPTZ DEFAULT NOW(),
@@ -25,6 +25,8 @@ ALTER TABLE users ENABLE ROW LEVEL SECURITY;
 -- RLS Policy: Public can view users
 CREATE POLICY "Public can view users" ON users
   FOR SELECT USING (true);
+
+
 
 
 

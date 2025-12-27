@@ -50,7 +50,7 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
         <Navigation />
       </Suspense>
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Breadcrumbs */}
         <nav className="mb-6 flex items-center gap-2 text-sm text-muted-foreground" aria-label="Breadcrumb">
           <Link
@@ -108,7 +108,7 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           initialCount={3}
           loadMoreCount={3}
         />
-        </div>
+      </div>
       </main>
       <Footer />
     </div>

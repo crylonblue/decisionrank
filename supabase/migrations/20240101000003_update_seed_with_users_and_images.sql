@@ -136,3 +136,6 @@ WHERE ranking_product_id = '770e8400-e29b-41d4-a716-446655440003'
 
 
 
+
+
+

@@ -16,20 +16,20 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   const { search } = await searchParams;
   const searchQuery = search;
   const rankings = await getAllRankings(searchQuery);
-  
+
   // Get most recent rankings for showcase (when no search)
   const recentRankings = searchQuery ? rankings : rankings.slice(0, 9);
 
   // If there's a search query, show search results page
   if (searchQuery) {
-    return (
+  return (
       <div className="min-h-screen bg-background flex flex-col">
         <Suspense fallback={
           <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="flex h-16 items-center justify-between gap-4">
                 <div className="text-xl font-bold bg-gradient-to-r from-slate-600 to-slate-500 bg-clip-text text-transparent">
-                  DecisionRank
+            DecisionRank
                 </div>
               </div>
             </div>
@@ -42,11 +42,11 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
             <div className="mb-8">
               <h1 className="text-3xl font-bold text-foreground mb-2">
                 Search Results
-              </h1>
+          </h1>
               <p className="text-muted-foreground">
                 Found {rankings.length} {rankings.length === 1 ? 'ranking' : 'rankings'} for &quot;{searchQuery}&quot;
-              </p>
-            </div>
+          </p>
+        </div>
 
             {rankings.length === 0 ? (
               <Card>
@@ -59,7 +59,7 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
             ) : (
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {rankings.map((ranking) => (
-                  <Link 
+                <Link
                     key={ranking.id} 
                     href={`/${ranking.category.slug}/${ranking.slug}`}
                   >
@@ -86,8 +86,8 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                         </div>
                       </CardContent>
                     </Card>
-                  </Link>
-                ))}
+                </Link>
+              ))}
               </div>
             )}
           </div>
@@ -126,25 +126,25 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
               <p className="mt-4 text-lg text-muted-foreground">
                 Explore our latest product comparisons and rankings
               </p>
-            </div>
+        </div>
 
             {recentRankings.length === 0 ? (
-              <Card>
-                <CardContent className="p-12 text-center">
-                  <p className="text-muted-foreground">
+          <Card>
+            <CardContent className="p-12 text-center">
+              <p className="text-muted-foreground">
                     No rankings available.
-                  </p>
-                </CardContent>
-              </Card>
-            ) : (
+              </p>
+            </CardContent>
+          </Card>
+        ) : (
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {recentRankings.map((ranking) => (
-                  <Link 
-                    key={ranking.id} 
-                    href={`/${ranking.category.slug}/${ranking.slug}`}
-                  >
+              <Link 
+                key={ranking.id} 
+                href={`/${ranking.category.slug}/${ranking.slug}`}
+              >
                     <Card className="group h-full transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
-                      <CardHeader>
+                  <CardHeader>
                         <div className="flex items-start justify-between gap-2 mb-2">
                           <Badge variant="secondary" className="text-xs">
                             {ranking.category.name}
@@ -153,24 +153,24 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                         <CardTitle className="text-lg group-hover:text-slate-600 transition-colors">
                           {ranking.question}
                         </CardTitle>
-                        {ranking.description && (
+                    {ranking.description && (
                           <CardDescription className="line-clamp-3 mt-2">
-                            {ranking.description}
-                          </CardDescription>
-                        )}
-                      </CardHeader>
+                        {ranking.description}
+                      </CardDescription>
+                    )}
+                  </CardHeader>
                       <CardContent>
                         <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
                           View Ranking
                           <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </div>
                       </CardContent>
-                    </Card>
-                  </Link>
-                ))}
-              </div>
-            )}
+                </Card>
+              </Link>
+            ))}
           </div>
+        )}
+      </div>
         </section>
       </main>
       <Footer />

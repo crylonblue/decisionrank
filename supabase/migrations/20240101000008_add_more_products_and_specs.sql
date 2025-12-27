@@ -185,3 +185,6 @@ INSERT INTO specifications (product_id, name, value, unit) VALUES
 
 
 
+
+
+

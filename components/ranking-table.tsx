@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from 'react';
-import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { ExpandedTableModal } from '@/components/expanded-table-modal';
+import { ProductAssetCarousel } from '@/components/product-asset-carousel';
+import { ScoreBadge } from '@/components/score-badge';
 import { Maximize2 } from 'lucide-react';
 import type { RankingProductWithDetails } from '@/lib/supabase';
 
@@ -61,21 +62,20 @@ export function RankingTable({ rankingProducts, specNames }: RankingTableProps) 
                     </Badge>
                   </td>
                   <td className="px-6 py-4 text-right" style={{ width: '100px' }}>
-                    <span className="text-lg font-bold text-slate-600">
-                      {rp.score.toFixed(1)}
-                    </span>
+                    <div className="flex justify-end">
+                      <ScoreBadge score={rp.score} size="small" />
+                    </div>
                   </td>
                   <td className="px-6 py-4 overflow-hidden" style={{ width: '230px' }}>
                     <div className="flex items-center gap-3 min-w-0">
-                      {rp.product.image_url && (
-                        <Image
-                          src={rp.product.image_url}
-                          alt={rp.product.name}
-                          width={56}
-                          height={56}
-                          className="rounded-lg object-cover border border-border flex-shrink-0"
+                      <div className="flex-shrink-0">
+                        <ProductAssetCarousel
+                          assets={rp.product.assets}
+                          productName={rp.product.name}
+                          fallbackImageUrl={rp.product.image_url}
+                          size="xs"
                         />
-                      )}
+                      </div>
                       <div className="min-w-0 flex-1 overflow-hidden">
                         <div className="text-sm font-semibold text-card-foreground truncate">
                           {rp.product.name}
