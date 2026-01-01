@@ -147,7 +147,8 @@ users (1) ──< (many) sentiments (optional)
 ### Highly Recommended
 
 - **Ranking**: `description`, `verdict_summary`
-- **Products**: `image_url` or at least one `asset` (for visual display)
+- **Products**: `link` (Amazon with affiliate tag preferred, or official website)
+- **Products**: YouTube video `assets` (if available - search for product reviews/unboxings)
 - **Specifications**: At least 2-3 key specs per product (for comparison table)
 - **Sentiments**: At least 2-3 pros and 1-2 cons per product
 - **Criteria**: 3-5 evaluation criteria with corresponding `criterion_scores`
@@ -155,8 +156,8 @@ users (1) ──< (many) sentiments (optional)
 ### Optional (Enhance User Experience)
 
 - **Ranking**: `verdict_summary` (but highly recommended)
-- **Products**: `link` (purchase/review link)
-- **Assets**: Multiple images, YouTube videos
+- **Products**: `link` (Amazon with `tag=decisionrank-20` preferred, official website as fallback)
+- **Assets**: YouTube videos (only if high-quality, relevant videos are found - otherwise skip)
 - **FAQs**: 3-5 frequently asked questions
 - **Sentiments**: `headline` and `description` (more detailed than just `content`)
 - **Users**: Attribution for sentiments (usually not needed for agent-generated content)
@@ -221,6 +222,14 @@ RETURNING id;  -- Save this ranking_id for subsequent steps
 
 For each product:
 
+**Product Link Strategy**:
+1. **First Priority**: Search for product on Amazon
+   - If found, use Amazon URL with affiliate tag: `https://www.amazon.com/dp/PRODUCT_ID?tag=decisionrank-20`
+   - Or add tag parameter to existing Amazon URL: `https://www.amazon.com/...?tag=decisionrank-20`
+   - Ensure the `tag=decisionrank-20` query parameter is present
+2. **Fallback**: If not found on Amazon, use official product website URL
+3. **Last Resort**: If neither available, set `link` to NULL
+
 ```sql
 -- Check if product exists (by name)
 SELECT id FROM products WHERE name = 'Product Name';
@@ -229,8 +238,8 @@ SELECT id FROM products WHERE name = 'Product Name';
 INSERT INTO products (name, image_url, link)
 VALUES (
   'Product Name',
-  'https://example.com/image.jpg',  -- Optional but recommended
-  'https://example.com/product-link'  -- Optional
+  NULL,  -- image_url not used in first version
+  'https://www.amazon.com/dp/B08XYZ123?tag=decisionrank-20'  -- Amazon link with affiliate tag, or official website, or NULL
 )
 RETURNING id;  -- Save product_id
 ```
@@ -239,6 +248,8 @@ RETURNING id;  -- Save product_id
 - Products can be reused across multiple rankings
 - Check for existing products to avoid duplicates
 - `name` must be unique and descriptive
+- **Link Priority**: Amazon (with `tag=decisionrank-20`) > Official Website > NULL
+- `image_url` is not used in the first version (assets are handled separately)
 
 #### Step 4: Link Products to Ranking (ranking_products)
 
@@ -336,28 +347,35 @@ VALUES
 - `headline` and `description` are optional but recommended
 - `user_id` is optional (usually NULL for agent-generated content)
 
-#### Step 9: Add Product Assets (Images/Videos)
+#### Step 9: Add Product Assets (YouTube Videos Only)
 
-For each product:
+For each product, search YouTube for product review/unboxing videos:
 
+**YouTube Search Strategy**:
+1. Search YouTube for: `"[Product Name] review"` or `"[Product Name] unboxing"`
+2. Look for high-quality, recent videos from reputable channels
+3. Extract the YouTube video ID (e.g., from `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the ID is `dQw4w9WgXcQ`)
+4. If multiple videos found, select 1-2 best ones
+
+**If YouTube videos found**:
 ```sql
--- Images
+-- YouTube videos only (use video ID only, not full URL)
 INSERT INTO assets (product_id, type, url, display_order)
 VALUES 
-  ('product-uuid', 'image', 'https://example.com/product-image-1.jpg', 0),
-  ('product-uuid', 'image', 'https://example.com/product-image-2.jpg', 1);
-
--- YouTube videos (use video ID only, not full URL)
-INSERT INTO assets (product_id, type, url, display_order)
-VALUES 
-  ('product-uuid', 'youtube', 'dQw4w9WgXcQ', 2);  -- Just the video ID
+  ('product-uuid', 'youtube', 'dQw4w9WgXcQ', 0),  -- Just the video ID, not full URL
+  ('product-uuid', 'youtube', 'abc123xyz', 1);    -- Second video if available
 ```
 
+**If NO YouTube videos found**:
+- **Skip this step entirely** - Do not add any assets for this product
+- It's better to have no assets than to add irrelevant or low-quality content
+
 **Important**:
-- `type` must be: 'image' or 'youtube'
+- **First Version**: Only use YouTube videos (`type='youtube'`), no images
 - For YouTube: use only the video ID (e.g., `dQw4w9WgXcQ`), not full URL
 - `display_order` determines order (0 = first, 1 = second, etc.)
-- At least one image per product recommended
+- **Quality over quantity**: Only add videos if they are relevant and high-quality
+- **If no suitable videos found, skip assets entirely** - this is acceptable
 
 #### Step 10: Add FAQs (Optional but Recommended)
 
@@ -414,7 +432,23 @@ VALUES
    - No gaps (1, 2, 3, not 1, 3, 5)
    - Lower number = better rank
 
-4. **Specifications**:
+4. **Product Links**:
+   - **Priority 1**: Amazon URL with `tag=decisionrank-20` parameter
+     - Format: `https://www.amazon.com/dp/PRODUCT_ID?tag=decisionrank-20`
+     - Or add to existing URL: `?tag=decisionrank-20` or `&tag=decisionrank-20`
+   - **Priority 2**: Official product website URL
+   - **Priority 3**: NULL if neither available
+   - Always verify links are valid and accessible
+
+5. **Assets (YouTube Videos)**:
+   - **First Version**: Only YouTube videos, no images
+   - Search YouTube for: `"[Product Name] review"` or `"[Product Name] unboxing"`
+   - Extract video ID only (e.g., `dQw4w9WgXcQ` from `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)
+   - Only add if videos are high-quality, relevant, and recent
+   - **If no suitable videos found, skip assets entirely** - this is acceptable
+   - Better to have no assets than low-quality or irrelevant content
+
+6. **Specifications**:
    - Use consistent names across products for comparison
    - Examples: "Battery Life", "Weight", "Dimensions", "Price"
    - Include units where applicable
@@ -444,10 +478,11 @@ VALUES (
 RETURNING id;  -- Save as ranking_id
 
 -- Step 3: Create Products
+-- Search Amazon first, add tag=decisionrank-20, fallback to official website
 INSERT INTO products (name, image_url, link) VALUES
-  ('Sony WF-1000XM5', 'https://example.com/sony.jpg', 'https://example.com/sony-link'),
-  ('Apple AirPods Pro 2', 'https://example.com/apple.jpg', 'https://example.com/apple-link'),
-  ('Bose QuietComfort Earbuds II', 'https://example.com/bose.jpg', 'https://example.com/bose-link')
+  ('Sony WF-1000XM5', NULL, 'https://www.amazon.com/dp/B0C7HZMZ5K?tag=decisionrank-20'),  -- Amazon with affiliate tag
+  ('Apple AirPods Pro 2', NULL, 'https://www.amazon.com/dp/B0BDHB9Y8H?tag=decisionrank-20'),  -- Amazon with affiliate tag
+  ('Bose QuietComfort Earbuds II', NULL, 'https://www.bose.com/products/headphones/quietcomfort-earbuds-ii.html')  -- Official website (if not on Amazon)
 RETURNING id;  -- Save product_ids
 
 -- Step 4: Link Products to Ranking
@@ -487,12 +522,14 @@ INSERT INTO sentiments (ranking_product_id, type, content, headline, description
   ('ranking-product-uuid-1', 'pro', 'Great noise cancellation', 'Industry-leading ANC', 'The active noise cancellation is among the best...');
 -- Add cons and repeat for other products
 
--- Step 9: Add Assets (for Product 1)
+-- Step 9: Add Assets (YouTube videos only - if found)
+-- Search YouTube for "[Product Name] review" or "[Product Name] unboxing"
+-- Only add if high-quality, relevant videos are found
 INSERT INTO assets (product_id, type, url, display_order) VALUES
-  ('product-uuid-1', 'image', 'https://example.com/sony-front.jpg', 0),
-  ('product-uuid-1', 'image', 'https://example.com/sony-side.jpg', 1),
-  ('product-uuid-1', 'youtube', 'dQw4w9WgXcQ', 2);
--- Repeat for other products
+  ('product-uuid-1', 'youtube', 'dQw4w9WgXcQ', 0),  -- YouTube video ID only
+  ('product-uuid-1', 'youtube', 'abc123xyz', 1);    -- Second video if available
+-- If no suitable YouTube videos found for a product, skip assets entirely for that product
+-- Repeat for other products (only if videos found)
 
 -- Step 10: Add FAQs
 INSERT INTO faqs (ranking_id, question, answer, display_order) VALUES
@@ -516,7 +553,9 @@ Before submitting a ranking, verify:
 - [ ] At least 3-5 evaluation criteria are defined
 - [ ] All products have scores for all criteria
 - [ ] Each product has 2-4 pros and 1-3 cons
-- [ ] Each product has at least one image asset
+- [ ] Product links: Amazon URLs include `tag=decisionrank-20` parameter, or official website used
+- [ ] Assets: Only YouTube videos added (if found), or no assets if no suitable videos found
+- [ ] YouTube video IDs are correct (just the ID, not full URL)
 - [ ] Specifications use consistent names across products
 - [ ] FAQs are relevant and well-written (if included)
 - [ ] All foreign key relationships are valid
@@ -531,9 +570,12 @@ Before submitting a ranking, verify:
 3. **Duplicate Rank Positions**: Ensure each product has unique position (1, 2, 3...)
 4. **Incomplete Criterion Scores**: Every product needs scores for all criteria
 5. **Inconsistent Spec Names**: Use same names across products (e.g., "Battery Life" not "Battery" and "Battery Life")
-6. **YouTube URL Format**: Use only video ID, not full URL
+6. **YouTube URL Format**: Use only video ID, not full URL (e.g., `dQw4w9WgXcQ` not `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)
 7. **Score-Rank Mismatch**: Rank 1 should have highest score
-8. **Missing Assets**: Products without images won't display well
+8. **Missing Amazon Affiliate Tag**: Amazon URLs must include `tag=decisionrank-20` parameter
+9. **Adding Low-Quality Assets**: Only add YouTube videos if they are relevant and high-quality. If none found, skip assets entirely
+10. **Using Images**: First version only supports YouTube videos, not images
+11. **Invalid Product Links**: Always verify Amazon and official website links are accessible
 
 ---
 
@@ -546,13 +588,16 @@ Before submitting a ranking, verify:
 5. **Score Calculation**: Ensure scores are consistent and justify rank positions
 6. **Research Quality**: Gather accurate, up-to-date product information
 7. **Content Quality**: Write clear, informative descriptions and verdicts
-
----
-
-## Additional Resources
-
-- Database schema: See `supabase/migrations/` directory
-- TypeScript types: See `lib/supabase.ts`
-- Data fetching examples: See `lib/data.ts`
-- Seed data examples: See `supabase/migrations/20240101000001_seed_data.sql`
-
+8. **Product Link Research**:
+   - Search Amazon first using product name
+   - If found, construct URL with `tag=decisionrank-20` parameter
+   - Verify link is accessible and points to correct product
+   - Fallback to official product website if not on Amazon
+   - Set to NULL only if neither available
+9. **YouTube Asset Research**:
+   - Search YouTube for product reviews/unboxings
+   - Prioritize recent, high-quality videos from reputable channels
+   - Extract only the video ID (not full URL)
+   - Only add if videos are relevant and useful
+   - **If no suitable videos found, skip assets entirely** - this is acceptable and preferred over low-quality content
+10. **Asset Type**: First version only supports `type='youtube'` - do not use `type='image'`
