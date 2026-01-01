@@ -3,10 +3,33 @@ import { Suspense } from 'react';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { Card, CardContent } from '@/components/ui/card';
+import type { Metadata } from 'next';
+import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | DecisionRank',
+  description: 'Privacy policy and data protection information for DecisionRank',
+};
 
 export default function PrivacyPolicyPage() {
+  const baseUrl = getBaseUrl();
+  
+  // Generate breadcrumb JSON-LD
+  const breadcrumbItems = [
+    { name: 'Home', url: `${baseUrl}/` },
+    { name: 'Privacy Policy', url: `${baseUrl}/privacy-policy` },
+  ];
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd(breadcrumbItems);
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      {/* Breadcrumb JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+  return (
+    <>
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -160,6 +183,7 @@ export default function PrivacyPolicyPage() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }
 

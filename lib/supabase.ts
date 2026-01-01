@@ -121,6 +121,16 @@ export type SentimentWithUser = Sentiment & {
   user: User | null;
 };
 
+export type FAQ = {
+  id: string;
+  ranking_id: string;
+  question: string;
+  answer: string;
+  display_order: number;
+  created_at: string;
+  updated_at: string;
+};
+
 export type RankingProductWithDetails = RankingProduct & {
   product: Product & {
     assets?: Asset[];

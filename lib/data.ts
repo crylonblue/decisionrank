@@ -1,4 +1,4 @@
-import { supabase, type Ranking, type RankingProductWithDetails, type Product, type Sentiment, type Specification, type User, type SentimentWithUser, type Category, type Asset } from './supabase';
+import { supabase, type Ranking, type RankingProductWithDetails, type Product, type Sentiment, type Specification, type User, type SentimentWithUser, type Category, type Asset, type FAQ } from './supabase';
 
 // Fetch all rankings with basic info
 export async function getAllRankings(searchQuery?: string) {
@@ -105,6 +105,17 @@ export async function getRankingBySlug(slug: string, categorySlug: string) {
     throw new Error(`Failed to fetch specifications: ${specsError.message}`);
   }
 
+  // Fetch FAQs for this ranking
+  const { data: faqs, error: faqsError } = await supabase
+    .from('faqs')
+    .select('*')
+    .eq('ranking_id', ranking.id)
+    .order('display_order', { ascending: true });
+
+  if (faqsError) {
+    throw new Error(`Failed to fetch FAQs: ${faqsError.message}`);
+  }
+
   // Combine the data
   const rankingProductsWithDetails: RankingProductWithDetails[] = rankingProducts.map(rp => {
     const productWithAssets = rp.product as Product & { assets?: Asset[] };
@@ -135,6 +146,7 @@ export async function getRankingBySlug(slug: string, categorySlug: string) {
     ...ranking,
     ranking_products: rankingProductsWithDetails,
     category, // category is always present since we validate it above
+    faqs: (faqs || []) as FAQ[],
   };
 }
 

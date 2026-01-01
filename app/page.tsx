@@ -7,9 +7,44 @@ import { HeroSection } from '@/components/hero-section';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight } from 'lucide-react';
+import type { Metadata } from 'next';
+import { getBaseUrl } from '@/lib/seo';
 
 interface RankingsPageProps {
   searchParams: Promise<{ search?: string }>;
+}
+
+export async function generateMetadata({ searchParams }: RankingsPageProps): Promise<Metadata> {
+  const { search } = await searchParams;
+  const baseUrl = getBaseUrl();
+  
+  if (search) {
+    return {
+      title: `Search Results for "${search}" | DecisionRank`,
+      description: `Search results for "${search}" - Find product rankings and comparisons`,
+      openGraph: {
+        title: `Search Results for "${search}"`,
+        url: `${baseUrl}/?search=${encodeURIComponent(search)}`,
+        type: 'website',
+      },
+    };
+  }
+
+  return {
+    title: 'DecisionRank - Editorial Product Rankings and Comparisons',
+    description: 'Discover the best products through comprehensive editorial rankings and comparisons. Compare features, prices, and reviews to make informed decisions.',
+    openGraph: {
+      title: 'DecisionRank - Editorial Product Rankings',
+      description: 'Discover the best products through comprehensive editorial rankings and comparisons.',
+      url: baseUrl,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'DecisionRank - Editorial Product Rankings',
+      description: 'Discover the best products through comprehensive editorial rankings and comparisons.',
+    },
+  };
 }
 
 export default async function RankingsPage({ searchParams }: RankingsPageProps) {

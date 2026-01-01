@@ -6,9 +6,43 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import type { Ranking } from '@/lib/supabase';
+import type { Metadata } from 'next';
+import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
+}
+
+export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+  const { category: categorySlug } = await params;
+  
+  let category;
+  try {
+    category = await getCategoryBySlug(categorySlug);
+  } catch (error) {
+    return {
+      title: 'Category Not Found | DecisionRank',
+    };
+  }
+
+  const baseUrl = getBaseUrl();
+  const url = `${baseUrl}/${categorySlug}`;
+
+  return {
+    title: `${category.name} Rankings | DecisionRank`,
+    description: category.description || `Browse product rankings in ${category.name}`,
+    openGraph: {
+      title: `${category.name} Rankings`,
+      description: category.description || undefined,
+      url,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary',
+      title: `${category.name} Rankings`,
+      description: category.description || undefined,
+    },
+  };
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
@@ -23,8 +57,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   const { rankings } = category;
 
+  const baseUrl = getBaseUrl();
+  
+  // Generate breadcrumb JSON-LD
+  const breadcrumbItems = [
+    { name: 'Home', url: `${baseUrl}/` },
+    { name: category.name, url: `${baseUrl}/${categorySlug}` },
+  ];
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd(breadcrumbItems);
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      {/* Breadcrumb JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
