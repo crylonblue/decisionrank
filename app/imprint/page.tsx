@@ -22,14 +22,13 @@ export default function ImprintPage() {
   const breadcrumbJsonLd = generateBreadcrumbJsonLd(breadcrumbItems);
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <>
       {/* Breadcrumb JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-  return (
-    <>
+      <div className="min-h-screen bg-background flex flex-col">
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
