@@ -34,7 +34,15 @@ export function ProductAssetHorizontalCarousel({
           created_at: '',
           updated_at: '',
         }]
-      : [];
+      : [{ 
+          id: 'placeholder', 
+          product_id: '', 
+          type: 'image' as const, 
+          url: '/placeholder.svg', 
+          display_order: 0,
+          created_at: '',
+          updated_at: '',
+        }];
 
   const checkScrollButtons = () => {
     if (!scrollContainerRef.current) return;
@@ -78,11 +86,17 @@ export function ProductAssetHorizontalCarousel({
     });
   };
 
+  // This case should not happen anymore since we always add placeholder, but keep for safety
   if (displayAssets.length === 0) {
     return (
       <div className="w-full">
-        <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-border bg-muted flex items-center justify-center">
-          <span className="text-muted-foreground text-sm">No image</span>
+        <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-border shadow-sm">
+          <Image
+            src="/placeholder.svg"
+            alt={productName}
+            fill
+            className="object-cover"
+          />
         </div>
       </div>
     );
@@ -126,10 +140,10 @@ export function ProductAssetHorizontalCarousel({
 
       {/* Gradient overlays to indicate scrollable content */}
       {canScrollLeft && (
-        <div className="absolute left-0 top-0 bottom-2 w-20 pointer-events-none z-30 bg-gradient-to-r from-card via-card/90 to-transparent" />
+        <div className="absolute left-0 top-0 bottom-2 w-20 pointer-events-none z-5 bg-gradient-to-r from-card via-card/90 to-transparent" />
       )}
       {canScrollRight && (
-        <div className="absolute right-0 top-0 bottom-2 w-20 pointer-events-none z-30 bg-gradient-to-l from-card via-card/90 to-transparent" />
+        <div className="absolute right-0 top-0 bottom-2 w-20 pointer-events-none z-5 bg-gradient-to-l from-card via-card/90 to-transparent" />
       )}
 
       {/* Navigation Controls - Positioned relative to parent container */}
@@ -138,7 +152,7 @@ export function ProductAssetHorizontalCarousel({
           {/* Left Button */}
           <button
             type="button"
-            className={`absolute left-2 top-1/2 -translate-y-1/2 transition-opacity bg-white/95 hover:bg-white shadow-lg rounded-md border border-gray-300 h-10 w-10 flex items-center justify-center pointer-events-auto z-[100] ${
+            className={`absolute left-2 top-1/2 -translate-y-1/2 transition-opacity bg-white/95 hover:bg-white shadow-lg rounded-md border border-gray-300 h-10 w-10 flex items-center justify-center pointer-events-auto z-10 ${
               canScrollLeft ? 'opacity-100 group-hover:opacity-100' : 'opacity-50 pointer-events-none cursor-not-allowed'
             }`}
             onClick={(e) => {
@@ -149,7 +163,6 @@ export function ProductAssetHorizontalCarousel({
             aria-label="Scroll left"
             disabled={!canScrollLeft}
             style={{ 
-              zIndex: 100,
               pointerEvents: canScrollLeft ? 'auto' : 'none'
             }}
           >
@@ -159,7 +172,7 @@ export function ProductAssetHorizontalCarousel({
           {/* Right Button - Always on the right edge */}
           <button
             type="button"
-            className={`absolute right-2 top-1/2 -translate-y-1/2 transition-opacity bg-white/95 hover:bg-white shadow-lg rounded-md border border-gray-300 h-10 w-10 flex items-center justify-center pointer-events-auto z-[100] ${
+            className={`absolute right-2 top-1/2 -translate-y-1/2 transition-opacity bg-white/95 hover:bg-white shadow-lg rounded-md border border-gray-300 h-10 w-10 flex items-center justify-center pointer-events-auto z-10 ${
               canScrollRight ? 'opacity-100 group-hover:opacity-100' : 'opacity-50 pointer-events-none cursor-not-allowed'
             }`}
             onClick={(e) => {
@@ -170,7 +183,6 @@ export function ProductAssetHorizontalCarousel({
             aria-label="Scroll right"
             disabled={!canScrollRight}
             style={{ 
-              zIndex: 100,
               pointerEvents: canScrollRight ? 'auto' : 'none'
             }}
           >

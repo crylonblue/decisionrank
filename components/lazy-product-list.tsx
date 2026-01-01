@@ -71,9 +71,9 @@ export function LazyProductList({
               {/* Score and Product Name on same line */}
               <div className="flex items-center gap-3 mb-0">
                 <div className="flex items-center">
-                  <ScoreBadge score={rp.score} size="headline" />
+                  <ScoreBadge score={rp.score} size="medium" />
                 </div>
-                <CardTitle className="text-3xl mb-0 leading-none">{rp.product.name}</CardTitle>
+                <CardTitle className="text-2xl mb-0 leading-none">{rp.product.name}</CardTitle>
               </div>
             </CardHeader>
 
@@ -222,7 +222,7 @@ function CustomTabs({
       </div>
 
       {/* Tab Content */}
-      <div className="mt-0">
+      <div className="mt-0 pb-6">
         {activeTab === 'pros-cons' && (
           <div className="grid gap-8 sm:grid-cols-2">
             {/* Pros */}

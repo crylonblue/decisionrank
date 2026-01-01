@@ -9,13 +9,10 @@ INSERT INTO rankings (id, slug, question, description, verdict_summary) VALUES
    'After extensive testing, the Osprey Farpoint 40 emerges as the top choice for most travelers, offering the best balance of features, comfort, and value.');
 
 -- Insert products
-INSERT INTO products (id, name, description) VALUES
-  ('660e8400-e29b-41d4-a716-446655440001', 'Osprey Farpoint 40', 
-   'A versatile 40L travel backpack designed for carry-on compliance and extended travel.'),
-  ('660e8400-e29b-41d4-a716-446655440002', 'Peak Design Travel Backpack 45L', 
-   'A premium travel backpack with innovative organization and sleek design for modern travelers.'),
-  ('660e8400-e29b-41d4-a716-446655440003', 'REI Co-op Ruckpack 40', 
-   'A budget-friendly travel backpack with solid construction and practical features.');
+INSERT INTO products (id, name) VALUES
+  ('660e8400-e29b-41d4-a716-446655440001', 'Osprey Farpoint 40'),
+  ('660e8400-e29b-41d4-a716-446655440002', 'Peak Design Travel Backpack 45L'),
+  ('660e8400-e29b-41d4-a716-446655440003', 'REI Co-op Ruckpack 40');
 
 -- Insert ranking_products (with scores and rank positions)
 INSERT INTO ranking_products (id, ranking_id, product_id, score, rank_position) VALUES

@@ -35,7 +35,6 @@ export type Ranking = {
 export type Product = {
   id: string;
   name: string;
-  description: string | null;
   image_url: string | null;
   link: string | null;
   created_at: string;

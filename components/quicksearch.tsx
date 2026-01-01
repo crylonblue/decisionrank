@@ -66,7 +66,7 @@ export function QuickSearch({
         })) as (Ranking & { category: { slug: string; name: string } })[];
 
       setResults(filtered);
-      setIsOpen(filtered.length > 0);
+      setIsOpen(searchQuery.trim().length > 0);
       setSelectedIndex(-1);
     } catch (error) {
       console.error('Search error:', error);
@@ -161,7 +161,7 @@ export function QuickSearch({
           value={query}
           onChange={(e) => handleInputChange(e.target.value)}
           onFocus={() => {
-            if (results.length > 0) setIsOpen(true);
+            if (query.trim().length > 0) setIsOpen(true);
           }}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
@@ -224,7 +224,7 @@ export function QuickSearch({
             </div>
           ) : query.trim() ? (
             <div className="px-4 py-3 text-sm text-muted-foreground text-center">
-              No rankings found
+              No results found
             </div>
           ) : null}
         </div>

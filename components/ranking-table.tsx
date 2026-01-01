@@ -74,6 +74,7 @@ export function RankingTable({ rankingProducts, specNames }: RankingTableProps) 
                           productName={rp.product.name}
                           fallbackImageUrl={rp.product.image_url}
                           size="xs"
+                          showVideoThumbnails={true}
                         />
                       </div>
                       <div className="min-w-0 flex-1 overflow-hidden">

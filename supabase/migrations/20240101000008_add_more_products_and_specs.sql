@@ -2,33 +2,26 @@
 -- This migration adds 7 more products (total 10) and additional specifications
 
 -- Insert additional products
-INSERT INTO products (id, name, description, image_url, link) VALUES
+INSERT INTO products (id, name, image_url, link) VALUES
   ('660e8400-e29b-41d4-a716-446655440004', 'Tortuga Setout 35L', 
-   'A minimalist travel backpack designed for urban travelers and digital nomads.',
    'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop',
    'https://www.tortugabackpacks.com/products/setout-backpack'),
   ('660e8400-e29b-41d4-a716-446655440005', 'Aer Travel Pack 3', 
-   'A premium travel backpack with exceptional organization and sleek urban design.',
    'https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=800&h=600&fit=crop',
    'https://www.aersf.com/travel-pack-3'),
   ('660e8400-e29b-41d4-a716-446655440006', 'Nomatic Travel Pack 40L', 
-   'A versatile travel backpack with innovative features and expandable capacity.',
    'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop',
    'https://www.nomatic.com/products/travel-pack-40l'),
   ('660e8400-e29b-41d4-a716-446655440007', 'Patagonia Black Hole Pack 32L', 
-   'A durable, weather-resistant backpack made from recycled materials.',
    'https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=800&h=600&fit=crop',
    'https://www.patagonia.com/product/black-hole-pack-32l'),
   ('660e8400-e29b-41d4-a716-446655440008', 'Cotopaxi Allpa 35L', 
-   'A colorful, sustainable travel backpack with excellent organization.',
    'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop',
    'https://www.cotopaxi.com/products/allpa-35l-travel-pack'),
   ('660e8400-e29b-41d4-a716-446655440009', 'Tom Bihn Synik 30L', 
-   'A thoughtfully designed travel backpack with exceptional build quality.',
    'https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=800&h=600&fit=crop',
    'https://www.tombihn.com/products/synik-30'),
   ('660e8400-e29b-41d4-a716-446655440010', 'Eagle Creek Wayfinder 40L', 
-   'A reliable travel backpack with good organization and value pricing.',
    'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop',
    'https://www.eaglecreek.com/products/wayfinder-40l')
 ON CONFLICT (id) DO NOTHING;

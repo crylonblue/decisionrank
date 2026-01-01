@@ -165,6 +165,7 @@ export function ExpandedTableModal({
                           productName={rp.product.name}
                           fallbackImageUrl={rp.product.image_url}
                           size="xs"
+                          showVideoThumbnails={true}
                         />
                         <div className="min-w-0 flex-1">
                           <div className="flex items-center gap-2 mb-1">

@@ -21,3 +21,10 @@ UPDATE sentiments SET headline = content, description = NULL WHERE headline IS N
 
 
 
+
+
+
+
+
+
+

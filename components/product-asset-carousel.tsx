@@ -11,6 +11,7 @@ interface ProductAssetCarouselProps {
   productName: string;
   fallbackImageUrl?: string | null;
   size?: 'xs' | 'small' | 'medium' | 'large';
+  showVideoThumbnails?: boolean; // If true, show YouTube thumbnails instead of iframes
 }
 
 const sizeClasses = {
@@ -20,35 +21,32 @@ const sizeClasses = {
   large: 'w-full max-w-md',
 };
 
+// Helper function to get YouTube thumbnail URL
+function getYouTubeThumbnail(videoId: string): string {
+  return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+}
+
 export function ProductAssetCarousel({
   assets,
   productName,
   fallbackImageUrl,
   size = 'medium',
+  showVideoThumbnails = false,
 }: ProductAssetCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // If no assets, use fallback image or show placeholder
   if (!assets || assets.length === 0) {
-    if (fallbackImageUrl) {
-      return (
-        <div className={`${sizeClasses[size]} flex-shrink-0`}>
-          <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-border shadow-sm">
-            <Image
-              src={fallbackImageUrl}
-              alt={productName}
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      );
-    }
-    // No assets and no fallback - show placeholder
+    const imageUrl = fallbackImageUrl || '/placeholder.svg';
     return (
       <div className={`${sizeClasses[size]} flex-shrink-0`}>
-        <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-border bg-muted flex items-center justify-center">
-          <span className="text-muted-foreground text-sm">No image</span>
+        <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-border shadow-sm">
+          <Image
+            src={imageUrl}
+            alt={productName}
+            fill
+            className="object-cover"
+          />
         </div>
       </div>
     );
@@ -78,6 +76,13 @@ export function ProductAssetCarousel({
           <Image
             src={currentAsset.url}
             alt={`${productName} - Image ${currentIndex + 1}`}
+            fill
+            className="object-cover"
+          />
+        ) : showVideoThumbnails ? (
+          <Image
+            src={getYouTubeThumbnail(currentAsset.url)}
+            alt={`${productName} - Video ${currentIndex + 1}`}
             fill
             className="object-cover"
           />
