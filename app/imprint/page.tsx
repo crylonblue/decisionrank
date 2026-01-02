@@ -74,10 +74,10 @@ export default function ImprintPage() {
                     <strong className="text-foreground">DecisionRank</strong>
                   </p>
                   <p>
-                    [Your Company Name]<br />
-                    [Your Street Address]<br />
-                    [Your City, Postal Code]<br />
-                    [Your Country]
+                    Till Kemper<br />
+                    Blütenstraße 19a<br />
+                    80799 Munich<br />
+                    Germany
                   </p>
                 </div>
               </section>
@@ -88,8 +88,7 @@ export default function ImprintPage() {
                 </h2>
                 <div className="space-y-3 text-muted-foreground">
                   <p>
-                    Phone: [Your Phone Number]<br />
-                    Email: [Your Email Address]
+                    Email: <a href="mailto:hello@till.email" className="text-slate-600 hover:underline">hello@till.email</a>
                   </p>
                 </div>
               </section>
@@ -100,8 +99,10 @@ export default function ImprintPage() {
                 </h2>
                 <div className="space-y-3 text-muted-foreground">
                   <p>
-                    [Your Name]<br />
-                    [Your Address]
+                    Till Kemper<br />
+                    Blütenstraße 19a<br />
+                    80799 Munich<br />
+                    Germany
                   </p>
                 </div>
               </section>

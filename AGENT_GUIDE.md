@@ -1,6 +1,29 @@
 # Agent Guide: Posting New Product Rankings to DecisionRank
 
+## Introduction to DecisionRank
+
+DecisionRank is an editorial product ranking platform that helps users make informed purchasing decisions through comprehensive product comparisons. Each ranking presents a question (e.g., "What is the best wireless earbuds?") and evaluates multiple products based on specific criteria, providing detailed scores, pros/cons, specifications, and FAQs. Rankings are created by editorial research and analysis, ensuring users get reliable, well-researched information to guide their purchase decisions.
+
 This guide outlines the complete process for an AI agent to research and post new product rankings to the DecisionRank Supabase database.
+
+### Using Supabase MCP
+
+**IMPORTANT**: This agent should use the **Supabase MCP (Model Context Protocol)** to interact with the database. The Supabase MCP provides tools for:
+- Querying the database (SELECT operations)
+- Inserting new records (INSERT operations)
+- Updating existing records (UPDATE operations)
+- Checking for existing data before creating new records
+
+All database operations described in this guide should be performed using the Supabase MCP tools rather than direct SQL execution. This ensures proper connection handling, error management, and data integrity.
+
+### API Keys and Credentials
+
+**IMPORTANT**: The agent will find all relevant API keys and login credentials in the `.env` file. This includes:
+- **Supabase credentials**: `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` for database access
+- **YouTube Data API key**: For searching and retrieving YouTube videos
+- Any other API keys required for the ranking creation process
+
+The agent should read these values from the `.env` file when needed. Do not hardcode credentials or ask for them - they are available in the `.env` file.
 
 ## Table of Contents
 1. [Database Structure Overview](#database-structure-overview)
@@ -98,6 +121,7 @@ The DecisionRank database consists of the following tables:
     - `name` (TEXT, REQUIRED)
     - `profile_picture_url` (TEXT, OPTIONAL)
     - `created_at`, `updated_at` (TIMESTAMPTZ)
+    - **IMPORTANT**: Do NOT create new users - only use existing users from the database
 
 ---
 
@@ -140,17 +164,19 @@ users (1) ──< (many) sentiments (optional)
 
 - **Category**: Must exist or be created
 - **Ranking**: `slug`, `question`, `category_id`
-- **Ranking Products**: At least 2 products with `score` and `rank_position`
+- **Ranking Products**: **5-12 products** with `score` and `rank_position` (minimum 5, maximum 12)
 - **Products**: `name` (at minimum)
+- **Sentiments**: **3-7 sentiments per product** (minimum 3, maximum 7)
+- **FAQs**: **3-6 FAQs per ranking** (minimum 3, maximum 6)
 
 ### Highly Recommended
 
 - **Ranking**: `description`, `verdict_summary`
 - **Products**: `link` (Amazon with affiliate tag preferred, or official website)
-- **Products**: **2-3 YouTube video `assets` per product** (REQUIRED - use YouTube Data API)
-- **Specifications**: At least 2-3 key specs per product (for comparison table)
-- **Sentiments**: At least 2-3 pros and 1-2 cons per product
-- **Criteria**: 3-5 evaluation criteria with corresponding `criterion_scores`
+- **Products**: **2-3 YouTube video `assets` per product** (if available - use YouTube Data API)
+- **Specifications**: Research and include 3-8 key specs per product (for comparison table)
+- **Criteria**: Research and include 3-5 evaluation criteria with corresponding `criterion_scores`
+- **Research Quality**: Research best specifications and criteria for the product category
 
 ### Optional (Enhance User Experience)
 
@@ -169,19 +195,35 @@ users (1) ──< (many) sentiments (optional)
 
 1. **Research the Topic**
    - Identify the ranking question (e.g., "What is the best wireless earbuds?")
-   - Research 3-10 products to compare
+   - **Research 5-12 products** to compare (minimum 5, maximum 12)
    - Gather product specifications, pros/cons, images
    - Identify key evaluation criteria
    - Prepare a verdict/summary
 
-2. **Prepare Data Structure**
-   - Organize products with their data
-   - Calculate scores (overall and per criterion)
-   - Determine rank positions (1 = best)
-   - Prepare pros/cons for each product
-   - Draft FAQs if relevant
+2. **Research Specifications & Criteria**
+   - **Specifications**: Research which specifications are most important for this product category
+     - Example: For earbuds → Battery Life, Weight, Noise Cancellation, Water Resistance, **Price**
+     - Example: For laptops → RAM, Storage, Screen Size, Battery Life, Weight, **Price**
+     - Ensure specifications are comparable across products
+     - **Include price** if it makes sense for the product category (usually it does)
+   - **Criteria**: Research which evaluation criteria make sense for this product type
+     - Example: Sound Quality, Comfort, Battery Life, Value, Build Quality
+     - Criteria should be measurable and relevant to the product category
+
+3. **Calculate Scores**
+   - Research and calculate **criterion scores** for each product on each criterion
+   - Calculate **overall scores** based on criterion scores and weights
+   - Ensure scores are consistent and justify rank positions (rank 1 = highest score)
+   - Determine rank positions (1 = best, 2 = second best, etc.)
+
+4. **Prepare Content**
+   - Prepare **3-7 sentiments** (pros/cons) per product
+   - Draft **3-6 FAQs** addressing common questions about the product category
+   - Find **2-3 YouTube videos** per product (reviews/unboxings)
 
 ### Phase 2: Database Operations
+
+**Note**: All database operations in this phase should be performed using the **Supabase MCP** tools.
 
 #### Step 1: Handle Category
 
@@ -220,6 +262,19 @@ RETURNING id;  -- Save this category_id for Step 2
 
 #### Step 2: Create Ranking
 
+**Before creating a ranking, check if the slug already exists:**
+
+```sql
+-- Check if ranking slug already exists
+SELECT id FROM rankings WHERE slug = 'best-wireless-earbuds-2024';
+```
+
+**If slug exists**:
+- **Skip this ranking entirely** - Do not create it or any related data
+- Move on to the next ranking topic
+- This prevents duplicate rankings
+
+**If slug does NOT exist, create the ranking**:
 ```sql
 INSERT INTO rankings (slug, question, description, verdict_summary, category_id)
 VALUES (
@@ -233,9 +288,11 @@ RETURNING id;  -- Save this ranking_id for subsequent steps
 ```
 
 **Important**:
+- **ALWAYS check if slug exists before creating ranking** - Skip if slug is taken
 - Slug must be unique across all rankings
 - Category must exist
 - Question should be clear and specific
+- If slug exists, skip the entire ranking (don't create products, sentiments, etc. for it)
 
 #### Step 3: Create or Reuse Products
 
@@ -287,7 +344,7 @@ RETURNING id;  -- Save ranking_product_id for sentiments and criterion_scores
 **Critical Constraints**:
 - `rank_position` must be unique per ranking (1, 2, 3, ...)
 - `score` should reflect overall quality (higher = better)
-- At least 2 products required, typically 3-10
+- **REQUIRED**: 5-12 products per ranking (minimum 5, maximum 12)
 
 #### Step 5: Create Evaluation Criteria
 
@@ -303,8 +360,10 @@ RETURNING id;  -- Save criterion_id for criterion_scores
 
 **Important**:
 - Criteria are ranking-specific
+- Research which criteria are most relevant for this product category
 - Weight defaults to 1.0 (can adjust for importance)
 - Typically 3-5 criteria per ranking
+- Criteria should be measurable and based on research
 
 #### Step 6: Add Criterion Scores
 
@@ -321,8 +380,10 @@ VALUES
 
 **Important**:
 - Every product should have scores for all criteria
+- Research and calculate scores based on product performance for each criterion
 - Scores typically 0-100
 - UNIQUE constraint: one score per product-criterion pair
+- Scores should be consistent and based on research/analysis
 
 #### Step 7: Add Product Specifications
 
@@ -338,13 +399,21 @@ VALUES
 ```
 
 **Important**:
+- Research which specifications are most important for this product category
 - Use consistent spec names across products for comparison
 - `unit` is optional (use NULL for boolean/text specs)
 - Include 3-8 key specifications per product
+- Focus on specifications that help users compare products effectively
+- **Include price** if it makes sense for the product category (e.g., "Price", "MSRP", "Starting Price")
+  - Use consistent currency format across all products
+  - Example: `('product-uuid', 'Price', '299.99', 'USD')` or `('product-uuid', 'Price', '$299.99', NULL)`
+  - Price is especially important for value comparisons and budget considerations
 
 #### Step 8: Add Pros and Cons (Sentiments)
 
 **Before adding sentiments, get a random user from the database:**
+
+**IMPORTANT**: **Do NOT create new users** - only use existing users from the database. Query the users table and randomly select from existing users only.
 
 ```sql
 -- Get all users from the database
@@ -354,7 +423,7 @@ SELECT id FROM users;
 SELECT id FROM users ORDER BY RANDOM() LIMIT 1;
 ```
 
-**For each sentiment, randomly select a user and assign it:**
+**For each sentiment, randomly select a user from existing users and assign it:**
 
 For each product:
 
@@ -376,10 +445,12 @@ VALUES
 
 **Important**:
 - `type` must be: 'pro', 'con', or 'comment'
-- Include 2-4 pros and 1-3 cons per product
+- **REQUIRED**: Include 3-7 sentiments per product (minimum 3, maximum 7)
+- Mix of pros and cons - typically more pros than cons (e.g., 4-5 pros, 1-2 cons)
 - `headline` and `description` are optional but recommended
 - **REQUIRED**: Assign a random `user_id` from the database for each sentiment
-- Query users table and randomly select a user ID for each sentiment
+- **Do NOT create new users** - only use existing users from the database
+- Query users table and randomly select a user ID from existing users for each sentiment
 - Different sentiments can have the same user (it's random)
 - **Writing Style**: 
   - Write sentiments with a **comment-like feeling** - conversational and personal, as if written by a real user
@@ -405,13 +476,13 @@ VALUES
 ```
 
 **Important**:
-- **REQUIRED**: Add 2-3 YouTube videos per product (minimum 2)
+- **REQUIRED**: Add 2-3 YouTube videos per product (if possible)
 - Use YouTube Data API to search for product reviews/unboxings
 - **First Version**: Only use YouTube videos (`type='youtube'`), no images
 - For YouTube: use only the video ID (e.g., `dQw4w9WgXcQ`), not full URL
 - `display_order` determines order (0 = first, 1 = second, 2 = third)
 - Prioritize quality: recent, relevant videos from reputable channels
-- Minimum 2 videos per product (aim for 3)
+- Aim for 2-3 videos per product (if available)
 
 #### Step 10: Add FAQs (Optional but Recommended)
 
@@ -426,7 +497,9 @@ VALUES
 **Important**:
 - FAQs are ranking-specific, not product-specific
 - `display_order` determines order (0 = first)
-- Include 3-5 FAQs addressing common questions
+- **REQUIRED**: Include 3-6 FAQs addressing common questions (minimum 3, maximum 6)
+- Research common questions users have about this product category
+- FAQs should be helpful and address real concerns users might have
 
 ---
 
@@ -509,7 +582,12 @@ VALUES ('Electronics', 'electronics', 'Electronic devices and accessories')
 ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name
 RETURNING id;  -- Save as category_id
 
--- Step 2: Create Ranking
+-- Step 2: Check if Ranking Slug Exists, Then Create Ranking
+-- First, check if slug already exists
+SELECT id FROM rankings WHERE slug = 'best-wireless-earbuds-2024';
+
+-- If slug exists, SKIP this entire ranking and move to next one
+-- If slug does NOT exist, create the ranking:
 INSERT INTO rankings (slug, question, description, verdict_summary, category_id)
 VALUES (
   'best-wireless-earbuds-2024',
@@ -556,8 +634,9 @@ INSERT INTO specifications (product_id, name, value, unit) VALUES
   ('product-uuid-1', 'Battery Life', '8', 'hours'),
   ('product-uuid-1', 'Weight', '5.9', 'g'),
   ('product-uuid-1', 'Noise Cancellation', 'Yes', NULL),
-  ('product-uuid-1', 'Water Resistance', 'IPX4', NULL);
--- Repeat for Products 2 and 3
+  ('product-uuid-1', 'Water Resistance', 'IPX4', NULL),
+  ('product-uuid-1', 'Price', '299.99', 'USD');  -- Include price if it makes sense
+-- Repeat for Products 2 and 3 (use consistent price format)
 
 -- Step 8: Add Sentiments (Pros for Product 1)
 -- First, get random users: SELECT id FROM users ORDER BY RANDOM() LIMIT 3;
@@ -587,20 +666,25 @@ INSERT INTO faqs (ranking_id, question, answer, display_order) VALUES
 
 Before submitting a ranking, verify:
 
+- [ ] Using Supabase MCP for all database operations
 - [ ] Category exists or has been created
 - [ ] Ranking slug is unique and URL-friendly
 - [ ] Ranking has a valid `category_id`
-- [ ] At least 2 products are included (typically 3-10)
+- [ ] 5-12 products are included (minimum 5, maximum 12)
 - [ ] All products have unique `rank_position` values (1, 2, 3, ...)
 - [ ] Overall scores align with rank positions (rank 1 has highest score)
-- [ ] At least 3-5 evaluation criteria are defined
-- [ ] All products have scores for all criteria
-- [ ] Each product has 2-4 pros and 1-3 cons
-- [ ] Each sentiment has a randomly assigned `user_id` from the database
+- [ ] Research completed for best specifications for this product category
+- [ ] Research completed for appropriate evaluation criteria
+- [ ] At least 3-5 evaluation criteria are defined (based on research)
+- [ ] All products have scores for all criteria (scores based on research)
+- [ ] Each product has 3-7 sentiments (minimum 3, maximum 7)
+- [ ] 3-6 FAQs included (minimum 3, maximum 6)
+- [ ] Each sentiment has a randomly assigned `user_id` from existing users in the database (do NOT create new users)
 - [ ] Product links: Amazon URLs include `tag=decisionrank-20` parameter, or official website used
 - [ ] Assets: 2-3 YouTube videos per product added using YouTube Data API
 - [ ] YouTube video IDs are correct (just the ID, not full URL)
 - [ ] Category checked against existing categories before creating new one
+- [ ] Ranking slug checked - if slug exists, skip entire ranking
 - [ ] Specifications use consistent names across products
 - [ ] FAQs are relevant and well-written (if included)
 - [ ] All foreign key relationships are valid
@@ -610,7 +694,7 @@ Before submitting a ranking, verify:
 
 ## Common Pitfalls to Avoid
 
-1. **Duplicate Slugs**: Always check if slug exists before creating ranking
+1. **Duplicate Slugs**: Always check if slug exists before creating ranking - **If slug exists, skip the entire ranking**
 2. **Missing Category**: Ranking will fail without valid `category_id`
 3. **Duplicate Rank Positions**: Ensure each product has unique position (1, 2, 3...)
 4. **Incomplete Criterion Scores**: Every product needs scores for all criteria
@@ -620,20 +704,23 @@ Before submitting a ranking, verify:
 8. **Missing Amazon Affiliate Tag**: Amazon URLs must include `tag=decisionrank-20` parameter
 9. **Insufficient Videos**: Must add 2-3 YouTube videos per product (minimum 2)
 10. **Creating Duplicate Categories**: Always check existing categories before creating new ones
-11. **Using Images**: First version only supports YouTube videos (`type='youtube'`), not images
-12. **Invalid Product Links**: Always verify Amazon and official website links are accessible
+11. **Creating New Users**: **Do NOT create new users** - only use existing users from the database for sentiment attribution
+12. **Using Images**: First version only supports YouTube videos (`type='youtube'`), not images
+13. **Invalid Product Links**: Always verify Amazon and official website links are accessible
 
 ---
 
 ## Notes for AI Agent Implementation
 
-1. **Transaction Safety**: Consider wrapping operations in a transaction to ensure atomicity
-2. **Error Handling**: Check for existing records before inserting (use `ON CONFLICT` where appropriate)
-3. **Data Validation**: Validate all inputs before database operations
-4. **Slug Generation**: Convert question/title to slug format (lowercase, hyphens)
-5. **Score Calculation**: Ensure scores are consistent and justify rank positions
-6. **Research Quality**: Gather accurate, up-to-date product information
-7. **Content Quality**: Write clear, informative descriptions and verdicts
+1. **Use Supabase MCP**: **REQUIRED** - All database operations must use the Supabase MCP tools for querying and inserting data. Do not use direct SQL execution.
+2. **Transaction Safety**: Consider wrapping operations in a transaction to ensure atomicity
+3. **Error Handling**: Check for existing records before inserting (use `ON CONFLICT` where appropriate)
+4. **Data Validation**: Validate all inputs before database operations
+5. **Slug Generation**: Convert question/title to slug format (lowercase, hyphens)
+6. **Ranking Slug Check**: **CRITICAL** - Always check if ranking slug exists before creating ranking. If slug exists, skip the entire ranking (don't create products, sentiments, assets, etc.)
+7. **Score Calculation**: Ensure scores are consistent and justify rank positions
+8. **Research Quality**: Gather accurate, up-to-date product information
+9. **Content Quality**: Write clear, informative descriptions and verdicts
 8. **Product Link Research**:
    - Search Amazon first using product name
    - If found, construct URL with `tag=decisionrank-20` parameter
