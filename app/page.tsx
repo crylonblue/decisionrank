@@ -1,4 +1,4 @@
-import { getAllRankings } from '@/lib/data';
+import { getAllRankings, getAllCategories } from '@/lib/data';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { Navigation } from '@/components/navigation';
@@ -53,7 +53,10 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   const rankings = await getAllRankings(searchQuery);
 
   // Get most recent rankings for showcase (when no search)
-  const recentRankings = searchQuery ? rankings : rankings.slice(0, 9);
+  const recentRankings = searchQuery ? rankings : rankings.slice(0, 6);
+  
+  // Fetch categories for the landing page (when no search)
+  const categories = searchQuery ? [] : await getAllCategories();
 
   // If there's a search query, show search results page
   if (searchQuery) {
@@ -115,7 +118,7 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                         )}
                       </CardHeader>
                       <CardContent>
-                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
                           View Ranking
                           <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </div>
@@ -195,7 +198,7 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                     )}
                   </CardHeader>
                       <CardContent>
-                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
                           View Ranking
                           <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </div>
@@ -207,6 +210,50 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
         )}
       </div>
         </section>
+
+        {/* Categories Section */}
+        {categories.length > 0 && (
+          <section id="categories" className="py-20 sm:py-24 bg-muted/30">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mb-12 text-center">
+                <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                  Browse by Category
+                </h2>
+                <p className="mt-4 text-lg text-muted-foreground">
+                  Explore rankings organized by product categories
+                </p>
+              </div>
+
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {categories.map((category) => (
+                  <Link
+                    key={category.id}
+                    href={`/${category.slug}`}
+                  >
+                    <Card className="group h-full transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
+                      <CardHeader>
+                        <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">
+                          {category.name}
+                        </CardTitle>
+                        {category.description && (
+                          <CardDescription className="line-clamp-2 mt-2">
+                            {category.description}
+                          </CardDescription>
+                        )}
+                      </CardHeader>
+                      <CardContent>
+                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
+                          View Category
+                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
       <Footer />
     </div>
