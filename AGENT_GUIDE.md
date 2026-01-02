@@ -37,7 +37,6 @@ The DecisionRank database consists of the following tables:
 3. **`products`** - Reusable product catalog (products can appear in multiple rankings)
    - `id` (UUID, Primary Key)
    - `name` (TEXT, REQUIRED) - Product name
-   - `image_url` (TEXT, OPTIONAL) - Main product image URL
    - `link` (TEXT, OPTIONAL) - Product purchase/review link
    - `created_at`, `updated_at` (TIMESTAMPTZ)
 
@@ -148,7 +147,7 @@ users (1) ──< (many) sentiments (optional)
 
 - **Ranking**: `description`, `verdict_summary`
 - **Products**: `link` (Amazon with affiliate tag preferred, or official website)
-- **Products**: YouTube video `assets` (if available - search for product reviews/unboxings)
+- **Products**: **2-3 YouTube video `assets` per product** (REQUIRED - use YouTube Data API)
 - **Specifications**: At least 2-3 key specs per product (for comparison table)
 - **Sentiments**: At least 2-3 pros and 1-2 cons per product
 - **Criteria**: 3-5 evaluation criteria with corresponding `criterion_scores`
@@ -157,10 +156,10 @@ users (1) ──< (many) sentiments (optional)
 
 - **Ranking**: `verdict_summary` (but highly recommended)
 - **Products**: `link` (Amazon with `tag=decisionrank-20` preferred, official website as fallback)
-- **Assets**: YouTube videos (only if high-quality, relevant videos are found - otherwise skip)
+- **Assets**: Third YouTube video (if 2 videos found, aim for 3)
 - **FAQs**: 3-5 frequently asked questions
 - **Sentiments**: `headline` and `description` (more detailed than just `content`)
-- **Users**: Attribution for sentiments (usually not needed for agent-generated content)
+- **Sentiments**: `user_id` - Randomly assign a user from the database for each sentiment
 
 ---
 
@@ -186,18 +185,38 @@ users (1) ──< (many) sentiments (optional)
 
 #### Step 1: Handle Category
 
+**Before creating a new category, check existing categories in the database:**
+
 ```sql
--- Check if category exists
+-- First, check all existing categories to see if one matches
+SELECT id, name, slug, description FROM categories ORDER BY name;
+
+-- Check if a specific category exists by slug
 SELECT id FROM categories WHERE slug = 'your-category-slug';
 
--- If not exists, create it
+-- Check if a similar category exists by name (fuzzy match)
+SELECT id, name, slug FROM categories WHERE LOWER(name) LIKE '%keyword%';
+```
+
+**Category Matching Strategy**:
+1. **Search existing categories** - Review all categories in the database
+2. **Check for similar categories** - Look for categories that might match your ranking topic
+   - Example: If creating "Best Laptops", check for "Electronics", "Computers", "Tech", etc.
+3. **Reuse existing category** - If a suitable category exists, use its `id` instead of creating a new one
+4. **Create new category only if needed** - Only create if no existing category is appropriate
+
+**If no matching category exists, create it**:
+```sql
 INSERT INTO categories (name, slug, description)
-VALUES ('Category Name', 'category-slug', 'Category description');
+VALUES ('Category Name', 'category-slug', 'Category description')
+RETURNING id;  -- Save this category_id for Step 2
 ```
 
 **Important**: 
+- **Always check existing categories first** - Avoid creating duplicate or similar categories
 - Slug must be URL-friendly (lowercase, hyphens, no spaces)
 - Name and slug must be unique
+- Reuse existing categories when possible to maintain consistency
 
 #### Step 2: Create Ranking
 
@@ -235,10 +254,9 @@ For each product:
 SELECT id FROM products WHERE name = 'Product Name';
 
 -- If not exists, create it
-INSERT INTO products (name, image_url, link)
+INSERT INTO products (name, link)
 VALUES (
   'Product Name',
-  NULL,  -- image_url not used in first version
   'https://www.amazon.com/dp/B08XYZ123?tag=decisionrank-20'  -- Amazon link with affiliate tag, or official website, or NULL
 )
 RETURNING id;  -- Save product_id
@@ -249,7 +267,7 @@ RETURNING id;  -- Save product_id
 - Check for existing products to avoid duplicates
 - `name` must be unique and descriptive
 - **Link Priority**: Amazon (with `tag=decisionrank-20`) > Official Website > NULL
-- `image_url` is not used in the first version (assets are handled separately)
+- Product images are handled through the `assets` table (see Step 9)
 
 #### Step 4: Link Products to Ranking (ranking_products)
 
@@ -326,56 +344,74 @@ VALUES
 
 #### Step 8: Add Pros and Cons (Sentiments)
 
+**Before adding sentiments, get a random user from the database:**
+
+```sql
+-- Get all users from the database
+SELECT id FROM users;
+
+-- Or get a random user
+SELECT id FROM users ORDER BY RANDOM() LIMIT 1;
+```
+
+**For each sentiment, randomly select a user and assign it:**
+
 For each product:
 
 ```sql
--- Pros
-INSERT INTO sentiments (ranking_product_id, type, content, headline, description)
-VALUES 
-  ('ranking-product-uuid', 'pro', 'Short summary', 'Excellent sound quality', 'Detailed description of sound quality...'),
-  ('ranking-product-uuid', 'pro', 'Short summary', 'Long battery life', 'Detailed description...');
+-- First, get a random user ID (do this for each sentiment or batch)
+-- Example: SELECT id FROM users ORDER BY RANDOM() LIMIT 1; → returns 'user-uuid-1'
 
--- Cons
-INSERT INTO sentiments (ranking_product_id, type, content, headline, description)
+-- Pros (each with a randomly selected user)
+INSERT INTO sentiments (ranking_product_id, type, content, headline, description, user_id)
 VALUES 
-  ('ranking-product-uuid', 'con', 'Short summary', 'Premium price', 'Detailed description of pricing...');
+  ('ranking-product-uuid', 'pro', 'Short summary', 'Excellent sound quality', 'Detailed description of sound quality...', 'user-uuid-1'),
+  ('ranking-product-uuid', 'pro', 'Short summary', 'Long battery life', 'Detailed description...', 'user-uuid-2');
+
+-- Cons (each with a randomly selected user)
+INSERT INTO sentiments (ranking_product_id, type, content, headline, description, user_id)
+VALUES 
+  ('ranking-product-uuid', 'con', 'Short summary', 'Premium price', 'Detailed description of pricing...', 'user-uuid-3');
 ```
 
 **Important**:
 - `type` must be: 'pro', 'con', or 'comment'
 - Include 2-4 pros and 1-3 cons per product
 - `headline` and `description` are optional but recommended
-- `user_id` is optional (usually NULL for agent-generated content)
+- **REQUIRED**: Assign a random `user_id` from the database for each sentiment
+- Query users table and randomly select a user ID for each sentiment
+- Different sentiments can have the same user (it's random)
+- **Writing Style**: 
+  - Write sentiments with a **comment-like feeling** - conversational and personal, as if written by a real user
+  - Keep language **easy to understand** - avoid technical jargon, use clear and simple language
+  - Make it feel authentic and relatable, not overly formal or marketing-like
+  - Examples:
+    - Good: "Love how comfortable these are for long listening sessions!"
+    - Bad: "The ergonomic design provides optimal comfort during extended usage periods"
 
-#### Step 9: Add Product Assets (YouTube Videos Only)
+#### Step 9: Add Product Assets (YouTube Videos - Required)
 
-For each product, search YouTube for product review/unboxing videos:
+For each product, use the **YouTube Data API** to find product review/unboxing videos and add **2-3 videos per product**.
 
-**YouTube Search Strategy**:
-1. Search YouTube for: `"[Product Name] review"` or `"[Product Name] unboxing"`
-2. Look for high-quality, recent videos from reputable channels
-3. Extract the YouTube video ID (e.g., from `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the ID is `dQw4w9WgXcQ`)
-4. If multiple videos found, select 1-2 best ones
-
-**If YouTube videos found**:
+**Required: Add 2-3 YouTube videos per product**:
 ```sql
 -- YouTube videos only (use video ID only, not full URL)
+-- REQUIRED: Add 2-3 videos per product
 INSERT INTO assets (product_id, type, url, display_order)
 VALUES 
-  ('product-uuid', 'youtube', 'dQw4w9WgXcQ', 0),  -- Just the video ID, not full URL
-  ('product-uuid', 'youtube', 'abc123xyz', 1);    -- Second video if available
+  ('product-uuid', 'youtube', 'dQw4w9WgXcQ', 0),  -- First video (best/most relevant)
+  ('product-uuid', 'youtube', 'abc123xyz', 1),   -- Second video
+  ('product-uuid', 'youtube', 'xyz789abc', 2);   -- Third video (if available)
 ```
 
-**If NO YouTube videos found**:
-- **Skip this step entirely** - Do not add any assets for this product
-- It's better to have no assets than to add irrelevant or low-quality content
-
 **Important**:
+- **REQUIRED**: Add 2-3 YouTube videos per product (minimum 2)
+- Use YouTube Data API to search for product reviews/unboxings
 - **First Version**: Only use YouTube videos (`type='youtube'`), no images
 - For YouTube: use only the video ID (e.g., `dQw4w9WgXcQ`), not full URL
-- `display_order` determines order (0 = first, 1 = second, etc.)
-- **Quality over quantity**: Only add videos if they are relevant and high-quality
-- **If no suitable videos found, skip assets entirely** - this is acceptable
+- `display_order` determines order (0 = first, 1 = second, 2 = third)
+- Prioritize quality: recent, relevant videos from reputable channels
+- Minimum 2 videos per product (aim for 3)
 
 #### Step 10: Add FAQs (Optional but Recommended)
 
@@ -441,12 +477,11 @@ VALUES
    - Always verify links are valid and accessible
 
 5. **Assets (YouTube Videos)**:
-   - **First Version**: Only YouTube videos, no images
-   - Search YouTube for: `"[Product Name] review"` or `"[Product Name] unboxing"`
-   - Extract video ID only (e.g., `dQw4w9WgXcQ` from `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)
-   - Only add if videos are high-quality, relevant, and recent
-   - **If no suitable videos found, skip assets entirely** - this is acceptable
-   - Better to have no assets than low-quality or irrelevant content
+   - **REQUIRED**: 2-3 YouTube videos per product (minimum 2)
+   - Use YouTube Data API to find product review/unboxing videos
+   - Extract video ID only (e.g., `dQw4w9WgXcQ`), not full URL
+   - Prioritize recent, relevant videos from reputable channels
+   - Minimum 2 videos per product (aim for 3)
 
 6. **Specifications**:
    - Use consistent names across products for comparison
@@ -460,7 +495,15 @@ VALUES
 ### Complete Example: "Best Wireless Earbuds 2024"
 
 ```sql
--- Step 1: Create/Get Category
+-- Step 1: Check Existing Categories, Then Create/Get Category
+-- First, check all existing categories
+SELECT id, name, slug FROM categories ORDER BY name;
+
+-- Check if "Electronics" or similar category exists
+SELECT id FROM categories WHERE LOWER(name) LIKE '%electronic%' OR slug = 'electronics';
+
+-- If no match found, create new category
+-- If match found, use existing category_id instead
 INSERT INTO categories (name, slug, description)
 VALUES ('Electronics', 'electronics', 'Electronic devices and accessories')
 ON CONFLICT (slug) DO UPDATE SET name = EXCLUDED.name
@@ -479,10 +522,10 @@ RETURNING id;  -- Save as ranking_id
 
 -- Step 3: Create Products
 -- Search Amazon first, add tag=decisionrank-20, fallback to official website
-INSERT INTO products (name, image_url, link) VALUES
-  ('Sony WF-1000XM5', NULL, 'https://www.amazon.com/dp/B0C7HZMZ5K?tag=decisionrank-20'),  -- Amazon with affiliate tag
-  ('Apple AirPods Pro 2', NULL, 'https://www.amazon.com/dp/B0BDHB9Y8H?tag=decisionrank-20'),  -- Amazon with affiliate tag
-  ('Bose QuietComfort Earbuds II', NULL, 'https://www.bose.com/products/headphones/quietcomfort-earbuds-ii.html')  -- Official website (if not on Amazon)
+INSERT INTO products (name, link) VALUES
+  ('Sony WF-1000XM5', 'https://www.amazon.com/dp/B0C7HZMZ5K?tag=decisionrank-20'),  -- Amazon with affiliate tag
+  ('Apple AirPods Pro 2', 'https://www.amazon.com/dp/B0BDHB9Y8H?tag=decisionrank-20'),  -- Amazon with affiliate tag
+  ('Bose QuietComfort Earbuds II', 'https://www.bose.com/products/headphones/quietcomfort-earbuds-ii.html')  -- Official website (if not on Amazon)
 RETURNING id;  -- Save product_ids
 
 -- Step 4: Link Products to Ranking
@@ -517,19 +560,19 @@ INSERT INTO specifications (product_id, name, value, unit) VALUES
 -- Repeat for Products 2 and 3
 
 -- Step 8: Add Sentiments (Pros for Product 1)
-INSERT INTO sentiments (ranking_product_id, type, content, headline, description) VALUES
-  ('ranking-product-uuid-1', 'pro', 'Excellent sound quality', 'Superior audio performance', 'The WF-1000XM5 delivers exceptional sound quality...'),
-  ('ranking-product-uuid-1', 'pro', 'Great noise cancellation', 'Industry-leading ANC', 'The active noise cancellation is among the best...');
--- Add cons and repeat for other products
+-- First, get random users: SELECT id FROM users ORDER BY RANDOM() LIMIT 3;
+INSERT INTO sentiments (ranking_product_id, type, content, headline, description, user_id) VALUES
+  ('ranking-product-uuid-1', 'pro', 'Excellent sound quality', 'Superior audio performance', 'The WF-1000XM5 delivers exceptional sound quality...', 'random-user-uuid-1'),
+  ('ranking-product-uuid-1', 'pro', 'Great noise cancellation', 'Industry-leading ANC', 'The active noise cancellation is among the best...', 'random-user-uuid-2');
+-- Add cons with random users and repeat for other products
 
--- Step 9: Add Assets (YouTube videos only - if found)
--- Search YouTube for "[Product Name] review" or "[Product Name] unboxing"
--- Only add if high-quality, relevant videos are found
+-- Step 9: Add Assets (YouTube videos - REQUIRED: 2-3 per product)
+-- Use YouTube Data API to find product review/unboxing videos
 INSERT INTO assets (product_id, type, url, display_order) VALUES
-  ('product-uuid-1', 'youtube', 'dQw4w9WgXcQ', 0),  -- YouTube video ID only
-  ('product-uuid-1', 'youtube', 'abc123xyz', 1);    -- Second video if available
--- If no suitable YouTube videos found for a product, skip assets entirely for that product
--- Repeat for other products (only if videos found)
+  ('product-uuid-1', 'youtube', 'dQw4w9WgXcQ', 0),  -- First video (best/most relevant)
+  ('product-uuid-1', 'youtube', 'abc123xyz', 1),    -- Second video (REQUIRED)
+  ('product-uuid-1', 'youtube', 'xyz789abc', 2);     -- Third video (if available, aim for 3)
+-- Repeat for all products - minimum 2 videos per product required
 
 -- Step 10: Add FAQs
 INSERT INTO faqs (ranking_id, question, answer, display_order) VALUES
@@ -553,9 +596,11 @@ Before submitting a ranking, verify:
 - [ ] At least 3-5 evaluation criteria are defined
 - [ ] All products have scores for all criteria
 - [ ] Each product has 2-4 pros and 1-3 cons
+- [ ] Each sentiment has a randomly assigned `user_id` from the database
 - [ ] Product links: Amazon URLs include `tag=decisionrank-20` parameter, or official website used
-- [ ] Assets: Only YouTube videos added (if found), or no assets if no suitable videos found
+- [ ] Assets: 2-3 YouTube videos per product added using YouTube Data API
 - [ ] YouTube video IDs are correct (just the ID, not full URL)
+- [ ] Category checked against existing categories before creating new one
 - [ ] Specifications use consistent names across products
 - [ ] FAQs are relevant and well-written (if included)
 - [ ] All foreign key relationships are valid
@@ -573,9 +618,10 @@ Before submitting a ranking, verify:
 6. **YouTube URL Format**: Use only video ID, not full URL (e.g., `dQw4w9WgXcQ` not `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)
 7. **Score-Rank Mismatch**: Rank 1 should have highest score
 8. **Missing Amazon Affiliate Tag**: Amazon URLs must include `tag=decisionrank-20` parameter
-9. **Adding Low-Quality Assets**: Only add YouTube videos if they are relevant and high-quality. If none found, skip assets entirely
-10. **Using Images**: First version only supports YouTube videos, not images
-11. **Invalid Product Links**: Always verify Amazon and official website links are accessible
+9. **Insufficient Videos**: Must add 2-3 YouTube videos per product (minimum 2)
+10. **Creating Duplicate Categories**: Always check existing categories before creating new ones
+11. **Using Images**: First version only supports YouTube videos (`type='youtube'`), not images
+12. **Invalid Product Links**: Always verify Amazon and official website links are accessible
 
 ---
 
@@ -594,10 +640,14 @@ Before submitting a ranking, verify:
    - Verify link is accessible and points to correct product
    - Fallback to official product website if not on Amazon
    - Set to NULL only if neither available
-9. **YouTube Asset Research**:
-   - Search YouTube for product reviews/unboxings
-   - Prioritize recent, high-quality videos from reputable channels
-   - Extract only the video ID (not full URL)
-   - Only add if videos are relevant and useful
-   - **If no suitable videos found, skip assets entirely** - this is acceptable and preferred over low-quality content
-10. **Asset Type**: First version only supports `type='youtube'` - do not use `type='image'`
+9. **Category Research**:
+   - **Before creating a category**: Query database for all existing categories
+   - Check if any existing category matches your ranking topic
+   - Reuse existing categories when appropriate to maintain consistency
+   - Only create new categories if no suitable match exists
+10. **YouTube Asset Research**:
+   - Use YouTube Data API to find product review/unboxing videos
+   - **REQUIRED**: Add 2-3 videos per product (minimum 2)
+   - Extract video ID from API response (not full URL)
+   - Prioritize recent, relevant videos from reputable channels
+11. **Asset Type**: First version only supports `type='youtube'` - do not use `type='image'`

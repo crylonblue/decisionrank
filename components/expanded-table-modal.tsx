@@ -163,7 +163,6 @@ export function ExpandedTableModal({
                         <ProductAssetCarousel
                           assets={rp.product.assets}
                           productName={rp.product.name}
-                          fallbackImageUrl={rp.product.image_url}
                           size="xs"
                           showVideoThumbnails={true}
                         />

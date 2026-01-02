@@ -83,7 +83,6 @@ export function LazyProductList({
                 <ProductAssetHorizontalCarousel
                   assets={rp.product.assets}
                   productName={rp.product.name}
-                  fallbackImageUrl={rp.product.image_url}
                 />
               </div>
             </CardContent>
