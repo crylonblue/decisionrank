@@ -6,6 +6,7 @@ import { Footer } from '@/components/footer';
 import { HeroSection } from '@/components/hero-section';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
@@ -56,7 +57,9 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   const recentRankings = searchQuery ? rankings : rankings.slice(0, 6);
   
   // Fetch categories for the landing page (when no search)
-  const categories = searchQuery ? [] : await getAllCategories();
+  const allCategories = searchQuery ? [] : await getAllCategories();
+  const categories = allCategories.slice(0, 6);
+  const hasMoreCategories = allCategories.length > 6;
 
   // If there's a search query, show search results page
   if (searchQuery) {
@@ -251,6 +254,17 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                   </Link>
                 ))}
               </div>
+
+              {hasMoreCategories && (
+                <div className="mt-8 text-center">
+                  <Link href="/categories">
+                    <Button variant="outline" size="lg">
+                      View All Categories
+                      <ArrowRight className="h-4 w-4 ml-2" />
+                    </Button>
+                  </Link>
+                </div>
+              )}
             </div>
           </section>
         )}
