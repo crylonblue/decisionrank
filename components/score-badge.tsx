@@ -1,9 +1,10 @@
 interface ScoreBadgeProps {
   score: number;
   size?: 'small' | 'medium' | 'large' | 'headline';
+  showMaxScore?: boolean; // Show "/100" indicator
 }
 
-export function ScoreBadge({ score, size = 'medium' }: ScoreBadgeProps) {
+export function ScoreBadge({ score, size = 'medium', showMaxScore = true }: ScoreBadgeProps) {
   // Determine score color and gradient
   const getScoreStyle = () => {
     if (score >= 80) {
@@ -61,6 +62,9 @@ export function ScoreBadge({ score, size = 'medium' }: ScoreBadgeProps) {
       <div className={`absolute inset-0 bg-gradient-to-br from-white/20 to-transparent ${currentSize.overlay}`}></div>
       <span className={`relative ${currentSize.text} font-bold text-white drop-shadow-md`}>
         {score.toFixed(1)}
+        {showMaxScore && (
+          <span className="text-white/70 font-bold" style={{ fontSize: '0.6em' }}>/100</span>
+        )}
       </span>
       {/* Decorative corner accent */}
       <div className={`absolute ${currentSize.corner} bg-white/30 rounded-full`}></div>

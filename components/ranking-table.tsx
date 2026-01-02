@@ -29,7 +29,7 @@ export function RankingTable({ rankingProducts, specNames }: RankingTableProps) 
 
   return (
     <>
-      <div className="mb-12">
+      <div className="mb-12 hidden md:block">
         <h2 className="text-2xl font-bold text-foreground mb-4">
           Considered Options
         </h2>
@@ -63,7 +63,7 @@ export function RankingTable({ rankingProducts, specNames }: RankingTableProps) 
                   </td>
                   <td className="px-6 py-4 text-right" style={{ width: '100px' }}>
                     <div className="flex justify-end">
-                      <ScoreBadge score={rp.score} size="small" />
+                      <ScoreBadge score={rp.score} size="small" showMaxScore={false} />
                     </div>
                   </td>
                   <td className="px-6 py-4 overflow-hidden" style={{ width: '230px' }}>

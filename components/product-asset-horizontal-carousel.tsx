@@ -79,7 +79,8 @@ export function ProductAssetHorizontalCarousel({
   const scroll = (direction: 'left' | 'right') => {
     if (!scrollContainerRef.current) return;
     const container = scrollContainerRef.current;
-    const scrollAmount = 320; // 300px + gap
+    // Responsive scroll amount: 200px + gap on mobile, 300px + gap on desktop
+    const scrollAmount = typeof window !== 'undefined' && window.innerWidth < 768 ? 216 : 320;
     container.scrollBy({
       left: direction === 'left' ? -scrollAmount : scrollAmount,
       behavior: 'smooth',
@@ -112,8 +113,7 @@ export function ProductAssetHorizontalCarousel({
         {displayAssets.map((asset, index) => (
           <div
             key={asset.id || index}
-            className="flex-shrink-0 relative"
-            style={{ width: '300px' }}
+            className="flex-shrink-0 relative w-[200px] md:w-[300px]"
           >
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden border border-border shadow-sm">
               {asset.type === 'image' ? (

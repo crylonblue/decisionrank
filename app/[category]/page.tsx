@@ -135,7 +135,11 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           <>
             <div className="space-y-6">
               {paginatedRankings.map((ranking: Ranking) => (
-                <Link key={ranking.id} href={`/${category.slug}/${ranking.slug}`}>
+                <Link 
+                  key={ranking.id} 
+                  href={`/${category.slug}/${ranking.slug}`}
+                  className="block"
+                >
                   <Card className="group transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
                     <CardHeader>
                       <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">{ranking.question}</CardTitle>

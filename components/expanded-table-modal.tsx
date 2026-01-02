@@ -33,7 +33,8 @@ export function ExpandedTableModal({
 
   // Row height constant to ensure alignment
   const ROW_HEIGHT = 88; // Height for each product row (px)
-  const PRODUCT_COLUMN_WIDTH = 320; // Fixed width for product column
+  const PRODUCT_COLUMN_WIDTH = 320; // Fixed width for product column (desktop)
+  const PRODUCT_COLUMN_WIDTH_MOBILE = 200; // Fixed width for product column (mobile)
   const SPEC_COLUMN_WIDTH = 200; // Width for each spec column
 
   // Calculate total content width based on columns
@@ -136,12 +137,11 @@ export function ExpandedTableModal({
           <div className="flex">
             {/* Product Column (Fixed, no scroll) */}
             <div 
-              className="flex-shrink-0 border-r bg-card"
-              style={{ width: PRODUCT_COLUMN_WIDTH }}
+              className="flex-shrink-0 border-r bg-card w-[200px] md:w-[320px]"
             >
               {/* Product Header */}
-              <div className="bg-muted border-b px-6 py-4">
-                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
+              <div className="bg-muted border-b px-3 py-3 md:px-6 md:py-4">
+                <div className="text-[10px] md:text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
                   Product
                 </div>
               </div>
@@ -158,20 +158,23 @@ export function ExpandedTableModal({
                       alignItems: 'center'
                     }}
                   >
-                    <div className="px-6 py-4 w-full">
-                      <div className="flex items-center gap-3">
-                        <ProductAssetCarousel
-                          assets={rp.product.assets}
-                          productName={rp.product.name}
-                          size="xs"
-                          showVideoThumbnails={true}
-                        />
+                    <div className="px-3 py-3 md:px-6 md:py-4 w-full">
+                      <div className="flex items-center gap-2 md:gap-3">
+                        {/* Hide asset carousel on mobile */}
+                        <div className="hidden md:block">
+                          <ProductAssetCarousel
+                            assets={rp.product.assets}
+                            productName={rp.product.name}
+                            size="xs"
+                            showVideoThumbnails={true}
+                          />
+                        </div>
                         <div className="min-w-0 flex-1">
-                          <div className="flex items-center gap-2 mb-1">
-                            <Badge variant="secondary" className="w-6 h-6 rounded-full p-0 flex items-center justify-center text-xs">
+                          <div className="flex items-center gap-1.5 md:gap-2 mb-1">
+                            <Badge variant="secondary" className="w-5 h-5 md:w-6 md:h-6 rounded-full p-0 flex items-center justify-center text-[10px] md:text-xs">
                               {rp.rank_position}
                             </Badge>
-                            <div className="text-sm font-semibold text-card-foreground truncate">
+                            <div className="text-xs md:text-sm font-semibold text-card-foreground truncate">
                               {rp.product.name}
                             </div>
                           </div>
@@ -180,7 +183,7 @@ export function ExpandedTableModal({
                               href={rp.product.link}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-xs text-muted-foreground hover:text-primary transition-colors truncate block"
+                              className="text-[10px] md:text-xs text-muted-foreground hover:text-primary transition-colors truncate block"
                             >
                               View product →
                             </a>
@@ -224,20 +227,20 @@ export function ExpandedTableModal({
                       {specNames.map((specName) => (
                         <div 
                           key={specName} 
-                          className="px-6 py-4 border-r last:border-r-0"
+                          className="px-3 py-3 md:px-6 md:py-4 border-r last:border-r-0"
                           style={{ width: SPEC_COLUMN_WIDTH }}
                         >
-                          <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
+                          <div className="text-[10px] md:text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
                             {specName}
                           </div>
                         </div>
                       ))}
                       {/* Score column */}
                       <div 
-                        className="px-6 py-4 text-right"
+                        className="px-3 py-3 md:px-6 md:py-4 text-right"
                         style={{ width: SPEC_COLUMN_WIDTH }}
                       >
-                        <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
+                        <div className="text-[10px] md:text-xs font-semibold uppercase tracking-wider text-muted-foreground whitespace-nowrap">
                           Score
                         </div>
                       </div>
@@ -272,25 +275,25 @@ export function ExpandedTableModal({
                             return (
                               <div 
                                 key={specName} 
-                                className="px-6 py-4 border-r last:border-r-0 flex items-center"
+                                className="px-3 py-3 md:px-6 md:py-4 border-r last:border-r-0 flex items-center"
                                 style={{ width: SPEC_COLUMN_WIDTH }}
                               >
                                 {specValue ? (
-                                  <span className="text-sm font-semibold text-card-foreground">
+                                  <span className="text-xs md:text-sm font-semibold text-card-foreground">
                                     {specValue}
                                   </span>
                                 ) : (
-                                  <span className="text-xs text-muted-foreground">—</span>
+                                  <span className="text-[10px] md:text-xs text-muted-foreground">—</span>
                                 )}
                               </div>
                             );
                           })}
                           {/* Score column */}
                           <div 
-                            className="px-6 py-4 text-right flex items-center justify-end"
+                            className="px-3 py-3 md:px-6 md:py-4 text-right flex items-center justify-end"
                             style={{ width: SPEC_COLUMN_WIDTH }}
                           >
-                            <ScoreBadge score={rp.score} size="small" />
+                            <ScoreBadge score={rp.score} size="small" showMaxScore={false} />
                           </div>
                         </div>
                       ))}
