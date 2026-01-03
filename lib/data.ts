@@ -155,7 +155,8 @@ export async function getAllCategories() {
   const { data, error } = await supabase
     .from('categories')
     .select('*')
-    .order('name', { ascending: true });
+    .order('name', { ascending: true })
+    .limit(1000); // Explicitly fetch up to 1000 categories
 
   if (error) {
     throw new Error(`Failed to fetch categories: ${error.message}`);
