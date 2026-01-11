@@ -8,6 +8,7 @@ import { LazyProductList } from '@/components/lazy-product-list';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { FAQSection } from '@/components/faq-section';
+import { RelatedRankings } from '@/components/related-rankings';
 import type { RankingProductWithDetails, FAQ } from '@/lib/supabase';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd } from '@/lib/seo';
@@ -58,7 +59,7 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
     notFound();
   }
 
-  const { ranking_products, category, faqs } = ranking;
+  const { ranking_products, category, faqs, relatedRankings } = ranking;
 
   // Collect all unique specification names across all products
   const allSpecNames = new Set<string>();
@@ -174,6 +175,9 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
 
         {/* FAQ Section */}
         {faqs && faqs.length > 0 && <FAQSection faqs={faqs} />}
+
+        {/* Related Rankings Section */}
+        <RelatedRankings rankings={relatedRankings} category={category} />
       </div>
       </main>
       <Footer />

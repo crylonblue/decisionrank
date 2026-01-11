@@ -116,6 +116,19 @@ export async function getRankingBySlug(slug: string, categorySlug: string) {
     throw new Error(`Failed to fetch FAQs: ${faqsError.message}`);
   }
 
+  // Fetch related rankings from the same category (excluding current ranking)
+  const { data: relatedRankings, error: relatedError } = await supabase
+    .from('rankings')
+    .select('id, slug, question, description')
+    .eq('category_id', expectedCategoryId)
+    .neq('slug', slug)
+    .order('created_at', { ascending: false })
+    .limit(4);
+
+  if (relatedError) {
+    throw new Error(`Failed to fetch related rankings: ${relatedError.message}`);
+  }
+
   // Combine the data
   const rankingProductsWithDetails: RankingProductWithDetails[] = rankingProducts.map(rp => {
     const productWithAssets = rp.product as Product & { assets?: Asset[] };
@@ -147,6 +160,7 @@ export async function getRankingBySlug(slug: string, categorySlug: string) {
     ranking_products: rankingProductsWithDetails,
     category, // category is always present since we validate it above
     faqs: (faqs || []) as FAQ[],
+    relatedRankings: (relatedRankings || []) as Pick<Ranking, 'id' | 'slug' | 'question' | 'description'>[],
   };
 }
 
