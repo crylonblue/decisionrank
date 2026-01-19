@@ -12,7 +12,7 @@ export function getBaseUrl(): string {
   // Check if we're in production (not a preview deployment)
   const isProduction = process.env.VERCEL_ENV === 'production';
   if (isProduction) {
-    return 'https://decisionrank.com';
+    return 'https://www.decisionrank.com';
   }
   
   // Priority 3: Preview/staging deployments on Vercel
