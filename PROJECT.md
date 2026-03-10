@@ -23,7 +23,19 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Type-check validated with `pnpm -s tsc --noEmit`.
 
 ## Pending Before Final Cutover
-- Configure Convex deployment/env (`NEXT_PUBLIC_CONVEX_URL`).
-- Run `pnpm migrate:supabase-to-convex` with valid env vars.
 - Smoke-test pages/search/sitemap on deployed env.
 - After 24-48h stable runtime, perform Supabase cleanup per `CONVEX_MIGRATION_PLAN.md`.
+
+## Cutover Progress (2026-03-10)
+- Convex functions/schema deployed to `wooden-trout-116`.
+- Supabase snapshot imported successfully:
+  - categories: 12
+  - rankings: 33
+  - products: 205
+  - ranking_products: 205
+  - users: 8
+  - sentiments: 965
+  - specifications: 1000
+  - assets: 614
+  - faqs: 167
+- Migration script updated to normalize nullable Supabase fields to Convex optional fields.
