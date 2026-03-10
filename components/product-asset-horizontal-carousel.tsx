@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import type { Asset } from '@/lib/supabase';
+import type { Asset } from '@/lib/types';
 
 interface ProductAssetHorizontalCarouselProps {
   assets?: Asset[];

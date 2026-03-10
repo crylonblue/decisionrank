@@ -8,7 +8,7 @@ import { Separator } from '@/components/ui/separator';
 import { ProductCardSkeleton } from '@/components/product-card-skeleton';
 import { ProductAssetHorizontalCarousel } from '@/components/product-asset-horizontal-carousel';
 import { ScoreBadge } from '@/components/score-badge';
-import type { RankingProductWithDetails, SentimentWithUser } from '@/lib/supabase';
+import type { RankingProductWithDetails, SentimentWithUser } from '@/lib/types';
 
 interface LazyProductListProps {
   rankingProducts: RankingProductWithDetails[];

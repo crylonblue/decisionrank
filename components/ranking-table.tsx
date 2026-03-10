@@ -6,7 +6,7 @@ import { ExpandedTableModal } from '@/components/expanded-table-modal';
 import { ProductAssetCarousel } from '@/components/product-asset-carousel';
 import { ScoreBadge } from '@/components/score-badge';
 import { Maximize2 } from 'lucide-react';
-import type { RankingProductWithDetails } from '@/lib/supabase';
+import type { RankingProductWithDetails } from '@/lib/types';
 
 interface RankingTableProps {
   rankingProducts: RankingProductWithDetails[];

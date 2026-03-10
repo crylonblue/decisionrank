@@ -1,7 +1,6 @@
 import { MetadataRoute } from 'next';
-import { getAllRankings, getAllCategories } from '@/lib/data';
+import { getAllRankings, getAllCategories, getRankingCountsByCategory } from '@/lib/data';
 import { getBaseUrl } from '@/lib/seo';
-import { supabase } from '@/lib/supabase';
 
 const RANKINGS_PER_PAGE = 25;
 
@@ -35,28 +34,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const categoryData = await getAllCategories();
     
-    // Get ranking counts per category
-    const { data: rankingCounts, error: countError } = await supabase
-      .from('rankings')
-      .select('category_id')
-      .not('category_id', 'is', null);
-    
-    if (countError) {
-      console.error('Error fetching ranking counts for sitemap:', countError);
-    }
-    
-    // Count rankings per category
-    const countsByCategory = new Map<string, number>();
-    if (rankingCounts) {
-      rankingCounts.forEach((ranking) => {
-        if (ranking.category_id) {
-          countsByCategory.set(
-            ranking.category_id,
-            (countsByCategory.get(ranking.category_id) || 0) + 1
-          );
-        }
-      });
-    }
+    const countsByCategory = new Map<string, number>(
+      Object.entries(await getRankingCountsByCategory())
+    );
     
     // Generate category URLs with pagination
     categoryData.forEach((category) => {

@@ -9,7 +9,7 @@ import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { FAQSection } from '@/components/faq-section';
 import { RelatedRankings } from '@/components/related-rankings';
-import type { RankingProductWithDetails, FAQ } from '@/lib/supabase';
+import type { RankingProductWithDetails, FAQ } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd } from '@/lib/seo';
 

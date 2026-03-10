@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
-import type { Ranking } from '@/lib/supabase';
+import type { Ranking } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
 import { ChevronLeft, ChevronRight } from 'lucide-react';

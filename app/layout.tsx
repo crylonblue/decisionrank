@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import { Providers } from "@/components/providers";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -60,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

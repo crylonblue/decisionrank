@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ProductAssetCarousel } from '@/components/product-asset-carousel';
 import { ScoreBadge } from '@/components/score-badge';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import type { RankingProductWithDetails } from '@/lib/supabase';
+import type { RankingProductWithDetails } from '@/lib/types';
 
 interface ExpandedTableModalProps {
   open: boolean;

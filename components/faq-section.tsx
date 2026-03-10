@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import type { FAQ } from '@/lib/supabase';
+import type { FAQ } from '@/lib/types';
 
 interface FAQSectionProps {
   faqs: FAQ[];

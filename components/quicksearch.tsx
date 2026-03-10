@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { Search } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
-import type { Ranking } from '@/lib/supabase';
+import { useQuery } from 'convex/react';
+import { api } from '@/convex/_generated/api';
+import type { Ranking } from '@/lib/types';
 
 interface QuickSearchProps {
   placeholder?: string;
@@ -16,7 +17,7 @@ interface QuickSearchProps {
   iconPosition?: 'left-3' | 'left-4';
 }
 
-export function QuickSearch({ 
+export function QuickSearch({
   placeholder = "Search rankings...",
   className = "",
   inputClassName = "",
@@ -26,79 +27,43 @@ export function QuickSearch({
   iconPosition = 'left-3'
 }: QuickSearchProps) {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<(Ranking & { category: { slug: string; name: string } })[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const router = useRouter();
   const searchRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Debounced search function
-  const performSearch = useCallback(async (searchQuery: string) => {
-    if (!searchQuery.trim()) {
-      setResults([]);
+  const rawResults = useQuery(
+    api.rankings.quickSearch,
+    debouncedQuery.trim() ? { query: debouncedQuery } : "skip"
+  );
+
+  const results = (rawResults || []) as (Ranking & { category: { slug: string; name: string } })[];
+  const isLoading = debouncedQuery.trim().length > 0 && rawResults === undefined;
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(query), 300);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  useEffect(() => {
+    if (!query.trim()) {
       setIsOpen(false);
+      setSelectedIndex(-1);
       return;
     }
+    setIsOpen(true);
+    setSelectedIndex(-1);
+  }, [query, rawResults]);
 
-    setIsLoading(true);
-    try {
-      const { data, error } = await supabase
-        .from('rankings')
-        .select(`
-          *,
-          category:categories(slug, name)
-        `)
-        .ilike('question', `%${searchQuery}%`)
-        .order('created_at', { ascending: false })
-        .limit(10);
-
-      if (error) throw error;
-
-      // Filter out rankings without categories
-      const filtered = (data || [])
-        .filter((ranking: any) => ranking.category !== null)
-        .map((ranking: any) => ({
-          ...ranking,
-          category: ranking.category as { slug: string; name: string },
-        })) as (Ranking & { category: { slug: string; name: string } })[];
-
-      setResults(filtered);
-      setIsOpen(searchQuery.trim().length > 0);
-      setSelectedIndex(-1);
-    } catch (error) {
-      console.error('Search error:', error);
-      setResults([]);
-      setIsOpen(false);
-    } finally {
-      setIsLoading(false);
-    }
-  }, []);
-
-  // Handle input change with debouncing
-  const handleInputChange = (value: string) => {
-    setQuery(value);
-    
-    if (debounceTimerRef.current) {
-      clearTimeout(debounceTimerRef.current);
-    }
-
-    debounceTimerRef.current = setTimeout(() => {
-      performSearch(value);
-    }, 300);
-  };
-
-  // Handle result selection
   const handleSelect = (ranking: Ranking & { category: { slug: string; name: string } }) => {
     router.push(`/${ranking.category.slug}/${ranking.slug}`);
     setQuery('');
-    setResults([]);
+    setDebouncedQuery('');
     setIsOpen(false);
   };
 
-  // Handle keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (!isOpen || results.length === 0) return;
 
@@ -126,7 +91,6 @@ export function QuickSearch({
     }
   };
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
@@ -136,15 +100,6 @@ export function QuickSearch({
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
-
-  // Cleanup debounce timer
-  useEffect(() => {
-    return () => {
-      if (debounceTimerRef.current) {
-        clearTimeout(debounceTimerRef.current);
-      }
-    };
   }, []);
 
   const iconSizeClass = iconSize === 'sm' ? 'h-4 w-4' : 'h-5 w-5';
@@ -159,7 +114,7 @@ export function QuickSearch({
           ref={inputRef}
           type="text"
           value={query}
-          onChange={(e) => handleInputChange(e.target.value)}
+          onChange={(e) => setQuery(e.target.value)}
           onFocus={() => {
             if (query.trim().length > 0) setIsOpen(true);
           }}
@@ -184,7 +139,6 @@ export function QuickSearch({
         )}
       </div>
 
-      {/* Results Dropdown */}
       {isOpen && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-card border border-border rounded-lg shadow-lg max-h-96 overflow-y-auto z-50">
           {isLoading ? (

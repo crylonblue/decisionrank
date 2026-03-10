@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
-import type { Ranking, Category } from '@/lib/supabase';
+import type { Ranking, Category } from '@/lib/types';
 
 interface RelatedRankingsProps {
   rankings: Pick<Ranking, 'id' | 'slug' | 'question' | 'description'>[];
