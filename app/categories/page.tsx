@@ -8,16 +8,23 @@ import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = getBaseUrl();
   
+  const canonicalUrl = `${baseUrl}/categories`;
+
   return {
     title: 'All Categories | DecisionRank',
     description: 'Browse all product categories and explore rankings organized by category',
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: 'All Categories | DecisionRank',
       description: 'Browse all product categories and explore rankings organized by category',
-      url: `${baseUrl}/categories`,
+      url: canonicalUrl,
       type: 'website',
     },
     twitter: {

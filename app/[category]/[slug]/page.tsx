@@ -13,6 +13,8 @@ import type { RankingProductWithDetails, FAQ } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd } from '@/lib/seo';
 
+export const dynamic = 'force-dynamic';
+
 interface RankingDetailPageProps {
   params: Promise<{ category: string; slug: string }>;
 }
@@ -35,6 +37,9 @@ export async function generateMetadata({ params }: RankingDetailPageProps): Prom
   return {
     title: `${ranking.question} | DecisionRank`,
     description: ranking.description || `Compare products and find the best ${ranking.question.toLowerCase()}`,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: ranking.question,
       description: ranking.description || undefined,

@@ -11,6 +11,8 @@ import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
   searchParams: Promise<{ page?: string }>;
@@ -18,9 +20,10 @@ interface CategoryPageProps {
 
 const RANKINGS_PER_PAGE = 25;
 
-export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
   const { category: categorySlug } = await params;
-  
+  const { page } = await searchParams;
+
   let category;
   try {
     category = await getCategoryBySlug(categorySlug);
@@ -31,15 +34,21 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   }
 
   const baseUrl = getBaseUrl();
-  const url = `${baseUrl}/${categorySlug}`;
+  const pageNumber = Math.max(1, parseInt(page || '1', 10));
+  const canonicalUrl = pageNumber > 1
+    ? `${baseUrl}/${categorySlug}?page=${pageNumber}`
+    : `${baseUrl}/${categorySlug}`;
 
   return {
     title: `${category.name} Rankings | DecisionRank`,
     description: category.description || `Browse product rankings in ${category.name}`,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${category.name} Rankings`,
       description: category.description || undefined,
-      url,
+      url: canonicalUrl,
       type: 'website',
     },
     twitter: {

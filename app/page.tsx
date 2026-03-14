@@ -11,6 +11,8 @@ import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
 
+export const dynamic = 'force-dynamic';
+
 interface RankingsPageProps {
   searchParams: Promise<{ search?: string }>;
 }
@@ -20,12 +22,17 @@ export async function generateMetadata({ searchParams }: RankingsPageProps): Pro
   const baseUrl = getBaseUrl();
   
   if (search) {
+    const searchUrl = `${baseUrl}/?search=${encodeURIComponent(search)}`;
+
     return {
       title: `Search Results for "${search}" | DecisionRank`,
       description: `Search results for "${search}" - Find product rankings and comparisons`,
+      alternates: {
+        canonical: searchUrl,
+      },
       openGraph: {
         title: `Search Results for "${search}"`,
-        url: `${baseUrl}/?search=${encodeURIComponent(search)}`,
+        url: searchUrl,
         type: 'website',
       },
     };
@@ -34,6 +41,9 @@ export async function generateMetadata({ searchParams }: RankingsPageProps): Pro
   return {
     title: 'DecisionRank - Editorial Product Rankings and Comparisons',
     description: 'Discover the best products through comprehensive editorial rankings and comparisons. Compare features, prices, and reviews to make informed decisions.',
+    alternates: {
+      canonical: baseUrl,
+    },
     openGraph: {
       title: 'DecisionRank - Editorial Product Rankings',
       description: 'Discover the best products through comprehensive editorial rankings and comparisons.',
