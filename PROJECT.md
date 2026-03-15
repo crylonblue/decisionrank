@@ -8,6 +8,7 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind
 
 ## Recent Updates
+- **2026-03-15:** Technical SEO pass — added `metadataBase` to root layout (resolves all relative canonical/OG URLs), added canonical tags to imprint + privacy-policy pages, improved title template with `%s | DecisionRank` pattern. Commit d736d49.
 - **2026-03-14:** SEO foundation pass for canonical/sitemap/robots consistency.
   - Canonical URL generation now consistently uses `https://www.decisionrank.com` outside local development (`lib/seo.ts`).
   - Added explicit `alternates.canonical` metadata on homepage, categories index, category pages (including paginated URLs), and ranking detail pages.
