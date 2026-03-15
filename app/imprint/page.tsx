@@ -7,8 +7,9 @@ import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Imprint | DecisionRank',
+  title: 'Imprint',
   description: 'Legal information and contact details for DecisionRank',
+  alternates: { canonical: '/imprint' },
 };
 
 export default function ImprintPage() {

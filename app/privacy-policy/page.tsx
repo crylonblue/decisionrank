@@ -7,8 +7,9 @@ import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | DecisionRank',
+  title: 'Privacy Policy',
   description: 'Privacy policy and data protection information for DecisionRank',
+  alternates: { canonical: '/privacy-policy' },
 };
 
 export default function PrivacyPolicyPage() {

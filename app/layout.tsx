@@ -15,8 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DecisionRank",
-  description: "Editorial product rankings and comparisons",
+  metadataBase: new URL("https://www.decisionrank.com"),
+  title: {
+    default: "DecisionRank — Editorial Product Rankings & Comparisons",
+    template: "%s | DecisionRank",
+  },
+  description:
+    "Editorial product rankings and comparisons — unbiased, research-backed verdicts to help you choose the right tools.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
