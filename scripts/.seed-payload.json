@@ -1,0 +1,2082 @@
+{
+  "categories": [
+    {
+      "id": "a2306380-e6ba-4ecf-969e-5d28a6b99f59",
+      "name": "Standing Desks",
+      "slug": "standing-desks",
+      "description": "Top-rated standing desks and sit-stand converters for a healthier workspace.",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "253fcdb6-7bc6-42bc-8ca3-9ed144496a29",
+      "name": "Wireless Earbuds",
+      "slug": "wireless-earbuds",
+      "description": "The best wireless earbuds ranked by sound quality, comfort, and features.",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "df649f7d-0550-47f3-a51f-7b2096423c07",
+      "name": "Air Purifiers",
+      "slug": "air-purifiers",
+      "description": "High-performance air purifiers for cleaner, healthier indoor air.",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ],
+  "rankings": [
+    {
+      "id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "slug": "best-standing-desks",
+      "question": "What Are the Best Standing Desks in 2026?",
+      "description": "We tested and ranked the top standing desks based on build quality, adjustability, motor speed, and value. Whether you work from home or in an office, these are the desks worth your money.",
+      "verdict_summary": "The Uplift V2 takes the top spot with its rock-solid build and fast motor, but the FlexiSpot E7 Pro offers nearly identical performance at a lower price. For compact spaces, the Fully Jarvis Bamboo is hard to beat.",
+      "category_id": "a2306380-e6ba-4ecf-969e-5d28a6b99f59",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "slug": "best-wireless-earbuds",
+      "question": "What Are the Best Wireless Earbuds in 2026?",
+      "description": "Our comprehensive ranking of the best wireless earbuds, covering sound quality, noise cancellation, battery life, and comfort for every budget and use case.",
+      "verdict_summary": "The Sony WF-1000XM6 leads with class-best ANC and sound, while the AirPods Pro 3 dominate the Apple ecosystem. Budget pick: the Samsung Galaxy Buds FE deliver remarkable quality under $100.",
+      "category_id": "253fcdb6-7bc6-42bc-8ca3-9ed144496a29",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "slug": "best-air-purifiers",
+      "question": "What Are the Best Air Purifiers in 2026?",
+      "description": "We evaluated air purifiers on CADR, filtration efficiency, noise levels, and smart features to find the best options for bedrooms, living rooms, and large spaces.",
+      "verdict_summary": "The Coway Airmega 250 dominates mid-size rooms with whisper-quiet operation, while the Dyson Purifier Big Quiet handles large spaces with style. For budget-conscious buyers, the Levoit Core 300S punches well above its price.",
+      "category_id": "df649f7d-0550-47f3-a51f-7b2096423c07",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "name": "Uplift V2 Standing Desk",
+      "link": "https://www.upliftdesk.com/uplift-v2-standing-desk/",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "name": "FlexiSpot E7 Pro",
+      "link": "https://www.flexispot.com/e7-pro-standing-desk",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "name": "Fully Jarvis Bamboo",
+      "link": "https://www.fully.com/standing-desks/jarvis-bamboo.html",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "name": "Secretlab MAGNUS Pro",
+      "link": "https://secretlab.co/pages/magnus-pro",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "name": "Branch Standing Desk",
+      "link": "https://www.branchfurniture.com/products/standing-desk",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "name": "IKEA BEKANT",
+      "link": "https://www.ikea.com/us/en/p/bekant-desk-sit-stand-white-s19022530/",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "name": "Sony WF-1000XM6",
+      "link": "https://www.sony.com/en/headphones/wf-1000xm6",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "name": "Apple AirPods Pro 3",
+      "link": "https://www.apple.com/airpods-pro/",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "name": "Sennheiser Momentum True Wireless 4",
+      "link": "https://www.sennheiser.com/momentum-true-wireless-4",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "name": "Samsung Galaxy Buds3 Pro",
+      "link": "https://www.samsung.com/galaxy-buds3-pro/",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "name": "Nothing Ear (3)",
+      "link": "https://nothing.tech/products/ear-3",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "name": "Samsung Galaxy Buds FE",
+      "link": "https://www.samsung.com/galaxy-buds-fe/",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "name": "Coway Airmega 250",
+      "link": "https://www.cowaymega.com/products/airmega-250",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "name": "Dyson Purifier Big Quiet Formaldehyde",
+      "link": "https://www.dyson.com/air-treatment/purifiers/big-quiet-formaldehyde",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "name": "Blueair Blue Pure 311i+ Max",
+      "link": "https://www.blueair.com/us/blue-pure-311i-max",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "name": "Levoit Core 300S",
+      "link": "https://www.levoit.com/products/core-300s-smart-true-hepa-air-purifier",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "name": "Winix 5500-2",
+      "link": "https://www.winixamerica.com/product/5500-2/",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "name": "Molekule Air Mini+",
+      "link": "https://molekule.com/air-mini-plus",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ],
+  "ranking_products": [
+    {
+      "id": "54f99ec9-353f-4a78-b815-bf6ec190a231",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "product_id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9cbd35e1-9d35-4ed5-83d4-7fc40f23dd36",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "product_id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9f5b8bcb-429f-4b6e-8014-7a02dc275b72",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "product_id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "product_id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "599b7d7d-3e6d-46f8-aeb8-63a1c8f2c682",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "product_id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "score": 8.2,
+      "rank_position": 5,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "product_id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "score": 7.8,
+      "rank_position": 6,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e15ab23a-28a7-426f-95c4-2fab7e7ea816",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "product_id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "product_id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c7320968-58c8-49c7-b155-ac832718b2ac",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "product_id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "68e31003-257c-4ad4-bb71-090195118b6c",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "product_id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0cefa558-430a-47d1-b6af-3a7017575a5f",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "product_id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "score": 8.1,
+      "rank_position": 5,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "product_id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "score": 7.6,
+      "rank_position": 6,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e9374fc4-3b01-4669-8d44-a99079c08d63",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "product_id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "42d2caa1-711a-4fbd-b24c-a887aba897d8",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "product_id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "score": 9,
+      "rank_position": 2,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "95c6f7be-e8ce-4192-ad2e-6781b1abec06",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "product_id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "score": 8.7,
+      "rank_position": 3,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "50519d9b-0dda-4b96-80c8-ef9074351296",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "product_id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "score": 8.4,
+      "rank_position": 4,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "product_id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "score": 8,
+      "rank_position": 5,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "product_id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "score": 7.5,
+      "rank_position": 6,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ],
+  "users": [],
+  "sentiments": [
+    {
+      "id": "1561ae68-43b2-47a8-894a-765779faae38",
+      "ranking_product_id": "54f99ec9-353f-4a78-b815-bf6ec190a231",
+      "type": "pro",
+      "content": "Industry-leading stability at max height with no wobble.",
+      "headline": "Industry-leading stability at max height with no wobble",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4d15ed06-8235-4fcb-a9d9-bdd343983284",
+      "ranking_product_id": "54f99ec9-353f-4a78-b815-bf6ec190a231",
+      "type": "pro",
+      "content": "Fast, quiet dual-motor system raises the desk in seconds.",
+      "headline": "Fast, quiet dual-motor system raises the desk in seconds",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "ab71fb7f-e9da-4eb4-a876-4828ef306068",
+      "ranking_product_id": "54f99ec9-353f-4a78-b815-bf6ec190a231",
+      "type": "pro",
+      "content": "Massive range of desktop sizes and finishes.",
+      "headline": "Massive range of desktop sizes and finishes",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "be5ff2fa-5e43-4821-9ece-a4d7418881b3",
+      "ranking_product_id": "54f99ec9-353f-4a78-b815-bf6ec190a231",
+      "type": "con",
+      "content": "Premium configurations get expensive quickly.",
+      "headline": "Premium configurations get expensive quickly",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "d85d6fa8-3055-41e2-8453-1d6695db6672",
+      "ranking_product_id": "54f99ec9-353f-4a78-b815-bf6ec190a231",
+      "type": "con",
+      "content": "Desktop edges can be sharp on some finishes.",
+      "headline": "Desktop edges can be sharp on some finishes",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "54e38fc7-19dc-4a10-b908-9876f6aa29b2",
+      "ranking_product_id": "9cbd35e1-9d35-4ed5-83d4-7fc40f23dd36",
+      "type": "pro",
+      "content": "Excellent value—comparable performance to desks costing $200+ more.",
+      "headline": "Excellent value—comparable performance to desks costing $200+ more",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c403ad1c-4568-4392-97ea-28cb605aab35",
+      "ranking_product_id": "9cbd35e1-9d35-4ed5-83d4-7fc40f23dd36",
+      "type": "pro",
+      "content": "Sturdy steel frame with anti-collision sensor.",
+      "headline": "Sturdy steel frame with anti-collision sensor",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b71bf6b0-21a3-4cf1-b640-f6da445dd175",
+      "ranking_product_id": "9cbd35e1-9d35-4ed5-83d4-7fc40f23dd36",
+      "type": "pro",
+      "content": "Three programmable memory presets included.",
+      "headline": "Three programmable memory presets included",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "bdcbce6e-9cb4-4eee-8692-ca3d73aac226",
+      "ranking_product_id": "9cbd35e1-9d35-4ed5-83d4-7fc40f23dd36",
+      "type": "con",
+      "content": "Cable management tray sold separately.",
+      "headline": "Cable management tray sold separately",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "ac98d8db-8cab-4536-978b-c1b803a88bd8",
+      "ranking_product_id": "9cbd35e1-9d35-4ed5-83d4-7fc40f23dd36",
+      "type": "con",
+      "content": "Assembly instructions could be clearer.",
+      "headline": "Assembly instructions could be clearer",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c29c3627-c3ac-434e-854e-2dd43150fc8a",
+      "ranking_product_id": "9f5b8bcb-429f-4b6e-8014-7a02dc275b72",
+      "type": "pro",
+      "content": "Sustainable bamboo desktop is gorgeous and durable.",
+      "headline": "Sustainable bamboo desktop is gorgeous and durable",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "90809283-7b07-4d21-b503-e9d1748692cf",
+      "ranking_product_id": "9f5b8bcb-429f-4b6e-8014-7a02dc275b72",
+      "type": "pro",
+      "content": "Very compact footprint—great for smaller home offices.",
+      "headline": "Very compact footprint—great for smaller home offices",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "43047d59-8f1f-4bab-94c4-15f1873edd55",
+      "ranking_product_id": "9f5b8bcb-429f-4b6e-8014-7a02dc275b72",
+      "type": "pro",
+      "content": "Smooth, reliable Jarvis motor system.",
+      "headline": "Smooth, reliable Jarvis motor system",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "061f6e17-31d3-4667-9964-74be4d289fab",
+      "ranking_product_id": "9f5b8bcb-429f-4b6e-8014-7a02dc275b72",
+      "type": "con",
+      "content": "Bamboo surface can dent under heavy impacts.",
+      "headline": "Bamboo surface can dent under heavy impacts",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "eae99f81-8b68-4456-99ca-9c377cb7a358",
+      "ranking_product_id": "9f5b8bcb-429f-4b6e-8014-7a02dc275b72",
+      "type": "con",
+      "content": "Limited color/finish options compared to competitors.",
+      "headline": "Limited color/finish options compared to competitors",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "42385e44-6d3e-4b3d-9d27-e4e6f28da8b2",
+      "ranking_product_id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "type": "pro",
+      "content": "Best-in-class integrated cable management system.",
+      "headline": "Best-in-class integrated cable management system",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "483da441-f031-401c-834a-afd551395d21",
+      "ranking_product_id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "type": "pro",
+      "content": "Premium metal desktop with magnetic accessories.",
+      "headline": "Premium metal desktop with magnetic accessories",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0d9e4353-00d4-45c7-bb66-ea02f62abfc6",
+      "ranking_product_id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "type": "pro",
+      "content": "Sleek gaming/productivity hybrid aesthetic.",
+      "headline": "Sleek gaming/productivity hybrid aesthetic",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "29c168e0-33d4-4c97-a8f2-f6db243a781c",
+      "ranking_product_id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "type": "con",
+      "content": "Heavier than most desks—difficult to move once set up.",
+      "headline": "Heavier than most desks—difficult to move once set up",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "94d7cc88-d344-4d5b-86e0-315021703a12",
+      "ranking_product_id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "type": "con",
+      "content": "Lower weight capacity than top picks.",
+      "headline": "Lower weight capacity than top picks",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "bbdcd295-c263-44cd-af4f-228ebda4a1f8",
+      "ranking_product_id": "537f3aae-33a4-4e4d-9da4-b03c0c94d96b",
+      "type": "con",
+      "content": "Premium price for the brand name.",
+      "headline": "Premium price for the brand name",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "50624ad1-d9d1-47ac-8e95-a05c11e1c9da",
+      "ranking_product_id": "599b7d7d-3e6d-46f8-aeb8-63a1c8f2c682",
+      "type": "pro",
+      "content": "Clean, minimal design fits any office aesthetic.",
+      "headline": "Clean, minimal design fits any office aesthetic",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "8c477f9b-86d6-460a-8b6e-1932e59f0493",
+      "ranking_product_id": "599b7d7d-3e6d-46f8-aeb8-63a1c8f2c682",
+      "type": "pro",
+      "content": "Solid build quality for the mid-range price.",
+      "headline": "Solid build quality for the mid-range price",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "560bb983-e515-4fda-b279-34af354e1467",
+      "ranking_product_id": "599b7d7d-3e6d-46f8-aeb8-63a1c8f2c682",
+      "type": "pro",
+      "content": "Good customer support and easy returns.",
+      "headline": "Good customer support and easy returns",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "579edd71-ad43-4285-8e82-a43d2a5e06cf",
+      "ranking_product_id": "599b7d7d-3e6d-46f8-aeb8-63a1c8f2c682",
+      "type": "con",
+      "content": "Motor is slightly slower and louder than top picks.",
+      "headline": "Motor is slightly slower and louder than top picks",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4ac0fd5f-cb6a-4288-aba7-2593fa14461f",
+      "ranking_product_id": "599b7d7d-3e6d-46f8-aeb8-63a1c8f2c682",
+      "type": "con",
+      "content": "Limited desktop size options.",
+      "headline": "Limited desktop size options",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4ba59018-d8ad-403b-be9f-b3f37f700b0d",
+      "ranking_product_id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "type": "pro",
+      "content": "Most affordable motorized standing desk from a major brand.",
+      "headline": "Most affordable motorized standing desk from a major brand",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "811d0f96-5310-44f8-95de-095c9089d846",
+      "ranking_product_id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "type": "pro",
+      "content": "Available at IKEA stores for same-day pickup.",
+      "headline": "Available at IKEA stores for same-day pickup",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "d330fc03-5493-47f8-aeaf-cc7c528c2eb0",
+      "ranking_product_id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "type": "pro",
+      "content": "Generous desktop surface area.",
+      "headline": "Generous desktop surface area",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "305bdf48-9e6b-453f-8528-35437ce9d42a",
+      "ranking_product_id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "type": "con",
+      "content": "Noticeable wobble at standing height.",
+      "headline": "Noticeable wobble at standing height",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3128ffaf-6d8d-4f90-b87a-e709bc7a5412",
+      "ranking_product_id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "type": "con",
+      "content": "No memory presets—single up/down toggle only.",
+      "headline": "No memory presets—single up/down toggle only",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "1eb462e3-a566-4b83-9279-36967263e24a",
+      "ranking_product_id": "1d99cb60-bd13-42ae-b1fb-503cc26b979e",
+      "type": "con",
+      "content": "Lower weight capacity limits monitor arm setups.",
+      "headline": "Lower weight capacity limits monitor arm setups",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "32a16e0d-c6e8-4469-ab5d-cffdc25255eb",
+      "ranking_product_id": "e15ab23a-28a7-426f-95c4-2fab7e7ea816",
+      "type": "pro",
+      "content": "Best-in-class noise cancellation silences even loud environments.",
+      "headline": "Best-in-class noise cancellation silences even loud environments",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "a22566ae-326f-4447-a7bf-0e334cba9418",
+      "ranking_product_id": "e15ab23a-28a7-426f-95c4-2fab7e7ea816",
+      "type": "pro",
+      "content": "Audiophile-grade sound with rich bass and crisp highs.",
+      "headline": "Audiophile-grade sound with rich bass and crisp highs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "7629a291-b901-4ece-8ca1-102f78de901b",
+      "ranking_product_id": "e15ab23a-28a7-426f-95c4-2fab7e7ea816",
+      "type": "pro",
+      "content": "Smaller, more comfortable design than the XM5.",
+      "headline": "Smaller, more comfortable design than the XM5",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "ce36172f-bd4f-4e06-831a-4785c576b11a",
+      "ranking_product_id": "e15ab23a-28a7-426f-95c4-2fab7e7ea816",
+      "type": "con",
+      "content": "Premium price—not for casual listeners.",
+      "headline": "Premium price—not for casual listeners",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3a72c5ef-0990-43dc-833d-e5386693b278",
+      "ranking_product_id": "e15ab23a-28a7-426f-95c4-2fab7e7ea816",
+      "type": "con",
+      "content": "Touch controls can be finicky with wet fingers.",
+      "headline": "Touch controls can be finicky with wet fingers",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6becd149-bd8a-4a7d-84f0-60b6d4c8213f",
+      "ranking_product_id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "type": "pro",
+      "content": "Seamless integration across all Apple devices.",
+      "headline": "Seamless integration across all Apple devices",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3a787c42-7881-4dca-b545-d0f782f3a874",
+      "ranking_product_id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "type": "pro",
+      "content": "Adaptive transparency mode is natural and responsive.",
+      "headline": "Adaptive transparency mode is natural and responsive",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "10069604-091d-476a-bf7c-3dfe46a6dad7",
+      "ranking_product_id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "type": "pro",
+      "content": "USB-C case with built-in speaker for Find My.",
+      "headline": "USB-C case with built-in speaker for Find My",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "73e23740-dfb0-4bb0-8452-0389e03399cc",
+      "ranking_product_id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "type": "con",
+      "content": "Sound quality slightly behind Sony for critical listening.",
+      "headline": "Sound quality slightly behind Sony for critical listening",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4e3b1e0f-e57c-46f7-9fec-e6ee9205014c",
+      "ranking_product_id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "type": "con",
+      "content": "Limited codec support—no LDAC for Android users.",
+      "headline": "Limited codec support—no LDAC for Android users",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "84c06e47-e28f-4cbf-9b9e-3d939fb041c6",
+      "ranking_product_id": "453a2c72-6410-42b5-a6db-4a6dc114ad71",
+      "type": "con",
+      "content": "Only available in one color.",
+      "headline": "Only available in one color",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "8490c229-a760-455e-ac3b-d39457dcdad9",
+      "ranking_product_id": "c7320968-58c8-49c7-b155-ac832718b2ac",
+      "type": "pro",
+      "content": "Warm, detailed sound signature loved by audiophiles.",
+      "headline": "Warm, detailed sound signature loved by audiophiles",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "14a8e631-7a76-40e3-af7b-1d61637c7102",
+      "ranking_product_id": "c7320968-58c8-49c7-b155-ac832718b2ac",
+      "type": "pro",
+      "content": "Premium build with real fabric and metal accents.",
+      "headline": "Premium build with real fabric and metal accents",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "108fc595-5bd9-4c8e-b2c3-bbfe305847e6",
+      "ranking_product_id": "c7320968-58c8-49c7-b155-ac832718b2ac",
+      "type": "pro",
+      "content": "Wide codec support including aptX and LC3.",
+      "headline": "Wide codec support including aptX and LC3",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4da9baa9-49ce-4838-bd20-885ea0bbff61",
+      "ranking_product_id": "c7320968-58c8-49c7-b155-ac832718b2ac",
+      "type": "con",
+      "content": "Bulkier fit may not suit smaller ears.",
+      "headline": "Bulkier fit may not suit smaller ears",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "44ca0054-7c82-43b2-af49-33e927da76c0",
+      "ranking_product_id": "c7320968-58c8-49c7-b155-ac832718b2ac",
+      "type": "con",
+      "content": "ANC is good but not quite Sony-level.",
+      "headline": "ANC is good but not quite Sony-level",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e2be2874-704c-48a5-a8ed-785d5d056cd6",
+      "ranking_product_id": "68e31003-257c-4ad4-bb71-090195118b6c",
+      "type": "pro",
+      "content": "New blade design is comfortable and lightweight.",
+      "headline": "New blade design is comfortable and lightweight",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "5dfbf54c-8277-4f66-9639-f3a4b006af39",
+      "ranking_product_id": "68e31003-257c-4ad4-bb71-090195118b6c",
+      "type": "pro",
+      "content": "Strong ANC performance, especially for the price.",
+      "headline": "Strong ANC performance, especially for the price",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f7e0872e-77f8-4b27-8ca3-0588d9141b11",
+      "ranking_product_id": "68e31003-257c-4ad4-bb71-090195118b6c",
+      "type": "pro",
+      "content": "Best Galaxy ecosystem integration with 360 Audio.",
+      "headline": "Best Galaxy ecosystem integration with 360 Audio",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "a3ef71e6-549a-49f0-a0c4-37acc1488211",
+      "ranking_product_id": "68e31003-257c-4ad4-bb71-090195118b6c",
+      "type": "con",
+      "content": "Samsung Scalable codec only works with Galaxy devices.",
+      "headline": "Samsung Scalable codec only works with Galaxy devices",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0be74b6b-18a8-4e3f-ac84-aebe3b759ba0",
+      "ranking_product_id": "68e31003-257c-4ad4-bb71-090195118b6c",
+      "type": "con",
+      "content": "Case is slippery and easy to drop.",
+      "headline": "Case is slippery and easy to drop",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9b26dad1-39d8-4ecc-89f6-8072d0cdbc44",
+      "ranking_product_id": "0cefa558-430a-47d1-b6af-3a7017575a5f",
+      "type": "pro",
+      "content": "Transparent design stands out in a sea of black earbuds.",
+      "headline": "Transparent design stands out in a sea of black earbuds",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "5e2bce59-0f35-42f5-888d-e5b938caad3e",
+      "ranking_product_id": "0cefa558-430a-47d1-b6af-3a7017575a5f",
+      "type": "pro",
+      "content": "LDAC support and solid sound quality for the price.",
+      "headline": "LDAC support and solid sound quality for the price",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3b5fb50f-0e15-4eec-a1af-75719eb476df",
+      "ranking_product_id": "0cefa558-430a-47d1-b6af-3a7017575a5f",
+      "type": "pro",
+      "content": "ChatGPT voice integration is genuinely useful.",
+      "headline": "ChatGPT voice integration is genuinely useful",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f3e30ce3-c61c-4ff1-9b44-f0d28561f094",
+      "ranking_product_id": "0cefa558-430a-47d1-b6af-3a7017575a5f",
+      "type": "con",
+      "content": "ANC is adequate but not class-leading.",
+      "headline": "ANC is adequate but not class-leading",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "ed769814-7ab4-43b2-8ed8-8394e84b1d33",
+      "ranking_product_id": "0cefa558-430a-47d1-b6af-3a7017575a5f",
+      "type": "con",
+      "content": "Stem design isn't as comfortable for all ear shapes.",
+      "headline": "Stem design isn't as comfortable for all ear shapes",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "247c1c42-a074-4b42-95aa-f9badb7caafb",
+      "ranking_product_id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "type": "pro",
+      "content": "Outstanding value—premium features under $100.",
+      "headline": "Outstanding value—premium features under $100",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2cd53f2e-14cf-4315-a8ad-260b4841b2d5",
+      "ranking_product_id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "type": "pro",
+      "content": "Comfortable wingtip design stays secure during workouts.",
+      "headline": "Comfortable wingtip design stays secure during workouts",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "7c3b1d65-42a9-4fe4-af61-8e5e6a1e66f6",
+      "ranking_product_id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "type": "pro",
+      "content": "ANC performance punches above its price class.",
+      "headline": "ANC performance punches above its price class",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c88c2df6-70a6-4c2c-8e90-384672f9b493",
+      "ranking_product_id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "type": "con",
+      "content": "Lower water resistance than competitors.",
+      "headline": "Lower water resistance than competitors",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "79099695-237d-4dc6-8738-1c6a22584001",
+      "ranking_product_id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "type": "con",
+      "content": "Sound quality gap is noticeable vs. flagship buds.",
+      "headline": "Sound quality gap is noticeable vs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "28b12996-a428-44bd-94cb-08c3e91dc1f6",
+      "ranking_product_id": "8011a68c-746e-4e76-ba06-ce15440f6d73",
+      "type": "con",
+      "content": "Case feels plasticky.",
+      "headline": "Case feels plasticky",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "da0f6329-f205-4163-aea1-c808fb0effc7",
+      "ranking_product_id": "e9374fc4-3b01-4669-8d44-a99079c08d63",
+      "type": "pro",
+      "content": "Whisper-quiet operation—barely audible on low settings.",
+      "headline": "Whisper-quiet operation—barely audible on low settings",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e8f60552-3754-4d59-aa08-5179beb05a00",
+      "ranking_product_id": "e9374fc4-3b01-4669-8d44-a99079c08d63",
+      "type": "pro",
+      "content": "Excellent filtration captures 99.97% of particles down to 0.3 microns.",
+      "headline": "Excellent filtration captures 99",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c9571a33-3a5f-40e5-9792-638b4a2cf2cf",
+      "ranking_product_id": "e9374fc4-3b01-4669-8d44-a99079c08d63",
+      "type": "pro",
+      "content": "Real-time air quality indicator with color ring.",
+      "headline": "Real-time air quality indicator with color ring",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9dc6b7ca-5c15-406e-a4d8-639a5af87e27",
+      "ranking_product_id": "e9374fc4-3b01-4669-8d44-a99079c08d63",
+      "type": "con",
+      "content": "Replacement filters are moderately expensive.",
+      "headline": "Replacement filters are moderately expensive",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3c360433-8e44-4c20-8b47-619fd8f09727",
+      "ranking_product_id": "e9374fc4-3b01-4669-8d44-a99079c08d63",
+      "type": "con",
+      "content": "Design is functional but not particularly stylish.",
+      "headline": "Design is functional but not particularly stylish",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f8bd8b19-8c9f-4bfd-a788-14f86a4f537c",
+      "ranking_product_id": "42d2caa1-711a-4fbd-b24c-a887aba897d8",
+      "type": "pro",
+      "content": "Covers very large rooms with powerful airflow.",
+      "headline": "Covers very large rooms with powerful airflow",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "94d2c6a0-4c59-4eee-8fa3-1f8bed6c4060",
+      "ranking_product_id": "42d2caa1-711a-4fbd-b24c-a887aba897d8",
+      "type": "pro",
+      "content": "Catalytic formaldehyde destruction is genuinely innovative.",
+      "headline": "Catalytic formaldehyde destruction is genuinely innovative",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "03a45b95-1dbd-4d9a-81f5-a669fab90ce3",
+      "ranking_product_id": "42d2caa1-711a-4fbd-b24c-a887aba897d8",
+      "type": "pro",
+      "content": "Sleek design doubles as a statement piece.",
+      "headline": "Sleek design doubles as a statement piece",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b0ba68a1-45bd-4078-940c-49b6b7d7923d",
+      "ranking_product_id": "42d2caa1-711a-4fbd-b24c-a887aba897d8",
+      "type": "con",
+      "content": "By far the most expensive option on this list.",
+      "headline": "By far the most expensive option on this list",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c4ddfd69-e2d8-4ccd-bfb9-b61a9cedbda2",
+      "ranking_product_id": "42d2caa1-711a-4fbd-b24c-a887aba897d8",
+      "type": "con",
+      "content": "Large footprint takes up significant floor space.",
+      "headline": "Large footprint takes up significant floor space",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2569e2ee-28e1-4f61-b825-84271a559f27",
+      "ranking_product_id": "95c6f7be-e8ce-4192-ad2e-6781b1abec06",
+      "type": "pro",
+      "content": "Colorful fabric pre-filter adds personality to any room.",
+      "headline": "Colorful fabric pre-filter adds personality to any room",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6e11f346-a7f0-49e3-beae-67e734781544",
+      "ranking_product_id": "95c6f7be-e8ce-4192-ad2e-6781b1abec06",
+      "type": "pro",
+      "content": "HEPASilent technology is effective and energy-efficient.",
+      "headline": "HEPASilent technology is effective and energy-efficient",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "07e91d13-135d-4fc5-a419-90be13c0ca3e",
+      "ranking_product_id": "95c6f7be-e8ce-4192-ad2e-6781b1abec06",
+      "type": "pro",
+      "content": "Simple one-button physical controls.",
+      "headline": "Simple one-button physical controls",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0a5df832-10af-4ce2-92df-377040390f24",
+      "ranking_product_id": "95c6f7be-e8ce-4192-ad2e-6781b1abec06",
+      "type": "con",
+      "content": "Fabric pre-filter needs washing regularly.",
+      "headline": "Fabric pre-filter needs washing regularly",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9006458d-8bf0-4513-9429-030590d84474",
+      "ranking_product_id": "95c6f7be-e8ce-4192-ad2e-6781b1abec06",
+      "type": "con",
+      "content": "App is functional but basic compared to Dyson.",
+      "headline": "App is functional but basic compared to Dyson",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "5b5c751e-08a9-4179-b6c4-a68697e14b25",
+      "ranking_product_id": "50519d9b-0dda-4b96-80c8-ef9074351296",
+      "type": "pro",
+      "content": "Best budget smart air purifier—under $150 with Wi-Fi.",
+      "headline": "Best budget smart air purifier—under $150 with Wi-Fi",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b20becfb-d8be-45e8-8ebd-78a235f0873f",
+      "ranking_product_id": "50519d9b-0dda-4b96-80c8-ef9074351296",
+      "type": "pro",
+      "content": "Compact design fits on desks and nightstands.",
+      "headline": "Compact design fits on desks and nightstands",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "7ae52b6c-09cc-4451-96da-083cd85a7c02",
+      "ranking_product_id": "50519d9b-0dda-4b96-80c8-ef9074351296",
+      "type": "pro",
+      "content": "VeSync app scheduling and automation work reliably.",
+      "headline": "VeSync app scheduling and automation work reliably",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c34d5e10-58ec-405d-bc5d-9e14e76a0531",
+      "ranking_product_id": "50519d9b-0dda-4b96-80c8-ef9074351296",
+      "type": "con",
+      "content": "Lower CADR—not ideal for large open spaces.",
+      "headline": "Lower CADR—not ideal for large open spaces",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "06094321-0be5-4fbc-9cee-f9974a1e4c1f",
+      "ranking_product_id": "50519d9b-0dda-4b96-80c8-ef9074351296",
+      "type": "con",
+      "content": "No built-in air quality sensor (relies on app).",
+      "headline": "No built-in air quality sensor (relies on app)",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9bbda260-489e-43e0-b305-637ca85d4467",
+      "ranking_product_id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "type": "pro",
+      "content": "PlasmaWave technology provides additional air cleaning without ozone.",
+      "headline": "PlasmaWave technology provides additional air cleaning without ozone",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "826f4dc6-0ac2-4899-bae3-ff00f49dbbfe",
+      "ranking_product_id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "type": "pro",
+      "content": "Excellent CADR for its price range.",
+      "headline": "Excellent CADR for its price range",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "132c6330-27a4-4f50-94e7-783d4eac76e9",
+      "ranking_product_id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "type": "pro",
+      "content": "Auto mode with smart sensor adjusts fan speed automatically.",
+      "headline": "Auto mode with smart sensor adjusts fan speed automatically",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6358cb0e-1b08-4d0a-8fb8-185cb72d40ef",
+      "ranking_product_id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "type": "con",
+      "content": "No Wi-Fi or app control.",
+      "headline": "No Wi-Fi or app control",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "01e0d420-55b5-4c17-a96b-91d67447351c",
+      "ranking_product_id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "type": "con",
+      "content": "Design looks dated compared to modern competitors.",
+      "headline": "Design looks dated compared to modern competitors",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b2f481fa-5b33-4de1-a412-87c9e631080c",
+      "ranking_product_id": "990d3a7e-9844-4bb8-9bb4-e00f97fa79d4",
+      "type": "con",
+      "content": "Slightly louder on high settings.",
+      "headline": "Slightly louder on high settings",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2563ca19-88c3-45fe-ac55-429cdc5f7480",
+      "ranking_product_id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "type": "pro",
+      "content": "PECO technology claims to destroy pollutants, not just capture them.",
+      "headline": "PECO technology claims to destroy pollutants, not just capture them",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "d91ecf97-3d40-4faf-b198-be66bd3c6602",
+      "ranking_product_id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "type": "pro",
+      "content": "Sleek, compact cylindrical design.",
+      "headline": "Sleek, compact cylindrical design",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3696b78a-86e3-43e8-b2fb-ac2665a52a2e",
+      "ranking_product_id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "type": "pro",
+      "content": "App provides air quality data and filter tracking.",
+      "headline": "App provides air quality data and filter tracking",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "60091026-a266-485e-8569-7a8420dfb971",
+      "ranking_product_id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "type": "con",
+      "content": "Significantly lower CADR than competitors at this price.",
+      "headline": "Significantly lower CADR than competitors at this price",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "8e97b8c3-7f6b-44b7-84fd-700977056fac",
+      "ranking_product_id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "type": "con",
+      "content": "Replacement filters are very expensive.",
+      "headline": "Replacement filters are very expensive",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "53539592-43c6-4ae1-8e5e-17ca66bfdad9",
+      "ranking_product_id": "df40b196-1a4c-4998-b837-706fad3fbbbe",
+      "type": "con",
+      "content": "Effectiveness of PECO claims debated by independent reviewers.",
+      "headline": "Effectiveness of PECO claims debated by independent reviewers",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "9395e6a3-9814-468f-873c-d2c489eb3689",
+      "product_id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "name": "Height Range",
+      "value": "25.3–50.9",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f199d382-fde7-48ff-abb9-9bbef7e6e0c0",
+      "product_id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "name": "Motor Speed",
+      "value": "1.5",
+      "unit": "inches/sec",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4d5ef972-7323-42f7-9313-3ee61699ead8",
+      "product_id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "name": "Weight Capacity",
+      "value": "355",
+      "unit": "lbs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e5b2105f-42f5-48e2-b60e-fd496547207d",
+      "product_id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "name": "Noise Level",
+      "value": "< 40",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "ddde4b07-5e03-4f81-baf4-eafd453c8630",
+      "product_id": "b5d7b153-e0cc-4a41-875a-48e5775a9805",
+      "name": "Warranty",
+      "value": "15",
+      "unit": "years",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "bc157126-0ca8-491e-b1f2-272c5e0e799e",
+      "product_id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "name": "Height Range",
+      "value": "24.0–50.0",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "7ef7fd3f-c26c-4e85-bc04-9037e8c0841c",
+      "product_id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "name": "Motor Speed",
+      "value": "1.4",
+      "unit": "inches/sec",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c4515bb2-370b-47dd-aafc-dd2c02082810",
+      "product_id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "name": "Weight Capacity",
+      "value": "310",
+      "unit": "lbs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "81c0817c-2d9f-470f-838b-f0c9930a7e78",
+      "product_id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "name": "Noise Level",
+      "value": "< 42",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2bc087ae-8954-479e-989b-46a055213f21",
+      "product_id": "3fa3223a-ea7e-45bc-92b4-0ea745cebf38",
+      "name": "Warranty",
+      "value": "10",
+      "unit": "years",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4ceaf93b-1cf5-4276-9a8e-0aea10612477",
+      "product_id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "name": "Height Range",
+      "value": "25.5–51.1",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9040fc16-46ad-420a-b6b2-045a74b0eeb3",
+      "product_id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "name": "Motor Speed",
+      "value": "1.3",
+      "unit": "inches/sec",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "40f4fc2c-c72f-4283-bc2e-434c496c0021",
+      "product_id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "name": "Weight Capacity",
+      "value": "350",
+      "unit": "lbs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6ed9f47c-9597-4d7a-85ca-15f235c9773d",
+      "product_id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "name": "Desktop Material",
+      "value": "Bamboo",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b5b4d032-10f3-4ee5-ada3-368e0f934ea4",
+      "product_id": "f33f0e6a-f5b3-4a8b-9bff-732638750780",
+      "name": "Warranty",
+      "value": "15",
+      "unit": "years",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "fb90a8e4-fcab-4606-9d7b-e6ca5df6ebb0",
+      "product_id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "name": "Height Range",
+      "value": "27.5–49.2",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "eae1efbe-7a83-4d68-ba77-f9ab1c7dce5b",
+      "product_id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "name": "Motor Speed",
+      "value": "1.5",
+      "unit": "inches/sec",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b682aded-44cc-4478-bb4f-8320b150841e",
+      "product_id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "name": "Weight Capacity",
+      "value": "265",
+      "unit": "lbs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "824dff37-8ac2-4c0d-be8c-0183322710a6",
+      "product_id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "name": "Cable Management",
+      "value": "Built-in tray",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9819fbb7-7882-4799-bf07-74d9af9bcbcf",
+      "product_id": "7eeddfb9-1bd4-4a99-aa96-b9ff26d3341b",
+      "name": "Warranty",
+      "value": "5",
+      "unit": "years",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "d9702fe7-139a-400b-b727-f24ca580880e",
+      "product_id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "name": "Height Range",
+      "value": "25.5–52.0",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0bd2fa6a-af1a-4579-9fd2-f0bac24d983b",
+      "product_id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "name": "Motor Speed",
+      "value": "1.2",
+      "unit": "inches/sec",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3ef02985-51d5-4dfd-8ae6-e432ad282048",
+      "product_id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "name": "Weight Capacity",
+      "value": "275",
+      "unit": "lbs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "a5478379-41f9-4249-9cf6-208fdaf4dfda",
+      "product_id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "name": "Noise Level",
+      "value": "< 45",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f6443fb4-7978-4881-b42c-4a4927deb3cb",
+      "product_id": "84ae9b60-d983-4098-aa06-6057e3c70e81",
+      "name": "Warranty",
+      "value": "12",
+      "unit": "years",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "29e7ccca-1f00-41f7-9340-5a17b88786a0",
+      "product_id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "name": "Height Range",
+      "value": "22.0–48.0",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "03c629f9-81cb-4474-96b4-5b528f8d6312",
+      "product_id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "name": "Motor Speed",
+      "value": "1.0",
+      "unit": "inches/sec",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "bcfcad9b-5bcd-46b3-b171-6c6c292f011f",
+      "product_id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "name": "Weight Capacity",
+      "value": "154",
+      "unit": "lbs",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "16f03d81-7ff2-42c6-9ef4-a353a71a3e3f",
+      "product_id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "name": "Desktop Size",
+      "value": "63×31.5",
+      "unit": "inches",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "62f5970b-22ba-4f6f-a225-0d80bb4008d8",
+      "product_id": "38ccf83c-40c2-4cc8-bac8-49de2aec2621",
+      "name": "Warranty",
+      "value": "10",
+      "unit": "years",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9d43a49c-0a1a-478e-b841-f6b2d7a49c4b",
+      "product_id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "name": "Driver Size",
+      "value": "8.4",
+      "unit": "mm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "234e7f93-d86d-4f08-9b72-ee56fc4e8fe3",
+      "product_id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "name": "ANC",
+      "value": "Yes (Adaptive)",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "de542eb3-d531-4255-84f7-098ebb1ff354",
+      "product_id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "name": "Battery Life",
+      "value": "8 + 16",
+      "unit": "hours",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "a01da946-f975-4241-a8b6-38a7238a162b",
+      "product_id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "name": "Water Resistance",
+      "value": "IPX4",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "adabc429-bd0c-42fc-9a31-d1ed3324ab62",
+      "product_id": "83b548e0-61bc-44b6-b04a-3e65200b946e",
+      "name": "Codec Support",
+      "value": "LDAC, AAC, SBC",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c9aabdde-d700-400b-8ea5-bd420f32093e",
+      "product_id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "name": "Driver Size",
+      "value": "Custom Apple H3",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4bd21af7-d33a-41f1-b800-cbe78465dfb0",
+      "product_id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "name": "ANC",
+      "value": "Yes (Adaptive Transparency)",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2016d8d9-1ac2-4b4a-bdd5-e628cc9fb932",
+      "product_id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "name": "Battery Life",
+      "value": "7.5 + 30",
+      "unit": "hours",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "51e47a08-0e76-4714-8fa9-97ad2e72f655",
+      "product_id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "name": "Water Resistance",
+      "value": "IP54",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "29495b4a-5255-424e-bb38-8abb2c1d8f7d",
+      "product_id": "b7fedcea-27cc-4e46-8625-fb3421485f93",
+      "name": "Codec Support",
+      "value": "AAC",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "5b05d75d-fa4b-4ab2-a445-d48f7bf94d0a",
+      "product_id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "name": "Driver Size",
+      "value": "7",
+      "unit": "mm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "107044d7-06fb-46d2-b4fc-40850f09c026",
+      "product_id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "name": "ANC",
+      "value": "Yes (Adaptive)",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f3535d23-16a0-4597-aa4a-e74b5053f428",
+      "product_id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "name": "Battery Life",
+      "value": "7.5 + 24",
+      "unit": "hours",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "067dbaf7-8950-427d-8d83-0b5cfe376570",
+      "product_id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "name": "Water Resistance",
+      "value": "IP54",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "1e3d3b85-85a1-4939-a490-aa8b86668226",
+      "product_id": "07c0e43c-bdab-446b-a511-46a9a88159fd",
+      "name": "Codec Support",
+      "value": "aptX, AAC, SBC, LC3",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c275717b-b42c-4ca6-a6be-ce1cde7f783e",
+      "product_id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "name": "Driver Size",
+      "value": "10.5",
+      "unit": "mm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9cfbe6f0-ed40-4220-a466-f0f62f30f36a",
+      "product_id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "name": "ANC",
+      "value": "Yes (Intelligent)",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "cda809a6-0112-4d03-9474-b9d7810e5058",
+      "product_id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "name": "Battery Life",
+      "value": "7 + 26",
+      "unit": "hours",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3919cd93-a8ef-458e-811a-4ac717499d99",
+      "product_id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "name": "Water Resistance",
+      "value": "IP57",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6a90b898-35ba-48a4-ab33-3ef70eaebed6",
+      "product_id": "bfa0f475-659d-4184-83b2-60a7928ac7cf",
+      "name": "Codec Support",
+      "value": "Samsung Scalable, AAC, SBC",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f90ebdec-a401-49fc-9eb4-9afb9a20865d",
+      "product_id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "name": "Driver Size",
+      "value": "11",
+      "unit": "mm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2d46bbb0-c7c5-4677-8a36-1dc81c125ce8",
+      "product_id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "name": "ANC",
+      "value": "Yes",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "aedcb5e8-d6e7-4902-aca3-fb67560832f9",
+      "product_id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "name": "Battery Life",
+      "value": "6.5 + 28",
+      "unit": "hours",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "7281769b-eae0-4b5f-931c-28c02d60cab3",
+      "product_id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "name": "Water Resistance",
+      "value": "IP54",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f382297a-afd8-4252-8785-60fef77585cf",
+      "product_id": "5fadb575-3651-4f51-b516-36e9c7166f1a",
+      "name": "Codec Support",
+      "value": "LDAC, AAC, SBC",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2d05f282-66f3-489f-936c-d35860544817",
+      "product_id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "name": "Driver Size",
+      "value": "6.5",
+      "unit": "mm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "238ef788-5f98-455c-af3f-5b936abffb83",
+      "product_id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "name": "ANC",
+      "value": "Yes",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "119787a6-fc8a-4a62-9d28-5c2a17e11f15",
+      "product_id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "name": "Battery Life",
+      "value": "6 + 21",
+      "unit": "hours",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b7009bf1-871c-40fe-9b08-986f97595fbe",
+      "product_id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "name": "Water Resistance",
+      "value": "IPX2",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0f29085c-0c9d-4851-9d43-7f4bd43b3b42",
+      "product_id": "c42cfd6a-876b-47f1-82d4-57fb4e64394e",
+      "name": "Codec Support",
+      "value": "Samsung Scalable, AAC, SBC",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "3b45155c-9b6d-4756-9766-42edfc5ee1a7",
+      "product_id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "name": "CADR (Smoke)",
+      "value": "246",
+      "unit": "cfm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "9293b993-2024-4052-b380-e4199a214d76",
+      "product_id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "name": "Room Coverage",
+      "value": "930",
+      "unit": "sq ft",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "876d55bd-f2de-419f-a941-fae899f4de11",
+      "product_id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "name": "Filter Type",
+      "value": "True HEPA + Activated Carbon",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "2275010d-edbe-46e2-9e82-320cb8e211b0",
+      "product_id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "name": "Noise Level",
+      "value": "22–49",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "578266ec-70d8-4723-9e0e-f5f12d37549d",
+      "product_id": "ce18426f-2a82-4c63-8b54-bf132140b229",
+      "name": "Smart Features",
+      "value": "Wi-Fi, Air Quality Indicator",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "1a9fa157-ebc0-4372-b556-812a4e6fb17b",
+      "product_id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "name": "CADR (Smoke)",
+      "value": "330",
+      "unit": "cfm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4f175cca-8a44-4a9f-b484-443d4c0b2066",
+      "product_id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "name": "Room Coverage",
+      "value": "1,076",
+      "unit": "sq ft",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f20b0693-12bd-48ba-aa4a-81de14891e65",
+      "product_id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "name": "Filter Type",
+      "value": "HEPA H13 + Catalytic Oxidation",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "59456f2d-e621-46b8-9b97-7d44a8f2f7e3",
+      "product_id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "name": "Noise Level",
+      "value": "19–56",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "cb4151c2-0e02-4ad8-9741-2797cb46264f",
+      "product_id": "562b123f-c459-4de8-8982-9d169c2a4176",
+      "name": "Smart Features",
+      "value": "Wi-Fi, Dyson App, Alexa/Siri",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "710b8c53-5467-4506-8640-00d5b9d6f275",
+      "product_id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "name": "CADR (Smoke)",
+      "value": "248",
+      "unit": "cfm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "77968c2a-f14f-48e2-a0e3-9f0d11e996b9",
+      "product_id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "name": "Room Coverage",
+      "value": "929",
+      "unit": "sq ft",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "d7da6925-efd4-4344-af5e-d69969df4055",
+      "product_id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "name": "Filter Type",
+      "value": "HEPASilent + Carbon",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "fd776c23-93f6-45d5-b6a2-7fe196c7fe28",
+      "product_id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "name": "Noise Level",
+      "value": "23–53",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "43139f6e-9a7a-4f15-8481-712ce93b1e30",
+      "product_id": "8f5db349-adef-4c07-b9a8-8aa81d27cab5",
+      "name": "Smart Features",
+      "value": "Wi-Fi, Blueair App",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "15c94e1d-b0a6-4242-841b-9bd7ef5f58e3",
+      "product_id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "name": "CADR (Smoke)",
+      "value": "141",
+      "unit": "cfm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "8e1c9a8d-53e8-4ec8-8e67-e3d4c9803d89",
+      "product_id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "name": "Room Coverage",
+      "value": "547",
+      "unit": "sq ft",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "c9f71d07-c110-4067-bb1e-6e6c63bfafbf",
+      "product_id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "name": "Filter Type",
+      "value": "True HEPA H13",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "4411a376-2aa2-4020-992f-2b86f1b55cf3",
+      "product_id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "name": "Noise Level",
+      "value": "24–48",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e8928ad7-1c90-4b2c-b5d9-eeb7293609ff",
+      "product_id": "f8b2214c-7575-44e3-aef6-4c7b50263ebb",
+      "name": "Smart Features",
+      "value": "Wi-Fi, VeSync App, Alexa/Google",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "1aa728c1-f192-4f04-ada7-807353271d8e",
+      "product_id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "name": "CADR (Smoke)",
+      "value": "243",
+      "unit": "cfm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "fd699a0e-9b81-4d05-894b-25fa3604e253",
+      "product_id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "name": "Room Coverage",
+      "value": "360",
+      "unit": "sq ft",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6a9a38bf-c472-423f-aece-5eb2b30bbc37",
+      "product_id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "name": "Filter Type",
+      "value": "True HEPA + PlasmaWave",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0b2c187f-e1c0-4be3-9634-b7cc97fd4bfa",
+      "product_id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "name": "Noise Level",
+      "value": "27–56",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "69d0ab5e-2913-4d5a-a428-aed6e5f3d45f",
+      "product_id": "a4a8f792-4eef-4c3c-b489-f81d1b2c284f",
+      "name": "Smart Features",
+      "value": "Auto Mode, Light Sensor",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "49ca05a4-42a4-46ce-8cd3-90feeb67a55c",
+      "product_id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "name": "CADR (Smoke)",
+      "value": "68",
+      "unit": "cfm",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "1fbc4619-d331-4bc0-985d-d413ee7990f1",
+      "product_id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "name": "Room Coverage",
+      "value": "250",
+      "unit": "sq ft",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "aa29fa04-66c1-4a7a-bed5-06a568fa1f61",
+      "product_id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "name": "Filter Type",
+      "value": "PECO + HEPA",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b90edce6-9710-4efb-a3d6-3767ad1967d9",
+      "product_id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "name": "Noise Level",
+      "value": "30–58",
+      "unit": "dB",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "d2c119a6-2d35-48c2-a23a-b218877d6c90",
+      "product_id": "c78ff808-a039-44b6-9d15-c3d518f602c0",
+      "name": "Smart Features",
+      "value": "Wi-Fi, Molekule App",
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ],
+  "assets": [],
+  "faqs": [
+    {
+      "id": "c893c0f4-2219-49bd-a194-5211c7b60faf",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "question": "How long should I stand at a standing desk each day?",
+      "answer": "Most ergonomics experts recommend alternating between sitting and standing every 30–60 minutes. Aim for 2–4 hours of standing total per day and gradually build up. The key is movement, not standing all day.",
+      "display_order": 1,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "01d3b5f1-bc04-472d-aa77-436f1347c4e4",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "question": "Do standing desks really improve health?",
+      "answer": "Research shows standing desks can reduce back pain, improve energy levels, and slightly increase calorie burn. However, they're most effective as part of an active routine that includes regular movement and proper ergonomics.",
+      "display_order": 2,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "6f29d9db-0390-46f6-a93d-f9c534c691ef",
+      "ranking_id": "c650b7af-a403-4f6c-90c0-75ba13006d91",
+      "question": "What's the ideal height for a standing desk?",
+      "answer": "Your elbows should be at roughly 90 degrees when typing. For most people, this means the desk surface should be at elbow height. Use a desk height calculator or adjust until your wrists are straight and shoulders relaxed.",
+      "display_order": 3,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "162365d8-184d-451c-be6d-072541b8f444",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "question": "Do wireless earbuds sound as good as wired?",
+      "answer": "Modern flagship wireless earbuds with LDAC or aptX codecs have closed the gap significantly. For critical listening, wired still has a slight edge, but for everyday use the difference is imperceptible to most listeners.",
+      "display_order": 1,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "b5e7f30c-d022-4888-adaf-8126d99fd793",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "question": "How important is ANC in wireless earbuds?",
+      "answer": "Active noise cancellation is a game-changer for commuting, flying, and open offices. However, if you primarily use earbuds at home or in quiet environments, you may not need premium ANC—transparency mode is often more useful day-to-day.",
+      "display_order": 2,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "f3254109-5947-4451-9045-f35f2568cd6e",
+      "ranking_id": "e66cf277-c0e7-4529-bc32-f44d5a4782fb",
+      "question": "Can I use wireless earbuds for working out?",
+      "answer": "Yes, but check the IP rating. IPX4 handles sweat, while IP55+ is better for rain or intense workouts. Also consider fit—wing tips or ear hooks provide more security during movement than standard tips.",
+      "display_order": 3,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "0b8a01f0-7d29-4e42-ac2a-f9d547c24bb2",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "question": "What does CADR mean and why does it matter?",
+      "answer": "CADR (Clean Air Delivery Rate) measures how quickly a purifier filters smoke, dust, and pollen from the air, in cubic feet per minute. Higher CADR = faster air cleaning. Match the CADR to your room size for optimal performance.",
+      "display_order": 1,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e44a7225-ddf4-42f5-aa92-4e6959c7b348",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "question": "How often should I replace air purifier filters?",
+      "answer": "Most HEPA filters last 6–12 months with regular use. Carbon/activated charcoal filters may need replacing every 3–6 months. Check your purifier's indicator or app for filter life tracking—running with old filters reduces effectiveness significantly.",
+      "display_order": 2,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    },
+    {
+      "id": "e66d5812-d8db-4fc7-93b0-99f72d9bef04",
+      "ranking_id": "64345733-d412-4488-858d-ef98ed546ae3",
+      "question": "Do air purifiers help with allergies?",
+      "answer": "Yes, HEPA-rated purifiers capture 99.97% of particles like pollen, dust mites, and pet dander. They're one of the most effective tools for allergy sufferers. For best results, run the purifier continuously in the room where you spend the most time.",
+      "display_order": 3,
+      "created_at": "2026-03-19T06:04:42.757Z",
+      "updated_at": "2026-03-19T06:04:42.757Z"
+    }
+  ]
+}
