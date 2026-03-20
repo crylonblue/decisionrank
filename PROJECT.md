@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-20:** SEO structured data pass (commit f5dd3ae, auto-deployed via Vercel).
+  - Homepage: Added **WebSite JSON-LD** (enables Google Sitelinks Search Box with `/?search=` action) + **Organization JSON-LD**
+  - Category pages: Added **ItemList JSON-LD** for ranking listings (positions, URLs, descriptions)
+  - Search results page: Added `robots: noindex, follow` to prevent thin search-result pages from polluting the index
+  - New `lib/seo.ts` helpers: `generateWebSiteJsonLd`, `generateOrganizationJsonLd`, `generateItemListJsonLd`
+  - **Still blocked:** Seed data for 3 new categories (Standing Desks, Wireless Earbuds, Air Purifiers) ready but Convex deployment `wooden-trout-116` inaccessible — needs Till's auth or deploy key.
 - **2026-03-19:** Created seed data for 3 new categories: Standing Desks, Wireless Earbuds, Air Purifiers.
   - 18 products (6 per category), 96 sentiments (pros/cons), 90 specifications, 9 FAQs
   - Scripts committed: `scripts/seed-new-categories.mjs` (generates payload), `scripts/run-seed.mjs` (imports via Convex HTTP client)
