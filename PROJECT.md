@@ -18,10 +18,7 @@ Editorial product ranking/comparison site with category landing pages, detail pa
   - 18 products (6 per category), 96 sentiments (pros/cons), 90 specifications, 9 FAQs
   - Scripts committed: `scripts/seed-new-categories.mjs` (generates payload), `scripts/run-seed.mjs` (imports via Convex HTTP client)
   - Payload ready at `scripts/.seed-payload.json`
-  - **⚠️ BLOCKED:** Convex deployment `wooden-trout-116` returns 404 (likely paused). No Convex auth configured on this machine. Need Till to either:
-    1. Run `npx convex login` then `npx convex run imports:importSnapshot "$(cat scripts/.seed-payload.json)"`
-    2. Or provide a Convex deploy key for the DecisionRank deployment
-    3. Or set `CONVEX_URL=<url> node scripts/run-seed.mjs`
+  - ✅ **SEEDED (2026-03-20):** Successfully imported 3 new categories, 18 products, 96 sentiments, 90 specs, 9 FAQs into Convex.
 - **2026-03-17:** Smoke-test passed + Supabase cleanup completed.
   - **Smoke-test results (all ✅):**
     - Homepage (200, renders rankings)
