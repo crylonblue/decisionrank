@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getBaseUrl } from '@/lib/seo';
+import { getBaseUrl, generateWebSiteJsonLd, generateOrganizationJsonLd } from '@/lib/seo';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +27,7 @@ export async function generateMetadata({ searchParams }: RankingsPageProps): Pro
     return {
       title: `Search Results for "${search}" | DecisionRank`,
       description: `Search results for "${search}" - Find product rankings and comparisons`,
+      robots: { index: false, follow: true }, // Prevent thin search-result pages from being indexed
       alternates: {
         canonical: searchUrl,
       },
@@ -149,8 +150,21 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   }
 
   // Landing page with hero and showcase
+  const webSiteJsonLd = generateWebSiteJsonLd();
+  const orgJsonLd = generateOrganizationJsonLd();
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      {/* WebSite JSON-LD — enables Google Sitelinks Search Box */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteJsonLd) }}
+      />
+      {/* Organization JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+      />
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

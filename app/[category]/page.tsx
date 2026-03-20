@@ -8,7 +8,7 @@ import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import type { Ranking } from '@/lib/types';
 import type { Metadata } from 'next';
-import { getBaseUrl, generateBreadcrumbJsonLd } from '@/lib/seo';
+import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
@@ -89,12 +89,28 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   ];
   const breadcrumbJsonLd = generateBreadcrumbJsonLd(breadcrumbItems);
 
+  // ItemList JSON-LD — helps Google understand the ranking listings on this page
+  const itemListJsonLd = generateItemListJsonLd(
+    `${category.name} Rankings`,
+    paginatedRankings.map((ranking: Ranking, index: number) => ({
+      name: ranking.question,
+      url: `${baseUrl}/${category.slug}/${ranking.slug}`,
+      position: startIndex + index + 1,
+      description: ranking.description || undefined,
+    })),
+  );
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Breadcrumb JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      {/* ItemList JSON-LD — ranking listings */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
