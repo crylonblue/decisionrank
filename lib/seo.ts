@@ -106,6 +106,75 @@ export interface ItemListEntry {
   description?: string;
 }
 
+/**
+ * Generate JSON-LD for a Product with AggregateRating.
+ * Maps DecisionRank's 0-100 score to a 1-5 star scale for schema.org compatibility.
+ */
+export interface ProductJsonLdInput {
+  name: string;
+  url?: string;          // product external link
+  image?: string;        // first asset URL
+  description?: string;  // assembled from pros
+  score: number;         // 0-100
+  rankPosition: number;
+  categoryName: string;
+  rankingQuestion: string;
+  /** Total number of sentiments (pros + cons + comments) used as reviewCount */
+  reviewCount: number;
+  specifications?: Array<{ name: string; value: string; unit?: string | null }>;
+}
+
+export function generateProductJsonLd(
+  product: ProductJsonLdInput,
+  pageUrl: string,
+): object {
+  // Map 0-100 score to 1-5 scale (linear: 0→1, 100→5)
+  const ratingValue = Math.round(((product.score / 100) * 4 + 1) * 10) / 10;
+
+  const jsonLd: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    category: product.categoryName,
+    ...(product.image ? { image: product.image } : {}),
+    ...(product.url ? { url: product.url } : {}),
+    ...(product.description ? { description: product.description } : {}),
+    review: {
+      '@type': 'Review',
+      author: {
+        '@type': 'Organization',
+        name: 'DecisionRank',
+      },
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue,
+        bestRating: 5,
+        worstRating: 1,
+      },
+      name: product.rankingQuestion,
+      url: pageUrl,
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue,
+      bestRating: 5,
+      worstRating: 1,
+      reviewCount: Math.max(product.reviewCount, 1),
+    },
+  };
+
+  // Add key specifications as additionalProperty
+  if (product.specifications && product.specifications.length > 0) {
+    jsonLd.additionalProperty = product.specifications.slice(0, 8).map((spec) => ({
+      '@type': 'PropertyValue',
+      name: spec.name,
+      value: `${spec.value}${spec.unit ? ` ${spec.unit}` : ''}`,
+    }));
+  }
+
+  return jsonLd;
+}
+
 export function generateItemListJsonLd(
   listName: string,
   items: ItemListEntry[],

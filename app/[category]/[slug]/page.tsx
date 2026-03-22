@@ -11,7 +11,7 @@ import { FAQSection } from '@/components/faq-section';
 import { RelatedRankings } from '@/components/related-rankings';
 import type { RankingProductWithDetails, FAQ } from '@/lib/types';
 import type { Metadata } from 'next';
-import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd } from '@/lib/seo';
+import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd } from '@/lib/seo';
 
 export const dynamic = 'force-dynamic';
 
@@ -90,6 +90,39 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
     ? generateFAQJsonLd(faqs.map((faq: FAQ) => ({ question: faq.question, answer: faq.answer })))
     : null;
 
+  // Generate Product JSON-LD for each ranked product (rich snippets with star ratings)
+  const pageUrl = `${baseUrl}/${categorySlug}/${slug}`;
+  const productJsonLds = ranking_products.map((rp: RankingProductWithDetails) => {
+    // Assemble description from top pros
+    const pros = rp.sentiments
+      .filter((s) => s.type === 'pro')
+      .slice(0, 3)
+      .map((s) => s.headline || s.content);
+    const description = pros.length > 0
+      ? `Key strengths: ${pros.join('; ')}`
+      : undefined;
+
+    return generateProductJsonLd(
+      {
+        name: rp.product.name,
+        url: rp.product.link || undefined,
+        image: rp.product.assets?.[0]?.url,
+        description,
+        score: rp.score,
+        rankPosition: rp.rank_position,
+        categoryName: category.name,
+        rankingQuestion: ranking.question,
+        reviewCount: rp.sentiments.length,
+        specifications: rp.specifications.map((s) => ({
+          name: s.name,
+          value: s.value,
+          unit: s.unit,
+        })),
+      },
+      pageUrl,
+    );
+  });
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Breadcrumb JSON-LD */}
@@ -105,6 +138,14 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
+      {/* Product JSON-LD — one per ranked product for rich snippets */}
+      {productJsonLds.map((jsonLd: object, i: number) => (
+        <script
+          key={`product-jsonld-${i}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      ))}
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
