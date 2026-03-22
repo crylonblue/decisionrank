@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-22:** Product JSON-LD structured data on ranking detail pages (commit 70102e9, auto-deployed via Vercel).
+  - New `generateProductJsonLd` helper in `lib/seo.ts`
+  - Maps 0-100 DecisionRank scores → 1-5 star scale for schema.org `AggregateRating`
+  - Each ranked product gets its own Product JSON-LD block with: `Review` (by DecisionRank org), `AggregateRating`, `additionalProperty` (top 8 specs), description from top pros
+  - Enables rich snippets (star ratings, product info) in Google search results
+  - **Structured data coverage now:** WebSite, Organization, BreadcrumbList, ItemList, FAQPage, Product — all major page types covered
 - **2026-03-20:** SEO structured data pass (commit f5dd3ae, auto-deployed via Vercel).
   - Homepage: Added **WebSite JSON-LD** (enables Google Sitelinks Search Box with `/?search=` action) + **Organization JSON-LD**
   - Category pages: Added **ItemList JSON-LD** for ranking listings (positions, URLs, descriptions)
