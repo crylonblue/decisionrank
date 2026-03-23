@@ -8,6 +8,15 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-23:** Added "How We Rank" methodology page for E-E-A-T (commit e9fe22f, auto-deployed via Vercel).
+  - New `/how-we-rank` page: score explainer (0–100 → Excellent/Good/Below Average), 6-step process (Research, Scoring, Sentiment, Verdict, Updates, Independence), FAQ section
+  - Structured data: BreadcrumbList + HowTo + FAQPage JSON-LD
+  - New `generateHowWeRankJsonLd()` helper in `lib/seo.ts`
+  - Internal linking: ranking detail pages now link to methodology ("Scores are based on our research-backed methodology")
+  - Footer updated: "How We Rank" link added alongside Imprint and Privacy Policy
+  - Sitemap: `/how-we-rank` entry added (priority 0.6, monthly)
+  - Files changed: `app/how-we-rank/page.tsx` (new), `app/[category]/[slug]/page.tsx`, `app/sitemap.ts`, `components/footer.tsx`, `lib/seo.ts`
+  - **Impact:** Strengthens E-E-A-T signals (Expertise, Experience, Authoritativeness, Trustworthiness) — Google rewards transparent methodology for YMYL-adjacent product review content
 - **2026-03-22:** Product JSON-LD structured data on ranking detail pages (commit 70102e9, auto-deployed via Vercel).
   - New `generateProductJsonLd` helper in `lib/seo.ts`
   - Maps 0-100 DecisionRank scores → 1-5 star scale for schema.org `AggregateRating`
