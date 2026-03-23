@@ -34,6 +34,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly',
       priority: 0.7,
     },
+    {
+      // Methodology page — important for E-E-A-T signals.
+      url: `${baseUrl}/how-we-rank`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
   ];
 
   // Fetch all categories with pagination URLs

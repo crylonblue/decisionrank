@@ -175,6 +175,54 @@ export function generateProductJsonLd(
   return jsonLd;
 }
 
+/**
+ * Generate JSON-LD for the "How We Rank" methodology page.
+ * Uses schema.org HowTo to describe the ranking process.
+ */
+export function generateHowWeRankJsonLd(): object {
+  const baseUrl = getBaseUrl();
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'How DecisionRank Evaluates and Ranks Products',
+    description:
+      'Our transparent, research-backed methodology for creating editorial product rankings.',
+    url: `${baseUrl}/how-we-rank`,
+    step: [
+      {
+        '@type': 'HowToStep',
+        position: 1,
+        name: 'Research & Discovery',
+        text: 'Identify products that matter most in a category by analyzing market share, consumer interest, and expert coverage.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 2,
+        name: 'Data-Driven Scoring',
+        text: 'Score each product from 0 to 100 using weighted, category-specific criteria including specifications, benchmarks, and value for money.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 3,
+        name: 'Sentiment Analysis',
+        text: 'Aggregate verified user reviews and expert opinions to surface common pros, cons, and real-world experiences.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 4,
+        name: 'Editorial Verdict',
+        text: 'Synthesize quantitative scores and qualitative sentiment into a final ranking order with editorial judgment.',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 5,
+        name: 'Continuous Updates',
+        text: 'Revisit rankings periodically to incorporate new releases, price changes, and shifting user sentiment.',
+      },
+    ],
+  };
+}
+
 export function generateItemListJsonLd(
   listName: string,
   items: ItemListEntry[],

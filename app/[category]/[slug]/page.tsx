@@ -206,6 +206,15 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           </Card>
         )}
 
+        {/* Methodology callout — E-E-A-T internal link */}
+        <p className="text-sm text-muted-foreground mb-8">
+          Scores are based on our{' '}
+          <Link href="/how-we-rank" className="text-slate-600 underline hover:text-slate-800">
+            research-backed methodology
+          </Link>
+          .
+        </p>
+
         {/* Ranking Table */}
         <RankingTable
           rankingProducts={ranking_products}
