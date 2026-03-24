@@ -10,6 +10,7 @@ import type { Ranking } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Breadcrumbs } from '@/components/breadcrumbs';
 
 export const dynamic = 'force-dynamic';
 
@@ -127,13 +128,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
       </Suspense>
       <main className="flex-1">
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Back link */}
-        <Link
-          href="/"
-          className="mb-6 inline-flex items-center text-sm text-muted-foreground hover:text-slate-600 transition-colors"
-        >
-          ← Back to rankings
-        </Link>
+        {/* Breadcrumb navigation */}
+        <Breadcrumbs items={[{ label: category.name }]} />
 
         {/* Category Header */}
         <div className="mb-8">

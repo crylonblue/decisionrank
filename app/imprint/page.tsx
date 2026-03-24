@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { Navigation } from '@/components/navigation';
+import { Breadcrumbs } from '@/components/breadcrumbs';
 import { Footer } from '@/components/footer';
 import { Card, CardContent } from '@/components/ui/card';
 import type { Metadata } from 'next';
@@ -45,13 +46,8 @@ export default function ImprintPage() {
       </Suspense>
       <main className="flex-1">
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-          {/* Back link */}
-          <Link
-            href="/"
-            className="mb-6 inline-flex items-center text-sm text-muted-foreground hover:text-slate-600 transition-colors"
-          >
-            ← Back to home
-          </Link>
+          {/* Breadcrumb navigation */}
+          <Breadcrumbs items={[{ label: 'Imprint' }]} />
 
           {/* Page Header */}
           <div className="mb-8">

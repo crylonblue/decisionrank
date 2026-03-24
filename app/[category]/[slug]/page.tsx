@@ -12,6 +12,7 @@ import { RelatedRankings } from '@/components/related-rankings';
 import type { RankingProductWithDetails, FAQ } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd } from '@/lib/seo';
+import { Breadcrumbs } from '@/components/breadcrumbs';
 
 export const dynamic = 'force-dynamic';
 
@@ -161,24 +162,13 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
       </Suspense>
       <main className="flex-1">
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Breadcrumbs */}
-        <nav className="mb-6 flex items-center gap-2 text-sm text-muted-foreground" aria-label="Breadcrumb">
-          <Link
-            href="/"
-            className="hover:text-slate-600 transition-colors"
-          >
-            Home
-          </Link>
-          <span className="text-muted-foreground">/</span>
-          <Link
-            href={`/${category.slug}`}
-            className="hover:text-slate-600 transition-colors"
-          >
-            {category.name}
-          </Link>
-          <span className="text-muted-foreground">/</span>
-          <span className="text-foreground font-medium">{ranking.question}</span>
-        </nav>
+        {/* Breadcrumb navigation */}
+        <Breadcrumbs
+          items={[
+            { label: category.name, href: `/${category.slug}` },
+            { label: ranking.question },
+          ]}
+        />
 
         {/* Question */}
         <h1 className="text-5xl font-bold text-foreground mb-4 tracking-tight">

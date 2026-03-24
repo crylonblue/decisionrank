@@ -7,6 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
+import { Breadcrumbs } from '@/components/breadcrumbs';
 
 export const dynamic = 'force-dynamic';
 
@@ -55,13 +56,8 @@ export default async function CategoriesPage() {
       </Suspense>
       <main className="flex-1">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          {/* Back link */}
-          <Link
-            href="/"
-            className="mb-6 inline-flex items-center text-sm text-muted-foreground hover:text-slate-600 transition-colors"
-          >
-            ← Back to home
-          </Link>
+          {/* Breadcrumb navigation */}
+          <Breadcrumbs items={[{ label: 'All Categories' }]} />
 
           {/* Page Header */}
           <div className="mb-12 text-center">

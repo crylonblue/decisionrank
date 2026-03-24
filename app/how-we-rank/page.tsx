@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import Link from 'next/link';
 import { Navigation } from '@/components/navigation';
+import { Breadcrumbs } from '@/components/breadcrumbs';
 import { Footer } from '@/components/footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import type { Metadata } from 'next';
@@ -139,13 +140,8 @@ export default function HowWeRankPage() {
 
       <main className="flex-1">
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-          {/* Back link */}
-          <Link
-            href="/"
-            className="mb-6 inline-flex items-center text-sm text-muted-foreground hover:text-slate-600 transition-colors"
-          >
-            ← Back to home
-          </Link>
+          {/* Breadcrumb navigation */}
+          <Breadcrumbs items={[{ label: 'How We Rank' }]} />
 
           {/* Page header */}
           <div className="mb-12">
