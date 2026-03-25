@@ -8,6 +8,22 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-25:** Added dynamic Open Graph & Twitter Card images for all page types (commit ab2a0b7, auto-deployed via Vercel).
+  - Homepage: branded 1200×630 image with DR logo mark, site name, and tagline
+  - Category pages: category-specific icon + name + branded layout (icon map for all 15 categories)
+  - Ranking detail pages: category badge, ranking question as headline, top 3 product names, product count
+  - All use edge runtime, consistent dark gradient theme (slate-900 → slate-700 + indigo accent)
+  - Separate `opengraph-image.tsx` and `twitter-image.tsx` at each route level (Next.js requires static config exports)
+  - Files changed: `app/opengraph-image.tsx` (new), `app/twitter-image.tsx` (new), `app/[category]/opengraph-image.tsx` (new), `app/[category]/twitter-image.tsx` (new), `app/[category]/[slug]/opengraph-image.tsx` (new), `app/[category]/[slug]/twitter-image.tsx` (new)
+  - **Impact:** Social shares (Twitter, LinkedIn, Slack, Telegram, Discord) and Google Discover now show rich preview images instead of plain text cards — significantly improves CTR on shared links
+- **2026-03-24:** Added shared Breadcrumbs component across all pages (commit 185e6f6, auto-deployed via Vercel).
+  - New reusable `components/breadcrumbs.tsx`: Home icon + chevron separators, accessible `aria-label="Breadcrumb"`, current page shown as bold text (no link)
+  - Replaced ad-hoc "← Back to home/rankings" links on 6 pages with consistent breadcrumb navigation
+  - Category pages: Home › Category Name
+  - Ranking detail pages: Home › Category › Ranking Question (was already inline breadcrumbs, now uses shared component)
+  - Categories index, How We Rank, Imprint, Privacy Policy: Home › Page Name
+  - Files changed: `components/breadcrumbs.tsx` (new), `app/[category]/[slug]/page.tsx`, `app/[category]/page.tsx`, `app/categories/page.tsx`, `app/how-we-rank/page.tsx`, `app/imprint/page.tsx`, `app/privacy-policy/page.tsx`
+  - **Impact:** Improves navigation UX, adds consistent internal linking from every page, and reinforces existing BreadcrumbList JSON-LD structured data — Google cross-references visible breadcrumbs with structured data for richer search results
 - **2026-03-23:** Added "How We Rank" methodology page for E-E-A-T (commit e9fe22f, auto-deployed via Vercel).
   - New `/how-we-rank` page: score explainer (0–100 → Excellent/Good/Below Average), 6-step process (Research, Scoring, Sentiment, Verdict, Updates, Independence), FAQ section
   - Structured data: BreadcrumbList + HowTo + FAQPage JSON-LD
