@@ -1,10 +1,11 @@
-import { getAllCategories } from '@/lib/data';
+import { getAllCategories, getRankingCountsByCategory } from '@/lib/data';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
 import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/breadcrumbs';
@@ -38,6 +39,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function CategoriesPage() {
   const categories = await getAllCategories();
+  const rankingCounts = await getRankingCountsByCategory();
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -80,31 +82,41 @@ export default async function CategoriesPage() {
             </Card>
           ) : (
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {categories.map((category) => (
-                <Link
-                  key={category.id}
-                  href={`/${category.slug}`}
-                >
-                  <Card className="group h-full transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
-                    <CardHeader>
-                      <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">
-                        {category.name}
-                      </CardTitle>
-                      {category.description && (
-                        <CardDescription className="line-clamp-2 mt-2">
-                          {category.description}
-                        </CardDescription>
-                      )}
-                    </CardHeader>
-                    <CardContent>
-                      <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
-                        View Category
-                        <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                      </div>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
+              {categories.map((category) => {
+                const count = rankingCounts[category.id] || 0;
+                return (
+                  <Link
+                    key={category.id}
+                    href={`/${category.slug}`}
+                  >
+                    <Card className="group h-full transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
+                      <CardHeader>
+                        <div className="flex items-start justify-between gap-2">
+                          <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">
+                            {category.name}
+                          </CardTitle>
+                          {count > 0 && (
+                            <Badge variant="secondary" className="text-xs shrink-0">
+                              {count} {count === 1 ? 'ranking' : 'rankings'}
+                            </Badge>
+                          )}
+                        </div>
+                        {category.description && (
+                          <CardDescription className="line-clamp-2 mt-2">
+                            {category.description}
+                          </CardDescription>
+                        )}
+                      </CardHeader>
+                      <CardContent>
+                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
+                          View Category
+                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                );
+              })}
             </div>
           )}
         </div>

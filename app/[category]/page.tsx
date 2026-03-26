@@ -10,6 +10,7 @@ import type { Ranking } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 
 export const dynamic = 'force-dynamic';
@@ -133,9 +134,16 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
         {/* Category Header */}
         <div className="mb-8">
-          <h1 className="text-5xl font-bold text-foreground mb-3 tracking-tight">
-            {category.name}
-          </h1>
+          <div className="flex items-start gap-3 mb-3">
+            <h1 className="text-5xl font-bold text-foreground tracking-tight">
+              {category.name}
+            </h1>
+            {totalRankings > 0 && (
+              <Badge variant="secondary" className="text-sm mt-2 shrink-0">
+                {totalRankings} {totalRankings === 1 ? 'ranking' : 'rankings'}
+              </Badge>
+            )}
+          </div>
           {category.description && (
             <p className="text-lg text-muted-foreground">
               {category.description}

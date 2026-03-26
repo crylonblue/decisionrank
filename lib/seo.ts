@@ -223,6 +223,53 @@ export function generateHowWeRankJsonLd(): object {
   };
 }
 
+/**
+ * Generate JSON-LD for an Article (ranking detail pages).
+ * Provides datePublished / dateModified + author / publisher signals for E-E-A-T.
+ */
+export interface ArticleJsonLdInput {
+  headline: string;
+  description?: string;
+  url: string;
+  datePublished: string; // ISO 8601
+  dateModified: string;  // ISO 8601
+  image?: string;
+  categoryName: string;
+}
+
+export function generateArticleJsonLd(article: ArticleJsonLdInput): object {
+  const baseUrl = getBaseUrl();
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.headline,
+    ...(article.description ? { description: article.description } : {}),
+    url: article.url,
+    datePublished: article.datePublished,
+    dateModified: article.dateModified,
+    ...(article.image ? { image: article.image } : {}),
+    author: {
+      '@type': 'Organization',
+      name: 'DecisionRank',
+      url: baseUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'DecisionRank',
+      url: baseUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/favicon.svg`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': article.url,
+    },
+    articleSection: article.categoryName,
+  };
+}
+
 export function generateItemListJsonLd(
   listName: string,
   items: ItemListEntry[],

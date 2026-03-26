@@ -11,7 +11,8 @@ import { FAQSection } from '@/components/faq-section';
 import { RelatedRankings } from '@/components/related-rankings';
 import type { RankingProductWithDetails, FAQ } from '@/lib/types';
 import type { Metadata } from 'next';
-import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd } from '@/lib/seo';
+import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd, generateArticleJsonLd } from '@/lib/seo';
+import { Calendar, Clock } from 'lucide-react';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 
 export const dynamic = 'force-dynamic';
@@ -124,6 +125,28 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
     );
   });
 
+  // Article JSON-LD — E-E-A-T signals with datePublished / dateModified
+  const articleJsonLd = generateArticleJsonLd({
+    headline: ranking.question,
+    description: ranking.description || undefined,
+    url: pageUrl,
+    datePublished: ranking.created_at,
+    dateModified: ranking.updated_at,
+    categoryName: category.name,
+  });
+
+  // Format dates for display
+  const publishedDate = new Date(ranking.created_at);
+  const updatedDate = new Date(ranking.updated_at);
+  const dateFormatter = new Intl.DateTimeFormat('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+  const formattedPublished = dateFormatter.format(publishedDate);
+  const formattedUpdated = dateFormatter.format(updatedDate);
+  const showUpdatedDate = updatedDate.getTime() - publishedDate.getTime() > 86400000; // >1 day apart
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Breadcrumb JSON-LD */}
@@ -139,6 +162,11 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
+      {/* Article JSON-LD — E-E-A-T signals (datePublished, dateModified, author, publisher) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       {/* Product JSON-LD — one per ranked product for rich snippets */}
       {productJsonLds.map((jsonLd: object, i: number) => (
         <script
@@ -177,10 +205,27 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
 
         {/* Description */}
         {ranking.description && (
-          <p className="text-lg text-muted-foreground mb-8">
+          <p className="text-lg text-muted-foreground mb-4">
             {ranking.description}
           </p>
         )}
+
+        {/* Publication / last-updated dates — E-E-A-T freshness signal */}
+        <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-8">
+          <span className="flex items-center gap-1.5">
+            <Calendar className="h-3.5 w-3.5" />
+            <time dateTime={ranking.created_at}>Published {formattedPublished}</time>
+          </span>
+          {showUpdatedDate && (
+            <span className="flex items-center gap-1.5">
+              <Clock className="h-3.5 w-3.5" />
+              <time dateTime={ranking.updated_at}>Updated {formattedUpdated}</time>
+            </span>
+          )}
+          <span className="flex items-center gap-1.5">
+            {ranking_products.length} {ranking_products.length === 1 ? 'product' : 'products'} ranked
+          </span>
+        </div>
 
         {/* Verdict Summary */}
         {ranking.verdict_summary && (
