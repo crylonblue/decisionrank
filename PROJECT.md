@@ -8,6 +8,14 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-26:** Article JSON-LD, visible dates on rankings, and ranking count badges (commit f40ea17, auto-deployed via Vercel).
+  - **Article JSON-LD** on ranking detail pages: `datePublished`, `dateModified`, `author` (Organization), `publisher` with logo — major E-E-A-T signal Google uses for freshness and authority
+  - **Visible "Published" / "Updated" dates** on ranking detail pages with Calendar/Clock icons + product count ("X products ranked") — visible freshness signals reinforce JSON-LD claims
+  - **Ranking count badges** on category cards across homepage, `/categories` index, and individual category pages — improves UX by setting expectations before click-through
+  - New `generateArticleJsonLd()` helper in `lib/seo.ts` (reusable for future article-style pages)
+  - Files changed: `lib/seo.ts`, `app/[category]/[slug]/page.tsx`, `app/[category]/page.tsx`, `app/categories/page.tsx`, `app/page.tsx`
+  - **Structured data coverage now:** WebSite, Organization, BreadcrumbList, ItemList, FAQPage, Product, **Article** — all major page types and content signals covered
+  - **Impact:** Google can now surface freshness badges in search results (e.g., "Updated Mar 2026"), and the Article structured data provides clear authorship/publisher signals for E-E-A-T. Ranking count badges improve click-through from category browsing.
 - **2026-03-25:** Added dynamic Open Graph & Twitter Card images for all page types (commit ab2a0b7, auto-deployed via Vercel).
   - Homepage: branded 1200×630 image with DR logo mark, site name, and tagline
   - Category pages: category-specific icon + name + branded layout (icon map for all 15 categories)
