@@ -8,6 +8,14 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-28:** Added About page for E-E-A-T (commit 7f01b07, auto-deployed via Vercel).
+  - New `/about` page: mission statement, 6 editorial values (Research-First, Independence, Transparent Scoring, Continuously Updated, User-Centric, No Hype), coverage overview, contact info
+  - Structured data: **AboutPage** JSON-LD with nested Organization entity (foundingDate, knowsAbout) + BreadcrumbList — directly addresses Google Quality Rater "Who is behind this site?" signals
+  - Internal linking: links to `/how-we-rank` methodology and `/categories` index
+  - Footer updated: "About" link added before "How We Rank"
+  - Sitemap: `/about` entry added (priority 0.5, monthly)
+  - Files changed: `app/about/page.tsx` (new), `components/footer.tsx`, `app/sitemap.ts`
+  - **Impact:** Google's Quality Rater Guidelines explicitly look for "About Us" pages to assess E-E-A-T (Expertise, Experience, Authoritativeness, Trustworthiness). This was a clear gap — the site now has a complete E-E-A-T page set: About, How We Rank, Imprint, Privacy Policy.
 - **2026-03-26:** Article JSON-LD, visible dates on rankings, and ranking count badges (commit f40ea17, auto-deployed via Vercel).
   - **Article JSON-LD** on ranking detail pages: `datePublished`, `dateModified`, `author` (Organization), `publisher` with logo — major E-E-A-T signal Google uses for freshness and authority
   - **Visible "Published" / "Updated" dates** on ranking detail pages with Calendar/Clock icons + product count ("X products ranked") — visible freshness signals reinforce JSON-LD claims
