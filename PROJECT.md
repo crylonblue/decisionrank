@@ -8,6 +8,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-30:** Branded 404 pages, loading skeletons, dynamic hero stats (commit 6f0daa8, auto-deployed via Vercel).
+  - New root-level `/not-found.tsx`: branded 404 with navigation bar, 404 visual, three action cards (Home, Search, Categories), and footer — replaces bare Next.js default
+  - Upgraded category + ranking detail 404 pages: full layout with navigation, breadcrumbs, branded 404 visual, contextual CTAs ("Browse Categories" + "Go Home")
+  - **Loading skeletons** for 3 route levels: homepage (`app/loading.tsx`), category (`app/[category]/loading.tsx`), ranking detail (`app/[category]/[slug]/loading.tsx`) — pulse-animated placeholders matching each page's layout for better perceived performance
+  - **Fixed misleading hero stats**: was showing hardcoded "100+ Product Rankings" and "50+ Categories" — the site actually has ~36 rankings and 15 categories. HeroSection now accepts `rankingCount`/`categoryCount`/`productCount` props from the server and displays accurate numbers
+  - Files changed: `app/not-found.tsx` (new), `app/loading.tsx` (new), `app/[category]/loading.tsx` (new), `app/[category]/[slug]/loading.tsx` (new), `app/[category]/not-found.tsx`, `app/[category]/[slug]/not-found.tsx`, `components/hero-section.tsx`, `app/page.tsx`
+  - **Impact:** Better UX for dead links and slow connections. Accurate stats build trust (E-E-A-T). Branded 404 pages retain visitors who hit broken links from search or external referrers.
 - **2026-03-28:** Added About page for E-E-A-T (commit 7f01b07, auto-deployed via Vercel).
   - New `/about` page: mission statement, 6 editorial values (Research-First, Independence, Transparent Scoring, Continuously Updated, User-Centric, No Hype), coverage overview, contact info
   - Structured data: **AboutPage** JSON-LD with nested Organization entity (foundingDate, knowsAbout) + BreadcrumbList — directly addresses Google Quality Rater "Who is behind this site?" signals
