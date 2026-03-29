@@ -180,7 +180,10 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
         <Navigation />
       </Suspense>
       <main className="flex-1">
-        <HeroSection />
+        <HeroSection
+          rankingCount={rankings.length}
+          categoryCount={allCategories.length}
+        />
         
         {/* Recent Rankings Showcase */}
         <section id="rankings" className="py-20 sm:py-24">

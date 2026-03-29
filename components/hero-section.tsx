@@ -2,7 +2,18 @@
 
 import { QuickSearch } from '@/components/quicksearch';
 
-export function HeroSection() {
+interface HeroSectionProps {
+  rankingCount?: number;
+  categoryCount?: number;
+  productCount?: number;
+}
+
+export function HeroSection({ rankingCount, categoryCount, productCount }: HeroSectionProps) {
+  // Format stat display — use actual counts when available
+  const rankingStat = rankingCount ? `${rankingCount}+` : '30+';
+  const categoryStat = categoryCount ? `${categoryCount}` : '15';
+  const productStat = productCount ? `${productCount}+` : '200+';
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-slate-100 via-slate-50/60 to-background py-20 sm:py-28">
       {/* Decorative background elements */}
@@ -40,19 +51,19 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Optional Stats */}
+          {/* Stats */}
           <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-3">
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-600">100+</div>
+              <div className="text-3xl font-bold text-slate-600">{rankingStat}</div>
               <div className="mt-2 text-sm text-muted-foreground">Product Rankings</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-600">50+</div>
+              <div className="text-3xl font-bold text-slate-600">{categoryStat}</div>
               <div className="mt-2 text-sm text-muted-foreground">Categories</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-slate-600">Expert</div>
-              <div className="mt-2 text-sm text-muted-foreground">Editorial Reviews</div>
+              <div className="text-3xl font-bold text-slate-600">{productStat}</div>
+              <div className="mt-2 text-sm text-muted-foreground">Products Reviewed</div>
             </div>
           </div>
         </div>
