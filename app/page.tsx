@@ -7,7 +7,7 @@ import { HeroSection } from '@/components/hero-section';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Clock } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateWebSiteJsonLd, generateOrganizationJsonLd } from '@/lib/seo';
 
@@ -111,7 +111,13 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
               </Card>
             ) : (
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {rankings.map((ranking) => (
+                {rankings.map((ranking) => {
+                  const updatedDate = new Date(ranking.updated_at);
+                  const formattedDate = updatedDate.toLocaleDateString('en-US', {
+                    month: 'short',
+                    year: 'numeric',
+                  });
+                  return (
                 <Link
                     key={ranking.id} 
                     href={`/${ranking.category.slug}/${ranking.slug}`}
@@ -133,14 +139,21 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                         )}
                       </CardHeader>
                       <CardContent>
-                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
-                          View Ranking
-                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        <div className="flex items-center justify-between mt-4">
+                          <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                            <Clock className="h-3 w-3" />
+                            <time dateTime={ranking.updated_at}>{formattedDate}</time>
+                          </span>
+                          <span className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                            View Ranking
+                            <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                          </span>
                         </div>
                       </CardContent>
                     </Card>
                 </Link>
-              ))}
+                  );
+                })}
               </div>
             )}
           </div>
@@ -207,7 +220,13 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
           </Card>
         ) : (
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {recentRankings.map((ranking) => (
+                {recentRankings.map((ranking) => {
+                  const updatedDate = new Date(ranking.updated_at);
+                  const formattedDate = updatedDate.toLocaleDateString('en-US', {
+                    month: 'short',
+                    year: 'numeric',
+                  });
+                  return (
               <Link 
                 key={ranking.id} 
                 href={`/${ranking.category.slug}/${ranking.slug}`}
@@ -229,14 +248,21 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                     )}
                   </CardHeader>
                       <CardContent>
-                        <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
-                          View Ranking
-                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        <div className="flex items-center justify-between mt-4">
+                          <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                            <Clock className="h-3 w-3" />
+                            <time dateTime={ranking.updated_at}>{formattedDate}</time>
+                          </span>
+                          <span className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                            View Ranking
+                            <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                          </span>
                         </div>
                       </CardContent>
                 </Card>
               </Link>
-            ))}
+                  );
+                })}
           </div>
         )}
       </div>

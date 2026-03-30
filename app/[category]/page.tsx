@@ -9,7 +9,7 @@ import { Footer } from '@/components/footer';
 import type { Ranking } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 
@@ -163,7 +163,13 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         ) : (
           <>
             <div className="space-y-6">
-              {paginatedRankings.map((ranking: Ranking) => (
+              {paginatedRankings.map((ranking: Ranking) => {
+                const updatedDate = new Date(ranking.updated_at);
+                const formattedDate = updatedDate.toLocaleDateString('en-US', {
+                  month: 'short',
+                  year: 'numeric',
+                });
+                return (
                 <Link 
                   key={ranking.id} 
                   href={`/${category.slug}/${ranking.slug}`}
@@ -178,9 +184,18 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                         </CardDescription>
                       )}
                     </CardHeader>
+                    <CardContent>
+                      <div className="flex items-center justify-between">
+                        <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                          <Clock className="h-3 w-3" />
+                          <time dateTime={ranking.updated_at}>Updated {formattedDate}</time>
+                        </span>
+                      </div>
+                    </CardContent>
                   </Card>
                 </Link>
-              ))}
+                );
+              })}
             </div>
 
             {/* Pagination */}
