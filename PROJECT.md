@@ -8,6 +8,11 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-03-31:** Rich multi-column footer with category links + updated dates on ranking cards (commit aae0211, auto-deployed via Vercel).
+  - **Footer overhaul:** Replaced single-row footer with 4-column layout: Brand (tagline), Categories (up to 8 category links + "View all →"), Resources (All Categories, How We Rank, About Us), Legal (Imprint, Privacy Policy). Footer is now an async server component that fetches categories from Convex.
+  - **Updated dates on ranking cards:** Homepage "Recent Rankings" cards, search result cards, and category page ranking cards now show "Updated Mon YYYY" with a clock icon and semantic `<time>` elements.
+  - Files changed: `components/footer.tsx`, `app/page.tsx`, `app/[category]/page.tsx`
+  - **Impact:** Site-wide internal linking boost — every page now links to all category pages via the footer (critical for SEO crawlability and PageRank distribution). Visible freshness dates on listing pages reinforce E-E-A-T date signals and improve CTR from both internal browsing and search results.
 - **2026-03-30:** Branded 404 pages, loading skeletons, dynamic hero stats (commit 6f0daa8, auto-deployed via Vercel).
   - New root-level `/not-found.tsx`: branded 404 with navigation bar, 404 visual, three action cards (Home, Search, Categories), and footer — replaces bare Next.js default
   - Upgraded category + ranking detail 404 pages: full layout with navigation, breadcrumbs, branded 404 visual, contextual CTAs ("Browse Categories" + "Go Home")
