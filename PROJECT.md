@@ -8,6 +8,16 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-01:** Top Picks "At a Glance" section on ranking detail pages + seed data for 3 new categories (commit e6d9f89, auto-deployed via Vercel).
+  - **New `TopPicks` component** (`components/top-picks.tsx`): Visually prominent card grid showing the #1, #2, #3 ranked products with trophy/award/medal icons, scores (/10), top 2 key strengths (from pro sentiments), and external product links. #1 card gets subtle scale-up + ring highlight. Placed between the methodology callout and the full ranking table on every ranking detail page.
+  - **SEO impact:** Top picks summaries are a proven pattern for Google featured snippet eligibility — concise, structured "best X" answers directly on the page. Increases dwell time by giving scanners immediate value before scrolling to the full table.
+  - **Seed script** (`scripts/seed-april-2026.mjs`): Ready-to-import data for 3 new categories:
+    - **Laptops** (MacBook Pro M5, ThinkPad X1 Carbon Gen 14, Framework 16, Dell XPS 16, ASUS ROG Zephyrus G16, HP Spectre x360)
+    - **Coffee Makers** (Breville Barista Express Impress, Technivorm Moccamaster, Nespresso Vertuo Pop+, Fellow Aiden, Breville Precision Brewer, AeroPress Clear)
+    - **Smart Watches** (Apple Watch Ultra 3, Samsung Galaxy Watch 7 Ultra, Garmin Fenix 8 Pro, Pixel Watch 3, Withings ScanWatch Nova, Amazfit T-Rex 3)
+    - 18 products, 108 sentiments (pros/cons), 108 specifications, 9 FAQs
+    - **BLOCKED:** Convex deployment `wooden-trout-116` unreachable from this environment (DNS timeout). Seed script is committed and ready — run `node scripts/seed-april-2026.mjs` from a machine with Convex access to import.
+  - Files changed: `components/top-picks.tsx` (new), `app/[category]/[slug]/page.tsx`, `scripts/seed-april-2026.mjs` (new)
 - **2026-03-31:** Rich multi-column footer with category links + updated dates on ranking cards (commit aae0211, auto-deployed via Vercel).
   - **Footer overhaul:** Replaced single-row footer with 4-column layout: Brand (tagline), Categories (up to 8 category links + "View all →"), Resources (All Categories, How We Rank, About Us), Legal (Imprint, Privacy Policy). Footer is now an async server component that fetches categories from Convex.
   - **Updated dates on ranking cards:** Homepage "Recent Rankings" cards, search result cards, and category page ranking cards now show "Updated Mon YYYY" with a clock icon and semantic `<time>` elements.
