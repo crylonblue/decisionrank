@@ -9,6 +9,7 @@ import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { FAQSection } from '@/components/faq-section';
 import { RelatedRankings } from '@/components/related-rankings';
+import { TopPicks } from '@/components/top-picks';
 import type { RankingProductWithDetails, FAQ } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd, generateArticleJsonLd } from '@/lib/seo';
@@ -249,6 +250,9 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           </Link>
           .
         </p>
+
+        {/* Top Picks — quick summary for scanners & featured snippets */}
+        <TopPicks rankingProducts={ranking_products} />
 
         {/* Ranking Table */}
         <RankingTable
