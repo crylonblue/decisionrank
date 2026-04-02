@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-03:** Table of Contents + anchor IDs on ranking detail pages (commit 9ea192f, auto-deployed via Vercel).
+  - **New `TableOfContents` component** (`components/table-of-contents.tsx`): Numbered anchor link navigation rendered server-side above the main content. Dynamically built from available sections — only shows when 3+ sections are present.
+  - **Anchor IDs added to all sections:** `#verdict`, `#top-picks`, `#full-rankings`, `#product-1` through `#product-N`, `#faq`, `#related` — with `scroll-mt-20` offset for sticky navigation.
+  - **SEO impact:** Enables Google "Jump to" links in search results (sitelinks search box / passage-level linking). Improves page structure signals and helps users navigate longer ranking pages with 6+ products.
+  - Files changed: `components/table-of-contents.tsx` (new), `app/[category]/[slug]/page.tsx`, `components/top-picks.tsx`, `components/faq-section.tsx`, `components/related-rankings.tsx`, `components/lazy-product-list.tsx`
+  - **Note:** April seed data (Laptops, Coffee Makers, Smart Watches) still blocked — Convex `wooden-trout-116` needs Till's deploy key or local access.
 - **2026-04-01:** Top Picks "At a Glance" section on ranking detail pages + seed data for 3 new categories (commit e6d9f89, auto-deployed via Vercel).
   - **New `TopPicks` component** (`components/top-picks.tsx`): Visually prominent card grid showing the #1, #2, #3 ranked products with trophy/award/medal icons, scores (/10), top 2 key strengths (from pro sentiments), and external product links. #1 card gets subtle scale-up + ring highlight. Placed between the methodology callout and the full ranking table on every ranking detail page.
   - **SEO impact:** Top picks summaries are a proven pattern for Google featured snippet eligibility — concise, structured "best X" answers directly on the page. Increases dwell time by giving scanners immediate value before scrolling to the full table.
