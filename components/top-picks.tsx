@@ -22,7 +22,7 @@ export function TopPicks({ rankingProducts }: TopPicksProps) {
   if (topThree.length === 0) return null;
 
   return (
-    <section className="mb-10" aria-labelledby="top-picks-heading">
+    <section id="top-picks" className="mb-10 scroll-mt-20" aria-labelledby="top-picks-heading">
       <h2 id="top-picks-heading" className="text-2xl font-bold text-foreground mb-1">
         Top Picks at a Glance
       </h2>

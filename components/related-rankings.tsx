@@ -14,7 +14,7 @@ export function RelatedRankings({ rankings, category }: RelatedRankingsProps) {
   }
 
   return (
-    <section className="mt-16 mb-8">
+    <section id="related" className="mt-16 mb-8 scroll-mt-20">
       <h2 className="text-3xl font-bold text-foreground mb-6">Related Rankings</h2>
       <div className="grid gap-4 sm:grid-cols-2">
         {rankings.map((ranking) => (

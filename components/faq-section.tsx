@@ -11,7 +11,7 @@ export function FAQSection({ faqs }: FAQSectionProps) {
   }
 
   return (
-    <section className="mt-16 mb-8">
+    <section id="faq" className="mt-16 mb-8 scroll-mt-20">
       <h2 className="text-3xl font-bold text-foreground mb-6">Frequently Asked Questions</h2>
       <div className="space-y-4">
         {faqs.map((faq) => (

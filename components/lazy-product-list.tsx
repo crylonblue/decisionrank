@@ -66,7 +66,7 @@ export function LazyProductList({
         const hasSpecifications = rp.specifications.length > 0;
 
         return (
-          <Card key={rp.id} className="overflow-hidden">
+          <Card key={rp.id} id={`product-${rp.rank_position}`} className="overflow-hidden scroll-mt-20">
             <CardHeader className="pb-2">
               {/* Score and Product Name on same line */}
               <div className="flex items-center gap-3 mb-0">

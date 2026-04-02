@@ -15,6 +15,7 @@ import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd, generateArticleJsonLd } from '@/lib/seo';
 import { Calendar, Clock } from 'lucide-react';
 import { Breadcrumbs } from '@/components/breadcrumbs';
+import { TableOfContents, type TocItem } from '@/components/table-of-contents';
 
 export const dynamic = 'force-dynamic';
 
@@ -148,6 +149,31 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
   const formattedUpdated = dateFormatter.format(updatedDate);
   const showUpdatedDate = updatedDate.getTime() - publishedDate.getTime() > 86400000; // >1 day apart
 
+  // Build Table of Contents dynamically based on available sections
+  const tocItems: TocItem[] = [];
+  if (ranking.verdict_summary) {
+    tocItems.push({ id: 'verdict', label: 'Verdict' });
+  }
+  if (ranking_products.length >= 3) {
+    tocItems.push({ id: 'top-picks', label: 'Top Picks at a Glance' });
+  }
+  tocItems.push({ id: 'full-rankings', label: 'Full Rankings' });
+  // Individual product sections
+  ranking_products
+    .sort((a: RankingProductWithDetails, b: RankingProductWithDetails) => a.rank_position - b.rank_position)
+    .forEach((rp: RankingProductWithDetails) => {
+      tocItems.push({
+        id: `product-${rp.rank_position}`,
+        label: `#${rp.rank_position} ${rp.product.name}`,
+      });
+    });
+  if (faqs && faqs.length > 0) {
+    tocItems.push({ id: 'faq', label: 'Frequently Asked Questions' });
+  }
+  if (relatedRankings && relatedRankings.length > 0) {
+    tocItems.push({ id: 'related', label: 'Related Rankings' });
+  }
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Breadcrumb JSON-LD */}
@@ -230,7 +256,7 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
 
         {/* Verdict Summary */}
         {ranking.verdict_summary && (
-          <Card className="mb-8 border-slate-200/50 bg-slate-50/30">
+          <Card id="verdict" className="mb-8 border-slate-200/50 bg-slate-50/30 scroll-mt-20">
             <CardHeader>
               <CardTitle className="text-slate-700">Verdict</CardTitle>
             </CardHeader>
@@ -251,14 +277,19 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           .
         </p>
 
+        {/* Table of Contents — enables Google "Jump to" links in search results */}
+        <TableOfContents items={tocItems} />
+
         {/* Top Picks — quick summary for scanners & featured snippets */}
         <TopPicks rankingProducts={ranking_products} />
 
         {/* Ranking Table */}
+        <div id="full-rankings" className="scroll-mt-20">
         <RankingTable
           rankingProducts={ranking_products}
           specNames={specNames}
         />
+        </div>
 
         {/* Product Sections - Lazy Loaded */}
         <LazyProductList 
