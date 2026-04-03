@@ -8,6 +8,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-04:** Mobile ranking cards + Key Takeaways section on ranking detail pages (commit 1417d02, auto-deployed via Vercel).
+  - **New `MobileRankingCards` component** (`components/mobile-ranking-cards.tsx`): Compact stacked comparison cards visible only on mobile (`md:hidden`), filling the gap left by the desktop-only comparison table. Each card shows: rank icon (trophy/award/medal for top 3, numeric badge otherwise), product name, score badge, top 3 specifications as inline pills, and top 2 pro sentiments with checkmarks. #1 card gets subtle amber highlight with border accent.
+  - **New `KeyTakeaways` component** (`components/key-takeaways.tsx`): Auto-generated ordered list of 3–5 data-driven insights extracted from ranking data — winner + score, score spread across products, runner-up alternative with differentiator, common trade-off warning, and methodology note. Placed between the verdict card and methodology callout. Uses `<ol>` format optimized for Google featured snippet extraction (position zero).
+  - **ToC updated:** "Key Takeaways" entry added to Table of Contents when 2+ products are present.
+  - Files changed: `components/mobile-ranking-cards.tsx` (new), `components/key-takeaways.tsx` (new), `app/[category]/[slug]/page.tsx`
+  - **SEO impact:** Mobile users now see a comparison view (previously the table was `hidden md:block` — completely invisible on phones). Improves mobile engagement signals for Core Web Vitals. Ordered-list takeaways directly target Google featured snippets for "best X" queries.
+  - **Note:** April seed data (Laptops, Coffee Makers, Smart Watches) still blocked — Convex `wooden-trout-116` needs Till's deploy key or local access.
 - **2026-04-03:** Table of Contents + anchor IDs on ranking detail pages (commit 9ea192f, auto-deployed via Vercel).
   - **New `TableOfContents` component** (`components/table-of-contents.tsx`): Numbered anchor link navigation rendered server-side above the main content. Dynamically built from available sections — only shows when 3+ sections are present.
   - **Anchor IDs added to all sections:** `#verdict`, `#top-picks`, `#full-rankings`, `#product-1` through `#product-N`, `#faq`, `#related` — with `scroll-mt-20` offset for sticky navigation.
