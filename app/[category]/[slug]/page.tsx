@@ -16,6 +16,8 @@ import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProduc
 import { Calendar, Clock } from 'lucide-react';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { TableOfContents, type TocItem } from '@/components/table-of-contents';
+import { MobileRankingCards } from '@/components/mobile-ranking-cards';
+import { KeyTakeaways } from '@/components/key-takeaways';
 
 export const dynamic = 'force-dynamic';
 
@@ -154,6 +156,9 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
   if (ranking.verdict_summary) {
     tocItems.push({ id: 'verdict', label: 'Verdict' });
   }
+  if (ranking_products.length >= 2) {
+    tocItems.push({ id: 'key-takeaways', label: 'Key Takeaways' });
+  }
   if (ranking_products.length >= 3) {
     tocItems.push({ id: 'top-picks', label: 'Top Picks at a Glance' });
   }
@@ -268,6 +273,9 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           </Card>
         )}
 
+        {/* Key Takeaways — structured summary for featured snippet eligibility */}
+        <KeyTakeaways rankingProducts={ranking_products} question={ranking.question} />
+
         {/* Methodology callout — E-E-A-T internal link */}
         <p className="text-sm text-muted-foreground mb-8">
           Scores are based on our{' '}
@@ -283,12 +291,13 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
         {/* Top Picks — quick summary for scanners & featured snippets */}
         <TopPicks rankingProducts={ranking_products} />
 
-        {/* Ranking Table */}
+        {/* Ranking Table — desktop comparison table + mobile cards */}
         <div id="full-rankings" className="scroll-mt-20">
         <RankingTable
           rankingProducts={ranking_products}
           specNames={specNames}
         />
+        <MobileRankingCards rankingProducts={ranking_products} />
         </div>
 
         {/* Product Sections - Lazy Loaded */}
