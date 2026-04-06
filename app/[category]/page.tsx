@@ -8,8 +8,8 @@ import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import type { Ranking } from '@/lib/types';
 import type { Metadata } from 'next';
-import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
-import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
+import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd, generateCollectionPageJsonLd } from '@/lib/seo';
+import { ChevronLeft, ChevronRight, Clock, ArrowRight, Quote } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 
@@ -41,22 +41,27 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
     ? `${baseUrl}/${categorySlug}?page=${pageNumber}`
     : `${baseUrl}/${categorySlug}`;
 
+  const rankingCount = category.rankings?.length || 0;
+  const metaDescription = category.description
+    ? `${category.description} Browse ${rankingCount} expert ${rankingCount === 1 ? 'ranking' : 'rankings'} with verdicts and comparisons.`
+    : `Browse ${rankingCount} expert product ${rankingCount === 1 ? 'ranking' : 'rankings'} in ${category.name}. Compare top products with research-backed scores and editorial verdicts.`;
+
   return {
-    title: `${category.name} Rankings | DecisionRank`,
-    description: category.description || `Browse product rankings in ${category.name}`,
+    title: `Best ${category.name} Rankings & Comparisons (${new Date().getFullYear()}) | DecisionRank`,
+    description: metaDescription,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${category.name} Rankings`,
-      description: category.description || undefined,
+      title: `Best ${category.name} Rankings & Comparisons`,
+      description: metaDescription,
       url: canonicalUrl,
       type: 'website',
     },
     twitter: {
       card: 'summary',
-      title: `${category.name} Rankings`,
-      description: category.description || undefined,
+      title: `Best ${category.name} Rankings & Comparisons`,
+      description: metaDescription,
     },
   };
 }
@@ -84,6 +89,16 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
   const baseUrl = getBaseUrl();
   
+  // Compute category freshness — most recent ranking update date
+  const mostRecentUpdate = rankings.reduce((latest: string, r: Ranking) => {
+    return r.updated_at > latest ? r.updated_at : latest;
+  }, rankings[0]?.updated_at || category.updated_at);
+  const freshDate = new Date(mostRecentUpdate);
+  const freshDateFormatted = freshDate.toLocaleDateString('en-US', {
+    month: 'long',
+    year: 'numeric',
+  });
+
   // Generate breadcrumb JSON-LD
   const breadcrumbItems = [
     { name: 'Home', url: `${baseUrl}/` },
@@ -102,6 +117,15 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     })),
   );
 
+  // CollectionPage JSON-LD — richer structured data for category listing pages
+  const collectionPageJsonLd = generateCollectionPageJsonLd({
+    name: `${category.name} Rankings`,
+    description: category.description || `Expert product rankings and comparisons in ${category.name}`,
+    url: `${baseUrl}/${categorySlug}`,
+    numberOfItems: totalRankings,
+    dateModified: mostRecentUpdate,
+  });
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Breadcrumb JSON-LD */}
@@ -113,6 +137,11 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
+      {/* CollectionPage JSON-LD — richer category page structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageJsonLd) }}
       />
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
@@ -133,7 +162,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         <Breadcrumbs items={[{ label: category.name }]} />
 
         {/* Category Header */}
-        <div className="mb-8">
+        <div className="mb-10">
           <div className="flex items-start gap-3 mb-3">
             <h1 className="text-5xl font-bold text-foreground tracking-tight">
               {category.name}
@@ -145,10 +174,23 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             )}
           </div>
           {category.description && (
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground mb-3">
               {category.description}
             </p>
           )}
+          <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+            <span className="flex items-center gap-1.5">
+              <Clock className="h-3.5 w-3.5" />
+              <time dateTime={mostRecentUpdate}>Last updated {freshDateFormatted}</time>
+            </span>
+            <span>·</span>
+            <span>
+              Scores based on our{' '}
+              <Link href="/how-we-rank" className="text-slate-600 underline hover:text-slate-800">
+                research-backed methodology
+              </Link>
+            </span>
+          </div>
         </div>
 
         {/* Rankings List */}
@@ -176,7 +218,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                   className="block"
                 >
                   <Card className="group transition-all hover:shadow-lg hover:border-slate-400/50 hover:-translate-y-1 cursor-pointer">
-                    <CardHeader>
+                    <CardHeader className="pb-3">
                       <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">{ranking.question}</CardTitle>
                       {ranking.description && (
                         <CardDescription className="line-clamp-2">
@@ -184,11 +226,24 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                         </CardDescription>
                       )}
                     </CardHeader>
-                    <CardContent>
-                      <div className="flex items-center justify-between">
+                    <CardContent className="space-y-3">
+                      {/* Verdict snippet — unique editorial content on category pages */}
+                      {ranking.verdict_summary && (
+                        <div className="flex gap-2 items-start">
+                          <Quote className="h-3.5 w-3.5 mt-0.5 shrink-0 text-slate-400" />
+                          <p className="text-sm text-muted-foreground/80 line-clamp-2 italic">
+                            {ranking.verdict_summary}
+                          </p>
+                        </div>
+                      )}
+                      <div className="flex items-center justify-between pt-1">
                         <span className="flex items-center gap-1 text-xs text-muted-foreground">
                           <Clock className="h-3 w-3" />
                           <time dateTime={ranking.updated_at}>Updated {formattedDate}</time>
+                        </span>
+                        <span className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
+                          View Ranking
+                          <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </span>
                       </div>
                     </CardContent>
