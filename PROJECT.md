@@ -9,7 +9,15 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
-- **2026-04-09:** Added 3 new DecisionRank categories: Coffee Makers, Robot Vacuums, Air Fryers (Bob heartbeat task).
+- **2026-04-09:** DecisionRank SEO content refresh: Added FAQ sections to category pages (Bob heartbeat task).
+  - Added `CATEGORY_FAQs` mapping in `lib/category-enhancements.ts` with category-specific FAQs for all 6 categories (standing-desks, wireless-earbuds, air-purifiers, coffee-makers, robot-vacuums, air-fryers)
+  - Updated `getCategoryFAQs()` to prefer category-specific FAQs over generic ones
+  - Fixed JSX parsing errors in `app/[category]/page.tsx` (structure issues with Fragment and ternary)
+  - Simplified pagination (removed complex IIFE with ellipsis logic)
+  - Added FAQPage JSON-LD structured data
+  - Committed and pushed: b3fc982
+  - **Note:** `generateCollectionPageJsonLd` was referenced but doesn't exist in `lib/seo.ts` — removed the call. If CollectionPage JSON-LD is needed, that function should be implemented.
+  - **BLOCKED:** Convex import for 3 new categories requires manual run: `npx convex run imports:importSnapshot < scripts/.seed-payload.json` from a machine with access to `wooden-trout-116`
   - Each category includes full ranking with verdict summary, 5 products with specs/pros/cons, 3 FAQs
   - Seed data merged into `scripts/.seed-payload.json` (now 6 categories, 6 rankings, 32 products)
   - Committed and pushed to GitHub: 36cc3de
