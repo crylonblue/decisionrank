@@ -8,6 +8,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+
+- **2026-04-09:** Added 3 new DecisionRank categories: Coffee Makers, Robot Vacuums, Air Fryers (Bob heartbeat task).
+  - Each category includes full ranking with verdict summary, 5 products with specs/pros/cons, 3 FAQs
+  - Seed data merged into `scripts/.seed-payload.json` (now 6 categories, 6 rankings, 32 products)
+  - Committed and pushed to GitHub: 36cc3de
+  - **BLOCKED:** Convex import requires auth — run manually: `npx convex run imports:importSnapshot < scripts/.seed-payload.json` from a machine with Convex access to `wooden-trout-116`
+- **2026-04-08:** Nightshift work: Implemented JSON-LD for Category collections by adding CollectionPage data (CollectionPage schema) and integrated with category listing pages. Also fixed import path for collection data in SEO utilities. Files touched: `decisionrank/lib/seo.ts`, `app/[category]/page.tsx`. Commit: 91e96cff09e5d22f3a4a429b8afd5564302b21cd.
 - **2026-04-04:** Mobile ranking cards + Key Takeaways section on ranking detail pages (commit 1417d02, auto-deployed via Vercel).
   - **New `MobileRankingCards` component** (`components/mobile-ranking-cards.tsx`): Compact stacked comparison cards visible only on mobile (`md:hidden`), filling the gap left by the desktop-only comparison table. Each card shows: rank icon (trophy/award/medal for top 3, numeric badge otherwise), product name, score badge, top 3 specifications as inline pills, and top 2 pro sentiments with checkmarks. #1 card gets subtle amber highlight with border accent.
   - **New `KeyTakeaways` component** (`components/key-takeaways.tsx`): Auto-generated ordered list of 3–5 data-driven insights extracted from ranking data — winner + score, score spread across products, runner-up alternative with differentiator, common trade-off warning, and methodology note. Placed between the verdict card and methodology callout. Uses `<ol>` format optimized for Google featured snippet extraction (position zero).
