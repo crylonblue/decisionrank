@@ -1,0 +1,165 @@
+// Enhanced category descriptions and FAQs for SEO improvement
+// These override thin database descriptions and add FAQ sections to category pages
+
+export const ENHANCED_CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  "air-purifiers": "Discover the best air purifiers for your home or office. We test and rank top models based on CADR, filtration efficiency (HEPA, activated carbon), noise levels, smart features, and long-term value. Whether you need a purifier for allergies, pets, or large spaces, our research-backed buying guides help you choose the right one.",
+  "audio-headphones": "Find the perfect audio gear with our expert rankings of headphones, earbuds, and wireless audio devices. We evaluate sound quality, noise cancellation, battery life, comfort, and durability across budgets — from budget-friendly wireless earbuds to premium over-ear headphones for audiophiles.",
+  "automotive": "Upgrade your ride with our top-rated automotive accessories and electronics. We review dash cams, car chargers, GPS navigators, tire monitors, and vehicle maintenance tools based on reliability, ease of installation, and real-world performance. Make an informed decision before you buy.",
+  "coffee-makers": "From espresso machines to drip brewers and single-serve systems, we find the best coffee makers for every brewing style and budget. Our testing covers brew quality, speed, ease of cleaning, temperature control, and overall value — so you can enjoy café-quality coffee at home.",
+  "electronics": "Stay on the cutting edge with our comprehensive rankings of consumer electronics: laptops, smartphones, tablets, smartwatches, and more. We benchmark performance, display quality, battery life, and value to help you pick the right gadget for your needs.",
+  "fitness": "Reach your fitness goals with the right equipment. We test and rate everything from running shoes and resistance bands to smart fitness gear and home gym essentials, focusing on durability, ergonomics, and real-world effectiveness for beginners to advanced athletes.",
+  "laptops": "Buying a laptop? We compare the latest ultrabooks, gaming laptops, and 2-in-1 convertibles across performance, display quality, battery life, portability, and price. Our deep-dive reviews and side-by-side comparisons help you find the perfect laptop for work, study, or play.",
+  "smart-watches": "Track your health and stay connected with the best smartwatches. We evaluate fitness tracking accuracy, battery life, app ecosystem, design, and compatibility with iOS and Android. Whether you want a running companion or a productivity powerhouse, we've got recommendations.",
+  "standing-desks": "Improve your posture and productivity with a standing desk that fits your space. We test height-adjustable desks for build quality, stability, motor speed, memory presets, and value — covering electric, manual, and converter options for home and office.",
+  "wireless-earbuds": "Cut the cords without compromising sound. Our top picks for wireless earbuds balance audio quality, active noise cancellation, comfort, battery life, and seamless connectivity for everyday commuting, workouts, and work calls.",
+  "robot-vacuums": "Let a robot handle the floor work. We rank the best robot vacuums and mops by cleaning performance, navigation intelligence, obstacle avoidance, app experience, and value across different floor types and home layouts.",
+  "air-fryers": "Crispy results with less oil — that's the promise of a great air fryer. We test capacity, cooking consistency, ease of use, and clean-up to recommend the best air fryers for families, singles, and anyone who wants quick, healthy meals.",
+};
+
+// Category-specific FAQs — unique, targeted questions for each category
+export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: string }>> = {
+  "standing-desks": [
+    {
+      question: "What are the health benefits of using a standing desk?",
+      answer: "Standing desks can reduce lower back pain, improve posture, and increase energy levels. Studies show they may also lower the risk of heart disease and obesity when used as part of an active work routine. The key is alternating between sitting and standing throughout the day."
+    },
+    {
+      question: "How do I determine the correct height for my standing desk?",
+      answer: "Set your desk so your elbows are at a 90-degree angle when typing, with wrists straight and shoulders relaxed. Your monitor should be at or slightly below eye level to avoid neck strain. Most electric desks offer memory presets to save your preferred heights."
+    },
+    {
+      question: "Electric vs. manual standing desk — which is better?",
+      answer: "Electric desks provide smooth, one-touch height adjustment and multiple memory positions, making them ideal for shared spaces or frequent switches. Manual (crank or pneumatic) desks are more affordable and work without power, but require physical effort to adjust. Choose based on your budget and how often you change positions."
+    }
+  ],
+  "wireless-earbuds": [
+    {
+      question: "Are wireless earbuds good for exercising?",
+      answer: "Yes, but look for models with an IPX4 or higher rating to resist sweat and moisture. Secure fit is crucial — consider earbuds with wing tips, ear hooks, or ergonomic designs that stay put during movement. Some sports-specific earbuds also feature transparency modes to stay aware of your surroundings."
+    },
+    {
+      question: "Do wireless earbuds sound as good as wired headphones?",
+      answer: "Modern flagship wireless earbuds with high-bitrate codecs (LDAC, aptX HD) come very close to wired quality for everyday listening. Audiophiles may still prefer wired for the last ounce of detail, but for most users the convenience outweighs any minor fidelity gap."
+    },
+    {
+      question: "How important is active noise cancellation (ANC) in wireless earbuds?",
+      answer: "ANC is a game-changer for commuting, flying, and noisy offices — it can dramatically reduce constant low-frequency noise like engine rumble. If you primarily use earbuds in quiet environments, you may not need it, and can save money or trade for better sound or battery life."
+    }
+  ],
+  "air-purifiers": [
+    {
+      question: "What size air purifier do I need for my room?",
+      answer: "Check the CADR (Clean Air Delivery Rate) rating and match it to your room size. As a rule of thumb, the CADR should be at least 2/3 of your room's square footage. For example, a 300 sq ft room needs a CADR of 200+. Also consider ceiling height and air changes per hour if you have specific needs like allergies."
+    },
+    {
+      question: "How often should I replace air purifier filters?",
+      answer: "True HEPA filters typically last 6–12 months with regular use, while activated carbon filters may need replacement every 3–6 months. Many modern purifiers include filter life indicators or app alerts. Running an old filter reduces effectiveness and can even recirculate trapped particles."
+    },
+    {
+      question: "Do air purifiers actually help with allergies and asthma?",
+      answer: "Yes. HEPA-rated purifiers capture 99.97% of particles down to 0.3 microns, including pollen, dust mites, pet dander, and mold spores — common allergy triggers. For best results, run the purifier continuously in the room where you spend the most time, and keep windows closed to avoid outdoor allergen ingress."
+    }
+  ],
+  "coffee-makers": [
+    {
+      question: "What's the difference between drip, pour-over, and espresso machines?",
+      answer: "Drip coffee makers automate the brewing process — water heats and drips through grounds into a carafe, good for multiple cups. Pour-over is manual, offering precise control for a cleaner, brighter cup. Espresso machines force hot water through finely-ground coffee at high pressure, producing a concentrated shot. Choose based on your preferred coffee style and how much effort you want."
+    },
+    {
+      question: "Is a built-in grinder worth it in a coffee maker?",
+      answer: "A built-in conical burr grinder ensures fresh grounds for every brew, dramatically improving flavor and aroma compared to pre-ground coffee. If you value convenience and are buying an espresso machine, an integrated grinder is a smart investment. For drip brewers, separate grinders offer more flexibility, but all-in-one units reduce counter clutter."
+    },
+    {
+      question: "How do I choose the right capacity for my coffee maker?",
+      answer: "Consider how many cups you drink daily and whether you entertain. Single-serve pod machines are great for one or two people. Drip makers range from 4-cup (personal) to 12-cup (family/office). Espresso machines typically make one or two shots at a time. Oversized machines waste water and energy if underutilized."
+    }
+  ],
+  "robot-vacuums": [
+    {
+      question: "Can robot vacuums handle pet hair and dander effectively?",
+      answer: "Yes, many robot vacuums are specifically designed for pet owners. Look for strong suction (2,500+ Pa), tangle-free brushrolls, and HEPA filtration to trap allergens. Models with self-emptying docks are especially helpful — they contain pet hair and dander in sealed bags, reducing your exposure when emptying."
+    },
+    {
+      question: "How often should I run my robot vacuum?",
+      answer: "For best results, run your robot daily or even multiple times a day if you have pets, kids, or high foot traffic. Most bots can be scheduled via app to clean while you're out. Regular use prevents dust and debris from accumulating, keeping floors consistently clean with minimal effort."
+    },
+    {
+      question: "Do robot vacuums work on dark carpets or tricky flooring?",
+      answer: "Modern robot vacuums with LiDAR and advanced sensors navigate dark carpets much better than older models, but very dark or black surfaces can still confuse cliff sensors. If you have dark rugs, look for models with improved cliff detection or the ability to create no-go zones. For high-pile carpets, choose a robot with stronger suction and larger wheels."
+    }
+  ],
+  "air-fryers": [
+    {
+      question: "Is air-fried food actually healthier than deep-fried?",
+      answer: "Air fryers use rapid hot air circulation with 80–90% less oil than deep frying, significantly reducing fat and calorie content. While some compounds like acrylamide can still form on starchy foods at high temperatures, overall air-fried foods are a healthier alternative to traditionally fried items."
+    },
+    {
+      question: "What capacity air fryer should I buy?",
+      answer: "Capacity is measured in quarts. For singles or couples, 2–3 quarts is sufficient. A family of four typically needs 5–6 quarts. If you cook for gatherings or want to fit whole chickens/pizzas, consider 7+ quart models or dual-basket designs. Remember that overcrowding reduces cooking performance, so it's better to size up if unsure."
+    },
+    {
+      question: "Can I use aluminum foil or parchment paper in an air fryer?",
+      answer: "Yes, but with caution. Small pieces of foil or perforated parchment paper can be used to line the basket, but never block the airflow. Avoid covering the entire basket, and never use wax paper (it will melt). Always consult your manufacturer's guidelines, and never put any material that could catch fire near the heating element."
+    }
+  ]
+};
+
+// Generic category FAQs (used when a category-specific FAQ is not available)
+export const GENERIC_CATEGORY_FAQS = [
+  {
+    question: "How do we rank products?",
+    answer: "Every product goes through our research-backed methodology: we analyze specifications, compare user reviews, test performance where possible, and score each item on features, value, and real-world usability. Our rankings are updated regularly to reflect new models and price changes."
+  },
+  {
+    question: "What factors matter most when choosing a [category]?",
+    answer: "The most important factors depend on your specific needs. Consider core performance metrics (like suction power for vacuums or sound quality for headphones), build quality, ease of use, warranty, and long-term value. We break down the key decision criteria in each buying guide."
+  },
+  {
+    question: "Do we update our rankings?",
+    answer: "Yes. We regularly review top products as new models launch and prices change. Rankings are updated when a product's score changes significantly or a better alternative appears. The 'Last updated' date on each page shows the most recent revision."
+  },
+  {
+    question: "How can I trust these recommendations?",
+    answer: "We are independent and not influenced by manufacturers or affiliate commissions. Our reviews combine hands-on testing, expert analysis, and aggregated user feedback. We aim to be transparent about pros and cons so you can make an informed decision."
+  },
+  {
+    question: "What should I budget for a good [category]?",
+    answer: "We categorize recommendations by price tier: budget picks under $100, mid-range $100–300, and premium over $300. The 'Best for' labels help you match features to your budget. Often the best value sits in the mid-range, but premium models offer the best performance if you need it."
+  }
+];
+
+// Helper to get category-specific FAQs if available, otherwise fall back to generic
+export function getCategoryFAQs(categorySlug: string): Array<{ question: string; answer: string }> {
+  if (CATEGORY_FAQS[categorySlug]) {
+    return CATEGORY_FAQS[categorySlug];
+  }
+
+  // Fallback: use generic FAQs with category name substitution
+  const categoryName = categorySlug
+    .split("-")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+
+  return GENERIC_CATEGORY_FAQS.map(faq => ({
+    question: faq.question.replace("[category]", categoryName),
+    answer: faq.answer.replace("[category]", categoryName),
+  }));
+}
+
+// Helper to get enhanced description for a category
+export function getEnhancedDescription(categorySlug: string, currentDescription: string | null): string {
+  const enhanced = ENHANCED_CATEGORY_DESCRIPTIONS[categorySlug];
+  if (enhanced) {
+    return enhanced;
+  }
+  // Fallback: if current description is very short (< 100 chars), provide a generic expansion
+  if (currentDescription && currentDescription.length >= 100) {
+    return currentDescription;
+  }
+  const categoryName = categorySlug
+    .split("-")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+  // Generic fallback (rare)
+  return `Explore our expertly researched rankings and comparisons in ${categoryName}. We test and evaluate top products to help you make an informed purchase decision.`;
+}
