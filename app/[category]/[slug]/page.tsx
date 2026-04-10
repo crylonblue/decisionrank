@@ -1,4 +1,4 @@
-import { getRankingBySlug, getAllCategories } from '@/lib/data';
+import { getRankingBySlug, getAllCategories, getRankingCountsByCategory } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import Link from 'next/link';
@@ -77,8 +77,7 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
   // Fetch all categories for internal linking
   const allCategories = await getAllCategories();
   const siblingCategories = allCategories.filter(c => c.id !== category.id).slice(0, 4);
-  const rankingCountsResponse = await fetch(`${getBaseUrl()}/api/ranking-counts`).then(r => r.json()).catch(() => ({}));
-  const rankingCounts = rankingCountsResponse.counts || {};
+  const rankingCounts = await getRankingCountsByCategory();
 
   // Collect all unique specification names across all products
   const allSpecNames = new Set<string>();
@@ -336,7 +335,6 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
           <PopularComparisons
             products={ranking_products}
             categorySlug={categorySlug}
-            currentSlug={slug}
             title="Popular Comparisons"
             description="Compare with other highly-rated products in this category"
           />

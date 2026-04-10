@@ -6,7 +6,6 @@ import type { RankingProductWithDetails } from '@/lib/types';
 interface PopularComparisonsProps {
   products: RankingProductWithDetails[];
   categorySlug: string;
-  currentSlug: string;
   limit?: number;
   title?: string;
   description?: string;
@@ -16,7 +15,6 @@ interface PopularComparisonsProps {
 export function PopularComparisons({
   products,
   categorySlug,
-  currentSlug,
   limit = 4,
   title = "Popular Comparisons",
   description,

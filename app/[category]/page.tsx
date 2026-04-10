@@ -1,4 +1,4 @@
-import { getCategoryBySlug, getAllCategories } from '@/lib/data';
+import { getCategoryBySlug, getAllCategories, getRankingCountsByCategory } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Suspense, Fragment } from 'react';
 import Link from 'next/link';
@@ -85,8 +85,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
   // Fetch all categories and ranking counts for internal linking
   const allCategories = await getAllCategories();
-  const rankingCountsResponse = await fetch(`${getBaseUrl()}/api/ranking-counts`).then(r => r.json()).catch(() => ({}));
-  const rankingCounts = rankingCountsResponse.counts || {};
+  const rankingCounts = await getRankingCountsByCategory();
 
   const currentPage = Math.max(1, parseInt(page || '1', 10));
   const totalRankings = rankings.length;

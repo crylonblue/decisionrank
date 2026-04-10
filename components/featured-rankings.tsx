@@ -36,7 +36,7 @@ export function FeaturedRankings({
         <p className="text-sm text-muted-foreground mb-6">{description}</p>
       )}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {featuredRankings.map((ranking, index) => {
+        {featuredRankings.map((ranking) => {
           // Build proper path with category slug
           const href = `/${categorySlug}/${ranking.slug}`;
 
