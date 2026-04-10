@@ -1,4 +1,4 @@
-import { getCategoryBySlug } from '@/lib/data';
+import { getCategoryBySlug, getAllCategories } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Suspense, Fragment } from 'react';
 import Link from 'next/link';
@@ -6,13 +6,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
-import type { Ranking } from '@/lib/types';
+import type { Ranking, Category } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
 import { ChevronLeft, ChevronRight, Clock, ArrowRight, Quote } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { getEnhancedDescription, getCategoryFAQs } from '@/lib/category-enhancements';
+import { CategoryLinks } from '@/components/category-links';
+import { FeaturedRankings } from '@/components/featured-rankings';
 
 export const dynamic = 'force-dynamic';
 
@@ -80,6 +82,11 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   }
 
   const { rankings } = category;
+
+  // Fetch all categories and ranking counts for internal linking
+  const allCategories = await getAllCategories();
+  const rankingCountsResponse = await fetch(`${getBaseUrl()}/api/ranking-counts`).then(r => r.json()).catch(() => ({}));
+  const rankingCounts = rankingCountsResponse.counts || {};
 
   const currentPage = Math.max(1, parseInt(page || '1', 10));
   const totalRankings = rankings.length;
@@ -205,6 +212,28 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             </span>
           </div>
         </div>
+
+        {/* Related Categories - Internal Linking */}
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <CategoryLinks
+            categories={allCategories.filter(c => c.slug !== categorySlug).slice(0, 4)}
+            rankingCounts={rankingCounts}
+            title="Explore Other Categories"
+            description="Discover rankings in related product categories"
+          />
+        </div>
+
+        {/* Featured Rankings - Internal Linking */}
+        {rankings.length > 0 && (
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <FeaturedRankings
+              rankings={rankings.slice(0, 4)}
+              categorySlug={categorySlug}
+              title="Featured Rankings"
+              description="Top guides in this category"
+            />
+          </div>
+        )}
 
         {rankings.length === 0 ? (
           <Card>

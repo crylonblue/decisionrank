@@ -9,6 +9,11 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-11:** Seeded 3 new buyer-intent categories in code (Bob heartbeat task).
+  - Added Gaming Laptops, Mattresses, Espresso Machines to `scripts/.seed-payload.json` with full rankings, specs, pros/cons, and FAQs.
+  - JSON validated, commit pushed (63b3f86). No Convex import attempted (still blocked).
+  - **Task:** 1775862127565 (high, decisionrank)
+
 - **2026-04-11:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
   - Created API backlog task `1775862127565` (**high**): Seed 3 more buyer-intent categories in code only, updating the current seed payload/source with full ranking copy, specs, pros/cons, and FAQs, without running the blocked Convex import step.
   - Created API backlog task `1775862127574` (**medium**): Improve SEO internal linking on category and ranking pages with stronger related-category / related-ranking modules and better descriptive anchor text.

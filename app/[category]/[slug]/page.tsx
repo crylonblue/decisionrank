@@ -1,4 +1,4 @@
-import { getRankingBySlug } from '@/lib/data';
+import { getRankingBySlug, getAllCategories } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import Link from 'next/link';
@@ -10,7 +10,7 @@ import { Footer } from '@/components/footer';
 import { FAQSection } from '@/components/faq-section';
 import { RelatedRankings } from '@/components/related-rankings';
 import { TopPicks } from '@/components/top-picks';
-import type { RankingProductWithDetails, FAQ } from '@/lib/types';
+import type { RankingProductWithDetails, FAQ, Category } from '@/lib/types';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateBreadcrumbJsonLd, generateFAQJsonLd, generateProductJsonLd, generateArticleJsonLd } from '@/lib/seo';
 import { Calendar, Clock } from 'lucide-react';
@@ -18,6 +18,8 @@ import { Breadcrumbs } from '@/components/breadcrumbs';
 import { TableOfContents, type TocItem } from '@/components/table-of-contents';
 import { MobileRankingCards } from '@/components/mobile-ranking-cards';
 import { KeyTakeaways } from '@/components/key-takeaways';
+import { CategoryLinks } from '@/components/category-links';
+import { PopularComparisons } from '@/components/popular-comparisons';
 
 export const dynamic = 'force-dynamic';
 
@@ -71,6 +73,12 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
   }
 
   const { ranking_products, category, faqs, relatedRankings } = ranking;
+
+  // Fetch all categories for internal linking
+  const allCategories = await getAllCategories();
+  const siblingCategories = allCategories.filter(c => c.id !== category.id).slice(0, 4);
+  const rankingCountsResponse = await fetch(`${getBaseUrl()}/api/ranking-counts`).then(r => r.json()).catch(() => ({}));
+  const rankingCounts = rankingCountsResponse.counts || {};
 
   // Collect all unique specification names across all products
   const allSpecNames = new Set<string>();
@@ -300,6 +308,16 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
         <MobileRankingCards rankingProducts={ranking_products} />
         </div>
 
+        {/* Internal Linking: Related Categories */}
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <CategoryLinks
+            categories={siblingCategories}
+            rankingCounts={rankingCounts}
+            title="Explore Other Categories"
+            description="Discover rankings in other product categories"
+          />
+        </div>
+
         {/* Product Sections - Lazy Loaded */}
         <LazyProductList 
           rankingProducts={ranking_products}
@@ -312,6 +330,17 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
 
         {/* Related Rankings Section */}
         <RelatedRankings rankings={relatedRankings} category={category} />
+
+        {/* Popular Comparisons - Internal Linking to other products in same category */}
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <PopularComparisons
+            products={ranking_products}
+            categorySlug={categorySlug}
+            currentSlug={slug}
+            title="Popular Comparisons"
+            description="Compare with other highly-rated products in this category"
+          />
+        </div>
       </div>
       </main>
       <Footer />
