@@ -47,6 +47,30 @@
       "description": "The best air fryers ranked by cooking performance, capacity, ease of use, and value.",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "69ad1d70-2da6-468b-be70-a9ca6d318331",
+      "name": "Gaming Laptops",
+      "slug": "gaming-laptops",
+      "description": "The best gaming laptops ranked by GPU performance, display quality, cooling, and value for gamers and creators.",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "899fae2e-73a1-4ddb-b2f4-a0f32c3c7316",
+      "name": "Mattresses",
+      "slug": "mattresses",
+      "description": "Top-rated mattresses compared by comfort, support, durability, and value for every sleep position and budget.",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c255ee6d-7769-49ca-a360-9034c511947f",
+      "name": "Espresso Machines",
+      "slug": "espresso-machines",
+      "description": "The finest espresso machines for home and prosumer use — evaluated on extraction quality, temperature stability, and build.",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ],
   "rankings": [
@@ -109,6 +133,36 @@
       "category_id": "24229a67-7b87-43b4-9f13-24fa2a16d9aa",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "slug": "best-gaming-laptops-2026",
+      "question": "What Are the Best Gaming Laptops in 2026?",
+      "description": "We tested and ranked the top gaming laptops across GPU performance, display quality, cooling efficiency, and portability. From desktop replacements to thin-and-light powerhouses, these are the gaming laptops worth buying.",
+      "verdict_summary": "The ASUS ROG Strix Scar 18 dominates with its unstoppable RTX 5090 and 240Hz OLED panel, but the MSI Titan GT77 offers workstation-level versatility. For a balanced premium pick, the Alienware m16 delivers the best all-around experience.",
+      "category_id": "69ad1d70-2da6-468b-be70-a9ca6d318331",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "slug": "best-mattresses-2026",
+      "question": "What Are the Best Mattresses in 2026?",
+      "description": "We evaluated the top mattresses across foam, hybrid, latex, and innerspring constructions based on pressure relief, motion isolation, temperature regulation, and long-term durability.",
+      "verdict_summary": "The Saatva Classic leads with its luxury innerspring feel and excellent edge support, while the Tempur-Pedic TEMPUR-Cloud remains the gold standard for pressure relief. For value seekers, the Nectar Mattress offers memory foam comfort at an unbeatable price.",
+      "category_id": "899fae2e-73a1-4ddb-b2f4-a0f32c3c7316",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "slug": "best-espresso-machines-2026",
+      "question": "What Are the Best Espresso Machines in 2026?",
+      "description": "We tested and ranked the top home espresso machines from super-automatic to manual lever, focusing on extraction quality, temperature stability, steam power, and workflow efficiency.",
+      "verdict_summary": "The De'Longhi La Specialista Arte strikes the perfect balance of ease and control for most homes, while the Rancilio Silvia Pro delivers commercial-grade build at a prosumer price. The Breville Bambino Plus is the best starter machine for under $500.",
+      "category_id": "c255ee6d-7769-49ca-a360-9034c511947f",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ],
   "products": [
@@ -335,6 +389,132 @@
       "link": "https://www.ninjaaccessories.com/af100us",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "ASUS ROG Strix Scar 18",
+      "link": "https://www.asus.com/us/laptops/for-gaming/rog-strix/rog-strix-scar-18-2026/",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "MSI Titan GT77",
+      "link": "https://www.msi.com/laptops/titan-series/titan-gt77-2026",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "Alienware m16",
+      "link": "https://www.dell.com/en-us/shop/gaming-laptops/alienware-m16-2026",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "Razer Blade 16",
+      "link": "https://www.razer.com/gaming-laptops/razer-blade-16-2026",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "Lenovo Legion Pro 7i",
+      "link": "https://www.lenovo.com/us/en/laptops/gaming/legion-laptops/legion-pro-7i-gen-9",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "Acer Predator Helios 300",
+      "link": "https://www.acer.com/us-en/predator/predator-helios-300-2026",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Saatva Classic",
+      "link": "https://www.saatva.com/mattresses/saatva-classic",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Tempur-Pedic TEMPUR-Cloud",
+      "link": "https://www.tempurpedic.com/mattresses/tempur-cloud",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Purple Mattress",
+      "link": "https://purple.com/mattresses/purple-mattress",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Casper Wave",
+      "link": "https://casper.com/mattresses/wave",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Nectar Mattress",
+      "link": "https://www.nectarhome.com/mattress",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Avocado Green Mattress",
+      "link": "https://www.avocadogreenmattress.com/products/avocado-green",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "De'Longhi La Specialista Arte",
+      "link": "https://www.delonghi.com/en-us/la-specialista-art%C3%A8",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Breville Bambino Plus",
+      "link": "https://www.breville.com/us/en/products/espresso/bambino-plus-bes450.html",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Rancilio Silvia Pro",
+      "link": "https://www.ranciliogroup.com/rancilio-silvia-pro",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Gaggia Classic Pro",
+      "link": "https://www.gaggia.com/classic-pro",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Lelit Mara X",
+      "link": "https://lelit.com/mara-x",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "ECM Synchronika",
+      "link": "https://www.ecm-espresso.com/synchronika.html",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ],
   "ranking_products": [
@@ -625,6 +805,168 @@
       "rank_position": 5,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "score": 9.6,
+      "rank_position": 1,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "score": 9.3,
+      "rank_position": 2,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "score": 9,
+      "rank_position": 3,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "score": 8.8,
+      "rank_position": 4,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "score": 8.5,
+      "rank_position": 5,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "score": 8.2,
+      "rank_position": 6,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "score": 8.6,
+      "rank_position": 4,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "score": 8.1,
+      "rank_position": 6,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "score": 9,
+      "rank_position": 3,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "score": 8.7,
+      "rank_position": 4,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "score": 8.4,
+      "rank_position": 5,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "score": 8.1,
+      "rank_position": 6,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ],
   "users": [],
@@ -2122,6 +2464,978 @@
       "headline": "Fewer preset programs than competitors at similar price",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "9faab1f8-d311-4969-8b9a-4a64edbf40a5",
+      "ranking_product_id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "type": "pro",
+      "content": "Desktop-class RTX 5090 delivers unmatched 4K gaming performance.",
+      "headline": "Desktop-class RTX 5090 delivers unmatched 4K gaming performance",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "cb4ad269-42b5-4a0a-bdc1-14a31a013c1a",
+      "ranking_product_id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "type": "pro",
+      "content": "240Hz OLED display with 3ms response is a competitive gamer's dream.",
+      "headline": "240Hz OLED display with 3ms response is a competitive gamer's dream",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "26e01c73-29d7-4886-9898-bee704108063",
+      "ranking_product_id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "type": "pro",
+      "content": "Exceptional cooling with Arc Flow fans keeps thermals in check even under sustained loads.",
+      "headline": "Exceptional cooling with Arc Flow fans keeps thermals in check even under sustained loads",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "47ddb09d-9160-4cd7-8fd5-d7a002ec79ec",
+      "ranking_product_id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "type": "con",
+      "content": "Battery life drains quickly when gaming — expected but worth noting.",
+      "headline": "Battery life drains quickly when gaming — expected but worth noting",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "5603d86c-8124-4ed1-bcf7-e44db97f9656",
+      "ranking_product_id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "type": "con",
+      "content": "Very loud fans under load — not ideal for quiet environments.",
+      "headline": "Very loud fans under load — not ideal for quiet environments",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "7901c78d-544b-45bc-802a-bd339b0c1561",
+      "ranking_product_id": "aa641cdc-e486-4b34-87c3-30664bdc321a",
+      "type": "con",
+      "content": "Expensive — you're paying for top-tier performance.",
+      "headline": "Expensive — you're paying for top-tier performance",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "22541a28-c1b2-41cf-9d2a-72025230a96c",
+      "ranking_product_id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "type": "pro",
+      "content": "Workstation-grade specs in a gaming chassis — handles content creation as easily as gaming.",
+      "headline": "Workstation-grade specs in a gaming chassis — handles content creation as easily as gaming",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "82852ae8-22b6-40c8-a0ac-98e6de7bd0c2",
+      "ranking_product_id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "type": "pro",
+      "content": "Mechanical Cherry MX keyboard provides excellent tactile feedback.",
+      "headline": "Mechanical Cherry MX keyboard provides excellent tactile feedback",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "07a546c7-a2c8-4c77-85c8-9f27bd5db8a7",
+      "ranking_product_id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "type": "pro",
+      "content": "Massive storage and RAM configuration out of the box for power users.",
+      "headline": "Massive storage and RAM configuration out of the box for power users",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "64568619-ae94-4e54-8c0f-0b845a8d25df",
+      "ranking_product_id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "type": "con",
+      "content": "Extremely heavy at over 3 kg — not portable by any definition.",
+      "headline": "Extremely heavy at over 3 kg — not portable by any definition",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4d4203f1-2d9b-4711-9755-06814b1dda24",
+      "ranking_product_id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "type": "con",
+      "content": "Premium pricing puts it in desktop-replacement territory.",
+      "headline": "Premium pricing puts it in desktop-replacement territory",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "f97570bd-5999-4804-9d83-6cb6ed423a6c",
+      "ranking_product_id": "e8c2f186-19dd-4e4a-8f7a-3e25d571d22f",
+      "type": "con",
+      "content": "Bulkier than most competitors despite the larger screen size.",
+      "headline": "Bulkier than most competitors despite the larger screen size",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "24108be3-53ef-4fa8-921a-d4d24dabf0fd",
+      "ranking_product_id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "type": "pro",
+      "content": "Legendary Alienware build quality with excellent thermal design.",
+      "headline": "Legendary Alienware build quality with excellent thermal design",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "557b7d31-52b2-49c0-9771-fc8b3d3e7444",
+      "ranking_product_id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "type": "pro",
+      "content": "240Hz refresh rate provides buttery-smooth competitive gameplay.",
+      "headline": "240Hz refresh rate provides buttery-smooth competitive gameplay",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "557f75e6-f594-4e18-9825-71420e4c5c67",
+      "ranking_product_id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "type": "pro",
+      "content": "Strong AMD+ NVIDIA combo balances performance and efficiency well.",
+      "headline": "Strong AMD+ NVIDIA combo balances performance and efficiency well",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "15cb14dd-b362-44ae-9193-b9273524ffb1",
+      "ranking_product_id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "type": "con",
+      "content": "RTX 4080 is excellent but not flagship-level like RTX 5090 options.",
+      "headline": "RTX 4080 is excellent but not flagship-level like RTX 5090 options",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "dcb4659b-563e-41cc-a963-3deb4d280e55",
+      "ranking_product_id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "type": "con",
+      "content": "Premium brand pricing means you pay for the badge.",
+      "headline": "Premium brand pricing means you pay for the badge",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b3c9562a-b7cc-4601-9ccf-8d6447717910",
+      "ranking_product_id": "2e1ee551-c54e-463a-adba-f778c023106f",
+      "type": "con",
+      "content": "Heavier than some 16-inch competitors from ASUS and Razer.",
+      "headline": "Heavier than some 16-inch competitors from ASUS and Razer",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "229be8ba-ab56-4ba6-a2fb-244d0dc65a10",
+      "ranking_product_id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "type": "pro",
+      "content": "Premium unibody aluminum chassis — arguably the best-built gaming laptop.",
+      "headline": "Premium unibody aluminum chassis — arguably the best-built gaming laptop",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "76e41806-4008-4610-88e9-690987da0820",
+      "ranking_product_id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "type": "pro",
+      "content": "Dual-mode display switches between 4K 120Hz and 1080p 240Hz on the fly.",
+      "headline": "Dual-mode display switches between 4K 120Hz and 1080p 240Hz on the fly",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "5ff9549b-5055-4b63-b2ef-8dd912602916",
+      "ranking_product_id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "type": "pro",
+      "content": "Razer SynapseRGB and per-key lighting customization is unmatched.",
+      "headline": "Razer SynapseRGB and per-key lighting customization is unmatched",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0f57f4d6-0e51-4ed8-ad5b-03ab9e61e247",
+      "ranking_product_id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "type": "con",
+      "content": "Expensive — Razer's premium tax is real.",
+      "headline": "Expensive — Razer's premium tax is real",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "32632bb8-9680-4a0b-a7e2-02ca5e6f565e",
+      "ranking_product_id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "type": "con",
+      "content": "Battery life is mediocre under gaming load.",
+      "headline": "Battery life is mediocre under gaming load",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "37da5c89-c725-4643-9bbb-77b3df973e02",
+      "ranking_product_id": "57da7888-6ee0-47f9-a3f4-b2e0b73211b3",
+      "type": "con",
+      "content": "Limited repairability — many components are soldered.",
+      "headline": "Limited repairability — many components are soldered",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d44df379-b8e1-4476-b57e-86b6de981c30",
+      "ranking_product_id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "type": "pro",
+      "content": "Lenovo's legendary keyboard with Legion TrueStrike makes gaming comfortable.",
+      "headline": "Lenovo's legendary keyboard with Legion TrueStrike makes gaming comfortable",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d445960e-b293-401f-b1ae-ff773c0d79de",
+      "ranking_product_id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "type": "pro",
+      "content": "Excellent cooling with vapor chamber and triple-fan setup.",
+      "headline": "Excellent cooling with vapor chamber and triple-fan setup",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "f58c011c-2bee-4811-879d-d75231a92295",
+      "ranking_product_id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "type": "pro",
+      "content": "Clean professional aesthetic — doesn't scream 'gamer' in meetings.",
+      "headline": "Clean professional aesthetic — doesn't scream 'gamer' in meetings",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2b479223-c118-405d-a4f9-103b8f725c94",
+      "ranking_product_id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "type": "con",
+      "content": "Battery could be larger — 4-5 hours max for non-gaming tasks.",
+      "headline": "Battery could be larger — 4-5 hours max for non-gaming tasks",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "24c8421e-9da7-416b-b1cd-42de68859576",
+      "ranking_product_id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "type": "con",
+      "content": "Speakers are average — use headphones for immersive audio.",
+      "headline": "Speakers are average — use headphones for immersive audio",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "01c17612-b836-4fa4-b474-430ca9a9c3c1",
+      "ranking_product_id": "826b4a37-dcba-47ae-9b06-0c625e1555f7",
+      "type": "con",
+      "content": "Webcam placement feels dated compared to modern thin-bezel designs.",
+      "headline": "Webcam placement feels dated compared to modern thin-bezel designs",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ccc336ff-5278-487b-8129-85f35bbb2532",
+      "ranking_product_id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "type": "pro",
+      "content": "Best value high-performance gaming laptop in its price bracket.",
+      "headline": "Best value high-performance gaming laptop in its price bracket",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "65caaf21-6e5c-4ed6-9736-15a85756d099",
+      "ranking_product_id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "type": "pro",
+      "content": "Upgrade-friendly design with accessible RAM and storage slots.",
+      "headline": "Upgrade-friendly design with accessible RAM and storage slots",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "8a0044bd-749d-4ecb-9dd5-84167fcbd016",
+      "ranking_product_id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "type": "pro",
+      "content": "Acer's PredatorSense software provides convenient performance tuning.",
+      "headline": "Acer's PredatorSense software provides convenient performance tuning",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "7f3b9be3-e46e-4afc-8681-09049bf443a5",
+      "ranking_product_id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "type": "con",
+      "content": "Base model's FHD display lacks the sharpness of QHD competitors.",
+      "headline": "Base model's FHD display lacks the sharpness of QHD competitors",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "807f61bc-a01b-429c-ab70-10352dc48844",
+      "ranking_product_id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "type": "con",
+      "content": "Plastic build feels less premium than metal chassis options.",
+      "headline": "Plastic build feels less premium than metal chassis options",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "9d3b3d74-c0a7-47ca-a790-b511dadc1d6e",
+      "ranking_product_id": "83735a5f-9a1d-45d0-83a9-a63877d45d96",
+      "type": "con",
+      "content": "Fan noise is noticeable even during light workloads.",
+      "headline": "Fan noise is noticeable even during light workloads",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2be20a0d-381e-43e9-aa20-92ae3d2b3ab6",
+      "ranking_product_id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "type": "pro",
+      "content": "Excellent edge support makes the entire surface usable.",
+      "headline": "Excellent edge support makes the entire surface usable",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "cca3b943-2e01-44c9-adab-4dc5733067a0",
+      "ranking_product_id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "type": "pro",
+      "content": "Hand-assembled with high-quality organic cotton and steel coils.",
+      "headline": "Hand-assembled with high-quality organic cotton and steel coils",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6c1c833a-87d3-462a-893c-daf6be0a728d",
+      "ranking_product_id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "type": "pro",
+      "content": "Free white-glove delivery and old mattress removal included.",
+      "headline": "Free white-glove delivery and old mattress removal included",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1f8ca829-9828-49cc-be3b-6b4b15a06117",
+      "ranking_product_id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "type": "con",
+      "content": "Somewhat bouncy — may transfer motion more than memory foam.",
+      "headline": "Somewhat bouncy — may transfer motion more than memory foam",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "703d6fc0-5264-4215-ba96-0f41fd2df7a5",
+      "ranking_product_id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "type": "con",
+      "content": "Heavy at 120+ lbs — requires two people to move.",
+      "headline": "Heavy at 120+ lbs — requires two people to move",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e2678e5f-fb0c-49ce-bfea-9b630fbff791",
+      "ranking_product_id": "0bf66051-7956-4b5e-a270-32f2b3417875",
+      "type": "con",
+      "content": "Limited plushness options — not ideal for side sleepers needing deep cushioning.",
+      "headline": "Limited plushness options — not ideal for side sleepers needing deep cushioning",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "9f5479aa-c212-4f00-8715-3d52a7e724e4",
+      "ranking_product_id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "type": "pro",
+      "content": "Unmatched pressure relief for back and joint pain sufferers.",
+      "headline": "Unmatched pressure relief for back and joint pain sufferers",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e461df97-05c9-4464-a37c-b7f486eec485",
+      "ranking_product_id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "type": "pro",
+      "content": "Excellent motion isolation — ideal for couples and light sleepers.",
+      "headline": "Excellent motion isolation — ideal for couples and light sleepers",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "46859b2a-0c5d-4646-be4e-102d07550d73",
+      "ranking_product_id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "type": "pro",
+      "content": "TEMPUR material responds to body temperature and weight for personalized support.",
+      "headline": "TEMPUR material responds to body temperature and weight for personalized support",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0566db2d-027d-41ec-acd5-d46d85518980",
+      "ranking_product_id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "type": "con",
+      "content": "Expensive — Tempur-Pedic carries a significant premium.",
+      "headline": "Expensive — Tempur-Pedic carries a significant premium",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "404638ca-1c84-48e1-b2df-5ec469e4234b",
+      "ranking_product_id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "type": "con",
+      "content": "Initial off-gassing odor can be strong for sensitive noses.",
+      "headline": "Initial off-gassing odor can be strong for sensitive noses",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "16d11be9-3d83-43ec-b757-200eba2fd7dc",
+      "ranking_product_id": "6df3692d-431d-4107-b07c-719848b23cbb",
+      "type": "con",
+      "content": "Heavy and difficult to move once unboxed.",
+      "headline": "Heavy and difficult to move once unboxed",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "49634713-6b02-402f-b83b-41b2d9959411",
+      "ranking_product_id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "type": "pro",
+      "content": "Most breathable mattress on the market — stays cool all night.",
+      "headline": "Most breathable mattress on the market — stays cool all night",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6c92709e-9f6c-44ea-bc8d-53be5d09e6d1",
+      "ranking_product_id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "type": "pro",
+      "content": "Unique polymer grid provides responsive support without being too firm.",
+      "headline": "Unique polymer grid provides responsive support without being too firm",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "188e2021-52f6-4e84-8530-b11fda06fddf",
+      "ranking_product_id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "type": "pro",
+      "content": "Excellent pressure relief for side sleepers despite medium-firm rating.",
+      "headline": "Excellent pressure relief for side sleepers despite medium-firm rating",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "065c2a33-2497-4793-91e9-72ef49d032e1",
+      "ranking_product_id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "type": "con",
+      "content": "Unusual feel takes 2–4 weeks to adjust to — not for everyone.",
+      "headline": "Unusual feel takes 2–4 weeks to adjust to — not for everyone",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "63e06e1f-68f3-4c30-ab3e-e715ffdf8789",
+      "ranking_product_id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "type": "con",
+      "content": "Limited edge support compared to innerspring or hybrid designs.",
+      "headline": "Limited edge support compared to innerspring or hybrid designs",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "efbd432d-6607-4b73-97bb-e851967d11b0",
+      "ranking_product_id": "622e23c3-3d57-4b63-a812-0c5f313febea",
+      "type": "con",
+      "content": "Higher price than traditional foam mattresses at similar thickness.",
+      "headline": "Higher price than traditional foam mattresses at similar thickness",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "55575ad9-93cd-4be3-a44e-7aab1879b5b6",
+      "ranking_product_id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "type": "pro",
+      "content": "Engineered support zones align spine and relieve pressure points.",
+      "headline": "Engineered support zones align spine and relieve pressure points",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d1b7262b-0957-4735-9c3e-55d217c5251e",
+      "ranking_product_id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "type": "pro",
+      "content": "Excellent combination of contouring foam and responsive springs.",
+      "headline": "Excellent combination of contouring foam and responsive springs",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e59e252f-1a5e-4ed5-9324-c83285e27b30",
+      "ranking_product_id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "type": "pro",
+      "content": "Casper's brand reputation and customer service are excellent.",
+      "headline": "Casper's brand reputation and customer service are excellent",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b7430dd2-b7ac-414f-80c2-1095aeb4c81b",
+      "ranking_product_id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "type": "con",
+      "content": "Expensive relative to other bed-in-a-box options.",
+      "headline": "Expensive relative to other bed-in-a-box options",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "aac2de22-bfba-4bf5-92df-fad0c5f7a20c",
+      "ranking_product_id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "type": "con",
+      "content": "Some users report heat retention compared to all-foam designs.",
+      "headline": "Some users report heat retention compared to all-foam designs",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "45c76d52-ba02-4508-a713-e27848f01afe",
+      "ranking_product_id": "03917c7e-ae88-4cc6-a368-138dbeb58d4b",
+      "type": "con",
+      "content": "Edge support is adequate but not exceptional.",
+      "headline": "Edge support is adequate but not exceptional",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "588537d1-22cc-496d-a297-bfeadaea6a75",
+      "ranking_product_id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "type": "pro",
+      "content": "Outstanding value — premium features at mid-tier pricing.",
+      "headline": "Outstanding value — premium features at mid-tier pricing",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "15aa6998-1e92-4ae8-89eb-7f5ca0b4f07a",
+      "ranking_product_id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "type": "pro",
+      "content": "365-night trial and forever warranty provide exceptional peace of mind.",
+      "headline": "365-night trial and forever warranty provide exceptional peace of mind",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2382513e-0b31-4176-82f5-cbed32f12f87",
+      "ranking_product_id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "type": "pro",
+      "content": "Excellent motion isolation for couples sharing a bed.",
+      "headline": "Excellent motion isolation for couples sharing a bed",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4b8cc34b-8b75-43d7-9287-66c5c6df48d8",
+      "ranking_product_id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "type": "con",
+      "content": "Memory foam retains more heat than hybrid or latex alternatives.",
+      "headline": "Memory foam retains more heat than hybrid or latex alternatives",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "bbfdb587-ac23-46eb-a317-62dfb7648cea",
+      "ranking_product_id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "type": "con",
+      "content": "Slow response time makes position changes less fluid.",
+      "headline": "Slow response time makes position changes less fluid",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "04ad5c4a-0d7b-4d12-a4d3-03b7dab46516",
+      "ranking_product_id": "567d5620-f5fb-45a7-a7ed-b0c2363e9912",
+      "type": "con",
+      "content": "Initial unboxing odor can last 3–5 days in poorly ventilated rooms.",
+      "headline": "Initial unboxing odor can last 3–5 days in poorly ventilated rooms",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "be8921cb-8d01-43f4-8e11-9b97795da3b2",
+      "ranking_product_id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "type": "pro",
+      "content": "Eco-friendly materials — organic latex, wool, and cotton with no harmful chemicals.",
+      "headline": "Eco-friendly materials — organic latex, wool, and cotton with no harmful chemicals",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "5b86fa95-5990-4ba9-8d84-27f2ef4f71ec",
+      "ranking_product_id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "type": "pro",
+      "content": "Excellent bounce and responsiveness — great for combination sleepers.",
+      "headline": "Excellent bounce and responsiveness — great for combination sleepers",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3065f33f-6bc6-4f68-9e97-eafbf7989c1d",
+      "ranking_product_id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "type": "pro",
+      "content": "Made in the USA with transparent sourcing and fair labor practices.",
+      "headline": "Made in the USA with transparent sourcing and fair labor practices",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "834fe248-dfe4-4192-aa33-60d09e64f9c9",
+      "ranking_product_id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "type": "con",
+      "content": "Firmer feel isn't ideal for side sleepers needing plush cushioning.",
+      "headline": "Firmer feel isn't ideal for side sleepers needing plush cushioning",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b1fc94cd-76fc-4591-85e0-afa0d5047ab4",
+      "ranking_product_id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "type": "con",
+      "content": "Limited motion isolation compared to all-foam mattresses.",
+      "headline": "Limited motion isolation compared to all-foam mattresses",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b112293f-5a4b-4086-88c9-3b5ced402ae5",
+      "ranking_product_id": "e69075ff-4bb7-414e-982c-5481f765f1a8",
+      "type": "con",
+      "content": "Higher price point compared to conventional foam models.",
+      "headline": "Higher price point compared to conventional foam models",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "860aab6a-a0a5-497a-9bdb-efb66e2085fe",
+      "ranking_product_id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "type": "pro",
+      "content": "Integrated grinder with 8 settings simplifies workflow without sacrificing quality.",
+      "headline": "Integrated grinder with 8 settings simplifies workflow without sacrificing quality",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6bfdd6d7-cccd-4efb-bb66-7addca0b74f5",
+      "ranking_product_id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "type": "pro",
+      "content": "Pre-infusion function extracts the best flavors from any roast.",
+      "headline": "Pre-infusion function extracts the best flavors from any roast",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2aa6b2f8-3f94-4fce-b40a-e90d987b5ee8",
+      "ranking_product_id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "type": "pro",
+      "content": "Steam wand produces velvety microfoam for latte art practice.",
+      "headline": "Steam wand produces velvety microfoam for latte art practice",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "50e0b0b3-2949-4e69-b5c2-ad5d5f4316cb",
+      "ranking_product_id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "type": "con",
+      "content": "Learning curve steeper than super-automatic machines.",
+      "headline": "Learning curve steeper than super-automatic machines",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "283d2a64-1c88-45db-b05a-b0702cddc3d5",
+      "ranking_product_id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "type": "con",
+      "content": "Some users report inconsistent shot temperature at high volume.",
+      "headline": "Some users report inconsistent shot temperature at high volume",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1215c872-4954-4a6d-bbbf-135b7b81f908",
+      "ranking_product_id": "cfa05e69-7b33-499f-947c-3922f040f34d",
+      "type": "con",
+      "content": "Plastic components feel less durable than all-metal competitors.",
+      "headline": "Plastic components feel less durable than all-metal competitors",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c612fc51-c489-4e11-b62c-0b2ff89ea19b",
+      "ranking_product_id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "type": "pro",
+      "content": "ThermoJet technology heats to extraction temp in just 3 seconds — fastest in class.",
+      "headline": "ThermoJet technology heats to extraction temp in just 3 seconds — fastest in class",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0150a293-16ff-4d74-b3ea-b17631ced5a0",
+      "ranking_product_id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "type": "pro",
+      "content": "Precision automatic shot timing ensures consistent extraction every time.",
+      "headline": "Precision automatic shot timing ensures consistent extraction every time",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "8ccdba1c-04e1-416c-89db-d097cb98c7ff",
+      "ranking_product_id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "type": "pro",
+      "content": "Compact footprint ideal for small kitchens or apartments.",
+      "headline": "Compact footprint ideal for small kitchens or apartments",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "91e8732b-7b3b-4e90-ad8a-742e166af1ff",
+      "ranking_product_id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "type": "con",
+      "content": "No built-in grinder — must buy separately ($150–400).",
+      "headline": "No built-in grinder — must buy separately ($150–400)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "9b934d61-a618-4b64-8592-024512c0067e",
+      "ranking_product_id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "type": "con",
+      "content": "Small water reservoir requires frequent refills for heavy use.",
+      "headline": "Small water reservoir requires frequent refills for heavy use",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c3d4d1d7-edc3-47b0-a004-46cec248a6f6",
+      "ranking_product_id": "d4132eb5-0c05-48b2-9fe0-bc871832db58",
+      "type": "con",
+      "content": "Steam power weaker than larger machines — slower milk texturing.",
+      "headline": "Steam power weaker than larger machines — slower milk texturing",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "a62261dc-42e8-4944-8bba-2c42f5a89118",
+      "ranking_product_id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "type": "pro",
+      "content": "Dual boilers allow simultaneous brewing and steaming — no waiting.",
+      "headline": "Dual boilers allow simultaneous brewing and steaming — no waiting",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "63dc65d1-d170-4547-a809-88c5b9633d8f",
+      "ranking_product_id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "type": "pro",
+      "content": "Commercial-grade components and all-metal construction built to last 15+ years.",
+      "headline": "Commercial-grade components and all-metal construction built to last 15+ years",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d49e7272-4bd5-4b9a-b11f-0ada62575aab",
+      "ranking_product_id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "type": "pro",
+      "content": "Excellent temperature stability thanks to PID controller and copper boilers.",
+      "headline": "Excellent temperature stability thanks to PID controller and copper boilers",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d22ba04a-e25a-45dd-8577-19ac5f999da4",
+      "ranking_product_id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "type": "con",
+      "content": "Expensive for an entry-level prosumer machine.",
+      "headline": "Expensive for an entry-level prosumer machine",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "fe95a660-0df8-438b-b83d-23fc78773c40",
+      "ranking_product_id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "type": "con",
+      "content": "Significant learning curve — not beginner-friendly.",
+      "headline": "Significant learning curve — not beginner-friendly",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "54e3e4e5-48f1-4390-80df-20396daed870",
+      "ranking_product_id": "205bea60-0a34-47d4-af74-2968220c0463",
+      "type": "con",
+      "content": "Heavy (60+ lbs) — not easily moved once placed.",
+      "headline": "Heavy (60+ lbs) — not easily moved once placed",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "87fc01ae-5372-4fc3-aa21-0a64aa0c5eaf",
+      "ranking_product_id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "type": "pro",
+      "content": "Legendary reliability — many last 10+ years with minimal maintenance.",
+      "headline": "Legendary reliability — many last 10+ years with minimal maintenance",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "01b8b5e3-8225-4e77-b3ff-6912f8687010",
+      "ranking_product_id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "type": "pro",
+      "content": "Commercial 58mm portafilter offers infinite upgrade potential.",
+      "headline": "Commercial 58mm portafilter offers infinite upgrade potential",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b9f3954e-c9a4-4ceb-b2a3-7a90d56be8be",
+      "ranking_product_id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "type": "pro",
+      "content": "Compact, simple design that does one thing extremely well.",
+      "headline": "Compact, simple design that does one thing extremely well",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "fc128a0f-4a3d-4a17-8109-dda2b9561d2a",
+      "ranking_product_id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "type": "con",
+      "content": "Single boiler requires temperature surfing for consistent shots.",
+      "headline": "Single boiler requires temperature surfing for consistent shots",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ca2a31af-b50d-41b5-9dca-da0e0098a179",
+      "ranking_product_id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "type": "con",
+      "content": "No PID — temperature stability is manual skill-dependent.",
+      "headline": "No PID — temperature stability is manual skill-dependent",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1b520c46-8cec-4eba-ab3e-1cedb2f338ec",
+      "ranking_product_id": "0e05c196-8405-4ee9-a3d7-4a03acc14d1d",
+      "type": "con",
+      "content": "Basic plastic group head feels dated compared to modern machines.",
+      "headline": "Basic plastic group head feels dated compared to modern machines",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6ea7f01d-c067-43c4-bda5-24b46bc35505",
+      "ranking_product_id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "type": "pro",
+      "content": "Dual boiler design at a surprisingly accessible price point.",
+      "headline": "Dual boiler design at a surprisingly accessible price point",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4e20ccb9-1214-489f-bf3e-6381fb4785b9",
+      "ranking_product_id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "type": "pro",
+      "content": "PID temperature control ensures shot-to-shot consistency.",
+      "headline": "PID temperature control ensures shot-to-shot consistency",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "92e699bc-e7ca-4b0a-a578-a5ef457118d9",
+      "ranking_product_id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "type": "pro",
+      "content": "Pre-infusion feature improves extraction without manual technique.",
+      "headline": "Pre-infusion feature improves extraction without manual technique",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3977a5ee-1faa-4c8a-8361-47ab92349888",
+      "ranking_product_id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "type": "con",
+      "content": "Steam power is weaker than higher-end machines.",
+      "headline": "Steam power is weaker than higher-end machines",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "32adff2b-c0b6-4e2f-8601-419116ab5072",
+      "ranking_product_id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "type": "con",
+      "content": "No built-in grinder adds to total cost.",
+      "headline": "No built-in grinder adds to total cost",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "a686609d-dbb4-40fc-a385-07f52f271c50",
+      "ranking_product_id": "a96d99e1-a449-46d2-9a6e-bf42cd663935",
+      "type": "con",
+      "content": "Smaller water tank than some competitors — may need refilling during parties.",
+      "headline": "Smaller water tank than some competitors — may need refilling during parties",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4966ce04-5f39-468c-86d7-64136059c31a",
+      "ranking_product_id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "type": "pro",
+      "content": "German engineering with exceptional build quality and attention to detail.",
+      "headline": "German engineering with exceptional build quality and attention to detail",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "9dfd0709-46f2-481e-816c-39968cc80895",
+      "ranking_product_id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "type": "pro",
+      "content": "Dual boiler with excellent steam power for milk drinks.",
+      "headline": "Dual boiler with excellent steam power for milk drinks",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e361e610-003c-435a-a43a-dde1e2de7708",
+      "ranking_product_id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "type": "pro",
+      "content": "Flow control device enables pressure profiling for advanced users.",
+      "headline": "Flow control device enables pressure profiling for advanced users",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "08102cd1-a975-4ba8-ad0b-4e79331dfd91",
+      "ranking_product_id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "type": "con",
+      "content": "Premium price for what's essentially a prosumer machine.",
+      "headline": "Premium price for what's essentially a prosumer machine",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6663b511-e006-4d3f-9403-80b4de191de4",
+      "ranking_product_id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "type": "con",
+      "content": "Overkill for beginners who won't use advanced features.",
+      "headline": "Overkill for beginners who won't use advanced features",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "70b35bdd-2d3e-4f95-90a0-fcf8d455abf4",
+      "ranking_product_id": "b0e92064-b4e5-4785-bff8-479a401bbfec",
+      "type": "con",
+      "content": "Heavy and requires dedicated counter space.",
+      "headline": "Heavy and requires dedicated counter space",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ],
   "specifications": [
@@ -3497,6 +4811,928 @@
       "value": "4",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "afdcdf43-0c73-47f0-88cb-840e3fed140f",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 5090",
+      "unit": "16 GB GDDR7",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "df7b96f5-2fc1-4090-bb4a-a9955df6505a",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "CPU",
+      "value": "Intel Core i9-29900HX",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "33da72aa-ad78-48cf-b471-d12b7f7a8d4f",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "Display",
+      "value": "18\" QHD+ 240Hz OLED",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "65e199cf-9c7e-41d1-bb08-6d103dd91747",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "RAM",
+      "value": "32",
+      "unit": "GB DDR5-5600",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0b0310bd-57a6-4653-b210-b56e1392e1b0",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "Storage",
+      "value": "2 TB",
+      "unit": "NVMe PCIe 5.0",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4847a624-641b-46ed-be8e-d28abec2c6d6",
+      "product_id": "011ffe98-4abe-4000-be99-2252aba3a806",
+      "name": "Weight",
+      "value": "2.9",
+      "unit": "kg",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "63e9e5f4-b87b-4b21-a7fb-ac293b656cde",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 5090 Laptop",
+      "unit": "16 GB GDDR7",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "50b54815-cd89-469f-a094-0925529da53a",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "CPU",
+      "value": "Intel Core i9-29900HX",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "eebddf0a-f577-4227-8147-c44996efc01d",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "Display",
+      "value": "17.3\" 4K 144Hz Mini-LED",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "aca56140-2670-4f54-906d-d4cbdef2af33",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "RAM",
+      "value": "64",
+      "unit": "GB DDR5-5600",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "307e109c-0c83-4502-ae4f-5b2a225d9e4f",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "Storage",
+      "value": "4 TB",
+      "unit": "NVMe PCIe 5.0 (x2)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e479ea0c-b3ee-43a6-be1a-87d4eec0d37a",
+      "product_id": "5fbdf9dc-1a86-4f63-b2e5-83c2e890d59d",
+      "name": "Weight",
+      "value": "3.1",
+      "unit": "kg",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "fd4269d2-2e88-4e44-b3b7-23753f8d323b",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4080",
+      "unit": "12 GB GDDR6X",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ba8c02cf-cda2-4916-80c0-3bb58b6da175",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "CPU",
+      "value": "AMD Ryzen 9 9950HX",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "f44005ba-306c-4f49-bc0a-37fd1c241b46",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "Display",
+      "value": "16\" QHD+ 240Hz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "510315df-265b-4f50-bcde-e458fb400bde",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "RAM",
+      "value": "32",
+      "unit": "GB DDR5-5600",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "af503459-550f-4543-a458-17ebfbbcd925",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "Storage",
+      "value": "2 TB",
+      "unit": "NVMe PCIe 4.0",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d2ee36c5-f478-44f6-b1c9-5c8afbcb0a50",
+      "product_id": "f3f85f9c-c66b-4476-b46f-0ea0d0616a48",
+      "name": "Weight",
+      "value": "2.6",
+      "unit": "kg",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d6fd9488-1766-4f0d-8ad0-5a2a14e78038",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 5080",
+      "unit": "16 GB GDDR7",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1a33d597-afed-4bf9-bfdd-6745aba76066",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "CPU",
+      "value": "Intel Core i9-15900HX",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "98c11d24-acb0-480f-8249-3d829c94ce31",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "Display",
+      "value": "16\" Dual-Mode Mini-LED 240Hz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0e99859e-acf7-436c-bd8c-1d77a2116446",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "RAM",
+      "value": "32",
+      "unit": "GB DDR5-5600",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "9feec3b2-7236-41dd-b049-aa6ac3c3c4f2",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "Storage",
+      "value": "2 TB",
+      "unit": "NVMe PCIe 5.0",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "02e94de0-b09e-426d-8af2-e67c7b8f79e1",
+      "product_id": "381f32a4-986f-44a6-93ba-c86168b0ebcb",
+      "name": "Weight",
+      "value": "2.45",
+      "unit": "kg",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6fc51b38-4648-4c3a-b023-d4b319ff0efb",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 5080",
+      "unit": "16 GB GDDR7",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "cd328a54-018c-4d65-8e7d-5b9c50174760",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "CPU",
+      "value": "Intel Core i9-15900HX",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d3896fd0-4265-44dc-8607-4b9cf16a21bb",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "Display",
+      "value": "16\" WQXGA 240Hz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2ab726a8-bf1d-4736-8329-6ca7f310d8bd",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "RAM",
+      "value": "32",
+      "unit": "GB DDR5-5600",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "71ce2ba8-a4d6-4fa4-8def-47141404c4d3",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "Storage",
+      "value": "1 TB",
+      "unit": "NVMe PCIe 5.0",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "01825c80-5fd6-44a5-8c76-a29970fb2cc5",
+      "product_id": "2d3257e3-12c1-433f-a878-a1d3163aa761",
+      "name": "Weight",
+      "value": "2.5",
+      "unit": "kg",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "63f70f27-d2c2-4b98-ba22-d11aaf47b4c1",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4070",
+      "unit": "12 GB GDDR6X",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1b0f353b-9710-44fc-b5ec-08cb62740945",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "CPU",
+      "value": "Intel Core i7-15700HX",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e37d681f-2a18-49ca-8986-1f572c9b9cb3",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "Display",
+      "value": "16\" FHD 144Hz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "da28dcef-a18c-4496-8469-e00ae9c3edf9",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "RAM",
+      "value": "16",
+      "unit": "GB DDR5-5200",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "82ddcdfc-c62e-4b1e-aca6-b0a469116af3",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "Storage",
+      "value": "1 TB",
+      "unit": "NVMe PCIe 4.0",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "30ca0276-f21a-4d9e-b845-b2827d1653a6",
+      "product_id": "344f27c3-6068-4ac8-933f-b57942ca63a3",
+      "name": "Weight",
+      "value": "2.7",
+      "unit": "kg",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "417ea08a-7905-4978-9c10-a32ea8ba474f",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Construction",
+      "value": "Innerspring + Euro Top",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "01092bcb-9f98-463f-a4ed-ddc6c3b8f217",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Height",
+      "value": "11.5",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2d10dae8-e049-4bc2-94c5-69260ef86570",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Firmness",
+      "value": "Luxury Firm (Rated 5–7/10)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "fa33b767-bea7-4c1f-aa8e-0586c70b7db7",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Trial Period",
+      "value": "365",
+      "unit": "nights",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3269c8f4-0960-4aec-bfd0-aadd7ea08477",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Warranty",
+      "value": "Lifetime",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b283831d-a32d-4ce1-a7e1-fa05845e67f6",
+      "product_id": "960d2954-7677-466b-a0f5-d68ddd3c07af",
+      "name": "Made In",
+      "value": "USA",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "44395b3e-0329-452d-af89-8069ef439fda",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Construction",
+      "value": "Adaptive TEMPUR Material",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "731afe45-ffeb-480e-9453-6f79b59a9a0b",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Height",
+      "value": "11",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "9d90904e-dab7-4a61-a747-8d8e8c545f2d",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Firmness",
+      "value": "Medium (Adaptable)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6ada53ad-0c4e-422b-8b37-aac366e981bd",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Trial Period",
+      "value": "100",
+      "unit": "nights",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1d7d75f5-4b95-44c0-9818-96474183c4e2",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Warranty",
+      "value": "10",
+      "unit": "years",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "23a4187b-7b85-4592-ade3-df107682d278",
+      "product_id": "ca2c525b-9728-4c7b-8a50-ccea3e407d7b",
+      "name": "Certifications",
+      "value": "CertiPUR-US, GREENGUARD Gold",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ed06cf25-2e26-4718-bf34-30df8c6a498c",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Construction",
+      "value": "Hyper-Elastic Polymer Grid",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3d8c0dee-b997-4e48-afdd-52cb3930c3a0",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Height",
+      "value": "9.5",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "7fc7b3ec-3b6f-456d-9d45-f9211b6e03c4",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Firmness",
+      "value": "Medium-Firm (6–7/10)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c5d5e77e-5529-48f9-8db0-2829f428a27a",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Trial Period",
+      "value": "100",
+      "unit": "nights",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "53cd52f9-bf42-40c5-934f-a18f84f3e1c1",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Warranty",
+      "value": "10",
+      "unit": "years",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c0a2a8f3-f5ef-40df-91b3-fa5795df0ddf",
+      "product_id": "eed147da-4694-446b-9d69-d799a8ac6c44",
+      "name": "Cooling",
+      "value": "Excellent (Open Grid Design)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "f6fdecaa-4913-43c7-a3b4-3e6f7bebc065",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Construction",
+      "value": "Hybrid (Foam + Springs)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ac74275c-56dd-450e-beb5-fa51751d2702",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Height",
+      "value": "11.5",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "30090651-e472-4fd4-ae2e-2517bd9e63a1",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Firmness",
+      "value": "Medium-Plush",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "aabecf1c-5bb5-41b9-ac58-8e8eb07c9fb5",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Trial Period",
+      "value": "100",
+      "unit": "nights",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d6f3327e-edbf-4096-a69c-9fac95188417",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Warranty",
+      "value": "10",
+      "unit": "years",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "34f70681-867a-4eb0-a9ab-e09d2c1d3c38",
+      "product_id": "149e041e-de99-40ce-9911-3a0cee0c349d",
+      "name": "Support Zones",
+      "value": "5 (Ergonomic)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "945640ba-0f0d-4ad8-abe8-d9e33f7fd124",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Construction",
+      "value": "Memory Foam (3-Layer)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "16c22e91-6ae0-40b0-8373-37dd59f99a52",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Height",
+      "value": "12",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6ee7d01a-a9b2-45cc-b821-1e727adc409f",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Firmness",
+      "value": "Medium-Firm (6.5/10)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d6733e0b-36f8-40c4-bc65-8cb8aad78390",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Trial Period",
+      "value": "365",
+      "unit": "nights",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "002ae890-14c1-4626-b713-02f7af84a1ef",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Warranty",
+      "value": "Forever",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e58a5537-e028-4d85-bb51-8851e1a066c8",
+      "product_id": "98e3c439-0f0c-4872-b5ef-9e6230dea026",
+      "name": "Cover",
+      "value": "Removable & Washable",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "8a989a78-a52d-4457-9ca3-966d4568e03e",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Construction",
+      "value": "Latex + Coil Hybrid",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4f919a47-7c5f-4fac-95a7-de589d79580c",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Height",
+      "value": "11",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "81064204-3ff5-4703-a107-3e6211411e59",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Firmness",
+      "value": "Medium-Firm (7/10)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "10043a7b-60f4-45c9-8fc6-4d88a21e803b",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Trial Period",
+      "value": "365",
+      "unit": "nights",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "171bc6dc-8113-4f6d-b43a-1587afb4ca41",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Warranty",
+      "value": "25",
+      "unit": "years",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b45f207f-a226-4000-875a-4dd335aecb68",
+      "product_id": "e8e5d074-feb9-4dc8-8f32-ec5df6073cda",
+      "name": "Certifications",
+      "value": "GOLS, GOTS, GREENGUARD Gold",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "5a4dd7a2-04de-4ed4-91a2-9cf0c6c3d0fc",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "397d5f92-a8fb-4922-a3db-6e8bde0bb167",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "Boiler",
+      "value": "ThermoBlock (Stainless)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "db4a6e15-e9db-4873-8d86-626f7bf20022",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "Pressure",
+      "value": "19",
+      "unit": "bar",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0fd8ec2d-14c8-4dcc-a0bb-d1f67915ef0c",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "Grinder",
+      "value": "Built-in Conical Burr (8 settings)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0fad859e-73d6-46f4-aff2-33bbef797f46",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "Water Tank",
+      "value": "60",
+      "unit": "oz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6dd1c874-ce6f-4235-a2bd-4b36cc06792f",
+      "product_id": "aaf6126d-fe70-4441-8631-2783b2f08d06",
+      "name": "Dimensions",
+      "value": "14.5 × 11.6 × 13.8",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "e14ccba6-4f53-417f-a75e-c57efa29ad3d",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Type",
+      "value": "Semi-Automatic (ThermoJet)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "49b2f58e-5835-482c-bc88-991f2dcd9e04",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Boiler",
+      "value": "ThermoJet (3 sec heat-up)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c1dac037-5a13-498b-b619-d1f4a74871c0",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Pressure",
+      "value": "15",
+      "unit": "bar",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d31d40f6-f37e-484e-a6f1-7b1c48455f67",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Grinder",
+      "value": "External Required",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "c4c4ae71-1d95-4fb5-83da-90c5d211958f",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Water Tank",
+      "value": "47",
+      "unit": "oz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "6d07e3c2-a013-4bbe-a763-0a76312b5def",
+      "product_id": "29f467e2-9701-4485-abf0-69f763d1695f",
+      "name": "Dimensions",
+      "value": "12.8 × 5.9 × 14.9",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "25f090c7-8c8b-41a8-8a49-550ae6fbdb5c",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2ddeafd4-f39e-499c-97ec-312ed17d9c7e",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Boiler",
+      "value": "Dual Boiler (Copper)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "4366b451-61d2-4abc-be09-b8b5a6627148",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Pressure",
+      "value": "15",
+      "unit": "bar (vibratory pump)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "cb324f0b-d159-4457-8cc9-bd48807a9dc2",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Grinder",
+      "value": "External Required",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "0064abbe-0187-4a0c-94a7-3e5ef780b386",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Water Tank",
+      "value": "85",
+      "unit": "oz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b4846a65-4a57-4868-b07e-1d9b559ac7c2",
+      "product_id": "0c12da53-bd8b-4150-b80f-7e85ae134d8a",
+      "name": "Dimensions",
+      "value": "15.5 × 10.5 × 14.5",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "83b9c82b-4da7-473e-91e7-802b783fc8bc",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "8251ebc1-bfb4-4c0e-b1bf-a3775d5d9557",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Boiler",
+      "value": "Single (Stainless Steel)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "85d0400c-cf08-42fa-9130-45c528baca8a",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Pressure",
+      "value": "15",
+      "unit": "bar (ULKA pump)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3ac7c973-34bb-474e-a95e-7af6bf988125",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Grinder",
+      "value": "External Required",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "060595d2-8c9b-44a5-b614-e62ecf0aadbd",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Water Tank",
+      "value": "72",
+      "unit": "oz (Removable)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "fa17b816-ec06-4265-b016-4e909e6d5299",
+      "product_id": "de420abd-6643-4347-83db-5d43cb623aad",
+      "name": "Dimensions",
+      "value": "9.5 × 11 × 13.5",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "54ce850c-42ed-462e-af9d-4814e2d0e9e6",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Type",
+      "value": "Semi-Automatic (PID + Pre-infusion)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3fd9baf7-2500-43e9-aa20-c83571a3d909",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Boiler",
+      "value": "Dual (Stainless)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "080249b6-0fd6-4c18-be6a-1879d52380cd",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Pressure",
+      "value": "15",
+      "unit": "bar",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3aaf874b-ad2e-484a-9263-fad4a68172c9",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Grinder",
+      "value": "External Required",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "a199b20e-0297-42f3-aef2-8486c757d71f",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Water Tank",
+      "value": "84",
+      "unit": "oz",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "fc37beeb-0b23-43b4-a7b1-2fc7b4fbe517",
+      "product_id": "eefbac8d-6749-4dfa-a05a-fcbd2276cb33",
+      "name": "Dimensions",
+      "value": "12.2 × 8.7 × 14.6",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "8471fab0-cd06-4ffd-bae0-87ade1ba75fd",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "Type",
+      "value": "Semi-Automatic (PID + Flow Control)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "8696c86d-c2f7-4b7a-9f95-6d377544ea83",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "Boiler",
+      "value": "Dual (Copper)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "2043dfc2-16d9-48e2-a949-91902bbf9930",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "Pressure",
+      "value": "15",
+      "unit": "bar (Vibration pump)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "3f13fd69-9313-4ca1-8795-7746a2aa0c5e",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "Grinder",
+      "value": "External Required",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "7c18cadb-e96e-4bf1-8894-7f6b1309b585",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "Water Tank",
+      "value": "108",
+      "unit": "oz (Jumbo)",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "f5449b1e-4d0a-405a-8f28-b93a0f8daadb",
+      "product_id": "1fdfecbf-de2d-42d3-9632-bf8f48c20502",
+      "name": "Dimensions",
+      "value": "15.5 × 11 × 15.5",
+      "unit": "inches",
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ],
   "assets": [],
@@ -3662,6 +5898,87 @@
       "display_order": 3,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "5b174fee-46bf-4b71-9799-f8896af14460",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "question": "Should I buy a gaming laptop or a desktop PC?",
+      "answer": "Choose a gaming laptop if you need portability or have limited space — modern GPUs offer near-desktop performance. Choose a desktop if you prioritize upgradability, raw power per dollar, and easier repairs. For most college students and travelers, a laptop makes sense. For stationary setups, a desktop remains more cost-effective and future-proof.",
+      "display_order": 1,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "ed0d25b2-4627-40a2-bbf2-87f39c2cd194",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "question": "How much GPU do I really need for gaming at 1080p vs 1440p vs 4K?",
+      "answer": "At 1080p, an RTX 4060 or RX 7600 XT is sufficient for 60+ FPS in most titles. At 1440p, aim for RTX 4070 Super or RX 7800 XT. For 4K gaming, RTX 4080 Super or higher is recommended. Also consider your monitor's refresh rate — high FPS at lower resolutions often feels smoother than lower FPS at higher resolutions.",
+      "display_order": 2,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "470c8542-1fa8-4e41-bfeb-0c0936708c41",
+      "ranking_id": "316fdb83-8920-4a81-bb12-35f2c1902b59",
+      "question": "Do gaming laptops have good battery life for productivity work?",
+      "answer": "Modern gaming laptops with NVIDIA's Advanced Optimus or AMD's Switchable Graphics can achieve 4–6 hours of轻度使用 (web browsing, office work). However, don't expect ultrabook-level battery life — gaming laptops prioritize performance over efficiency. If you need all-day battery away from an outlet, consider a dedicated productivity laptop alongside your gaming rig.",
+      "display_order": 3,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "81bd2c6d-ae1f-42aa-849d-d24ac159f149",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "question": "How often should I replace my mattress?",
+      "answer": "Most mattresses last 7–10 years with proper care. Memory foam and latex can stretch to 10+ years; innersprings typically wear out by year 7–8. Signs it's time to replace: visible sagging, persistent aches on waking, or if you're consistently sleeping poorly despite good sleep hygiene. Invest in a quality mattress — you spend ⅓ of your life on it.",
+      "display_order": 1,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "d4b93ea6-e6a6-4b60-98ee-365524f21ec9",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "question": "What mattress firmness is best for my sleep position?",
+      "answer": "Side sleepers generally prefer medium-soft to medium (4–6/10) for shoulder/hip pressure relief. Back sleepers do well with medium-firm (6–7/10) to maintain spinal alignment. Stomach sleepers need firm (7–8/10) to prevent hip sinking. Combination sleepers often choose medium (5–6/10) for versatility. Weight also matters — heavier individuals typically need firmer support.",
+      "display_order": 2,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "b26df302-3b17-4914-b437-2debc67b51ac",
+      "ranking_id": "00ddcf8f-4ca4-463a-a52a-8bc45d119c31",
+      "question": "Are bed-in-a-box mattresses as good as traditional showroom models?",
+      "answer": "Yes — modern bed-in-a-box mattresses use the same materials and construction as showroom models, often at lower prices due to eliminated middlemen and showroom overhead. Return policies (typically 100–365 nights) remove the risk of buying sight-unseen. Many traditional brands now sell direct-to-consumer online as well. The 'try before you buy' model has largely democratized quality mattresses.",
+      "display_order": 3,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "1054e2c7-347d-437b-afcf-7ca5f745b753",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "question": "Do I need a separate grinder for an espresso machine?",
+      "answer": "For serious espresso, yes — a dedicated burr grinder is as important as the machine itself. Most built-in grinders compromise on grind consistency to save space and cost. If choosing a machine without a grinder, budget at least $200–400 for a quality grinder ( Baratza Encore ESP, Niche Zero, or Lelit Bella ). Entry-level machines with built-in grinders are convenient but limit upgrade paths.",
+      "display_order": 1,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "be69c597-068e-4bfe-a86a-ed3c34137cf9",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "question": "What's the difference between 15-bar and 9-bar espresso machines?",
+      "answer": "Espresso extraction ideally happens at 9 bars of pressure. Many machines advertise 15+ bars to compensate for grind inconsistency and resistance variations. In practice, higher pressure doesn't mean better espresso — consistent pressure at the ideal 9 bars matters more. Look for machines with PID temperature control and quality boilers rather than chasing higher pressure numbers.",
+      "display_order": 2,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
+    },
+    {
+      "id": "42870f8c-6957-47ff-84bd-7515d5d96c2b",
+      "ranking_id": "850809cf-6967-4035-8761-1fbf84930b0e",
+      "question": "How important is pre-infusion for espresso?",
+      "answer": "Pre-infusion (wetting grounds with low pressure before full extraction) dramatically improves extraction uniformity, especially with light roasts and inconsistent grinds. It reduces channeling and brings out sweeter, more balanced flavors. Not essential for beginners using pre-ground or consistent grind, but highly recommended for enthusiasts seeking cafe-quality results. Many modern machines include it as standard.",
+      "display_order": 3,
+      "created_at": "2026-04-10T23:07:03.608Z",
+      "updated_at": "2026-04-10T23:07:03.608Z"
     }
   ]
 }

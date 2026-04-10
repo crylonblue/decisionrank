@@ -9,6 +9,23 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-11:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1775862127565` (**high**): Seed 3 more buyer-intent categories in code only, updating the current seed payload/source with full ranking copy, specs, pros/cons, and FAQs, without running the blocked Convex import step.
+  - Created API backlog task `1775862127574` (**medium**): Improve SEO internal linking on category and ranking pages with stronger related-category / related-ranking modules and better descriptive anchor text.
+  - Created API backlog task `1775862127632` (**medium**): Add richer category intro content for long-tail SEO, covering buyer fit, evaluation criteria, and tradeoffs without making pages feel bloated.
+  - Planning basis: CollectionPage JSON-LD is now done, so the next highest-leverage work is more seedable inventory, stronger internal link flow, and thicker category-level search intent coverage.
+
+- **2026-04-10:** Implemented CollectionPage JSON-LD on category pages (Bob heartbeat task).
+  - Added `generateCollectionPageJsonLd` helper in `lib/seo.ts` that builds proper `CollectionPage` schema with `ItemList` mainEntity, reusing existing `generateItemListJsonLd` for consistency.
+  - Wired into `app/[category]/page.tsx`: category pages now emit correct structured data with product name, url, position, and optional description.
+  - All existing schema (ItemList helper, Breadcrumb, FAQPage) remains intact. Type-check passed. Committed and pushed.
+  - **Task:** 1775775679780 (high, decisionrank)
+
+- **2026-04-10:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1775775679780` (**high**): Implement proper CollectionPage JSON-LD on category pages (`lib/seo.ts` + `app/[category]/page.tsx`) so the previously removed helper is restored cleanly.
+  - Created API backlog task `1775775679787` (**high**): Seed the next 3 buyer-intent categories in code, including products, specs, pros/cons, and FAQs, without depending on the currently blocked Convex import step.
+  - Created API backlog task `1775775679798` (**medium**): Improve category-page internal linking for SEO with stronger related-category / featured-ranking navigation blocks.
+  - Planning basis: recent work already strengthened FAQs, breadcrumbs, schema, and category expansion, so the next highest-leverage backlog is schema cleanup, more seedable category inventory, and deeper internal linking.
 - **2026-04-09:** DecisionRank SEO content refresh: Added FAQ sections to category pages (Bob heartbeat task).
   - Added `CATEGORY_FAQs` mapping in `lib/category-enhancements.ts` with category-specific FAQs for all 6 categories (standing-desks, wireless-earbuds, air-purifiers, coffee-makers, robot-vacuums, air-fryers)
   - Updated `getCategoryFAQs()` to prefer category-specific FAQs over generic ones
