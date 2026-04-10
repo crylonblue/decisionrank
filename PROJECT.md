@@ -9,6 +9,7 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-11 00:30:** SEO enhanced — expanded ENHANCED_CATEGORY_DESCRIPTIONS with 16 new long-tail category intros (analytics, cloud-hosting, crm, design-tools, e-commerce, issue-tracking, marketing-automation, note-taking, password-managers, payments, project-management, team-chat, transactional-email, video-communication, workspace-productivity), improving organic discoverability (task 1775862127632)
 - **2026-04-11:** Seeded 3 new buyer-intent categories in code (Bob heartbeat task).
   - Added Gaming Laptops, Mattresses, Espresso Machines to `scripts/.seed-payload.json` with full rankings, specs, pros/cons, and FAQs.
   - JSON validated, commit pushed (63b3f86). No Convex import attempted (still blocked).
