@@ -193,9 +193,14 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             <h1 className="text-5xl font-bold text-foreground mb-3 tracking-tight">
               {category.name}
             </h1>
-            <p className="text-lg text-muted-foreground">
-              {getEnhancedDescription(categorySlug, category.description)}
-            </p>
+            <p className="text-lg text-muted-foreground whitespace-pre-line">
+              {getEnhancedDescription(categorySlug, category.description)
+                .split('\n\n')
+                .map((paragraph: string, idx: number) => (
+                  <p key={idx}>{paragraph}</p>
+                ))}
+              }
+            </div>
           </div>
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-1.5">

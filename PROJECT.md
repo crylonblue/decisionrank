@@ -9,6 +9,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-11:** SEO content refresh — rewrote thin category descriptions and added FAQ sections for all 9 active categories.
+  - Expanded ENHANCED_CATEGORY_DESCRIPTIONS with substantial 2-3 paragraph intros for air-fryers, air-purifiers, coffee-makers, espresso-machines, gaming-laptops, mattresses, robot-vacuums, standing-desks, and wireless-earbuds, replacing generic short database descriptions with unique, intent-targeted copy.
+  - Added category-specific FAQ sections for espresso-machines, gaming-laptops, and mattresses (air-fryers, air-purifiers, coffee-makers, robot-vacuums, standing-desks, wireless-earbuds already had custom FAQs). All 9 categories now have 3–5 custom Q&As to improve long-tail SEO and user engagement.
+  - Updated `app/[category]/page.tsx` to render multi-paragraph descriptions via newline splitting (`split('\n\n')`), enabling richer on-page content.
+  - Files changed: `lib/category-enhancements.ts` (enhanced descriptions + FAQ entries), `app/[category]/page.tsx` (paragraph rendering).
+  - Committed and pushed; Vercel auto-deployed.
 - **2026-04-11 00:30:** SEO enhanced — expanded ENHANCED_CATEGORY_DESCRIPTIONS with 16 new long-tail category intros (analytics, cloud-hosting, crm, design-tools, e-commerce, issue-tracking, marketing-automation, note-taking, password-managers, payments, project-management, team-chat, transactional-email, video-communication, workspace-productivity), improving organic discoverability (task 1775862127632)
 - **2026-04-11:** Seeded 3 new buyer-intent categories in code (Bob heartbeat task).
   - Added Gaming Laptops, Mattresses, Espresso Machines to `scripts/.seed-payload.json` with full rankings, specs, pros/cons, and FAQs.
