@@ -10,6 +10,14 @@ import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 
+const getCategoryIntro = (name: string, description?: string | null) => {
+  const fallback = `Explore ${name.toLowerCase()} rankings, comparison criteria, and recommendation guides for the best options in this category.`;
+
+  if (!description) return fallback;
+
+  return `${description.replace(/[.!?\s]+$/, '')}. Explore our ${name.toLowerCase()} rankings and comparison guides for top picks.`;
+};
+
 export const dynamic = 'force-dynamic';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -19,20 +27,20 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: 'All Categories | DecisionRank',
-    description: 'Browse all product categories and explore rankings organized by category',
+    description: 'Discover every DecisionRank category hub and browse product rankings, comparisons, and category-specific buying guides.',
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
       title: 'All Categories | DecisionRank',
-      description: 'Browse all product categories and explore rankings organized by category',
+      description: 'Discover every DecisionRank category hub and browse product rankings, comparisons, and category-specific buying guides.',
       url: canonicalUrl,
       type: 'website',
     },
     twitter: {
       card: 'summary',
       title: 'All Categories | DecisionRank',
-      description: 'Browse all product categories and explore rankings organized by category',
+      description: 'Discover every DecisionRank category hub and browse product rankings, comparisons, and category-specific buying guides.',
     },
   };
 }
@@ -64,11 +72,19 @@ export default async function CategoriesPage() {
           {/* Page Header */}
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-4">
-              All Categories
+              All Product Categories | DecisionRank
             </h1>
             <p className="text-lg text-muted-foreground">
-              Explore rankings organized by product categories
+              Explore our rankings across {categories.length} product categories. Each category hub includes detailed comparisons, editorial picks, and buyer-focused guidance.
             </p>
+            <div className="mt-4">
+              <Link
+                href="/"
+                className="text-sm font-medium text-slate-600 transition-colors hover:text-slate-700"
+              >
+                Return to homepage
+              </Link>
+            </div>
           </div>
 
           {/* Categories Grid */}
@@ -93,7 +109,7 @@ export default async function CategoriesPage() {
                       <CardHeader>
                         <div className="flex items-start justify-between gap-2">
                           <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">
-                            {category.name}
+                            Browse {category.name} rankings
                           </CardTitle>
                           {count > 0 && (
                             <Badge variant="secondary" className="text-xs shrink-0">
@@ -101,15 +117,13 @@ export default async function CategoriesPage() {
                             </Badge>
                           )}
                         </div>
-                        {category.description && (
-                          <CardDescription className="line-clamp-2 mt-2">
-                            {category.description}
-                          </CardDescription>
-                        )}
+                        <CardDescription className="line-clamp-3 mt-2">
+                          {getCategoryIntro(category.name, category.description)}
+                        </CardDescription>
                       </CardHeader>
                       <CardContent>
                         <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
-                          View Category
+                          View all {category.name} rankings
                           <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                         </div>
                       </CardContent>
@@ -118,6 +132,26 @@ export default async function CategoriesPage() {
                 );
               })}
             </div>
+          )}
+
+          {categories.length > 1 && (
+            <section className="mt-16 rounded-2xl border border-border bg-muted/30 p-8">
+              <h2 className="text-2xl font-semibold text-foreground">Related Categories</h2>
+              <p className="mt-3 text-muted-foreground">
+                Continue exploring other category hubs to discover more product rankings and comparisons.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                {categories.map((category) => (
+                  <Link
+                    key={`${category.id}-related-link`}
+                    href={`/${category.slug}`}
+                    className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:border-slate-400/50 hover:text-slate-700"
+                  >
+                    Explore {category.name} rankings
+                  </Link>
+                ))}
+              </div>
+            </section>
           )}
         </div>
       </main>

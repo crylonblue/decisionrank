@@ -9,6 +9,7 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-13:** Improved homepage and /categories internal linking for SEO: enriched category cards with descriptive CTAs and improved anchor text (2026-04-13).
 - **2026-04-13:** Expanded DecisionRank inventory with 3 new buyer-intent categories (webcams, usb-c-hubs, microphones) in `scripts/seed-new-categories.mjs`; full rankings, products, specs, and FAQs added.
 - **2026-04-13 (Bob heartbeat):** Added 3 new buyer-intent category seeds (monitors, office-chairs, external-ssds) to `scripts/seed-new-categories.mjs`. Code-only change; Convex import still blocked/auth pending. Categories include full rankings (5–6 products each with specs/pros/cons) and 3–5 FAQs per ranking.
 - **2026-04-12 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.

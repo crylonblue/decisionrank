@@ -11,6 +11,14 @@ import { ArrowRight, Clock } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateWebSiteJsonLd, generateOrganizationJsonLd } from '@/lib/seo';
 
+const getCategoryIntro = (name: string, description?: string | null) => {
+  const fallback = `Browse DecisionRank's ${name.toLowerCase()} rankings to compare standout options, key features, and buyer-focused recommendations.`;
+
+  if (!description) return fallback;
+
+  return `${description.replace(/[.!?\s]+$/, '')}. Browse our ${name.toLowerCase()} rankings for detailed comparisons and top picks.`;
+};
+
 export const dynamic = 'force-dynamic';
 
 interface RankingsPageProps {
@@ -273,12 +281,32 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
           <section id="categories" className="py-20 sm:py-24 bg-muted/30">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-12 text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                  Browse by Category
-                </h2>
+                <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
+                  <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                    Browse by Category
+                  </h2>
+                  <Link
+                    href="/categories"
+                    className="text-sm font-medium text-slate-600 transition-colors hover:text-slate-700"
+                  >
+                    View all categories
+                  </Link>
+                </div>
                 <p className="mt-4 text-lg text-muted-foreground">
                   Explore rankings organized by product categories
                 </p>
+              </div>
+
+              <div className="mb-8 flex flex-wrap justify-center gap-3">
+                {categories.map((category) => (
+                  <Link
+                    key={`${category.id}-quick-link`}
+                    href={`/${category.slug}`}
+                    className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:border-slate-400/50 hover:text-slate-700"
+                  >
+                    View {category.name} rankings
+                  </Link>
+                ))}
               </div>
 
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -293,7 +321,7 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                         <CardHeader>
                           <div className="flex items-start justify-between gap-2">
                             <CardTitle className="text-xl group-hover:text-slate-600 transition-colors">
-                              {category.name}
+                              Browse {category.name} rankings
                             </CardTitle>
                             {count > 0 && (
                               <Badge variant="secondary" className="text-xs shrink-0">
@@ -301,15 +329,13 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
                               </Badge>
                             )}
                           </div>
-                          {category.description && (
-                            <CardDescription className="line-clamp-2 mt-2">
-                              {category.description}
-                            </CardDescription>
-                          )}
+                          <CardDescription className="line-clamp-3 mt-2">
+                            {getCategoryIntro(category.name, category.description)}
+                          </CardDescription>
                         </CardHeader>
                         <CardContent>
                           <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all mt-4">
-                            View Category
+                            Explore all {category.name} rankings
                             <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                           </div>
                         </CardContent>
