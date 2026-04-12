@@ -9,6 +9,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-13 (Bob heartbeat):** Added 3 new buyer-intent category seeds (monitors, office-chairs, external-ssds) to `scripts/seed-new-categories.mjs`. Code-only change; Convex import still blocked/auth pending. Categories include full rankings (5–6 products each with specs/pros/cons) and 3–5 FAQs per ranking.
+- **2026-04-12 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1775948480898` (**high**): Seed 3 more buyer-intent categories in code only, expanding the current seed payload/source with full ranking copy, specs, pros/cons, and category-specific FAQs, without attempting the still-blocked Convex import.
+  - Created API backlog task `1775948480908` (**medium**): Improve homepage and `/categories` internal linking for SEO with richer category discovery modules, stronger crawl paths, and more descriptive anchor text into high-value categories.
+  - Created API backlog task `1775948480917` (**medium**): Expand category-hub content for broader category coverage and search intent, using indexable editorial intro/cluster content on discovery surfaces without creating thin pages.
+  - Planning basis: recent category-page SEO work is in much better shape, so the next highest-leverage backlog is more seedable category inventory plus stronger homepage/category-index discovery and internal link flow.
+
 - **2026-04-11:** SEO content refresh — rewrote thin category descriptions and added FAQ sections for all 9 active categories.
   - Expanded ENHANCED_CATEGORY_DESCRIPTIONS with substantial 2-3 paragraph intros for air-fryers, air-purifiers, coffee-makers, espresso-machines, gaming-laptops, mattresses, robot-vacuums, standing-desks, and wireless-earbuds, replacing generic short database descriptions with unique, intent-targeted copy.
   - Added category-specific FAQ sections for espresso-machines, gaming-laptops, and mattresses (air-fryers, air-purifiers, coffee-makers, robot-vacuums, standing-desks, wireless-earbuds already had custom FAQs). All 9 categories now have 3–5 custom Q&As to improve long-tail SEO and user engagement.
