@@ -14,6 +14,9 @@ const categories = [
   { id: uuid(), name: "Monitors", slug: "monitors", description: "Top-rated gaming, professional, and productivity monitors for every budget." },
   { id: uuid(), name: "Office Chairs", slug: "office-chairs", description: "Ergonomic office chairs designed for comfort, posture support, and all-day productivity." },
   { id: uuid(), name: "External SSDs", slug: "external-ssds", description: "Fast, reliable external solid-state drives for content creators, gamers, and professionals." },
+  { id: uuid(), name: "Webcams", slug: "webcams", description: "High-quality webcams for meetings, streaming, remote work, and content creation." },
+  { id: uuid(), name: "USB-C Hubs", slug: "usb-c-hubs", description: "Versatile USB-C hubs and docks that expand laptop connectivity for work, travel, and creator setups." },
+  { id: uuid(), name: "Microphones", slug: "microphones", description: "Top USB and XLR microphones for streaming, podcasting, voiceovers, and crystal-clear calls." },
 ];
 
 const catMap = Object.fromEntries(categories.map(c => [c.slug, c.id]));
@@ -37,6 +40,24 @@ const rankings = [
     description: "We benchmarked 30+ external SSDs for sustained transfer speeds, durability, and value across Thunderbolt 4, USB4, and USB 3.2 interfaces to help you choose the right drive.",
     verdict_summary: "The Samsung T7 Shield leads the mainstream segment with rugged durability and consistent 1,050 MB/s speeds. Pros should consider the SanDisk Extreme Pro (2,000 MB/s) or the Sabrent Rocket XTRM (4,000 MB/s) for heavy 8K workflows.",
     category_id: catMap["external-ssds"],
+  },
+  {
+    id: uuid(), slug: "best-webcams-2026", question: "What Are the Best Webcams in 2026?",
+    description: "We tested premium and mid-range webcams across daylight, low-light, autofocus reliability, microphone quality, and software controls to find the best cameras for work, streaming, and remote collaboration.",
+    verdict_summary: "The Logitech MX Brio is the best all-around webcam thanks to its sharp 4K image, strong software, and excellent low-light tuning. Streamers who want mirrorless-style polish should step up to the Elgato Facecam Pro.",
+    category_id: catMap["webcams"],
+  },
+  {
+    id: uuid(), slug: "best-usb-c-hubs-2026", question: "What Are the Best USB-C Hubs in 2026?",
+    description: "Our team evaluated USB-C hubs and compact docks for port selection, display support, thermal stability, passthrough charging, and travel-friendliness to identify the best options for modern laptops.",
+    verdict_summary: "The Anker Prime 14-in-1 USB-C Dock wins for most people with a smart balance of ports, dependable display support, and strong charging. The CalDigit TS4 remains the premium choice for demanding desk setups that need maximum expansion.",
+    category_id: catMap["usb-c-hubs"],
+  },
+  {
+    id: uuid(), slug: "best-microphones-2026", question: "What Are the Best Microphones in 2026?",
+    description: "We compared popular USB and XLR microphones for vocal clarity, background-noise rejection, ease of setup, software features, and overall value for streaming, podcasting, and hybrid work.",
+    verdict_summary: "The Shure MV7+ is the standout pick with rich vocal tone, USB/XLR flexibility, and excellent onboard DSP. Budget creators should look at the HyperX QuadCast S for strong sound and a dead-simple setup.",
+    category_id: catMap["microphones"],
   },
 ];
 
@@ -178,6 +199,117 @@ addProduct("best-external-ssds-2026", 6, 7.8, "WD My Passport SSD", "https://www
   ["Plastic build and included cable feel cheap for the price.", "Less rugged than Samsung/SanDisk options.", "5-year warranty is standard but not exceptional."]
 );
 
+// ─── Webcams Products ───
+addProduct("best-webcams-2026", 1, 9.3, "Logitech MX Brio", "https://www.logitech.com/en-us/products/webcams/mx-brio.html",
+  [["Resolution", "3840×2160", "4K"], ["Frame Rate", "60", "fps"], ["Sensor", "Sony STARVIS", null], ["Field of View", "65°/78°/90°", null], ["Microphones", "Dual beamforming", null], ["Connectivity", "USB-C", null]],
+  ["Excellent 4K sharpness with strong HDR tuning makes it look polished in almost any room.", "Logi Options+ gives you granular control over framing, exposure, and image style.", "Dual beamforming mics are good enough for meetings when you do not want a separate mic."],
+  ["Premium price compared with 1080p-only alternatives.", "Windows Hello support is still missing."]
+);
+
+addProduct("best-webcams-2026", 2, 9.1, "Elgato Facecam Pro", "https://www.elgato.com/us/en/p/facecam-pro",
+  [["Resolution", "3840×2160", "4K"], ["Frame Rate", "60", "fps"], ["Lens", "f/2.0 prime lens", null], ["Sensor", "Sony STARVIS", null], ["Field of View", "90", "degrees"], ["Connectivity", "USB-C", null]],
+  ["Crisp 4K60 output gives creators a noticeably more cinematic image than most webcams.", "Elgato Camera Hub offers deep manual controls for exposure, ISO, and white balance.", "Wide 90-degree field of view works well for multi-person streams or overhead setups."],
+  ["No built-in microphone, so you need separate audio.", "Runs warm during long recording sessions."]
+);
+
+addProduct("best-webcams-2026", 3, 8.8, "Razer Kiyo Pro Ultra", "https://www.razer.com/streaming-cameras/razer-kiyo-pro-ultra",
+  [["Resolution", "3840×2160", "4K"], ["Frame Rate", "30", "fps"], ["Sensor", "1/1.2-inch Sony STARVIS 2", null], ["Aperture", "f/1.7", null], ["Field of View", "72°/82°/93°", null], ["Autofocus", "Phase detect", null]],
+  ["Huge sensor delivers some of the best low-light quality in the webcam category.", "Fast autofocus keeps faces sharp without distracting hunting.", "Image looks flattering and natural right out of the box."],
+  ["Large body can feel bulky on thinner monitors.", "4K is limited to 30fps."]
+);
+
+addProduct("best-webcams-2026", 4, 8.6, "Insta360 Link 2", "https://www.insta360.com/product/insta360-link-2",
+  [["Resolution", "3840×2160", "4K"], ["Frame Rate", "30", "fps"], ["Gimbal", "2-axis", null], ["Tracking", "AI auto-framing", null], ["Modes", "DeskView/Whiteboard/Portrait", null], ["Microphones", "Dual noise-canceling", null]],
+  ["Gimbal tracking is genuinely useful for presenters who move around on calls.", "DeskView and whiteboard modes are great for demos, teaching, and remote workshops.", "Compact design feels more refined than first-generation PTZ webcams."],
+  ["AI tracking can occasionally feel overactive in tight spaces.", "Software takes a bit of setup to master."]
+);
+
+addProduct("best-webcams-2026", 5, 8.3, "Obsbot Tiny 2 Lite", "https://www.obsbot.com/obsbot-tiny-2-lite",
+  [["Resolution", "3840×2160", "4K"], ["Frame Rate", "30", "fps"], ["Gimbal", "2-axis PTZ", null], ["Tracking", "AI gesture tracking", null], ["Microphones", "Dual omnidirectional", null], ["Connectivity", "USB-C", null]],
+  ["AI framing and gesture controls feel surprisingly practical for solo creators.", "Compact PTZ body fits well on laptops and travel monitors.", "Very good value for buyers who want auto-tracking without Elgato pricing."],
+  ["Image tuning is not as refined as Logitech or Razer.", "Built-in mics are usable, not standout."]
+);
+
+addProduct("best-webcams-2026", 6, 8.0, "AnkerWork C310", "https://www.ankerwork.com/products/a3367",
+  [["Resolution", "3840×2160", "4K"], ["Frame Rate", "30", "fps"], ["Field of View", "65°/78°/95°", null], ["Microphones", "Dual stereo", null], ["Privacy Cover", "Integrated", null], ["Connectivity", "USB-C", null]],
+  ["Affordable 4K webcam with a dependable image for meetings and remote work.", "Integrated privacy shutter is a small but meaningful quality-of-life win.", "AnkerWork software is simple and easy for non-technical buyers."],
+  ["Dynamic range struggles in harsh backlighting.", "Autofocus is slower than top-tier models."]
+);
+
+// ─── USB-C Hubs Products ───
+addProduct("best-usb-c-hubs-2026", 1, 9.4, "Anker Prime 14-in-1 USB-C Docking Station", "https://www.anker.com/products/a83b6",
+  [["Ports", "14", null], ["Display Support", "Dual 4K", null], ["Upstream Charging", "160", "W"], ["Ethernet", "2.5", "Gbps"], ["USB-A", "3x 10Gbps", null], ["Card Reader", "SD/microSD UHS-II", null]],
+  ["Excellent port mix covers power users without jumping to enterprise dock pricing.", "Strong 160W upstream charging is enough for most 14-inch and many 16-inch laptops.", "Stable thermals and reliable monitor detection in daily use."],
+  ["Bulky for frequent travel.", "Mac multi-display support still depends on host limitations."]
+);
+
+addProduct("best-usb-c-hubs-2026", 2, 9.2, "CalDigit TS4", "https://www.caldigit.com/ts4/",
+  [["Ports", "18", null], ["Display Support", "Up to dual 6K", null], ["Upstream Charging", "98", "W"], ["Ethernet", "2.5", "Gbps"], ["Thunderbolt", "3 downstream", null], ["Audio", "Front and rear audio", null]],
+  ["Still the gold standard for premium desktop expansion and port reliability.", "Huge number of high-speed ports makes it ideal for creators with lots of peripherals.", "Rock-solid build quality and excellent Mac support."],
+  ["Expensive compared with mainstream USB-C hubs.", "Less compelling if you only need a lightweight travel hub."]
+);
+
+addProduct("best-usb-c-hubs-2026", 3, 8.9, "UGREEN Revodok Max 213", "https://www.ugreen.com/products/revodok-max-213-thunderbolt-dock",
+  [["Ports", "13", null], ["Display Support", "Dual 4K or single 8K", null], ["Upstream Charging", "90", "W"], ["Ethernet", "2.5", "Gbps"], ["USB-A", "3x 10Gbps", null], ["Storage", "SD/microSD", null]],
+  ["Great balance of features and price for creators who want a TS4 alternative.", "Fast card readers and 2.5GbE make it especially appealing for photo and video workflows.", "Compact footprint is easier to fit on smaller desks."],
+  ["Power brick is still fairly chunky.", "Software/firmware support is not as mature as CalDigit's."]
+);
+
+addProduct("best-usb-c-hubs-2026", 4, 8.6, "Satechi 13-in-1 USB-C Triple Display Multiport Adapter", "https://satechi.net/products/13-in-1-usb-c-triple-display-multiport-adapter",
+  [["Ports", "13", null], ["Display Support", "Triple display", null], ["Upstream Charging", "100", "W"], ["Ethernet", "1", "Gbps"], ["HDMI", "2x 4K", null], ["Card Reader", "SD/microSD", null]],
+  ["Excellent travel-friendly dock for hybrid workers who need lots of ports in one brick.", "Triple-display flexibility is useful on compatible Windows laptops.", "Satechi design and finish pair nicely with premium ultrabooks."],
+  ["Gets warmer than desktop-oriented docks under sustained load.", "Cable is a bit short for some monitor riser setups."]
+);
+
+addProduct("best-usb-c-hubs-2026", 5, 8.3, "HyperDrive Next 10 Port USB-C Hub", "https://www.hypershop.com/products/hyperdrive-next-10-port-usb-c-hub",
+  [["Ports", "10", null], ["Display Support", "4K 60Hz", null], ["Upstream Charging", "100", "W"], ["Ethernet", "1", "Gbps"], ["USB", "2x USB-C + 2x USB-A", null], ["Card Reader", "SD/microSD 104MB/s", null]],
+  ["Nicely balanced port selection for MacBook and Windows ultraportable owners.", "Compact aluminum design is ideal for travel bags and hot-desk setups.", "Reliable 4K60 output, which many cheaper hubs still miss."],
+  ["Only one external display on many Macs without DisplayLink.", "Not enough downstream bandwidth for heavier desktop setups."]
+);
+
+addProduct("best-usb-c-hubs-2026", 6, 8.1, "Belkin Connect 7-in-1 USB-C Hub", "https://www.belkin.com/p/usb-c-7-in-1-multiport-adapter/AVC009.html",
+  [["Ports", "7", null], ["Display Support", "4K 60Hz HDMI", null], ["Upstream Charging", "100", "W"], ["Ethernet", "1", "Gbps"], ["USB-A", "2x 5Gbps", null], ["Card Reader", "SD/microSD", null]],
+  ["Straightforward, dependable hub from a brand with good retail support and availability.", "Small enough to keep permanently in a laptop sleeve.", "Consistent plug-and-play performance for everyday office setups."],
+  ["Port count is limited versus 10-in-1 and 14-in-1 options.", "5Gbps USB speeds are merely adequate for fast external storage."]
+);
+
+// ─── Microphones Products ───
+addProduct("best-microphones-2026", 1, 9.3, "Shure MV7+", "https://www.shure.com/en-US/products/microphones/mv7plus",
+  [["Connection", "USB-C + XLR", null], ["Capsule Type", "Dynamic", null], ["Polar Pattern", "Cardioid", null], ["DSP", "Auto level + denoiser + reverb", null], ["Headphone Jack", "Yes", null], ["Mount", "Integrated yoke", null]],
+  ["Broadcast-style vocal tone with excellent background-noise rejection for untreated rooms.", "USB and XLR connectivity makes it a smart long-term buy that scales with your setup.", "Shure MOTIV software adds genuinely useful DSP without overwhelming beginners."],
+  ["Price is high once you add a boom arm.", "Touch panel can be a little sensitive."]
+);
+
+addProduct("best-microphones-2026", 2, 9.0, "HyperX QuadCast S", "https://hyperx.com/products/hyperx-quadcast-s-usb-microphone",
+  [["Connection", "USB-C", null], ["Capsule Type", "Condenser", null], ["Polar Patterns", "4", null], ["Shock Mount", "Integrated", null], ["Headphone Jack", "Yes", null], ["Lighting", "RGB", null]],
+  ["Easy plug-and-play setup with consistently clear voice capture for streaming and Discord.", "Integrated shock mount and tap-to-mute design remove a lot of beginner pain points.", "Four polar patterns make it more flexible than most USB-only mics."],
+  ["Sensitive condenser capsule picks up more room noise.", "RGB styling is not for everyone."]
+);
+
+addProduct("best-microphones-2026", 3, 8.8, "Elgato Wave:3", "https://www.elgato.com/us/en/p/wave-3",
+  [["Connection", "USB-C", null], ["Capsule Type", "Condenser", null], ["Polar Pattern", "Cardioid", null], ["Sample Rate", "96", "kHz"], ["Clipguard", "Yes", null], ["Headphone Jack", "Yes", null]],
+  ["Wave Link software is still one of the best mixer experiences for streamers.", "Clipguard tech helps prevent ruined takes when you suddenly get louder.", "Compact body works well on crowded desks and low-profile boom arms."],
+  ["Single cardioid pattern limits versatility for group recording.", "Sound is clean, but less rich than top dynamic options."]
+);
+
+addProduct("best-microphones-2026", 4, 8.5, "Rode PodMic USB", "https://rode.com/en/microphones/usb/podmic-usb",
+  [["Connection", "USB-C + XLR", null], ["Capsule Type", "Dynamic", null], ["Polar Pattern", "Cardioid", null], ["DSP", "APHEX processing", null], ["Headphone Jack", "Yes", null], ["Construction", "All-metal", null]],
+  ["Great radio-style tone with better room-noise rejection than most USB condensers.", "Dual USB/XLR output gives you a smooth upgrade path into mixers and interfaces.", "Tank-like construction feels made for years of use."],
+  ["Needs decent gain or close mic technique to sound its best.", "Heavier than many boom arms prefer."]
+);
+
+addProduct("best-microphones-2026", 5, 8.2, "Logitech G Yeti GX", "https://www.logitechg.com/en-us/products/streaming-gear/yeti-gx-gaming-microphone.html",
+  [["Connection", "USB-C", null], ["Capsule Type", "Dynamic", null], ["Polar Pattern", "Supercardioid", null], ["DSP", "Smart Audio Lock", null], ["Lighting", "LIGHTSYNC RGB", null], ["Mount", "Desktop stand included", null]],
+  ["Dynamic capsule helps gamers cut down keyboard and fan noise.", "Smart Audio Lock is useful for keeping levels controlled during energetic streams.", "Distinctive industrial design stands out on camera."],
+  ["Software is more gamer-centric than podcast-centric.", "Desk stand is serviceable, but a boom arm is better."]
+);
+
+addProduct("best-microphones-2026", 6, 8.0, "Audio-Technica AT2040USB", "https://www.audio-technica.com/en-us/at2040usb",
+  [["Connection", "USB-C", null], ["Capsule Type", "Dynamic", null], ["Polar Pattern", "Hypercardioid", null], ["Headphone Jack", "Yes", null], ["Mute", "Touch mute", null], ["Construction", "Metal chassis", null]],
+  ["Warm, focused vocal sound that flatters spoken-word content.", "Dynamic design rejects room noise better than typical condenser USB mics.", "Strong value for buyers who want podcast-style sound without XLR gear."],
+  ["No XLR output limits long-term upgrade flexibility.", "Needs close placement for best results."]
+);
+
 // ─── FAQs ───
 const faqs = [
   // Monitors
@@ -192,6 +324,21 @@ const faqs = [
   { id: uuid(), ranking_id: rankMap["best-external-ssds-2026"], question: "What's the difference between USB 3.2, USB4, and Thunderbolt 4 for external SSDs?", answer: "USB 3.2 Gen 2 caps at 1,050 MB/s—fine for backups. USB4 hits 2,000–3,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.", display_order: 1 },
   { id: uuid(), ranking_id: rankMap["best-external-ssds-2026"], question: "Do I need an external SSD for gaming?", answer: "Modern consoles (PS5, Xbox Series X|S) support external SSD expansion for backward-compatible games, but you need internal NVMe for current-gen titles. For PC gaming, an external SSD is great for portable game libraries or as a quick archive drive.", display_order: 2 },
   { id: uuid(), ranking_id: rankMap["best-external-ssds-2026"], question: "How often should I replace my external SSD?", answer: "NAND flash wears out after ~3,000–5,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5–7 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.", display_order: 3 },
+  // Webcams
+  { id: uuid(), ranking_id: rankMap["best-webcams-2026"], question: "Is a 4K webcam worth it for Zoom and Teams calls?", answer: "If you mostly take calls in good lighting, a strong 1080p webcam is still enough. But 4K webcams usually have better sensors, sharper cropping, and stronger low-light processing, so they look more polished even when apps compress the image down to 1080p.", display_order: 1 },
+  { id: uuid(), ranking_id: rankMap["best-webcams-2026"], question: "What matters more, sensor size or resolution?", answer: "Sensor size usually matters more than raw resolution because it affects low-light quality, dynamic range, and background separation. A well-tuned 4K webcam with a larger sensor will generally look more natural than a cheaper high-resolution model with weak optics.", display_order: 2 },
+  { id: uuid(), ranking_id: rankMap["best-webcams-2026"], question: "Should I buy a webcam with AI tracking?", answer: "AI tracking is genuinely useful if you teach, present, or move around during calls. For standard desk setups, image quality, autofocus, and software controls matter more than motorized tracking, so a fixed camera is often the better value.", display_order: 3 },
+  { id: uuid(), ranking_id: rankMap["best-webcams-2026"], question: "Do built-in webcam microphones sound good enough?", answer: "For meetings, many premium webcams are good enough in a quiet room. For streaming, podcasting, or client presentations, a dedicated USB microphone still sounds fuller and rejects background noise much better.", display_order: 4 },
+  // USB-C Hubs
+  { id: uuid(), ranking_id: rankMap["best-usb-c-hubs-2026"], question: "What's the difference between a USB-C hub and a docking station?", answer: "A hub is usually smaller, bus-powered or lightly powered, and built for travel or simple desk expansion. A docking station is typically externally powered, offers more bandwidth and ports, and is better suited to permanent multi-monitor or creator setups.", display_order: 1 },
+  { id: uuid(), ranking_id: rankMap["best-usb-c-hubs-2026"], question: "Do USB-C hubs work the same on Mac and Windows?", answer: "Not always. Port function is usually the same, but external display support varies by the laptop's chipset and operating system. Many Macs, especially base M-series models, have stricter multi-display limits than comparable Windows laptops.", display_order: 2 },
+  { id: uuid(), ranking_id: rankMap["best-usb-c-hubs-2026"], question: "How much passthrough charging do I need?", answer: "For ultraportables, 65W to 100W is usually enough. For larger creator or gaming laptops, 100W to 140W is safer, though some power-hungry machines still need their original charger for full performance under load.", display_order: 3 },
+  { id: uuid(), ranking_id: rankMap["best-usb-c-hubs-2026"], question: "Can a USB-C hub slow down my SSD or monitor?", answer: "Yes, if the hub shares bandwidth across many devices or if your laptop only exposes a lower-speed USB-C port. Fast external SSDs, high-refresh displays, and multiple peripherals can compete for bandwidth, so premium docks matter when you run everything at once.", display_order: 4 },
+  // Microphones
+  { id: uuid(), ranking_id: rankMap["best-microphones-2026"], question: "Should I buy a USB or XLR microphone in 2026?", answer: "USB is still the easiest choice for most people because setup is faster and sound quality is excellent on modern models. If you want upgrade flexibility, dual-mode microphones with both USB and XLR are the sweet spot because they work now and still fit a more advanced setup later.", display_order: 1 },
+  { id: uuid(), ranking_id: rankMap["best-microphones-2026"], question: "Are dynamic microphones better than condenser microphones for home offices?", answer: "Usually, yes. Dynamic microphones reject keyboard noise, fans, and room echo better than condensers, which makes them a smarter pick for untreated rooms. Condensers can sound more detailed, but they are also less forgiving.", display_order: 2 },
+  { id: uuid(), ranking_id: rankMap["best-microphones-2026"], question: "Do I need a boom arm and pop filter?", answer: "A boom arm is strongly recommended because it lets you position the mic closer to your mouth, which improves clarity and reduces room noise. A pop filter is helpful for plosives, though many modern streaming mics already include decent internal wind protection.", display_order: 3 },
+  { id: uuid(), ranking_id: rankMap["best-microphones-2026"], question: "What is the best microphone for gaming and Discord?", answer: "For most gamers, a dynamic USB microphone is the best fit because it sounds full while keeping keyboard and PC fan noise under control. Models like the Shure MV7+ and Logitech G Yeti GX are especially strong for spoken voice and live chat.", display_order: 4 },
 ];
 
 // ─── Build snapshot payload ───
