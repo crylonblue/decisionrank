@@ -52,7 +52,7 @@
       "id": "e3f5091f-55cc-4108-9923-674f1830797d",
       "name": "Mechanical Keyboards",
       "slug": "mechanical-keyboards",
-      "description": "Best mechanical keyboards for gaming, typing, and productivity \u2014 covering layouts, switches, and feature sets for every budget.",
+      "description": "Best mechanical keyboards for gaming, typing, and productivity — covering layouts, switches, and feature sets for every budget.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -60,7 +60,7 @@
       "id": "fdc2fd5e-c43f-4ed0-b11f-c8d0fb3b2cc1",
       "name": "Noise-Cancelling Headphones",
       "slug": "noise-cancelling-headphones",
-      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening \u2014 tested for ANC performance, sound quality, and comfort.",
+      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening — tested for ANC performance, sound quality, and comfort.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -68,9 +68,33 @@
       "id": "177dee7c-409c-4c85-bc49-c0bd9c4357c0",
       "name": "Tablet Stands & Mounts",
       "slug": "tablet-stands-mounts",
-      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds \u2014 tested for stability, adjustability, and compatibility.",
+      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds — tested for stability, adjustability, and compatibility.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d595572e-698e-4ed2-9cd5-6c5922171059",
+      "name": "Coffee Makers",
+      "slug": "coffee-makers",
+      "description": "Compare the best coffee makers ranked by brew quality, speed, capacity, and value for home and office.",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "18d15f5c-e15a-4509-b624-52c550389a62",
+      "name": "Robot Vacuums",
+      "slug": "robot-vacuums",
+      "description": "Top-rated robot vacuums and mops ranked by cleaning performance, navigation, and smart features.",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "24229a67-7b87-43b4-9f13-24fa2a16d9aa",
+      "name": "Air Fryers",
+      "slug": "air-fryers",
+      "description": "The best air fryers ranked by cooking performance, capacity, ease of use, and value.",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ],
   "rankings": [
@@ -163,6 +187,36 @@
       "category_id": "177dee7c-409c-4c85-bc49-c0bd9c4357c0",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "slug": "best-coffee-makers-2026",
+      "question": "What Are the Best Coffee Makers in 2026?",
+      "description": "We tested and ranked the top coffee makers across espresso machines, drip brewers, and single-serve systems based on brew quality, speed, ease of cleaning, and overall value.",
+      "verdict_summary": "The Breville Barista Express Impress takes the top spot with its built-in grinder and intelligent tamping, but the Gaggia Classic Pro remains the best value for serious espresso at home. For daily drip, the OXO Brew 9-Cup is unbeatable.",
+      "category_id": "d595572e-698e-4ed2-9cd5-6c5922171059",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "slug": "best-robot-vacuums-2026",
+      "question": "What Are the Best Robot Vacuums in 2026?",
+      "description": "We tested and ranked the top robot vacuums and combo units based on cleaning performance, navigation intelligence, app experience, and value across hardwood, carpet, and pet hair scenarios.",
+      "verdict_summary": "The Roborock S8 MaxV Ultra dominates with dual rubber roller brushes and AI obstacle avoidance, but the Ecovacs Deebot X5 Combo offers the best self-emptying+mopping value. Budget pick: the Eufy RoboVac G30 Hybrid delivers reliable cleaning without frills.",
+      "category_id": "18d15f5c-e15a-4509-b624-52c550389a62",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "slug": "best-air-fryers-2026",
+      "question": "What Are the Best Air Fryers in 2026?",
+      "description": "We tested and ranked the best air fryers across basket, oven-style, and countertop convection models based on cooking performance, capacity, ease of use, and value.",
+      "verdict_summary": "The Philips Premium Airfryer XXL remains the gold standard for even cooking and crispy results, while the Ninja Foodi FlexBrewer offers the most versatile cooking modes. For big families, the Cosori 6-Quart basket air fryer delivers the best capacity-to-price ratio.",
+      "category_id": "24229a67-7b87-43b4-9f13-24fa2a16d9aa",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ],
   "products": [
@@ -543,6 +597,104 @@
       "link": "https://www.mount-it.com/products/tablet-wall-mount",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "name": "Breville Barista Express Impress",
+      "link": "https://www.breville.com/us/en/products/espresso/barista-express-impress-bes876.html",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "name": "Gaggia Classic Pro",
+      "link": "https://www.gaggia.com/classic-pro/",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "name": "OXO Brew 9-Cup Coffee Maker",
+      "link": "https://www.oxo.com/9-cup-coffee-maker",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "name": "Nespresso Vertuo Plus",
+      "link": "https://www.nespresso.com/us/en/vertuo-plus",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "name": "Mr. Coffee 4-Shot Espresso Maker",
+      "link": "https://www.mrcoffee.com/4-shot-espresso/cm-1824.html",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "name": "Roborock S8 MaxV Ultra",
+      "link": "https://us.roborock.com/products/s8-maxv-ultra",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "name": "Ecovacs Deebot X5 Combo",
+      "link": "https://www.ecovacs.com/us/deebot-x5-combo",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "name": "iRobot Roomba j9+",
+      "link": "https://store.irobot.com/roomba-j9-plus/",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "name": "Eufy RoboVac G30 Hybrid",
+      "link": "https://www.eufy.com/robovac-g30-hybrid",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "name": "Philips Premium Airfryer XXL",
+      "link": "https://www.philips.com/aowa/en/aowa/xxl/aphilips-xxl.html",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "name": "Ninja Foodi FlexBrewer",
+      "link": "https://www.ninjaaccessories.com/foodi-flexbrewer",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "name": "Cosori 6-Quart Air Fryer",
+      "link": "https://www.cosori.com/6-quart-air-fryer",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "name": "Instant Vortex Plus 7-in-1",
+      "link": "https://www.instantpot.com/vortex-plus/",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "name": "Ninja Air Fryer Compact",
+      "link": "https://www.ninjaaccessories.com/af100us",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ],
   "ranking_products": [
@@ -919,7 +1071,7 @@
       "id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
-      "score": 8.0,
+      "score": 8,
       "rank_position": 6,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -1031,6 +1183,132 @@
       "rank_position": 6,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "6d99f4d6-deb1-467c-905f-e9855672a583",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "product_id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "product_id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "score": 9,
+      "rank_position": 2,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d85415ab-ed97-4824-b75f-a81fa319a546",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "score": 8.7,
+      "rank_position": 3,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "product_id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "score": 8.4,
+      "rank_position": 4,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "190efb1a-8608-4df6-8301-6e8b7945c2b1",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "product_id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "score": 7.9,
+      "rank_position": 5,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "product_id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "product_id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "product_id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a42bef9b-af19-47f3-b6f9-20328a559720",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "product_id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "score": 8.3,
+      "rank_position": 4,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "score": 9.2,
+      "rank_position": 1,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "product_id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "score": 8.9,
+      "rank_position": 2,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "score": 8.6,
+      "rank_position": 3,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4fef23df-d357-4e31-829d-0c5e9eecbdc0",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "score": 8.2,
+      "rank_position": 4,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "score": 7.7,
+      "rank_position": 5,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ],
   "users": [],
@@ -1039,8 +1317,8 @@
       "id": "34afcd32-ccc9-47e3-9097-97a786a04547",
       "ranking_product_id": "2197d632-5b58-4b5e-86eb-04ace7b36480",
       "type": "pro",
-      "content": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports.",
-      "headline": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports",
+      "content": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports.",
+      "headline": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1111,8 +1389,8 @@
       "id": "dbc74252-3f61-4349-9c80-b3fd1a331e65",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "Expensive\u2014only for pros who need the pixels.",
-      "headline": "Expensive\u2014only for pros who need the pixels",
+      "content": "Expensive—only for pros who need the pixels.",
+      "headline": "Expensive—only for pros who need the pixels",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1120,7 +1398,7 @@
       "id": "4b66c5a3-d43a-4a5c-92f2-318d574b778f",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "No HDMI 2.1\u2014limited to older consoles at full res.",
+      "content": "No HDMI 2.1—limited to older consoles at full res.",
       "headline": "No HDMI 2",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -1156,8 +1434,8 @@
       "id": "0f528994-b205-40d4-aec0-ed1cfd56b4d5",
       "ranking_product_id": "cefe6528-1a61-4834-b4f1-082115564c54",
       "type": "con",
-      "content": "Very expensive\u2014only justified for color-critical studios.",
-      "headline": "Very expensive\u2014only justified for color-critical studios",
+      "content": "Very expensive—only justified for color-critical studios.",
+      "headline": "Very expensive—only justified for color-critical studios",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1246,8 +1524,8 @@
       "id": "c1064ded-2840-4514-961d-0bd10782d4c0",
       "ranking_product_id": "ef7a7c82-75c7-496d-a19e-51a914079c52",
       "type": "con",
-      "content": "HDR400 is entry-level\u2014not as impactful as HDR1000 units.",
-      "headline": "HDR400 is entry-level\u2014not as impactful as HDR1000 units",
+      "content": "HDR400 is entry-level—not as impactful as HDR1000 units.",
+      "headline": "HDR400 is entry-level—not as impactful as HDR1000 units",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1291,8 +1569,8 @@
       "id": "ddf107f5-c5c9-4f67-8897-fc0b0f896629",
       "ranking_product_id": "15401a42-c8ae-4446-9ff5-1a94209c3288",
       "type": "con",
-      "content": "60Hz only\u2014gamers look elsewhere.",
-      "headline": "60Hz only\u2014gamers look elsewhere",
+      "content": "60Hz only—gamers look elsewhere.",
+      "headline": "60Hz only—gamers look elsewhere",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1318,8 +1596,8 @@
       "id": "6a249be9-f19e-457c-a1c1-ec7f8079a428",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "pro",
-      "content": "The gold standard\u2014unmatched breathability and build longevity.",
-      "headline": "The gold standard\u2014unmatched breathability and build longevity",
+      "content": "The gold standard—unmatched breathability and build longevity.",
+      "headline": "The gold standard—unmatched breathability and build longevity",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1345,8 +1623,8 @@
       "id": "84666101-d511-463a-9846-274253d1d0b0",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "con",
-      "content": "Very expensive\u2014a long-term investment.",
-      "headline": "Very expensive\u2014a long-term investment",
+      "content": "Very expensive—a long-term investment.",
+      "headline": "Very expensive—a long-term investment",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1381,8 +1659,8 @@
       "id": "f092eecd-0742-4289-8879-a1c7b13b3332",
       "ranking_product_id": "eb44ab10-0cb5-4ed0-9d83-5442929692d4",
       "type": "pro",
-      "content": "Highly durable\u2014built for 12-hour days.",
-      "headline": "Highly durable\u2014built for 12-hour days",
+      "content": "Highly durable—built for 12-hour days.",
+      "headline": "Highly durable—built for 12-hour days",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1471,8 +1749,8 @@
       "id": "8608573f-60c1-493f-9b47-801d873a21b8",
       "ranking_product_id": "658437f1-45f4-4964-9f91-91eae26b5af2",
       "type": "pro",
-      "content": "Highly breathable\u2014great for warm climates.",
-      "headline": "Highly breathable\u2014great for warm climates",
+      "content": "Highly breathable—great for warm climates.",
+      "headline": "Highly breathable—great for warm climates",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1498,8 +1776,8 @@
       "id": "f9d435a4-3702-4d20-98d7-4fd5298135a2",
       "ranking_product_id": "9fad6045-be38-4435-8638-78ec49b576c6",
       "type": "pro",
-      "content": "LiveBack flexes with your movements\u2014natural support.",
-      "headline": "LiveBack flexes with your movements\u2014natural support",
+      "content": "LiveBack flexes with your movements—natural support.",
+      "headline": "LiveBack flexes with your movements—natural support",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1588,8 +1866,8 @@
       "id": "af92c6d7-61a4-45e9-b5c2-4ded06dbe9f3",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "pro",
-      "content": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork.",
-      "headline": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork",
+      "content": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork.",
+      "headline": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1615,8 +1893,8 @@
       "id": "6aa5148f-f415-495f-bd7d-45a662d9f47f",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "con",
-      "content": "Not the fastest\u2014Thunderbolt options outpace it.",
-      "headline": "Not the fastest\u2014Thunderbolt options outpace it",
+      "content": "Not the fastest—Thunderbolt options outpace it.",
+      "headline": "Not the fastest—Thunderbolt options outpace it",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1678,8 +1956,8 @@
       "id": "62493c5a-4c4e-421b-af35-a180ae9952eb",
       "ranking_product_id": "4fd3f441-394e-4707-94c0-8c24f4ca593b",
       "type": "pro",
-      "content": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable.",
-      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable",
+      "content": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable.",
+      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1723,8 +2001,8 @@
       "id": "214143d9-382c-431d-830e-74cfd54aae42",
       "ranking_product_id": "b6fc2663-6710-4891-8a5e-70ee8e49a6c0",
       "type": "pro",
-      "content": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting.",
-      "headline": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting",
+      "content": "IP67 rating—fully dust/waterproof, perfect for on-location shooting.",
+      "headline": "IP67 rating—fully dust/waterproof, perfect for on-location shooting",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1804,8 +2082,8 @@
       "id": "ef840de8-2ddc-401c-b12d-21ac735c79f5",
       "ranking_product_id": "21cc5d27-d611-465f-8434-e08b6283f709",
       "type": "con",
-      "content": "No IP rating\u2014treat with care.",
-      "headline": "No IP rating\u2014treat with care",
+      "content": "No IP rating—treat with care.",
+      "headline": "No IP rating—treat with care",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2704,8 +2982,8 @@
       "id": "229a0cda-f559-4f26-89a7-3671dc903e44",
       "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
       "type": "con",
-      "content": "Heavier than plastic alternatives \u2014 less portable.",
-      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "content": "Heavier than plastic alternatives — less portable.",
+      "headline": "Heavier than plastic alternatives — less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -2758,8 +3036,8 @@
       "id": "ff3b855b-da3f-439b-8054-e84f3845d219",
       "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
       "type": "con",
-      "content": "Heavier than plastic alternatives \u2014 less portable.",
-      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "content": "Heavier than plastic alternatives — less portable.",
+      "headline": "Heavier than plastic alternatives — less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -2812,8 +3090,8 @@
       "id": "68c5f41f-46dc-44ab-ab9d-d267b29aaeda",
       "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
       "type": "con",
-      "content": "Heavier than plastic alternatives \u2014 less portable.",
-      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "content": "Heavier than plastic alternatives — less portable.",
+      "headline": "Heavier than plastic alternatives — less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -2866,8 +3144,8 @@
       "id": "f1de04a9-c0b8-4c02-9f56-9e7cc25866e8",
       "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
       "type": "con",
-      "content": "Heavier than plastic alternatives \u2014 less portable.",
-      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "content": "Heavier than plastic alternatives — less portable.",
+      "headline": "Heavier than plastic alternatives — less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -2920,8 +3198,8 @@
       "id": "b8cce64d-920f-4584-9b69-fa6b680f96fb",
       "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
       "type": "con",
-      "content": "Heavier than plastic alternatives \u2014 less portable.",
-      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "content": "Heavier than plastic alternatives — less portable.",
+      "headline": "Heavier than plastic alternatives — less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -2974,8 +3252,8 @@
       "id": "d61dac7d-612c-4b61-8502-9267fefd036b",
       "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
       "type": "con",
-      "content": "Heavier than plastic alternatives \u2014 less portable.",
-      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "content": "Heavier than plastic alternatives — less portable.",
+      "headline": "Heavier than plastic alternatives — less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3010,8 +3288,8 @@
       "id": "82c6d461-a2c0-437d-97bc-bd34db6cc43b",
       "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
       "type": "pro",
-      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
-      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "content": "Excellent battery life — 30+ hours on a single charge.",
+      "headline": "Excellent battery life — 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3028,8 +3306,8 @@
       "id": "b8ccbf67-6dae-45bf-837f-1f3a2e8cdd51",
       "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
       "type": "con",
-      "content": "Expensive \u2014 premium models cost as much as a tablet.",
-      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "content": "Expensive — premium models cost as much as a tablet.",
+      "headline": "Expensive — premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3064,8 +3342,8 @@
       "id": "57c6c2ae-0c69-4b1d-975e-d378ef499f36",
       "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
       "type": "pro",
-      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
-      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "content": "Excellent battery life — 30+ hours on a single charge.",
+      "headline": "Excellent battery life — 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3082,8 +3360,8 @@
       "id": "bf63455c-54ec-4332-bcfd-d04894fe1526",
       "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
       "type": "con",
-      "content": "Expensive \u2014 premium models cost as much as a tablet.",
-      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "content": "Expensive — premium models cost as much as a tablet.",
+      "headline": "Expensive — premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3118,8 +3396,8 @@
       "id": "d6de3fea-3e63-45cb-bfb3-a1794dd6d87b",
       "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
       "type": "pro",
-      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
-      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "content": "Excellent battery life — 30+ hours on a single charge.",
+      "headline": "Excellent battery life — 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3136,8 +3414,8 @@
       "id": "d3ab571e-978c-4c88-833e-6d9f588b121f",
       "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
       "type": "con",
-      "content": "Expensive \u2014 premium models cost as much as a tablet.",
-      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "content": "Expensive — premium models cost as much as a tablet.",
+      "headline": "Expensive — premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3172,8 +3450,8 @@
       "id": "bb8b61a9-c4ec-4cf5-bf05-c02e5403628c",
       "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
       "type": "pro",
-      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
-      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "content": "Excellent battery life — 30+ hours on a single charge.",
+      "headline": "Excellent battery life — 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3190,8 +3468,8 @@
       "id": "0dcf75da-f53c-4c16-9dff-a72aabfcd6b2",
       "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
       "type": "con",
-      "content": "Expensive \u2014 premium models cost as much as a tablet.",
-      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "content": "Expensive — premium models cost as much as a tablet.",
+      "headline": "Expensive — premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3226,8 +3504,8 @@
       "id": "99d4d35f-81ca-4acd-8b8d-c6f6193b94cc",
       "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
       "type": "pro",
-      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
-      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "content": "Excellent battery life — 30+ hours on a single charge.",
+      "headline": "Excellent battery life — 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3244,8 +3522,8 @@
       "id": "458afad0-267d-42c5-98a4-e8282dc671f6",
       "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
       "type": "con",
-      "content": "Expensive \u2014 premium models cost as much as a tablet.",
-      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "content": "Expensive — premium models cost as much as a tablet.",
+      "headline": "Expensive — premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3280,8 +3558,8 @@
       "id": "611c8662-f65b-4850-82cd-8090b32d10e7",
       "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
       "type": "pro",
-      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
-      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "content": "Excellent battery life — 30+ hours on a single charge.",
+      "headline": "Excellent battery life — 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3298,8 +3576,8 @@
       "id": "b50b8566-9fc7-4bfc-ad2f-7d0224395c0a",
       "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
       "type": "con",
-      "content": "Expensive \u2014 premium models cost as much as a tablet.",
-      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "content": "Expensive — premium models cost as much as a tablet.",
+      "headline": "Expensive — premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3644,6 +3922,636 @@
       "headline": "Some models lack cable management channels.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f29334c3-801f-41b1-a403-f008726e1ba6",
+      "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
+      "type": "pro",
+      "content": "Intelligent tamping system ensures consistent extraction every time.",
+      "headline": "Intelligent tamping system ensures consistent extraction every time",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "fca343e8-06fc-4f42-9886-cc430c15c97e",
+      "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
+      "type": "pro",
+      "content": "Built-in conical burr grinder with 18 grind settings.",
+      "headline": "Built-in conical burr grinder with 18 grind settings",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "5b3335f7-9263-4f01-a9b0-659f309d7861",
+      "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
+      "type": "pro",
+      "content": "Digital temperature control (PID) maintains optimal extraction.",
+      "headline": "Digital temperature control (PID) maintains optimal extraction",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "cc79b0a0-2073-49a5-b60b-fbacc680acff",
+      "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
+      "type": "con",
+      "content": "Expensive for beginners — learning curve is steep.",
+      "headline": "Expensive for beginners — learning curve is steep",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "81bb4759-dc4a-4545-8301-570b3a26d5ba",
+      "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
+      "type": "con",
+      "content": "Large footprint takes up significant counter space.",
+      "headline": "Large footprint takes up significant counter space",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "775c6783-dab1-4915-9452-9d8737104447",
+      "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
+      "type": "pro",
+      "content": "Best value for serious home espresso — professional components at hobbyist price.",
+      "headline": "Best value for serious home espresso — professional components at hobbyist price",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "71e2da8a-f912-4fad-b03a-eccf8d889adf",
+      "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
+      "type": "pro",
+      "content": "Commercial 58mm portafilter for infinite upgrade paths.",
+      "headline": "Commercial 58mm portafilter for infinite upgrade paths",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0d8fd0ab-0564-4c45-8b2c-75c211a42b1a",
+      "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
+      "type": "pro",
+      "content": "Steam wand produces silky microfoam for latte art.",
+      "headline": "Steam wand produces silky microfoam for latte art",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "67bd8792-a417-4045-8067-ebda59339e5a",
+      "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
+      "type": "con",
+      "content": "No built-in grinder — requires separate purchase.",
+      "headline": "No built-in grinder — requires separate purchase",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "8bca58f9-f241-4da4-8e83-9a35b06932f1",
+      "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
+      "type": "con",
+      "content": "Requires more technique than automatic machines.",
+      "headline": "Requires more technique than automatic machines",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "97f99bee-6c77-4864-bd25-93ec93815cdc",
+      "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
+      "type": "pro",
+      "content": "Rainmaker showerhead ensures even saturation for consistent flavor.",
+      "headline": "Rainmaker showerhead ensures even saturation for consistent flavor",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b1e6963a-d317-4903-864b-a88bcb23c781",
+      "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
+      "type": "pro",
+      "content": "Double-wall vacuum carafe keeps coffee hot for hours.",
+      "headline": "Double-wall vacuum carafe keeps coffee hot for hours",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "c2750234-5c1b-4058-a21f-e06eae6e4680",
+      "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
+      "type": "pro",
+      "content": "Simple, intuitive design with one-button operation.",
+      "headline": "Simple, intuitive design with one-button operation",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "651c4e34-c3e3-413d-ab7c-c6c82e8a98f4",
+      "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
+      "type": "con",
+      "content": "Not an espresso machine — no milk drinks capability.",
+      "headline": "Not an espresso machine — no milk drinks capability",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "717d3291-3182-4963-bc33-4c3a40dab632",
+      "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
+      "type": "con",
+      "content": "Plastic exterior feels less premium than competitors.",
+      "headline": "Plastic exterior feels less premium than competitors",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "2e9c2a50-03a3-4330-aa54-ea4c764669ec",
+      "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
+      "type": "pro",
+      "content": "Centrifusion technology brews with rich crema on every cup.",
+      "headline": "Centrifusion technology brews with rich crema on every cup",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a2df268a-bf58-48a9-84f9-9079641241a6",
+      "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
+      "type": "pro",
+      "content": "One-touch operation — insert pod and press button.",
+      "headline": "One-touch operation — insert pod and press button",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "85afb972-ad1b-453b-9d8f-72d8a5817da0",
+      "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
+      "type": "pro",
+      "content": "Automatic brew size detection by barcode on capsules.",
+      "headline": "Automatic brew size detection by barcode on capsules",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "7c23d5d4-f676-451f-b774-9660544d9365",
+      "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
+      "type": "con",
+      "content": "Proprietary Vertuo capsules limit roaster selection.",
+      "headline": "Proprietary Vertuo capsules limit roaster selection",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "5c605734-087b-4335-a252-eb8b36ee7f57",
+      "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
+      "type": "con",
+      "content": "Higher ongoing cost per cup vs ground coffee.",
+      "headline": "Higher ongoing cost per cup vs ground coffee",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "07d626bd-3d07-45d5-83e1-b1bdd8a2639a",
+      "ranking_product_id": "190efb1a-8608-4df6-8301-6e8b7945c2b1",
+      "type": "pro",
+      "content": "Most affordable espresso machine that actually brews real espresso.",
+      "headline": "Most affordable espresso machine that actually brews real espresso",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "158607f9-dff6-4c9b-ab3f-688b9f132ca9",
+      "ranking_product_id": "190efb1a-8608-4df6-8301-6e8b7945c2b1",
+      "type": "pro",
+      "content": "Simple swiss-engineered design with no confusing controls.",
+      "headline": "Simple swiss-engineered design with no confusing controls",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a5d541f8-4585-453d-a182-9d6677618c49",
+      "ranking_product_id": "190efb1a-8608-4df6-8301-6e8b7945c2b1",
+      "type": "pro",
+      "content": "Steam wand lets you make lattes and cappuccinos at home.",
+      "headline": "Steam wand lets you make lattes and cappuccinos at home",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ba86dce7-4b28-4174-a738-2a90a5a64147",
+      "ranking_product_id": "190efb1a-8608-4df6-8301-6e8b7945c2b1",
+      "type": "con",
+      "content": "Inconsistent extraction compared to higher-end machines.",
+      "headline": "Inconsistent extraction compared to higher-end machines",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "f3454066-c7ab-4d29-9cb9-ae593086c848",
+      "ranking_product_id": "190efb1a-8608-4df6-8301-6e8b7945c2b1",
+      "type": "con",
+      "content": "No built-in grinder requires separate purchase.",
+      "headline": "No built-in grinder requires separate purchase",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "6340408a-1378-4102-8926-e816d074f708",
+      "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
+      "type": "pro",
+      "content": "Industry-leading 10,000 Pa suction handles embedded dirt in thick carpets.",
+      "headline": "Industry-leading 10,000 Pa suction handles embedded dirt in thick carpets",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "79695090-7ef3-40a4-97d4-e45ec2832365",
+      "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
+      "type": "pro",
+      "content": "AI obstacle avoidance identifies and avoids pet waste, cables, and small objects.",
+      "headline": "AI obstacle avoidance identifies and avoids pet waste, cables, and small objects",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d12a630b-eae6-460c-9b3f-3200c3b38127",
+      "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
+      "type": "pro",
+      "content": "Self-emptying, self-washing, self-drying dock is genuinely set-and-forget.",
+      "headline": "Self-emptying, self-washing, self-drying dock is genuinely set-and-forget",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "44502754-8e03-4940-940a-85217092933c",
+      "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
+      "type": "con",
+      "content": "Premium price — most expensive option on the market.",
+      "headline": "Premium price — most expensive option on the market",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "773d6eb4-c103-4656-9a76-a3e263954823",
+      "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
+      "type": "con",
+      "content": "App setup can be complex for first-time users.",
+      "headline": "App setup can be complex for first-time users",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e4228631-9e5d-4850-9ff6-6b08840dee06",
+      "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
+      "type": "pro",
+      "content": "Highest suction power of any consumer robot vacuum available.",
+      "headline": "Highest suction power of any consumer robot vacuum available",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "135e9422-729b-49a7-b6b6-ed55c2105434",
+      "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
+      "type": "pro",
+      "content": "All-in-one station handles vacuuming, mopping, and self-emptying.",
+      "headline": "All-in-one station handles vacuuming, mopping, and self-emptying",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ade4f1ee-1bf8-49df-8e85-db4f4ac31c7f",
+      "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
+      "type": "pro",
+      "content": "Excellent obstacle avoidance for homes with pets or kids.",
+      "headline": "Excellent obstacle avoidance for homes with pets or kids",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "934264be-b972-409f-9050-9aba6f81b07e",
+      "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
+      "type": "con",
+      "content": "Very large charging dock — needs significant floor space.",
+      "headline": "Very large charging dock — needs significant floor space",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "981eafdb-0331-4ea5-b49c-02c79d4fa31a",
+      "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
+      "type": "con",
+      "content": "Mopping performance trails Roborock on stuck-on stains.",
+      "headline": "Mopping performance trails Roborock on stuck-on stains",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0f86580f-4960-4069-acd9-393630e991ca",
+      "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
+      "type": "pro",
+      "content": "Industry-leading iRobot app with smart mapping and scheduling.",
+      "headline": "Industry-leading iRobot app with smart mapping and scheduling",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "6f54e300-c424-44f2-ae62-e6938d6c1579",
+      "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
+      "type": "pro",
+      "content": "Clean Base auto-empty works reliably for weeks.",
+      "headline": "Clean Base auto-empty works reliably for weeks",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "db669e16-9f2f-4239-b4d7-49fd46ac8819",
+      "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
+      "type": "pro",
+      "content": "Best-in-class pet hair pickup on carpet and hardwood.",
+      "headline": "Best-in-class pet hair pickup on carpet and hardwood",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4a9ca95e-8ab6-4bb5-bf45-5f74b56325d9",
+      "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
+      "type": "con",
+      "content": "No mopping capability — separate purchase required for combo cleaning.",
+      "headline": "No mopping capability — separate purchase required for combo cleaning",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ed0e31e5-4479-4671-b5c2-7f6c72caf2e0",
+      "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
+      "type": "con",
+      "content": "Lower battery life than competitors at this price.",
+      "headline": "Lower battery life than competitors at this price",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0e7d67d9-c522-4c69-9f56-7c181ebb894f",
+      "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
+      "type": "pro",
+      "content": "Best budget option with both vacuuming and mopping.",
+      "headline": "Best budget option with both vacuuming and mopping",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "9e17f798-876c-4605-9d1e-745d76fa5321",
+      "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
+      "type": "pro",
+      "content": "Slim 2.85-inch profile fits under most furniture.",
+      "headline": "Slim 2",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "f014d9c1-9796-4ec4-abe5-0f96edcd45d8",
+      "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
+      "type": "pro",
+      "content": "Reliable navigation without complex app setup.",
+      "headline": "Reliable navigation without complex app setup",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "65d7871f-734a-4594-9cd1-270c1911fd5a",
+      "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
+      "type": "con",
+      "content": "Lower suction power struggles with high-pile carpets.",
+      "headline": "Lower suction power struggles with high-pile carpets",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "97a85b78-8dd8-4499-8167-6fd7c1ff8ccb",
+      "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
+      "type": "con",
+      "content": "No self-emptying station — manual dustbin emptying required.",
+      "headline": "No self-emptying station — manual dustbin emptying required",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "5156b43c-6c01-48cb-8d2b-4ab2aa4d64bd",
+      "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
+      "type": "pro",
+      "content": "Twin TurboStar technology ensures even cooking with no preheating needed.",
+      "headline": "Twin TurboStar technology ensures even cooking with no preheating needed",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e376d429-7f2c-4f97-ad32-2fa685974b3a",
+      "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
+      "type": "pro",
+      "content": "Largest capacity of any consumer air fryer — feeds a family of 5+.",
+      "headline": "Largest capacity of any consumer air fryer — feeds a family of 5+",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e8e7549e-9fac-4316-8efd-10929ea64cff",
+      "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
+      "type": "pro",
+      "content": "Oil-free fries taste nearly identical to deep-fried originals.",
+      "headline": "Oil-free fries taste nearly identical to deep-fried originals",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "60f3b195-31a8-45d5-95e2-0f791089dbaf",
+      "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
+      "type": "con",
+      "content": "Very expensive for an appliance with one primary function.",
+      "headline": "Very expensive for an appliance with one primary function",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "dccc0f3e-b3f6-4185-af46-a418e4622bda",
+      "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
+      "type": "con",
+      "content": "Heavy and awkward to move — fixed position on counter recommended.",
+      "headline": "Heavy and awkward to move — fixed position on counter recommended",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "10da38be-270c-462e-aaf3-6027b21c339b",
+      "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
+      "type": "pro",
+      "content": "Unique 2-in-1 design air fries and brews coffee — saves counter space.",
+      "headline": "Unique 2-in-1 design air fries and brews coffee — saves counter space",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "97c40dfe-dc0e-4589-a3a3-46c09d908516",
+      "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
+      "type": "pro",
+      "content": "Versatile cooking modes handle everything from wings to baked goods.",
+      "headline": "Versatile cooking modes handle everything from wings to baked goods",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e745076a-1b4b-449d-82ba-fca643412f3a",
+      "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
+      "type": "pro",
+      "content": "Sandwich basket and brew basket accessories included.",
+      "headline": "Sandwich basket and brew basket accessories included",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b0a404f9-e4e1-45c3-bf79-ddba409bed97",
+      "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
+      "type": "con",
+      "content": "Coffee brewer function uses pod-style filters — ongoing cost.",
+      "headline": "Coffee brewer function uses pod-style filters — ongoing cost",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "cb611e9d-5eed-4a47-9db8-f51c5bbb2368",
+      "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
+      "type": "con",
+      "content": "Air frying basket is smaller than dedicated air fryer models.",
+      "headline": "Air frying basket is smaller than dedicated air fryer models",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4dc54cea-da72-4d94-914c-7336a9bb36ac",
+      "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
+      "type": "pro",
+      "content": "Excellent capacity-to-price ratio — family-size at mid-range cost.",
+      "headline": "Excellent capacity-to-price ratio — family-size at mid-range cost",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a1b3d626-f7c4-460d-8f6d-c5b4a00a3644",
+      "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
+      "type": "pro",
+      "content": "13 one-touch cooking presets cover most common air fryer tasks.",
+      "headline": "13 one-touch cooking presets cover most common air fryer tasks",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a81b8254-4ee2-43c1-8a57-39228a3fd613",
+      "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
+      "type": "pro",
+      "content": "Square basket design provides more usable cooking surface than round.",
+      "headline": "Square basket design provides more usable cooking surface than round",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "de1719c8-1be1-495d-84bb-f7b2432ed3e1",
+      "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
+      "type": "con",
+      "content": "Slightly louder than competitors at max temperature.",
+      "headline": "Slightly louder than competitors at max temperature",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "502ef0f7-e55f-4c12-aa4e-14a022e1e703",
+      "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
+      "type": "con",
+      "content": "Non-stick coating on basket shows wear after 1-2 years of heavy use.",
+      "headline": "Non-stick coating on basket shows wear after 1-2 years of heavy use",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "db7c11c7-e859-4210-a39c-0b2fc87e9604",
+      "ranking_product_id": "4fef23df-d357-4e31-829d-0c5e9eecbdc0",
+      "type": "pro",
+      "content": "7-in-1 functionality replaces multiple kitchen appliances.",
+      "headline": "7-in-1 functionality replaces multiple kitchen appliances",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "23f96464-3f04-4f71-a3e3-8fe7781e54ae",
+      "ranking_product_id": "4fef23df-d357-4e31-829d-0c5e9eecbdc0",
+      "type": "pro",
+      "content": "Dehydrate function works well for dried fruits and jerky.",
+      "headline": "Dehydrate function works well for dried fruits and jerky",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "1466575f-a049-48cf-81a2-cfb117bfafb1",
+      "ranking_product_id": "4fef23df-d357-4e31-829d-0c5e9eecbdc0",
+      "type": "pro",
+      "content": "ClearCook window lets you monitor cooking without opening basket.",
+      "headline": "ClearCook window lets you monitor cooking without opening basket",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "dc38fd76-bcf9-4ccf-b8c9-c87cfc9b6d4d",
+      "ranking_product_id": "4fef23df-d357-4e31-829d-0c5e9eecbdc0",
+      "type": "con",
+      "content": "Toasting function produces uneven results vs dedicated toaster.",
+      "headline": "Toasting function produces uneven results vs dedicated toaster",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "8f040395-c7f9-4db6-a748-5d56504eb723",
+      "ranking_product_id": "4fef23df-d357-4e31-829d-0c5e9eecbdc0",
+      "type": "con",
+      "content": "Basket release button is stiff and requires two-hand operation.",
+      "headline": "Basket release button is stiff and requires two-hand operation",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "f14c3635-5b3d-4863-bc61-4f6c40213f5d",
+      "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
+      "type": "pro",
+      "content": "Most affordable quality air fryer from a major brand.",
+      "headline": "Most affordable quality air fryer from a major brand",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d9bd4ff7-d1dc-4e54-8125-1488fc6c2281",
+      "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
+      "type": "pro",
+      "content": "Compact size is ideal for apartments and small kitchens.",
+      "headline": "Compact size is ideal for apartments and small kitchens",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "13fd7d74-01d3-4182-98b9-09c79313c0aa",
+      "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
+      "type": "pro",
+      "content": "Easy to clean — basket and crisper plate are dishwasher safe.",
+      "headline": "Easy to clean — basket and crisper plate are dishwasher safe",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "75653054-8340-414a-844a-7faaa10e5786",
+      "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
+      "type": "con",
+      "content": "Smallest capacity means limited batch cooking ability.",
+      "headline": "Smallest capacity means limited batch cooking ability",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "dc3c2d45-cb98-4df5-991a-a49f10d08289",
+      "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
+      "type": "con",
+      "content": "Fewer preset programs than competitors at similar price.",
+      "headline": "Fewer preset programs than competitors at similar price",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ],
   "specifications": [
@@ -3668,7 +4576,7 @@
       "id": "0ca0eece-8aef-408e-b357-9e90b026ffd4",
       "product_id": "46fcfd3e-8829-4f27-a64e-88d054290eaf",
       "name": "Resolution",
-      "value": "2560\u00d71440",
+      "value": "2560×1440",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3700,7 +4608,7 @@
       "id": "602e1ce4-0840-40e5-bd61-2ba3ec4d2de5",
       "product_id": "e17fe198-c6a6-4470-ae47-9f8ce8880a96",
       "name": "Resolution",
-      "value": "5120\u00d72880",
+      "value": "5120×2880",
       "unit": "5K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3741,7 +4649,7 @@
       "id": "04e85c87-9528-47e7-88b0-4269ce5b107c",
       "product_id": "ae06c37a-07bb-40a6-a442-6d8345763c2d",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3782,7 +4690,7 @@
       "id": "d25d46ab-616a-40cb-9bb9-5ea4a807d2b5",
       "product_id": "a792ccf9-fa01-4c31-9c74-58ac16a162bb",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3824,7 +4732,7 @@
       "id": "2560e066-5a60-4b33-9d61-2050fe5e7092",
       "product_id": "04cb2c71-9745-492d-8922-f68e7b233289",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3866,7 +4774,7 @@
       "id": "c2dc915a-42ea-4e79-b3a2-ab0c195e2c92",
       "product_id": "72b196ce-da7c-4340-a29b-4b7cb3e08a87",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4007,7 +4915,7 @@
       "id": "67af9d5f-8984-4054-9ed7-cb48cdc38380",
       "product_id": "ba75e652-857c-49c1-9f7f-af3a0e46fa09",
       "name": "Recline",
-      "value": "133\u00b0 tilt",
+      "value": "133° tilt",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4130,7 +5038,7 @@
       "id": "e69cdd9a-355a-4a3d-8946-561421848e0e",
       "product_id": "9acbc96f-a246-46d2-8b37-b374b06071fa",
       "name": "Recline",
-      "value": "115\u00b0",
+      "value": "115°",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4181,7 +5089,7 @@
       "id": "5153468e-f144-46a3-a66d-5f51d666514f",
       "product_id": "9d038463-44bd-47f1-98f1-9f0a2b061998",
       "name": "Capacity Options",
-      "value": "500GB\u20134TB",
+      "value": "500GB–4TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4307,7 +5215,7 @@
       "id": "a3875c3e-e2b0-438d-96cf-6469bbaaa7dd",
       "product_id": "e4e81ee6-44dc-434c-a9e4-90f692a2032f",
       "name": "Capacity",
-      "value": "500GB\u20134TB",
+      "value": "500GB–4TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4349,7 +5257,7 @@
       "id": "a476db1a-9477-49ef-af52-d6936fca79a8",
       "product_id": "4fb9b7b3-8e34-4754-814f-d2c0fc9769e6",
       "name": "Capacity",
-      "value": "1TB\u20134TB",
+      "value": "1TB–4TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4383,7 +5291,7 @@
       "id": "4781bbf5-a889-4e1c-a909-191d987e8e63",
       "product_id": "154c5c14-dedc-4364-a70c-337c0f94bfc7",
       "name": "Capacity",
-      "value": "500GB\u20134TB",
+      "value": "500GB–4TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4400,7 +5308,7 @@
       "id": "bb020da8-253b-42a0-8a02-c4433a828e39",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4426,7 +5334,7 @@
       "id": "c93ab98e-9ab5-477d-a5f7-ddd2e984e317",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Field of View",
-      "value": "65\u00b0/78\u00b0/90\u00b0",
+      "value": "65°/78°/90°",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4450,7 +5358,7 @@
       "id": "63becd93-935d-4a99-915d-38c0cc196437",
       "product_id": "81405e0d-3c16-4efe-9964-441f2103cf3c",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4501,7 +5409,7 @@
       "id": "d0f1328e-4a43-4989-840b-c6444d95bc4c",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4535,7 +5443,7 @@
       "id": "a0698766-7f03-4571-9eb7-b02a75c27f10",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Field of View",
-      "value": "72\u00b0/82\u00b0/93\u00b0",
+      "value": "72°/82°/93°",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4551,7 +5459,7 @@
       "id": "c08f799f-5d6f-4977-893e-f9c56d0e2d57",
       "product_id": "ce24a6cf-1722-4504-967f-5ca252aa3cd0",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4601,7 +5509,7 @@
       "id": "e42100f3-1576-4f5f-964b-dbf17c4a7e2f",
       "product_id": "1fdb7e53-7720-4f15-ac6c-f072847e923e",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4651,7 +5559,7 @@
       "id": "7df97cb4-7543-4729-a693-e6fba50e7c58",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Resolution",
-      "value": "3840\u00d72160",
+      "value": "3840×2160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4669,7 +5577,7 @@
       "id": "27a4114e-0c6e-43ae-89e7-c9df0716a1d2",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Field of View",
-      "value": "65\u00b0/78\u00b0/95\u00b0",
+      "value": "65°/78°/95°",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5874,7 +6782,7 @@
       "id": "50b243d0-6f1e-4234-9afc-284992fd453b",
       "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
       "name": "Compatibility",
-      "value": "4\"\u201313\" tablets and phones",
+      "value": "4\"–13\" tablets and phones",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -5882,7 +6790,7 @@
       "id": "ded9ad01-9937-4514-9813-558aab263a7c",
       "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
       "name": "Adjustment",
-      "value": "270\u00b0 viewing angle",
+      "value": "270° viewing angle",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -5930,7 +6838,7 @@
       "id": "a1cf5243-fcf9-44ca-94bc-75e0b7655cf8",
       "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
       "name": "Adjustment",
-      "value": "Smooth tilting, 360\u00b0 rotation",
+      "value": "Smooth tilting, 360° rotation",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -5970,7 +6878,7 @@
       "id": "47da06ba-86e4-43c3-ab44-f1bcb43c9477",
       "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
       "name": "Compatibility",
-      "value": "7\"\u201313\" devices",
+      "value": "7\"–13\" devices",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6018,7 +6926,7 @@
       "id": "f0a882c3-f050-424b-9ddf-23eb470cc441",
       "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
       "name": "Compatibility",
-      "value": "4.7\"\u201313\" tablets",
+      "value": "4.7\"–13\" tablets",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6026,7 +6934,7 @@
       "id": "91fcc583-de51-4f3e-b5d7-2841dd5e08c4",
       "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
       "name": "Rotation",
-      "value": "360\u00b0 swivel base",
+      "value": "360° swivel base",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6066,7 +6974,7 @@
       "id": "8bb9cc1d-9ae9-48e5-a063-b7bce4f9f281",
       "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
       "name": "Compatibility",
-      "value": "4\"\u201310.5\" tablets",
+      "value": "4\"–10.5\" tablets",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6114,7 +7022,7 @@
       "id": "3a696997-81d7-4a9e-a2d5-ad12be65e964",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Compatibility",
-      "value": "7\"\u201313\" tablets up to 2kg",
+      "value": "7\"–13\" tablets up to 2kg",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6130,7 +7038,7 @@
       "id": "25c2604b-6e24-49b7-88ea-73e03ac954e1",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Adjustment",
-      "value": "Full 360\u00b0 articulation",
+      "value": "Full 360° articulation",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6146,9 +7054,605 @@
       "id": "ba67f36c-9773-44ff-a68b-8071a6f9edb0",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Tilt Range",
-      "value": "-90\u00b0 to +90\u00b0",
+      "value": "-90° to +90°",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "508e475c-3443-4291-a25a-83ee04a2ee4b",
+      "product_id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "name": "Pump Pressure",
+      "value": "15",
+      "unit": "bar",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "9d824ea6-ff97-47f8-ae65-02998339f804",
+      "product_id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "name": "Grinder",
+      "value": "Integrated Burr",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0af6a791-c26f-4eec-b7f1-a822cd1af7d6",
+      "product_id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "name": "Water Tank",
+      "value": "2",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "43baac16-600c-4034-ba30-87798088b3c3",
+      "product_id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "name": "Milk Frother",
+      "value": "Automatic",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b6fc440b-b91e-463e-85f2-66a11671727b",
+      "product_id": "46c5ca1a-f956-46bb-8a48-21216dd8f43e",
+      "name": "User Level",
+      "value": "Intermediate",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e76fd2d5-7878-435d-b035-41d4bb9e3670",
+      "product_id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "name": "Pump Pressure",
+      "value": "15",
+      "unit": "bar",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "2b6618f9-e2e1-4645-9b0c-57151410742b",
+      "product_id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "name": "Grinder",
+      "value": "External (sold separately)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "026be3ce-386f-4ff6-b523-bacea96cee03",
+      "product_id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "name": "Water Tank",
+      "value": "2.1",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "526d2257-6a86-4557-947c-bf3e9e665da5",
+      "product_id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "name": "Milk Frother",
+      "value": "Commercial Wand",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b9d569ce-ca0d-4b66-a1e2-0a6b6d9b387b",
+      "product_id": "0cbeae6e-f459-494b-ae95-040ff2d1b5c4",
+      "name": "User Level",
+      "value": "Advanced",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "94d0d6e9-144b-4917-9224-21c55270d361",
+      "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "name": "Type",
+      "value": "Drip Brewer",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b50109b9-62f1-48b0-998d-3bda4ed87778",
+      "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "name": "Capacity",
+      "value": "9",
+      "unit": "cups",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d5ee3a82-3646-4caa-98d6-e8a7877ccb1f",
+      "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "name": "Water Reservoir",
+      "value": "1.3",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "b9d2d446-2a28-4ee9-9066-f6a658f57d2f",
+      "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "name": "Brew Temperature",
+      "value": "197-205",
+      "unit": "°F",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "528750c8-b3c7-4545-a241-321bf09d19ff",
+      "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
+      "name": "Filter",
+      "value": "Flat Basket",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e1aad8c2-be81-4d1c-9014-a04d19ba9c81",
+      "product_id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "name": "Type",
+      "value": "Single-Serve Pod",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "65ac4741-0aee-46da-a36f-25362661c917",
+      "product_id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "name": "Brew Sizes",
+      "value": "4 (espresso to alto)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0af81337-38ac-4691-b6f6-1fec3b3084ee",
+      "product_id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "name": "Pump Pressure",
+      "value": "19",
+      "unit": "bar",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e1205839-86ed-4815-a126-be67a0b2c941",
+      "product_id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "name": "Water Tank",
+      "value": "1.8",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "5bbffb1c-73db-40b1-b208-b0925c152d28",
+      "product_id": "7ce41007-70c8-48c1-8969-72605c36613d",
+      "name": "Milk Frother",
+      "value": "Aeroccino (optional)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "8d0014f7-2535-493d-956a-19d9db1a194b",
+      "product_id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "name": "Type",
+      "value": "Semi-Automatic",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "6275f706-2a21-46e2-8507-1d6b8864acc4",
+      "product_id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "name": "Pump Pressure",
+      "value": "15",
+      "unit": "bar",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "c858b428-44fd-481f-9b19-9c0a3c51ff59",
+      "product_id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "name": "Steam Wand",
+      "value": "Yes",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "649e9d31-4cc1-4219-bf02-1346b4a7c742",
+      "product_id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "name": "Portafilter",
+      "value": "49mm",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ac821d3f-fc24-4af0-b4e0-0d8f8983d262",
+      "product_id": "394e4c13-e971-4e82-a777-2eef80775dda",
+      "name": "User Level",
+      "value": "Beginner",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "0659c576-37d9-4147-a3c7-9b6b7d0137a1",
+      "product_id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "name": "Suction Power",
+      "value": "10000",
+      "unit": "Pa",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "52d8431a-aeb3-4572-b3a6-0414d3f4a95d",
+      "product_id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "name": "Navigation",
+      "value": "AI Reactive Avoidance",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "9c9c64ad-9c3c-4d38-a842-c324568416a1",
+      "product_id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "name": "Battery Life",
+      "value": "180",
+      "unit": "minutes",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ce7abe0a-9593-4762-8302-2eb839314aa6",
+      "product_id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "name": "Dust Bag",
+      "value": "2.5",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "835ff809-712a-4e78-a8d6-ec5494ae546a",
+      "product_id": "b02444af-10dc-408e-903f-4673b5d952ea",
+      "name": "Mop",
+      "value": "Vibrasonic (6000Hz)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "3ed2fae0-e6ed-4b62-8e4f-83df06b318b8",
+      "product_id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "name": "Suction Power",
+      "value": "12800",
+      "unit": "Pa",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "dbc05fa5-c109-42ca-8e20-5dbbcf909c29",
+      "product_id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "name": "Navigation",
+      "value": "LiDAR + AI",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4b965274-6d1b-4e6b-b969-6f5a4c8ab883",
+      "product_id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "name": "Battery Life",
+      "value": "200",
+      "unit": "minutes",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4999ac10-9985-4be1-a699-3028dd40dd9e",
+      "product_id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "name": "Dust Bag",
+      "value": "3",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "2e59c611-c4f4-4bfc-95a8-723d4b86a972",
+      "product_id": "b1a93306-71a5-4be4-ad71-bdb6852d590d",
+      "name": "Mop",
+      "value": "Rotating Dual Pads",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "61d7cd05-c87b-4bba-9c1b-ca5fae751ea2",
+      "product_id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "name": "Suction Power",
+      "value": "Not disclosed",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "52623ee6-c128-4833-b2a9-f6d92d9a190c",
+      "product_id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "name": "Navigation",
+      "value": "iAdapt 3.0 + Camera",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ec3c68ae-9e2e-4dd8-8c6f-cb197728c534",
+      "product_id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "name": "Battery Life",
+      "value": "75",
+      "unit": "minutes",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "5f5734eb-6ef2-4e4a-bcd2-3cbd9e9401e8",
+      "product_id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "name": "Dust Bag",
+      "value": "2.4",
+      "unit": "liters",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "60e00d07-2549-4a05-b848-b17b786f4035",
+      "product_id": "1544a02e-5d47-4d4e-8cc9-6e42af113a08",
+      "name": "Mop",
+      "value": "No (vacuum only)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e82c3139-b289-412a-a1dc-061f95570a6b",
+      "product_id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "name": "Suction Power",
+      "value": "2000",
+      "unit": "Pa",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "243ccbee-6d78-413e-b93f-5e6594601132",
+      "product_id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "name": "Navigation",
+      "value": "Smart Dynamic Navigation",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a8d17522-7b85-441a-9d1d-ee1ac8296658",
+      "product_id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "name": "Battery Life",
+      "value": "100",
+      "unit": "minutes",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4b262ca6-beab-4f90-b26a-d3e924058c8f",
+      "product_id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "name": "Dust Tank",
+      "value": "450",
+      "unit": "ml",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "02ebb293-4694-4fb4-b741-34d0c0a94048",
+      "product_id": "974ba23e-31ca-4c53-81b5-6a0ceac85a45",
+      "name": "Mop",
+      "value": "Electronic",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "81d77961-1843-4b11-901d-b678151d2f9c",
+      "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "name": "Capacity",
+      "value": "1.4",
+      "unit": "kg",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a786350f-2075-4887-ae06-6dce71410dfb",
+      "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "name": "Power",
+      "value": "2225",
+      "unit": "W",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "712f87a0-c1ce-4d35-ad82-67f40b270b77",
+      "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "name": "Temperature",
+      "value": "40-200",
+      "unit": "°C",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "52483789-bcb0-45fa-b172-1f63db5415e8",
+      "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "name": "Basket",
+      "value": "Baskets",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d2a0ea09-7711-4882-b09c-cec20a2876a7",
+      "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
+      "name": "Preset Programs",
+      "value": "7",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "498be5aa-9ada-41d8-a41b-5445080a4cf6",
+      "product_id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "name": "Capacity",
+      "value": "10",
+      "unit": "cups",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "33b0a0d4-eff9-4d05-b6f1-fa2b2ad7e566",
+      "product_id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "name": "Power",
+      "value": "1800",
+      "unit": "W",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "65165986-3e77-4126-9b76-f011224aac37",
+      "product_id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "name": "Functions",
+      "value": "Air Fry, Brew (coffee)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "52f2842b-9784-45c4-adb1-d6eb55a5d471",
+      "product_id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "name": "Brew Time",
+      "value": "4-12",
+      "unit": "oz/min",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "81d95042-023a-44af-9ffc-b05cb78650c5",
+      "product_id": "d6ef19c0-65e9-4686-8c2a-b8cf673ac918",
+      "name": "Preset Programs",
+      "value": "5",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4166a972-fd96-426c-b48d-dbbc179fef28",
+      "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "name": "Capacity",
+      "value": "6",
+      "unit": "qt",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "fc5fcd49-7660-4bca-845c-bf21e6cbc93c",
+      "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "name": "Power",
+      "value": "1700",
+      "unit": "W",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "2cadbfd0-654d-4df8-88bc-8f82474732e1",
+      "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "name": "Temperature",
+      "value": "90-400",
+      "unit": "°F",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "9f2ad640-c24b-4d6b-a2e0-42857baf39d5",
+      "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "name": "Basket",
+      "value": "Detachable",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4434439c-f54a-4d64-bf70-c4db8430854e",
+      "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
+      "name": "Preset Programs",
+      "value": "13",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ce5005fd-c765-4a19-bed5-e5d5abcaa53c",
+      "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "name": "Capacity",
+      "value": "6",
+      "unit": "qt",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e707e0c8-e549-4842-8209-0354f57a3cd6",
+      "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "name": "Power",
+      "value": "1500",
+      "unit": "W",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "aefd8f3c-2daa-4516-86db-10a2d6c00375",
+      "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "name": "Functions",
+      "value": "7 (air fry, roast, bake, broil, toast, reheat, dehydrate)",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "df03890e-69b5-47a1-92e3-0261bd6b8e33",
+      "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "name": "Temperature",
+      "value": "95-400",
+      "unit": "°F",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "4324271e-22fc-49b0-80e2-cc519e31f3e2",
+      "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
+      "name": "Display",
+      "value": "Digital Touch",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "90f9c57f-fe6d-46b4-94b0-159946bcbf63",
+      "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "name": "Capacity",
+      "value": "4",
+      "unit": "qt",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "433d95d6-6bd6-4710-b191-cf32c5106837",
+      "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "name": "Power",
+      "value": "1550",
+      "unit": "W",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "64839aa6-7515-45ab-80fe-38854c6d4493",
+      "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "name": "Temperature",
+      "value": "105-400",
+      "unit": "°F",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "a56b76e9-755e-4265-b9f8-40496c04d236",
+      "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "name": "Basket",
+      "value": "Ceramic Non-Stick",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "c3cafb7d-36d1-40db-ac41-1e44c20434fe",
+      "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
+      "name": "Preset Programs",
+      "value": "4",
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ],
   "assets": [],
@@ -6157,7 +7661,7 @@
       "id": "69b1cfaa-612d-47df-bf59-8ee0b7c8724f",
       "ranking_id": "f9828aba-e4f9-4a61-afc9-d450b4b4cb15",
       "question": "What monitor refresh rate do I need for gaming?",
-      "answer": "For competitive esports, 240\u2013480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
+      "answer": "For competitive esports, 240–480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -6184,7 +7688,7 @@
       "id": "eea12d76-375b-4970-84f0-f3c763531cdc",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How do I adjust my office chair for proper posture?",
-      "answer": "Set seat height so feet are flat and knees at 90\u00b0. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90\u2013110\u00b0. Recline slightly (100\u2013110\u00b0) to reduce spinal disc pressure.",
+      "answer": "Set seat height so feet are flat and knees at 90°. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90–110°. Recline slightly (100–110°) to reduce spinal disc pressure.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -6202,7 +7706,7 @@
       "id": "c6d88936-c6f7-4c40-acc6-19ea2d6d1195",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How long should an office chair last?",
-      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10\u201315 years with proper maintenance. Warranty length is a good proxy\u201412 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3\u20135 years.",
+      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10–15 years with proper maintenance. Warranty length is a good proxy—12 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3–5 years.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -6211,7 +7715,7 @@
       "id": "1bbfd241-d0ec-4002-a856-ceab49b03f42",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "What's the difference between USB 3.2, USB4, and Thunderbolt 4 for external SSDs?",
-      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s\u2014fine for backups. USB4 hits 2,000\u20133,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
+      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s—fine for backups. USB4 hits 2,000–3,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -6229,7 +7733,7 @@
       "id": "743aa0dd-f923-4799-8eb2-6cbd00900543",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "How often should I replace my external SSD?",
-      "answer": "NAND flash wears out after ~3,000\u20135,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5\u20137 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
+      "answer": "NAND flash wears out after ~3,000–5,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5–7 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -6346,7 +7850,7 @@
       "id": "c9fe1d61-b413-45c8-a227-ddf0d1170ae0",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "question": "What's the difference between Cherry MX, Gateron, and Kailh switches?",
-      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget \u2014 all are reliable in 2026.",
+      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget — all are reliable in 2026.",
       "display_order": 1,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -6364,7 +7868,7 @@
       "id": "2ca843e6-d310-423b-849c-ae3df1a923eb",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "question": "Is wireless gaming keyboard latency actually good enough for esports?",
-      "answer": "Yes \u2014 modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
+      "answer": "Yes — modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -6382,7 +7886,7 @@
       "id": "75232757-ba66-4280-aeec-0960d0e9b018",
       "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
       "question": "How long do ANC headphone batteries last, and can they be replaced?",
-      "answer": "Most modern ANC headphones last 20\u201360 hours per charge and batteries typically endure 300\u2013500 full cycles (~2\u20133 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
+      "answer": "Most modern ANC headphones last 20–60 hours per charge and batteries typically endure 300–500 full cycles (~2–3 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
       "display_order": 2,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -6391,7 +7895,7 @@
       "id": "0eaf7e27-37c0-48ec-a0de-c2accb84f83b",
       "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
       "question": "Are wireless headphones safe for air travel?",
-      "answer": "Yes \u2014 all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
+      "answer": "Yes — all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -6400,7 +7904,7 @@
       "id": "1bc7a0ba-a717-48d3-bf3a-359db4419bae",
       "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
       "question": "What should I look for in a tablet stand for video calls?",
-      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10\u201315\u00b0) helps with framing without you having to look down.",
+      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10–15°) helps with framing without you having to look down.",
       "display_order": 1,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -6409,7 +7913,7 @@
       "id": "af9cd5ba-aee0-4d94-a317-69396bbe87bf",
       "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
       "question": "Can I mount a tablet stand on a car dashboard?",
-      "answer": "Yes \u2014 vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
+      "answer": "Yes — vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
       "display_order": 2,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -6422,6 +7926,87 @@
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e76f8896-a6b9-4a8e-992b-f34b0ae98c5e",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "question": "Is an expensive espresso machine worth it for home use?",
+      "answer": "If you drink 2+ espresso-based drinks daily and appreciate quality, a 00+ machine pays off in 6-12 months vs. café purchases. However, if you primarily drink drip coffee or are new to espresso, start with a quality drip brewer or a pod system — the upgrade path is expensive and iterative.",
+      "display_order": 1,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "193def9b-2ead-4f58-b75d-351ee8e2b57e",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "question": "What is the difference between 15-bar and 19-bar espresso machines?",
+      "answer": "Bar pressure refers to the pump force pushing water through the grounds. In practice, 9 bars is the ideal extraction pressure — most machines with higher pressure ratings simply regulate down to 9 bars internally. The difference between 15-bar and 19-bar machines is negligible in actual brew quality; grind consistency and temperature stability matter far more.",
+      "display_order": 2,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "8f4acb6c-4446-46a2-ae34-8bb8ce509e7b",
+      "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
+      "question": "Do I need a built-in grinder or can I buy pre-ground coffee?",
+      "answer": "A built-in grinder is strongly recommended for espresso — fresh grinding immediately before extraction preserves volatile aromatics. Pre-ground coffee degrades significantly within 15-30 minutes of grinding. For drip brewers, pre-ground works fine if used within a week of opening, but fresh-ground still tastes noticeably better.",
+      "display_order": 3,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "aee79069-8e14-4519-9a04-6e4da26e7db1",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "question": "How often should I empty the dust bin on a robot vacuum?",
+      "answer": "With a self-emptying dock, most users empty the sealed bag every 30-60 days. Without one, empty after every 1-3 cleaning cycles depending on home size and pet ownership. Running a full bin reduces suction and cleaning efficiency significantly.",
+      "display_order": 1,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d18a80c0-dcd6-47b5-8bbc-2791a52ee3da",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "question": "Do robot vacuums work on dark carpets or rugs?",
+      "answer": "Most robot vacuums with cliff sensors struggle on very dark surfaces (black, navy) as they reflect light similarly to stairs/drops. This causes them to avoid dark rugs entirely. Newer models like the Roborock S8 series have improved cliff sensors that better differentiate surfaces, but very dark carpets remain challenging.",
+      "display_order": 2,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ba65e922-4b07-478a-87e1-fc5f67464c05",
+      "ranking_id": "30f7107d-c317-40c0-9c06-adfe6ec59a26",
+      "question": "Can robot vacuums replace a traditional vacuum cleaner?",
+      "answer": "For daily maintenance cleaning, robot vacuums excel and can reduce traditional vacuum use by 80%. However, they cannot match the deep-cleaning power of an upright vacuum for stairs, mattresses, car interiors, or heavy carpet embedded dirt. Think of robot vacuums as daily maintenance, not weekly deep cleans.",
+      "display_order": 3,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "fe9d95d4-8a02-451c-a690-4c8287271e17",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "question": "Is air-fried food actually healthier?",
+      "answer": "Air fryers use 80-90% less oil than deep frying, which significantly reduces fat content in foods like fries and wings. However, the high heat can produce more acrylamide in starchy foods than conventional ovens. Used as intended — as a lower-oil alternative to deep frying — they are meaningfully healthier.",
+      "display_order": 1,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "f8c30688-a456-4f02-8d77-99644dd6eadb",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "question": "What size air fryer do I need for a family of 4?",
+      "answer": "For a family of 4, aim for at least 5-6 quarts (4.5-5.5 liters) of basket capacity. This allows cooking a full meal (e.g., a whole chicken or 2lbs of fries) without overcrowding, which is critical for even browning and crispy results.",
+      "display_order": 2,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e8f5e747-e4d3-4cf1-8d2b-4a575db67ace",
+      "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
+      "question": "Can you put metal in an air fryer?",
+      "answer": "Most metal utensils and oven-safe metal pans are safe in an air fryer. Avoid non-stick coated metal utensils that may scratch, and never use aluminum foil crumpled into a ball (it can blow around and cause fire hazard). Loose aluminum foil covering the basket base is fine.",
+      "display_order": 3,
+      "created_at": "2026-04-09T19:22:09.787Z",
+      "updated_at": "2026-04-09T19:22:09.787Z"
     }
   ]
 }
