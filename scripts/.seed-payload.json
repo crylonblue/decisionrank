@@ -47,6 +47,30 @@
       "description": "Top USB and XLR microphones for streaming, podcasting, voiceovers, and crystal-clear calls.",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "e3f5091f-55cc-4108-9923-674f1830797d",
+      "name": "Mechanical Keyboards",
+      "slug": "mechanical-keyboards",
+      "description": "Best mechanical keyboards for gaming, typing, and productivity \u2014 covering layouts, switches, and feature sets for every budget.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "fdc2fd5e-c43f-4ed0-b11f-c8d0fb3b2cc1",
+      "name": "Noise-Cancelling Headphones",
+      "slug": "noise-cancelling-headphones",
+      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening \u2014 tested for ANC performance, sound quality, and comfort.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "177dee7c-409c-4c85-bc49-c0bd9c4357c0",
+      "name": "Tablet Stands & Mounts",
+      "slug": "tablet-stands-mounts",
+      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds \u2014 tested for stability, adjustability, and compatibility.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ],
   "rankings": [
@@ -109,6 +133,36 @@
       "category_id": "662041e8-7ec5-491a-8e8a-f6d05520458d",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "slug": "best-mechanical-keyboards-2026",
+      "question": "What Are the Best Mechanical Keyboards in 2026?",
+      "description": "We tested 30+ mechanical keyboards for build quality, switch feel, wireless performance, layout variety, and value to identify the best options for gaming, typing, and productivity.",
+      "verdict_summary": "The Keychron Q1 Pro wins for its modular wireless design, aluminum case, and wide switch compatibility. The Ducky One 3 Max offers premium build with excellent typing feel. The Varmilo VA87M delivers superb craftsmanship for customization enthusiasts.",
+      "category_id": "e3f5091f-55cc-4108-9923-674f1830797d",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "slug": "best-noise-cancelling-headphones-2026",
+      "question": "What Are the Best Noise-Cancelling Headphones in 2026?",
+      "description": "Our team evaluated popular ANC headphones on noise cancellation effectiveness, sound signature, call quality, battery life, comfort, and app features across travel, office, and home use.",
+      "verdict_summary": "Sony WH-1000XM5 remains the all-around leader with class-leading ANC and a polished feature set. The Bose QuietComfort Ultra delivers supreme comfort and transparency mode. For Apple users, AirPods Max integrates seamlessly with spatial audio and ecosystem features.",
+      "category_id": "fdc2fd5e-c43f-4ed0-b11f-c8d0fb3b2cc1",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "slug": "best-tablet-stands-mounts-2026",
+      "question": "What Are the Best Tablet Stands and Mounts in 2026?",
+      "description": "We tested tablet stands for desks, beds, kitchens, and vehicles, rating each on stability, adjustability, compatibility across tablet sizes, and material quality.",
+      "verdict_summary": "The Lamicall Tablet Stand is the best overall with solid aluminum construction and wide compatibility. The Twelve South Compass is ideal for creative setups with its elegant design and smooth adjustments. For car or vent mounting, the AmazonBasics Vent Mount offers unbeatable value.",
+      "category_id": "177dee7c-409c-4c85-bc49-c0bd9c4357c0",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ],
   "products": [
@@ -363,6 +417,132 @@
       "link": "https://www.audio-technica.com/en-us/at2040usb",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Keychron Q1 Pro",
+      "link": "https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-mechanical-keyboard",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "Ducky One 3 Max",
+      "link": "https://duckychannel.com/en/product/ducky-one-3-max/",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Varmilo VA87M",
+      "link": "https://www.varmilo.com/keyboard/premium-product/va87m",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Leopold FC980M",
+      "link": "https://leopold.co.kr/product/detail.html?product_code=FC980M",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "NuPhy Air75 V2",
+      "link": "https://www.nuphy.com/products/air75-v2",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "Royal Kludge RK84",
+      "link": "https://www.rk-keyboard.com/product/rk84",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "Sony WH-1000XM5",
+      "link": "https://www.sony.com/electronics/headband-headphones/wh-1000xm5",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "Bose QuietComfort Ultra",
+      "link": "https://www.bose.com/en_us/products/headphones/quietcomfort/quietcomfort-ultra-headphones.html",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "Apple AirPods Max",
+      "link": "https://www.apple.com/airpods-max/",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "Sennheiser Momentum 4",
+      "link": "https://en-us.sennheiser.com/momentum-4",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "Anker Soundcore Life Q30",
+      "link": "https://www.soundcore.com/products/life-q30",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "Bowers & Wilkins Px7 S2",
+      "link": "https://www.bowerswilkins.com/products/headphones/px7-s2",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Lamicall Tablet Stand",
+      "link": "https://www.lamicall.com/products/tablet-stand",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Twelve South Compass",
+      "link": "https://www.twelvesouth.com/products/compass",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "MoKo Universal Tablet Stand",
+      "link": "https://www.mokostore.com/products/moko-universal-tablet-stand",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "UGREEN Tablet Holder",
+      "link": "https://www.ugreen.com/products/tablet-stand",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "AmazonBasics Vent Mount",
+      "link": "https://www.amazon.com/AmazonBasics-Vent-Tablet-Phone-Mount/dp/B01IULSQQ8",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Padholder Mount-it! Articulating Arm",
+      "link": "https://www.mount-it.com/products/tablet-wall-mount",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ],
   "ranking_products": [
@@ -689,6 +869,168 @@
       "rank_position": 6,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "score": 8.6,
+      "rank_position": 4,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2183d93a-487a-449f-bab1-42381189102a",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "score": 8.0,
+      "rank_position": 6,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "score": 8.2,
+      "rank_position": 5,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "score": 8.6,
+      "rank_position": 4,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "score": 8.1,
+      "rank_position": 6,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ],
   "users": [],
@@ -697,8 +1039,8 @@
       "id": "34afcd32-ccc9-47e3-9097-97a786a04547",
       "ranking_product_id": "2197d632-5b58-4b5e-86eb-04ace7b36480",
       "type": "pro",
-      "content": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports.",
-      "headline": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports",
+      "content": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports.",
+      "headline": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -769,8 +1111,8 @@
       "id": "dbc74252-3f61-4349-9c80-b3fd1a331e65",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "Expensive—only for pros who need the pixels.",
-      "headline": "Expensive—only for pros who need the pixels",
+      "content": "Expensive\u2014only for pros who need the pixels.",
+      "headline": "Expensive\u2014only for pros who need the pixels",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -778,7 +1120,7 @@
       "id": "4b66c5a3-d43a-4a5c-92f2-318d574b778f",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "No HDMI 2.1—limited to older consoles at full res.",
+      "content": "No HDMI 2.1\u2014limited to older consoles at full res.",
       "headline": "No HDMI 2",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -814,8 +1156,8 @@
       "id": "0f528994-b205-40d4-aec0-ed1cfd56b4d5",
       "ranking_product_id": "cefe6528-1a61-4834-b4f1-082115564c54",
       "type": "con",
-      "content": "Very expensive—only justified for color-critical studios.",
-      "headline": "Very expensive—only justified for color-critical studios",
+      "content": "Very expensive\u2014only justified for color-critical studios.",
+      "headline": "Very expensive\u2014only justified for color-critical studios",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -904,8 +1246,8 @@
       "id": "c1064ded-2840-4514-961d-0bd10782d4c0",
       "ranking_product_id": "ef7a7c82-75c7-496d-a19e-51a914079c52",
       "type": "con",
-      "content": "HDR400 is entry-level—not as impactful as HDR1000 units.",
-      "headline": "HDR400 is entry-level—not as impactful as HDR1000 units",
+      "content": "HDR400 is entry-level\u2014not as impactful as HDR1000 units.",
+      "headline": "HDR400 is entry-level\u2014not as impactful as HDR1000 units",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -949,8 +1291,8 @@
       "id": "ddf107f5-c5c9-4f67-8897-fc0b0f896629",
       "ranking_product_id": "15401a42-c8ae-4446-9ff5-1a94209c3288",
       "type": "con",
-      "content": "60Hz only—gamers look elsewhere.",
-      "headline": "60Hz only—gamers look elsewhere",
+      "content": "60Hz only\u2014gamers look elsewhere.",
+      "headline": "60Hz only\u2014gamers look elsewhere",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -976,8 +1318,8 @@
       "id": "6a249be9-f19e-457c-a1c1-ec7f8079a428",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "pro",
-      "content": "The gold standard—unmatched breathability and build longevity.",
-      "headline": "The gold standard—unmatched breathability and build longevity",
+      "content": "The gold standard\u2014unmatched breathability and build longevity.",
+      "headline": "The gold standard\u2014unmatched breathability and build longevity",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1003,8 +1345,8 @@
       "id": "84666101-d511-463a-9846-274253d1d0b0",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "con",
-      "content": "Very expensive—a long-term investment.",
-      "headline": "Very expensive—a long-term investment",
+      "content": "Very expensive\u2014a long-term investment.",
+      "headline": "Very expensive\u2014a long-term investment",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1039,8 +1381,8 @@
       "id": "f092eecd-0742-4289-8879-a1c7b13b3332",
       "ranking_product_id": "eb44ab10-0cb5-4ed0-9d83-5442929692d4",
       "type": "pro",
-      "content": "Highly durable—built for 12-hour days.",
-      "headline": "Highly durable—built for 12-hour days",
+      "content": "Highly durable\u2014built for 12-hour days.",
+      "headline": "Highly durable\u2014built for 12-hour days",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1129,8 +1471,8 @@
       "id": "8608573f-60c1-493f-9b47-801d873a21b8",
       "ranking_product_id": "658437f1-45f4-4964-9f91-91eae26b5af2",
       "type": "pro",
-      "content": "Highly breathable—great for warm climates.",
-      "headline": "Highly breathable—great for warm climates",
+      "content": "Highly breathable\u2014great for warm climates.",
+      "headline": "Highly breathable\u2014great for warm climates",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1156,8 +1498,8 @@
       "id": "f9d435a4-3702-4d20-98d7-4fd5298135a2",
       "ranking_product_id": "9fad6045-be38-4435-8638-78ec49b576c6",
       "type": "pro",
-      "content": "LiveBack flexes with your movements—natural support.",
-      "headline": "LiveBack flexes with your movements—natural support",
+      "content": "LiveBack flexes with your movements\u2014natural support.",
+      "headline": "LiveBack flexes with your movements\u2014natural support",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1246,8 +1588,8 @@
       "id": "af92c6d7-61a4-45e9-b5c2-4ded06dbe9f3",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "pro",
-      "content": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork.",
-      "headline": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork",
+      "content": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork.",
+      "headline": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1273,8 +1615,8 @@
       "id": "6aa5148f-f415-495f-bd7d-45a662d9f47f",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "con",
-      "content": "Not the fastest—Thunderbolt options outpace it.",
-      "headline": "Not the fastest—Thunderbolt options outpace it",
+      "content": "Not the fastest\u2014Thunderbolt options outpace it.",
+      "headline": "Not the fastest\u2014Thunderbolt options outpace it",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1336,8 +1678,8 @@
       "id": "62493c5a-4c4e-421b-af35-a180ae9952eb",
       "ranking_product_id": "4fd3f441-394e-4707-94c0-8c24f4ca593b",
       "type": "pro",
-      "content": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable.",
-      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable",
+      "content": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable.",
+      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1381,8 +1723,8 @@
       "id": "214143d9-382c-431d-830e-74cfd54aae42",
       "ranking_product_id": "b6fc2663-6710-4891-8a5e-70ee8e49a6c0",
       "type": "pro",
-      "content": "IP67 rating—fully dust/waterproof, perfect for on-location shooting.",
-      "headline": "IP67 rating—fully dust/waterproof, perfect for on-location shooting",
+      "content": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting.",
+      "headline": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1462,8 +1804,8 @@
       "id": "ef840de8-2ddc-401c-b12d-21ac735c79f5",
       "ranking_product_id": "21cc5d27-d611-465f-8434-e08b6283f709",
       "type": "con",
-      "content": "No IP rating—treat with care.",
-      "headline": "No IP rating—treat with care",
+      "content": "No IP rating\u2014treat with care.",
+      "headline": "No IP rating\u2014treat with care",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2330,6 +2672,978 @@
       "headline": "Needs close placement for best results",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "f0b75181-0eaa-485c-a042-feac107c148e",
+      "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "type": "pro",
+      "content": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "headline": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a12444f8-bd7c-47ae-b3ab-7a8eebf51784",
+      "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "type": "pro",
+      "content": "Hot-swappable switches let you customize feel without soldering.",
+      "headline": "Hot-swappable switches let you customize feel without soldering.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "44a22e40-61c4-4df0-84c8-e93d3b105d1d",
+      "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "type": "pro",
+      "content": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "headline": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "229a0cda-f559-4f26-89a7-3671dc903e44",
+      "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "type": "con",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "98e1257d-3dd5-44cc-9e64-4cf336333bad",
+      "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "type": "con",
+      "content": "No built-in wrist rest; sold separately.",
+      "headline": "No built-in wrist rest; sold separately.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f9cfa647-560d-49f9-be8a-93de74581bcc",
+      "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
+      "type": "con",
+      "content": "Higher price entry point for enthusiast features.",
+      "headline": "Higher price entry point for enthusiast features.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "36172fa0-0f04-460d-a781-c0bfb01f9424",
+      "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "type": "pro",
+      "content": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "headline": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "81f83ef0-1a32-4bab-87e6-6ae01c660401",
+      "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "type": "pro",
+      "content": "Hot-swappable switches let you customize feel without soldering.",
+      "headline": "Hot-swappable switches let you customize feel without soldering.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2ab1fce0-c5b5-49f8-9c1c-dc953e6cebb4",
+      "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "type": "pro",
+      "content": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "headline": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ff3b855b-da3f-439b-8054-e84f3845d219",
+      "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "type": "con",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "dff5427a-6522-435b-9d32-d31fb4f95681",
+      "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "type": "con",
+      "content": "No built-in wrist rest; sold separately.",
+      "headline": "No built-in wrist rest; sold separately.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "62e8973e-99d3-4005-80b2-edb078d407bf",
+      "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
+      "type": "con",
+      "content": "Higher price entry point for enthusiast features.",
+      "headline": "Higher price entry point for enthusiast features.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "dc48ea82-8855-4317-b806-e21341d82f37",
+      "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "type": "pro",
+      "content": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "headline": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "018decfe-5e0f-4509-a05f-bca22b80869d",
+      "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "type": "pro",
+      "content": "Hot-swappable switches let you customize feel without soldering.",
+      "headline": "Hot-swappable switches let you customize feel without soldering.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5af4717b-f743-4c99-acbc-d3261d17a6bf",
+      "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "type": "pro",
+      "content": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "headline": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "68c5f41f-46dc-44ab-ab9d-d267b29aaeda",
+      "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "type": "con",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "64cfb6e0-b4c2-4326-9b41-ebb7477b69e9",
+      "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "type": "con",
+      "content": "No built-in wrist rest; sold separately.",
+      "headline": "No built-in wrist rest; sold separately.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f1c076f5-0df2-4471-86f5-fd61a33c6139",
+      "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
+      "type": "con",
+      "content": "Higher price entry point for enthusiast features.",
+      "headline": "Higher price entry point for enthusiast features.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "dbfce15a-7075-46eb-bce6-c62c5b477b74",
+      "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "type": "pro",
+      "content": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "headline": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f69cc24e-69e6-4029-b3e2-99c6b8abd2cd",
+      "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "type": "pro",
+      "content": "Hot-swappable switches let you customize feel without soldering.",
+      "headline": "Hot-swappable switches let you customize feel without soldering.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "473d8512-4cf1-488f-844e-22bd9f74f443",
+      "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "type": "pro",
+      "content": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "headline": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f1de04a9-c0b8-4c02-9f56-9e7cc25866e8",
+      "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "type": "con",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "63e32645-fada-4066-9999-67d38d2c3054",
+      "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "type": "con",
+      "content": "No built-in wrist rest; sold separately.",
+      "headline": "No built-in wrist rest; sold separately.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "408b51ca-743c-4ed8-872a-43d23b0a39c9",
+      "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
+      "type": "con",
+      "content": "Higher price entry point for enthusiast features.",
+      "headline": "Higher price entry point for enthusiast features.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7bc826bc-8f03-46eb-9d43-a1f343758b5e",
+      "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
+      "type": "pro",
+      "content": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "headline": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2d1ed3a6-b8bf-4ba7-80a3-82a8be9b22cd",
+      "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
+      "type": "pro",
+      "content": "Hot-swappable switches let you customize feel without soldering.",
+      "headline": "Hot-swappable switches let you customize feel without soldering.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "12418695-7d86-42ec-b3cd-ab3e94070589",
+      "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
+      "type": "pro",
+      "content": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "headline": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b8cce64d-920f-4584-9b69-fa6b680f96fb",
+      "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
+      "type": "con",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "979644b3-3dcb-4eca-a461-7652165debd0",
+      "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
+      "type": "con",
+      "content": "No built-in wrist rest; sold separately.",
+      "headline": "No built-in wrist rest; sold separately.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "60997395-8584-4f93-895e-4bdfe2cbe1b2",
+      "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
+      "type": "con",
+      "content": "Higher price entry point for enthusiast features.",
+      "headline": "Higher price entry point for enthusiast features.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "77129f7f-bf49-40b2-a6d5-90d613542303",
+      "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "type": "pro",
+      "content": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "headline": "Premium aluminum or polycarbonate case feels solid and durable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "86e96b01-0f69-41cc-ac93-8e4ca510f322",
+      "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "type": "pro",
+      "content": "Hot-swappable switches let you customize feel without soldering.",
+      "headline": "Hot-swappable switches let you customize feel without soldering.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "793ae485-3b02-4d5b-9a81-c51db69b7a09",
+      "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "type": "pro",
+      "content": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "headline": "Wireless multi-device pairing works flawlessly across Mac/PC.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d61dac7d-612c-4b61-8502-9267fefd036b",
+      "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "type": "con",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a7253cd5-4e2c-4286-8e8a-76890a40efec",
+      "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "type": "con",
+      "content": "No built-in wrist rest; sold separately.",
+      "headline": "No built-in wrist rest; sold separately.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "23a9ab0d-306a-48e7-9748-9ea3bf1c68ed",
+      "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
+      "type": "con",
+      "content": "Higher price entry point for enthusiast features.",
+      "headline": "Higher price entry point for enthusiast features.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "78eba7f3-accc-4943-b13e-61c12ada898e",
+      "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "type": "pro",
+      "content": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "headline": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "82c6d461-a2c0-437d-97bc-bd34db6cc43b",
+      "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "type": "pro",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ae7c430d-013c-4112-b69b-0904c9026218",
+      "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "type": "pro",
+      "content": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "headline": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b8ccbf67-6dae-45bf-837f-1f3a2e8cdd51",
+      "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "type": "con",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "4c4f56ee-e4a1-4094-9d76-b4c75948e54b",
+      "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "type": "con",
+      "content": "Ear cushions can retain heat in warm climates.",
+      "headline": "Ear cushions can retain heat in warm climates.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8a94ca0f-893c-49b6-aedd-1fa4a5dd1d1f",
+      "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
+      "type": "con",
+      "content": "No water resistance rating for sweaty workouts.",
+      "headline": "No water resistance rating for sweaty workouts.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "31d168d3-b5d1-491e-a404-34f8e21e5a67",
+      "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "type": "pro",
+      "content": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "headline": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "57c6c2ae-0c69-4b1d-975e-d378ef499f36",
+      "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "type": "pro",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "310db1e1-9b81-4d6e-bb6f-3e65cd9ff490",
+      "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "type": "pro",
+      "content": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "headline": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "bf63455c-54ec-4332-bcfd-d04894fe1526",
+      "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "type": "con",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ba5faa73-74f2-4c18-b2f9-d4e35f259321",
+      "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "type": "con",
+      "content": "Ear cushions can retain heat in warm climates.",
+      "headline": "Ear cushions can retain heat in warm climates.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "964bdd01-5caf-4c86-a865-5140fef9bae9",
+      "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
+      "type": "con",
+      "content": "No water resistance rating for sweaty workouts.",
+      "headline": "No water resistance rating for sweaty workouts.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "56161770-5a75-4aaf-bc28-217f505e5a62",
+      "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "type": "pro",
+      "content": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "headline": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d6de3fea-3e63-45cb-bfb3-a1794dd6d87b",
+      "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "type": "pro",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5b259e0f-15ac-4202-83e3-312b6e640409",
+      "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "type": "pro",
+      "content": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "headline": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d3ab571e-978c-4c88-833e-6d9f588b121f",
+      "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "type": "con",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1972b729-e192-4d2b-a9d9-71619e827aac",
+      "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "type": "con",
+      "content": "Ear cushions can retain heat in warm climates.",
+      "headline": "Ear cushions can retain heat in warm climates.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "4ddd4b4e-990d-4955-849a-e913c72eb0dd",
+      "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
+      "type": "con",
+      "content": "No water resistance rating for sweaty workouts.",
+      "headline": "No water resistance rating for sweaty workouts.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d40d34a5-56cd-4291-a615-78c0c88aa2e1",
+      "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "type": "pro",
+      "content": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "headline": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "bb8b61a9-c4ec-4cf5-bf05-c02e5403628c",
+      "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "type": "pro",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3597c02b-1f41-450e-8a7a-4383bf5d0c5f",
+      "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "type": "pro",
+      "content": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "headline": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "0dcf75da-f53c-4c16-9dff-a72aabfcd6b2",
+      "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "type": "con",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "59762801-3b35-4348-a2f3-07aa658a401c",
+      "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "type": "con",
+      "content": "Ear cushions can retain heat in warm climates.",
+      "headline": "Ear cushions can retain heat in warm climates.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d9f94385-99ec-4eb8-aa47-5b7078f9d062",
+      "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
+      "type": "con",
+      "content": "No water resistance rating for sweaty workouts.",
+      "headline": "No water resistance rating for sweaty workouts.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "faedda74-331a-4126-8a62-8f27c1b26d1c",
+      "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "type": "pro",
+      "content": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "headline": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "99d4d35f-81ca-4acd-8b8d-c6f6193b94cc",
+      "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "type": "pro",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "9cc0c626-136f-4ca7-a011-d4d15d3fbf05",
+      "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "type": "pro",
+      "content": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "headline": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "458afad0-267d-42c5-98a4-e8282dc671f6",
+      "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "type": "con",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d27ea730-a542-48f0-b0fa-c7823cf18ab3",
+      "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "type": "con",
+      "content": "Ear cushions can retain heat in warm climates.",
+      "headline": "Ear cushions can retain heat in warm climates.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "4fe7e548-52eb-434e-9e79-2a64abf45264",
+      "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
+      "type": "con",
+      "content": "No water resistance rating for sweaty workouts.",
+      "headline": "No water resistance rating for sweaty workouts.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "105679ac-3872-415e-a22f-ccba37de0e82",
+      "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "type": "pro",
+      "content": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "headline": "Industry-leading ANC blocks out airplane cabin and office noise effectively.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "611c8662-f65b-4850-82cd-8090b32d10e7",
+      "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "type": "pro",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a149b495-bc97-441a-82d4-43af09ab5799",
+      "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "type": "pro",
+      "content": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "headline": "Multipoint Bluetooth switching between phone and laptop is seamless.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b50b8566-9fc7-4bfc-ad2f-7d0224395c0a",
+      "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "type": "con",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d01e44a1-8723-4f22-aa42-296a50e5aa63",
+      "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "type": "con",
+      "content": "Ear cushions can retain heat in warm climates.",
+      "headline": "Ear cushions can retain heat in warm climates.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5dcf583f-3dda-4436-9a84-6e65744e8654",
+      "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
+      "type": "con",
+      "content": "No water resistance rating for sweaty workouts.",
+      "headline": "No water resistance rating for sweaty workouts.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a811b395-7960-479c-92d5-30890cbb168f",
+      "ranking_product_id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "type": "pro",
+      "content": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "headline": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "401cfaa0-a42c-416c-95a1-b747629c527b",
+      "ranking_product_id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "type": "pro",
+      "content": "Fully adjustable angle and height for perfect ergonomics.",
+      "headline": "Fully adjustable angle and height for perfect ergonomics.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5a2c2dbf-8ef3-43fc-b3a1-b5062e811cba",
+      "ranking_product_id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "type": "pro",
+      "content": "Non-slip pads and stable base keep devices secure.",
+      "headline": "Non-slip pads and stable base keep devices secure.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8b2d3999-532e-4103-99ae-83224f864c91",
+      "ranking_product_id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "type": "con",
+      "content": "Larger stands take up more desk space than expected.",
+      "headline": "Larger stands take up more desk space than expected.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1e0fa426-963c-4f5c-8a95-c270f009df95",
+      "ranking_product_id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "type": "con",
+      "content": "Adjustment mechanisms can feel stiff over time.",
+      "headline": "Adjustment mechanisms can feel stiff over time.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a2885eac-eae5-4718-ac68-0742dcb05b2b",
+      "ranking_product_id": "a3e8af20-abe5-435c-9612-512bf78eae27",
+      "type": "con",
+      "content": "Some models lack cable management channels.",
+      "headline": "Some models lack cable management channels.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a13853ab-6f62-4e3d-9e27-c83c8c55a8dd",
+      "ranking_product_id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "type": "pro",
+      "content": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "headline": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "00fd745d-2c4f-4180-829d-2a5a3913e589",
+      "ranking_product_id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "type": "pro",
+      "content": "Fully adjustable angle and height for perfect ergonomics.",
+      "headline": "Fully adjustable angle and height for perfect ergonomics.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "558cd1d5-4295-4e24-a850-6b7fcb3417b5",
+      "ranking_product_id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "type": "pro",
+      "content": "Non-slip pads and stable base keep devices secure.",
+      "headline": "Non-slip pads and stable base keep devices secure.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "129ce754-66e7-4b5b-b88a-edac3bf857ac",
+      "ranking_product_id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "type": "con",
+      "content": "Larger stands take up more desk space than expected.",
+      "headline": "Larger stands take up more desk space than expected.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "6bd10338-66c3-4614-8c87-e06ec82ffef5",
+      "ranking_product_id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "type": "con",
+      "content": "Adjustment mechanisms can feel stiff over time.",
+      "headline": "Adjustment mechanisms can feel stiff over time.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "88bd4c4e-8c83-4155-af74-54408eacf0ed",
+      "ranking_product_id": "1207493d-c44e-4e49-a01e-2535d77465d6",
+      "type": "con",
+      "content": "Some models lack cable management channels.",
+      "headline": "Some models lack cable management channels.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "db618576-4a39-445d-998b-857665f8e8b9",
+      "ranking_product_id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "type": "pro",
+      "content": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "headline": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "cfc1ab5c-4144-4d03-b959-66c757a724fd",
+      "ranking_product_id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "type": "pro",
+      "content": "Fully adjustable angle and height for perfect ergonomics.",
+      "headline": "Fully adjustable angle and height for perfect ergonomics.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "550c043e-c9fe-4c4a-bba6-68b16fb4f611",
+      "ranking_product_id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "type": "pro",
+      "content": "Non-slip pads and stable base keep devices secure.",
+      "headline": "Non-slip pads and stable base keep devices secure.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "787eec6b-2205-452d-a6e1-3eb48177def0",
+      "ranking_product_id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "type": "con",
+      "content": "Larger stands take up more desk space than expected.",
+      "headline": "Larger stands take up more desk space than expected.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "cd22d2df-aaec-4b18-a407-ff91e4e27dfc",
+      "ranking_product_id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "type": "con",
+      "content": "Adjustment mechanisms can feel stiff over time.",
+      "headline": "Adjustment mechanisms can feel stiff over time.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d3e82a43-ab9a-4549-9797-400f592d2903",
+      "ranking_product_id": "79f248ee-50d0-47de-b468-8d0446794d20",
+      "type": "con",
+      "content": "Some models lack cable management channels.",
+      "headline": "Some models lack cable management channels.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "4bbb197b-7550-4158-a665-e2aa7dc50cc7",
+      "ranking_product_id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "type": "pro",
+      "content": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "headline": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "cf9e2be1-ec99-4a49-8f06-0ba2d69395da",
+      "ranking_product_id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "type": "pro",
+      "content": "Fully adjustable angle and height for perfect ergonomics.",
+      "headline": "Fully adjustable angle and height for perfect ergonomics.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1f2e3872-cc93-4dca-8ee8-9dd6a9ce13b3",
+      "ranking_product_id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "type": "pro",
+      "content": "Non-slip pads and stable base keep devices secure.",
+      "headline": "Non-slip pads and stable base keep devices secure.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "33ab5d33-ae64-4461-ba30-909ec1b302d2",
+      "ranking_product_id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "type": "con",
+      "content": "Larger stands take up more desk space than expected.",
+      "headline": "Larger stands take up more desk space than expected.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "be8a362d-6c4f-449d-a4a7-b02a4eabb898",
+      "ranking_product_id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "type": "con",
+      "content": "Adjustment mechanisms can feel stiff over time.",
+      "headline": "Adjustment mechanisms can feel stiff over time.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "4d58a2ba-fc22-4e47-a2fa-6eff6ba12528",
+      "ranking_product_id": "45e3d765-b684-4335-9aa2-7c493a68f566",
+      "type": "con",
+      "content": "Some models lack cable management channels.",
+      "headline": "Some models lack cable management channels.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2452723e-0ccf-4b8b-b1e0-14e5a334fc64",
+      "ranking_product_id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "type": "pro",
+      "content": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "headline": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1bd7f852-0b34-48c6-a5d4-8128e2ef2326",
+      "ranking_product_id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "type": "pro",
+      "content": "Fully adjustable angle and height for perfect ergonomics.",
+      "headline": "Fully adjustable angle and height for perfect ergonomics.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "c9e61f86-a5ab-4b55-8a03-df5f13d96a14",
+      "ranking_product_id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "type": "pro",
+      "content": "Non-slip pads and stable base keep devices secure.",
+      "headline": "Non-slip pads and stable base keep devices secure.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "689ebf46-d582-4d77-9543-9574679ca569",
+      "ranking_product_id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "type": "con",
+      "content": "Larger stands take up more desk space than expected.",
+      "headline": "Larger stands take up more desk space than expected.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d8b0f4c5-8283-4ecf-9b19-ea071c39142e",
+      "ranking_product_id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "type": "con",
+      "content": "Adjustment mechanisms can feel stiff over time.",
+      "headline": "Adjustment mechanisms can feel stiff over time.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "699eceb6-3fcb-4c09-a6bc-d3829cef427c",
+      "ranking_product_id": "542189d4-e7fa-401e-88ae-dd8a83b6f206",
+      "type": "con",
+      "content": "Some models lack cable management channels.",
+      "headline": "Some models lack cable management channels.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "9d6d57ed-8a83-478f-816d-9176e0a2f848",
+      "ranking_product_id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "type": "pro",
+      "content": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "headline": "Wide compatibility fits tablets from 7\" to 13\" without wobble.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "fc84436a-3b38-42f8-a44d-6c0b5811f04e",
+      "ranking_product_id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "type": "pro",
+      "content": "Fully adjustable angle and height for perfect ergonomics.",
+      "headline": "Fully adjustable angle and height for perfect ergonomics.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1e5a88a1-f57e-4e67-bad5-ac9b99b74544",
+      "ranking_product_id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "type": "pro",
+      "content": "Non-slip pads and stable base keep devices secure.",
+      "headline": "Non-slip pads and stable base keep devices secure.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e24893e4-9fa1-4539-8105-2734a4285f7c",
+      "ranking_product_id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "type": "con",
+      "content": "Larger stands take up more desk space than expected.",
+      "headline": "Larger stands take up more desk space than expected.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1f7ec8a6-7483-47e4-9047-a53038688f6d",
+      "ranking_product_id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "type": "con",
+      "content": "Adjustment mechanisms can feel stiff over time.",
+      "headline": "Adjustment mechanisms can feel stiff over time.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f5adb917-5d7b-4d24-9ed8-ede1293c90be",
+      "ranking_product_id": "0b282250-ce82-4b66-8696-db598c8c117b",
+      "type": "con",
+      "content": "Some models lack cable management channels.",
+      "headline": "Some models lack cable management channels.",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ],
   "specifications": [
@@ -2354,7 +3668,7 @@
       "id": "0ca0eece-8aef-408e-b357-9e90b026ffd4",
       "product_id": "46fcfd3e-8829-4f27-a64e-88d054290eaf",
       "name": "Resolution",
-      "value": "2560×1440",
+      "value": "2560\u00d71440",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2386,7 +3700,7 @@
       "id": "602e1ce4-0840-40e5-bd61-2ba3ec4d2de5",
       "product_id": "e17fe198-c6a6-4470-ae47-9f8ce8880a96",
       "name": "Resolution",
-      "value": "5120×2880",
+      "value": "5120\u00d72880",
       "unit": "5K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -2427,7 +3741,7 @@
       "id": "04e85c87-9528-47e7-88b0-4269ce5b107c",
       "product_id": "ae06c37a-07bb-40a6-a442-6d8345763c2d",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -2468,7 +3782,7 @@
       "id": "d25d46ab-616a-40cb-9bb9-5ea4a807d2b5",
       "product_id": "a792ccf9-fa01-4c31-9c74-58ac16a162bb",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -2510,7 +3824,7 @@
       "id": "2560e066-5a60-4b33-9d61-2050fe5e7092",
       "product_id": "04cb2c71-9745-492d-8922-f68e7b233289",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -2552,7 +3866,7 @@
       "id": "c2dc915a-42ea-4e79-b3a2-ab0c195e2c92",
       "product_id": "72b196ce-da7c-4340-a29b-4b7cb3e08a87",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -2693,7 +4007,7 @@
       "id": "67af9d5f-8984-4054-9ed7-cb48cdc38380",
       "product_id": "ba75e652-857c-49c1-9f7f-af3a0e46fa09",
       "name": "Recline",
-      "value": "133° tilt",
+      "value": "133\u00b0 tilt",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2816,7 +4130,7 @@
       "id": "e69cdd9a-355a-4a3d-8946-561421848e0e",
       "product_id": "9acbc96f-a246-46d2-8b37-b374b06071fa",
       "name": "Recline",
-      "value": "115°",
+      "value": "115\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2867,7 +4181,7 @@
       "id": "5153468e-f144-46a3-a66d-5f51d666514f",
       "product_id": "9d038463-44bd-47f1-98f1-9f0a2b061998",
       "name": "Capacity Options",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2993,7 +4307,7 @@
       "id": "a3875c3e-e2b0-438d-96cf-6469bbaaa7dd",
       "product_id": "e4e81ee6-44dc-434c-a9e4-90f692a2032f",
       "name": "Capacity",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3035,7 +4349,7 @@
       "id": "a476db1a-9477-49ef-af52-d6936fca79a8",
       "product_id": "4fb9b7b3-8e34-4754-814f-d2c0fc9769e6",
       "name": "Capacity",
-      "value": "1TB–4TB",
+      "value": "1TB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3069,7 +4383,7 @@
       "id": "4781bbf5-a889-4e1c-a909-191d987e8e63",
       "product_id": "154c5c14-dedc-4364-a70c-337c0f94bfc7",
       "name": "Capacity",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3086,7 +4400,7 @@
       "id": "bb020da8-253b-42a0-8a02-c4433a828e39",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3112,7 +4426,7 @@
       "id": "c93ab98e-9ab5-477d-a5f7-ddd2e984e317",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Field of View",
-      "value": "65°/78°/90°",
+      "value": "65\u00b0/78\u00b0/90\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3136,7 +4450,7 @@
       "id": "63becd93-935d-4a99-915d-38c0cc196437",
       "product_id": "81405e0d-3c16-4efe-9964-441f2103cf3c",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3187,7 +4501,7 @@
       "id": "d0f1328e-4a43-4989-840b-c6444d95bc4c",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3221,7 +4535,7 @@
       "id": "a0698766-7f03-4571-9eb7-b02a75c27f10",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Field of View",
-      "value": "72°/82°/93°",
+      "value": "72\u00b0/82\u00b0/93\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3237,7 +4551,7 @@
       "id": "c08f799f-5d6f-4977-893e-f9c56d0e2d57",
       "product_id": "ce24a6cf-1722-4504-967f-5ca252aa3cd0",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3287,7 +4601,7 @@
       "id": "e42100f3-1576-4f5f-964b-dbf17c4a7e2f",
       "product_id": "1fdb7e53-7720-4f15-ac6c-f072847e923e",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3337,7 +4651,7 @@
       "id": "7df97cb4-7543-4729-a693-e6fba50e7c58",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -3355,7 +4669,7 @@
       "id": "27a4114e-0c6e-43ae-89e7-c9df0716a1d2",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Field of View",
-      "value": "65°/78°/95°",
+      "value": "65\u00b0/78\u00b0/95\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3971,6 +5285,870 @@
       "value": "Metal chassis",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "bb6b7f16-4949-4574-a40d-3c2327fbd94b",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Layout",
+      "value": "75% TKL",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3bcb9c30-03fe-448a-9f87-2cb65fce52c7",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Switches",
+      "value": "Gateron G Pro (hot-swap)",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "456dc5de-f511-4e59-8f64-a6c7f800187c",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Connectivity",
+      "value": "2.4 GHz wireless + Bluetooth 5.3 + USB-C",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "18245cf9-7395-4f83-8389-c261f5863936",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Battery",
+      "value": "4000 mAh, up to 240hrs",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "bd230d86-7a9b-42c1-b23e-f93127fe5891",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Build",
+      "value": "6063 Aluminum case, polycarbonate top",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "19b0906c-7f65-4f93-a3bc-bb535bca3397",
+      "product_id": "847beb1f-595c-4332-b6d1-0d1e4d7ab882",
+      "name": "Backlight",
+      "value": "South-facing RGB, per-key",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "50fead4f-986d-4b59-9762-5dbf3238bd73",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "Layout",
+      "value": "Full-size 100%",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7f5a7c7d-e74f-41f4-8b69-890a46c4e37c",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "Switches",
+      "value": "Cherry MX (pre-installed)",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ded3648a-28d1-4dab-b089-647d9abc0895",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "Connectivity",
+      "value": "USB-C wired",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1728eece-4253-4cf3-b771-b53fc7cefbf9",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "Build",
+      "value": "Double-shot PBT keycaps, ABS case",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2c40a1f3-e147-434e-a7c9-1af3e7b05458",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "N-Key Rollover",
+      "value": "Yes",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "73e4a50e-5280-439c-a216-1f759c530a14",
+      "product_id": "337855be-0abc-48a7-9fc2-eb022876740e",
+      "name": "Polling Rate",
+      "value": "1000Hz",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5f4511d0-35b2-4541-988e-d3e771a3a209",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Layout",
+      "value": "Tenkeyless 87 keys",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b401258c-e912-4415-83a2-e2cbd176e144",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Switches",
+      "value": "Cherry MX / Gateron options",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b17c6e39-d72d-430d-bf59-0f3d1e32d4de",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Connectivity",
+      "value": "USB-C wired",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "466d27d5-c8f4-49d7-811b-2984ff0ecee1",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Keycaps",
+      "value": "PBT double-shot",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "669ee0eb-4600-4d3f-b876-cf4611a7e2fb",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Build",
+      "value": "Thick ABS plastic case",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e7c0e929-41ce-4ea0-a67a-45812deef606",
+      "product_id": "68d59d14-0e18-4492-86c2-3d4980dfd1da",
+      "name": "Cable",
+      "value": "Detachable USB-C",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "624d3376-73a5-40fb-8709-8f3481807767",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Layout",
+      "value": "96% compact (1800 layout)",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a34cec92-240c-4d2b-8316-9a1a707974b7",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Switches",
+      "value": "Cherry MX",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "c286a642-403c-4f51-b2fc-827b9a3e8cea",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Connectivity",
+      "value": "USB-C wired",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "26548ad4-2fa0-4c0a-90a9-5766bc27c323",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Keycaps",
+      "value": "PBT double-shot, dye-sublimated legends",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2ffd9962-f780-4102-8f88-39e1e65b878c",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Build",
+      "value": "Thick ABS plastic, foam padding",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "da1370fe-1fe1-4c77-b020-276995f52ef0",
+      "product_id": "c0867b12-ffbc-4233-813c-6026205ae961",
+      "name": "Stabilizers",
+      "value": "Cherry screw-in",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "584f92be-b0c8-4585-9fb3-dad6bf54034a",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "Layout",
+      "value": "75% TKL",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "c758b629-d051-43a5-a9fb-b80dae65d8ac",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "Switches",
+      "value": "NuPhy Low-Profile mechanical",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "cca19230-10be-4345-841a-df907ec202d8",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.2 + 2.4GHz + USB-C",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "da58e326-4870-4050-b91a-ebcb2623b1d5",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "Battery",
+      "value": "2000 mAh, up to 150hrs",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d3c230ed-3a60-4ccf-8e41-681ebc5e648e",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "Build",
+      "value": "Low-profile aluminum case",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "abfdf6c9-ad0a-41b1-9300-0d897b55efd2",
+      "product_id": "1ef49e9f-b3cf-417c-a0f9-fd87bdac0c9c",
+      "name": "Height",
+      "value": "17.5mm thin",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "306293f2-dc5b-4938-8e15-74bbfe8e1d0f",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "Layout",
+      "value": "80% TKL",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d791c616-1461-453b-ae9d-a285e7b48305",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "Switches",
+      "value": "Hot-swappable 3-pin/5-pin",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f99c0a18-7c39-4792-8347-7e93dcafb2f0",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "Connectivity",
+      "value": "2.4 GHz wireless + Bluetooth 5.1 + USB-C",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "aa1d26be-d44e-4954-ba43-78a43edbcafd",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "Battery",
+      "value": "3750 mAh, up to 180hrs",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8c5b5fc7-6d91-4d36-8173-fcee9a963a97",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "Build",
+      "value": "ABS plastic, dye-sublimated keycaps",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "39d01d0c-f999-4d17-a8cf-2ff01fed8a63",
+      "product_id": "3c5073da-8946-4e6b-83a6-9d25a3683279",
+      "name": "RGB",
+      "value": "Per-key RGB with software",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "dbe76960-5b94-4f3a-9739-0b66b61c3a3d",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "Driver Size",
+      "value": "30 mm",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "bd69e3ca-8b79-4b39-9d18-02ab07a5b80b",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "ANC",
+      "value": "Yes, Dual Noise Sensor",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "eee19614-5fe6-44a1-a49d-afff4653ebbe",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "Battery Life",
+      "value": "30 hours (ANC on), 40 hours (ANC off)",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b2a39903-3dab-4700-bbda-fbfbfbed2678",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "Charging",
+      "value": "USB-C PD fast charging",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "af5c5dab-6ffa-4647-901d-ea8ba5aeb035",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.2, multipoint",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e8c2a3ea-e91f-4823-9d92-b87d729559ae",
+      "product_id": "24e83c3f-7966-4837-85ad-1899d80a2e9c",
+      "name": "Weight",
+      "value": "250g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e45e25da-c1b2-454f-89f8-cfc69e45236b",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "Driver Size",
+      "value": "24 mm",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "61df8932-ccdc-477d-b140-82bda98b1c64",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "ANC",
+      "value": "CustomTune real-time calibration",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "18c32e50-b3a5-446e-8859-6306f0bce151",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "Battery Life",
+      "value": "24 hours",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7ca3af39-f924-482b-962d-c7abfe531590",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "Charging",
+      "value": "USB-C, Qi wireless charging",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ba72d7ff-3230-449c-ad84-973c72d99519",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.3",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "27c87ffc-5af9-4f79-b7b0-b055edea5f64",
+      "product_id": "1fce9a93-90c8-4951-9759-4b5074a49ac0",
+      "name": "Impedance",
+      "value": "32 ohms",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "84912454-be2d-43bd-b1d3-71e52da191b7",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "Driver Size",
+      "value": "40 mm",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "178db7fc-996b-4620-b481-0d4155214b92",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "ANC",
+      "value": "Active Noise Cancellation",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b9439b34-2889-40b4-9a4e-9e033355d03b",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "Battery Life",
+      "value": "20 hours",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8fd3bcdb-7f2b-41e0-96d1-243e4fe83bb6",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "Chip",
+      "value": "Apple H1 (each ear cup)",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "c48e4574-f2c0-44c2-80c7-609340dcd7c7",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.0, Apple H1",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "79f735b4-9d44-46f2-b2db-c945c19ec58c",
+      "product_id": "cf4947f0-9702-46ef-84ac-710d239dbda3",
+      "name": "Weight",
+      "value": "384g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b6e4c3ca-3f25-421e-8792-58223200a9f3",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "Driver Size",
+      "value": "42 mm",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a1545cc8-041a-4684-a56f-c7896b2547fa",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "ANC",
+      "value": "Adaptive ANC",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "27e028f5-6e18-4eb8-bdaa-d31448451e26",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "Battery Life",
+      "value": "60 hours",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2535f753-8b64-44c6-9029-0811f7aadde6",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "Charging",
+      "value": "USB-C PD",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "aa9091e1-f0d0-4377-8b15-58633a06851b",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.2, aptX Adaptive",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1fe15a65-9587-4b2e-9d14-1ba5a88d14f3",
+      "product_id": "7d555b74-331e-44e5-9de7-782f227bd4dd",
+      "name": "Codecs",
+      "value": "SBC, AAC, aptX, aptX Adaptive, LDAC",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "9d7d5aa5-812c-4c7a-950c-366b475ff490",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "Driver Size",
+      "value": "40 mm",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b3b4333b-67d2-4fbb-9a70-0d437afdb955",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "ANC",
+      "value": "Hybrid Active Noise Cancellation",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ae5413c3-2358-4294-add5-0ec1a5b3c3d3",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "Battery Life",
+      "value": "40 hours (ANC on), 60 hours (ANC off)",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "6b0032a3-b726-4769-9b64-22d4ec29bd35",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "Charging",
+      "value": "USB-C",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2ab00293-1300-4bb9-9b27-4d342bd2a496",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.0",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "31b7da8a-85e8-41dc-9290-9b3f54d5d5f9",
+      "product_id": "6fcf1e87-af5e-4a20-bd05-6e56520b4d8b",
+      "name": "Weight",
+      "value": "260g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e8b3395c-beeb-4a67-9b10-59f8b6980d72",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "Driver Size",
+      "value": "40 mm",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8c8dd11d-151e-407a-9f0a-0a84d7471a74",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "ANC",
+      "value": "Adaptive ANC with multiple modes",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "54011b74-ad67-4bdf-b12d-9cb74afbdc56",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "Battery Life",
+      "value": "30 hours",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7f7a2ae2-4c9b-4931-aa4a-b6add067b726",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "Charging",
+      "value": "USB-C PD, fast charge 7h in 15min",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "33493f60-ba13-49b6-8152-b6d36d5aa8fd",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "Connectivity",
+      "value": "Bluetooth 5.0, multipoint",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "0596cd6c-14bc-4655-bc7e-c5b71c6b1b02",
+      "product_id": "f8cf2fc6-e57e-4594-94b0-439e9d5842a5",
+      "name": "Codecs",
+      "value": "aptX Adaptive, AAC, SBC",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "66dbdc0e-2e21-47ab-a8a6-dc90cff2dd3b",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Material",
+      "value": "Aluminum alloy",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "50b243d0-6f1e-4234-9afc-284992fd453b",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Compatibility",
+      "value": "4\"\u201313\" tablets and phones",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ded9ad01-9937-4514-9813-558aab263a7c",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Adjustment",
+      "value": "270\u00b0 viewing angle",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "835f78b6-f297-4a83-bd51-072243b03461",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Features",
+      "value": "Non-slip silicone pads, cable management",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "829d7dd2-589b-4257-9129-ae896df6ad05",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Foldable",
+      "value": "Yes",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "33a6ea62-bba5-4f15-a14b-ba353a4cbd6d",
+      "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
+      "name": "Weight",
+      "value": "350g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7059bce8-8d78-4e5b-a43c-9bd18a49f7a7",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Material",
+      "value": "Bamboo + aluminum",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "6f5c3fd0-b61a-4d48-89bf-632932cb8eff",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Compatibility",
+      "value": "iPad Pro 12.9\" down to iPhone",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a1cf5243-fcf9-44ca-94bc-75e0b7655cf8",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Adjustment",
+      "value": "Smooth tilting, 360\u00b0 rotation",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "9996323c-4d46-46c6-8818-7af7368d6770",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Features",
+      "value": "Holds Apple Pencil, hidden cable slot",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3f5d8065-d288-4383-8fef-ea5bce62ec46",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Design",
+      "value": "Concertina-style folding",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "7add818d-4eef-44b3-9179-619f9b0abe2a",
+      "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
+      "name": "Weight",
+      "value": "560g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d03b242e-d35a-4937-90ab-17a8ad293cc1",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "Material",
+      "value": "Aluminum",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "47da06ba-86e4-43c3-ab44-f1bcb43c9477",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "Compatibility",
+      "value": "7\"\u201313\" devices",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "d1182c0b-1997-4f59-900f-9dcb7e6584c2",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "Adjustment",
+      "value": "Multiple angle positions",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "85749f79-1f23-45af-a02d-ec0a397c4ba1",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "Features",
+      "value": "Non-scratch rubber pads",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "e872b146-cf98-474e-95af-c6c4ade5144c",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "Portability",
+      "value": "Foldable, lightweight",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "623a0ccb-defc-41ee-884b-5fe1a5b0a1cc",
+      "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
+      "name": "Weight",
+      "value": "280g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b9c318ca-7cf0-4c00-9b52-10b7503b57bd",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "Material",
+      "value": "ABS + aluminum",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f0a882c3-f050-424b-9ddf-23eb470cc441",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "Compatibility",
+      "value": "4.7\"\u201313\" tablets",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "91fcc583-de51-4f3e-b5d7-2841dd5e08c4",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "Rotation",
+      "value": "360\u00b0 swivel base",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8994fd12-0ac2-4c44-9f9e-b3a90b6a1626",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "Features",
+      "value": "Adjustable height, cable clip",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "b897845c-b332-4296-92d4-956f7bd40a41",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "Mount Type",
+      "value": "Desk stand",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "697554fb-9b99-4736-b395-da77968d60a2",
+      "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
+      "name": "Weight Capacity",
+      "value": "800g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "5752f757-11a8-456b-9648-1d615c632d1e",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "Material",
+      "value": "Plastic + silicone grips",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8bb9cc1d-9ae9-48e5-a063-b7bce4f9f281",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "Compatibility",
+      "value": "4\"\u201310.5\" tablets",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3d001a7d-3afc-4fa7-bb1d-5cbc211be138",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "Mount Type",
+      "value": "Air vent / dashboard",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "339c8a8f-5948-411e-a9db-5f4e1b48877b",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "Adjustment",
+      "value": "Rotating ball joint",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3825f859-27bb-42c4-a8f3-0ff24cb4b34a",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "Features",
+      "value": "Secure clamp, easy release",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "70f3a88a-7a46-4ec3-b30c-953b17a61c09",
+      "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
+      "name": "Weight",
+      "value": "150g",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "c4a6db3b-bbfc-4434-b319-f774de549825",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Material",
+      "value": "Aluminum alloy",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "3a696997-81d7-4a9e-a2d5-ad12be65e964",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Compatibility",
+      "value": "7\"\u201313\" tablets up to 2kg",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "8235b07c-3b40-4691-b8d5-135daca91b83",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Mount Type",
+      "value": "Wall / desk clamp",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "25c2604b-6e24-49b7-88ea-73e03ac954e1",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Adjustment",
+      "value": "Full 360\u00b0 articulation",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a3528c10-40ea-42d4-b65a-b46990299fe5",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Features",
+      "value": "Cable management, lockable joints",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "ba67f36c-9773-44ff-a68b-8071a6f9edb0",
+      "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
+      "name": "Tilt Range",
+      "value": "-90\u00b0 to +90\u00b0",
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ],
   "assets": [],
@@ -3979,7 +6157,7 @@
       "id": "69b1cfaa-612d-47df-bf59-8ee0b7c8724f",
       "ranking_id": "f9828aba-e4f9-4a61-afc9-d450b4b4cb15",
       "question": "What monitor refresh rate do I need for gaming?",
-      "answer": "For competitive esports, 240–480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
+      "answer": "For competitive esports, 240\u2013480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4006,7 +6184,7 @@
       "id": "eea12d76-375b-4970-84f0-f3c763531cdc",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How do I adjust my office chair for proper posture?",
-      "answer": "Set seat height so feet are flat and knees at 90°. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90–110°. Recline slightly (100–110°) to reduce spinal disc pressure.",
+      "answer": "Set seat height so feet are flat and knees at 90\u00b0. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90\u2013110\u00b0. Recline slightly (100\u2013110\u00b0) to reduce spinal disc pressure.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4024,7 +6202,7 @@
       "id": "c6d88936-c6f7-4c40-acc6-19ea2d6d1195",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How long should an office chair last?",
-      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10–15 years with proper maintenance. Warranty length is a good proxy—12 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3–5 years.",
+      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10\u201315 years with proper maintenance. Warranty length is a good proxy\u201412 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3\u20135 years.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4033,7 +6211,7 @@
       "id": "1bbfd241-d0ec-4002-a856-ceab49b03f42",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "What's the difference between USB 3.2, USB4, and Thunderbolt 4 for external SSDs?",
-      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s—fine for backups. USB4 hits 2,000–3,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
+      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s\u2014fine for backups. USB4 hits 2,000\u20133,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4051,7 +6229,7 @@
       "id": "743aa0dd-f923-4799-8eb2-6cbd00900543",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "How often should I replace my external SSD?",
-      "answer": "NAND flash wears out after ~3,000–5,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5–7 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
+      "answer": "NAND flash wears out after ~3,000\u20135,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5\u20137 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4163,6 +6341,87 @@
       "display_order": 4,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
+    },
+    {
+      "id": "c9fe1d61-b413-45c8-a227-ddf0d1170ae0",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "question": "What's the difference between Cherry MX, Gateron, and Kailh switches?",
+      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget \u2014 all are reliable in 2026.",
+      "display_order": 1,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "a147a5b6-a4bd-451a-b1e2-2c5c463053bf",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "question": "Do I need a hot-swappable keyboard?",
+      "answer": "Hot-swap lets you change switches without soldering, ideal if you like to experiment or want to replace worn switches later. If you already know your preferred switch, soldered boards are often cheaper and more stable long-term.",
+      "display_order": 2,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "2ca843e6-d310-423b-849c-ae3df1a923eb",
+      "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
+      "question": "Is wireless gaming keyboard latency actually good enough for esports?",
+      "answer": "Yes \u2014 modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
+      "display_order": 3,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "f5728e03-43ef-4360-abf6-cb486a254e1c",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "question": "Do noise-cancelling headphones affect sound quality?",
+      "answer": "Modern ANC headphones use minimal processing and sound excellent with ANC on. Some audiophiles prefer 'transparent' or 'off' modes for purest sound, but for most listeners, ANC does not degrade perceived audio quality in any meaningful way.",
+      "display_order": 1,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "75232757-ba66-4280-aeec-0960d0e9b018",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "question": "How long do ANC headphone batteries last, and can they be replaced?",
+      "answer": "Most modern ANC headphones last 20\u201360 hours per charge and batteries typically endure 300\u2013500 full cycles (~2\u20133 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
+      "display_order": 2,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "0eaf7e27-37c0-48ec-a0de-c2accb84f83b",
+      "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
+      "question": "Are wireless headphones safe for air travel?",
+      "answer": "Yes \u2014 all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
+      "display_order": 3,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "1bc7a0ba-a717-48d3-bf3a-359db4419bae",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "question": "What should I look for in a tablet stand for video calls?",
+      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10\u201315\u00b0) helps with framing without you having to look down.",
+      "display_order": 1,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "af9cd5ba-aee0-4d94-a317-69396bbe87bf",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "question": "Can I mount a tablet stand on a car dashboard?",
+      "answer": "Yes \u2014 vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
+      "display_order": 2,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
+    },
+    {
+      "id": "730906f9-f02c-4676-9971-628ae4879d1a",
+      "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
+      "question": "Are aluminum stands better than plastic ones?",
+      "answer": "Aluminum offers better stability and heat dissipation, but good plastic stands are lighter and cheaper. For daily desk use, aluminum is worth the investment. For occasional travel, a sturdy plastic or folding stand is perfectly fine.",
+      "display_order": 3,
+      "created_at": "2026-04-14T23:08:09.902936Z",
+      "updated_at": "2026-04-14T23:08:09.902936Z"
     }
   ]
 }
