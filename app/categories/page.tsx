@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/badge';
 import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/breadcrumbs';
+import { BuyerIntentModules } from '@/components/buyer-intent-modules';
 
 const getCategoryIntro = (name: string, description?: string | null) => {
   const fallback = `Explore ${name.toLowerCase()} rankings, comparison criteria, and recommendation guides for the best options in this category.`;
@@ -86,6 +87,9 @@ export default async function CategoriesPage() {
               </Link>
             </div>
           </div>
+
+          {/* Buyer Intent Discovery Modules */}
+          <BuyerIntentModules categories={categories} rankingCounts={rankingCounts} />
 
           {/* Categories Grid */}
           {categories.length === 0 ? (

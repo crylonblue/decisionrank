@@ -9,6 +9,47 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-17 12:45:** DecisionRank: add buyer-intent discovery modules on homepage and /categories. Created BuyerIntentModules component grouping categories by use-case (home office, gaming/streaming, content creation, kitchen, smart home). Integrated into homepage and /categories index page. Improves buyer-intent SEO and internal linking across discovery surfaces.
+- **2026-04-17 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776380460345` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step.
+  - Created API backlog task `1776380460423` (**medium**): Add stronger homepage and `/categories` buyer-intent discovery modules, with indexable editorial sections grouped by use case, buyer intent, or category family plus richer descriptive internal links into priority categories and rankings.
+  - Created API backlog task `1776380460454` (**medium**): Expand adjacent-intent category-family content on discovery surfaces with richer intro copy, buyer-guide summaries, and adjacent-intent cluster blocks that capture broader long-tail demand without creating thin standalone pages.
+  - Planning basis: code-only category seeding remains the highest-leverage content expansion path while Convex import is still blocked, and the best supporting SEO backlog is stronger homepage/category discovery plus adjacent-intent clustering that widens organic entry points.
+
+- **2026-04-16 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776294073576` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step.
+  - Created API backlog task `1776294073869` (**medium**): Add stronger homepage and `/categories` discovery modules for buyer-intent SEO, with indexable editorial sections grouped by use case or buyer intent and stronger descriptive internal links into priority categories and rankings.
+  - Created API backlog task `1776294074059` (**medium**): Expand category-family and adjacent-intent discovery content on discovery surfaces with richer intro copy, buyer-guide summaries, and adjacent-intent cluster blocks that capture broader long-tail demand without creating thin standalone pages.
+  - Planning basis: the latest category seeding momentum is good, but Convex import remains blocked, so the best next backlog is another code-only seed batch plus stronger homepage and category-index discovery surfaces that widen organic entry points and connect adjacent buyer-intent clusters.
+
+- **2026-04-15:** Seeded 3 additional buyer-intent categories in code (Bob heartbeat task).
+  - Added Mechanical Keyboards, Noise-Cancelling Headphones, Tablet Stands & Mounts to `scripts/.seed-payload.json` with full rankings, specs (6 per product), pros/cons (3 each), FAQs, and verdict copy.
+  - JSON validated, commit pushed. Convex import not attempted (still blocked).
+  - **Task:** 1776121276733 (high, decisionrank)
+
+- **2026-04-15:** Seeded 3 additional buyer-intent categories in code (Bob heartbeat task).
+  - Added Coffee Makers, Robot Vacuums, Air Fryers to `scripts/.seed-payload.json` with full rankings, specs (5 per product), pros/cons (3 each), FAQs, and verdict copy.
+  - JSON validated, commit pushed. Convex import not attempted (still blocked).
+  - **Task:** 1776207718321 (high, decisionrank)
+
+- **2026-04-15 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776207718321` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step.
+  - Created API backlog task `1776207718362` (**medium**): Add homepage and `/categories` buyer-intent discovery modules with indexable editorial sections grouped by use case or buyer intent, plus stronger descriptive internal links into priority categories and rankings.
+  - Created API backlog task `1776207718373` (**medium**): Expand category-family and adjacent-intent content on discovery surfaces with richer intro copy, cluster blocks, or buyer-guide summaries, without creating thin standalone pages.
+  - Planning basis: recent category seeding and internal-link work are in place, so the next best backlog remains another seed batch plus stronger discovery-surface SEO that opens broader buyer-intent entry points and captures adjacent long-tail demand.
+
+- **2026-04-14 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776121276733` (**high**): Seed 3 more buyer-intent categories in code only, extending the current seed source with full rankings, specs, pros/cons, verdict copy, and FAQs, without attempting the still-blocked Convex import.
+  - Created API backlog task `1776121276771` (**medium**): Add indexable homepage and `/categories` discovery sections grouped by use case or buyer intent, with stronger descriptive internal links into priority categories and rankings.
+  - Created API backlog task `1776121276828` (**medium**): Expand category-family or buyer-guide content on discovery surfaces to capture broader long-tail intent without creating thin standalone pages.
+  - Planning basis: recent batches already improved category inventory and internal linking, so the next best backlog is another seeding pass plus richer discovery-surface SEO that opens more entry points and connects adjacent intent clusters.
+
+- **2026-04-13 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776034860325` (**high**): Seed 3 more buyer-intent categories in code only, extending the current seed source with full rankings, specs, pros/cons, and FAQs, without attempting the still-blocked Convex import.
+  - Created API backlog task `1776034860335` (**medium**): Improve homepage and `/categories` SEO discovery by adding indexable editorial sections that group rankings by use case or buyer intent, with stronger descriptive internal links into priority categories and rankings.
+  - Created API backlog task `1776034860347` (**medium**): Expand category-hub coverage with richer category-family or buyer-guide content on discovery surfaces, so DecisionRank targets broader long-tail intent without creating thin standalone pages.
+  - Planning basis: the newest buyer-intent category seeds and recent internal-link upgrades are already in place, so the next highest-leverage backlog is another seeding batch plus stronger discovery-surface SEO that opens up more long-tail entry points.
+
 - **2026-04-13:** Improved homepage and /categories internal linking for SEO: enriched category cards with descriptive CTAs and improved anchor text (2026-04-13).
 - **2026-04-13:** Expanded DecisionRank inventory with 3 new buyer-intent categories (webcams, usb-c-hubs, microphones) in `scripts/seed-new-categories.mjs`; full rankings, products, specs, and FAQs added.
 - **2026-04-13 (Bob heartbeat):** Added 3 new buyer-intent category seeds (monitors, office-chairs, external-ssds) to `scripts/seed-new-categories.mjs`. Code-only change; Convex import still blocked/auth pending. Categories include full rankings (5–6 products each with specs/pros/cons) and 3–5 FAQs per ranking.

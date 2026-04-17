@@ -4,6 +4,7 @@ import { Suspense } from 'react';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { HeroSection } from '@/components/hero-section';
+import { BuyerIntentModules } from '@/components/buyer-intent-modules';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -275,6 +276,9 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
         )}
       </div>
         </section>
+
+        {/* Buyer Intent Discovery Modules */}
+        <BuyerIntentModules categories={allCategories} rankingCounts={rankingCounts} />
 
         {/* Categories Section */}
         {categories.length > 0 && (
