@@ -19,6 +19,7 @@ import { TableOfContents, type TocItem } from '@/components/table-of-contents';
 import { MobileRankingCards } from '@/components/mobile-ranking-cards';
 import { KeyTakeaways } from '@/components/key-takeaways';
 import { CategoryLinks } from '@/components/category-links';
+import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { PopularComparisons } from '@/components/popular-comparisons';
 
 export const dynamic = 'force-dynamic';
@@ -186,6 +187,16 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
     tocItems.push({ id: 'related', label: 'Related Rankings' });
   }
 
+
+  // Compute related categories based on adjacency mapping
+  const relatedSlugs = getRelatedCategorySlugs(categorySlug);
+  const relatedCategories = allCategories.filter(
+    c => relatedSlugs.includes(c.slug) && c.slug !== categorySlug
+  );
+  const displayCategories =
+    relatedCategories.length > 0
+      ? relatedCategories
+      : allCategories.filter(c => c.slug !== categorySlug).slice(0, 4);
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Breadcrumb JSON-LD */}

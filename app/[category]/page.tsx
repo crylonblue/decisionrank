@@ -14,6 +14,7 @@ import { Badge } from '@/components/ui/badge';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { getEnhancedDescription, getCategoryFAQs } from '@/lib/category-enhancements';
 import { CategoryLinks } from '@/components/category-links';
+import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { FeaturedRankings } from '@/components/featured-rankings';
 
 export const dynamic = 'force-dynamic';
@@ -125,6 +126,16 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
   const faqs = getCategoryFAQs(categorySlug);
 
+
+  // Compute related categories based on adjacency mapping
+  const relatedSlugs = getRelatedCategorySlugs(categorySlug);
+  const relatedCategories = categories.filter(
+    c => relatedSlugs.includes(c.slug) && c.slug !== categorySlug
+  );
+  const displayCategories =
+    relatedCategories.length > 0
+      ? relatedCategories
+      : categories.filter(c => c.slug !== categorySlug).slice(0, 4);
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <section className="py-12 bg-muted/30" id="faq">
@@ -193,13 +204,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             <h1 className="text-5xl font-bold text-foreground mb-3 tracking-tight">
               {category.name}
             </h1>
-            <p className="text-lg text-muted-foreground whitespace-pre-line">
-              {getEnhancedDescription(categorySlug, category.description)
-                .split('\n\n')
-                .map((paragraph: string, idx: number) => (
-                  <p key={idx}>{paragraph}</p>
-                ))}
-              }
+            <div className="text-lg text-muted-foreground whitespace-pre-line">
+              {getEnhancedDescription(categorySlug, category.description)}
             </div>
           </div>
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
