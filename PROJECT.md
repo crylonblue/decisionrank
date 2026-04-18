@@ -9,6 +9,8 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-18 04:45 (Bob heartbeat):** Expanded adjacent-intent category-family SEO content by enhancing category-relations.ts to merge manual base adjacency with module-based co-occurrence from BuyerIntentModules, and updated category page to use displayCategories for dynamic related-categories block. Committed and pushed; task 1776466869019 moved to done (model: openrouter/stepfun/step-3.5-flash).
+
 - **2026-04-18 04:12 (Bob heartbeat):** Strengthened homepage and /categories buyer-intent discovery sections by expanding BuyerIntentModules module descriptions with richer editorial copy, integrating ENHANCED_CATEGORY_DESCRIPTIONS into category cards, and upgrading CTA links to descriptive "View {category.name} rankings". Updated `lib/buyer-intent-modules.ts` and `components/buyer-intent-modules.tsx`. Committed and pushed.
   - Task `1776466869005` moved to done (model: openrouter/stepfun/step-3.5-flash).
 

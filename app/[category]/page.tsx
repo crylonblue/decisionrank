@@ -226,10 +226,10 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
         {/* Related Categories - Internal Linking */}
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <CategoryLinks
-            categories={allCategories.filter(c => c.slug !== categorySlug).slice(0, 4)}
+            categories={displayCategories}
             rankingCounts={rankingCounts}
-            title="Explore Other Categories"
-            description="Discover rankings in related product categories"
+            title={relatedCategories.length > 0 ? "Related Categories" : "Explore Other Categories"}
+            description={relatedCategories.length > 0 ? "Discover rankings in adjacent product categories" : "Discover rankings in other product categories"}
           />
         </div>
 
