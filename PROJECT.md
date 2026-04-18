@@ -9,6 +9,17 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-18 04:12 (Bob heartbeat):** Strengthened homepage and /categories buyer-intent discovery sections by expanding BuyerIntentModules module descriptions with richer editorial copy, integrating ENHANCED_CATEGORY_DESCRIPTIONS into category cards, and upgrading CTA links to descriptive "View {category.name} rankings". Updated `lib/buyer-intent-modules.ts` and `components/buyer-intent-modules.tsx`. Committed and pushed.
+  - Task `1776466869005` moved to done (model: openrouter/stepfun/step-3.5-flash).
+
+- **2026-04-18 14:10:** Bob completed code-only seeding of 3 additional buyer-intent categories (Gaming Laptops, Smartphones, Standing Desks) with full rankings, 6 products each, specs, pros/cons, verdict copy, and FAQs; data extended in `scripts/.seed-payload.json`, validated, committed, and pushed (commit 8f4d400). Convex import remains blocked/auth pending — no import attempted.
+  - Task `1776466868956` moved to done.
+- **2026-04-18 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776466868956` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step. Favor adjacent commercial-intent categories that fit existing clusters like home office, creator gear, gaming, kitchen, or smart home.
+  - Created API backlog task `1776466869005` (**medium**): Strengthen homepage and `/categories` buyer-intent discovery sections by building on the new BuyerIntentModules work with richer indexable editorial copy, stronger descriptive internal links, and clearer category-family grouping.
+  - Created API backlog task `1776466869019` (**medium**): Expand adjacent-intent category-family SEO content with buyer-guide summaries, related-category blocks, and stronger internal linking that captures broader long-tail demand without creating thin standalone pages.
+  - Planning basis: the newest buyer-intent discovery modules are already in place, so the next highest-leverage backlog remains another code-only category seed batch plus stronger discovery-surface SEO and adjacent-intent clustering that widen organic entry points while Convex import is still blocked.
+
 - **2026-04-17 12:45:** DecisionRank: add buyer-intent discovery modules on homepage and /categories. Created BuyerIntentModules component grouping categories by use-case (home office, gaming/streaming, content creation, kitchen, smart home). Integrated into homepage and /categories index page. Improves buyer-intent SEO and internal linking across discovery surfaces.
 - **2026-04-17 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
   - Created API backlog task `1776380460345` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step.

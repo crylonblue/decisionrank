@@ -1,6 +1,7 @@
 'use client';
 
 import { Category } from '@/lib/types';
+import { ENHANCED_CATEGORY_DESCRIPTIONS } from '@/lib/category-enhancements';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
@@ -51,7 +52,7 @@ export function BuyerIntentModules({ categories, rankingCounts }: BuyerIntentMod
                             {category.name}
                           </CardTitle>
                           <CardDescription className="line-clamp-3 mt-2">
-                            {category.description || `Browse ${category.name} rankings and comparisons.`}
+                             {(ENHANCED_CATEGORY_DESCRIPTIONS[category.slug] || category.description || `Browse ${category.name} rankings and comparisons.`).replace(/\n/g, ' ')}
                           </CardDescription>
                         </CardHeader>
                         <CardContent>
@@ -62,7 +63,7 @@ export function BuyerIntentModules({ categories, rankingCounts }: BuyerIntentMod
                               </span>
                             )}
                             <span className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
-                              Explore
+                               View {category.name} rankings
                               <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </span>
                           </div>
