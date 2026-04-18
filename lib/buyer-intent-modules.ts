@@ -41,4 +41,22 @@ export const buyerIntentModules: BuyerIntentModule[] = [
     description: 'Keep your home spotless with top robot vacuums and mops that offer excellent navigation, suction, and smart features.',
     categorySlugs: ['robot-vacuums'],
   },
+  {
+    id: 'wearable-tech-audio',
+    title: 'Wearable Tech & Audio',
+    description: 'Stay connected and listen freely with the best smartwatches and wireless earbuds for fitness, notifications, and music on the go.',
+    categorySlugs: ['smart-watches', 'wireless-earbuds'],
+  },
+  {
+    id: 'healthy-home',
+    title: 'Healthy Home & Workspace',
+    description: 'Breathe easier and work healthier with top air purifiers and standing desks for a cleaner, more ergonomic living and working environment.',
+    categorySlugs: ['air-purifiers', 'standing-desks'],
+  },
+  {
+    id: 'travel-mobility',
+    title: 'Travel & Mobility',
+    description: 'Move smartly with the best personal transportation devices and travel gear for commuting, exploring, and getting around efficiently.',
+    categorySlugs: ['transportation', 'travel-gear'],
+  },
 ];

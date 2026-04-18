@@ -52,7 +52,7 @@
       "id": "e3f5091f-55cc-4108-9923-674f1830797d",
       "name": "Mechanical Keyboards",
       "slug": "mechanical-keyboards",
-      "description": "Best mechanical keyboards for gaming, typing, and productivity — covering layouts, switches, and feature sets for every budget.",
+      "description": "Best mechanical keyboards for gaming, typing, and productivity \u2014 covering layouts, switches, and feature sets for every budget.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -60,7 +60,7 @@
       "id": "fdc2fd5e-c43f-4ed0-b11f-c8d0fb3b2cc1",
       "name": "Noise-Cancelling Headphones",
       "slug": "noise-cancelling-headphones",
-      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening — tested for ANC performance, sound quality, and comfort.",
+      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening \u2014 tested for ANC performance, sound quality, and comfort.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -68,7 +68,7 @@
       "id": "177dee7c-409c-4c85-bc49-c0bd9c4357c0",
       "name": "Tablet Stands & Mounts",
       "slug": "tablet-stands-mounts",
-      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds — tested for stability, adjustability, and compatibility.",
+      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds \u2014 tested for stability, adjustability, and compatibility.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -95,6 +95,30 @@
       "description": "The best air fryers ranked by cooking performance, capacity, ease of use, and value.",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "ed6fcab8-51df-45ed-8131-4d078cde9b07",
+      "name": "Gaming Laptops",
+      "slug": "gaming-laptops",
+      "description": "Top gaming laptops ranked by GPU performance, display quality, cooling, and value for esports and AAA gaming.",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c342ce06-f92b-48c7-ae10-b71d787860ce",
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "description": "Best smartphones for camera quality, performance, battery life, and overall value across iOS and Android.",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8a52d396-8453-4c9e-8d4d-ff23130fbdcc",
+      "name": "Standing Desks",
+      "slug": "standing-desks",
+      "description": "Top standing desks for ergonomic health, build quality, height adjustment speed, and workspace integration.",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ],
   "rankings": [
@@ -217,6 +241,36 @@
       "category_id": "24229a67-7b87-43b4-9f13-24fa2a16d9aa",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "slug": "best-gaming-laptops-2026",
+      "question": "What Are the Best Gaming Laptops in 2026?",
+      "description": "Top gaming laptops ranked by GPU performance, display quality, cooling, and value for esports and AAA gaming.",
+      "verdict_summary": "TBD after Convex import",
+      "category_id": "ed6fcab8-51df-45ed-8131-4d078cde9b07",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "slug": "best-smartphones-2026",
+      "question": "What Are the Best Smartphones in 2026?",
+      "description": "Best smartphones for camera quality, performance, battery life, and overall value across iOS and Android.",
+      "verdict_summary": "TBD after Convex import",
+      "category_id": "c342ce06-f92b-48c7-ae10-b71d787860ce",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "slug": "best-standing-desks-2026",
+      "question": "What Are the Best Standing Desks in 2026?",
+      "description": "Top standing desks for ergonomic health, build quality, height adjustment speed, and workspace integration.",
+      "verdict_summary": "TBD after Convex import",
+      "category_id": "8a52d396-8453-4c9e-8d4d-ff23130fbdcc",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ],
   "products": [
@@ -695,6 +749,132 @@
       "link": "https://www.ninjaaccessories.com/af100us",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "ASUS ROG Strix G16",
+      "link": "https://www.asus.com/us/store/product/ROG-STRIX-G16-2024/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "Razer Blade 16",
+      "link": "https://www.razer.com/gaming-laptops/razer-blade-16",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "Alienware m16 R2",
+      "link": "https://www.dell.com/en-us/shop/alienware-m16-r2-gaming-laptop/apd/aw-m16r2-2024",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "Lenovo Legion Pro 7i",
+      "link": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-7i-gen-8/82yv0000us",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "MSI GE78 Raider",
+      "link": "https://www.msi.com/Laptop/GE78-Raider-2024",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "Acer Predator Helios 16",
+      "link": "https://www.acer.com/us-en/laptops/gaming/predator-helios-16",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Apple iPhone 16 Pro Max",
+      "link": "https://www.apple.com/iphone-16-pro/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "Samsung Galaxy S24 Ultra",
+      "link": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "Google Pixel 9 Pro XL",
+      "link": "https://store.google.com/product/pixel_9_pro_xl",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "OnePlus 12",
+      "link": "https://www.oneplus.com/us/12",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Sony Xperia 1 V",
+      "link": "https://www.sony.com/electronics/smartphones/xperia-1v",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Nothing Phone (3)",
+      "link": "https://nothing.tech/uk/products/phone-3",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Uplift V2 Commercial",
+      "link": "https://www.upliftdesk.com/uplift-v2-commercial-standing-desk/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Fully Jarvis",
+      "link": "https://www.fully.com/desks/jarvis-standing-desk",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Autonomous ErgoDrive Pro",
+      "link": "https://www.autonomous.ai/ergonomic-desk/standing-desk-ergodrive",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "IKEA BEKANT",
+      "link": "https://www.ikea.com/us/en/p/bekant-standing-desk-302.519.57/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Vari Desk Pro Plus 60",
+      "link": "https://www.varidesk.com/standing-desks/pro-plus-60/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "FlexiSpot E7",
+      "link": "https://www.flexispot.com/standing-desks/e7/",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ],
   "ranking_products": [
@@ -1309,6 +1489,168 @@
       "rank_position": 5,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "score": 10.0,
+      "rank_position": 1,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "score": 9.7,
+      "rank_position": 2,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "score": 9.4,
+      "rank_position": 3,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "score": 9.1,
+      "rank_position": 4,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "score": 8.8,
+      "rank_position": 5,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "score": 8.5,
+      "rank_position": 6,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "score": 9.9,
+      "rank_position": 1,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "score": 9.6,
+      "rank_position": 2,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "score": 9.3,
+      "rank_position": 3,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "score": 9.0,
+      "rank_position": 4,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c4246463-5dda-4974-9300-03e10839160b",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "score": 8.7,
+      "rank_position": 5,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "score": 8.4,
+      "rank_position": 6,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "score": 9.8,
+      "rank_position": 1,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "score": 9.5,
+      "rank_position": 2,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "score": 9.2,
+      "rank_position": 3,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "score": 8.9,
+      "rank_position": 4,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "score": 8.6,
+      "rank_position": 5,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "score": 8.3,
+      "rank_position": 6,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ],
   "users": [],
@@ -1317,8 +1659,8 @@
       "id": "34afcd32-ccc9-47e3-9097-97a786a04547",
       "ranking_product_id": "2197d632-5b58-4b5e-86eb-04ace7b36480",
       "type": "pro",
-      "content": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports.",
-      "headline": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports",
+      "content": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports.",
+      "headline": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1389,8 +1731,8 @@
       "id": "dbc74252-3f61-4349-9c80-b3fd1a331e65",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "Expensive—only for pros who need the pixels.",
-      "headline": "Expensive—only for pros who need the pixels",
+      "content": "Expensive\u2014only for pros who need the pixels.",
+      "headline": "Expensive\u2014only for pros who need the pixels",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1398,7 +1740,7 @@
       "id": "4b66c5a3-d43a-4a5c-92f2-318d574b778f",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "No HDMI 2.1—limited to older consoles at full res.",
+      "content": "No HDMI 2.1\u2014limited to older consoles at full res.",
       "headline": "No HDMI 2",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -1434,8 +1776,8 @@
       "id": "0f528994-b205-40d4-aec0-ed1cfd56b4d5",
       "ranking_product_id": "cefe6528-1a61-4834-b4f1-082115564c54",
       "type": "con",
-      "content": "Very expensive—only justified for color-critical studios.",
-      "headline": "Very expensive—only justified for color-critical studios",
+      "content": "Very expensive\u2014only justified for color-critical studios.",
+      "headline": "Very expensive\u2014only justified for color-critical studios",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1524,8 +1866,8 @@
       "id": "c1064ded-2840-4514-961d-0bd10782d4c0",
       "ranking_product_id": "ef7a7c82-75c7-496d-a19e-51a914079c52",
       "type": "con",
-      "content": "HDR400 is entry-level—not as impactful as HDR1000 units.",
-      "headline": "HDR400 is entry-level—not as impactful as HDR1000 units",
+      "content": "HDR400 is entry-level\u2014not as impactful as HDR1000 units.",
+      "headline": "HDR400 is entry-level\u2014not as impactful as HDR1000 units",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1569,8 +1911,8 @@
       "id": "ddf107f5-c5c9-4f67-8897-fc0b0f896629",
       "ranking_product_id": "15401a42-c8ae-4446-9ff5-1a94209c3288",
       "type": "con",
-      "content": "60Hz only—gamers look elsewhere.",
-      "headline": "60Hz only—gamers look elsewhere",
+      "content": "60Hz only\u2014gamers look elsewhere.",
+      "headline": "60Hz only\u2014gamers look elsewhere",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1596,8 +1938,8 @@
       "id": "6a249be9-f19e-457c-a1c1-ec7f8079a428",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "pro",
-      "content": "The gold standard—unmatched breathability and build longevity.",
-      "headline": "The gold standard—unmatched breathability and build longevity",
+      "content": "The gold standard\u2014unmatched breathability and build longevity.",
+      "headline": "The gold standard\u2014unmatched breathability and build longevity",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1623,8 +1965,8 @@
       "id": "84666101-d511-463a-9846-274253d1d0b0",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "con",
-      "content": "Very expensive—a long-term investment.",
-      "headline": "Very expensive—a long-term investment",
+      "content": "Very expensive\u2014a long-term investment.",
+      "headline": "Very expensive\u2014a long-term investment",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1659,8 +2001,8 @@
       "id": "f092eecd-0742-4289-8879-a1c7b13b3332",
       "ranking_product_id": "eb44ab10-0cb5-4ed0-9d83-5442929692d4",
       "type": "pro",
-      "content": "Highly durable—built for 12-hour days.",
-      "headline": "Highly durable—built for 12-hour days",
+      "content": "Highly durable\u2014built for 12-hour days.",
+      "headline": "Highly durable\u2014built for 12-hour days",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1749,8 +2091,8 @@
       "id": "8608573f-60c1-493f-9b47-801d873a21b8",
       "ranking_product_id": "658437f1-45f4-4964-9f91-91eae26b5af2",
       "type": "pro",
-      "content": "Highly breathable—great for warm climates.",
-      "headline": "Highly breathable—great for warm climates",
+      "content": "Highly breathable\u2014great for warm climates.",
+      "headline": "Highly breathable\u2014great for warm climates",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1776,8 +2118,8 @@
       "id": "f9d435a4-3702-4d20-98d7-4fd5298135a2",
       "ranking_product_id": "9fad6045-be38-4435-8638-78ec49b576c6",
       "type": "pro",
-      "content": "LiveBack flexes with your movements—natural support.",
-      "headline": "LiveBack flexes with your movements—natural support",
+      "content": "LiveBack flexes with your movements\u2014natural support.",
+      "headline": "LiveBack flexes with your movements\u2014natural support",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1866,8 +2208,8 @@
       "id": "af92c6d7-61a4-45e9-b5c2-4ded06dbe9f3",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "pro",
-      "content": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork.",
-      "headline": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork",
+      "content": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork.",
+      "headline": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1893,8 +2235,8 @@
       "id": "6aa5148f-f415-495f-bd7d-45a662d9f47f",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "con",
-      "content": "Not the fastest—Thunderbolt options outpace it.",
-      "headline": "Not the fastest—Thunderbolt options outpace it",
+      "content": "Not the fastest\u2014Thunderbolt options outpace it.",
+      "headline": "Not the fastest\u2014Thunderbolt options outpace it",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -1956,8 +2298,8 @@
       "id": "62493c5a-4c4e-421b-af35-a180ae9952eb",
       "ranking_product_id": "4fd3f441-394e-4707-94c0-8c24f4ca593b",
       "type": "pro",
-      "content": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable.",
-      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable",
+      "content": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable.",
+      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2001,8 +2343,8 @@
       "id": "214143d9-382c-431d-830e-74cfd54aae42",
       "ranking_product_id": "b6fc2663-6710-4891-8a5e-70ee8e49a6c0",
       "type": "pro",
-      "content": "IP67 rating—fully dust/waterproof, perfect for on-location shooting.",
-      "headline": "IP67 rating—fully dust/waterproof, perfect for on-location shooting",
+      "content": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting.",
+      "headline": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2082,8 +2424,8 @@
       "id": "ef840de8-2ddc-401c-b12d-21ac735c79f5",
       "ranking_product_id": "21cc5d27-d611-465f-8434-e08b6283f709",
       "type": "con",
-      "content": "No IP rating—treat with care.",
-      "headline": "No IP rating—treat with care",
+      "content": "No IP rating\u2014treat with care.",
+      "headline": "No IP rating\u2014treat with care",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2982,8 +3324,8 @@
       "id": "229a0cda-f559-4f26-89a7-3671dc903e44",
       "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3036,8 +3378,8 @@
       "id": "ff3b855b-da3f-439b-8054-e84f3845d219",
       "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3090,8 +3432,8 @@
       "id": "68c5f41f-46dc-44ab-ab9d-d267b29aaeda",
       "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3144,8 +3486,8 @@
       "id": "f1de04a9-c0b8-4c02-9f56-9e7cc25866e8",
       "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3198,8 +3540,8 @@
       "id": "b8cce64d-920f-4584-9b69-fa6b680f96fb",
       "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3252,8 +3594,8 @@
       "id": "d61dac7d-612c-4b61-8502-9267fefd036b",
       "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3288,8 +3630,8 @@
       "id": "82c6d461-a2c0-437d-97bc-bd34db6cc43b",
       "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3306,8 +3648,8 @@
       "id": "b8ccbf67-6dae-45bf-837f-1f3a2e8cdd51",
       "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3342,8 +3684,8 @@
       "id": "57c6c2ae-0c69-4b1d-975e-d378ef499f36",
       "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3360,8 +3702,8 @@
       "id": "bf63455c-54ec-4332-bcfd-d04894fe1526",
       "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3396,8 +3738,8 @@
       "id": "d6de3fea-3e63-45cb-bfb3-a1794dd6d87b",
       "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3414,8 +3756,8 @@
       "id": "d3ab571e-978c-4c88-833e-6d9f588b121f",
       "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3450,8 +3792,8 @@
       "id": "bb8b61a9-c4ec-4cf5-bf05-c02e5403628c",
       "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3468,8 +3810,8 @@
       "id": "0dcf75da-f53c-4c16-9dff-a72aabfcd6b2",
       "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3504,8 +3846,8 @@
       "id": "99d4d35f-81ca-4acd-8b8d-c6f6193b94cc",
       "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3522,8 +3864,8 @@
       "id": "458afad0-267d-42c5-98a4-e8282dc671f6",
       "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3558,8 +3900,8 @@
       "id": "611c8662-f65b-4850-82cd-8090b32d10e7",
       "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3576,8 +3918,8 @@
       "id": "b50b8566-9fc7-4bfc-ad2f-7d0224395c0a",
       "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3954,8 +4296,8 @@
       "id": "cc79b0a0-2073-49a5-b60b-fbacc680acff",
       "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
       "type": "con",
-      "content": "Expensive for beginners — learning curve is steep.",
-      "headline": "Expensive for beginners — learning curve is steep",
+      "content": "Expensive for beginners \u2014 learning curve is steep.",
+      "headline": "Expensive for beginners \u2014 learning curve is steep",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -3972,8 +4314,8 @@
       "id": "775c6783-dab1-4915-9452-9d8737104447",
       "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
       "type": "pro",
-      "content": "Best value for serious home espresso — professional components at hobbyist price.",
-      "headline": "Best value for serious home espresso — professional components at hobbyist price",
+      "content": "Best value for serious home espresso \u2014 professional components at hobbyist price.",
+      "headline": "Best value for serious home espresso \u2014 professional components at hobbyist price",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -3999,8 +4341,8 @@
       "id": "67bd8792-a417-4045-8067-ebda59339e5a",
       "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
       "type": "con",
-      "content": "No built-in grinder — requires separate purchase.",
-      "headline": "No built-in grinder — requires separate purchase",
+      "content": "No built-in grinder \u2014 requires separate purchase.",
+      "headline": "No built-in grinder \u2014 requires separate purchase",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4044,8 +4386,8 @@
       "id": "651c4e34-c3e3-413d-ab7c-c6c82e8a98f4",
       "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
       "type": "con",
-      "content": "Not an espresso machine — no milk drinks capability.",
-      "headline": "Not an espresso machine — no milk drinks capability",
+      "content": "Not an espresso machine \u2014 no milk drinks capability.",
+      "headline": "Not an espresso machine \u2014 no milk drinks capability",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4071,8 +4413,8 @@
       "id": "a2df268a-bf58-48a9-84f9-9079641241a6",
       "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
       "type": "pro",
-      "content": "One-touch operation — insert pod and press button.",
-      "headline": "One-touch operation — insert pod and press button",
+      "content": "One-touch operation \u2014 insert pod and press button.",
+      "headline": "One-touch operation \u2014 insert pod and press button",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4179,8 +4521,8 @@
       "id": "44502754-8e03-4940-940a-85217092933c",
       "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
       "type": "con",
-      "content": "Premium price — most expensive option on the market.",
-      "headline": "Premium price — most expensive option on the market",
+      "content": "Premium price \u2014 most expensive option on the market.",
+      "headline": "Premium price \u2014 most expensive option on the market",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4224,8 +4566,8 @@
       "id": "934264be-b972-409f-9050-9aba6f81b07e",
       "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
       "type": "con",
-      "content": "Very large charging dock — needs significant floor space.",
-      "headline": "Very large charging dock — needs significant floor space",
+      "content": "Very large charging dock \u2014 needs significant floor space.",
+      "headline": "Very large charging dock \u2014 needs significant floor space",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4269,8 +4611,8 @@
       "id": "4a9ca95e-8ab6-4bb5-bf45-5f74b56325d9",
       "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
       "type": "con",
-      "content": "No mopping capability — separate purchase required for combo cleaning.",
-      "headline": "No mopping capability — separate purchase required for combo cleaning",
+      "content": "No mopping capability \u2014 separate purchase required for combo cleaning.",
+      "headline": "No mopping capability \u2014 separate purchase required for combo cleaning",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4323,8 +4665,8 @@
       "id": "97a85b78-8dd8-4499-8167-6fd7c1ff8ccb",
       "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
       "type": "con",
-      "content": "No self-emptying station — manual dustbin emptying required.",
-      "headline": "No self-emptying station — manual dustbin emptying required",
+      "content": "No self-emptying station \u2014 manual dustbin emptying required.",
+      "headline": "No self-emptying station \u2014 manual dustbin emptying required",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4341,8 +4683,8 @@
       "id": "e376d429-7f2c-4f97-ad32-2fa685974b3a",
       "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
       "type": "pro",
-      "content": "Largest capacity of any consumer air fryer — feeds a family of 5+.",
-      "headline": "Largest capacity of any consumer air fryer — feeds a family of 5+",
+      "content": "Largest capacity of any consumer air fryer \u2014 feeds a family of 5+.",
+      "headline": "Largest capacity of any consumer air fryer \u2014 feeds a family of 5+",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4368,8 +4710,8 @@
       "id": "dccc0f3e-b3f6-4185-af46-a418e4622bda",
       "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
       "type": "con",
-      "content": "Heavy and awkward to move — fixed position on counter recommended.",
-      "headline": "Heavy and awkward to move — fixed position on counter recommended",
+      "content": "Heavy and awkward to move \u2014 fixed position on counter recommended.",
+      "headline": "Heavy and awkward to move \u2014 fixed position on counter recommended",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4377,8 +4719,8 @@
       "id": "10da38be-270c-462e-aaf3-6027b21c339b",
       "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
       "type": "pro",
-      "content": "Unique 2-in-1 design air fries and brews coffee — saves counter space.",
-      "headline": "Unique 2-in-1 design air fries and brews coffee — saves counter space",
+      "content": "Unique 2-in-1 design air fries and brews coffee \u2014 saves counter space.",
+      "headline": "Unique 2-in-1 design air fries and brews coffee \u2014 saves counter space",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4404,8 +4746,8 @@
       "id": "b0a404f9-e4e1-45c3-bf79-ddba409bed97",
       "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
       "type": "con",
-      "content": "Coffee brewer function uses pod-style filters — ongoing cost.",
-      "headline": "Coffee brewer function uses pod-style filters — ongoing cost",
+      "content": "Coffee brewer function uses pod-style filters \u2014 ongoing cost.",
+      "headline": "Coffee brewer function uses pod-style filters \u2014 ongoing cost",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4422,8 +4764,8 @@
       "id": "4dc54cea-da72-4d94-914c-7336a9bb36ac",
       "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
       "type": "pro",
-      "content": "Excellent capacity-to-price ratio — family-size at mid-range cost.",
-      "headline": "Excellent capacity-to-price ratio — family-size at mid-range cost",
+      "content": "Excellent capacity-to-price ratio \u2014 family-size at mid-range cost.",
+      "headline": "Excellent capacity-to-price ratio \u2014 family-size at mid-range cost",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4530,8 +4872,8 @@
       "id": "13fd7d74-01d3-4182-98b9-09c79313c0aa",
       "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
       "type": "pro",
-      "content": "Easy to clean — basket and crisper plate are dishwasher safe.",
-      "headline": "Easy to clean — basket and crisper plate are dishwasher safe",
+      "content": "Easy to clean \u2014 basket and crisper plate are dishwasher safe.",
+      "headline": "Easy to clean \u2014 basket and crisper plate are dishwasher safe",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4552,6 +4894,978 @@
       "headline": "Fewer preset programs than competitors at similar price",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "9fbcbbfb-a590-462b-9be9-995dd591f95e",
+      "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "type": "pro",
+      "content": "RTX 4070 delivers smooth 1440p gaming at high refresh.",
+      "headline": "RTX 4070 delivers smooth 1440p gaming at high refresh",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c0ba84d3-7997-4e7d-a566-57d0715e244a",
+      "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "type": "pro",
+      "content": "Intel i9-14900HX handles streaming and multitasking with ease.",
+      "headline": "Intel i9-14900HX handles streaming and multitasking with ease",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "41f12dbb-77e9-4db2-8163-8ae5a92d5873",
+      "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "type": "pro",
+      "content": "ROG cooling keeps thermals in check during long sessions.",
+      "headline": "ROG cooling keeps thermals in check during long sessions",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "64e69a53-faa8-4979-a12f-dbfa891ceb58",
+      "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "type": "con",
+      "content": "Battery life is average for a gaming laptop \u2014 expect 3\u20134 hours.",
+      "headline": "Battery life is average for a gaming laptop \u2014 expect 3\u20134 hours",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "25dfbf1a-2289-4dd5-91ea-9b14f38f5e7c",
+      "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "type": "con",
+      "content": "Fans get loud under full load.",
+      "headline": "Fans get loud under full load",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d3a7c4b5-1ceb-4f80-8f0a-5bafc693988b",
+      "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
+      "type": "con",
+      "content": "Heavier than ultrabooks at 2.5 kg.",
+      "headline": "Heavier than ultrabooks at 2",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "03d2b766-b607-46b0-b0c7-dd1127cf5bc1",
+      "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "type": "pro",
+      "content": "Stunning Mini-LED display with exceptional HDR.",
+      "headline": "Stunning Mini-LED display with exceptional HDR",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "65321457-917f-4d49-82d4-a30d45ec1551",
+      "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "type": "pro",
+      "content": "Premium CNC aluminum build feels durable and professional.",
+      "headline": "Premium CNC aluminum build feels durable and professional",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8142ed8f-237b-4cd0-a9d4-3cf4e9a02e9b",
+      "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "type": "pro",
+      "content": "Best-in-class trackpad and keyboard for gaming laptops.",
+      "headline": "Best-in-class trackpad and keyboard for gaming laptops",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "793f8ae7-a0a9-45f6-ba65-fbe55bba29a9",
+      "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "type": "con",
+      "content": "Premium price \u2014 among the most expensive 16-inch gaming laptops.",
+      "headline": "Premium price \u2014 among the most expensive 16-inch gaming laptops",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0b4894f8-77c8-420c-8006-8b4a42583653",
+      "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "type": "con",
+      "content": "Battery life still limited by power-hungry components.",
+      "headline": "Battery life still limited by power-hungry components",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d6dc2f74-353d-4cee-9442-43dd70ebb1ad",
+      "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
+      "type": "con",
+      "content": "Can run warm during intensive gaming.",
+      "headline": "Can run warm during intensive gaming",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "de62b1ba-19a1-4a24-85dc-5f0481ed11f0",
+      "ranking_product_id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "type": "pro",
+      "content": "Excellent QHD 165Hz panel with good color accuracy.",
+      "headline": "Excellent QHD 165Hz panel with good color accuracy",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "35e0079c-9588-4641-9579-cd29dde67538",
+      "ranking_product_id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "type": "pro",
+      "content": "Alienware's legendary customer support and warranty options.",
+      "headline": "Alienware's legendary customer support and warranty options",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3414346c-89e2-4f46-8309-e8df2c9f6c81",
+      "ranking_product_id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "type": "pro",
+      "content": "Clean, understated design avoids gamer aesthetic stigma.",
+      "headline": "Clean, understated design avoids gamer aesthetic stigma",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e4f6c8ce-f2ec-4ce2-854d-c96f02c69d43",
+      "ranking_product_id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "type": "con",
+      "content": "Slightly thicker bezels than some competitors.",
+      "headline": "Slightly thicker bezels than some competitors",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f74525e7-dad3-40f9-918d-c8c2ab58b1d7",
+      "ranking_product_id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "type": "con",
+      "content": "Battery life is modest under gaming load.",
+      "headline": "Battery life is modest under gaming load",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f870ea56-3742-4867-a2c4-2e57a6571794",
+      "ranking_product_id": "ff4e6eaa-cc52-44da-a385-dcec66fcf160",
+      "type": "con",
+      "content": "Speakers are adequate but not outstanding.",
+      "headline": "Speakers are adequate but not outstanding",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b90bf2af-ea6c-4d8d-a5fc-11ea14b993c1",
+      "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "type": "pro",
+      "content": "240Hz display butters smooth gameplay in fast-paced shooters.",
+      "headline": "240Hz display butters smooth gameplay in fast-paced shooters",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0c1d3181-4ff2-46a8-9d74-0a60883d8003",
+      "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "type": "pro",
+      "content": "Lenovo's reliability and build quality shine through.",
+      "headline": "Lenovo's reliability and build quality shine through",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "392c0649-9b3a-4e71-b1d0-5e14e5471fce",
+      "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "type": "pro",
+      "content": "Good thermal design keeps CPU/GPU cool in extended sessions.",
+      "headline": "Good thermal design keeps CPU/GPU cool in extended sessions",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "fde7dc2a-7c05-4f26-9194-5b96e7230f17",
+      "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "type": "con",
+      "content": "Trackpad is good but not quite Razer-tier.",
+      "headline": "Trackpad is good but not quite Razer-tier",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6ecd92a9-2bb4-482e-b0c2-35407f8371d4",
+      "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "type": "con",
+      "content": "Battery life is typical for this class \u2014 plan for outlet access.",
+      "headline": "Battery life is typical for this class \u2014 plan for outlet access",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2f43456d-e032-4e50-90fd-76d667fd3751",
+      "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
+      "type": "con",
+      "content": "Fans can get noisy in Performance mode.",
+      "headline": "Fans can get noisy in Performance mode",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "17dba739-352d-4181-a699-5ece51aaea26",
+      "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "type": "pro",
+      "content": "RTX 4090 provides desktop-class gaming performance.",
+      "headline": "RTX 4090 provides desktop-class gaming performance",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8cb0740a-9cf9-4de4-b0a3-6b9ca7254787",
+      "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "type": "pro",
+      "content": "Huge 17-inch screen with excellent refresh rate for immersive play.",
+      "headline": "Huge 17-inch screen with excellent refresh rate for immersive play",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "bd154948-9b08-4187-9f58-0ff019cd769c",
+      "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "type": "pro",
+      "content": "MSI's Cooler Boost 5 keeps thermals manageable despite the power.",
+      "headline": "MSI's Cooler Boost 5 keeps thermals manageable despite the power",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2e4e83a4-ed68-402e-8469-a382057bb9c9",
+      "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "type": "con",
+      "content": "Very heavy at 2.9 kg \u2014 not portable.",
+      "headline": "Very heavy at 2",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "086a62c3-f541-45b0-ae93-026e5871e179",
+      "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "type": "con",
+      "content": "Battery life is minimal under high-performance settings.",
+      "headline": "Battery life is minimal under high-performance settings",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0118b2b1-60f9-4d83-92c2-5ca6f426cf97",
+      "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
+      "type": "con",
+      "content": "Premium price for the top-tier GPU configuration.",
+      "headline": "Premium price for the top-tier GPU configuration",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "05e8273f-4d82-4774-a7d5-dcbe1e025949",
+      "ranking_product_id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "type": "pro",
+      "content": "Aggressive price-to-performance ratio with RTX 4070.",
+      "headline": "Aggressive price-to-performance ratio with RTX 4070",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c8e35af8-94a5-41e9-a8d1-020010dc3ee6",
+      "ranking_product_id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "type": "pro",
+      "content": "240Hz display delivers buttery-smooth motion.",
+      "headline": "240Hz display delivers buttery-smooth motion",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ecd078d9-5b62-441e-93ae-24fd1d69170c",
+      "ranking_product_id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "type": "pro",
+      "content": "Acer's PredatorSense software gives easy performance tuning.",
+      "headline": "Acer's PredatorSense software gives easy performance tuning",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2ce35b2a-5dda-4f64-a86a-21b6009b2296",
+      "ranking_product_id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "type": "con",
+      "content": "Build quality is functional but not as premium as Razer/MSI.",
+      "headline": "Build quality is functional but not as premium as Razer/MSI",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "083fe6fd-7e15-4163-bf07-e473c980c5f3",
+      "ranking_product_id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "type": "con",
+      "content": "16GB RAM is on the low side for heavy multitasking.",
+      "headline": "16GB RAM is on the low side for heavy multitasking",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0d46446a-fda5-4cb0-b9f9-9341fd9d9956",
+      "ranking_product_id": "34edafd8-0844-4f1c-872c-823f7c86a3d1",
+      "type": "con",
+      "content": "Speakers are adequate for games but not music.",
+      "headline": "Speakers are adequate for games but not music",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "76f05c03-85ca-4e69-8853-f05924422575",
+      "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "type": "pro",
+      "content": "Class-leading video quality with ProRes and log recording.",
+      "headline": "Class-leading video quality with ProRes and log recording",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a1384de7-cac8-4174-95bb-5341571b0d73",
+      "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "type": "pro",
+      "content": "A18 Pro chip delivers unmatched single-core performance and efficiency.",
+      "headline": "A18 Pro chip delivers unmatched single-core performance and efficiency",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "1e3d0dfd-e1f5-4ffc-92a5-947371662d9f",
+      "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "type": "pro",
+      "content": "iOS ecosystem integration with Mac, iPad, and Apple Watch is seamless.",
+      "headline": "iOS ecosystem integration with Mac, iPad, and Apple Watch is seamless",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "15d59825-1857-440d-821a-7fd64a1bf162",
+      "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "type": "con",
+      "content": "Expensive even at base storage \u2014 no expandable storage.",
+      "headline": "Expensive even at base storage \u2014 no expandable storage",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "17989ea9-5c13-4064-8c3b-0882793c200c",
+      "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "type": "con",
+      "content": "USB-C speeds are capped at USB 3.1 Gen 1 (5 Gbps) on Pro models.",
+      "headline": "USB-C speeds are capped at USB 3",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "069b51aa-f24a-4643-bf9a-6fb45c3d84da",
+      "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
+      "type": "con",
+      "content": "No always-on display (always-on arrives with iPhone 16).",
+      "headline": "No always-on display (always-on arrives with iPhone 16)",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "888dc472-3656-4a0d-b07e-a6a57ad7d891",
+      "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "type": "pro",
+      "content": "10x optical zoom remains unmatched in the smartphone world.",
+      "headline": "10x optical zoom remains unmatched in the smartphone world",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7825b209-abb0-42d4-83f6-8626c151507d",
+      "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "type": "pro",
+      "content": "S Pen integration is unique and useful for note-taking/editing.",
+      "headline": "S Pen integration is unique and useful for note-taking/editing",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "95069dda-5e53-4909-9bd9-e02f649e8eec",
+      "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "type": "pro",
+      "content": "Android flexibility with DeX desktop mode for productivity.",
+      "headline": "Android flexibility with DeX desktop mode for productivity",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6e7737be-b22d-45fc-9132-e89ec94e3c1c",
+      "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "type": "con",
+      "content": "Large and heavy \u2014 not ideal for one-handed use.",
+      "headline": "Large and heavy \u2014 not ideal for one-handed use",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "383a9d57-3564-4dbf-8cbf-b37a6c779996",
+      "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "type": "con",
+      "content": "Bixby and Samsung bloatware still present (though can be disabled).",
+      "headline": "Bixby and Samsung bloatware still present (though can be disabled)",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "657fbca9-0fcd-4d75-abfe-c94770f200f3",
+      "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
+      "type": "con",
+      "content": "Price rivals iPhone Pro Max.",
+      "headline": "Price rivals iPhone Pro Max",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5c44c380-b4f6-49e1-8eb9-8b1da8e35fb2",
+      "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "type": "pro",
+      "content": "Best-in-class computational photography \u2014 photos pop with minimal editing.",
+      "headline": "Best-in-class computational photography \u2014 photos pop with minimal editing",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4c0b664c-5e60-416e-8fdf-ffb961e2bffc",
+      "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "type": "pro",
+      "content": "Seven years of OS/security updates (2024\u20132031) is industry-leading.",
+      "headline": "Seven years of OS/security updates (2024\u20132031) is industry-leading",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b706c181-9476-49f3-866f-3650e84fb8d7",
+      "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "type": "pro",
+      "content": "Clean, bloat-free Android experience with timely updates.",
+      "headline": "Clean, bloat-free Android experience with timely updates",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "78548f7d-25f3-48e9-9263-7fdd9ad64c79",
+      "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "type": "con",
+      "content": "Tensor G4 still behind Snapdragon 8 Gen 3 in raw performance.",
+      "headline": "Tensor G4 still behind Snapdragon 8 Gen 3 in raw performance",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "41194b36-9953-44fa-a406-16d1fa02b61c",
+      "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "type": "con",
+      "content": "Video recording quality lags behind iPhone and Galaxy.",
+      "headline": "Video recording quality lags behind iPhone and Galaxy",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a11f0bff-dc5d-4483-ab28-84c9e31764bc",
+      "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
+      "type": "con",
+      "content": "Battery life is good but not class-leading.",
+      "headline": "Battery life is good but not class-leading",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2fbc4f18-daf6-4fd7-b9f1-a9153f7b87d5",
+      "ranking_product_id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "type": "pro",
+      "content": "Blazing-fast 100W charging fills battery in ~25 minutes.",
+      "headline": "Blazing-fast 100W charging fills battery in ~25 minutes",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f0a0f5dc-fba1-4c33-bda1-d447e9b9b906",
+      "ranking_product_id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "type": "pro",
+      "content": "Excellent performance with minimal thermal throttling.",
+      "headline": "Excellent performance with minimal thermal throttling",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7943b35b-580e-42bd-810a-c2558befdf42",
+      "ranking_product_id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "type": "pro",
+      "content": "Hasselblad-tuned cameras produce vibrant, Instagram-friendly shots.",
+      "headline": "Hasselblad-tuned cameras produce vibrant, Instagram-friendly shots",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5a627035-f044-4c2e-a8c2-d92443bfaaff",
+      "ranking_product_id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "type": "con",
+      "content": "OxygenOS has become more bloated over time.",
+      "headline": "OxygenOS has become more bloated over time",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "59f77639-9a4a-44be-bbd4-70597501c096",
+      "ranking_product_id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "type": "con",
+      "content": "No always-on display on base model (only Pro).",
+      "headline": "No always-on display on base model (only Pro)",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e2a5ee38-4bb9-4bf6-96f9-df03738d3b0d",
+      "ranking_product_id": "127e6e07-f22e-43c1-a0a8-785ac5744409",
+      "type": "con",
+      "content": "Some users report aggressive battery management.",
+      "headline": "Some users report aggressive battery management",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a6bb2f86-8423-4510-b25d-7e67008bd8f9",
+      "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
+      "type": "pro",
+      "content": "Unmatched 4K OLED display with phenomenal color accuracy.",
+      "headline": "Unmatched 4K OLED display with phenomenal color accuracy",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f8bb5be0-cf63-47b1-836d-e5048ea24d40",
+      "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
+      "type": "pro",
+      "content": "Professional-grade camera controls (manual modes, 4K 120fps).",
+      "headline": "Professional-grade camera controls (manual modes, 4K 120fps)",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "596d9d7e-a202-4b2e-a69b-3addbd8d72ff",
+      "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
+      "type": "pro",
+      "content": "3.5mm headphone jack with high-res audio support \u2014 rare in flagships.",
+      "headline": "3",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "97011c0b-d51b-4ef2-bb00-b37635b6f599",
+      "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
+      "type": "con",
+      "content": "Expensive for Snapdragon 8 Gen 2 (last-gen chip).",
+      "headline": "Expensive for Snapdragon 8 Gen 2 (last-gen chip)",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a1b761ab-5006-429e-9c44-b555753bc075",
+      "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
+      "type": "con",
+      "content": "Camera processing can be inconsistent in auto mode.",
+      "headline": "Camera processing can be inconsistent in auto mode",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "12ec2530-6647-46b1-8fbd-cc71e32b7001",
+      "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
+      "type": "con",
+      "content": "Limited availability in some regions.",
+      "headline": "Limited availability in some regions",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "67a9e773-4d5e-4eb6-90e1-b1a0ae417362",
+      "ranking_product_id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "type": "pro",
+      "content": "Unique Glyph Interface provides visual notifications and quick controls.",
+      "headline": "Unique Glyph Interface provides visual notifications and quick controls",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ef266c6d-fb64-4c42-a588-401b933182cc",
+      "ranking_product_id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "type": "pro",
+      "content": "Clean, bloat-free Android experience.",
+      "headline": "Clean, bloat-free Android experience",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a39f542f-2d64-4bfe-bf0e-b64246320442",
+      "ranking_product_id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "type": "pro",
+      "content": "Distinctive design stands out in a sea of glass slabs.",
+      "headline": "Distinctive design stands out in a sea of glass slabs",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5de8f68a-487a-4d60-a4f0-dea58be02f9d",
+      "ranking_product_id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "type": "con",
+      "content": "Camera quality is good but not flagship-tier.",
+      "headline": "Camera quality is good but not flagship-tier",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6e85deaa-e530-4f52-b2fe-59c718ad7d09",
+      "ranking_product_id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "type": "con",
+      "content": "Software updates slower than Google/Pixel.",
+      "headline": "Software updates slower than Google/Pixel",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "02bbf4d6-2c1c-4b2c-b6e0-2c96ab0401b8",
+      "ranking_product_id": "46a29598-75f8-442c-a2a1-e1a436655e58",
+      "type": "con",
+      "content": "Glyph lights are gimmicky for some users.",
+      "headline": "Glyph lights are gimmicky for some users",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "fae6ff12-d5cb-4e81-9e78-fc206d52238f",
+      "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "type": "pro",
+      "content": "Exceptionally stable even at max height \u2014 no wobble.",
+      "headline": "Exceptionally stable even at max height \u2014 no wobble",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "cc775bed-2eb5-4d00-a0f7-52f70f1dceb8",
+      "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "type": "pro",
+      "content": "Huge height range accommodates users from 5'0\" to 6'8\".",
+      "headline": "Huge height range accommodates users from 5'0\" to 6'8\"",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6d3cb93c-0089-4a43-b628-0df28b18fd89",
+      "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "type": "pro",
+      "content": "15-year warranty shows confidence in durability.",
+      "headline": "15-year warranty shows confidence in durability",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f6c22b6a-64fc-46bf-8e19-2ea6c381f06c",
+      "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "type": "con",
+      "content": "Premium price \u2014 among the most expensive standing desks.",
+      "headline": "Premium price \u2014 among the most expensive standing desks",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "61c47ea5-aa76-4c51-9844-e39a815f0d0a",
+      "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "type": "con",
+      "content": "Top is MDF, not solid wood (though durable).",
+      "headline": "Top is MDF, not solid wood (though durable)",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5b557f30-6e99-45de-b07d-ecca80cc3f48",
+      "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
+      "type": "con",
+      "content": "Longer lead times during high-demand periods.",
+      "headline": "Longer lead times during high-demand periods",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4d961326-73b2-4637-9d16-ef77864f3aaf",
+      "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "type": "pro",
+      "content": "Excellent value with solid stability at mid-range price.",
+      "headline": "Excellent value with solid stability at mid-range price",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2580dfa1-752f-4cc1-ab31-32039c6f901d",
+      "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "type": "pro",
+      "content": "Many top size options, including contoured edge for ergonomics.",
+      "headline": "Many top size options, including contoured edge for ergonomics",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5d21787c-8726-4be3-afbd-ad56983c5e58",
+      "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "type": "pro",
+      "content": "Fully's eco-friendly bamboo tops are beautiful and sustainable.",
+      "headline": "Fully's eco-friendly bamboo tops are beautiful and sustainable",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f1c11526-5f30-42ec-8652-2a19038c9573",
+      "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "type": "con",
+      "content": "Single-motor version can wobble at higher heights.",
+      "headline": "Single-motor version can wobble at higher heights",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5023b655-9a50-4077-8fd0-e4c3b4ad37dc",
+      "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "type": "con",
+      "content": "Assembly required \u2014 not fully pre-assembled.",
+      "headline": "Assembly required \u2014 not fully pre-assembled",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5cec20a6-1d3f-447b-8b09-0f0acc853644",
+      "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
+      "type": "con",
+      "content": "Some users report minor controller issues over time.",
+      "headline": "Some users report minor controller issues over time",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6b6b19e5-a516-4ab1-b9d1-b25544b1a940",
+      "ranking_product_id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "type": "pro",
+      "content": "Competitive pricing with frequent sales and bundles.",
+      "headline": "Competitive pricing with frequent sales and bundles",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3fb8c8f5-9def-4d16-beef-bbf22b9dcce8",
+      "ranking_product_id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "type": "pro",
+      "content": "Anti-collision detection protects pets and children.",
+      "headline": "Anti-collision detection protects pets and children",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "254822b1-474a-45eb-a297-76d0e7ca18a4",
+      "ranking_product_id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "type": "pro",
+      "content": "SmartDesk app lets you save preferred heights and track sitting/standing time.",
+      "headline": "SmartDesk app lets you save preferred heights and track sitting/standing time",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "bf663e21-04c3-442c-af28-4c7b9af4b206",
+      "ranking_product_id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "type": "con",
+      "content": "Some customer service complaints noted.",
+      "headline": "Some customer service complaints noted",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "242f363d-fa3f-4548-8fdc-82b318a30af1",
+      "ranking_product_id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "type": "con",
+      "content": "Desk surface finish can vary between batches.",
+      "headline": "Desk surface finish can vary between batches",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "af96b98a-f0c5-49d1-9feb-51cdadb4ce12",
+      "ranking_product_id": "cd8b2e54-3cf8-4d44-8c23-169d59ddc9d1",
+      "type": "con",
+      "content": "Less brand prestige than Uplift or Fully.",
+      "headline": "Less brand prestige than Uplift or Fully",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b80c41cd-d70b-4955-8c4d-cd1b004e35bf",
+      "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "type": "pro",
+      "content": "IKEA's famous affordability \u2014 one of the cheapest motorized standing desks.",
+      "headline": "IKEA's famous affordability \u2014 one of the cheapest motorized standing desks",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "53ad9683-994d-4c1d-9027-b9edf3ac319c",
+      "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "type": "pro",
+      "content": "10-year warranty is surprisingly generous for the price.",
+      "headline": "10-year warranty is surprisingly generous for the price",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "92cfddd4-a0a5-4469-8bcf-6c561c3b10ad",
+      "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "type": "pro",
+      "content": "Simple, clean Scandinavian design fits any office.",
+      "headline": "Simple, clean Scandinavian design fits any office",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a76fe26e-1a66-42d9-8935-e6d5a6369ecd",
+      "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "type": "con",
+      "content": "Single motor limits weight capacity and can struggle with heavy setups.",
+      "headline": "Single motor limits weight capacity and can struggle with heavy setups",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "673bc685-1d71-4db0-b8b9-0aedccdcc27b",
+      "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "type": "con",
+      "content": "Height range is narrower than premium competitors.",
+      "headline": "Height range is narrower than premium competitors",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8be78145-2ae0-477d-9d70-cd49ddd71e2f",
+      "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
+      "type": "con",
+      "content": "Wobble is more noticeable at max height.",
+      "headline": "Wobble is more noticeable at max height",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "24f6e46b-28f1-47fc-9529-ac9bbbb9fb96",
+      "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "type": "pro",
+      "content": "Easy assembly \u2014 most users report <30 minutes setup.",
+      "headline": "Easy assembly \u2014 most users report <30 minutes setup",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e523d30f-c40f-4252-a3f8-65348619973e",
+      "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "type": "pro",
+      "content": "Good stability with minimal wobble at common heights.",
+      "headline": "Good stability with minimal wobble at common heights",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b417ab38-72fd-4a7a-a367-546b4bade887",
+      "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "type": "pro",
+      "content": "Cable management tray included.",
+      "headline": "Cable management tray included",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "263ac2e4-f972-4672-88b7-ab22f3e5cfc6",
+      "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "type": "con",
+      "content": "Lower weight capacity than high-end commercial options.",
+      "headline": "Lower weight capacity than high-end commercial options",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2e2ae517-27df-4eec-9109-e49b1f0f691a",
+      "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "type": "con",
+      "content": "Top size options are more limited.",
+      "headline": "Top size options are more limited",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c397d8ea-50f8-4259-b985-b6e75cf456bf",
+      "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
+      "type": "con",
+      "content": "Not as feature-rich as app-connected competitors.",
+      "headline": "Not as feature-rich as app-connected competitors",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "93947c3a-d7ea-4952-8c90-5e5c39df7da0",
+      "ranking_product_id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "type": "pro",
+      "content": "Excellent price-to-performance ratio.",
+      "headline": "Excellent price-to-performance ratio",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a7210a55-f6b2-4be2-8b6b-b158cfb7f7e1",
+      "ranking_product_id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "type": "pro",
+      "content": "Very stable at standing heights due to crossbar bracing.",
+      "headline": "Very stable at standing heights due to crossbar bracing",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "83021cd6-9028-4c37-9b83-41ecbe581091",
+      "ranking_product_id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "type": "pro",
+      "content": "Many laminate and desktop material options.",
+      "headline": "Many laminate and desktop material options",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8b21a16c-124e-4d73-bac8-8f040cabfd3c",
+      "ranking_product_id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "type": "con",
+      "content": "Assembly required and instructions can be unclear.",
+      "headline": "Assembly required and instructions can be unclear",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c81edebb-216e-41f4-8a72-28707d0b497b",
+      "ranking_product_id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "type": "con",
+      "content": "Customer support response times vary.",
+      "headline": "Customer support response times vary",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "827c3cef-feff-425a-80dc-3d52380664f5",
+      "ranking_product_id": "2be4f83f-7d5d-449f-9e0e-c51408166858",
+      "type": "con",
+      "content": "Some users report minor alignment issues after assembly.",
+      "headline": "Some users report minor alignment issues after assembly",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ],
   "specifications": [
@@ -4576,7 +5890,7 @@
       "id": "0ca0eece-8aef-408e-b357-9e90b026ffd4",
       "product_id": "46fcfd3e-8829-4f27-a64e-88d054290eaf",
       "name": "Resolution",
-      "value": "2560×1440",
+      "value": "2560\u00d71440",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -4608,7 +5922,7 @@
       "id": "602e1ce4-0840-40e5-bd61-2ba3ec4d2de5",
       "product_id": "e17fe198-c6a6-4470-ae47-9f8ce8880a96",
       "name": "Resolution",
-      "value": "5120×2880",
+      "value": "5120\u00d72880",
       "unit": "5K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4649,7 +5963,7 @@
       "id": "04e85c87-9528-47e7-88b0-4269ce5b107c",
       "product_id": "ae06c37a-07bb-40a6-a442-6d8345763c2d",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4690,7 +6004,7 @@
       "id": "d25d46ab-616a-40cb-9bb9-5ea4a807d2b5",
       "product_id": "a792ccf9-fa01-4c31-9c74-58ac16a162bb",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4732,7 +6046,7 @@
       "id": "2560e066-5a60-4b33-9d61-2050fe5e7092",
       "product_id": "04cb2c71-9745-492d-8922-f68e7b233289",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4774,7 +6088,7 @@
       "id": "c2dc915a-42ea-4e79-b3a2-ab0c195e2c92",
       "product_id": "72b196ce-da7c-4340-a29b-4b7cb3e08a87",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -4915,7 +6229,7 @@
       "id": "67af9d5f-8984-4054-9ed7-cb48cdc38380",
       "product_id": "ba75e652-857c-49c1-9f7f-af3a0e46fa09",
       "name": "Recline",
-      "value": "133° tilt",
+      "value": "133\u00b0 tilt",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5038,7 +6352,7 @@
       "id": "e69cdd9a-355a-4a3d-8946-561421848e0e",
       "product_id": "9acbc96f-a246-46d2-8b37-b374b06071fa",
       "name": "Recline",
-      "value": "115°",
+      "value": "115\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5089,7 +6403,7 @@
       "id": "5153468e-f144-46a3-a66d-5f51d666514f",
       "product_id": "9d038463-44bd-47f1-98f1-9f0a2b061998",
       "name": "Capacity Options",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5215,7 +6529,7 @@
       "id": "a3875c3e-e2b0-438d-96cf-6469bbaaa7dd",
       "product_id": "e4e81ee6-44dc-434c-a9e4-90f692a2032f",
       "name": "Capacity",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5257,7 +6571,7 @@
       "id": "a476db1a-9477-49ef-af52-d6936fca79a8",
       "product_id": "4fb9b7b3-8e34-4754-814f-d2c0fc9769e6",
       "name": "Capacity",
-      "value": "1TB–4TB",
+      "value": "1TB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5291,7 +6605,7 @@
       "id": "4781bbf5-a889-4e1c-a909-191d987e8e63",
       "product_id": "154c5c14-dedc-4364-a70c-337c0f94bfc7",
       "name": "Capacity",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5308,7 +6622,7 @@
       "id": "bb020da8-253b-42a0-8a02-c4433a828e39",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -5334,7 +6648,7 @@
       "id": "c93ab98e-9ab5-477d-a5f7-ddd2e984e317",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Field of View",
-      "value": "65°/78°/90°",
+      "value": "65\u00b0/78\u00b0/90\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5358,7 +6672,7 @@
       "id": "63becd93-935d-4a99-915d-38c0cc196437",
       "product_id": "81405e0d-3c16-4efe-9964-441f2103cf3c",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -5409,7 +6723,7 @@
       "id": "d0f1328e-4a43-4989-840b-c6444d95bc4c",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -5443,7 +6757,7 @@
       "id": "a0698766-7f03-4571-9eb7-b02a75c27f10",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Field of View",
-      "value": "72°/82°/93°",
+      "value": "72\u00b0/82\u00b0/93\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -5459,7 +6773,7 @@
       "id": "c08f799f-5d6f-4977-893e-f9c56d0e2d57",
       "product_id": "ce24a6cf-1722-4504-967f-5ca252aa3cd0",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -5509,7 +6823,7 @@
       "id": "e42100f3-1576-4f5f-964b-dbf17c4a7e2f",
       "product_id": "1fdb7e53-7720-4f15-ac6c-f072847e923e",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -5559,7 +6873,7 @@
       "id": "7df97cb4-7543-4729-a693-e6fba50e7c58",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -5577,7 +6891,7 @@
       "id": "27a4114e-0c6e-43ae-89e7-c9df0716a1d2",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Field of View",
-      "value": "65°/78°/95°",
+      "value": "65\u00b0/78\u00b0/95\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -6782,7 +8096,7 @@
       "id": "50b243d0-6f1e-4234-9afc-284992fd453b",
       "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
       "name": "Compatibility",
-      "value": "4\"–13\" tablets and phones",
+      "value": "4\"\u201313\" tablets and phones",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6790,7 +8104,7 @@
       "id": "ded9ad01-9937-4514-9813-558aab263a7c",
       "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
       "name": "Adjustment",
-      "value": "270° viewing angle",
+      "value": "270\u00b0 viewing angle",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6838,7 +8152,7 @@
       "id": "a1cf5243-fcf9-44ca-94bc-75e0b7655cf8",
       "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
       "name": "Adjustment",
-      "value": "Smooth tilting, 360° rotation",
+      "value": "Smooth tilting, 360\u00b0 rotation",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6878,7 +8192,7 @@
       "id": "47da06ba-86e4-43c3-ab44-f1bcb43c9477",
       "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
       "name": "Compatibility",
-      "value": "7\"–13\" devices",
+      "value": "7\"\u201313\" devices",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6926,7 +8240,7 @@
       "id": "f0a882c3-f050-424b-9ddf-23eb470cc441",
       "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
       "name": "Compatibility",
-      "value": "4.7\"–13\" tablets",
+      "value": "4.7\"\u201313\" tablets",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6934,7 +8248,7 @@
       "id": "91fcc583-de51-4f3e-b5d7-2841dd5e08c4",
       "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
       "name": "Rotation",
-      "value": "360° swivel base",
+      "value": "360\u00b0 swivel base",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -6974,7 +8288,7 @@
       "id": "8bb9cc1d-9ae9-48e5-a063-b7bce4f9f281",
       "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
       "name": "Compatibility",
-      "value": "4\"–10.5\" tablets",
+      "value": "4\"\u201310.5\" tablets",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -7022,7 +8336,7 @@
       "id": "3a696997-81d7-4a9e-a2d5-ad12be65e964",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Compatibility",
-      "value": "7\"–13\" tablets up to 2kg",
+      "value": "7\"\u201313\" tablets up to 2kg",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -7038,7 +8352,7 @@
       "id": "25c2604b-6e24-49b7-88ea-73e03ac954e1",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Adjustment",
-      "value": "Full 360° articulation",
+      "value": "Full 360\u00b0 articulation",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -7054,7 +8368,7 @@
       "id": "ba67f36c-9773-44ff-a68b-8071a6f9edb0",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Tilt Range",
-      "value": "-90° to +90°",
+      "value": "-90\u00b0 to +90\u00b0",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -7173,7 +8487,7 @@
       "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
       "name": "Brew Temperature",
       "value": "197-205",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -7462,7 +8776,7 @@
       "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
       "name": "Temperature",
       "value": "40-200",
-      "unit": "°C",
+      "unit": "\u00b0C",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -7548,7 +8862,7 @@
       "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
       "name": "Temperature",
       "value": "90-400",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -7599,7 +8913,7 @@
       "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
       "name": "Temperature",
       "value": "95-400",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -7634,7 +8948,7 @@
       "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
       "name": "Temperature",
       "value": "105-400",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -7653,6 +8967,978 @@
       "value": "4",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "e8914a5c-1e08-40d5-bb97-ca4570ff73df",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4070",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ac68e2ff-577e-4fa8-8ded-83b08b399150",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "CPU",
+      "value": "Intel Core i9-14900HX",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "10bbb43c-bfe2-4ddc-94ad-67dea2c6494d",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "Display",
+      "value": "16-inch QHD 240Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4b0118e0-8eec-4411-80bb-e7f199854169",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "RAM",
+      "value": "32GB DDR5",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "33bb229d-dce6-4b5e-b8c2-1fa55ce54be2",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "Storage",
+      "value": "1TB NVMe SSD",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "9be230ef-7109-4d21-b3e1-95feec17486c",
+      "product_id": "8c2e088a-1415-4201-8cfa-cb80051812f4",
+      "name": "Weight",
+      "value": "2.5",
+      "unit": "kg",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3e5e91d0-ff9b-4312-bc9f-650b63460e7c",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4080",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7665dc70-6744-4722-a6ad-b79dcbc1d66b",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "CPU",
+      "value": "Intel Core i9-14900HX",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e65e1f45-f7b8-4f2e-a687-be7f1f5c3f84",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "Display",
+      "value": "16-inch QHD+ Dual-Mode Mini-LED 240Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "edd5fd7e-040c-4133-945c-de2740faf62c",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "RAM",
+      "value": "32GB DDR5",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "56447575-9017-4338-9bfd-1a279351fcb2",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "Storage",
+      "value": "1TB NVMe SSD",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "acd34142-6687-42a8-81b5-67716058fa32",
+      "product_id": "ed14ef1e-d11f-482b-a6e5-ab13d2cc8793",
+      "name": "Weight",
+      "value": "2.45",
+      "unit": "kg",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "dfa3638e-67c7-48e2-a22a-7bf44b72ceb4",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4070",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "41a7b8ea-8b9e-47d1-83ad-5bbe7aae9f22",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "CPU",
+      "value": "Intel Core i9-14900HX",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a23833f0-be5c-46fa-8a96-58e8ebc2f634",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "Display",
+      "value": "16-inch QHD 165Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3b57d953-2526-4884-95e7-69b234ada331",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "RAM",
+      "value": "32GB DDR5",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "97db2e0d-ec3b-4976-8e17-03f8d7b14b1f",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "Storage",
+      "value": "1TB NVMe SSD",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "85211852-1359-4f85-922e-479bf5a0fb4f",
+      "product_id": "aee702f4-8f2e-4682-a818-744dac5f34cb",
+      "name": "Weight",
+      "value": "2.51",
+      "unit": "kg",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b1d0e045-a42f-4ea9-ba01-cc502f07e6b0",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4080",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "24dcbdb6-953f-42ae-bc8a-356a2e72115c",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "CPU",
+      "value": "Intel Core i9-14900HX",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "39cceb91-2a3a-4556-bbf3-4024d568acb0",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "Display",
+      "value": "16-inch WQXGA 240Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4cb897e8-5f1d-4e01-a0e9-ae42de1bd7e6",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "RAM",
+      "value": "32GB DDR5",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7020f2d1-4cec-4570-af38-2373dae2e6de",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "Storage",
+      "value": "1TB NVMe SSD",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "606ab7b1-68ac-4e9e-91b5-244c9b85f005",
+      "product_id": "3ccb16e6-e390-4a93-9e26-d502418f075e",
+      "name": "Weight",
+      "value": "2.5",
+      "unit": "kg",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b51e4bc2-0e46-40ad-b95f-768e2340663a",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4090",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "77427bc4-f37a-4272-9c30-f68e98abd49a",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "CPU",
+      "value": "Intel Core i9-14900HX",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d37b0d04-9bae-4425-b3a9-66f058c9a541",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "Display",
+      "value": "17-inch QHD 240Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5cfdb382-d773-4dc9-9887-e644ef016207",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "RAM",
+      "value": "64GB DDR5",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3582a3e8-08c9-45a1-840c-6a3f458ad731",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "Storage",
+      "value": "2TB NVMe SSD",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "932213eb-591d-4999-82a2-750f584be5a1",
+      "product_id": "bd29db6a-f1f8-4107-b508-9e67db9b6f28",
+      "name": "Weight",
+      "value": "2.9",
+      "unit": "kg",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e570e648-e99a-40a3-bb9b-05e8dbc30bbd",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "GPU",
+      "value": "NVIDIA GeForce RTX 4070",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6a893d9a-4f4f-4014-971b-61718fdc7ac3",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "CPU",
+      "value": "Intel Core i7-14700HX",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "36609709-3b83-4ca9-902a-daf68ee0a789",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "Display",
+      "value": "16-inch WQXGA 240Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6c4af1a5-442c-4fed-8371-febb9bad750c",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "RAM",
+      "value": "16GB DDR5",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a7aaa139-8b1f-4dbf-b8a0-38ddf14a332a",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "Storage",
+      "value": "1TB NVMe SSD",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2fbb64e6-3db7-4e68-ab66-fbc0911129cf",
+      "product_id": "2bd0c7ea-42f1-4c96-8fda-28362e8aac63",
+      "name": "Weight",
+      "value": "2.49",
+      "unit": "kg",
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "fb71e396-626b-4afe-9a70-db1fbc26c7b3",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Display",
+      "value": "6.9-inch Super Retina XDR",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "20c8a725-eece-4e15-8fdd-4739b8b53547",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Chip",
+      "value": "A18 Pro",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "036274bc-ddcd-4f71-9ece-d6825659ba6a",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Camera",
+      "value": "48MP main + 24mm tele + 48MP ultra-wide",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ec724ede-1c47-4f42-9d12-07c75a9469c6",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Battery",
+      "value": "Up to 33h video playback",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ab7ad7e5-1d80-4449-826e-4ac566c972e2",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Storage",
+      "value": "256GB\u20132TB",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6e27a6f9-ffd6-4ba2-ba37-dfc89aad391f",
+      "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
+      "name": "Water Resistance",
+      "value": "IP68",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e38ddd9e-170d-49fa-86d9-0c1fb89a50da",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "Display",
+      "value": "6.8-inch QHD+ Dynamic AMOLED 2X 120Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "9b00a809-f379-4063-a7e0-a87501bb05b0",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "Chip",
+      "value": "Snapdragon 8 Gen 3 (for Galaxy)",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8868d6ec-a4a7-40c2-b1d1-915be2392c08",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "Camera",
+      "value": "200MP main + 10x optical zoom telephoto",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4b484217-7924-4691-a3fd-743544e4f8d9",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "Battery",
+      "value": "5000 mAh",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e7fbbacb-182c-49de-a8e6-d31a883329df",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "Storage",
+      "value": "256GB\u20131TB",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2a509e75-9257-4822-a840-798a85830497",
+      "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
+      "name": "S Pen",
+      "value": "Integrated",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "c6975948-a655-4f4e-ae30-57b12aaebaa5",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "Display",
+      "value": "6.8-inch LTPO OLED 120Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d00af5c9-5cff-44f8-bfe7-7e014f34b3d9",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "Chip",
+      "value": "Google Tensor G4",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d50ce6b4-7149-4350-ad71-26f51e73b957",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "Camera",
+      "value": "50MP main + 48MP tele + 48MP ultra-wide",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "fa96a5d1-7123-49a4-9856-bdde39c9408f",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "Battery",
+      "value": "5000 mAh",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3c5c23b3-7427-4385-a7b0-e484269fff07",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "Storage",
+      "value": "128GB\u20131TB",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2359037c-b855-43bc-b07f-15f53cdd4389",
+      "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
+      "name": "AI Features",
+      "value": "Gemini Nano, Call Screen, Magic Editor",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "42bbb86c-df9e-4fa9-827d-925b53489d3f",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "Display",
+      "value": "6.82-inch LTPO AMOLED 120Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e79f7579-4673-4072-965f-c904275b36ec",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "Chip",
+      "value": "Snapdragon 8 Gen 3",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8ca70b37-16d7-4274-adaf-eeed079ac23a",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "Camera",
+      "value": "50MP main + 64MP tele + 48MP ultra-wide",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "1363c113-f7b0-4267-8290-1cb15b156d5e",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "Battery",
+      "value": "5400 mAh",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e8fee802-af12-4ba5-80d3-581be0dfc723",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "Charging",
+      "value": "100W wired, 50W wireless",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "dd48e10b-2c0b-406d-a9cc-461a15e6e93d",
+      "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
+      "name": "Storage",
+      "value": "256GB\u20131TB",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d5a1058f-2776-4f7e-844f-af341e3fbedc",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Display",
+      "value": "6.5-inch 4K HDR OLED 120Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4349f8c8-fb92-4046-9e76-dc93bd0f8248",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Chip",
+      "value": "Snapdragon 8 Gen 2",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "6ba79285-7812-4c89-a54e-93b6d293717f",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Camera",
+      "value": "48MP triple-lens with Zeiss optics",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "b57c2eb0-d20d-4463-a2b2-6c0008eb525f",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Battery",
+      "value": "5000 mAh",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "17bb7347-a5e1-4e61-80ac-529f98212a22",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Storage",
+      "value": "256GB\u2013512GB",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "bbddc312-ea0b-4f12-8664-062f768014b6",
+      "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
+      "name": "Audio",
+      "value": "3.5mm jack + LDAC Bluetooth",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "63a169fb-47ae-4597-ae94-0c71172a230a",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Display",
+      "value": "6.7-inch LTPO OLED 120Hz",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a462557e-106d-4717-9dbd-b1b36a8a283d",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Chip",
+      "value": "Snapdragon 8s Gen 3",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "152944d4-38e7-4ee6-99a1-40e55fca5f9c",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Camera",
+      "value": "50MP main + 50MP ultra-wide",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2f36710a-a682-4b1c-9781-8d70ee2d1092",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Battery",
+      "value": "5000 mAh",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "79c2814a-cc85-4afa-b661-03b4a332f122",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Charging",
+      "value": "45W wired, 15W wireless",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "488b27c9-ec24-4635-8593-ccbc4992b37b",
+      "product_id": "d20e91e1-00a7-4b6a-b99a-ebaae4fdc9b2",
+      "name": "Design",
+      "value": "Glyph Interface LED matrix",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ea9d0270-2d6d-4e11-a171-621bc83efeee",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Frame",
+      "value": "Commercial-grade steel",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "d5166dd4-fe75-41bd-852d-e1a1e81b17bf",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Height Range",
+      "value": "24-50 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2b25268b-0704-49f1-be38-b36f98549d4c",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Top Size",
+      "value": "60x30 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "70041895-39f8-4a9c-80fd-6358460c8385",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Weight Capacity",
+      "value": "530 lbs",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "69923c3b-fc62-4004-be10-368dd50733fb",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Motors",
+      "value": "Dual-motor",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "05352626-54f3-415e-8071-d09e32876b2c",
+      "product_id": "896e4c80-9a40-410a-bc23-768e9b6c6674",
+      "name": "Warranty",
+      "value": "15 years",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "135e1b8a-0f86-4824-8ebb-535b504795b4",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Frame",
+      "value": "Aluminum/steel",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "45cdc5c3-327d-4d7e-8e3f-847fbb946882",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Height Range",
+      "value": "24-50.9 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "18faa34c-abc4-4dd4-bf55-3a101ff78969",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Top Size",
+      "value": "48x24 to 80x30 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "1a44bea9-3022-41d4-b50a-3252f6c69a1c",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Weight Capacity",
+      "value": "355 lbs",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0fe19aa8-89d2-413d-b5e9-bb18777fd9a9",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Motors",
+      "value": "Single or dual-motor options",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ea968d98-337f-4a44-9ddf-628952a2b484",
+      "product_id": "11987caa-ecfe-4b7a-9fd1-cea7dab10181",
+      "name": "Warranty",
+      "value": "7 years",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "af3cfe69-2c20-4116-8312-80bfbe9b65df",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Frame",
+      "value": "Steel",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "56e541aa-c09a-4622-b947-044c6a04dc89",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Height Range",
+      "value": "26-48 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a24be5d4-c205-4626-9775-0684d35e5683",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Top Size",
+      "value": "53x29 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "26d74ae5-3202-4d96-9dbc-30eca3e2fd61",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Weight Capacity",
+      "value": "350 lbs",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "df91665c-ff60-4433-868c-052af7bb3417",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Motors",
+      "value": "Dual-motor",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0ae6ce50-181e-441c-b0dd-6b987d7e6781",
+      "product_id": "3a84580d-4a8e-44d7-a1ae-c79668be63a5",
+      "name": "Warranty",
+      "value": "5 years",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "8812efe5-7357-4e9f-9568-847e3c98bdfe",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "Frame",
+      "value": "Steel",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "2edc2253-a46a-45a1-aec5-3a2cb3accc92",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "Height Range",
+      "value": "26-47 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "4b8ef60b-d1d2-4f81-b715-f859b42af4d8",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "Top Size",
+      "value": "55x31 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "579c1513-8484-4f2a-84c4-e7fd48152346",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "Weight Capacity",
+      "value": "330 lbs",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "a469ef8f-da8b-4098-8e5b-24295aaff0d9",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "Motors",
+      "value": "Single-motor",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "935813fd-b1b3-4d8d-a22e-68ca6180f449",
+      "product_id": "40133361-d205-4e55-8e55-5c4bfe223caa",
+      "name": "Warranty",
+      "value": "10 years",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "0c8d490c-d43b-4b44-b7fd-a3cfcdb4d5e2",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Frame",
+      "value": "Steel",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "445acf16-51ad-449b-a52a-658946e63c7a",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Height Range",
+      "value": "27-48 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "566eb3d4-f314-40c4-ab20-7c633d76f912",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Top Size",
+      "value": "60x30 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "57663ae4-5c36-4e06-a773-74fb90488c0c",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Weight Capacity",
+      "value": "200 lbs",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "3c600d10-3d4b-4be8-8e2b-ebc8558c1238",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Motors",
+      "value": "Dual-motor",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ec1ba507-41e5-476b-9dbf-0b5797e31aa4",
+      "product_id": "2249edf3-5eab-48e8-9f5b-215b65b22fcc",
+      "name": "Warranty",
+      "value": "7 years",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "1a948538-6ded-4c29-ab7c-c86b298e0504",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "Frame",
+      "value": "Steel",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "56238566-6a8b-4dab-850c-2e5168b8ddd8",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "Height Range",
+      "value": "24-50 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "abc98106-9748-442b-b93a-d3bf6e04c3e7",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "Top Size",
+      "value": "48x24 to 80x30 inches",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7cc24b4a-3d21-4491-907c-0ab2bb3bb6c7",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "Weight Capacity",
+      "value": "355 lbs",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "7b21b7eb-b984-48a2-b406-68362479a87f",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "Motors",
+      "value": "Dual-motor",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "50b2a2ca-44dc-42e5-b570-c89d5364d358",
+      "product_id": "5d2ca9a8-a46c-4265-9c24-5acaa0abb57d",
+      "name": "Warranty",
+      "value": "7 years",
+      "unit": null,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ],
   "assets": [],
@@ -7661,7 +9947,7 @@
       "id": "69b1cfaa-612d-47df-bf59-8ee0b7c8724f",
       "ranking_id": "f9828aba-e4f9-4a61-afc9-d450b4b4cb15",
       "question": "What monitor refresh rate do I need for gaming?",
-      "answer": "For competitive esports, 240–480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
+      "answer": "For competitive esports, 240\u2013480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7688,7 +9974,7 @@
       "id": "eea12d76-375b-4970-84f0-f3c763531cdc",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How do I adjust my office chair for proper posture?",
-      "answer": "Set seat height so feet are flat and knees at 90°. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90–110°. Recline slightly (100–110°) to reduce spinal disc pressure.",
+      "answer": "Set seat height so feet are flat and knees at 90\u00b0. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90\u2013110\u00b0. Recline slightly (100\u2013110\u00b0) to reduce spinal disc pressure.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7706,7 +9992,7 @@
       "id": "c6d88936-c6f7-4c40-acc6-19ea2d6d1195",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How long should an office chair last?",
-      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10–15 years with proper maintenance. Warranty length is a good proxy—12 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3–5 years.",
+      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10\u201315 years with proper maintenance. Warranty length is a good proxy\u201412 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3\u20135 years.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7715,7 +10001,7 @@
       "id": "1bbfd241-d0ec-4002-a856-ceab49b03f42",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "What's the difference between USB 3.2, USB4, and Thunderbolt 4 for external SSDs?",
-      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s—fine for backups. USB4 hits 2,000–3,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
+      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s\u2014fine for backups. USB4 hits 2,000\u20133,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7733,7 +10019,7 @@
       "id": "743aa0dd-f923-4799-8eb2-6cbd00900543",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "How often should I replace my external SSD?",
-      "answer": "NAND flash wears out after ~3,000–5,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5–7 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
+      "answer": "NAND flash wears out after ~3,000\u20135,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5\u20137 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7850,7 +10136,7 @@
       "id": "c9fe1d61-b413-45c8-a227-ddf0d1170ae0",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "question": "What's the difference between Cherry MX, Gateron, and Kailh switches?",
-      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget — all are reliable in 2026.",
+      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget \u2014 all are reliable in 2026.",
       "display_order": 1,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -7868,7 +10154,7 @@
       "id": "2ca843e6-d310-423b-849c-ae3df1a923eb",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "question": "Is wireless gaming keyboard latency actually good enough for esports?",
-      "answer": "Yes — modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
+      "answer": "Yes \u2014 modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -7886,7 +10172,7 @@
       "id": "75232757-ba66-4280-aeec-0960d0e9b018",
       "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
       "question": "How long do ANC headphone batteries last, and can they be replaced?",
-      "answer": "Most modern ANC headphones last 20–60 hours per charge and batteries typically endure 300–500 full cycles (~2–3 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
+      "answer": "Most modern ANC headphones last 20\u201360 hours per charge and batteries typically endure 300\u2013500 full cycles (~2\u20133 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
       "display_order": 2,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -7895,7 +10181,7 @@
       "id": "0eaf7e27-37c0-48ec-a0de-c2accb84f83b",
       "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
       "question": "Are wireless headphones safe for air travel?",
-      "answer": "Yes — all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
+      "answer": "Yes \u2014 all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -7904,7 +10190,7 @@
       "id": "1bc7a0ba-a717-48d3-bf3a-359db4419bae",
       "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
       "question": "What should I look for in a tablet stand for video calls?",
-      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10–15°) helps with framing without you having to look down.",
+      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10\u201315\u00b0) helps with framing without you having to look down.",
       "display_order": 1,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -7913,7 +10199,7 @@
       "id": "af9cd5ba-aee0-4d94-a317-69396bbe87bf",
       "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
       "question": "Can I mount a tablet stand on a car dashboard?",
-      "answer": "Yes — vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
+      "answer": "Yes \u2014 vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
       "display_order": 2,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -7931,7 +10217,7 @@
       "id": "e76f8896-a6b9-4a8e-992b-f34b0ae98c5e",
       "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
       "question": "Is an expensive espresso machine worth it for home use?",
-      "answer": "If you drink 2+ espresso-based drinks daily and appreciate quality, a 00+ machine pays off in 6-12 months vs. café purchases. However, if you primarily drink drip coffee or are new to espresso, start with a quality drip brewer or a pod system — the upgrade path is expensive and iterative.",
+      "answer": "If you drink 2+ espresso-based drinks daily and appreciate quality, a 00+ machine pays off in 6-12 months vs. caf\u00e9 purchases. However, if you primarily drink drip coffee or are new to espresso, start with a quality drip brewer or a pod system \u2014 the upgrade path is expensive and iterative.",
       "display_order": 1,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -7940,7 +10226,7 @@
       "id": "193def9b-2ead-4f58-b75d-351ee8e2b57e",
       "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
       "question": "What is the difference between 15-bar and 19-bar espresso machines?",
-      "answer": "Bar pressure refers to the pump force pushing water through the grounds. In practice, 9 bars is the ideal extraction pressure — most machines with higher pressure ratings simply regulate down to 9 bars internally. The difference between 15-bar and 19-bar machines is negligible in actual brew quality; grind consistency and temperature stability matter far more.",
+      "answer": "Bar pressure refers to the pump force pushing water through the grounds. In practice, 9 bars is the ideal extraction pressure \u2014 most machines with higher pressure ratings simply regulate down to 9 bars internally. The difference between 15-bar and 19-bar machines is negligible in actual brew quality; grind consistency and temperature stability matter far more.",
       "display_order": 2,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -7949,7 +10235,7 @@
       "id": "8f4acb6c-4446-46a2-ae34-8bb8ce509e7b",
       "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
       "question": "Do I need a built-in grinder or can I buy pre-ground coffee?",
-      "answer": "A built-in grinder is strongly recommended for espresso — fresh grinding immediately before extraction preserves volatile aromatics. Pre-ground coffee degrades significantly within 15-30 minutes of grinding. For drip brewers, pre-ground works fine if used within a week of opening, but fresh-ground still tastes noticeably better.",
+      "answer": "A built-in grinder is strongly recommended for espresso \u2014 fresh grinding immediately before extraction preserves volatile aromatics. Pre-ground coffee degrades significantly within 15-30 minutes of grinding. For drip brewers, pre-ground works fine if used within a week of opening, but fresh-ground still tastes noticeably better.",
       "display_order": 3,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -7985,7 +10271,7 @@
       "id": "fe9d95d4-8a02-451c-a690-4c8287271e17",
       "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
       "question": "Is air-fried food actually healthier?",
-      "answer": "Air fryers use 80-90% less oil than deep frying, which significantly reduces fat content in foods like fries and wings. However, the high heat can produce more acrylamide in starchy foods than conventional ovens. Used as intended — as a lower-oil alternative to deep frying — they are meaningfully healthier.",
+      "answer": "Air fryers use 80-90% less oil than deep frying, which significantly reduces fat content in foods like fries and wings. However, the high heat can produce more acrylamide in starchy foods than conventional ovens. Used as intended \u2014 as a lower-oil alternative to deep frying \u2014 they are meaningfully healthier.",
       "display_order": 1,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -8007,6 +10293,87 @@
       "display_order": 3,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
+    },
+    {
+      "id": "d4b6cb19-df6a-402a-a195-27f0c7490688",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "question": "What GPU do I need for 1440p gaming in 2026?",
+      "answer": "For smooth 1440p gaming at high settings, an NVIDIA RTX 4070 or AMD RX 7800M is the sweet spot. These GPUs handle most AAA titles at 60+ fps with detail turned up. Enthusiasts chasing 165\u2013240Hz at 1440p should step up to an RTX 4080 or 4090.",
+      "display_order": 1,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "5a72d82c-0061-4cc8-b568-db5940ef74f0",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "question": "Should I buy a gaming laptop or a desktop?",
+      "answer": "Gaming laptops win for portability and space savings, but desktops still deliver more performance per dollar and better upgrade paths. If you travel often or have limited space, a laptop makes sense. If raw fps and future-proofing matter most, build a desktop.",
+      "display_order": 2,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "f0c776ae-e81c-405b-9215-83322d63c2fa",
+      "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
+      "question": "How much RAM do I need for gaming in 2026?",
+      "answer": "32GB DDR5 is the new standard for gaming laptops \u2014 it handles modern titles plus background streaming/tasks without slowdowns. 16GB is still acceptable for strictly gaming, but 64GB is overkill unless you're also doing video editing or 3D rendering.",
+      "display_order": 3,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "41a0268a-bfec-48df-b72d-e84fd1764813",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "question": "iPhone vs Android in 2026 \u2014 which should I choose?",
+      "answer": "Choose iPhone if you value long software support (7+ years), seamless ecosystem integration, and best-in-class video recording. Choose Android if you want more customization, better zoom cameras, expandable storage (on some models), or specific hardware features like S Pen or high-wattage charging. Your existing device ecosystem often decides.",
+      "display_order": 1,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "dce2c118-9d68-4b1c-bba0-b53bbbe20260",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "question": "How important is 5G in a smartphone in 2026?",
+      "answer": "5G is standard in all mid-range and flagship phones, and coverage is now widespread in urban/suburban areas. The real differentiator is mmWave vs sub-6 \u2014 mmWave offers blistering speeds in dense cities but limited coverage. For most users, good 4G/LTE remains sufficient, but 5G future-proofs your purchase.",
+      "display_order": 2,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "82b3a016-01db-45bd-8730-2315c1a29b49",
+      "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
+      "question": "Should I buy a flagship phone or a mid-range model?",
+      "answer": "Flagships deliver the best cameras, display tech, and raw performance, but mid-range phones (Pixel A-series, Galaxy A-series, OnePlus Nord) now offer excellent everyday experiences for half the price. If photography and gaming matter most, flagship. If you just need a reliable, smooth phone for social/media, mid-range often makes more economic sense.",
+      "display_order": 3,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "e52e5a8f-8cc7-4348-b476-53725d5d29de",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "question": "Are standing desks worth the investment?",
+      "answer": "If you sit 6+ hours daily, a standing desk can reduce back pain and improve circulation. The key is alternating between sitting and standing \u2014 aim for 30\u201360 minute intervals. Quality matters too: a stable, smooth-adjusting desk is more likely to be used consistently. Budget desks that wobble or jam get abandoned quickly.",
+      "display_order": 1,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ed70f540-8b7d-4fa7-befc-e13641bff4dc",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "question": "What height should my standing desk be?",
+      "answer": "Set your desk so your elbows rest at 90\u2013110\u00b0 with wrists flat on the keyboard. Your monitor top should be at or slightly below eye level. A footrest or anti-fatigue mat helps distribute weight. If you're tall or short, check the desk's minimum/maximum height before buying.",
+      "display_order": 2,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
+    },
+    {
+      "id": "ac71f3fb-2190-4ef5-b3e6-37f970f3fbbe",
+      "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
+      "question": "Can a standing desk hold multiple monitors?",
+      "answer": "Yes \u2014 most dual- and triple-monitor arms clamp to the desk edge. Ensure your desk's weight capacity exceeds your monitor+arm total (typically 20-40 lbs per arm). For heavy CRT monitors or multiple large displays, lean toward a commercial-grade desk with 500+ lb capacity.",
+      "display_order": 3,
+      "created_at": "2026-04-18T02:14:08.127568+00:00",
+      "updated_at": "2026-04-18T02:14:08.127568+00:00"
     }
   ]
 }
