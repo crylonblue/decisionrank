@@ -1,6 +1,6 @@
 import { getCategoryBySlug, getAllCategories, getRankingCountsByCategory } from '@/lib/data';
 import { notFound } from 'next/navigation';
-import { Suspense, Fragment } from 'react';
+import { Suspense } from 'react';
 import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -16,6 +16,7 @@ import { getEnhancedDescription, getCategoryFAQs } from '@/lib/category-enhancem
 import { CategoryLinks } from '@/components/category-links';
 import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { FeaturedRankings } from '@/components/featured-rankings';
+import { UseCaseModule } from '@/components/use-case-module';
 
 export const dynamic = 'force-dynamic';
 
@@ -129,13 +130,13 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
   // Compute related categories based on adjacency mapping
   const relatedSlugs = getRelatedCategorySlugs(categorySlug);
-  const relatedCategories = categories.filter(
-    c => relatedSlugs.includes(c.slug) && c.slug !== categorySlug
+  const relatedCategories = allCategories.filter(
+    (c: Category) => relatedSlugs.includes(c.slug) && c.slug !== categorySlug
   );
   const displayCategories =
     relatedCategories.length > 0
       ? relatedCategories
-      : categories.filter(c => c.slug !== categorySlug).slice(0, 4);
+      : allCategories.filter((c: Category) => c.slug !== categorySlug).slice(0, 4);
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <section className="py-12 bg-muted/30" id="faq">
@@ -222,6 +223,9 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             </span>
           </div>
         </div>
+
+        {/* Use-case blocks + query-intent long-tail phrases */}
+        <UseCaseModule categorySlug={categorySlug} />
 
         {/* Related Categories - Internal Linking */}
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
