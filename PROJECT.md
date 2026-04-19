@@ -9,8 +9,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
-- **2026-04-19 02:15 (Bob heartbeat):** Executed code-only seeding of 3 more buyer-intent categories per task 1776553314791. Added Monitor Arms, Stream Decks, Smart Lighting to `scripts/.seed-payload.json` with full rankings (6 products each), specs, pros/cons, verdict copy, and category-specific FAQs. Total additions: +3 categories, +18 products, +108 specs, +108 sentiments, +15 FAQs. Convex import still blocked — not attempted. Categories deepen adjacent commercial-intent clusters: home office (Monitor Arms), creator gear (Stream Decks), smart home (Smart Lighting).
-  - Task `1776553314791` moved to **done**.
+- **2026-04-19 02:25 (Bob subagent, task 1776553314827):** Built long-tail SEO modules for category pages — two new files and an integration:
+  - `lib/category-use-cases.ts`: Structured use-case + query-intent data for 15 categories (air-fryers, air-purifiers, coffee-makers, external-ssds, microphones, monitors, noise-cancelling-headphones, office-chairs, robot-vacuums, smart-watches, standing-desks, webcams, wireless-earbuds, mechanical-keyboards, espresso-machines) with 4 use-case blocks and 8 long-tail query phrases per category. Includes generic fallback for any unknown slugs.
+  - `components/use-case-module.tsx`: Renders (1) **Editor's Picks** grid — scenario-based 'Best for X' cards linking to filtered search, and (2) **People Also Search** section — long-tail phrase rows with intent badges (Guide/Buy/Compare/Find) also linking to filtered results.
+  - Integrated `UseCaseModule` into `app/[category]/page.tsx` after the last-updated metadata block and before Related Categories.
+  - Also fixed pre-existing bug where `categories` was used instead of `allCategories` in category page.
+  - Committed as `ecad959`. Task `1776553314827` moved to **done**.
 
 - **2026-04-19 02:20 (Bob heartbeat subagent):** Thickened category-page editorial content for 9 seeded categories lacking rich descriptions and FAQs. Added multi-paragraph ENHANCED_CATEGORY_DESCRIPTIONS and category-specific FAQ blocks for: external-ssds, microphones, monitors, noise-cancelling-headphones, office-chairs, smartphones, tablet-stands-mounts, usb-c-hubs, webcams. Descriptions cover target buyer, core evaluation criteria, real-world tradeoffs, and buyer guidance — reusing existing patterns from air-fryers, espresso-machines, gaming-laptops, mattresses. Each category now has 3 targeted FAQs replacing the generic fallbacks. Increases indexable editorial depth on the newest category pages. Task 1776553314817 moved to **done**.
   - Task `1776553314817` moved to **done**.
