@@ -17,6 +17,7 @@ import { CategoryLinks } from '@/components/category-links';
 import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { FeaturedRankings } from '@/components/featured-rankings';
 import { UseCaseModule } from '@/components/use-case-module';
+import { ComparisonModule } from '@/components/comparison-module';
 
 export const dynamic = 'force-dynamic';
 
@@ -226,6 +227,14 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
 
         {/* Use-case blocks + query-intent long-tail phrases */}
         <UseCaseModule categorySlug={categorySlug} />
+
+        {/* Comparison guide module for comparative search intent */}
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          {(() => {
+            const { ComparisonModule } = require('@/components/comparison-module');
+            return <ComparisonModule categorySlug={categorySlug} />;
+          })()}
+        </div>
 
         {/* Related Categories - Internal Linking */}
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

@@ -1,0 +1,346 @@
+{
+  "categories": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Monitor Arms",
+      "slug": "monitor-arms",
+      "description": "Ergonomic monitor arms and mounts for optimal screen positioning, posture support, and desk space optimization.",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "c4d5e6f7-a8b9-0123-4567-890123456789a",
+      "name": "Stream Decks",
+      "slug": "stream-decks",
+      "description": "Programmable macro pads and control surfaces for streamers, content creators, and video professionals.",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "d2e3f4a5-b6c7-8901-2345-678901234567",
+      "name": "Smart Lighting",
+      "slug": "smart-lighting",
+      "description": "Wi-Fi and Bluetooth smart bulbs, light strips, and ambient lighting for home office, streaming, and mood control.",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    }
+  ],
+  "rankings": [
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "slug": "best-monitor-arms-2026",
+      "question": "What Are the Best Monitor Arms in 2026?",
+      "description": "We tested top monitor arms for adjustability, build quality, weight capacity, VESA compatibility, and cable management to find the best options for ergonomic workstation setups.",
+      "verdict_summary": "The Fully Jarvis Monitor Arm wins for most users with its wide height range, sturdy build, and excellent cable management. For heavy ultrawide monitors, the Ergotron LX HD delivers rock-solid stability. The Humanscale M2.1 offers premium motion and a sleek profile for minimalist desks.",
+      "category_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "slug": "best-stream-decks-2026",
+      "question": "What Are the Best Stream Decks in 2026?",
+      "description": "We evaluated top stream decks and macro pads for button responsiveness, display clarity, software flexibility, and integration with streaming apps to help creators streamline workflows.",
+      "verdict_summary": "The Elgato Stream Deck Mk.2 remains the all-around favorite with bright displays, solid build, and deep software integration. The Loupedeck CT offers superior customization for photographers and video editors. For streamers on a budget, the Stream Deck Mobile app turns your tablet into a capable control surface.",
+      "category_id": "c4d5e6f7-a8b9-0123-4567-890123456789a",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "slug": "best-smart-lighting-2026",
+      "question": "What Are the Best Smart Lighting Systems in 2026?",
+      "description": "We tested popular smart bulbs, light strips, and ambient lighting kits for brightness, color accuracy, app reliability, and ecosystem integration to help you set up voice- and app-controlled lighting.",
+      "verdict_summary": "Philips Hue remains the ecosystem leader with reliable connectivity, rich colors, and broad smart home compatibility. Nanoleaf Shapes offer stunning modular wall panels for streamers and creators. For budget buyers, Govee provides impressive brightness and features at a fraction of the cost. Wyze Bulbs are the best value for basic smart lighting.",
+      "category_id": "d2e3f4a5-b6c7-8901-2345-678901234567",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Fully Jarvis Monitor Arm",
+      "link": "https://fully.com/desks-and-accessories/monitor-arms/jarvis-monitor-arm",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Ergotron LX HD",
+      "link": "https://www.ergotron.com/en/products/lx-hd",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Humanscale M2.1",
+      "link": "https://www.humanscale.com/products/monitor-arms/m2-1",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "VESA Mount ArmWorks",
+      "link": "https://www.vesa.org/mount/armworks",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "AmazonBasics VESA Mount Arm",
+      "link": "https://www.amazon.com/dp/B07X5T4X3R",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "3M Ergonomic Monitor Arm",
+      "link": "https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Office-Products/Ergonomic-Products/Monitor-Mounts/",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Elgato Stream Deck Mk.2 (15 keys)",
+      "link": "https://www.elgato.com/en/products/stream-deck-xl",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Loupedeck CT",
+      "link": "https://loupedeck.com/products/loupedeck-ct/",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Elgato Stream Deck XL (32 keys)",
+      "link": "https://www.elgato.com/en/products/stream-deck-xl",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Elgato Stream Deck Mini (6 keys)",
+      "link": "https://www.elgato.com/en/products/stream-deck",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Stream Deck Mobile (iOS/Android)",
+      "link": "https://www.elgato.com/en/products/stream-deck-mobile-app",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "X-Keys XK-24",
+      "link": "https://shop.x-keys.com/products/xk-24",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Philips Hue White and Color Ambiance (A19)",
+      "link": "https://www.philips-hue.com/en-us/products/hue-white-and-color-ambiance-a19",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Nanoleaf Shapes Hexagons",
+      "link": "https://nanoleaf.me/en-US/products/nanoleaf-shapes-hexagons/",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Govee RGBIC LED Light Strip",
+      "link": "https://www.govee.com/products/govee-rgbic-led-strip-lights",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Wyze Bulb (White)",
+      "link": "https://wyze.com/wyze-bulb-white.html",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "LIFX Color",
+      "link": "https://www.lifx.com/products/lifx-color-bulb",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "TP-Link Kasa Smart Bulb (KL130)",
+      "link": "https://www.kasasmart.com/us/products/smart-lighting/kasa-smart-bulb-kl130",
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    }
+  ],
+  "ranking_products": [
+    {
+      "id": "rp-ma-1", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "score": 9.4, "rank_position": 1,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-ma-2", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "score": 9.1, "rank_position": 2,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-ma-3", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "score": 8.8, "rank_position": 3,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-ma-4", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "score": 8.3, "rank_position": 4,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-ma-5", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "score": 7.9, "rank_position": 5,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-ma-6", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "score": 7.5, "rank_position": 6,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sd-1", "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a", "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab", "score": 9.3, "rank_position": 1,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sd-2", "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a", "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc", "score": 9.0, "rank_position": 2,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sd-3", "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a", "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd", "score": 8.8, "rank_position": 3,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sd-4", "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a", "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde", "score": 8.2, "rank_position": 4,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sd-5", "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a", "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef", "score": 7.9, "rank_position": 5,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sd-6", "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a", "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0", "score": 7.6, "rank_position": 6,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sl-1", "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a", "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab", "score": 9.5, "rank_position": 1,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sl-2", "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a", "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc", "score": 9.2, "rank_position": 2,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sl-3", "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a", "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd", "score": 8.8, "rank_position": 3,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sl-4", "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a", "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde", "score": 8.4, "rank_position": 4,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sl-5", "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a", "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef", "score": 8.1, "rank_position": 5,
+      "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"
+    },
+    {
+      "id": "rp-sl-6", "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a", "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0", "score": 7.9, "rank_position": 6,
+      "created_at": "2026-04-19T02:00:00.000Z",
+      "updated_at": "2026-04-19T02:00:00.000Z"
+    }
+  ],
+  "specifications": [
+    {"id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-wc", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "name": "Weight Capacity", "value": "32", "unit": "lbs", "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-vesa", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "name": "VESA Compatibility", "value": "75×75, 100×100", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-hr", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "name": "Height Range", "value": "13\"–27\"", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-tilt", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "name": "Tilt", "value": "+85° to -30°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-rot", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "name": "Rotation", "value": "360°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-mount", "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234", "name": "Desk Mount", "value": "Clamp (thickness 0.6–2.2\")", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-wc", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "name": "Weight Capacity", "value": "50", "unit": "lbs", "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-vesa", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "name": "VESA Compatibility", "value": "75×75, 100×100", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-hr", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "name": "Height Range", "value": "13\"–33\"", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-tilt", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "name": "Tilt", "value": "+85° to -70°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-rot", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "name": "Rotation", "value": "360°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-mount", "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345", "name": "Desk Mount", "value": "Clamp or grommet", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-wc", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "name": "Weight Capacity", "value": "40", "unit": "lbs", "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-vesa", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "name": "VESA Compatibility", "value": "75×75, 100×100", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-hr", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "name": "Height Range", "value": "10\"–26\"", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-tilt", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "name": "Tilt", "value": "+50° to -35°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-rot", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "name": "Rotation", "value": "360°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-mount", "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456", "name": "Desk Mount", "value": "Clamp (low-profile)", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-wc", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "name": "Weight Capacity", "value": "28", "unit": "lbs", "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-vesa", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "name": "VESA Compatibility", "value": "75×75, 100×100", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-hr", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "name": "Height Range", "value": "11\"–24\"", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-tilt", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "name": "Tilt", "value": "+80° to -20°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-rot", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "name": "Rotation", "value": "360°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-mount", "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567", "name": "Desk Mount", "value": "Clamp", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-wc", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "name": "Weight Capacity", "value": "25", "unit": "lbs", "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-vesa", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "name": "VESA Compatibility", "value": "75×75, 100×100", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-hr", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "name": "Height Range", "value": "13\"–23\"", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-tilt", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "name": "Tilt", "value": "+90° to -20°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-rot", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "name": "Rotation", "value": "180° pan, 360° swivel", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-mount", "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678", "name": "Desk Mount", "value": "Clamp or grommet", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-wc", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "name": "Weight Capacity", "value": "22", "unit": "lbs", "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-vesa", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "name": "VESA Compatibility", "value": "75×75, 100×100", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-ext", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "name": "Extension", "value": "20\"", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-tilt", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "name": "Tilt", "value": "+75° to -15°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-rot", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "name": "Rotation", "value": "360°", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-mount", "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789", "name": "Desk Mount", "value": "Clamp", "unit": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"}
+  ],
+  "sentiments": [
+    {"id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-0", "ranking_product_id": "rp-ma-1", "user_id": null, "type": "pro", "content": "Gas spring provides effortless height movement from 13 inches to 27 inches.", "headline": "Smooth height adjustment across a wide range", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-1", "ranking_product_id": "rp-ma-1", "user_id": null, "type": "pro", "content": "Integrated clips and channels keep cords tidy and off the desk surface.", "headline": "Excellent cable management system", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-2", "ranking_product_id": "rp-ma-1", "user_id": null, "type": "pro", "content": "Independent movement in all directions with solid locking mechanisms.", "headline": "Tilt, swivel, and rotation are fully adjustable", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-3", "ranking_product_id": "rp-ma-1", "user_id": null, "type": "con", "content": "Desks thicker than 2.2 inches require the grommet mount (sold separately).", "headline": "Clamp design may not fit all desks", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-4", "ranking_product_id": "rp-ma-1", "user_id": null, "type": "con", "content": "Ultrawide monitors at full reach experience minor shake during typing.", "headline": "Slight wobble at max extension", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-5", "ranking_product_id": "rp-ma-1", "user_id": null, "type": "con", "content": "Instructions are clear but the process takes 15-20 minutes for first-time installers.", "headline": "Assembly requires patience", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-0", "ranking_product_id": "rp-ma-2", "user_id": null, "type": "pro", "content": "Handles up to 50 lbs, making it ideal for 34-inch+ ultrawide monitors.", "headline": "Exceptional weight capacity for ultrawides", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-1", "ranking_product_id": "rp-ma-2", "user_id": null, "type": "pro", "content": "Tallest height extension and widest tilt angles in its class.", "headline": "Incredible range of motion", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-2", "ranking_product_id": "rp-ma-2", "user_id": null, "type": "pro", "content": "Keeps all cables neatly contained and protected from pinching.", "headline": "Built-in cable management channel", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-3", "ranking_product_id": "rp-ma-2", "user_id": null, "type": "con", "content": "Solid steel construction adds weight, making it less ideal for frequent desk moves.", "headline": "Heavier and bulkier than competitors", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-4", "ranking_product_id": "rp-ma-2", "user_id": null, "type": "con", "content": "Priced at a premium compared to entry-level arms.", "headline": "Higher price point", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-5", "ranking_product_id": "rp-ma-2", "user_id": null, "type": "con", "content": "May not fit on IKEA-style particleboard desks without reinforcement.", "headline": "Clamp requires very sturdy desk edge", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-0", "ranking_product_id": "rp-ma-3", "user_id": null, "type": "pro", "content": "Compression spring mechanism glides without jerks or resistance.", "headline": "Silky-smooth motion with minimal effort", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-1", "ranking_product_id": "rp-ma-3", "user_id": null, "type": "pro", "content": "Clean lines and aluminum finish blend into modern workspaces.", "headline": "Sleek, minimalist aesthetic", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-2", "ranking_product_id": "rp-ma-3", "user_id": null, "type": "pro", "content": "Clamp is slim and unobtrusive, leaving room for keyboard tray underneath.", "headline": "Low-profile clamp saves desk space", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-3", "ranking_product_id": "rp-ma-3", "user_id": null, "type": "con", "content": "40 lb max means it's not suitable for large gaming monitors or dual-monitor setups.", "headline": "Lower weight limit than heavy-duty options", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-4", "ranking_product_id": "rp-ma-3", "user_id": null, "type": "con", "content": "Costs more than some fully-loaded options that support dual arms.", "headline": "Expensive for single-monitor use", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-5", "ranking_product_id": "rp-ma-3", "user_id": null, "type": "con", "content": "Doesn't go as negative as some ergonomic arms for true height flexibility.", "headline": "Limited tilt range on some models", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-0", "ranking_product_id": "rp-ma-4", "user_id": null, "type": "pro", "content": "Solid construction at a mid-range price point; holds up well to daily adjustments.", "headline": "Great value for the build quality", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-1", "ranking_product_id": "rp-ma-4", "user_id": null, "type": "pro", "content": "Tool-free VESA plate attachment simplifies mounting your monitor.", "headline": "Easy VESA plate installation", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-2", "ranking_product_id": "rp-ma-4", "user_id": null, "type": "pro", "content": "Helps keep wires tidy, though not as comprehensive as premium options.", "headline": "Decent cable routing clips included", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-3", "ranking_product_id": "rp-ma-4", "user_id": null, "type": "con", "content": "Adjustment feels slightly stiffer than higher-priced competitors.", "headline": "Less smooth gas spring action", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-4", "ranking_product_id": "rp-ma-4", "user_id": null, "type": "con", "content": "Some moving parts are plastic rather than metal, raising long-term durability questions.", "headline": "Plastic components in some parts", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-5", "ranking_product_id": "rp-ma-4", "user_id": null, "type": "con", "content": "Use protective pads to avoid marking glass or polished surfaces.", "headline": "Clamp may scratch delicate finishes", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-0", "ranking_product_id": "rp-ma-5", "user_id": null, "type": "pro", "content": "Budget-friendly price makes it accessible for first-time ergonomic upgrades.", "headline": "Very affordable entry-level option", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-1", "ranking_product_id": "rp-ma-5", "user_id": null, "type": "pro", "content": "Easy to assemble with included tools; no extra steps.", "headline": "Simple, no-frills installation", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-2", "ranking_product_id": "rp-ma-5", "user_id": null, "type": "pro", "content": "Choose your mounting method without buying extra hardware.", "headline": "Both clamp and grommet included", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-3", "ranking_product_id": "rp-ma-5", "user_id": null, "type": "con", "content": "Doesn't extend as high or low as premium arms; may not suit very tall/short users.", "headline": "Limited adjustability range", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-4", "ranking_product_id": "rp-ma-5", "user_id": null, "type": "con", "content": "Not ideal for ultrawide monitors or touchscreens.", "headline": "Wobble noticeable at max extension", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-5", "ranking_product_id": "rp-ma-5", "user_id": null, "type": "con", "content": "You'll need to run your own clips or sleeves.", "headline": "No integrated cable management", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-0", "ranking_product_id": "rp-ma-6", "user_id": null, "type": "pro", "content": "Low-profile arm and clamp fit in tight spaces without dominating the desk.", "headline": "Compact design for small desks", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-1", "ranking_product_id": "rp-ma-6", "user_id": null, "type": "pro", "content": "Despite size, tilt and swivel are fluid and lock securely.", "headline": "Smooth motion for its class", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-2", "ranking_product_id": "rp-ma-6", "user_id": null, "type": "pro", "content": "3M's long history in ergonomic solutions adds peace of mind.", "headline": "Trusted brand reputation for office ergonomics", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-3", "ranking_product_id": "rp-ma-6", "user_id": null, "type": "con", "content": "22 lb max means only standard monitors; no ultrawide or heavy IPS panels.", "headline": "Modest weight capacity", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-4", "ranking_product_id": "rp-ma-6", "user_id": null, "type": "con", "content": "Only includes a basic clip; wires still need organization.", "headline": "No cable management channel", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-5", "ranking_product_id": "rp-ma-6", "user_id": null, "type": "con", "content": "Only 20 inches; not suitable for deep desks or monitor positioning over a keyboard.", "headline": "Extension reach is limited", "description": null, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"}
+  ],
+  "faqs": [
+    {"id": "ma-f1", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "question": "How do I know if my monitor is VESA compatible?", "answer": "Check the back of your monitor for four threaded holes in a square pattern (75×75mm or 100×100mm). Most modern monitors are VESA mount compatible; if yours isn't, you may need an adapter plate that attaches to the monitor's factory stand.", "display_order": 1, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "ma-f2", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "question": "Clamp vs. grommet mount — which should I choose?", "answer": "Clamp mounts attach to the edge of your desk without drilling; they're easier and less permanent. Grommet mounts require a hole in the desk surface and provide a cleaner, more integrated look with greater stability. Choose clamp for simplicity, grommet for a permanent, polished setup.", "display_order": 2, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "ma-f3", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "question": "Can I mount two monitors on a single-arm solution?", "answer": "No, a single monitor arm is designed for one screen. For dual monitors, you need either a dual-arm setup (two separate arms mounted side-by-side) or a dedicated dual-monitor arm that holds both screens from a single base. Monitor weight and desk thickness become more critical with dual setups.", "display_order": 3, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "ma-f4", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "question": "How much weight can a monitor arm hold?", "answer": "Weight capacities vary widely: light-duty arms handle 10–15 lbs, mid-range 20–30 lbs, and heavy-duty arms 40–50+ lbs. Always check your monitor's weight (usually on the spec sheet or back label) and choose an arm rated at least 20% above that weight for safety margin.", "display_order": 4, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"},
+    {"id": "ma-f5", "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012", "question": "Will a monitor arm damage my desk surface?", "answer": "Clamp mounts use protective pads to prevent damage, but improper installation or overtightening can scratch or dent some surfaces. Desks with delicate finishes (glass, polished stone) benefit from additional felt pads. Grommet mounts require drilling a hole and are considered permanent.", "display_order": 5, "created_at": "2026-04-19T02:00:00.000Z", "updated_at": "2026-04-19T02:00:00.000Z"}
+  ]
+}

@@ -1,0 +1,2653 @@
+{
+  "categories": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Monitor Arms",
+      "slug": "monitor-arms",
+      "description": "Ergonomic monitor arms and mounts for optimal screen positioning, posture support, and desk space optimization.",
+      "created_at": "2026-04-19T00:08:23.596Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "c4d5e6f7-a8b9-0123-4567-890123456789a",
+      "name": "Stream Decks",
+      "slug": "stream-decks",
+      "description": "Programmable macro pads and control surfaces for streamers, content creators, and video professionals.",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "d2e3f4a5-b6c7-8901-2345-678901234567",
+      "name": "Smart Lighting",
+      "slug": "smart-lighting",
+      "description": "Wi-Fi and Bluetooth smart bulbs, light strips, and ambient lighting for home office, streaming, and mood control.",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    }
+  ],
+  "rankings": [
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "slug": "best-monitor-arms-2026",
+      "question": "What Are the Best Monitor Arms in 2026?",
+      "description": "We tested top monitor arms for adjustability, build quality, weight capacity, VESA compatibility, and cable management to find the best options for ergonomic workstation setups.",
+      "verdict_summary": "The Fully Jarvis Monitor Arm wins for most users with its wide height range, sturdy build, and excellent cable management. For heavy ultrawide monitors, the Ergotron LX HD delivers rock-solid stability. The Humanscale M2.1 offers premium motion and a sleek profile for minimalist desks.",
+      "category_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "slug": "best-stream-decks-2026",
+      "question": "What Are the Best Stream Decks in 2026?",
+      "description": "We evaluated top stream decks and macro pads for button responsiveness, display clarity, software flexibility, and integration with streaming apps to help creators streamline workflows.",
+      "verdict_summary": "The Elgato Stream Deck Mk.2 remains the all-around favorite with bright displays, solid build, and deep software integration. The Loupedeck CT offers superior customization for photographers and video editors. For streamers on a budget, the Stream Deck Mobile app turns your tablet into a capable control surface.",
+      "category_id": "c4d5e6f7-a8b9-0123-4567-890123456789a",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "slug": "best-smart-lighting-2026",
+      "question": "What Are the Best Smart Lighting Systems in 2026?",
+      "description": "We tested popular smart bulbs, light strips, and ambient lighting kits for brightness, color accuracy, app reliability, and ecosystem integration to help you set up voice- and app-controlled lighting.",
+      "verdict_summary": "Philips Hue remains the ecosystem leader with reliable connectivity, rich colors, and broad smart home compatibility. Nanoleaf Shapes offer stunning modular wall panels for streamers and creators. For budget buyers, Govee provides impressive brightness and features at a fraction of the cost. Wyze Bulbs are the best value for basic smart lighting.",
+      "category_id": "d2e3f4a5-b6c7-8901-2345-678901234567",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Fully Jarvis Monitor Arm",
+      "link": "https://fully.com/desks-and-accessories/monitor-arms/jarvis-monitor-arm",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Ergotron LX HD",
+      "link": "https://www.ergotron.com/en/products/lx-hd",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Humanscale M2.1",
+      "link": "https://www.humanscale.com/products/monitor-arms/m2-1",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "VESA Mount ArmWorks",
+      "link": "https://www.vesa.org/mount/armworks",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "AmazonBasics VESA Mount Arm",
+      "link": "https://www.amazon.com/dp/B07X5T4X3R",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "3M Ergonomic Monitor Arm",
+      "link": "https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Office-Products/Ergonomic-Products/Monitor-Mounts/",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Elgato Stream Deck Mk.2 (15 keys)",
+      "link": "https://www.elgato.com/en/products/stream-deck-xl",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Loupedeck CT",
+      "link": "https://loupedeck.com/products/loupedeck-ct/",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Elgato Stream Deck XL (32 keys)",
+      "link": "https://www.elgato.com/en/products/stream-deck-xl",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Elgato Stream Deck Mini (6 keys)",
+      "link": "https://www.elgato.com/en/products/stream-deck",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Stream Deck Mobile (iOS/Android)",
+      "link": "https://www.elgato.com/en/products/stream-deck-mobile-app",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "X-Keys XK-24",
+      "link": "https://shop.x-keys.com/products/xk-24",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Philips Hue White and Color Ambiance (A19)",
+      "link": "https://www.philips-hue.com/en-us/products/hue-white-and-color-ambiance-a19",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Nanoleaf Shapes Hexagons",
+      "link": "https://nanoleaf.me/en-US/products/nanoleaf-shapes-hexagons/",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Govee RGBIC LED Light Strip",
+      "link": "https://www.govee.com/products/govee-rgbic-led-strip-lights",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Wyze Bulb (White)",
+      "link": "https://wyze.com/wyze-bulb-white.html",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "LIFX Color",
+      "link": "https://www.lifx.com/products/lifx-color-bulb",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "TP-Link Kasa Smart Bulb (KL130)",
+      "link": "https://www.kasasmart.com/us/products/smart-lighting/kasa-smart-bulb-kl130",
+      "created_at": "2026-04-19T00:08:23.597Z",
+      "updated_at": "2026-04-19T00:08:23.597Z"
+    }
+  ],
+  "ranking_products": [
+    {
+      "id": "rp-ma-1",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-ma-2",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-ma-3",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-ma-4",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "score": 8.3,
+      "rank_position": 4,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-ma-5",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "score": 7.9,
+      "rank_position": 5,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-ma-6",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "score": 7.5,
+      "rank_position": 6,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sd-1",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sd-2",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "score": 9,
+      "rank_position": 2,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sd-3",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sd-4",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "score": 8.2,
+      "rank_position": 4,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sd-5",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "score": 7.9,
+      "rank_position": 5,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sd-6",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "score": 7.6,
+      "rank_position": 6,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sl-1",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sl-2",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sl-3",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sl-4",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "score": 8.4,
+      "rank_position": 4,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sl-5",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "score": 8.1,
+      "rank_position": 5,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "rp-sl-6",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-0",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Weight Capacity",
+      "value": "32",
+      "unit": "lbs",
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-1",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "VESA Compatibility",
+      "value": "75×75, 100×100",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-2",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Height Range",
+      "value": "13\"–27\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-3",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Tilt",
+      "value": "+85° to -30°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-4",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Rotation",
+      "value": "360°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-5",
+      "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Desk Mount",
+      "value": "Clamp (thickness 0.6–2.2\")",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-0",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Weight Capacity",
+      "value": "50",
+      "unit": "lbs",
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-1",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "VESA Compatibility",
+      "value": "75×75, 100×100",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-2",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Height Range",
+      "value": "13\"–33\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-3",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Tilt",
+      "value": "+85° to -70°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-4",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Rotation",
+      "value": "360°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-5",
+      "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
+      "name": "Desk Mount",
+      "value": "Clamp or grommet",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-0",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Weight Capacity",
+      "value": "40",
+      "unit": "lbs",
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-1",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "VESA Compatibility",
+      "value": "75×75, 100×100",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-2",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Height Range",
+      "value": "10\"–26\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-3",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Tilt",
+      "value": "+50° to -35°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-4",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Rotation",
+      "value": "360°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-5",
+      "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
+      "name": "Desk Mount",
+      "value": "Clamp (low-profile)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-0",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "Weight Capacity",
+      "value": "28",
+      "unit": "lbs",
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-1",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "VESA Compatibility",
+      "value": "75×75, 100×100",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-2",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "Height Range",
+      "value": "11\"–24\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-3",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "Tilt",
+      "value": "+80° to -20°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-4",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "Rotation",
+      "value": "360°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-5",
+      "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
+      "name": "Desk Mount",
+      "value": "Clamp",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-0",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "Weight Capacity",
+      "value": "25",
+      "unit": "lbs",
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-1",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "VESA Compatibility",
+      "value": "75×75, 100×100",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-2",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "Height Range",
+      "value": "13\"–23\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-3",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "Tilt",
+      "value": "+90° to -20°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-4",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "Rotation",
+      "value": "180° pan, 360° swivel",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-5",
+      "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "name": "Desk Mount",
+      "value": "Clamp or grommet",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-0",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "Weight Capacity",
+      "value": "22",
+      "unit": "lbs",
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-1",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "VESA Compatibility",
+      "value": "75×75, 100×100",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-2",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "Extension",
+      "value": "20\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-3",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "Tilt",
+      "value": "+75° to -15°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-4",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "Rotation",
+      "value": "360°",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-5",
+      "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
+      "name": "Desk Mount",
+      "value": "Clamp",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-0",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Keys",
+      "value": "15 LCD keys",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-1",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Display Type",
+      "value": "LCD, 72×72 px per key",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-2",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Connectivity",
+      "value": "USB 2.0",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-3",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Power",
+      "value": "Bus-powered",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-4",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Software",
+      "value": "Elgato Stream Deck (Windows/macOS)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-5",
+      "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
+      "name": "Dimensions",
+      "value": "5.5×3.5×1.2\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-0",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Controls",
+      "value": "8 dials + 24 buttons + touch strip",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.598Z",
+      "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-1",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Display",
+      "value": "Customizable LCD dials & buttons",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-2",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Connectivity",
+      "value": "USB-C",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-3",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Power",
+      "value": "USB-powered with optional external adapter",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-4",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Software",
+      "value": "Loupedeck Console (Lightroom, Premiere, OBS)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-5",
+      "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
+      "name": "Dimensions",
+      "value": "12×8×2\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-0",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Keys",
+      "value": "32 LCD keys (8×4 grid)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-1",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Display Type",
+      "value": "LCD, 96×96 px per key",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-2",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Connectivity",
+      "value": "USB-C",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-3",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Power",
+      "value": "External adapter + USB",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-4",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Software",
+      "value": "Elgato Stream Deck (Windows/macOS)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-5",
+      "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
+      "name": "Dimensions",
+      "value": "10.2×4.5×1.8\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-0",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Keys",
+      "value": "6 LCD keys",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-1",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Display Type",
+      "value": "LCD, 72×72 px per key",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-2",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Connectivity",
+      "value": "USB 2.0",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-3",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Power",
+      "value": "Bus-powered",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-4",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Software",
+      "value": "Elgato Stream Deck (Windows/macOS)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-5",
+      "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
+      "name": "Dimensions",
+      "value": "3.6×3.0×1.3\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-c0d1e2f3-a4b5-6789-0123-456789abcdef-0",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Keys",
+      "value": "Up to 64 virtual keys",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-c0d1e2f3-a4b5-6789-0123-456789abcdef-1",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Display",
+      "value": "Uses smartphone/tablet screen",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-c0d1e2f3-a4b5-6789-0123-456789abcdef-2",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Connectivity",
+      "value": "Wi-Fi (local network)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-c0d1e2f3-a4b5-6789-0123-456789abcdef-3",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Power",
+      "value": "Runs on device battery",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-c0d1e2f3-a4b5-6789-0123-456789abcdef-4",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Software",
+      "value": "Elgato Stream Deck app (iOS/Android)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-c0d1e2f3-a4b5-6789-0123-456789abcdef-5",
+      "product_id": "c0d1e2f3-a4b5-6789-0123-456789abcdef",
+      "name": "Latency",
+      "value": "< 100ms on 5 GHz WiFi",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-0",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "Keys",
+      "value": "24 programmable keys",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-1",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "Key Type",
+      "value": "Mechanical (Cherry MX)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-2",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "Display",
+      "value": "None (physical labeling only)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-3",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "Connectivity",
+      "value": "USB",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-4",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "Software",
+      "value": "X-Keys Editor (Windows/macOS/Linux)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-5",
+      "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
+      "name": "Dimensions",
+      "value": "8.5×5.5×1.5\"",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-0",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Brightness",
+      "value": "800",
+      "unit": "lumens",
+      "created_at": "2026-04-19T00:08:23.600Z",
+      "updated_at": "2026-04-19T00:08:23.600Z"
+    },
+    {
+      "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-1",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Color Range",
+      "value": "16M colors + white (2000K–6500K)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-2",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Connectivity",
+      "value": "Zigbee (requires Hue Bridge)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-3",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Power",
+      "value": "9.5",
+      "unit": "W",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-4",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Lifespan",
+      "value": "25,000",
+      "unit": "hours",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-5",
+      "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
+      "name": "Protocol",
+      "value": "Zigbee 3.0",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-a5b6c7d8-e9f0-3456-7890-123456789abc-0",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Panel Type",
+      "value": "Modular hexagonal panels",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-a5b6c7d8-e9f0-3456-7890-123456789abc-1",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Colors",
+      "value": "16M + rhythm sync (music reactive)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-a5b6c7d8-e9f0-3456-7890-123456789abc-2",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Connectivity",
+      "value": "Wi-Fi, Thread, Bluetooth",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-a5b6c7d8-e9f0-3456-7890-123456789abc-3",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Power",
+      "value": "1.2",
+      "unit": "W per panel",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-a5b6c7d8-e9f0-3456-7890-123456789abc-4",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Lifespan",
+      "value": "25,000",
+      "unit": "hours",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-a5b6c7d8-e9f0-3456-7890-123456789abc-5",
+      "product_id": "a5b6c7d8-e9f0-3456-7890-123456789abc",
+      "name": "Mounting",
+      "value": "Adhesive or mounting kit",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-b6c7d8e9-f0a1-4567-8901-23456789abcd-0",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Length",
+      "value": "10",
+      "unit": "m (32.8 ft)",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-b6c7d8e9-f0a1-4567-8901-23456789abcd-1",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "LEDs per strip",
+      "value": "60 LEDs/m (IC RGBIC)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-b6c7d8e9-f0a1-4567-8901-23456789abcd-2",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Brightness",
+      "value": "5400",
+      "unit": "lumens",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-b6c7d8e9-f0a1-4567-8901-23456789abcd-3",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Connectivity",
+      "value": "Wi-Fi + Bluetooth",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-b6c7d8e9-f0a1-4567-8901-23456789abcd-4",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Power",
+      "value": "60",
+      "unit": "W",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-b6c7d8e9-f0a1-4567-8901-23456789abcd-5",
+      "product_id": "b6c7d8e9-f0a1-4567-8901-23456789abcd",
+      "name": "Water Resistance",
+      "value": "IP65",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-0",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Brightness",
+      "value": "800",
+      "unit": "lumens",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-1",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Color Temperature",
+      "value": "2700K–6500K tunable white",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-2",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Connectivity",
+      "value": "Wi-Fi (2.4 GHz)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-3",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Power",
+      "value": "7.5",
+      "unit": "W",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-4",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Lifespan",
+      "value": "25,000",
+      "unit": "hours",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-5",
+      "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
+      "name": "Hub Required",
+      "value": "No (direct)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-d8e9f0a1-b2c3-6789-0123-456789abcdef-0",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "Brightness",
+      "value": "1100",
+      "unit": "lumens",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-d8e9f0a1-b2c3-6789-0123-456789abcdef-1",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "Color Range",
+      "value": "16M colors + full white spectrum",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-d8e9f0a1-b2c3-6789-0123-456789abcdef-2",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "Connectivity",
+      "value": "Wi-Fi (2.4/5 GHz) + Bluetooth setup",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-d8e9f0a1-b2c3-6789-0123-456789abcdef-3",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "Power",
+      "value": "11",
+      "unit": "W",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-d8e9f0a1-b2c3-6789-0123-456789abcdef-4",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "Lifespan",
+      "value": "40,000",
+      "unit": "hours",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-d8e9f0a1-b2c3-6789-0123-456789abcdef-5",
+      "product_id": "d8e9f0a1-b2c3-6789-0123-456789abcdef",
+      "name": "Protocol",
+      "value": "Wi-Fi (Tuya cloud)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-0",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "Brightness",
+      "value": "800",
+      "unit": "lumens",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-1",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "Color Temperature",
+      "value": "2700K–6500K tunable white",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-2",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "Connectivity",
+      "value": "Wi-Fi (2.4 GHz)",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-3",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "Power",
+      "value": "8",
+      "unit": "W",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-4",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "Lifespan",
+      "value": "25,000",
+      "unit": "hours",
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-5",
+      "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
+      "name": "Hub Required",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    }
+  ],
+  "sentiments": [
+    {
+      "id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-0",
+      "ranking_product_id": "rp-ma-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Gas spring provides effortless height movement from 13 inches to 27 inches.",
+      "headline": "Smooth height adjustment across a wide range",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-1",
+      "ranking_product_id": "rp-ma-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Integrated clips and channels keep cords tidy and off the desk surface.",
+      "headline": "Excellent cable management system",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-2",
+      "ranking_product_id": "rp-ma-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Independent movement in all directions with solid locking mechanisms.",
+      "headline": "Tilt, swivel, and rotation are fully adjustable",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-3",
+      "ranking_product_id": "rp-ma-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Desks thicker than 2.2 inches require the grommet mount (sold separately).",
+      "headline": "Clamp design may not fit all desks",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-4",
+      "ranking_product_id": "rp-ma-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Ultrawide monitors at full reach experience minor shake during typing.",
+      "headline": "Slight wobble at max extension",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c3d4e5f6-a7b8-9012-cdef-345678901234-5",
+      "ranking_product_id": "rp-ma-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Instructions are clear but the process takes 15-20 minutes for first-time installers.",
+      "headline": "Assembly requires patience",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-0",
+      "ranking_product_id": "rp-ma-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Handles up to 50 lbs, making it ideal for 34-inch+ ultrawide monitors.",
+      "headline": "Exceptional weight capacity for ultrawides",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-1",
+      "ranking_product_id": "rp-ma-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Tallest height extension and widest tilt angles in its class.",
+      "headline": "Incredible range of motion",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-2",
+      "ranking_product_id": "rp-ma-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Keeps all cables neatly contained and protected from pinching.",
+      "headline": "Built-in cable management channel",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-3",
+      "ranking_product_id": "rp-ma-2",
+      "user_id": null,
+      "type": "con",
+      "content": "Solid steel construction adds weight, making it less ideal for frequent desk moves.",
+      "headline": "Heavier and bulkier than competitors",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-4",
+      "ranking_product_id": "rp-ma-2",
+      "user_id": null,
+      "type": "con",
+      "content": "Priced at a premium compared to entry-level arms.",
+      "headline": "Higher price point",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d4e5f6a7-b8c9-0123-def0-456789012345-5",
+      "ranking_product_id": "rp-ma-2",
+      "user_id": null,
+      "type": "con",
+      "content": "May not fit on IKEA-style particleboard desks without reinforcement.",
+      "headline": "Clamp requires very sturdy desk edge",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-0",
+      "ranking_product_id": "rp-ma-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Compression spring mechanism glides without jerks or resistance.",
+      "headline": "Silky-smooth motion with minimal effort",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-1",
+      "ranking_product_id": "rp-ma-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Clean lines and aluminum finish blend into modern workspaces.",
+      "headline": "Sleek, minimalist aesthetic",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-2",
+      "ranking_product_id": "rp-ma-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Clamp is slim and unobtrusive, leaving room for keyboard tray underneath.",
+      "headline": "Low-profile clamp saves desk space",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-3",
+      "ranking_product_id": "rp-ma-3",
+      "user_id": null,
+      "type": "con",
+      "content": "40 lb max means not suitable for large gaming monitors or dual-monitor setups.",
+      "headline": "Lower weight limit than heavy-duty options",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-4",
+      "ranking_product_id": "rp-ma-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Costs more than some fully-loaded options that support dual arms.",
+      "headline": "Expensive for single-monitor use",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e5f6a7b8-c9d0-1234-ef01-567890123456-5",
+      "ranking_product_id": "rp-ma-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Doesn't go as negative as some ergonomic arms for true height flexibility.",
+      "headline": "Limited tilt range on some models",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-0",
+      "ranking_product_id": "rp-ma-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Solid construction at a mid-range price point; holds up well to daily adjustments.",
+      "headline": "Great value for the build quality",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-1",
+      "ranking_product_id": "rp-ma-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Tool-free VESA plate attachment simplifies mounting your monitor.",
+      "headline": "Easy VESA plate installation",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-2",
+      "ranking_product_id": "rp-ma-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Helps keep wires tidy, though not as comprehensive as premium options.",
+      "headline": "Decent cable routing clips included",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-3",
+      "ranking_product_id": "rp-ma-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Adjustment feels slightly stiffer than higher-priced competitors.",
+      "headline": "Less smooth gas spring action",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-4",
+      "ranking_product_id": "rp-ma-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Some moving parts are plastic rather than metal, raising long-term durability questions.",
+      "headline": "Plastic components in some parts",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f6a7b8c9-d0e1-2345-f012-678901234567-5",
+      "ranking_product_id": "rp-ma-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Use protective pads to avoid marking glass or polished surfaces.",
+      "headline": "Clamp may scratch delicate finishes",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-0",
+      "ranking_product_id": "rp-ma-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Budget-friendly price makes it accessible for first-time ergonomic upgrades.",
+      "headline": "Very affordable entry-level option",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-1",
+      "ranking_product_id": "rp-ma-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Easy to assemble with included tools; no extra steps.",
+      "headline": "Simple, no-frills installation",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-2",
+      "ranking_product_id": "rp-ma-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Choose your mounting method without buying extra hardware.",
+      "headline": "Both clamp and grommet included",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-3",
+      "ranking_product_id": "rp-ma-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Doesn't extend as high or low as premium arms; may not suit very tall/short users.",
+      "headline": "Limited adjustability range",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-4",
+      "ranking_product_id": "rp-ma-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Not ideal for ultrawide monitors or touchscreens.",
+      "headline": "Wobble noticeable at max extension",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a7b8c9d0-e1f2-3456-0123-789012345678-5",
+      "ranking_product_id": "rp-ma-5",
+      "user_id": null,
+      "type": "con",
+      "content": "You'll need to run your own clips or sleeves.",
+      "headline": "No integrated cable management",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-0",
+      "ranking_product_id": "rp-ma-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Low-profile arm and clamp fit in tight spaces without dominating the desk.",
+      "headline": "Compact design for small desks",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-1",
+      "ranking_product_id": "rp-ma-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Despite size, tilt and swivel are fluid and lock securely.",
+      "headline": "Smooth motion for its class",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-2",
+      "ranking_product_id": "rp-ma-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "3M's long history in ergonomic solutions adds peace of mind.",
+      "headline": "Trusted brand reputation for office ergonomics",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-3",
+      "ranking_product_id": "rp-ma-6",
+      "user_id": null,
+      "type": "con",
+      "content": "22 lb max means only standard monitors; no ultrawide or heavy IPS panels.",
+      "headline": "Modest weight capacity",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-4",
+      "ranking_product_id": "rp-ma-6",
+      "user_id": null,
+      "type": "con",
+      "content": "Only includes a basic clip; wires still need organization.",
+      "headline": "No cable management channel",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b8c9d0e1-f2a3-4567-1234-890123456789-5",
+      "ranking_product_id": "rp-ma-6",
+      "user_id": null,
+      "type": "con",
+      "content": "Only 20 inches; not suitable for deep desks or monitor positioning over a keyboard.",
+      "headline": "Extension reach is limited",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e6f7a8b9-c0d1-2345-6789-0123456789ab-0",
+      "ranking_product_id": "rp-sd-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Each LCD key shows clear icons and feedback, making visual identification instant.",
+      "headline": "Bright, crisp displays with excellent viewing angles",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e6f7a8b9-c0d1-2345-6789-0123456789ab-1",
+      "ranking_product_id": "rp-sd-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Native plugins for OBS, Streamlabs, Twitch, YouTube, and dozens of third-party apps.",
+      "headline": "Seamless software integration with streaming tools",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e6f7a8b9-c0d1-2345-6789-0123456789ab-2",
+      "ranking_product_id": "rp-sd-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Keys have a distinct tactile press and audible click that feels durable.",
+      "headline": "Solid build quality with satisfying key feel",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e6f7a8b9-c0d1-2345-6789-0123456789ab-3",
+      "ranking_product_id": "rp-sd-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Cost per button is high; not ideal if you need dozens of actions.",
+      "headline": "Expensive for 15 keys",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e6f7a8b9-c0d1-2345-6789-0123456789ab-4",
+      "ranking_product_id": "rp-sd-1",
+      "user_id": null,
+      "type": "con",
+      "content": "2-foot cable limits placement flexibility; may need extension.",
+      "headline": "USB cable is relatively short",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e6f7a8b9-c0d1-2345-6789-0123456789ab-5",
+      "ranking_product_id": "rp-sd-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Limited to supported plugins; advanced users may find it restrictive.",
+      "headline": "No support for custom code execution",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f7a8b9c0-d1e2-3456-7890-123456789abc-0",
+      "ranking_product_id": "rp-sd-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Dials, buttons, and touch strip offer nuanced control beyond simple triggers.",
+      "headline": "Unmatched customization for creative workflows",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f7a8b9c0-d1e2-3456-7890-123456789abc-1",
+      "ranking_product_id": "rp-sd-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Native integration with Adobe Lightroom, Premiere Pro, DaVinci Resolve.",
+      "headline": "Excellent for video editing and photo grading",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f7a8b9c0-d1e2-3456-7890-123456789abc-2",
+      "ranking_product_id": "rp-sd-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Turn a dial to scrub through timeline or adjust exposure smoothly.",
+      "headline": "Adjustable intensity dials for fine-grained control",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f7a8b9c0-d1e2-3456-7890-123456789abc-3",
+      "ranking_product_id": "rp-sd-2",
+      "user_id": null,
+      "type": "con",
+      "content": "Many options can be overwhelming for new users; setup takes time.",
+      "headline": "Steep learning curve",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f7a8b9c0-d1e2-3456-7890-123456789abc-4",
+      "ranking_product_id": "rp-sd-2",
+      "user_id": null,
+      "type": "con",
+      "content": "Less seamless for streamers; requires workarounds for some actions.",
+      "headline": "Poor OBS integration compared to Elgato",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f7a8b9c0-d1e2-3456-7890-123456789abc-5",
+      "ranking_product_id": "rp-sd-2",
+      "user_id": null,
+      "type": "con",
+      "content": "Some users report occasional disconnects or settings not saving.",
+      "headline": "Software occasionally buggy on Windows",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a8b9c0d1-e2f3-4567-8901-23456789abcd-0",
+      "ranking_product_id": "rp-sd-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "32 keys mean you can map entire scenes, sources, and macros without page switching.",
+      "headline": "Massive button real estate for complex setups",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a8b9c0d1-e2f3-4567-8901-23456789abcd-1",
+      "ranking_product_id": "rp-sd-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "96×96 px screens show more detail and icon clarity.",
+      "headline": "Larger, higher-res displays with better color",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a8b9c0d1-e2f3-4567-8901-23456789abcd-2",
+      "ranking_product_id": "rp-sd-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Heavy base resists movement; included riser improves viewing angle.",
+      "headline": "Robust build and stable mount for studio desks",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a8b9c0d1-e2f3-4567-8901-23456789abcd-3",
+      "ranking_product_id": "rp-sd-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Price is prohibitive for hobbyists; only serious pros should consider.",
+      "headline": "Very expensive",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a8b9c0d1-e2f3-4567-8901-23456789abcd-4",
+      "ranking_product_id": "rp-sd-3",
+      "user_id": null,
+      "type": "con",
+      "content": "10-inch width dominates small desks; ensure you have room.",
+      "headline": "Takes up significant desk space",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a8b9c0d1-e2f3-4567-8901-23456789abcd-5",
+      "ranking_product_id": "rp-sd-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Rare defects with dead pixels or uneven backlighting.",
+      "headline": "Some users report inconsistent LCD quality",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b9c0d1e2-f3a4-5678-9012-3456789abcde-0",
+      "ranking_product_id": "rp-sd-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Tiny size fits next to keyboard or in tight spaces without clutter.",
+      "headline": "Compact footprint for minimalist setups",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b9c0d1e2-f3a4-5678-9012-3456789abcde-1",
+      "ranking_product_id": "rp-sd-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "All plugins and integrations work identically to the 15-key version.",
+      "headline": "Same great software as larger Stream Decks",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b9c0d1e2-f3a4-5678-9012-3456789abcde-2",
+      "ranking_product_id": "rp-sd-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Easy to pack for conventions or remote events.",
+      "headline": "Portable for streamers on the go",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b9c0d1e2-f3a4-5678-9012-3456789abcde-3",
+      "ranking_product_id": "rp-sd-4",
+      "user_id": null,
+      "type": "con",
+      "content": "You'll need to organize actions across multiple profile pages.",
+      "headline": "Only 6 keys means more page switching",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b9c0d1e2-f3a4-5678-9012-3456789abcde-4",
+      "ranking_product_id": "rp-sd-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Less tactile pressing surface; harder to hit accurately during fast streams.",
+      "headline": "Keys feel slightly smaller",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b9c0d1e2-f3a4-5678-9012-3456789abcde-5",
+      "ranking_product_id": "rp-sd-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Still expensive for fewer buttons, though ultimate convenience.",
+      "headline": "Same price per key as larger models",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c0d1e2f3-a4b5-6789-0123-456789abcdef-0",
+      "ranking_product_id": "rp-sd-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Leverages your iPad or Android tablet; no extra hardware beyond dock/stand.",
+      "headline": "Turns existing tablet into a free/low-cost control surface",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c0d1e2f3-a4b5-6789-0123-456789abcdef-1",
+      "ranking_product_id": "rp-sd-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Create custom grids, tabs, and pages tailored to each app or workflow.",
+      "headline": "Virtual buttons mean virtually unlimited layout",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c0d1e2f3-a4b5-6789-0123-456789abcdef-2",
+      "ranking_product_id": "rp-sd-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Responsive enough for most live streaming scenarios if on 5 GHz band.",
+      "headline": "Low-latency WiFi works well on a good network",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c0d1e2f3-a4b5-6789-0123-456789abcdef-3",
+      "ranking_product_id": "rp-sd-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Lag spikes or disconnects can happen on congested WiFi; not as rock-solid as USB.",
+      "headline": "Dependent on network stability",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c0d1e2f3-a4b5-6789-0123-456789abcdef-4",
+      "ranking_product_id": "rp-sd-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Pressing virtual buttons lacks physical click, so you rely on visual confirmation.",
+      "headline": "No tactile feedback without haptic support",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c0d1e2f3-a4b5-6789-0123-456789abcdef-5",
+      "ranking_product_id": "rp-sd-5",
+      "user_id": null,
+      "type": "con",
+      "content": "You'll need a good tablet arm or case to position it comfortably.",
+      "headline": "Requires separate stand or mount",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d1e2f3a4-b5c6-7890-1234-56789abcdef0-0",
+      "ranking_product_id": "rp-sd-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Cherry MX switches offer a satisfying feel and 50 million+ click lifespan.",
+      "headline": "Physical mechanical keys for precise, repeatable actuation",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d1e2f3a4-b5c6-7890-1234-56789abcdef0-1",
+      "ranking_product_id": "rp-sd-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Works out of the box as a standard HID keyboard; advanced features need X-Keys Editor.",
+      "headline": "No software dependency for basic key mappings",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d1e2f3a4-b5c6-7890-1234-56789abcdef0-2",
+      "ranking_product_id": "rp-sd-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Durable, reliable, and supported in many legacy control systems.",
+      "headline": "Excellent for enterprise/industrial automation",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d1e2f3a4-b5c6-7890-1234-56789abcdef0-3",
+      "ranking_product_id": "rp-sd-6",
+      "user_id": null,
+      "type": "con",
+      "content": "You must remember what each key does or add your own stickers/labels.",
+      "headline": "No displays — labels are physical only",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d1e2f3a4-b5c6-7890-1234-56789abcdef0-4",
+      "ranking_product_id": "rp-sd-6",
+      "user_id": null,
+      "type": "con",
+      "content": "X-keys Editor hasn't seen a major redesign in years; learning curve is steep.",
+      "headline": "Software is dated and less intuitive",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d1e2f3a4-b5c6-7890-1234-56789abcdef0-5",
+      "ranking_product_id": "rp-sd-6",
+      "user_id": null,
+      "type": "con",
+      "content": "Physical keys take more space, so footprint is larger despite 24 vs 32.",
+      "headline": "Wider than Stream Decks despite fewer keys",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f4a5b6c7-d8e9-2345-6789-0123456789ab-0",
+      "ranking_product_id": "rp-sl-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Works seamlessly with Alexa, Google Assistant, Apple HomeKit, and IFTTT.",
+      "headline": "Unmatched ecosystem integration",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f4a5b6c7-d8e9-2345-6789-0123456789ab-1",
+      "ranking_product_id": "rp-sl-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Rich, vibrant hues that stay consistent across bulbs in a group.",
+      "headline": "Exceptional color consistency and saturation",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f4a5b6c7-d8e9-2345-6789-0123456789ab-2",
+      "ranking_product_id": "rp-sl-1",
+      "user_id": null,
+      "type": "pro",
+      "content": "Responds quickly to commands without relying on cloud latency (local execution).",
+      "headline": "Reliable Zigbee connectivity with Hue Bridge",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f4a5b6c7-d8e9-2345-6789-0123456789ab-3",
+      "ranking_product_id": "rp-sl-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Bulbs work over Bluetooth alone, but remote access and automations need the bridge (extra cost).",
+      "headline": "Requires Hue Bridge for full functionality",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f4a5b6c7-d8e9-2345-6789-0123456789ab-4",
+      "ranking_product_id": "rp-sl-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Hue bulbs cost 2–3× more than basic smart bulbs.",
+      "headline": "Premium pricing",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-f4a5b6c7-d8e9-2345-6789-0123456789ab-5",
+      "ranking_product_id": "rp-sl-1",
+      "user_id": null,
+      "type": "con",
+      "content": "Hue Secure and certain advanced automations require monthly subscription.",
+      "headline": "Some features locked behind subscription",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a5b6c7d8-e9f0-3456-7890-123456789abc-0",
+      "ranking_product_id": "rp-sl-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Hexagonal panels are a favorite among streamers for eye-catching background walls.",
+      "headline": "Visually stunning for content creators",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a5b6c7d8-e9f0-3456-7890-123456789abc-1",
+      "ranking_product_id": "rp-sl-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Built-in mic syncs lighting to music without external controller.",
+      "headline": "Music reaction and rhythm sync",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a5b6c7d8-e9f0-3456-7890-123456789abc-2",
+      "ranking_product_id": "rp-sl-2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Mix colors and patterns across panels; easy to expand over time.",
+      "headline": "Modular design lets you build custom shapes",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a5b6c7d8-e9f0-3456-7890-123456789abc-3",
+      "ranking_product_id": "rp-sl-2",
+      "user_id": null,
+      "type": "con",
+      "content": "High upfront cost; quickly becomes a significant investment.",
+      "headline": "Very expensive per panel",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a5b6c7d8-e9f0-3456-7890-123456789abc-4",
+      "ranking_product_id": "rp-sl-2",
+      "user_id": null,
+      "type": "con",
+      "content": "You'll want to design your pattern before mounting; mistakes require repositioning.",
+      "headline": "Requires careful planning of layout",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-a5b6c7d8-e9f0-3456-7890-123456789abc-5",
+      "ranking_product_id": "rp-sl-2",
+      "user_id": null,
+      "type": "con",
+      "content": "Large arrays sometimes struggle with preview rendering in the Nanoleaf app.",
+      "headline": "App can be sluggish on large installations",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b6c7d8e9-f0a1-4567-8901-23456789abcd-0",
+      "ranking_product_id": "rp-sl-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "5400 lumens easily illuminates large rooms or outdoor patios.",
+      "headline": "Incredible brightness for its price",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b6c7d8e9-f0a1-4567-8901-23456789abcd-1",
+      "ranking_product_id": "rp-sl-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Create advanced multicolor effects and gradients not possible on standard RGB strips.",
+      "headline": "RGBIC means each LED can show a different color",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b6c7d8e9-f0a1-4567-8901-23456789abcd-2",
+      "ranking_product_id": "rp-sl-3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Safe for gardens, patios, and damp environments.",
+      "headline": "Waterproof IP65 rating for outdoor use",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b6c7d8e9-f0a1-4567-8901-23456789abcd-3",
+      "ranking_product_id": "rp-sl-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Govee's app sometimes lags or disconnects from strips intermittently.",
+      "headline": "App can be inconsistent",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b6c7d8e9-f0a1-4567-8901-23456789abcd-4",
+      "ranking_product_id": "rp-sl-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Strips may peel in hot environments; consider mounting clips for permanence.",
+      "headline": "Adhesive can weaken over time",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-b6c7d8e9-f0a1-4567-8901-23456789abcd-5",
+      "ranking_product_id": "rp-sl-3",
+      "user_id": null,
+      "type": "con",
+      "content": "Some users report unnatural color rendering vs Philips Hue.",
+      "headline": "Colors slightly oversaturated",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c7d8e9f0-a1b2-5678-9012-3456789abcde-0",
+      "ranking_product_id": "rp-sl-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Under $10 per bulb with solid brightness and tunable white; best budget pick.",
+      "headline": "Excellent value for basic smart lighting",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c7d8e9f0-a1b2-5678-9012-3456789abcde-1",
+      "ranking_product_id": "rp-sl-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "Simplifies setup; just screwing in and adding to Wyze app.",
+      "headline": "No hub required; connects directly to WiFi",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c7d8e9f0-a1b2-5678-9012-3456789abcde-2",
+      "ranking_product_id": "rp-sl-4",
+      "user_id": null,
+      "type": "pro",
+      "content": "If you already use Wyze cameras/sensors, automations are seamless.",
+      "headline": "Integrates well with Wyze ecosystem",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c7d8e9f0-a1b2-5678-9012-3456789abcde-3",
+      "ranking_product_id": "rp-sl-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Only tunable white; for RGB colors you'd need separate product.",
+      "headline": "No color-changing option",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c7d8e9f0-a1b2-5678-9012-3456789abcde-4",
+      "ranking_product_id": "rp-sl-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Some users report bulbs disappearing from the app until power-cycled.",
+      "headline": "Occasional connectivity drops on large networks",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-c7d8e9f0-a1b2-5678-9012-3456789abcde-5",
+      "ranking_product_id": "rp-sl-4",
+      "user_id": null,
+      "type": "con",
+      "content": "Works best within Wyze; less native support for HomeKit or advanced automations.",
+      "headline": "Limited third-party integrations",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d8e9f0a1-b2c3-6789-0123-456789abcdef-0",
+      "ranking_product_id": "rp-sl-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "1100 lumens rivals traditional 75W incandescent bulbs; great for large rooms.",
+      "headline": "Highest brightness among smart bulbs",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d8e9f0a1-b2c3-6789-0123-456789abcdef-1",
+      "ranking_product_id": "rp-sl-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Simplifies setup and reduces clutter; also offers local LAN control via API.",
+      "headline": "No hub required; direct Wi-Fi connectivity",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d8e9f0a1-b2c3-6789-0123-456789abcdef-2",
+      "ranking_product_id": "rp-sl-5",
+      "user_id": null,
+      "type": "pro",
+      "content": "Vivid colors and smooth gradients; one of the best for color accuracy.",
+      "headline": "Excellent color gamut and saturation",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d8e9f0a1-b2c3-6789-0123-456789abcdef-3",
+      "ranking_product_id": "rp-sl-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Premium cost, though less than Hue ecosystem with bridge.",
+      "headline": "Higher price than budget options",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d8e9f0a1-b2c3-6789-0123-456789abcdef-4",
+      "ranking_product_id": "rp-sl-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Certain automations require cloud, raising privacy considerations.",
+      "headline": "Cloud dependency for some features",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-d8e9f0a1-b2c3-6789-0123-456789abcdef-5",
+      "ranking_product_id": "rp-sl-5",
+      "user_id": null,
+      "type": "con",
+      "content": "Rarely bulbs become unresponsive after update, requiring factory reset.",
+      "headline": "Occasional firmware update hiccups",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e9f0a1b2-c3d4-7890-1234-56789abcdef0-0",
+      "ranking_product_id": "rp-sl-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "TP-Link's reputation for networking hardware extends to stable smart home connectivity.",
+      "headline": "Very affordable with reliable performance",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e9f0a1b2-c3d4-7890-1234-56789abcdef0-1",
+      "ranking_product_id": "rp-sl-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Easy to create scenes and schedules; integrates with Alexa/Google.",
+      "headline": "Works with Kasa ecosystem for group controls",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e9f0a1b2-c3d4-7890-1234-56789abcdef0-2",
+      "ranking_product_id": "rp-sl-6",
+      "user_id": null,
+      "type": "pro",
+      "content": "Straightforward setup like other plug-and-play smart bulbs.",
+      "headline": "No hub needed; direct Wi-Fi connection",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e9f0a1b2-c3d4-7890-1234-56789abcdef0-3",
+      "ranking_product_id": "rp-sl-6",
+      "user_id": null,
+      "type": "con",
+      "content": "RGB is present but not as vibrant or smooth as Hue/LIFX.",
+      "headline": "Colors less saturated than premium brands",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e9f0a1b2-c3d4-7890-1234-56789abcdef0-4",
+      "ranking_product_id": "rp-sl-6",
+      "user_id": null,
+      "type": "con",
+      "content": "Works with Alexa and Google Assistant, but not native HomeKit.",
+      "headline": "No Apple HomeKit support",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "sent-e9f0a1b2-c3d4-7890-1234-56789abcdef0-5",
+      "ranking_product_id": "rp-sl-6",
+      "user_id": null,
+      "type": "con",
+      "content": "Some users find warm white less amber than competitors.",
+      "headline": "Limited white temperature range",
+      "description": null,
+      "created_at": "2026-04-19T00:08:23.601Z",
+      "updated_at": "2026-04-19T00:08:23.601Z"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-0",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "question": "How do I know if my monitor is VESA compatible?",
+      "answer": "Check the back of your monitor for four threaded holes in a square pattern (75×75mm or 100×100mm). Most modern monitors are VESA mount compatible; if yours isn't, you may need an adapter plate that attaches to the monitor's factory stand.",
+      "display_order": 1,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-1",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "question": "Clamp vs. grommet mount — which should I choose?",
+      "answer": "Clamp mounts attach to the edge of your desk without drilling; they're easier and less permanent. Grommet mounts require a hole in the desk surface and provide a cleaner, more integrated look with greater stability. Choose clamp for simplicity, grommet for a permanent, polished setup.",
+      "display_order": 2,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-2",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "question": "Can I mount two monitors on a single-arm solution?",
+      "answer": "No, a single monitor arm is designed for one screen. For dual monitors, you need either a dual-arm setup (two separate arms mounted side-by-side) or a dedicated dual-monitor arm that holds both screens from a single base. Monitor weight and desk thickness become more critical with dual setups.",
+      "display_order": 3,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-3",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "question": "How much weight can a monitor arm hold?",
+      "answer": "Weight capacities vary widely: light-duty arms handle 10–15 lbs, mid-range 20–30 lbs, and heavy-duty arms 40–50+ lbs. Always check your monitor's weight (usually on the spec sheet or back label) and choose an arm rated at least 20% above that weight for safety margin.",
+      "display_order": 4,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-4",
+      "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "question": "Will a monitor arm damage my desk surface?",
+      "answer": "Clamp mounts use protective pads to prevent damage, but improper installation or overtightening can scratch or dent some surfaces. Desks with delicate finishes (glass, polished stone) benefit from additional felt pads. Grommet mounts require drilling a hole and are considered permanent.",
+      "display_order": 5,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-d5e6f7a8-b9c0-1234-5678-90123456789a-0",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "question": "Do I need a Stream Deck if I'm just starting to stream?",
+      "answer": "Not necessarily. Begin with keyboard shortcuts and OBS hotkeys. A Stream Deck becomes valuable once your scene switching, source toggling, and macro use exceed what you can comfortably remember. Many streamers add one after their setup stabilizes and they want faster, error-free production control.",
+      "display_order": 1,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-d5e6f7a8-b9c0-1234-5678-90123456789a-1",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "question": "What's the difference between Stream Deck and Loupedeck?",
+      "answer": "Stream Deck focuses on simple button-triggered actions across streaming, YouTube, and general macro functions. Loupedeck is designed for creative pros (Lightroom, Premiere) with dials for precise adjustments. Choose Stream Deck for OBS-centric streaming; choose Loupedeck if photo/video editing is your primary workflow.",
+      "display_order": 2,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-d5e6f7a8-b9c0-1234-5678-90123456789a-2",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "question": "Can I use a Stream Deck on Mac and Windows?",
+      "answer": "Yes. Elgato Stream Deck software supports macOS (10.15+) and Windows 10/11. Settings sync via cloud, so you can move between machines. Core functionality is identical across platforms.",
+      "display_order": 3,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-d5e6f7a8-b9c0-1234-5678-90123456789a-3",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "question": "Can Stream Deck execute scripts or launch applications?",
+      "answer": "Absolutely. You can map keys to launch apps, run shell scripts or batch files, open URLs, insert text snippets, control system volume, or trigger complex multi-step macros.",
+      "display_order": 4,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-d5e6f7a8-b9c0-1234-5678-90123456789a-4",
+      "ranking_id": "d5e6f7a8-b9c0-1234-5678-90123456789a",
+      "question": "Is wireless reliability a concern with Stream Deck Mobile?",
+      "answer": "On a stable 5 GHz WiFi network, mobile is responsive. However, interference or congestion can cause lag or disconnects. For mission-critical live streaming, a wired USB Stream Deck remains the gold standard.",
+      "display_order": 5,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-e3f4a5b6-c7d8-1234-5678-90123456789a-0",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "question": "Do smart bulbs require a hub or bridge?",
+      "answer": "Some do, some don't. Wi-Fi bulbs (Wyze, TP-Link Kasa, LIFX) connect directly to your router without a hub. Zigbee or Bluetooth Mesh bulbs (Philips Hue, IKEA Trådfri) require a bridge/hub that translates Zigbee to Wi-Fi. Hub systems offer reliability and broader device support but add cost and complexity.",
+      "display_order": 1,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-e3f4a5b6-c7d8-1234-5678-90123456789a-1",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "question": "Can I use smart bulbs with a regular light switch?",
+      "answer": "Yes, but keep the switch turned ON at all times. If you turn off a physical wall switch, the bulb loses power and won't respond to app/voice commands. For homes where switches get flipped, consider smart switches instead of smart bulbs.",
+      "display_order": 2,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-e3f4a5b6-c7d8-1234-5678-90123456789a-2",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "question": "What's the difference between 2700K and 6500K?",
+      "answer": "Kelvin (K) indicates color temperature: 2700K is warm white (cozy), 6500K is cool/daylight white (energizing). Many smart bulbs offer tunable white, allowing adjustment between these temperatures for different moods and times of day.",
+      "display_order": 3,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-e3f4a5b6-c7d8-1234-5678-90123456789a-3",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "question": "Are smart bulbs secure? Can they be hacked?",
+      "answer": "Smart bulbs use Wi-Fi, Zigbee, or Bluetooth. Keep firmware updated, use strong passwords, and segment IoT devices if concerned. Reputable brands like Philips Hue and Nanoleaf regularly patch vulnerabilities, though no IoT device is 100% unhackable.",
+      "display_order": 4,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "faq-e3f4a5b6-c7d8-1234-5678-90123456789a-4",
+      "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
+      "question": "Do smart bulbs work with Amazon Alexa and Google Home?",
+      "answer": "Yes, virtually all smart bulbs integrate with Alexa and Google Assistant via cloud or local skills. You can control them by voice, create routines, and group them. Some brands also support Apple HomeKit.",
+      "display_order": 5,
+      "created_at": "2026-04-19T00:08:23.602Z",
+      "updated_at": "2026-04-19T00:08:23.602Z"
+    }
+  ]
+}

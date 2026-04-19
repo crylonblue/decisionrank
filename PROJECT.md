@@ -9,6 +9,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-20 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776639679730` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step. Favor adjacent commercial-intent categories that deepen existing clusters like creator gear, home office, smart home, kitchen, or productivity.
+  - Created API backlog task `1776639679748` (**medium**): Add comparison-intent modules on category pages, using reusable “X vs Y”, upgrade-path, and alternative framing blocks built from existing ranking/category data, with stronger internal links and no thin standalone pages.
+  - Created API backlog task `1776639679771` (**medium**): Strengthen category-page trust and freshness signals with richer methodology/freshness context and tighter buyer-guidance blocks that improve E-E-A-T without bloating UX.
+  - Planning basis: recent work already expanded category-page editorial depth and long-tail use-case modules, so the next best backlog is another code-only category seed batch plus reusable comparison-intent and trust/freshness modules that deepen organic coverage on existing category pages.
+
 - **2026-04-19 02:25 (Bob subagent, task 1776553314827):** Built long-tail SEO modules for category pages — two new files and an integration:
   - `lib/category-use-cases.ts`: Structured use-case + query-intent data for 15 categories (air-fryers, air-purifiers, coffee-makers, external-ssds, microphones, monitors, noise-cancelling-headphones, office-chairs, robot-vacuums, smart-watches, standing-desks, webcams, wireless-earbuds, mechanical-keyboards, espresso-machines) with 4 use-case blocks and 8 long-tail query phrases per category. Includes generic fallback for any unknown slugs.
   - `components/use-case-module.tsx`: Renders (1) **Editor's Picks** grid — scenario-based 'Best for X' cards linking to filtered search, and (2) **People Also Search** section — long-tail phrase rows with intent badges (Guide/Buy/Compare/Find) also linking to filtered results.
