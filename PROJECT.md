@@ -9,6 +9,15 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-19 02:15 (Bob heartbeat):** Executed code-only seeding of 3 more buyer-intent categories per task 1776553314791. Added Monitor Arms, Stream Decks, Smart Lighting to `scripts/.seed-payload.json` with full rankings (6 products each), specs, pros/cons, verdict copy, and category-specific FAQs. Total additions: +3 categories, +18 products, +108 specs, +108 sentiments, +15 FAQs. Convex import still blocked — not attempted. Categories deepen adjacent commercial-intent clusters: home office (Monitor Arms), creator gear (Stream Decks), smart home (Smart Lighting).
+  - Task `1776553314791` moved to **done**.
+
+- **2026-04-19 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776553314791` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step. Favor adjacent commercial-intent categories that deepen existing clusters like home office, creator gear, productivity, smart home, or kitchen.
+  - Created API backlog task `1776553314817` (**medium**): Thicken category-page editorial content for newest and thinner categories, covering who each category is for, evaluation criteria, tradeoffs, and buyer guidance using the existing category enhancement patterns.
+  - Created API backlog task `1776553314827` (**medium**): Expand long-tail SEO modules on category pages with use-case and query-intent blocks, including best-for summaries, related questions, and stronger internal links into relevant rankings and adjacent categories without creating thin standalone pages.
+  - Planning basis: the latest homepage and `/categories` discovery improvements plus adjacent-category linking are already in place, so the next highest-leverage backlog is another code-only category seed batch, followed by deeper category-page editorial content and long-tail query-intent modules directly on category pages.
+
 - **2026-04-18 04:45 (Bob heartbeat):** Expanded adjacent-intent category-family SEO content by enhancing category-relations.ts to merge manual base adjacency with module-based co-occurrence from BuyerIntentModules, and updated category page to use displayCategories for dynamic related-categories block. Committed and pushed; task 1776466869019 moved to done (model: openrouter/stepfun/step-3.5-flash).
 
 - **2026-04-18 04:12 (Bob heartbeat):** Strengthened homepage and /categories buyer-intent discovery sections by expanding BuyerIntentModules module descriptions with richer editorial copy, integrating ENHANCED_CATEGORY_DESCRIPTIONS into category cards, and upgrading CTA links to descriptive "View {category.name} rankings". Updated `lib/buyer-intent-modules.ts` and `components/buyer-intent-modules.tsx`. Committed and pushed.
