@@ -9,6 +9,17 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-20 (Bob subagent, task 1776630546472):** Expanded category hub search intent coverage across all 19 categories with enriched editorial sections and new comparison guides:
+  - Created `ComparisonModule` component (`components/comparison-module.tsx`) rendering 6 comparison guide cards per category targeting "X vs Y" and "which is better" comparative queries. Follows UseCaseModule card-based UI patterns with Scale icon, Compare badges, hover effects, and filtered-search links.
+  - Extended `lib/category-use-cases.ts` data structures: added optional `comparisons: ComparisonGuide[]` array to `CategoryUseCaseData` interface and new `ComparisonGuide` interface. Updated `buildGenericFallback()` to include 4 comparison guides for unknown category slugs.
+  - Seeded 4 new categories with full data (use-cases, query-intents, comparisons): `usb-c-hubs`, `tablet-stands-mounts`, `gaming-laptops`, `smartphones` — expanding SEO footprint into adjacent commercial-intent clusters.
+  - Expanded query-intent lists from 8 → 15 phrases across all existing 15 categories (air-fryers, air-purifiers, coffee-makers, external-ssds, microphones, monitors, noise-cancelling-headphones, office-chairs, robot-vacuums, smart-watches, standing-desks, webcams, wireless-earbuds, mechanical-keyboards, espresso-machines). Added 7 new intent phrases per category (105+ total net new long-tail phrases) with balanced distribution: informational, transactional, comparative, navigational.
+  - Populated `comparisons` array with 6 detailed comparison guide cards per existing category (90 total). Guides target brand-vs-brand (Sony vs Bose), tech-vs-tech (Thunderbolt vs USB4), and generation-vs-generation queries, each with title, description, and search-linked `queryPhrase`.
+  - Added new export `getCategoryComparisonData(slug)` for module consumption.
+  - Integrated `ComparisonModule` into `app/[category]/page.tsx` immediately after `UseCaseModule`. Import added at top; module rendered inside main page flow for maximum visibility and crawlability.
+  - Verified TypeScript build (`npx tsc --noEmit`): no errors. All modules follow established component patterns and styling.
+  - Committed as `f5d3d2a` with descriptive message. Task `1776630546472` moved to **done**.
+
 - **2026-04-20 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
   - Created API backlog task `1776639679730` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories, each with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step. Favor adjacent commercial-intent categories that deepen existing clusters like creator gear, home office, smart home, kitchen, or productivity.
   - Created API backlog task `1776639679748` (**medium**): Add comparison-intent modules on category pages, using reusable “X vs Y”, upgrade-path, and alternative framing blocks built from existing ranking/category data, with stronger internal links and no thin standalone pages.
