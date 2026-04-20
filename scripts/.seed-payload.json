@@ -52,7 +52,7 @@
       "id": "e3f5091f-55cc-4108-9923-674f1830797d",
       "name": "Mechanical Keyboards",
       "slug": "mechanical-keyboards",
-      "description": "Best mechanical keyboards for gaming, typing, and productivity — covering layouts, switches, and feature sets for every budget.",
+      "description": "Best mechanical keyboards for gaming, typing, and productivity \u2014 covering layouts, switches, and feature sets for every budget.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -60,7 +60,7 @@
       "id": "fdc2fd5e-c43f-4ed0-b11f-c8d0fb3b2cc1",
       "name": "Noise-Cancelling Headphones",
       "slug": "noise-cancelling-headphones",
-      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening — tested for ANC performance, sound quality, and comfort.",
+      "description": "Top wireless and wired noise-cancelling headphones for travel, work, and immersive listening \u2014 tested for ANC performance, sound quality, and comfort.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -68,7 +68,7 @@
       "id": "177dee7c-409c-4c85-bc49-c0bd9c4357c0",
       "name": "Tablet Stands & Mounts",
       "slug": "tablet-stands-mounts",
-      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds — tested for stability, adjustability, and compatibility.",
+      "description": "Versatile tablet stands, docks, and mounting solutions for desks, kitchens, cars, and beds \u2014 tested for stability, adjustability, and compatibility.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -143,6 +143,30 @@
       "description": "Wi-Fi and Bluetooth smart bulbs, light strips, and ambient lighting for home office, streaming, and mood control.",
       "created_at": "2026-04-19T00:08:23.597Z",
       "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "67e91642-6c33-4738-b68a-5384a4f956a6",
+      "name": "Laptop Stands",
+      "slug": "laptop-stands",
+      "description": "Ergonomic laptop stands and risers for better posture, cooling, and desk organization.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "af443075-ca09-42f3-a4e6-ed46c8fe8ddf",
+      "name": "Smart Plugs & Power Strips",
+      "slug": "smart-plugs-power-strips",
+      "description": "Wi-Fi and Bluetooth smart plugs, power strips, and energy monitoring devices for automated home and office control.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "86da2738-7b83-49df-bbe5-6149da36213c",
+      "name": "Desk Cable Management",
+      "slug": "desk-cable-management",
+      "description": "Cable trays, sleeves, clips, and under-desk organizers for a clean, tangle-free workspace.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ],
   "rankings": [
@@ -325,6 +349,36 @@
       "category_id": "d2e3f4a5-b6c7-8901-2345-678901234567",
       "created_at": "2026-04-19T00:08:23.597Z",
       "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "slug": "best-laptop-stands-2026",
+      "question": "What Are the Best Laptop Stands in 2026?",
+      "description": "We tested laptop stands across adjustability, build quality, heat dissipation, and compatibility to find the best options for home offices and portable setups.",
+      "verdict_summary": "The Rain Design mBar Pro+ wins for its machined-aluminum quality and hinge-based tilt, while the MOFT Laptop Sleek Stand offers the best foldable portability. For heavy workstations, the Human Ground K850 delivers rock-solid stability with full 360\u00b0 rotation.",
+      "category_id": "67e91642-6c33-4738-b68a-5384a4f956a6",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "slug": "best-smart-plugs-2026",
+      "question": "What Are the Best Smart Plugs in 2026?",
+      "description": "We tested smart plugs and power strips for setup reliability, energy monitoring, scheduling flexibility, and voice assistant compatibility to help you automate devices and reduce energy waste.",
+      "verdict_summary": "The TP-Link Kasa EP25 wins for its energy monitoring, reliable connectivity, and competitive price. For HomeKit users, the Eve Energy offers Thread-based reliability without a hub. The Shelly Pro 4PM is the top pick for enthusiasts who want local control and power monitoring on each outlet.",
+      "category_id": "af443075-ca09-42f3-a4e6-ed46c8fe8ddf",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "slug": "best-desk-cable-management-2026",
+      "question": "What Are the Best Desk Cable Management Solutions in 2026?",
+      "description": "We evaluated cable trays, sleeves, clips, and under-desk organizers for capacity, ease of installation, build quality, and how well they hide cables to create clean, professional desk setups.",
+      "verdict_summary": "The Ecco Solutions Heavy-Duty Cable Tray is the best under-desk mount for most people with its high capacity and simple installation. For standing desk users, the FlexiSpot Cable Spine handles vertical cable routing beautifully. Budget buyers get excellent results from the Amazon Basics Cable Sleeve Kit for a fraction of the price.",
+      "category_id": "86da2738-7b83-49df-bbe5-6149da36213c",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ],
   "products": [
@@ -1055,6 +1109,132 @@
       "link": "https://www.kasasmart.com/us/products/smart-lighting/kasa-smart-bulb-kl130",
       "created_at": "2026-04-19T00:08:23.597Z",
       "updated_at": "2026-04-19T00:08:23.597Z"
+    },
+    {
+      "id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Rain Design mBar Pro+",
+      "link": "https://www.raindesigninc.com/mbar-pro.html",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "MOFT Laptop Sleek Stand",
+      "link": "https://www.moft.co/products/laptop-sleek-stand",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Human Ground K850",
+      "link": "https://humanground.com/products/k850",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Nulaxy CN01",
+      "link": "https://www.nulaxy.com/collections/laptop-stands",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Twelve South BookArc",
+      "link": "https://www.twelvesouth.com/products/bookarc-for-macbook",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Roost Laptop Stand",
+      "link": "https://www.therooststand.com/collections/laptop-stands",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "TP-Link Kasa EP25 (2-pack)",
+      "link": "https://www.kasasmart.com/us/products/plugs/kasa-smart-plug-ep25",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Eve Energy (Thread)",
+      "link": "https://www.evehome.com/en-us/eve-energy",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Shelly Pro 4PM",
+      "link": "https://www.shelly.com/en-us/shelly-pro-4pm",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Amazon Smart Plug",
+      "link": "https://www.amazon.com/dp/B07W4TJXKV",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Wyze Plug Outdoor",
+      "link": "https://www.wyze.com/wyze-plug-outdoor.html",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "Kasa Smart Power Strip KP125",
+      "link": "https://www.kasasmart.com/us/products/smart-power-strips/kasa-smart-power-strip-kp125",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Ecco Solutions Heavy-Duty Cable Tray",
+      "link": "https://www.eccosolutions.com/products/cable-management/heavy-duty-cable-tray",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "FlexiSpot Cable Spine",
+      "link": "https://www.flexispot.com/ergonomic-accessories/cable-spine",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Amazon Basics Cable Sleeve Kit (12-pack)",
+      "link": "https://www.amazon.com/dp/B07Y8R8K4J",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "IKEA Signum Under-Desk Cable Holder",
+      "link": "https://www.ikea.com/us/en/cat/signum-series-12666/",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Bluelax Cable Management Tray",
+      "link": "https://www.amazon.com/dp/B08BJYF2V6",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Rain Design On-Desk Cable Spine",
+      "link": "https://www.raindesigninc.com/cable-organizer.html",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ],
   "ranking_products": [
@@ -1993,6 +2173,168 @@
       "rank_position": 6,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
+    },
+    {
+      "id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "score": 9.0,
+      "rank_position": 2,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "score": 8.1,
+      "rank_position": 4,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "score": 7.8,
+      "rank_position": 5,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "score": 7.6,
+      "rank_position": 6,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "score": 9.2,
+      "rank_position": 1,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "score": 9.0,
+      "rank_position": 2,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "score": 8.3,
+      "rank_position": 4,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "score": 8.1,
+      "rank_position": 5,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "score": 9.1,
+      "rank_position": 1,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "score": 8.9,
+      "rank_position": 2,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "score": 8.5,
+      "rank_position": 3,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "score": 8.2,
+      "rank_position": 4,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "score": 8.0,
+      "rank_position": 5,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "score": 7.7,
+      "rank_position": 6,
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ],
   "users": [],
@@ -2001,8 +2343,8 @@
       "id": "34afcd32-ccc9-47e3-9097-97a786a04547",
       "ranking_product_id": "2197d632-5b58-4b5e-86eb-04ace7b36480",
       "type": "pro",
-      "content": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports.",
-      "headline": "Blazing 480Hz OLED panel with near-instant pixel response—unmatched for esports",
+      "content": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports.",
+      "headline": "Blazing 480Hz OLED panel with near-instant pixel response\u2014unmatched for esports",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2073,8 +2415,8 @@
       "id": "dbc74252-3f61-4349-9c80-b3fd1a331e65",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "Expensive—only for pros who need the pixels.",
-      "headline": "Expensive—only for pros who need the pixels",
+      "content": "Expensive\u2014only for pros who need the pixels.",
+      "headline": "Expensive\u2014only for pros who need the pixels",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2082,7 +2424,7 @@
       "id": "4b66c5a3-d43a-4a5c-92f2-318d574b778f",
       "ranking_product_id": "67d3f2cd-e2aa-4d13-b3a8-e2b0c5e52afc",
       "type": "con",
-      "content": "No HDMI 2.1—limited to older consoles at full res.",
+      "content": "No HDMI 2.1\u2014limited to older consoles at full res.",
       "headline": "No HDMI 2",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -2118,8 +2460,8 @@
       "id": "0f528994-b205-40d4-aec0-ed1cfd56b4d5",
       "ranking_product_id": "cefe6528-1a61-4834-b4f1-082115564c54",
       "type": "con",
-      "content": "Very expensive—only justified for color-critical studios.",
-      "headline": "Very expensive—only justified for color-critical studios",
+      "content": "Very expensive\u2014only justified for color-critical studios.",
+      "headline": "Very expensive\u2014only justified for color-critical studios",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2208,8 +2550,8 @@
       "id": "c1064ded-2840-4514-961d-0bd10782d4c0",
       "ranking_product_id": "ef7a7c82-75c7-496d-a19e-51a914079c52",
       "type": "con",
-      "content": "HDR400 is entry-level—not as impactful as HDR1000 units.",
-      "headline": "HDR400 is entry-level—not as impactful as HDR1000 units",
+      "content": "HDR400 is entry-level\u2014not as impactful as HDR1000 units.",
+      "headline": "HDR400 is entry-level\u2014not as impactful as HDR1000 units",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2253,8 +2595,8 @@
       "id": "ddf107f5-c5c9-4f67-8897-fc0b0f896629",
       "ranking_product_id": "15401a42-c8ae-4446-9ff5-1a94209c3288",
       "type": "con",
-      "content": "60Hz only—gamers look elsewhere.",
-      "headline": "60Hz only—gamers look elsewhere",
+      "content": "60Hz only\u2014gamers look elsewhere.",
+      "headline": "60Hz only\u2014gamers look elsewhere",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2280,8 +2622,8 @@
       "id": "6a249be9-f19e-457c-a1c1-ec7f8079a428",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "pro",
-      "content": "The gold standard—unmatched breathability and build longevity.",
-      "headline": "The gold standard—unmatched breathability and build longevity",
+      "content": "The gold standard\u2014unmatched breathability and build longevity.",
+      "headline": "The gold standard\u2014unmatched breathability and build longevity",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2307,8 +2649,8 @@
       "id": "84666101-d511-463a-9846-274253d1d0b0",
       "ranking_product_id": "e8566302-a05f-4feb-b676-59b5e3a2118c",
       "type": "con",
-      "content": "Very expensive—a long-term investment.",
-      "headline": "Very expensive—a long-term investment",
+      "content": "Very expensive\u2014a long-term investment.",
+      "headline": "Very expensive\u2014a long-term investment",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2343,8 +2685,8 @@
       "id": "f092eecd-0742-4289-8879-a1c7b13b3332",
       "ranking_product_id": "eb44ab10-0cb5-4ed0-9d83-5442929692d4",
       "type": "pro",
-      "content": "Highly durable—built for 12-hour days.",
-      "headline": "Highly durable—built for 12-hour days",
+      "content": "Highly durable\u2014built for 12-hour days.",
+      "headline": "Highly durable\u2014built for 12-hour days",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2433,8 +2775,8 @@
       "id": "8608573f-60c1-493f-9b47-801d873a21b8",
       "ranking_product_id": "658437f1-45f4-4964-9f91-91eae26b5af2",
       "type": "pro",
-      "content": "Highly breathable—great for warm climates.",
-      "headline": "Highly breathable—great for warm climates",
+      "content": "Highly breathable\u2014great for warm climates.",
+      "headline": "Highly breathable\u2014great for warm climates",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2460,8 +2802,8 @@
       "id": "f9d435a4-3702-4d20-98d7-4fd5298135a2",
       "ranking_product_id": "9fad6045-be38-4435-8638-78ec49b576c6",
       "type": "pro",
-      "content": "LiveBack flexes with your movements—natural support.",
-      "headline": "LiveBack flexes with your movements—natural support",
+      "content": "LiveBack flexes with your movements\u2014natural support.",
+      "headline": "LiveBack flexes with your movements\u2014natural support",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2550,8 +2892,8 @@
       "id": "af92c6d7-61a4-45e9-b5c2-4ded06dbe9f3",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "pro",
-      "content": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork.",
-      "headline": "Rugged IP65 rating handles drops, water, dust—ideal for fieldwork",
+      "content": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork.",
+      "headline": "Rugged IP65 rating handles drops, water, dust\u2014ideal for fieldwork",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2577,8 +2919,8 @@
       "id": "6aa5148f-f415-495f-bd7d-45a662d9f47f",
       "ranking_product_id": "a56d5475-8440-4812-9976-dd7bfa595867",
       "type": "con",
-      "content": "Not the fastest—Thunderbolt options outpace it.",
-      "headline": "Not the fastest—Thunderbolt options outpace it",
+      "content": "Not the fastest\u2014Thunderbolt options outpace it.",
+      "headline": "Not the fastest\u2014Thunderbolt options outpace it",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2640,8 +2982,8 @@
       "id": "62493c5a-4c4e-421b-af35-a180ae9952eb",
       "ranking_product_id": "4fd3f441-394e-4707-94c0-8c24f4ca593b",
       "type": "pro",
-      "content": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable.",
-      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s—desktop-class speed in a portable",
+      "content": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable.",
+      "headline": "Thunderbolt 4 delivers up to 4,000 MB/s\u2014desktop-class speed in a portable",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2685,8 +3027,8 @@
       "id": "214143d9-382c-431d-830e-74cfd54aae42",
       "ranking_product_id": "b6fc2663-6710-4891-8a5e-70ee8e49a6c0",
       "type": "pro",
-      "content": "IP67 rating—fully dust/waterproof, perfect for on-location shooting.",
-      "headline": "IP67 rating—fully dust/waterproof, perfect for on-location shooting",
+      "content": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting.",
+      "headline": "IP67 rating\u2014fully dust/waterproof, perfect for on-location shooting",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -2766,8 +3108,8 @@
       "id": "ef840de8-2ddc-401c-b12d-21ac735c79f5",
       "ranking_product_id": "21cc5d27-d611-465f-8434-e08b6283f709",
       "type": "con",
-      "content": "No IP rating—treat with care.",
-      "headline": "No IP rating—treat with care",
+      "content": "No IP rating\u2014treat with care.",
+      "headline": "No IP rating\u2014treat with care",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -3666,8 +4008,8 @@
       "id": "229a0cda-f559-4f26-89a7-3671dc903e44",
       "ranking_product_id": "4816375b-690b-4769-a2c9-5e54e14367ad",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3720,8 +4062,8 @@
       "id": "ff3b855b-da3f-439b-8054-e84f3845d219",
       "ranking_product_id": "25683819-799c-4e7d-b4f0-21f63ffa7f5c",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3774,8 +4116,8 @@
       "id": "68c5f41f-46dc-44ab-ab9d-d267b29aaeda",
       "ranking_product_id": "f5c0d67c-dd9a-4cf6-b774-cd98ef73d470",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3828,8 +4170,8 @@
       "id": "f1de04a9-c0b8-4c02-9f56-9e7cc25866e8",
       "ranking_product_id": "7072e0b4-9b4f-4de3-b53e-8355eef5cc95",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3882,8 +4224,8 @@
       "id": "b8cce64d-920f-4584-9b69-fa6b680f96fb",
       "ranking_product_id": "2183d93a-487a-449f-bab1-42381189102a",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3936,8 +4278,8 @@
       "id": "d61dac7d-612c-4b61-8502-9267fefd036b",
       "ranking_product_id": "8c83a7ab-bbe3-4571-8434-cf1fabe824df",
       "type": "con",
-      "content": "Heavier than plastic alternatives — less portable.",
-      "headline": "Heavier than plastic alternatives — less portable.",
+      "content": "Heavier than plastic alternatives \u2014 less portable.",
+      "headline": "Heavier than plastic alternatives \u2014 less portable.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3972,8 +4314,8 @@
       "id": "82c6d461-a2c0-437d-97bc-bd34db6cc43b",
       "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -3990,8 +4332,8 @@
       "id": "b8ccbf67-6dae-45bf-837f-1f3a2e8cdd51",
       "ranking_product_id": "e3713990-1af1-4bca-b6b1-868a4aa0c283",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4026,8 +4368,8 @@
       "id": "57c6c2ae-0c69-4b1d-975e-d378ef499f36",
       "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4044,8 +4386,8 @@
       "id": "bf63455c-54ec-4332-bcfd-d04894fe1526",
       "ranking_product_id": "5cacc115-da2d-4af9-9ca8-d55d5bde7d6c",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4080,8 +4422,8 @@
       "id": "d6de3fea-3e63-45cb-bfb3-a1794dd6d87b",
       "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4098,8 +4440,8 @@
       "id": "d3ab571e-978c-4c88-833e-6d9f588b121f",
       "ranking_product_id": "686d40d2-9b28-4860-ad76-7b3d9d5bc36c",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4134,8 +4476,8 @@
       "id": "bb8b61a9-c4ec-4cf5-bf05-c02e5403628c",
       "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4152,8 +4494,8 @@
       "id": "0dcf75da-f53c-4c16-9dff-a72aabfcd6b2",
       "ranking_product_id": "e99c1455-eb9a-4b45-a8c6-279f1ac9be93",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4188,8 +4530,8 @@
       "id": "99d4d35f-81ca-4acd-8b8d-c6f6193b94cc",
       "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4206,8 +4548,8 @@
       "id": "458afad0-267d-42c5-98a4-e8282dc671f6",
       "ranking_product_id": "9826e76c-81f5-40ce-aedb-a2542eccf56c",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4242,8 +4584,8 @@
       "id": "611c8662-f65b-4850-82cd-8090b32d10e7",
       "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
       "type": "pro",
-      "content": "Excellent battery life — 30+ hours on a single charge.",
-      "headline": "Excellent battery life — 30+ hours on a single charge.",
+      "content": "Excellent battery life \u2014 30+ hours on a single charge.",
+      "headline": "Excellent battery life \u2014 30+ hours on a single charge.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4260,8 +4602,8 @@
       "id": "b50b8566-9fc7-4bfc-ad2f-7d0224395c0a",
       "ranking_product_id": "b859f551-a4eb-4e64-82f9-f54a9b3853d4",
       "type": "con",
-      "content": "Expensive — premium models cost as much as a tablet.",
-      "headline": "Expensive — premium models cost as much as a tablet.",
+      "content": "Expensive \u2014 premium models cost as much as a tablet.",
+      "headline": "Expensive \u2014 premium models cost as much as a tablet.",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -4638,8 +4980,8 @@
       "id": "cc79b0a0-2073-49a5-b60b-fbacc680acff",
       "ranking_product_id": "6d99f4d6-deb1-467c-905f-e9855672a583",
       "type": "con",
-      "content": "Expensive for beginners — learning curve is steep.",
-      "headline": "Expensive for beginners — learning curve is steep",
+      "content": "Expensive for beginners \u2014 learning curve is steep.",
+      "headline": "Expensive for beginners \u2014 learning curve is steep",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4656,8 +4998,8 @@
       "id": "775c6783-dab1-4915-9452-9d8737104447",
       "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
       "type": "pro",
-      "content": "Best value for serious home espresso — professional components at hobbyist price.",
-      "headline": "Best value for serious home espresso — professional components at hobbyist price",
+      "content": "Best value for serious home espresso \u2014 professional components at hobbyist price.",
+      "headline": "Best value for serious home espresso \u2014 professional components at hobbyist price",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4683,8 +5025,8 @@
       "id": "67bd8792-a417-4045-8067-ebda59339e5a",
       "ranking_product_id": "bf9d6405-5903-4215-9910-12dc0091a8d9",
       "type": "con",
-      "content": "No built-in grinder — requires separate purchase.",
-      "headline": "No built-in grinder — requires separate purchase",
+      "content": "No built-in grinder \u2014 requires separate purchase.",
+      "headline": "No built-in grinder \u2014 requires separate purchase",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4728,8 +5070,8 @@
       "id": "651c4e34-c3e3-413d-ab7c-c6c82e8a98f4",
       "ranking_product_id": "d85415ab-ed97-4824-b75f-a81fa319a546",
       "type": "con",
-      "content": "Not an espresso machine — no milk drinks capability.",
-      "headline": "Not an espresso machine — no milk drinks capability",
+      "content": "Not an espresso machine \u2014 no milk drinks capability.",
+      "headline": "Not an espresso machine \u2014 no milk drinks capability",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4755,8 +5097,8 @@
       "id": "a2df268a-bf58-48a9-84f9-9079641241a6",
       "ranking_product_id": "d5e8ea58-6ebc-41a1-b355-c38dd3ca343a",
       "type": "pro",
-      "content": "One-touch operation — insert pod and press button.",
-      "headline": "One-touch operation — insert pod and press button",
+      "content": "One-touch operation \u2014 insert pod and press button.",
+      "headline": "One-touch operation \u2014 insert pod and press button",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4863,8 +5205,8 @@
       "id": "44502754-8e03-4940-940a-85217092933c",
       "ranking_product_id": "2c6a6fd6-3eff-47a4-b7ab-f5dd47f5a9af",
       "type": "con",
-      "content": "Premium price — most expensive option on the market.",
-      "headline": "Premium price — most expensive option on the market",
+      "content": "Premium price \u2014 most expensive option on the market.",
+      "headline": "Premium price \u2014 most expensive option on the market",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4908,8 +5250,8 @@
       "id": "934264be-b972-409f-9050-9aba6f81b07e",
       "ranking_product_id": "f6e038d7-868c-46ee-bfd0-1d821318e40f",
       "type": "con",
-      "content": "Very large charging dock — needs significant floor space.",
-      "headline": "Very large charging dock — needs significant floor space",
+      "content": "Very large charging dock \u2014 needs significant floor space.",
+      "headline": "Very large charging dock \u2014 needs significant floor space",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -4953,8 +5295,8 @@
       "id": "4a9ca95e-8ab6-4bb5-bf45-5f74b56325d9",
       "ranking_product_id": "cba3293e-7511-43f6-9276-9a59d80bdb72",
       "type": "con",
-      "content": "No mopping capability — separate purchase required for combo cleaning.",
-      "headline": "No mopping capability — separate purchase required for combo cleaning",
+      "content": "No mopping capability \u2014 separate purchase required for combo cleaning.",
+      "headline": "No mopping capability \u2014 separate purchase required for combo cleaning",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5007,8 +5349,8 @@
       "id": "97a85b78-8dd8-4499-8167-6fd7c1ff8ccb",
       "ranking_product_id": "a42bef9b-af19-47f3-b6f9-20328a559720",
       "type": "con",
-      "content": "No self-emptying station — manual dustbin emptying required.",
-      "headline": "No self-emptying station — manual dustbin emptying required",
+      "content": "No self-emptying station \u2014 manual dustbin emptying required.",
+      "headline": "No self-emptying station \u2014 manual dustbin emptying required",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5025,8 +5367,8 @@
       "id": "e376d429-7f2c-4f97-ad32-2fa685974b3a",
       "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
       "type": "pro",
-      "content": "Largest capacity of any consumer air fryer — feeds a family of 5+.",
-      "headline": "Largest capacity of any consumer air fryer — feeds a family of 5+",
+      "content": "Largest capacity of any consumer air fryer \u2014 feeds a family of 5+.",
+      "headline": "Largest capacity of any consumer air fryer \u2014 feeds a family of 5+",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5052,8 +5394,8 @@
       "id": "dccc0f3e-b3f6-4185-af46-a418e4622bda",
       "ranking_product_id": "4c790e21-0c2f-48d8-9d88-14ed3296244f",
       "type": "con",
-      "content": "Heavy and awkward to move — fixed position on counter recommended.",
-      "headline": "Heavy and awkward to move — fixed position on counter recommended",
+      "content": "Heavy and awkward to move \u2014 fixed position on counter recommended.",
+      "headline": "Heavy and awkward to move \u2014 fixed position on counter recommended",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5061,8 +5403,8 @@
       "id": "10da38be-270c-462e-aaf3-6027b21c339b",
       "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
       "type": "pro",
-      "content": "Unique 2-in-1 design air fries and brews coffee — saves counter space.",
-      "headline": "Unique 2-in-1 design air fries and brews coffee — saves counter space",
+      "content": "Unique 2-in-1 design air fries and brews coffee \u2014 saves counter space.",
+      "headline": "Unique 2-in-1 design air fries and brews coffee \u2014 saves counter space",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5088,8 +5430,8 @@
       "id": "b0a404f9-e4e1-45c3-bf79-ddba409bed97",
       "ranking_product_id": "bd372ac0-3c3d-4bfd-a844-e7831e40a812",
       "type": "con",
-      "content": "Coffee brewer function uses pod-style filters — ongoing cost.",
-      "headline": "Coffee brewer function uses pod-style filters — ongoing cost",
+      "content": "Coffee brewer function uses pod-style filters \u2014 ongoing cost.",
+      "headline": "Coffee brewer function uses pod-style filters \u2014 ongoing cost",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5106,8 +5448,8 @@
       "id": "4dc54cea-da72-4d94-914c-7336a9bb36ac",
       "ranking_product_id": "be46991a-9abc-4a1d-b869-4289e49a1cc3",
       "type": "pro",
-      "content": "Excellent capacity-to-price ratio — family-size at mid-range cost.",
-      "headline": "Excellent capacity-to-price ratio — family-size at mid-range cost",
+      "content": "Excellent capacity-to-price ratio \u2014 family-size at mid-range cost.",
+      "headline": "Excellent capacity-to-price ratio \u2014 family-size at mid-range cost",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5214,8 +5556,8 @@
       "id": "13fd7d74-01d3-4182-98b9-09c79313c0aa",
       "ranking_product_id": "66611c8c-32e1-4a1b-ac03-ed831ad9b9ce",
       "type": "pro",
-      "content": "Easy to clean — basket and crisper plate are dishwasher safe.",
-      "headline": "Easy to clean — basket and crisper plate are dishwasher safe",
+      "content": "Easy to clean \u2014 basket and crisper plate are dishwasher safe.",
+      "headline": "Easy to clean \u2014 basket and crisper plate are dishwasher safe",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -5268,8 +5610,8 @@
       "id": "64e69a53-faa8-4979-a12f-dbfa891ceb58",
       "ranking_product_id": "154b6f37-b2ef-4f5e-a1dc-88280a205e46",
       "type": "con",
-      "content": "Battery life is average for a gaming laptop — expect 3–4 hours.",
-      "headline": "Battery life is average for a gaming laptop — expect 3–4 hours",
+      "content": "Battery life is average for a gaming laptop \u2014 expect 3\u20134 hours.",
+      "headline": "Battery life is average for a gaming laptop \u2014 expect 3\u20134 hours",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5322,8 +5664,8 @@
       "id": "793f8ae7-a0a9-45f6-ba65-fbe55bba29a9",
       "ranking_product_id": "b8971978-e426-4a2b-b719-dd3e480966fe",
       "type": "con",
-      "content": "Premium price — among the most expensive 16-inch gaming laptops.",
-      "headline": "Premium price — among the most expensive 16-inch gaming laptops",
+      "content": "Premium price \u2014 among the most expensive 16-inch gaming laptops.",
+      "headline": "Premium price \u2014 among the most expensive 16-inch gaming laptops",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5439,8 +5781,8 @@
       "id": "6ecd92a9-2bb4-482e-b0c2-35407f8371d4",
       "ranking_product_id": "961a13a4-0f68-4baf-915f-f90c481a33b9",
       "type": "con",
-      "content": "Battery life is typical for this class — plan for outlet access.",
-      "headline": "Battery life is typical for this class — plan for outlet access",
+      "content": "Battery life is typical for this class \u2014 plan for outlet access.",
+      "headline": "Battery life is typical for this class \u2014 plan for outlet access",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5484,7 +5826,7 @@
       "id": "2e4e83a4-ed68-402e-8469-a382057bb9c9",
       "ranking_product_id": "879b0206-e257-4d66-87a7-201912367c3d",
       "type": "con",
-      "content": "Very heavy at 2.9 kg — not portable.",
+      "content": "Very heavy at 2.9 kg \u2014 not portable.",
       "headline": "Very heavy at 2",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -5592,8 +5934,8 @@
       "id": "15d59825-1857-440d-821a-7fd64a1bf162",
       "ranking_product_id": "c9816e09-f68a-4829-8f08-f1e1c80f6f35",
       "type": "con",
-      "content": "Expensive even at base storage — no expandable storage.",
-      "headline": "Expensive even at base storage — no expandable storage",
+      "content": "Expensive even at base storage \u2014 no expandable storage.",
+      "headline": "Expensive even at base storage \u2014 no expandable storage",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5646,8 +5988,8 @@
       "id": "6e7737be-b22d-45fc-9132-e89ec94e3c1c",
       "ranking_product_id": "10c281f5-91ef-4f68-8f02-b4234538e1b3",
       "type": "con",
-      "content": "Large and heavy — not ideal for one-handed use.",
-      "headline": "Large and heavy — not ideal for one-handed use",
+      "content": "Large and heavy \u2014 not ideal for one-handed use.",
+      "headline": "Large and heavy \u2014 not ideal for one-handed use",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5673,8 +6015,8 @@
       "id": "5c44c380-b4f6-49e1-8eb9-8b1da8e35fb2",
       "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
       "type": "pro",
-      "content": "Best-in-class computational photography — photos pop with minimal editing.",
-      "headline": "Best-in-class computational photography — photos pop with minimal editing",
+      "content": "Best-in-class computational photography \u2014 photos pop with minimal editing.",
+      "headline": "Best-in-class computational photography \u2014 photos pop with minimal editing",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5682,8 +6024,8 @@
       "id": "4c0b664c-5e60-416e-8fdf-ffb961e2bffc",
       "ranking_product_id": "aacdf843-92fe-4fa2-87be-53c140e942f2",
       "type": "pro",
-      "content": "Seven years of OS/security updates (2024–2031) is industry-leading.",
-      "headline": "Seven years of OS/security updates (2024–2031) is industry-leading",
+      "content": "Seven years of OS/security updates (2024\u20132031) is industry-leading.",
+      "headline": "Seven years of OS/security updates (2024\u20132031) is industry-leading",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5799,7 +6141,7 @@
       "id": "596d9d7e-a202-4b2e-a69b-3addbd8d72ff",
       "ranking_product_id": "c4246463-5dda-4974-9300-03e10839160b",
       "type": "pro",
-      "content": "3.5mm headphone jack with high-res audio support — rare in flagships.",
+      "content": "3.5mm headphone jack with high-res audio support \u2014 rare in flagships.",
       "headline": "3",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -5889,8 +6231,8 @@
       "id": "fae6ff12-d5cb-4e81-9e78-fc206d52238f",
       "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
       "type": "pro",
-      "content": "Exceptionally stable even at max height — no wobble.",
-      "headline": "Exceptionally stable even at max height — no wobble",
+      "content": "Exceptionally stable even at max height \u2014 no wobble.",
+      "headline": "Exceptionally stable even at max height \u2014 no wobble",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5916,8 +6258,8 @@
       "id": "f6c22b6a-64fc-46bf-8e19-2ea6c381f06c",
       "ranking_product_id": "bf90ecfe-1ad4-483f-a700-24348f49cccb",
       "type": "con",
-      "content": "Premium price — among the most expensive standing desks.",
-      "headline": "Premium price — among the most expensive standing desks",
+      "content": "Premium price \u2014 among the most expensive standing desks.",
+      "headline": "Premium price \u2014 among the most expensive standing desks",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -5979,8 +6321,8 @@
       "id": "5023b655-9a50-4077-8fd0-e4c3b4ad37dc",
       "ranking_product_id": "03c8714a-66e0-4b39-9570-fcda677e9480",
       "type": "con",
-      "content": "Assembly required — not fully pre-assembled.",
-      "headline": "Assembly required — not fully pre-assembled",
+      "content": "Assembly required \u2014 not fully pre-assembled.",
+      "headline": "Assembly required \u2014 not fully pre-assembled",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -6051,8 +6393,8 @@
       "id": "b80c41cd-d70b-4955-8c4d-cd1b004e35bf",
       "ranking_product_id": "e179a67b-085c-4dd1-ba58-7889f0b323bf",
       "type": "pro",
-      "content": "IKEA's famous affordability — one of the cheapest motorized standing desks.",
-      "headline": "IKEA's famous affordability — one of the cheapest motorized standing desks",
+      "content": "IKEA's famous affordability \u2014 one of the cheapest motorized standing desks.",
+      "headline": "IKEA's famous affordability \u2014 one of the cheapest motorized standing desks",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -6105,8 +6447,8 @@
       "id": "24f6e46b-28f1-47fc-9529-ac9bbbb9fb96",
       "ranking_product_id": "a8bb996c-311d-440b-bdc3-3e9ee34531d9",
       "type": "pro",
-      "content": "Easy assembly — most users report <30 minutes setup.",
-      "headline": "Easy assembly — most users report <30 minutes setup",
+      "content": "Easy assembly \u2014 most users report <30 minutes setup.",
+      "headline": "Easy assembly \u2014 most users report <30 minutes setup",
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
     },
@@ -6753,7 +7095,7 @@
       "ranking_product_id": "rp-sd-3",
       "user_id": null,
       "type": "pro",
-      "content": "96×96 px screens show more detail and icon clarity.",
+      "content": "96\u00d796 px screens show more detail and icon clarity.",
       "headline": "Larger, higher-res displays with better color",
       "description": null,
       "created_at": "2026-04-19T00:08:23.601Z",
@@ -6974,7 +7316,7 @@
       "user_id": null,
       "type": "con",
       "content": "You must remember what each key does or add your own stickers/labels.",
-      "headline": "No displays — labels are physical only",
+      "headline": "No displays \u2014 labels are physical only",
       "description": null,
       "created_at": "2026-04-19T00:08:23.601Z",
       "updated_at": "2026-04-19T00:08:23.601Z"
@@ -7050,7 +7392,7 @@
       "ranking_product_id": "rp-sl-1",
       "user_id": null,
       "type": "con",
-      "content": "Hue bulbs cost 2–3× more than basic smart bulbs.",
+      "content": "Hue bulbs cost 2\u20133\u00d7 more than basic smart bulbs.",
       "headline": "Premium pricing",
       "description": null,
       "created_at": "2026-04-19T00:08:23.601Z",
@@ -7396,6 +7738,978 @@
       "description": null,
       "created_at": "2026-04-19T00:08:23.601Z",
       "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "545dcb53-d7d1-416e-a3b4-2ad4ab350e11",
+      "ranking_product_id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "type": "pro",
+      "headline": "Premium machined-aluminum construction",
+      "content": "Solid, premium feel with no flex or wobble even with heavy laptops.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "955e3ce4-ed89-42a8-af1b-b7b1f70e9a4a",
+      "ranking_product_id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "type": "pro",
+      "headline": "Smooth hinge tilt adjustment",
+      "content": "The hinge-based tilt lets you adjust viewing angle precisely and it stays put.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3bdfc8e2-77c7-40aa-aff4-590c18f6d6fa",
+      "ranking_product_id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "type": "pro",
+      "headline": "Excellent heat dissipation",
+      "content": "Open design allows unobstructed airflow underneath the laptop.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6b3c6bf5-1657-43a0-b04e-8d2b5d81f183",
+      "ranking_product_id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "type": "con",
+      "headline": "High price for a static laptop stand",
+      "content": "Costs more than foldable alternatives despite having no electronic features.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "531a45b7-5605-4005-a5f4-04cb53606851",
+      "ranking_product_id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "type": "con",
+      "headline": "Limited to fixed height adjustment",
+      "content": "You can't change the absolute height, only the tilt angle.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "674d28a4-088b-421e-9f6f-3538e7a81ae9",
+      "ranking_product_id": "5fa0e190-33bb-4748-979b-a0833f8264ea",
+      "type": "con",
+      "headline": "Small rubber feet can scratch delicate surfaces",
+      "content": "Add felt pads to protect glass or polished desks.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d6d46509-76ca-4a06-bdc9-f09cfc14b8ed",
+      "ranking_product_id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "type": "pro",
+      "headline": "Incredibly thin when folded",
+      "content": "Folds to 0.3 inches thick - fits in any laptop sleeve or envelope.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "dd4976fc-c0cb-43e7-8079-2bc81c5b091c",
+      "ranking_product_id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "type": "pro",
+      "headline": "Three useful tilt angles",
+      "content": "15, 25, and 40 degrees give you the right angle for typing or viewing.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "11b41e27-e52c-4f2f-88c7-556e660703e0",
+      "ranking_product_id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "type": "pro",
+      "headline": "Lightweight and travel-ready",
+      "content": "Only 5.6 oz means you won't notice it in your bag.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c29b5b60-7825-457a-91d7-d0d49c667976",
+      "ranking_product_id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "type": "con",
+      "headline": "Less stable at max tilt angle",
+      "content": "The lighter build wobbles slightly at the 40 degree position with heavier laptops.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c522384d-1a4a-4a71-b804-3af0f9ba045f",
+      "ranking_product_id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "type": "con",
+      "headline": "Polycarbonate feels less premium",
+      "content": "The material is functional but doesn't feel as solid as machined aluminum.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "37d68125-b9b9-4fc9-8a06-76a8368d8859",
+      "ranking_product_id": "6fe798fc-2274-4493-8d20-73218571249a",
+      "type": "con",
+      "headline": "No height adjustment beyond tilt",
+      "content": "Can't raise the screen height independent of the laptop angle.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1693ac82-6c4d-4f2a-a6d2-1de2e05fae01",
+      "ranking_product_id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "type": "pro",
+      "headline": "360 deg rotation for collaboration",
+      "content": "Rotates to share your screen with someone next to you without moving the stand.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "65e50e50-27aa-41c1-b298-df8630919cbd",
+      "ranking_product_id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "type": "pro",
+      "headline": "Wide height range suits any setup",
+      "content": "5 to 11.8 inches covers everyone from sitting to standing desk positions.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1a65d584-7cc8-41ad-a1f1-e08631fe8179",
+      "ranking_product_id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "type": "pro",
+      "headline": "Sturdy steel base prevents tipping",
+      "content": "The weighted base keeps the stand stable even when you tap the trackpad aggressively.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8e3ca8ea-2697-4371-bd24-d8585eb7a1f1",
+      "ranking_product_id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "type": "con",
+      "headline": "Heavier than portable alternatives",
+      "content": "At 2.6 lbs it's not ideal for commuting; better suited to permanent desk setups.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ca438d77-bdaa-4058-9a1d-d1a6d58e9af3",
+      "ranking_product_id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "type": "con",
+      "headline": "Manual tightness adjustment for tilt",
+      "content": "The tilt screw can loosen over time; occasionally check tightness.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "2bdd14c1-6cd3-4f54-b9b0-b316b845be0c",
+      "ranking_product_id": "80c67db3-be64-4b1f-a8f1-6f0801370883",
+      "type": "con",
+      "headline": "Bulky for travel",
+      "content": "Doesn't fold flat or small enough to comfortably pack in a laptop bag.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "301fd241-b020-414e-a981-334f6e34f6b2",
+      "ranking_product_id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "type": "pro",
+      "headline": "Great value for the build quality",
+      "content": "Solid aluminum construction at a very affordable price point.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "89e38aaa-997b-4af6-bf43-26ddb04ed86c",
+      "ranking_product_id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "type": "pro",
+      "headline": "Wide laptop compatibility",
+      "content": "Works with everything from 10-inch netbooks to 15.6-inch gaming laptops.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ec598483-e2a3-47a7-b00b-9611072728b0",
+      "ranking_product_id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "type": "pro",
+      "headline": "Silicone pads protect your laptop",
+      "content": "Non-slip pads keep the laptop from sliding around on the stand.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "cd6555ec-17ed-4343-8d7e-5d872ef34f03",
+      "ranking_product_id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "type": "con",
+      "headline": "Fixed single angle limits flexibility",
+      "content": "You get one angle and can't adjust it to your preference.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "2bed34d1-8840-4bf8-a0aa-a94243601928",
+      "ranking_product_id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "type": "con",
+      "headline": "No height adjustment",
+      "content": "Can't adapt to different desk heights or viewing preferences.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "430bfbe9-5408-4841-aae9-d82d213eaa8b",
+      "ranking_product_id": "d86e2fd6-940e-4ce3-b6ae-57cd9a0cab44",
+      "type": "con",
+      "headline": "No cable management",
+      "content": "Wires fall wherever; no channel or clip to keep them tidy.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a0d6e082-977d-4a1a-ad8c-cadef7c8814a",
+      "ranking_product_id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "type": "pro",
+      "headline": "Minimalist vertical design saves desk space",
+      "content": "Holds MacBook vertically, leaving the entire desk surface free.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "07c02a05-259d-45e2-bfb1-80ce609c1d83",
+      "ranking_product_id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "type": "pro",
+      "headline": "Clean cable management channel",
+      "content": "Built-in channel routes and hides the charging cable cleanly.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d1c95d50-d78b-44dc-a0e9-30096281d464",
+      "ranking_product_id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "type": "pro",
+      "headline": "MacBook-specific design is seamless",
+      "content": "Form factor and finish are designed to complement Apple's aesthetic.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f5007223-73f2-4ac8-ba72-2653a2e7e688",
+      "ranking_product_id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "type": "con",
+      "headline": "Only works with thin laptops",
+      "content": "Thicker Windows laptops may not fit or may wobble in the arc.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ea1edee1-d168-4b33-98c3-678ae3c7aa89",
+      "ranking_product_id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "type": "con",
+      "headline": "No adjustable viewing angle",
+      "content": "You're locked into one fixed orientation.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d4ab31ad-ed79-420e-87b1-231a79ed509d",
+      "ranking_product_id": "6cbd1e87-a2a9-4f92-9381-09b4733daaa3",
+      "type": "con",
+      "headline": "Expensive for a passive stand",
+      "content": "Price is high relative to the functionality offered.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3ee8854b-4767-4e3c-a9a6-92758e09d7e7",
+      "ranking_product_id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "type": "pro",
+      "headline": "Extremely lightweight at 7 oz",
+      "content": "Barely registers in a bag; the go-to choice for mobile workers.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c4b11c5c-c4b9-47bf-b891-70a208cfba54",
+      "ranking_product_id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "type": "pro",
+      "headline": "Generous 12-inch height at max extension",
+      "content": "Highest laptop elevation of any stand we tested - excellent for standing desk setups.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4bcf30b4-0fc6-4801-89db-c37e1c7bda8d",
+      "ranking_product_id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "type": "pro",
+      "headline": "Proven durability over many years",
+      "content": "Roost has been making portable stands for a decade; reputation is well-earned.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8eab771f-33aa-4f24-a935-8acea08680ea",
+      "ranking_product_id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "type": "con",
+      "headline": "Tight fold can be tricky at first",
+      "content": "Folding and unfolding takes practice; some users find the mechanism stiff.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5ee28c17-4f87-4d8a-88d2-7542a1a04c22",
+      "ranking_product_id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "type": "con",
+      "headline": "No tilt adjustment",
+      "content": "Fixed angle means you'll use a separate keyboard and mouse.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "bdde8ac2-d524-4cfa-83bc-2ff98efa8820",
+      "ranking_product_id": "5a664f02-7b50-4bce-9564-e2063117f6fe",
+      "type": "con",
+      "headline": "Limited availability outside US",
+      "content": "Harder to find internationally; international shipping costs add up.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "21d824e2-ebae-43eb-a9c1-1814f6a9547e",
+      "ranking_product_id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "type": "pro",
+      "headline": "Real-time energy monitoring saves money",
+      "content": "Track exactly how much power your devices consume and catch energy hogs.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b32cac8c-a087-47f0-b201-d2dd38f5a233",
+      "ranking_product_id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "type": "pro",
+      "headline": "Reliable Wi-Fi connection with no hub needed",
+      "content": "Direct connection means fewer failure points and quick setup.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f94c0063-84be-4d19-83f2-f8c516aa6b6b",
+      "ranking_product_id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "type": "pro",
+      "headline": "Competitive price especially in 2-pack",
+      "content": "Great value per plug; more affordable than most HomeKit options.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "58dc3653-fbfc-43bc-9581-9ffb1d09993b",
+      "ranking_product_id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "type": "con",
+      "headline": "Only 2.4 GHz Wi-Fi can be limiting",
+      "content": "Some modern routers segment 5 GHz; ensure 2.4 GHz is available.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "00556430-744e-4166-878e-06ec2a7f3098",
+      "ranking_product_id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "type": "con",
+      "headline": "No HomeKit support",
+      "content": "Works with Alexa and Google but not Apple HomeKit natively.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "fe8b99c2-fa76-42ab-8538-e2e922f7bd7e",
+      "ranking_product_id": "41311029-34d9-4ed5-a621-8a40d9fd1e92",
+      "type": "con",
+      "headline": "Kasa app feels less polished than premium alternatives",
+      "content": "Functional but less refined UI than some competitors.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "163a0c2a-ca37-4ad8-a372-873b0574cd92",
+      "ranking_product_id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "type": "pro",
+      "headline": "Thread connectivity is faster and more reliable",
+      "content": "Thread mesh network responds quicker and works locally without cloud.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8294292c-fb12-407b-92ef-c057f8b0695e",
+      "ranking_product_id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "type": "pro",
+      "headline": "HomeKit-native with no bridge required",
+      "content": "Pair directly with Apple Home app; great for iPhone households.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "586d4ace-4b44-4dd1-ac2b-af7560507180",
+      "ranking_product_id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "type": "pro",
+      "headline": "Energy monitoring in the Home app",
+      "content": "Track usage directly in Apple Home without a separate app.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8524fb89-0919-48ce-bd07-e96c469af857",
+      "ranking_product_id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "type": "con",
+      "headline": "Alexa and Google not supported",
+      "content": "HomeKit-only; not an option if you use other ecosystems.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "2c1e2bda-734d-4b5b-8a3e-b56c3d7a5dba",
+      "ranking_product_id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "type": "con",
+      "headline": "Requires Thread border router",
+      "content": "Needs a HomePod mini or Apple TV 4K as Thread border router.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4008ac61-bab7-4c05-80df-e6ad2af32d96",
+      "ranking_product_id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
+      "type": "con",
+      "headline": "Premium price for a single plug",
+      "content": "Costs significantly more than dual-band Wi-Fi alternatives.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "01327e81-f2aa-4e56-8026-f97fcdbc4d70",
+      "ranking_product_id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "type": "pro",
+      "headline": "Local control via REST/MQTT for enthusiasts",
+      "content": "No cloud dependency; full control through your own network.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "9c423a22-7223-43bf-a3b8-5f00a935caed",
+      "ranking_product_id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "type": "pro",
+      "headline": "Per-outlet energy monitoring and scheduling",
+      "content": "Track each of the 4 outlets independently; great for workshops.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c51dc434-7da4-43d0-b894-1ce2976608d2",
+      "ranking_product_id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "type": "pro",
+      "headline": "DIN rail mountable for clean installs",
+      "content": "Professional installation in electrical panels or workspaces.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "23f99617-38ad-4766-85b5-4797a68a707c",
+      "ranking_product_id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "type": "con",
+      "headline": "Requires electrical knowledge for hardwiring",
+      "content": "Hardwired installation is not plug-and-play; requires basic wiring.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5017d80c-b3b2-476d-95eb-4a5f9d0e8990",
+      "ranking_product_id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "type": "con",
+      "headline": "Setup is more complex than consumer plugs",
+      "content": "The configuration is deeper; not ideal for non-technical users.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3ccb9b17-b71c-471b-b76f-e59e4bfc7a4d",
+      "ranking_product_id": "e4c78d8f-cd2e-470e-8a9f-856238de72a0",
+      "type": "con",
+      "headline": "Bulkier form factor",
+      "content": "Larger than a simple plug; may block adjacent outlets.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "31cf09dc-ee84-4143-8356-009bfd2ed31c",
+      "ranking_product_id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "type": "pro",
+      "headline": "Dead-simple Alexa setup",
+      "content": "If you live in Alexa's ecosystem, setup is the fastest of any plug here.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8b33fc1d-39d7-4e92-8795-32da272fe39c",
+      "ranking_product_id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "type": "pro",
+      "headline": "Physical button for manual control",
+      "content": "Works even when your phone is in another room.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c28475a3-4388-431c-9674-d3f38229ade7",
+      "ranking_product_id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "type": "pro",
+      "headline": "Very affordable",
+      "content": "One of the cheapest smart plugs from a major brand.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "334a3f7a-7b47-48ca-aff8-6af6382937be",
+      "ranking_product_id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "type": "con",
+      "headline": "No energy monitoring",
+      "content": "Can't track consumption; a missed feature for power-conscious users.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c03033e1-c427-4f50-838b-1f7d61767931",
+      "ranking_product_id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "type": "con",
+      "headline": "Alexa-only means no Google Home",
+      "content": "Locked to one ecosystem; useless for Google Home households.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5c8108f5-5298-41bb-ab4c-d837996b840c",
+      "ranking_product_id": "21ed9d2f-abdd-4bd2-a9f9-cc5d44c09c8a",
+      "type": "con",
+      "headline": "Larger body blocks adjacent outlets",
+      "content": "Bulky design can obstruct neighboring sockets on a power strip.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f175754b-fd3a-445d-8da3-771e2b68a490",
+      "ranking_product_id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "type": "pro",
+      "headline": "IP64 rating handles rain and dust",
+      "content": "Outdoor durability is genuine; works through seasons without damage.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "dc6b8d60-fd65-496d-a467-52e9ee9abac6",
+      "ranking_product_id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "type": "pro",
+      "headline": "Two independent outlets for flexibility",
+      "content": "Control two outdoor devices separately - holiday lights and fountain, for example.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "90700985-bbf6-4739-b3ef-c6a97c446f21",
+      "ranking_product_id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "type": "pro",
+      "headline": "Energy monitoring on each outlet",
+      "content": "Track outdoor device power draw to optimize usage.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "0f0256f8-7e3a-4f7d-b6ef-59918417fe76",
+      "ranking_product_id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "type": "con",
+      "headline": "Wi-Fi can struggle in outdoor environments",
+      "content": "Range and interference from walls and weather affect reliability.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4f56546f-c2dd-433b-add8-ea5c53d52ef0",
+      "ranking_product_id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "type": "con",
+      "headline": "Cold weather may affect responsiveness",
+      "content": "Extreme cold can slow response times; test before full deployment.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "fe963e4b-38f7-433a-bbaa-27c70ade5427",
+      "ranking_product_id": "1596bec7-8115-4f4b-a437-3427dc0ad580",
+      "type": "con",
+      "headline": "Requires outdoor Wi-Fi coverage",
+      "content": "You need solid Wi-Fi signal where you mount it; range extenders add complexity.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "13e83fef-aed1-4d7b-a5ef-e9917c4d515a",
+      "ranking_product_id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "type": "pro",
+      "headline": "6 AC outlets plus USB-C PD in one strip",
+      "content": "Replaces a separate USB charger; great for consolidated desk power.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3333e230-96be-4e24-973b-f982a7d05212",
+      "ranking_product_id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "type": "pro",
+      "headline": "Per-outlet energy monitoring",
+      "content": "Track exactly where your energy goes across all connected devices.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "9789705e-07e4-4465-bdc7-d1e6af7ddae4",
+      "ranking_product_id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "type": "pro",
+      "headline": "1080J surge protection protects equipment",
+      "content": "Built-in surge protection keeps your devices safe from power spikes.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "7fcbae48-66c0-42da-8c68-4d8a5c2ba6e9",
+      "ranking_product_id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "type": "con",
+      "headline": "Long, bulky form factor",
+      "content": "Takes up significant desk or floor space; not great for tight spots.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "bf895d68-c0a8-4515-909f-f7b916b2b6a6",
+      "ranking_product_id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "type": "con",
+      "headline": "Surge protection degrades over time",
+      "content": "MOV-based surge protection loses effectiveness after major events; replace every 3-5 years.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c69ec58d-7010-4a07-9292-ac66aedccea6",
+      "ranking_product_id": "4462c655-1a7c-4413-9c51-1ab617655045",
+      "type": "con",
+      "headline": "USB-C PD at 30W may not fully charge laptops",
+      "content": "Some laptops need more than 30W; check your laptop's charging requirements.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "bef16ae0-a94f-4c35-b073-8c420eab9869",
+      "ranking_product_id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "type": "pro",
+      "headline": "High cable capacity handles complex setups",
+      "content": "25 or 36 inch variants hold 15-20 cables easily for power-user workstations.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "79decd46-a7c6-4068-94a8-b1019c31c81c",
+      "ranking_product_id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "type": "pro",
+      "headline": "Sturdy steel construction doesn't sag",
+      "content": "Powder-coated steel holds its shape even under heavy cable bundles.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f0461bf5-7d0a-406e-8bb4-cfb742066deb",
+      "ranking_product_id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "type": "pro",
+      "headline": "Flexible mounting (clamp or screw)",
+      "content": "No-drill clamp option makes it removable; screw option makes it permanent.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "7371285a-c80f-42d2-b830-0578a378c731",
+      "ranking_product_id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "type": "con",
+      "headline": "Requires measuring for desk compatibility",
+      "content": "Must ensure the width fits your desk and clamps don't interfere with legs.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ed3ed19a-d3f5-443c-852f-f4e4f9cda524",
+      "ranking_product_id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "type": "con",
+      "headline": "Harder to add/remove cables after installation",
+      "content": "Closed tray means you need to unscrew or unclamp to route new cables.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "aa5c8e9e-836b-4bd2-8221-b63697a6dc5f",
+      "ranking_product_id": "ee13e85d-e879-42da-9797-b16414add1bf",
+      "type": "con",
+      "headline": "Screws may damage furniture finish",
+      "content": "If using screws, pre-drill and use felt pads to prevent desk damage.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "75c87271-3faa-4368-97c2-89c0a1f74afd",
+      "ranking_product_id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "type": "pro",
+      "headline": "Handles standing desk cable travel naturally",
+      "content": "The accordion spine flexes as the desk moves up and down - no cable stretching.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "815c7c98-df47-44ff-a102-549a416f4f4c",
+      "ranking_product_id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "type": "pro",
+      "headline": "Multiple channels organize power and data separately",
+      "content": "Keep video cables away from power cables for cleaner signal.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a1f3710c-3a11-4b4b-a877-431ae13be91c",
+      "ranking_product_id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "type": "pro",
+      "headline": "Simple clamp mounting, no drilling required",
+      "content": "Works with most standing desk frames without modification.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "48cec7ca-7464-4496-803e-b3539779317a",
+      "ranking_product_id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "type": "con",
+      "headline": "More expensive than basic cable trays",
+      "content": "Premium pricing for the flexibility it offers.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "91eee3cb-3450-478f-b2c4-bf304a2ade9e",
+      "ranking_product_id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "type": "con",
+      "headline": "Dust accumulates in accordion folds",
+      "content": "The flexible segments trap dust and are harder to clean than smooth trays.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "84ef6ae3-6a28-4be2-9a50-026f43ab7753",
+      "ranking_product_id": "5af6168b-255a-4560-8c07-d032f3da80f8",
+      "type": "con",
+      "headline": "Limited to standing desk vertical routing",
+      "content": "Not ideal for fixed-height desks where a simple under-desk tray is sufficient.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3a4815a6-ba59-4316-bfe9-09e183fae06e",
+      "ranking_product_id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "type": "pro",
+      "headline": "Extremely affordable for the quantity",
+      "content": "12 sleeves at a low price; enough to manage a full workstation.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b541bc3b-c1c8-46a3-b0d7-4dd55fcfe53e",
+      "ranking_product_id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "type": "pro",
+      "headline": "Easy to open and close for cable changes",
+      "content": "Hook-and-loop closure means you can add or remove cables without tools.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6f05f564-723d-41a6-84ee-5174f3ade0ef",
+      "ranking_product_id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "type": "pro",
+      "headline": "Expands to fit many cable diameters",
+      "content": "Neoprene sleeve wraps around anything from thin USB-C to thick monitor power cables.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "08a799bc-ccb1-40b8-9487-fb2956004eae",
+      "ranking_product_id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "type": "con",
+      "headline": "Requires manual bundling before sleeving",
+      "content": "You need to group and wrap cables yourself; not a one-step solution.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6019eb74-3265-45b1-966c-245658856128",
+      "ranking_product_id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "type": "con",
+      "headline": "Sleeves can slide and bunch up over time",
+      "content": "Without clips to anchor them, sleeves migrate along the cable bundle.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "fce05a48-cf68-4fcc-9d5c-d76725500a8e",
+      "ranking_product_id": "41479223-661d-447d-94a9-95aa1e9cfbcf",
+      "type": "con",
+      "headline": "On top of desk, not hidden underneath",
+      "content": "Sleeves sit on the surface, so they don't fully hide cables - only tidy them.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "60b1c8f8-ab91-497c-93e7-7f4b5be52f14",
+      "ranking_product_id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "type": "pro",
+      "headline": "Clean chrome finish looks professional",
+      "content": "IKEA's understated design blends into most office environments.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "70cae2c5-8520-4a65-a3b9-e322336ed907",
+      "ranking_product_id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "type": "pro",
+      "headline": "Very affordable for a recognized brand",
+      "content": "Classic IKEA value - reliable quality at a low price.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e167754e-dce3-49cf-8ed1-d602a933bc2a",
+      "ranking_product_id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "type": "pro",
+      "headline": "Multiple units can be linked for longer runs",
+      "content": "Buy several to span wide desks or multi-monitor setups.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6c8550f0-98b0-4ccf-974c-72a031868bf3",
+      "ranking_product_id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "type": "con",
+      "headline": "Screw-only mounting - permanent once installed",
+      "content": "You must drill screws; no clamp option makes it less flexible.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8d2d318e-eafb-4daf-9f59-283692c981d7",
+      "ranking_product_id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "type": "con",
+      "headline": "Chrome finish shows scratches over time",
+      "content": "High-use environments reveal wear marks on the chrome surface.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4983c423-17b0-476e-849b-23d7bc249ad4",
+      "ranking_product_id": "02a5a268-bb8d-4354-9658-7db62675249d",
+      "type": "con",
+      "headline": "Narrow channel limits how many cables fit",
+      "content": "10-cable capacity can be tight if you have many thick adapters.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e6095a6c-023e-46f3-a9cb-e39835f160f7",
+      "ranking_product_id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "type": "pro",
+      "headline": "Mesh design keeps cables cooler",
+      "content": "Air circulates through the wire frame, preventing heat buildup.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "750431c8-4e61-4c89-ab3f-e32c43ac0b76",
+      "ranking_product_id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "type": "pro",
+      "headline": "C-clamps attach quickly without tools",
+      "content": "Simply clamp to the desk edge and you're done in minutes.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "29e753b5-367b-4cdc-9655-92f79665a93c",
+      "ranking_product_id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "type": "pro",
+      "headline": "Great value for a 28-inch cable tray",
+      "content": "Less expensive than Ecco while offering similar capacity.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "12f060fa-bb93-4b34-be68-d1fb9d87a3bb",
+      "ranking_product_id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "type": "con",
+      "headline": "Mesh can catch small cables and adapters",
+      "content": "Thin USB-C cables can slip through mesh gaps; use sleeves for those.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "df20fc49-8b30-4576-b804-12e35fc1a32f",
+      "ranking_product_id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "type": "con",
+      "headline": "Wire frame can flex under heavy loads",
+      "content": "Heaviest cable bundles may cause slight sagging over time.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "663df8de-0b60-42d3-9a8f-8850bb458aab",
+      "ranking_product_id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
+      "type": "con",
+      "headline": "Black finish shows dust more than lighter colors",
+      "content": "Dark coating highlights dust particles; regular cleaning needed.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "aad38279-8e60-4db2-a852-588ed51166a3",
+      "ranking_product_id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "type": "pro",
+      "headline": "On-desk placement keeps cables visible and accessible",
+      "content": "Easy to adjust or swap cables without reaching under the desk.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "af170cc9-b368-4b2e-b55c-1b3d5a30305f",
+      "ranking_product_id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "type": "pro",
+      "headline": "Machined aluminum matches premium desk setups",
+      "content": "Looks at home next to high-end monitors and standing desks.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f2b140d8-f5ea-44fb-a5b9-3e4272a12128",
+      "ranking_product_id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "type": "pro",
+      "headline": "Magnetic clips make reconfiguration easy",
+      "content": "Snap-on cable clips let you route new cables without disassembling.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "2f2b9c3f-3f47-4bab-8a60-860214932c41",
+      "ranking_product_id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "type": "con",
+      "headline": "Takes up desk surface space",
+      "content": "On-desk arms reduce your usable workspace - a concern for small desks.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8e81bbfa-fe34-4e7e-820f-22b2d69a297a",
+      "ranking_product_id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "type": "con",
+      "headline": "Limited cable capacity",
+      "content": "Swan-neck design fits fewer cables than an under-desk tray.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "7c16022a-62b8-4076-a702-ec4f2dddf86a",
+      "ranking_product_id": "326d4dfd-cf4d-4927-8e00-f48a33b0c284",
+      "type": "con",
+      "headline": "Expensive for a cable organizer",
+      "content": "Costs as much as a basic under-desk tray for less utility.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ],
   "specifications": [
@@ -7420,7 +8734,7 @@
       "id": "0ca0eece-8aef-408e-b357-9e90b026ffd4",
       "product_id": "46fcfd3e-8829-4f27-a64e-88d054290eaf",
       "name": "Resolution",
-      "value": "2560×1440",
+      "value": "2560\u00d71440",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -7452,7 +8766,7 @@
       "id": "602e1ce4-0840-40e5-bd61-2ba3ec4d2de5",
       "product_id": "e17fe198-c6a6-4470-ae47-9f8ce8880a96",
       "name": "Resolution",
-      "value": "5120×2880",
+      "value": "5120\u00d72880",
       "unit": "5K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7493,7 +8807,7 @@
       "id": "04e85c87-9528-47e7-88b0-4269ce5b107c",
       "product_id": "ae06c37a-07bb-40a6-a442-6d8345763c2d",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7534,7 +8848,7 @@
       "id": "d25d46ab-616a-40cb-9bb9-5ea4a807d2b5",
       "product_id": "a792ccf9-fa01-4c31-9c74-58ac16a162bb",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7576,7 +8890,7 @@
       "id": "2560e066-5a60-4b33-9d61-2050fe5e7092",
       "product_id": "04cb2c71-9745-492d-8922-f68e7b233289",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7618,7 +8932,7 @@
       "id": "c2dc915a-42ea-4e79-b3a2-ab0c195e2c92",
       "product_id": "72b196ce-da7c-4340-a29b-4b7cb3e08a87",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -7759,7 +9073,7 @@
       "id": "67af9d5f-8984-4054-9ed7-cb48cdc38380",
       "product_id": "ba75e652-857c-49c1-9f7f-af3a0e46fa09",
       "name": "Recline",
-      "value": "133° tilt",
+      "value": "133\u00b0 tilt",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -7882,7 +9196,7 @@
       "id": "e69cdd9a-355a-4a3d-8946-561421848e0e",
       "product_id": "9acbc96f-a246-46d2-8b37-b374b06071fa",
       "name": "Recline",
-      "value": "115°",
+      "value": "115\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -7933,7 +9247,7 @@
       "id": "5153468e-f144-46a3-a66d-5f51d666514f",
       "product_id": "9d038463-44bd-47f1-98f1-9f0a2b061998",
       "name": "Capacity Options",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -8059,7 +9373,7 @@
       "id": "a3875c3e-e2b0-438d-96cf-6469bbaaa7dd",
       "product_id": "e4e81ee6-44dc-434c-a9e4-90f692a2032f",
       "name": "Capacity",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -8101,7 +9415,7 @@
       "id": "a476db1a-9477-49ef-af52-d6936fca79a8",
       "product_id": "4fb9b7b3-8e34-4754-814f-d2c0fc9769e6",
       "name": "Capacity",
-      "value": "1TB–4TB",
+      "value": "1TB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -8135,7 +9449,7 @@
       "id": "4781bbf5-a889-4e1c-a909-191d987e8e63",
       "product_id": "154c5c14-dedc-4364-a70c-337c0f94bfc7",
       "name": "Capacity",
-      "value": "500GB–4TB",
+      "value": "500GB\u20134TB",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -8152,7 +9466,7 @@
       "id": "bb020da8-253b-42a0-8a02-c4433a828e39",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -8178,7 +9492,7 @@
       "id": "c93ab98e-9ab5-477d-a5f7-ddd2e984e317",
       "product_id": "87e48c44-d541-4830-8843-e1d72db54603",
       "name": "Field of View",
-      "value": "65°/78°/90°",
+      "value": "65\u00b0/78\u00b0/90\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -8202,7 +9516,7 @@
       "id": "63becd93-935d-4a99-915d-38c0cc196437",
       "product_id": "81405e0d-3c16-4efe-9964-441f2103cf3c",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -8253,7 +9567,7 @@
       "id": "d0f1328e-4a43-4989-840b-c6444d95bc4c",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -8287,7 +9601,7 @@
       "id": "a0698766-7f03-4571-9eb7-b02a75c27f10",
       "product_id": "e067d951-48ae-471a-8192-928c16396ecc",
       "name": "Field of View",
-      "value": "72°/82°/93°",
+      "value": "72\u00b0/82\u00b0/93\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -8303,7 +9617,7 @@
       "id": "c08f799f-5d6f-4977-893e-f9c56d0e2d57",
       "product_id": "ce24a6cf-1722-4504-967f-5ca252aa3cd0",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -8353,7 +9667,7 @@
       "id": "e42100f3-1576-4f5f-964b-dbf17c4a7e2f",
       "product_id": "1fdb7e53-7720-4f15-ac6c-f072847e923e",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -8403,7 +9717,7 @@
       "id": "7df97cb4-7543-4729-a693-e6fba50e7c58",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Resolution",
-      "value": "3840×2160",
+      "value": "3840\u00d72160",
       "unit": "4K",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -8421,7 +9735,7 @@
       "id": "27a4114e-0c6e-43ae-89e7-c9df0716a1d2",
       "product_id": "3e226776-0a12-4b61-b2f5-e8cca707354c",
       "name": "Field of View",
-      "value": "65°/78°/95°",
+      "value": "65\u00b0/78\u00b0/95\u00b0",
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
     },
@@ -9626,7 +10940,7 @@
       "id": "50b243d0-6f1e-4234-9afc-284992fd453b",
       "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
       "name": "Compatibility",
-      "value": "4\"–13\" tablets and phones",
+      "value": "4\"\u201313\" tablets and phones",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9634,7 +10948,7 @@
       "id": "ded9ad01-9937-4514-9813-558aab263a7c",
       "product_id": "4737c88a-749f-492f-91c7-87da3d019b2c",
       "name": "Adjustment",
-      "value": "270° viewing angle",
+      "value": "270\u00b0 viewing angle",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9682,7 +10996,7 @@
       "id": "a1cf5243-fcf9-44ca-94bc-75e0b7655cf8",
       "product_id": "84d53d19-f0ef-44ab-9756-55c742509bdf",
       "name": "Adjustment",
-      "value": "Smooth tilting, 360° rotation",
+      "value": "Smooth tilting, 360\u00b0 rotation",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9722,7 +11036,7 @@
       "id": "47da06ba-86e4-43c3-ab44-f1bcb43c9477",
       "product_id": "939c3973-d4dd-4ee7-8a1f-f627287733a4",
       "name": "Compatibility",
-      "value": "7\"–13\" devices",
+      "value": "7\"\u201313\" devices",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9770,7 +11084,7 @@
       "id": "f0a882c3-f050-424b-9ddf-23eb470cc441",
       "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
       "name": "Compatibility",
-      "value": "4.7\"–13\" tablets",
+      "value": "4.7\"\u201313\" tablets",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9778,7 +11092,7 @@
       "id": "91fcc583-de51-4f3e-b5d7-2841dd5e08c4",
       "product_id": "7dda6361-90d2-4df3-86df-ba9914fc551f",
       "name": "Rotation",
-      "value": "360° swivel base",
+      "value": "360\u00b0 swivel base",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9818,7 +11132,7 @@
       "id": "8bb9cc1d-9ae9-48e5-a063-b7bce4f9f281",
       "product_id": "559fb04b-c5e9-4e19-9acb-f425ffb5c5b7",
       "name": "Compatibility",
-      "value": "4\"–10.5\" tablets",
+      "value": "4\"\u201310.5\" tablets",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9866,7 +11180,7 @@
       "id": "3a696997-81d7-4a9e-a2d5-ad12be65e964",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Compatibility",
-      "value": "7\"–13\" tablets up to 2kg",
+      "value": "7\"\u201313\" tablets up to 2kg",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9882,7 +11196,7 @@
       "id": "25c2604b-6e24-49b7-88ea-73e03ac954e1",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Adjustment",
-      "value": "Full 360° articulation",
+      "value": "Full 360\u00b0 articulation",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -9898,7 +11212,7 @@
       "id": "ba67f36c-9773-44ff-a68b-8071a6f9edb0",
       "product_id": "e857d626-f2a7-4ce5-b3cb-cb47f4a2521c",
       "name": "Tilt Range",
-      "value": "-90° to +90°",
+      "value": "-90\u00b0 to +90\u00b0",
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
     },
@@ -10017,7 +11331,7 @@
       "product_id": "8fe2ea4d-0784-4a95-8c8e-58476fc508d9",
       "name": "Brew Temperature",
       "value": "197-205",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -10306,7 +11620,7 @@
       "product_id": "69abf2d4-43a2-4b8b-91de-7e4a6be90a5c",
       "name": "Temperature",
       "value": "40-200",
-      "unit": "°C",
+      "unit": "\u00b0C",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -10392,7 +11706,7 @@
       "product_id": "a8dcfca0-e60c-4e09-89f8-4815e668dbe1",
       "name": "Temperature",
       "value": "90-400",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -10443,7 +11757,7 @@
       "product_id": "ea9399d6-f713-4b69-9dff-3020899f4d3e",
       "name": "Temperature",
       "value": "95-400",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -10478,7 +11792,7 @@
       "product_id": "f4c98ca4-61e1-465a-b22d-e79f21bd57d8",
       "name": "Temperature",
       "value": "105-400",
-      "unit": "°F",
+      "unit": "\u00b0F",
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
     },
@@ -10862,7 +12176,7 @@
       "id": "ab7ad7e5-1d80-4449-826e-4ac566c972e2",
       "product_id": "4dedb633-35f0-437b-93b6-ad30d44b21b6",
       "name": "Storage",
-      "value": "256GB–2TB",
+      "value": "256GB\u20132TB",
       "unit": null,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -10916,7 +12230,7 @@
       "id": "e7fbbacb-182c-49de-a8e6-d31a883329df",
       "product_id": "8fe43d06-098b-4301-a6c8-99d40ad4cb00",
       "name": "Storage",
-      "value": "256GB–1TB",
+      "value": "256GB\u20131TB",
       "unit": null,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -10970,7 +12284,7 @@
       "id": "3c5c23b3-7427-4385-a7b0-e484269fff07",
       "product_id": "735d96e7-6f67-4a7e-b7ee-19a2fc041cb0",
       "name": "Storage",
-      "value": "128GB–1TB",
+      "value": "128GB\u20131TB",
       "unit": null,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -11033,7 +12347,7 @@
       "id": "dd48e10b-2c0b-406d-a9cc-461a15e6e93d",
       "product_id": "7cf8109a-3e15-43d6-9f89-6284c9ab4bed",
       "name": "Storage",
-      "value": "256GB–1TB",
+      "value": "256GB\u20131TB",
       "unit": null,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -11078,7 +12392,7 @@
       "id": "17bb7347-a5e1-4e61-80ac-529f98212a22",
       "product_id": "9d9bfa43-eaba-44ea-b070-dda726c06322",
       "name": "Storage",
-      "value": "256GB–512GB",
+      "value": "256GB\u2013512GB",
       "unit": null,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -11483,7 +12797,7 @@
       "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-1",
       "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
       "name": "VESA Compatibility",
-      "value": "75×75, 100×100",
+      "value": "75\u00d775, 100\u00d7100",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11492,7 +12806,7 @@
       "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-2",
       "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
       "name": "Height Range",
-      "value": "13\"–27\"",
+      "value": "13\"\u201327\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11501,7 +12815,7 @@
       "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-3",
       "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
       "name": "Tilt",
-      "value": "+85° to -30°",
+      "value": "+85\u00b0 to -30\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11510,7 +12824,7 @@
       "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-4",
       "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
       "name": "Rotation",
-      "value": "360°",
+      "value": "360\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11519,7 +12833,7 @@
       "id": "spec-c3d4e5f6-a7b8-9012-cdef-345678901234-5",
       "product_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
       "name": "Desk Mount",
-      "value": "Clamp (thickness 0.6–2.2\")",
+      "value": "Clamp (thickness 0.6\u20132.2\")",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11537,7 +12851,7 @@
       "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-1",
       "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
       "name": "VESA Compatibility",
-      "value": "75×75, 100×100",
+      "value": "75\u00d775, 100\u00d7100",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11546,7 +12860,7 @@
       "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-2",
       "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
       "name": "Height Range",
-      "value": "13\"–33\"",
+      "value": "13\"\u201333\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11555,7 +12869,7 @@
       "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-3",
       "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
       "name": "Tilt",
-      "value": "+85° to -70°",
+      "value": "+85\u00b0 to -70\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11564,7 +12878,7 @@
       "id": "spec-d4e5f6a7-b8c9-0123-def0-456789012345-4",
       "product_id": "d4e5f6a7-b8c9-0123-def0-456789012345",
       "name": "Rotation",
-      "value": "360°",
+      "value": "360\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11591,7 +12905,7 @@
       "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-1",
       "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
       "name": "VESA Compatibility",
-      "value": "75×75, 100×100",
+      "value": "75\u00d775, 100\u00d7100",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11600,7 +12914,7 @@
       "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-2",
       "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
       "name": "Height Range",
-      "value": "10\"–26\"",
+      "value": "10\"\u201326\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11609,7 +12923,7 @@
       "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-3",
       "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
       "name": "Tilt",
-      "value": "+50° to -35°",
+      "value": "+50\u00b0 to -35\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11618,7 +12932,7 @@
       "id": "spec-e5f6a7b8-c9d0-1234-ef01-567890123456-4",
       "product_id": "e5f6a7b8-c9d0-1234-ef01-567890123456",
       "name": "Rotation",
-      "value": "360°",
+      "value": "360\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11645,7 +12959,7 @@
       "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-1",
       "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
       "name": "VESA Compatibility",
-      "value": "75×75, 100×100",
+      "value": "75\u00d775, 100\u00d7100",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11654,7 +12968,7 @@
       "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-2",
       "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
       "name": "Height Range",
-      "value": "11\"–24\"",
+      "value": "11\"\u201324\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11663,7 +12977,7 @@
       "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-3",
       "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
       "name": "Tilt",
-      "value": "+80° to -20°",
+      "value": "+80\u00b0 to -20\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11672,7 +12986,7 @@
       "id": "spec-f6a7b8c9-d0e1-2345-f012-678901234567-4",
       "product_id": "f6a7b8c9-d0e1-2345-f012-678901234567",
       "name": "Rotation",
-      "value": "360°",
+      "value": "360\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11699,7 +13013,7 @@
       "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-1",
       "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
       "name": "VESA Compatibility",
-      "value": "75×75, 100×100",
+      "value": "75\u00d775, 100\u00d7100",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11708,7 +13022,7 @@
       "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-2",
       "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
       "name": "Height Range",
-      "value": "13\"–23\"",
+      "value": "13\"\u201323\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11717,7 +13031,7 @@
       "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-3",
       "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
       "name": "Tilt",
-      "value": "+90° to -20°",
+      "value": "+90\u00b0 to -20\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11726,7 +13040,7 @@
       "id": "spec-a7b8c9d0-e1f2-3456-0123-789012345678-4",
       "product_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
       "name": "Rotation",
-      "value": "180° pan, 360° swivel",
+      "value": "180\u00b0 pan, 360\u00b0 swivel",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11753,7 +13067,7 @@
       "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-1",
       "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
       "name": "VESA Compatibility",
-      "value": "75×75, 100×100",
+      "value": "75\u00d775, 100\u00d7100",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11771,7 +13085,7 @@
       "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-3",
       "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
       "name": "Tilt",
-      "value": "+75° to -15°",
+      "value": "+75\u00b0 to -15\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11780,7 +13094,7 @@
       "id": "spec-b8c9d0e1-f2a3-4567-1234-890123456789-4",
       "product_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
       "name": "Rotation",
-      "value": "360°",
+      "value": "360\u00b0",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11807,7 +13121,7 @@
       "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-1",
       "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
       "name": "Display Type",
-      "value": "LCD, 72×72 px per key",
+      "value": "LCD, 72\u00d772 px per key",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11843,7 +13157,7 @@
       "id": "spec-e6f7a8b9-c0d1-2345-6789-0123456789ab-5",
       "product_id": "e6f7a8b9-c0d1-2345-6789-0123456789ab",
       "name": "Dimensions",
-      "value": "5.5×3.5×1.2\"",
+      "value": "5.5\u00d73.5\u00d71.2\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.598Z",
       "updated_at": "2026-04-19T00:08:23.598Z"
@@ -11897,7 +13211,7 @@
       "id": "spec-f7a8b9c0-d1e2-3456-7890-123456789abc-5",
       "product_id": "f7a8b9c0-d1e2-3456-7890-123456789abc",
       "name": "Dimensions",
-      "value": "12×8×2\"",
+      "value": "12\u00d78\u00d72\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -11906,7 +13220,7 @@
       "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-0",
       "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
       "name": "Keys",
-      "value": "32 LCD keys (8×4 grid)",
+      "value": "32 LCD keys (8\u00d74 grid)",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -11915,7 +13229,7 @@
       "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-1",
       "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
       "name": "Display Type",
-      "value": "LCD, 96×96 px per key",
+      "value": "LCD, 96\u00d796 px per key",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -11951,7 +13265,7 @@
       "id": "spec-a8b9c0d1-e2f3-4567-8901-23456789abcd-5",
       "product_id": "a8b9c0d1-e2f3-4567-8901-23456789abcd",
       "name": "Dimensions",
-      "value": "10.2×4.5×1.8\"",
+      "value": "10.2\u00d74.5\u00d71.8\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -11969,7 +13283,7 @@
       "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-1",
       "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
       "name": "Display Type",
-      "value": "LCD, 72×72 px per key",
+      "value": "LCD, 72\u00d772 px per key",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -12005,7 +13319,7 @@
       "id": "spec-b9c0d1e2-f3a4-5678-9012-3456789abcde-5",
       "product_id": "b9c0d1e2-f3a4-5678-9012-3456789abcde",
       "name": "Dimensions",
-      "value": "3.6×3.0×1.3\"",
+      "value": "3.6\u00d73.0\u00d71.3\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -12113,7 +13427,7 @@
       "id": "spec-d1e2f3a4-b5c6-7890-1234-56789abcdef0-5",
       "product_id": "d1e2f3a4-b5c6-7890-1234-56789abcdef0",
       "name": "Dimensions",
-      "value": "8.5×5.5×1.5\"",
+      "value": "8.5\u00d75.5\u00d71.5\"",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.600Z",
       "updated_at": "2026-04-19T00:08:23.600Z"
@@ -12131,7 +13445,7 @@
       "id": "spec-f4a5b6c7-d8e9-2345-6789-0123456789ab-1",
       "product_id": "f4a5b6c7-d8e9-2345-6789-0123456789ab",
       "name": "Color Range",
-      "value": "16M colors + white (2000K–6500K)",
+      "value": "16M colors + white (2000K\u20136500K)",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.601Z",
       "updated_at": "2026-04-19T00:08:23.601Z"
@@ -12293,7 +13607,7 @@
       "id": "spec-c7d8e9f0-a1b2-5678-9012-3456789abcde-1",
       "product_id": "c7d8e9f0-a1b2-5678-9012-3456789abcde",
       "name": "Color Temperature",
-      "value": "2700K–6500K tunable white",
+      "value": "2700K\u20136500K tunable white",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.601Z",
       "updated_at": "2026-04-19T00:08:23.601Z"
@@ -12401,7 +13715,7 @@
       "id": "spec-e9f0a1b2-c3d4-7890-1234-56789abcdef0-1",
       "product_id": "e9f0a1b2-c3d4-7890-1234-56789abcdef0",
       "name": "Color Temperature",
-      "value": "2700K–6500K tunable white",
+      "value": "2700K\u20136500K tunable white",
       "unit": null,
       "created_at": "2026-04-19T00:08:23.601Z",
       "updated_at": "2026-04-19T00:08:23.601Z"
@@ -12441,6 +13755,870 @@
       "unit": null,
       "created_at": "2026-04-19T00:08:23.601Z",
       "updated_at": "2026-04-19T00:08:23.601Z"
+    },
+    {
+      "id": "0940e471-981d-48c2-a9c5-157b8e3d68d5",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Material",
+      "value": "Machined aluminum",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "83be0a73-6335-47fe-91cc-8a819451ab71",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Weight Capacity",
+      "value": "8.8 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f5d7bc67-ab40-4fbe-aacc-f50edf369016",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Tilt Range",
+      "value": "0-90 deg",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "13617987-ecea-46f5-be5d-8755d70eb9e1",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Height",
+      "value": "5.5\" adjustable",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ff073b68-6588-459b-81b8-9974f7d977e7",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Compatibility",
+      "value": "11-16 inch laptops",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "538f2c35-1854-4bd0-87c4-bb6a59d9b8e7",
+      "product_id": "83b271e4-3e91-4d90-8ff5-455f0a2db7e1",
+      "name": "Weight",
+      "value": "1.2 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "fa8d56cf-f61c-4dad-bddd-61f5f265a8fe",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "Material",
+      "value": "Polycarbonate + PU leather",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1b6017ff-0913-4716-9e9e-fe1e798bde74",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "Foldable",
+      "value": "Yes, 0.3\" thick",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "93623dba-843d-4cd4-81cd-cba958eb44e5",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "Tilt Angles",
+      "value": "3 positions (15, 25, 40 deg)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f0c17fad-dfbc-449a-9f2e-6c3f55b0f689",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "Weight Limit",
+      "value": "22 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "7c25a345-4e23-476f-b3ab-de0f12ec3e1c",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "Compatibility",
+      "value": "11-15.6 inch laptops",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b8cc4bf2-b731-49cc-9872-bd7600bd85f1",
+      "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
+      "name": "Weight",
+      "value": "5.6 oz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "0a1b5bfd-45d7-4441-ae2a-e8bb80d75516",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Material",
+      "value": "Aluminum + steel base",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ff8c0509-bcd8-4940-86be-7c6d3bb7e041",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Rotation",
+      "value": "360 deg",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b473c614-17a1-4fd5-b5fb-2b2b29c27b46",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Height Range",
+      "value": "5.1-11.8\"",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "25dce38a-6653-4115-a3ab-0411865b26e2",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Tilt",
+      "value": "+/-15 deg",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5daa2e40-8343-456e-aff7-8ee7fcb5b772",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Compatibility",
+      "value": "12-17 inch laptops",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5ccdc162-8485-4ec4-a585-ca695c7d0bc1",
+      "product_id": "74ae84fc-b015-4659-8e8e-8e1d39a23300",
+      "name": "Weight",
+      "value": "2.6 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "54416584-e4bd-43d6-8689-6b58d892c4e1",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Material",
+      "value": "Aluminum + silicone pad",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "87faf0df-2bdf-47c2-8934-7b2577fdcb3f",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Height",
+      "value": "5\" fixed",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "427cd75f-e7e0-4404-97b3-927a94e9994c",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Tilt",
+      "value": "Single angle",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "948ad822-0aba-4bdc-bef3-f294fe10586f",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Compatibility",
+      "value": "10-15.6 inch laptops",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "bf01b292-b17e-4cf2-a397-62d8638de5d5",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Heat Dissipation",
+      "value": "Open design",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "111bea64-ab78-4a97-bed4-7e418526845b",
+      "product_id": "827c9b27-c092-4325-9038-412a9651f2f5",
+      "name": "Weight",
+      "value": "1.8 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "fc2a51d2-c3c1-4acf-91cc-eb2b366fb516",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Material",
+      "value": "Anodized aluminum",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "bcbd9e25-0539-4df0-a433-9397bb42181a",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Design",
+      "value": "Arc/vertical stand",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "24d618ba-7497-49d4-8b3f-174a9c35a04c",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Cable Management",
+      "value": "Built-in channel",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "09d829aa-82ca-4249-b105-74592af3f2b0",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Compatibility",
+      "value": "MacBook 11-16 inch",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "45cca15d-6c41-4d17-933c-154e86b5b73c",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Finish",
+      "value": "Space gray / silver",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f8c44525-72ab-4845-9bfb-0e94a94d1a68",
+      "product_id": "68a5317c-3da8-48e6-9456-bddd8403cafd",
+      "name": "Weight",
+      "value": "1.5 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1cee272b-da5e-4819-9c7f-6daa96c58829",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Material",
+      "value": "Carbon fiber + aluminum",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8ff682d0-b6d4-4bdd-aa6f-d8b202d68637",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Height",
+      "value": "12\" max",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "21b6cbe5-cbdd-46d4-8676-04f40a25339d",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Foldable",
+      "value": "Yes",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "abe02015-e40a-4462-a2e5-3663dc1094ef",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Portable",
+      "value": "Travel-ready",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "cc2969ce-8ce2-4cfb-b92b-b64ad239cc12",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Compatibility",
+      "value": "11-16 inch laptops",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "44c28e6a-921a-4f5a-833d-1ee9194423d9",
+      "product_id": "37500166-a455-4115-9818-d96a8508e1c9",
+      "name": "Weight",
+      "value": "7 oz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "15b80912-9baf-4e26-8136-be877add12b6",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "Connectivity",
+      "value": "Wi-Fi 2.4 GHz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e9d33737-c5da-439a-9e99-42d07a00b244",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "Energy Monitoring",
+      "value": "Yes, real-time kWh",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5352cf6c-288d-4b17-bd21-b568b2819d17",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "Max Load",
+      "value": "15A / 1800W",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "aa5e60aa-350a-47f9-b3d0-03bfed256a46",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "Voice Assistants",
+      "value": "Alexa, Google Home",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "67ca4938-2216-494e-9fd1-56a8c33527fb",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "Scheduling",
+      "value": "Yes, away mode",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a3574f40-71f2-4ff7-9a51-35baf46869fc",
+      "product_id": "16a851b0-46e7-4074-81aa-cbd4baf97fb3",
+      "name": "Matter Support",
+      "value": "Yes (firmware update)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a245e4b4-8533-4615-99c9-4172b4c61f2e",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Connectivity",
+      "value": "Thread + Bluetooth",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "9459fa67-25f2-47ac-bdf7-50929b9308ef",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Energy Monitoring",
+      "value": "Yes",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "aeac9d5f-f086-48da-b1d9-487aa6faa04c",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Hub Required",
+      "value": "No (Thread border router needed)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5d8240bb-7bb3-462a-b6db-f2354cc52e56",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Voice Assistants",
+      "value": "HomeKit only (no Alexa/Google)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e056ce49-d607-4b10-b481-c6591604968d",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Matter Support",
+      "value": "Yes",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ad2a2e8a-8a28-4c14-ac1a-2e828b1fb4ff",
+      "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
+      "name": "Power",
+      "value": "15A / 1800W",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "12d49fe5-a800-4b9d-b70f-3484a932cd3f",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Outlets",
+      "value": "4 individually controlled",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b6adf8b6-cd17-4f99-aa97-0f3e90530d49",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Connectivity",
+      "value": "Wi-Fi 2.4/5 GHz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "0b341ff6-55de-47ac-b501-af7de2279d34",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Energy Monitoring",
+      "value": "Per-outlet, 16A per channel",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "be4379ab-f68d-4446-ba9e-4fc154fe2642",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Protocol",
+      "value": "REST API, MQTT, local control",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3fefd850-7e4a-4282-a10e-63e4cf650515",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Mounting",
+      "value": "DIN rail or surface",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "88c0e791-40bb-4aa7-a702-bb98cfffec08",
+      "product_id": "497851b4-3fa5-4606-950a-6bc8db5346fe",
+      "name": "Max Power",
+      "value": "16A per channel",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f08537a9-b264-44d1-893f-15183da8420b",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Connectivity",
+      "value": "Wi-Fi 2.4 GHz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "11af78e0-1999-4a8c-9775-cbdf5fdd4269",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Energy Monitoring",
+      "value": "No",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1ccf0c87-54bf-40c0-9f0d-00cb0d33601d",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Voice Assistants",
+      "value": "Alexa only",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b1a16dcc-e0ed-48a8-8163-fb2a442d390f",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Setup",
+      "value": "Simple, Alexa app guided",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ac8ac484-37e7-4dc9-80e7-c14bd1070ea2",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Physical Button",
+      "value": "Manual on/off",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "61adfd59-c1c5-4725-8e53-5a050db249d0",
+      "product_id": "5976f087-22c8-488c-9a79-b69e03b4f22a",
+      "name": "Max Load",
+      "value": "15A / 1800W",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5adaaa46-8bb2-4fed-add2-4a2ae4ef00cd",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Outdoor Rated",
+      "value": "IP64 weather-resistant",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "b96edc33-a2e6-4499-8e39-f73332afb1ea",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Connectivity",
+      "value": "Wi-Fi 2.4 GHz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "080ba780-6d46-44ac-bf9f-5d5545727c2e",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Energy Monitoring",
+      "value": "Yes",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "73000ec3-2fa2-4346-8518-3c925fdae170",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Voice Assistants",
+      "value": "Alexa, Google Home",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5e35ca23-c5df-4087-9135-ebe1ca8b69ff",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Dual Outlets",
+      "value": "2 independent outlets",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "0f6a52e6-2f99-4ad8-ba50-172e568d7dc3",
+      "product_id": "c38ba7c5-9db8-4204-9bc0-a12f1b1be842",
+      "name": "Max Load",
+      "value": "15A each outlet",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "86efb349-5dfe-4c0c-b54b-ae73eca6bcd2",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "Outlets",
+      "value": "6 AC + 3 USB (2 USB-A, 1 USB-C 30W)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5c5d79db-ddee-43d7-a731-fd65898800ce",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "Connectivity",
+      "value": "Wi-Fi 2.4 GHz",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e2c861a0-d040-4a0c-80f8-66b418bf694b",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "Energy Monitoring",
+      "value": "Per-outlet",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a4fc9cf1-ea0a-41bc-a987-c839819f35f2",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "Voice Assistants",
+      "value": "Alexa, Google Home",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "52063e1a-41d3-4475-85e7-88451a8e49b4",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "USB Charging",
+      "value": "30W USB-C PD",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c7832f68-d233-4505-bdc1-069be4400384",
+      "product_id": "feb1b8a5-43d9-46a0-9713-682a0829000a",
+      "name": "Surge Protection",
+      "value": "1080J",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3bc92819-528a-4e8d-ad7e-de736054a304",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Mounting",
+      "value": "Under-desk, clamp or screw",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c0a8f32e-bb6d-4e0d-923d-b9e74ab51b3c",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Material",
+      "value": "Steel, powder-coated",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "9b3bddb5-0d96-47f5-9e04-28941e39d380",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Dimensions",
+      "value": "25\" x 5\" x 5\" (or 36\" variant)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e62e7a84-e57a-4835-b722-ff54c2bb4ba1",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Capacity",
+      "value": "Holds up to 20 cables",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ef8e4f38-f573-418c-8723-737ff2934472",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Installation",
+      "value": "No-drill clamp option available",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ed4b971e-785e-45ed-9d88-ccdb4ce16d5c",
+      "product_id": "e9ae7197-7afd-46f5-a75d-345f07d4dd3e",
+      "name": "Finish",
+      "value": "Black or white",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "35e5f1dd-45cb-4801-97a6-919661c3bbaf",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "Type",
+      "value": "Flexible accordion spine",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5e1bcd47-a04f-43fd-9baa-a764a9456f23",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "Mounting",
+      "value": "Under-desk or floor standing",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "0f987b1d-42ab-47ec-a0b6-0039621a7d11",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "Flexibility",
+      "value": "360 deg routing for standing desks",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "43f33a3b-1f01-4137-9f90-adfe7ea36df3",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "Cable Slots",
+      "value": "3 separate channels",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a2d92fd5-91a6-4c04-87f4-41a52c59e017",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "Compatibility",
+      "value": "All standing desks (FlexiSpot, Uplift, etc.)",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "237588b6-412f-4f7a-bb8f-b1fc77ae71e4",
+      "product_id": "bd6f3785-814f-4a89-ba79-fa4f1584a61a",
+      "name": "Material",
+      "value": "Plastic + steel frame",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8b20e16f-ddf3-4b70-b84c-a89fc7d1e9e6",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Type",
+      "value": "Neoprene wrap-around sleeves",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "189ac8ca-f4dc-4867-8192-783670c0d7e7",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Quantity",
+      "value": "12 sleeves, expandable",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "46d462b2-0e48-4760-9f6e-3ac244ae6ba4",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Diameter",
+      "value": "Fits cables up to 1\" thick",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c80201a1-0042-4941-8f49-035b8cb3f636",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Reusable",
+      "value": "Yes, hook-and-loop closure",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f738b3fe-6164-4908-b0d9-19c43056e2b0",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Length",
+      "value": "15.7\" per sleeve",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "58202233-a0bd-4906-9a12-42fa27fa92f7",
+      "product_id": "50e65133-b8af-4381-8883-40ed76b44577",
+      "name": "Color",
+      "value": "Black",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "682cc657-c8e5-4bd1-9736-c8f621098cd8",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "Type",
+      "value": "Under-desk cable runner",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4bb2c362-5418-40b6-8e6c-0da5ba614df5",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "Material",
+      "value": "Steel, chrome finish",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "f54eade5-d501-4ec3-8605-0453f09ac375",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "Mounting",
+      "value": "Screw-mounted under desk",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "9c44124c-7a7c-4d01-a703-708dd4453401",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "Cable Capacity",
+      "value": "Up to 10 cables",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c7fb4748-c065-4279-8ab9-1b844108fdb4",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "Depth",
+      "value": "3\"",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "748a4f79-a10b-467d-8282-c73a1adc9dbf",
+      "product_id": "870f80fa-6cfc-453c-9934-6e60780b1cf7",
+      "name": "Length",
+      "value": "19.5\" per unit",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "2240ae4d-2e43-49e8-a051-a350f8a55e95",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Type",
+      "value": "Under-desk mesh tray",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "e8eb417c-85ca-4bb5-9ced-9029272ff4b4",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Material",
+      "value": "Steel wire, powder-coated black",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "0cfdbb18-08e1-4255-9a1f-fbc44b68937f",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Dimensions",
+      "value": "28\" x 5\" x 4\"",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "64fee2fc-d444-4bb4-85b4-b3fb229b398e",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Capacity",
+      "value": "20+ cables",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "661e0e5e-c8bb-492f-88ca-2b2f4e93e7c0",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Mounting",
+      "value": "C-clamps to desk edge",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "13e6200f-0d91-4d2f-b4f4-51298bfbd3d8",
+      "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
+      "name": "Ventilation",
+      "value": "Open mesh promotes airflow",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "36d33eeb-ecbb-4306-bfde-55fdc25ef1b7",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Type",
+      "value": "On-desk cable organizer arm",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6056580e-7c17-4056-89d6-da20fe792612",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Material",
+      "value": "Machined aluminum",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "4117b206-2ca1-46bc-8367-c5b9f7092ebc",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Routing",
+      "value": "3-channel with magnetic clips",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8d7bbea9-3f01-4d8c-af65-48fbfd9be067",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Mounting",
+      "value": "Clamp to desk edge",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "5caa9a62-90c0-4fd9-9f91-3b1e582af374",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Shape",
+      "value": "Swan-neck routes cables up and away",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "faed45e3-ae0c-4e1c-9c82-f2c8a4cb2b36",
+      "product_id": "d74ad9e7-0c2d-4f6e-8f73-37c8ca48f462",
+      "name": "Weight",
+      "value": "1.1 lbs",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ],
   "assets": [],
@@ -12449,7 +14627,7 @@
       "id": "69b1cfaa-612d-47df-bf59-8ee0b7c8724f",
       "ranking_id": "f9828aba-e4f9-4a61-afc9-d450b4b4cb15",
       "question": "What monitor refresh rate do I need for gaming?",
-      "answer": "For competitive esports, 240–480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
+      "answer": "For competitive esports, 240\u2013480Hz provides a measurable edge. For single-player and general use, 144Hz is the sweet spot. 60Hz is fine for office work but feels sluggish for gaming.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -12476,7 +14654,7 @@
       "id": "eea12d76-375b-4970-84f0-f3c763531cdc",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How do I adjust my office chair for proper posture?",
-      "answer": "Set seat height so feet are flat and knees at 90°. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90–110°. Recline slightly (100–110°) to reduce spinal disc pressure.",
+      "answer": "Set seat height so feet are flat and knees at 90\u00b0. Adjust lumbar to support the natural curve of your lower back. Position armrests so elbows rest at 90\u2013110\u00b0. Recline slightly (100\u2013110\u00b0) to reduce spinal disc pressure.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -12494,7 +14672,7 @@
       "id": "c6d88936-c6f7-4c40-acc6-19ea2d6d1195",
       "ranking_id": "c0b1bfe6-ee9b-4bae-9e64-df532d9b05fd",
       "question": "How long should an office chair last?",
-      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10–15 years with proper maintenance. Warranty length is a good proxy—12 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3–5 years.",
+      "answer": "Quality ergonomic chairs from Herman Miller, Steelcase, etc., last 10\u201315 years with proper maintenance. Warranty length is a good proxy\u201412 years suggests the manufacturer expects long-term durability. Cheap chairs often need replacement in 3\u20135 years.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -12503,7 +14681,7 @@
       "id": "1bbfd241-d0ec-4002-a856-ceab49b03f42",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "What's the difference between USB 3.2, USB4, and Thunderbolt 4 for external SSDs?",
-      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s—fine for backups. USB4 hits 2,000–3,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
+      "answer": "USB 3.2 Gen 2 caps at 1,050 MB/s\u2014fine for backups. USB4 hits 2,000\u20133,000 MB/s. Thunderbolt 4 supports up to 4,000 MB/s and daisy-chaining. Match the drive to your port: Thunderbolt drives work with USB4 but won't hit full speed on USB 3.2.",
       "display_order": 1,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -12521,7 +14699,7 @@
       "id": "743aa0dd-f923-4799-8eb2-6cbd00900543",
       "ranking_id": "e8488920-2772-4d29-af40-644c54cb2f4b",
       "question": "How often should I replace my external SSD?",
-      "answer": "NAND flash wears out after ~3,000–5,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5–7 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
+      "answer": "NAND flash wears out after ~3,000\u20135,000 program/erase cycles for TLC, more for QLC. For typical consumer use (backups, media), 5\u20137 years is reasonable. Monitor SMART health if the drive reports it; replace if you see significant slowdowns or errors.",
       "display_order": 3,
       "created_at": "2026-04-12T22:25:26.818Z",
       "updated_at": "2026-04-12T22:25:26.818Z"
@@ -12638,7 +14816,7 @@
       "id": "c9fe1d61-b413-45c8-a227-ddf0d1170ae0",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "question": "What's the difference between Cherry MX, Gateron, and Kailh switches?",
-      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget — all are reliable in 2026.",
+      "answer": "Cherry MX switches are German-made, consistent, and expensive. Gateron/Kailh are Chinese rebrands offering similar performance at lower cost. Gateron is smoother stock; Kailh has more specialty options (Box, Pro). Choose based on feel preference and budget \u2014 all are reliable in 2026.",
       "display_order": 1,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -12656,7 +14834,7 @@
       "id": "2ca843e6-d310-423b-849c-ae3df1a923eb",
       "ranking_id": "68c1715d-7ff6-4991-b1a3-ceb6871412e7",
       "question": "Is wireless gaming keyboard latency actually good enough for esports?",
-      "answer": "Yes — modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
+      "answer": "Yes \u2014 modern 2.4GHz wireless with 1000Hz polling achieves sub-1ms latency, indistinguishable from wired for 99% of players. Only the fastest competitive pros might notice a difference; for everyone else, wireless is more than sufficient.",
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -12674,7 +14852,7 @@
       "id": "75232757-ba66-4280-aeec-0960d0e9b018",
       "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
       "question": "How long do ANC headphone batteries last, and can they be replaced?",
-      "answer": "Most modern ANC headphones last 20–60 hours per charge and batteries typically endure 300–500 full cycles (~2–3 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
+      "answer": "Most modern ANC headphones last 20\u201360 hours per charge and batteries typically endure 300\u2013500 full cycles (~2\u20133 years of daily use). Some models offer replaceable batteries (Sony, Bose) for extended longevity; others require manufacturer service.",
       "display_order": 2,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -12683,7 +14861,7 @@
       "id": "0eaf7e27-37c0-48ec-a0de-c2accb84f83b",
       "ranking_id": "1f159d21-db86-4e6f-bfa9-4d6f821f1dbd",
       "question": "Are wireless headphones safe for air travel?",
-      "answer": "Yes — all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
+      "answer": "Yes \u2014 all major airlines permit Bluetooth headphones. ANC is actually helpful on planes by reducing engine roar. Just keep a wired pair handy for seatback entertainment systems, which don't support Bluetooth.",
       "display_order": 3,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -12692,7 +14870,7 @@
       "id": "1bc7a0ba-a717-48d3-bf3a-359db4419bae",
       "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
       "question": "What should I look for in a tablet stand for video calls?",
-      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10–15°) helps with framing without you having to look down.",
+      "answer": "Look for height adjustability to position the camera at eye level, stable base to prevent wobbling during calls, and a wide compatibility range for your tablet. A slight forward tilt (10\u201315\u00b0) helps with framing without you having to look down.",
       "display_order": 1,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -12701,7 +14879,7 @@
       "id": "af9cd5ba-aee0-4d94-a317-69396bbe87bf",
       "ranking_id": "fa3c1bfd-d189-4ff1-99af-76f2446ecf61",
       "question": "Can I mount a tablet stand on a car dashboard?",
-      "answer": "Yes — vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
+      "answer": "Yes \u2014 vent mounts work well for smaller tablets; suction-cup windshield mounts support larger devices. Make sure the mount has a secure grip and the tablet's weight doesn't obstruct your view. Many car-specific mounts include adjustable arms for this purpose.",
       "display_order": 2,
       "created_at": "2026-04-14T23:08:09.902936Z",
       "updated_at": "2026-04-14T23:08:09.902936Z"
@@ -12719,7 +14897,7 @@
       "id": "e76f8896-a6b9-4a8e-992b-f34b0ae98c5e",
       "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
       "question": "Is an expensive espresso machine worth it for home use?",
-      "answer": "If you drink 2+ espresso-based drinks daily and appreciate quality, a 00+ machine pays off in 6-12 months vs. café purchases. However, if you primarily drink drip coffee or are new to espresso, start with a quality drip brewer or a pod system — the upgrade path is expensive and iterative.",
+      "answer": "If you drink 2+ espresso-based drinks daily and appreciate quality, a 00+ machine pays off in 6-12 months vs. caf\u00e9 purchases. However, if you primarily drink drip coffee or are new to espresso, start with a quality drip brewer or a pod system \u2014 the upgrade path is expensive and iterative.",
       "display_order": 1,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -12728,7 +14906,7 @@
       "id": "193def9b-2ead-4f58-b75d-351ee8e2b57e",
       "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
       "question": "What is the difference between 15-bar and 19-bar espresso machines?",
-      "answer": "Bar pressure refers to the pump force pushing water through the grounds. In practice, 9 bars is the ideal extraction pressure — most machines with higher pressure ratings simply regulate down to 9 bars internally. The difference between 15-bar and 19-bar machines is negligible in actual brew quality; grind consistency and temperature stability matter far more.",
+      "answer": "Bar pressure refers to the pump force pushing water through the grounds. In practice, 9 bars is the ideal extraction pressure \u2014 most machines with higher pressure ratings simply regulate down to 9 bars internally. The difference between 15-bar and 19-bar machines is negligible in actual brew quality; grind consistency and temperature stability matter far more.",
       "display_order": 2,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -12737,7 +14915,7 @@
       "id": "8f4acb6c-4446-46a2-ae34-8bb8ce509e7b",
       "ranking_id": "068966f3-c69c-44b1-814c-0f760d8c562f",
       "question": "Do I need a built-in grinder or can I buy pre-ground coffee?",
-      "answer": "A built-in grinder is strongly recommended for espresso — fresh grinding immediately before extraction preserves volatile aromatics. Pre-ground coffee degrades significantly within 15-30 minutes of grinding. For drip brewers, pre-ground works fine if used within a week of opening, but fresh-ground still tastes noticeably better.",
+      "answer": "A built-in grinder is strongly recommended for espresso \u2014 fresh grinding immediately before extraction preserves volatile aromatics. Pre-ground coffee degrades significantly within 15-30 minutes of grinding. For drip brewers, pre-ground works fine if used within a week of opening, but fresh-ground still tastes noticeably better.",
       "display_order": 3,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -12773,7 +14951,7 @@
       "id": "fe9d95d4-8a02-451c-a690-4c8287271e17",
       "ranking_id": "794d2c95-4490-480f-932e-02d10961f8d2",
       "question": "Is air-fried food actually healthier?",
-      "answer": "Air fryers use 80-90% less oil than deep frying, which significantly reduces fat content in foods like fries and wings. However, the high heat can produce more acrylamide in starchy foods than conventional ovens. Used as intended — as a lower-oil alternative to deep frying — they are meaningfully healthier.",
+      "answer": "Air fryers use 80-90% less oil than deep frying, which significantly reduces fat content in foods like fries and wings. However, the high heat can produce more acrylamide in starchy foods than conventional ovens. Used as intended \u2014 as a lower-oil alternative to deep frying \u2014 they are meaningfully healthier.",
       "display_order": 1,
       "created_at": "2026-04-09T19:22:09.787Z",
       "updated_at": "2026-04-09T19:22:09.787Z"
@@ -12800,7 +14978,7 @@
       "id": "d4b6cb19-df6a-402a-a195-27f0c7490688",
       "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
       "question": "What GPU do I need for 1440p gaming in 2026?",
-      "answer": "For smooth 1440p gaming at high settings, an NVIDIA RTX 4070 or AMD RX 7800M is the sweet spot. These GPUs handle most AAA titles at 60+ fps with detail turned up. Enthusiasts chasing 165–240Hz at 1440p should step up to an RTX 4080 or 4090.",
+      "answer": "For smooth 1440p gaming at high settings, an NVIDIA RTX 4070 or AMD RX 7800M is the sweet spot. These GPUs handle most AAA titles at 60+ fps with detail turned up. Enthusiasts chasing 165\u2013240Hz at 1440p should step up to an RTX 4080 or 4090.",
       "display_order": 1,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -12818,7 +14996,7 @@
       "id": "f0c776ae-e81c-405b-9215-83322d63c2fa",
       "ranking_id": "64ef06e3-9f19-4d45-876c-f99f7b12d054",
       "question": "How much RAM do I need for gaming in 2026?",
-      "answer": "32GB DDR5 is the new standard for gaming laptops — it handles modern titles plus background streaming/tasks without slowdowns. 16GB is still acceptable for strictly gaming, but 64GB is overkill unless you're also doing video editing or 3D rendering.",
+      "answer": "32GB DDR5 is the new standard for gaming laptops \u2014 it handles modern titles plus background streaming/tasks without slowdowns. 16GB is still acceptable for strictly gaming, but 64GB is overkill unless you're also doing video editing or 3D rendering.",
       "display_order": 3,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -12826,7 +15004,7 @@
     {
       "id": "41a0268a-bfec-48df-b72d-e84fd1764813",
       "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
-      "question": "iPhone vs Android in 2026 — which should I choose?",
+      "question": "iPhone vs Android in 2026 \u2014 which should I choose?",
       "answer": "Choose iPhone if you value long software support (7+ years), seamless ecosystem integration, and best-in-class video recording. Choose Android if you want more customization, better zoom cameras, expandable storage (on some models), or specific hardware features like S Pen or high-wattage charging. Your existing device ecosystem often decides.",
       "display_order": 1,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
@@ -12836,7 +15014,7 @@
       "id": "dce2c118-9d68-4b1c-bba0-b53bbbe20260",
       "ranking_id": "1bc14bca-4b82-49cc-a085-8df6e4cfe7cf",
       "question": "How important is 5G in a smartphone in 2026?",
-      "answer": "5G is standard in all mid-range and flagship phones, and coverage is now widespread in urban/suburban areas. The real differentiator is mmWave vs sub-6 — mmWave offers blistering speeds in dense cities but limited coverage. For most users, good 4G/LTE remains sufficient, but 5G future-proofs your purchase.",
+      "answer": "5G is standard in all mid-range and flagship phones, and coverage is now widespread in urban/suburban areas. The real differentiator is mmWave vs sub-6 \u2014 mmWave offers blistering speeds in dense cities but limited coverage. For most users, good 4G/LTE remains sufficient, but 5G future-proofs your purchase.",
       "display_order": 2,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -12854,7 +15032,7 @@
       "id": "e52e5a8f-8cc7-4348-b476-53725d5d29de",
       "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
       "question": "Are standing desks worth the investment?",
-      "answer": "If you sit 6+ hours daily, a standing desk can reduce back pain and improve circulation. The key is alternating between sitting and standing — aim for 30–60 minute intervals. Quality matters too: a stable, smooth-adjusting desk is more likely to be used consistently. Budget desks that wobble or jam get abandoned quickly.",
+      "answer": "If you sit 6+ hours daily, a standing desk can reduce back pain and improve circulation. The key is alternating between sitting and standing \u2014 aim for 30\u201360 minute intervals. Quality matters too: a stable, smooth-adjusting desk is more likely to be used consistently. Budget desks that wobble or jam get abandoned quickly.",
       "display_order": 1,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -12863,7 +15041,7 @@
       "id": "ed70f540-8b7d-4fa7-befc-e13641bff4dc",
       "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
       "question": "What height should my standing desk be?",
-      "answer": "Set your desk so your elbows rest at 90–110° with wrists flat on the keyboard. Your monitor top should be at or slightly below eye level. A footrest or anti-fatigue mat helps distribute weight. If you're tall or short, check the desk's minimum/maximum height before buying.",
+      "answer": "Set your desk so your elbows rest at 90\u2013110\u00b0 with wrists flat on the keyboard. Your monitor top should be at or slightly below eye level. A footrest or anti-fatigue mat helps distribute weight. If you're tall or short, check the desk's minimum/maximum height before buying.",
       "display_order": 2,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -12872,7 +15050,7 @@
       "id": "ac71f3fb-2190-4ef5-b3e6-37f970f3fbbe",
       "ranking_id": "2788ff4d-1bb1-4038-a74c-783894ff3eca",
       "question": "Can a standing desk hold multiple monitors?",
-      "answer": "Yes — most dual- and triple-monitor arms clamp to the desk edge. Ensure your desk's weight capacity exceeds your monitor+arm total (typically 20-40 lbs per arm). For heavy CRT monitors or multiple large displays, lean toward a commercial-grade desk with 500+ lb capacity.",
+      "answer": "Yes \u2014 most dual- and triple-monitor arms clamp to the desk edge. Ensure your desk's weight capacity exceeds your monitor+arm total (typically 20-40 lbs per arm). For heavy CRT monitors or multiple large displays, lean toward a commercial-grade desk with 500+ lb capacity.",
       "display_order": 3,
       "created_at": "2026-04-18T02:14:08.127568+00:00",
       "updated_at": "2026-04-18T02:14:08.127568+00:00"
@@ -12881,7 +15059,7 @@
       "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-0",
       "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
       "question": "How do I know if my monitor is VESA compatible?",
-      "answer": "Check the back of your monitor for four threaded holes in a square pattern (75×75mm or 100×100mm). Most modern monitors are VESA mount compatible; if yours isn't, you may need an adapter plate that attaches to the monitor's factory stand.",
+      "answer": "Check the back of your monitor for four threaded holes in a square pattern (75\u00d775mm or 100\u00d7100mm). Most modern monitors are VESA mount compatible; if yours isn't, you may need an adapter plate that attaches to the monitor's factory stand.",
       "display_order": 1,
       "created_at": "2026-04-19T00:08:23.602Z",
       "updated_at": "2026-04-19T00:08:23.602Z"
@@ -12889,7 +15067,7 @@
     {
       "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-1",
       "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
-      "question": "Clamp vs. grommet mount — which should I choose?",
+      "question": "Clamp vs. grommet mount \u2014 which should I choose?",
       "answer": "Clamp mounts attach to the edge of your desk without drilling; they're easier and less permanent. Grommet mounts require a hole in the desk surface and provide a cleaner, more integrated look with greater stability. Choose clamp for simplicity, grommet for a permanent, polished setup.",
       "display_order": 2,
       "created_at": "2026-04-19T00:08:23.602Z",
@@ -12908,7 +15086,7 @@
       "id": "faq-b2c3d4e5-f6a7-8901-bcde-f23456789012-3",
       "ranking_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
       "question": "How much weight can a monitor arm hold?",
-      "answer": "Weight capacities vary widely: light-duty arms handle 10–15 lbs, mid-range 20–30 lbs, and heavy-duty arms 40–50+ lbs. Always check your monitor's weight (usually on the spec sheet or back label) and choose an arm rated at least 20% above that weight for safety margin.",
+      "answer": "Weight capacities vary widely: light-duty arms handle 10\u201315 lbs, mid-range 20\u201330 lbs, and heavy-duty arms 40\u201350+ lbs. Always check your monitor's weight (usually on the spec sheet or back label) and choose an arm rated at least 20% above that weight for safety margin.",
       "display_order": 4,
       "created_at": "2026-04-19T00:08:23.602Z",
       "updated_at": "2026-04-19T00:08:23.602Z"
@@ -12971,7 +15149,7 @@
       "id": "faq-e3f4a5b6-c7d8-1234-5678-90123456789a-0",
       "ranking_id": "e3f4a5b6-c7d8-1234-5678-90123456789a",
       "question": "Do smart bulbs require a hub or bridge?",
-      "answer": "Some do, some don't. Wi-Fi bulbs (Wyze, TP-Link Kasa, LIFX) connect directly to your router without a hub. Zigbee or Bluetooth Mesh bulbs (Philips Hue, IKEA Trådfri) require a bridge/hub that translates Zigbee to Wi-Fi. Hub systems offer reliability and broader device support but add cost and complexity.",
+      "answer": "Some do, some don't. Wi-Fi bulbs (Wyze, TP-Link Kasa, LIFX) connect directly to your router without a hub. Zigbee or Bluetooth Mesh bulbs (Philips Hue, IKEA Tr\u00e5dfri) require a bridge/hub that translates Zigbee to Wi-Fi. Hub systems offer reliability and broader device support but add cost and complexity.",
       "display_order": 1,
       "created_at": "2026-04-19T00:08:23.602Z",
       "updated_at": "2026-04-19T00:08:23.602Z"
@@ -13011,6 +15189,141 @@
       "display_order": 5,
       "created_at": "2026-04-19T00:08:23.602Z",
       "updated_at": "2026-04-19T00:08:23.602Z"
+    },
+    {
+      "id": "29eb417e-a30e-49a9-ade5-1be38ee39552",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "display_order": 1,
+      "question": "Do laptop stands actually help with posture?",
+      "answer": "Yes. Raising the screen to eye level reduces neck strain by preventing you from looking downward. Combined with an external keyboard and mouse, laptop stands transform a laptop into an ergonomic workstation. Even a modest 4-6 inch elevation makes a meaningful difference over an 8-hour day.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1681d18a-d590-4f23-b0ee-0fbc3c8662de",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "display_order": 2,
+      "question": "Should I get a laptop stand that tilts or one with height adjustment?",
+      "answer": "Height adjustment is more valuable than tilt. A stand that adjusts in height lets you use the laptop at different desk heights or switch between sitting and standing. Tilt is a nice bonus for reducing glare or typing ergonomics, but a fixed-height stand with a separate keyboard works well too.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3a914af0-ea02-4e95-9448-e703d93617d7",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "display_order": 3,
+      "question": "Are aluminum laptop stands better than plastic or wood?",
+      "answer": "Aluminum stands offer the best combination of light weight and rigidity. They dissipate heat better than plastic, feel more premium, and typically last longer. Wood and bamboo stands are aesthetically pleasing but tend to be heavier and less adjustable. Plastic stands are cheapest but flex more and feel less durable.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "34e16418-6a4c-40c8-91ff-988ef77719d4",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "display_order": 4,
+      "question": "Can a laptop stand overheat my laptop?",
+      "answer": "A good laptop stand improves airflow rather than trapping heat. The open-design stands especially allow air to circulate underneath. Avoid fully enclosed stands or cases that trap heat. Most modern laptops manage their own thermals, but a stand that keeps the intake vents clear will keep your laptop cooler and performing better.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "8518aca7-383d-4b7d-ab0e-d143c45d7d48",
+      "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
+      "display_order": 5,
+      "question": "Do laptop stands work with external monitors?",
+      "answer": "Absolutely. Many users pair a laptop stand with an external monitor for a dual-screen setup. The stand raises the laptop screen to a secondary display height, letting you use the external monitor as your primary screen while still being able to glance at the laptop. Stands that rotate are especially useful for sharing the laptop screen during collaboration.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "d367bb93-ef3d-403d-9733-f09d10a763cc",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "display_order": 1,
+      "question": "Can smart plugs reduce my electricity bill?",
+      "answer": "Smart plugs can reduce bills by letting you cut phantom load (devices that draw power even when off). Energy monitoring smart plugs help you identify power hogs and schedule devices to run only when needed. A coffee maker on a schedule and a space heater on a timer can add up, but smart plugs alone won't dramatically cut your bill without behavioral changes.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "c0ef013a-42c5-4185-a521-ca10b0351b22",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "display_order": 2,
+      "question": "Do smart plugs work with all devices?",
+      "answer": "Smart plugs work with devices that have a simple on/off cycle - lamps, coffee makers, fans, space heaters, chargers, and TVs. They do NOT work with devices that need to stay on continuously (refrigerators, fish tanks), devices that need physical switches (some washers), or high-power appliances that exceed the plug's wattage rating. Always check max load before plugging in high-power devices.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "58216399-4e4b-4a28-bcb6-e6b125bd63ac",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "display_order": 3,
+      "question": "Are smart plugs safe for space heaters?",
+      "answer": "Yes, if the heater's wattage is below the plug's rating (typically 1500W for 15A plugs). However, never leave space heaters unattended - plug or no plug. Use a plug with energy monitoring so you can track unusual draw. Many people automate their space heater to turn on before they wake up, providing warmth safely while they're present.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "758fe1f3-8356-46d1-9e95-886eefa8a832",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "display_order": 4,
+      "question": "What's the difference between Wi-Fi, Zigbee, and Thread smart plugs?",
+      "answer": "Wi-Fi plugs connect directly to your router - no hub needed, but they add to network traffic and may be slower. Zigbee plugs need a hub but use less power and create a mesh that extends range. Thread plugs (Matter-compatible) offer the reliability of Zigbee with the simplicity of Wi-Fi setup; they need a Thread border router (HomePod, Apple TV) but work locally without cloud dependency.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "a08fe415-2d49-4541-8cb0-d77a29175288",
+      "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
+      "display_order": 5,
+      "question": "Can smart plugs be hacked or cause fires?",
+      "answer": "Reputable smart plugs (TP-Link Kasa, Eve, Shelly, Amazon Basics) undergo safety certification and have overload protection. Fires are extremely rare and typically caused by overloading beyond the plug's wattage rating. To minimize risk: buy certified products, don't exceed rated power, keep firmware updated, and use strong Wi-Fi passwords. Unbranded or knockoff smart plugs carry much higher risk.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "6667b590-7bd8-45ca-9109-6d7e10197301",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "display_order": 1,
+      "question": "What is the best way to manage cables under a standing desk?",
+      "answer": "Use a flexible cable spine or accordion-style tray that moves with the desk as it rises and lowers. Route power and data cables separately - keep video cables (HDMI/DisplayPort) away from power cables to prevent interference. A cable tray mounted to the desk frame holds the bundle, while a cable spine bridges the gap between the tray and the desktop.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "3e78b006-ebd3-4935-9ac9-fa64f5b56615",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "display_order": 2,
+      "question": "Should I route power and data cables together?",
+      "answer": "Ideally no. Power cables emit electromagnetic interference that can cause audio hum or signal degradation in analog audio cables and low-quality video cables. Keep video (HDMI, DisplayPort), audio, and USB data cables on one side of the routing path, with power cables on the other. Many cable management systems have separate channels for this reason.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "fd9f9af3-1eeb-4a25-96f4-946f4f0e0b27",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "display_order": 3,
+      "question": "How do I prevent cables from sliding off my desk tray?",
+      "answer": "Use Velcro straps or cable ties inside the tray to bundle cables together, then use the tray's edges to contain the bundle. For sleeker setups, use a combination of sleeve wraps and under-desk clips to anchor the cable bundle at both entry and exit points. Avoid overfilling the tray - cables that spill out will fall and can catch on chairs.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "ecee3273-bf3d-41be-9994-912dd93fb2fc",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "display_order": 4,
+      "question": "Is under-desk cable management worth the effort?",
+      "answer": "Yes - if you ever move your desk, troubleshoot an issue, or upgrade your setup, you'll be grateful for clean cable routing. A tidy under-desk setup is also safer: cables dangling from the back of a desk can catch on chair legs, pull monitors, or wear against sharp edges. It takes 30-60 minutes to set up properly but pays off daily.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
+    },
+    {
+      "id": "1da70cdf-618c-4a2e-b996-316dd3ecfa60",
+      "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
+      "display_order": 5,
+      "question": "What tools do I need to install an under-desk cable tray?",
+      "answer": "For clamp-style trays: an Allen key (usually included) and about 10 minutes. For screw-mounted trays: a power drill or screwdriver, a measuring tape, a pencil for marking, and optionally a level. Some people add felt pads to protect their desk finish. No advanced tools are needed for any of our recommended cable management products.",
+      "created_at": "2026-04-20T02:29:11.859Z",
+      "updated_at": "2026-04-20T02:29:11.859Z"
     }
   ]
 }
