@@ -9,6 +9,14 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-20 (Bob subagent, task 1776639679730):** Seeded 3 new buyer-intent categories into `.seed-payload.json` (code-only, no Convex import):
+  - **Laptop Stands** (best-laptop-stands-2026, 6 products, 36 specs, 18 sentiments, 5 FAQs)
+  - **Smart Plugs & Power Strips** (best-smart-plugs-2026, 6 products, 36 specs, 18 sentiments, 5 FAQs)
+  - **Desk Cable Management** (best-desk-cable-management-2026, 6 products, 36 specs, 18 sentiments, 5 FAQs)
+  - Each category has full rankings with top-6 products, spec tables, 3 pros + 3 cons per product, verdict summary, and 5 category-specific FAQs
+  - Seed payload now: 21 categories, 21 rankings, 122 products, 700 specs, 684 sentiments, 78 FAQs
+  - Committed as `a318a7b`. Task `1776639679730` moved to **done**.
+
 - **2026-04-20 (Bob subagent, task 1776639679771):** Strengthened trust and freshness signals on category pages with richer E-E-A-T elements:
   - Created `TrustIndicators` component (`components/trust-indicators.tsx`) with:
     - "Updated for 2026" freshness badge (shows current year)
