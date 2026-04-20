@@ -9,6 +9,14 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 
 ## Recent Updates
 
+- **2026-04-20 (Bob subagent, task 1776639679748):** Added comparison-intent module adjacency for air-fryers and espresso-machines categories:
+  - Added `espresso-machines` to `BASE_RELATIONS` with `coffee-makers` and `air-fryers` as related categories — enables `ComparisonCallouts` (2-3 cross-category comparison callouts) on the espresso-machines category page
+  - Added `espresso-machines` to `coffee-makers` adjacency — natural kitchen cross-sell: coffee makers → espresso machines link path
+  - Added `espresso-machines` to `air-fryers` adjacency — cooking appliance intent cluster for cross-category callout blocks
+  - Both `ComparisonModule` (6 same-category comparison guide cards: "X vs Y" queries) and `ComparisonCallouts` (cross-category links) already render on category pages via `app/[category]/page.tsx`
+  - `air-fryers` and `espresso-machines` both had rich `comparisons` data in `lib/category-use-cases.ts` already (6 guides each)
+  - Committed as `00dbb59`. Task `1776639679748` moved to **done**.
+
 - **2026-04-20 (Bob subagent, task 1776639679730):** Seeded 3 new buyer-intent categories into `.seed-payload.json` (code-only, no Convex import):
   - **Laptop Stands** (best-laptop-stands-2026, 6 products, 36 specs, 18 sentiments, 5 FAQs)
   - **Smart Plugs & Power Strips** (best-smart-plugs-2026, 6 products, 36 specs, 18 sentiments, 5 FAQs)
