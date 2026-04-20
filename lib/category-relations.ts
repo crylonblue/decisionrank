@@ -9,9 +9,10 @@ import { buyerIntentModules } from './buyer-intent-modules';
 const BASE_RELATIONS: Record<string, string[]> = {
   'standing-desks': ['air-purifiers', 'coffee-makers', 'robot-vacuums'],
   'air-purifiers': ['standing-desks', 'robot-vacuums', 'air-fryers', 'coffee-makers'],
-  'coffee-makers': ['air-fryers', 'standing-desks', 'air-purifiers'],
+  'coffee-makers': ['air-fryers', 'standing-desks', 'air-purifiers', 'espresso-machines'],
   'robot-vacuums': ['air-purifiers', 'standing-desks', 'air-fryers', 'coffee-makers'],
-  'air-fryers': ['coffee-makers', 'air-purifiers', 'robot-vacuums'],
+  'air-fryers': ['coffee-makers', 'air-purifiers', 'robot-vacuums', 'espresso-machines'],
+  'espresso-machines': ['coffee-makers', 'air-fryers'],
 };
 
 // Build module-based adjacency: category co-occurrence in buyer-intent modules.
