@@ -8,7 +8,18 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
-- **2026-04-21 22:38:** Improve homepage /categories internal linking for SEO (auto, openrouter/stepfun/step-3.5-flash)
+- **2026-04-21 (Bob subagent, task 1776803369920):** Improved homepage and category page internal linking for SEO to boost newer/under-linked categories:
+  - Added 8 newer categories to buyer-intent modules for homepage and /categories visibility:
+    - **home-office module:** laptop-stands, monitor-arms, desk-cable-management
+    - **gaming-streaming module:** gaming-laptops, stream-decks
+    - **content-creation module:** smartphones, stream-decks
+    - **smart-home-cleaning module:** smart-plugs-power-strips, smart-lighting
+  - Updated module descriptions to naturally mention new categories for better SEO content
+  - Added BASE relations from coffee-makers and air-fryers to smart-plugs-power-strips (contextual kitchen-smart-home links)
+  - Added BASE relations from standing-desks to desk-cable-management, monitor-arms, laptop-stands (ergonomic workspace cross-links)
+  - Homepage now sorts "Browse by Category" section by newest first (created_at desc) instead of alphabetically, promoting newer categories on this high-authority page
+  - These changes ensure newer categories (laptop-stands, smart-plugs-power-strips, desk-cable-management, gaming-laptops, smartphones, monitor-arms, stream-decks, smart-lighting) receive contextual internal links from established category pages, passing link equity from high-authority pages
+  - Verified TypeScript build: no errors. Committed as `eaec5fa`. Task `1776803369920` moved to **done**.
 
 - **2026-04-20 (Bob subagent, task 1776639679748):** Added comparison-intent module adjacency for air-fryers and espresso-machines categories:
   - Added `espresso-machines` to `BASE_RELATIONS` with `coffee-makers` and `air-fryers` as related categories — enables `ComparisonCallouts` (2-3 cross-category comparison callouts) on the espresso-machines category page
