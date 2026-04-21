@@ -18,6 +18,7 @@ import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { FeaturedRankings } from '@/components/featured-rankings';
 import { UseCaseModule } from '@/components/use-case-module';
 import { ComparisonModule } from '@/components/comparison-module';
+import { ComparisonCallouts } from '@/components/comparison-callouts';
 import { TrustIndicators } from '@/components/trust-indicators';
 
 export const dynamic = 'force-dynamic';
@@ -248,6 +249,15 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             return <ComparisonModule categorySlug={categorySlug} />;
           })()}
         </div>
+
+        {/* Cross-category comparison callouts with links to related categories */}
+        {relatedCategories.length > 0 && (
+          <ComparisonCallouts
+            categorySlug={categorySlug}
+            categoryName={category.name}
+            relatedCategories={displayCategories.slice(0, 3)}
+          />
+        )}
 
         {/* Related Categories - Internal Linking */}
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

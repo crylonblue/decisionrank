@@ -8,6 +8,7 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-21 22:38:** Improve homepage /categories internal linking for SEO (auto, openrouter/stepfun/step-3.5-flash)
 
 - **2026-04-20 (Bob subagent, task 1776639679748):** Added comparison-intent module adjacency for air-fryers and espresso-machines categories:
   - Added `espresso-machines` to `BASE_RELATIONS` with `coffee-makers` and `air-fryers` as related categories — enables `ComparisonCallouts` (2-3 cross-category comparison callouts) on the espresso-machines category page

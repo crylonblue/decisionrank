@@ -14,20 +14,20 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'home-office',
     title: 'Build Your Perfect Home Office',
-    description: 'Create a productive, comfortable workspace with top-rated monitors, ergonomic office chairs, high-speed external SSDs, versatile USB-C hubs, and HD webcams. Whether you\'re setting up a remote workstation or upgrading your current setup, our rankings help you choose gear that balances performance, comfort, and value. Explore detailed comparisons and buying guides for each category to ensure every component meets your needs.',
-    categorySlugs: ['monitors', 'office-chairs', 'external-ssds', 'usb-c-hubs', 'webcams'],
+    description: 'Create a productive, comfortable workspace with top-rated monitors, ergonomic office chairs, high-speed external SSDs, versatile USB-C hubs, HD webcams, adjustable laptop stands, monitor arms, and desk cable management solutions. Whether you\'re setting up a remote workstation or upgrading your current setup, our rankings help you choose gear that balances performance, comfort, and value. Explore detailed comparisons and buying guides for each category to ensure every component meets your needs.',
+    categorySlugs: ['monitors', 'office-chairs', 'external-ssds', 'usb-c-hubs', 'webcams', 'laptop-stands', 'monitor-arms', 'desk-cable-management'],
   },
   {
     id: 'gaming-streaming',
     title: 'Gaming & Streaming Setup',
-    description: 'Upgrade your gaming and streaming rig with the best mechanical keyboards, noise-cancelling headphones, and professional microphones. From competitive esports to content creation, the right peripherals make a difference. Our evaluations cover switch types, sound signatures, microphone pickup patterns, and how each product performs under pressure. Find the perfect tools to crush your game and engage your audience.',
-    categorySlugs: ['mechanical-keyboards', 'noise-cancelling-headphones', 'microphones'],
+    description: 'Upgrade your gaming and streaming rig with the best mechanical keyboards, noise-cancelling headphones, professional microphones, dedicated gaming laptops, and stream decks. From competitive esports to content creation, the right peripherals make a difference. Our evaluations cover switch types, sound signatures, microphone pickup patterns, laptop GPU performance, and how each product performs under pressure. Find the perfect tools to crush your game and engage your audience.',
+    categorySlugs: ['mechanical-keyboards', 'noise-cancelling-headphones', 'microphones', 'gaming-laptops', 'stream-decks'],
   },
   {
     id: 'content-creation',
     title: 'Content Creation & Remote Work',
-    description: 'Produce high-quality content with top webcams, microphones, and adjustable tablet stands for streaming, podcasting, and video calls. Remote work and content creation demand reliable, plug-and-play hardware that delivers professional results. We test video clarity, audio fidelity, mounting flexibility, and durability so you can focus on your message, not your gear. Discover which products offer the best balance of quality and simplicity.',
-    categorySlugs: ['webcams', 'microphones', 'tablet-stands-mounts'],
+    description: 'Produce high-quality content with top webcams, microphones, adjustable tablet stands, smartphones, and stream decks for streaming, podcasting, and video calls. Remote work and content creation demand reliable, plug-and-play hardware that delivers professional results. We test video clarity, audio fidelity, mounting flexibility, mobile device quality, and durability so you can focus on your message, not your gear. Discover which products offer the best balance of quality and simplicity.',
+    categorySlugs: ['webcams', 'microphones', 'tablet-stands-mounts', 'smartphones', 'stream-decks'],
   },
   {
     id: 'kitchen-cooking',
@@ -38,8 +38,8 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'smart-home-cleaning',
     title: 'Smart Home & Cleaning',
-    description: 'Keep your home spotless with top robot vacuums that offer excellent navigation, suction, and smart features. We map each bot\'s cleaning coverage, obstacle avoidance, and app usability across floor types and home layouts. For those who want a truly hands-free experience, we also evaluate self-emptying docks and mopping performance. Find the robot that matches your floor plan and lifestyle.',
-    categorySlugs: ['robot-vacuums'],
+    description: 'Keep your home spotless and smart with top robot vacuums, smart plugs and power strips, and smart lighting solutions. We map each bot\'s cleaning coverage, obstacle avoidance, and app usability across floor types and home layouts. For those who want a truly hands-free experience, we also evaluate self-emptying docks, mopping performance, smart plug scheduling, and lighting automation. Find the robot and smart home gear that matches your floor plan and lifestyle.',
+    categorySlugs: ['robot-vacuums', 'smart-plugs-power-strips', 'smart-lighting'],
   },
   {
     id: 'wearable-tech-audio',

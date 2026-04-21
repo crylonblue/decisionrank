@@ -7,11 +7,11 @@ import { buyerIntentModules } from './buyer-intent-modules';
 
 // Base adjacency overrides — high-value cross-module relationships curated manually.
 const BASE_RELATIONS: Record<string, string[]> = {
-  'standing-desks': ['air-purifiers', 'coffee-makers', 'robot-vacuums'],
+  'standing-desks': ['air-purifiers', 'coffee-makers', 'robot-vacuums', 'desk-cable-management', 'monitor-arms', 'laptop-stands'],
   'air-purifiers': ['standing-desks', 'robot-vacuums', 'air-fryers', 'coffee-makers'],
-  'coffee-makers': ['air-fryers', 'standing-desks', 'air-purifiers', 'espresso-machines'],
+  'coffee-makers': ['air-fryers', 'standing-desks', 'air-purifiers', 'espresso-machines', 'smart-plugs-power-strips'],
   'robot-vacuums': ['air-purifiers', 'standing-desks', 'air-fryers', 'coffee-makers'],
-  'air-fryers': ['coffee-makers', 'air-purifiers', 'robot-vacuums', 'espresso-machines'],
+  'air-fryers': ['coffee-makers', 'air-purifiers', 'robot-vacuums', 'espresso-machines', 'smart-plugs-power-strips'],
   'espresso-machines': ['coffee-makers', 'air-fryers'],
 };
 
