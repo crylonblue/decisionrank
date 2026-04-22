@@ -15,6 +15,14 @@ Editorial product ranking/comparison site with category landing pages, detail pa
   - All data includes rankings (scores 0–100), detailed specifications, pros/cons, verdict summaries, and category-specific FAQs. Updated: seed payload now totals 24 categories, 24 rankings, 138 products, 840 specs, 900+ sentiments, 93 FAQs.
   - **Note:** Convex import remains blocked; no import attempted.
 
+- **2026-04-23 (Bob subagent, task 1776898873547):** Strengthened discovery-surface cluster SEO on homepage and `/categories` by enhancing buyer-intent modules:
+  - Added cluster-level browse module: indexable "Explore all {cluster} categories" section listing categories with description snippets
+  - Strengthened descriptive card CTAs: replaced generic "View {category} rankings" with action-oriented "Compare the best {category}"
+  - Extended long-tail SEO data to 8 previously missing categories in `lib/category-use-cases.ts` (monitor-arms, laptop-stands, desk-cable-management, smart-lighting, stream-decks, code-editors, ci-cd-tools, api-testing-tools)
+  - All changes TypeScript-clean, deployed to Vercel via git push.
+
+
+
 - **2026-04-23 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
   - Created API backlog task `1776898873436` (**high**): Seed 3 more buyer-intent categories in code only: `portable-monitors`, `docking-stations`, and `desk-lamps`, with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs. Do not attempt the still-blocked Convex import step. Planning basis: these categories are already referenced in existing buyer-intent modules and category-cluster scaffolding, so seeding them unlocks real SEO value instead of adding disconnected inventory.
   - Created API backlog task `1776898873501` (**medium**): Add bespoke long-tail SEO modules for newer categories likely still using generic fallbacks, especially `monitor-arms`, `laptop-stands`, `desk-cable-management`, `smart-lighting`, `stream-decks`, `code-editors`, `ci-cd-tools`, and `api-testing-tools`. Expand `lib/category-use-cases.ts` with category-specific use cases, query-intent phrases, and comparison guides.

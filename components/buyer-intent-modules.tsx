@@ -59,11 +59,11 @@ export function BuyerIntentModules({ categories, rankingCounts }: BuyerIntentMod
                           <div className="flex items-center justify-between mt-4">
                             {count > 0 && (
                               <span className="text-xs text-muted-foreground">
-                                {count} {count === 1 ? 'ranking' : 'rankings'}
+                                {count} {count === 1 ? 'product' : 'products'} ranked
                               </span>
                             )}
-                            <span className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
-                               View {category.name} rankings
+                            <span className="flex items-center text-sm font-medium text-slate-700 group-hover:text-slate-900 group-hover:gap-2 transition-all">
+                              Compare the best {category.name}
                               <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                             </span>
                           </div>
@@ -72,6 +72,36 @@ export function BuyerIntentModules({ categories, rankingCounts }: BuyerIntentMod
                     </Link>
                   );
                 })}
+              </div>
+
+              {/* Cluster-level browse module: indexable list of all categories in this collection with descriptions */}
+              <div className="mt-10 bg-slate-50/50 rounded-xl p-6 border border-border/30">
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Explore all {module.title} categories
+                </h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Discover detailed comparisons and expert recommendations across our {module.title.toLowerCase()} coverage. Each category includes hands-on tested products, pros and cons, and our impartial verdict.
+                </p>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {moduleCategories.map((category) => {
+                    const rawDesc = ENHANCED_CATEGORY_DESCRIPTIONS[category.slug] || category.description || '';
+                    const firstPara = rawDesc.split('\n\n')[0].replace(/\n/g, ' ').trim();
+                    const snippet = firstPara.length > 130 ? firstPara.slice(0, 130) + '...' : firstPara;
+                    return (
+                      <div key={category.id} className="flex flex-col">
+                        <Link
+                          href={`/${category.slug}`}
+                          className="font-medium text-slate-800 hover:text-slate-600 hover:underline"
+                        >
+                          {category.name}
+                        </Link>
+                        {snippet && (
+                          <p className="text-xs text-muted-foreground mt-1 line-clamp-2">{snippet}</p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </section>
