@@ -8,7 +8,17 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-22 (Bob subagent, task 1776812473469):** Added category-level buyer's choice and quick verdict model to category pages.
+  - Created new `lib/buyers-choice.ts` with logic to compute Best Overall, Best for Budget, and Best for Enterprise picks from category ranking data
+  - Created `components/category-buyers-choice.tsx` component to display buyer's choice cards with badges, quick verdicts (1-2 sentences), key specs, and product links
+  - Added new Convex query `getCategoryWithProducts` in `convex/rankings.ts` to fetch category with fully populated ranking products
+  - Updated `app/[category]/page.tsx` to fetch enriched category data, compute buyer's choices, render the new component, and add corresponding JSON-LD structured data
+  - Buyers' choices are derived from product scores, cost specifications (for budget), and enterprise feature detection (team/business keywords in specs/pros)
+  - Schema: Added ItemList JSON-LD for buyer's choice products with Product items, award badges, and quick verdict as description
+  - All TypeScript checks pass, next build successful. Committed and pushed. Task moved to **done**.
+
 - **2026-04-22 (Bob subagent, task 1773878668024):** Rewrote thin content categories for SEO refresh — identified 3 categories in `.seed-payload.json` that lacked enhanced descriptions in `lib/category-enhancements.ts`: `code-editors`, `ci-cd-tools`, `api-testing-tools`.
+
   - Added 3-paragraph SEO descriptions (what/why, evaluation criteria, use cases/price tiers) for each category in `ENHANCED_CATEGORY_DESCRIPTIONS`
   - Added 5 FAQs per category in `CATEGORY_FAQS` covering key buyer questions (VS Code vs JetBrains, CI vs CD, Postman vs Insomnia, etc.)
   - TypeScript validation: no errors. Committed as `4e71a83`. Task moved to **done**.

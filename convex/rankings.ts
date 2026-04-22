@@ -323,3 +323,205 @@ export const getRankingBySlug = query({
     };
   },
 });
+
+// New query for category page buyer's choice — returns category with fully populated ranking products
+export const getCategoryWithProducts = query({
+  args: { slug: v.string() },
+  handler: async (ctx, { slug }) => {
+    const category = await ctx.db
+      .query("categories")
+      .withIndex("by_slug", (q) => q.eq("slug", slug))
+      .first();
+
+    if (!category) return null;
+
+    const rankings = await ctx.db
+      .query("rankings")
+      .withIndex("by_category", (q) => q.eq("categoryId", category._id))
+      .collect();
+
+    const rankingIds = rankings.map((r) => r._id);
+
+    // Fetch all rankingProducts for this category's rankings
+    const rankingProducts = await ctx.db
+      .query("rankingProducts")
+      .withIndex("by_ranking", (q) => q.in("rankingId", rankingIds))
+      .collect();
+
+    // Fetch all products used in this category
+    const productIds = Array.from(new Set(rankingProducts.map((rp) => rp.productId)));
+    const products = await ctx.db
+      .query("products")
+      .withIndex("by_supabase_id", (q) => q.in("supabaseId", productIds.map(String)))
+      .collect();
+    const productById = new Map(products.map((p) => [String(p._id), p]));
+
+    // Fetch all assets for these products
+    const allAssets = await ctx.db.query("assets").collect();
+    const assetsByProduct = new Map<string, typeof allAssets>();
+    for (const asset of allAssets) {
+      const key = String(asset.productId);
+      assetsByProduct.set(key, [...(assetsByProduct.get(key) || []), asset]);
+    }
+
+    // Fetch all specifications for these products
+    const allSpecs = await ctx.db.query("specifications").collect();
+    const specsByProduct = new Map<string, typeof allSpecs>();
+    for (const spec of allSpecs) {
+      const key = String(spec.productId);
+      specsByProduct.set(key, [...(specsByProduct.get(key) || []), spec]);
+    }
+
+    // Fetch all sentiments for these rankingProducts
+    const allSentiments = await ctx.db.query("sentiments").collect();
+    const sentimentsByRankingProduct = new Map<string, typeof allSentiments>();
+    for (const sentiment of allSentiments) {
+      const key = String(sentiment.rankingProductId);
+      sentimentsByRankingProduct.set(key, [...(sentimentsByRankingProduct.get(key) || []), sentiment]);
+    }
+
+    // Fetch users for sentiments
+    const users = await ctx.db.query("users").collect();
+    const userById = new Map(users.map((u) => [u._id, u]));
+
+    type RankingProductFull = {
+      id: string;
+      ranking_id: string;
+      product_id: string;
+      score: number;
+      rank_position: number;
+      created_at: string;
+      updated_at: string;
+      product: {
+        id: string;
+        name: string;
+        link: string | null;
+        created_at: string;
+        updated_at: string;
+        assets: Array<{
+          id: string;
+          product_id: string;
+          type: "image" | "youtube";
+          url: string;
+          display_order: number;
+          created_at: string;
+          updated_at: string;
+        }>;
+      };
+      sentiments: Array<{
+        id: string;
+        ranking_product_id: string;
+        user_id: string | null;
+        type: "pro" | "con" | "comment";
+        content: string;
+        headline: string | null;
+        description: string | null;
+        created_at: string;
+        updated_at: string;
+        user: { id: string; name: string; profile_picture_url: string | null; created_at: string; updated_at: string } | null;
+      }>;
+      specifications: Array<{
+        id: string;
+        product_id: string;
+        name: string;
+        value: string;
+        unit: string | null;
+        created_at: string;
+        updated_at: string;
+      }>;
+    };
+
+    const rankingProductsFull = rankingProducts
+      .sort((a, b) => a.rankPosition - b.rankPosition)
+      .map((rp) => {
+        const product = productById.get(String(rp.productId))!;
+        const assets = (assetsByProduct.get(String(product._id)) || [])
+          .sort((a, b) => a.displayOrder - b.displayOrder)
+          .map((a) => ({
+            id: a.supabaseId,
+            product_id: product.supabaseId,
+            type: a.type,
+            url: a.url,
+            display_order: a.displayOrder,
+            created_at: a.createdAt,
+            updated_at: a.updatedAt,
+          }));
+
+        const sentiments = (sentimentsByRankingProduct.get(String(rp._id)) || [])
+          .sort((a, b) => (a.createdAt > b.createdAt ? 1 : -1))
+          .map((s) => {
+            const user = s.userId ? userById.get(s.userId) : null;
+            return {
+              id: s.supabaseId,
+              ranking_product_id: rp.supabaseId,
+              user_id: user?.supabaseId || null,
+              type: s.type,
+              content: s.content,
+              headline: asNullable(s.headline),
+              description: asNullable(s.description),
+              created_at: s.createdAt,
+              updated_at: s.updatedAt,
+              user: user
+                ? {
+                    id: user.supabaseId,
+                    name: user.name,
+                    profile_picture_url: asNullable(user.profilePictureUrl),
+                    created_at: user.createdAt,
+                    updated_at: user.updatedAt,
+                  }
+                : null,
+            };
+          });
+
+        const specifications = (specsByProduct.get(String(product._id)) || []).map((s) => ({
+          id: s.supabaseId,
+          product_id: product.supabaseId,
+          name: s.name,
+          value: s.value,
+          unit: asNullable(s.unit),
+          created_at: s.createdAt,
+          updated_at: s.updatedAt,
+        }));
+
+        return {
+          id: rp.supabaseId,
+          ranking_id: rp.rankingId,
+          product_id: product.supabaseId,
+          score: rp.score,
+          rank_position: rp.rankPosition,
+          created_at: rp.createdAt,
+          updated_at: rp.updatedAt,
+          product: {
+            id: product.supabaseId,
+            name: product.name,
+            link: asNullable(product.link),
+            created_at: product.createdAt,
+            updated_at: product.updatedAt,
+            assets,
+          },
+          sentiments,
+          specifications,
+        } as RankingProductFull;
+      });
+
+    return {
+      id: category.supabaseId,
+      name: category.name,
+      slug: category.slug,
+      description: asNullable(category.description),
+      created_at: category.createdAt,
+      updated_at: category.updatedAt,
+      rankings: rankings.map((r) => ({
+        id: r.supabaseId,
+        slug: r.slug,
+        question: r.question,
+        description: asNullable(r.description),
+        verdict_summary: asNullable(r.verdictSummary),
+        category_id: category.supabaseId,
+        created_at: r.createdAt,
+        updated_at: r.updatedAt,
+        ranking_products: rankingProductsFull.filter((rp) => rp.ranking_id === r.id),
+      })),
+    };
+  },
+});

@@ -1,4 +1,6 @@
-import { getCategoryBySlug, getAllCategories, getRankingCountsByCategory } from '@/lib/data';
+import { getCategoryBySlug, getCategoryWithProducts, getAllCategories, getRankingCountsByCategory } from '@/lib/data';
+import { computeBuyersChoice } from '@/lib/buyers-choice';
+import { CategoryBuyersChoice } from '@/components/category-buyers-choice';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import Link from 'next/link';
@@ -78,14 +80,21 @@ export async function generateMetadata({ params, searchParams }: CategoryPagePro
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
   const { category: categorySlug } = await params;
   const { page } = await searchParams;
-  
+
+  // Fetch category with full product data for buyer's choice
   let category;
   try {
-    category = await getCategoryBySlug(categorySlug);
+    category = await getCategoryWithProducts(categorySlug);
   } catch (error) {
     notFound();
   }
 
+  if (!category) notFound();
+
+  // Compute buyer's choice picks
+  const buyersChoicePicks = computeBuyersChoice(category);
+
+  // Rankings for pagination and listing come from category.rankings (now with ranking_products already populated)
   const { rankings } = category;
 
   // Fetch all categories and ranking counts for internal linking
@@ -100,7 +109,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   const paginatedRankings = rankings.slice(startIndex, endIndex);
 
   const baseUrl = getBaseUrl();
-  
+
   const mostRecentUpdate = rankings.reduce((latest: string, r: Ranking) => {
     return r.updated_at > latest ? r.updated_at : latest;
   }, rankings[0]?.updated_at || category.updated_at);
@@ -187,6 +196,32 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           })
         }}
       />
+      {/* Buyer's Choice JSON-LD */}
+      {buyersChoicePicks.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "name": `Buyer's Choice: ${category.name}`,
+              "description": "Top-rated products selected by our editorial team based on score, value, and fit for different buyer needs.",
+              "numberOfItems": buyersChoicePicks.length,
+              "itemListElement": buyersChoicePicks.map((pick, i) => ({
+                "@type": "ListItem",
+                "position": i + 1,
+                "item": {
+                  "@type": "Product",
+                  "name": pick.product.name,
+                  "description": pick.quickVerdict,
+                  "image": pick.assets?.[0]?.url || undefined,
+                  "award": pick.badge,
+                },
+              })),
+            })
+          }}
+        />
+      )}
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -291,6 +326,8 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           </Card>
         ) : (
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            {/* Buyer's Choice Section */}
+            <CategoryBuyersChoice picks={buyersChoicePicks} categoryName={category.name} />
             <div className="space-y-6">
               {paginatedRankings.map((ranking: Ranking) => {
                 const updatedDate = new Date(ranking.updated_at);

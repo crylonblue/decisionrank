@@ -77,4 +77,10 @@ export const buyerIntentModules: BuyerIntentModule[] = [
     description: 'Complete your desk setup with the right lighting and ergonomic support accessories. Desk lamps with adjustable color temperature reduce eye strain during long work sessions, monitor arms free up desk space and improve ergonomics, and laptop stands elevate your screen to the correct height for neutral posture. We test each product for the difference it makes in real daily use: Does the desk lamp eliminate glare on your monitor? Does the monitor arm hold ultrawides without sagging? Is the laptop stand stable enough for heavy 17-inch workstations? Our rankings cover budget-friendly basics through premium desk accessories, with testing across different desk sizes, monitor weights, and lighting conditions.',
     categorySlugs: ['desk-lamps', 'monitor-arms', 'laptop-stands', 'desk-cable-management'],
   },
+  {
+    id: 'developer-tools',
+    title: 'Developer Tools & Software',
+    description: 'Choose the best code editors, CI/CD platforms, and API testing tools for your development workflow. We evaluate developer software on extensibility, integration ecosystem, automation capabilities, and team collaboration features. Whether you\'re a solo developer or part of a large engineering organization, our hands-on testing highlights the tools that boost productivity without adding complexity. Compare pricing, self-hosting options, AI assistance, and how each platform scales with team size.',
+    categorySlugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools'],
+  },
 ];

@@ -1,0 +1,2428 @@
+{
+  "categories": [
+    {
+      "id": "63036392-b784-4ec4-8f3c-30c11b32d20b",
+      "name": "Code Editors & IDEs",
+      "slug": "code-editors",
+      "description": "Top code editors and IDEs for developers \u2014 from lightweight editors to full-featured integrated development environments for every language and workflow.",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "177ee3ea-41e3-4cd7-a91f-6be0fd8338f7",
+      "name": "CI/CD Platforms",
+      "slug": "ci-cd-tools",
+      "description": "Compare leading CI/CD platforms for automated builds, testing, and deployment \u2014 choose the best continuous integration and delivery solution for your team's workflow and scale.",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0bb576ef-088f-499a-8f49-45e668f5d668",
+      "name": "API Testing Tools",
+      "slug": "api-testing-tools",
+      "description": "Best API testing and development tools for manual testing, automation, and collaboration \u2014 find the right API client for your workflow, whether you're debugging locally or running CI/CD test suites.",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ],
+  "rankings": [
+    {
+      "id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "slug": "best-code-editors-2026",
+      "question": "What Are the Best Code Editors and IDEs in 2026?",
+      "description": "We evaluated the leading code editors and IDEs on extensibility, language support, debugging, performance, and AI-assisted development to find the best options for professional developers and teams.",
+      "verdict_summary": "Visual Studio Code wins for most developers with its unmatched ecosystem and Copilot integration. JetBrains IntelliJ IDEA is the powerhouse for JVM and .NET work. Cursor leads AI-first editing, while Sublime Text remains the lightweight classic.",
+      "category_id": "63036392-b784-4ec4-8f3c-30c11b32d20b",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "slug": "best-cicd-tools-2026",
+      "question": "What Are the Best CI/CD Tools in 2026?",
+      "description": "We tested leading CI/CD platforms for build speed, pipeline flexibility, ecosystem integration, scalability, and pricing to help teams of any size choose the right automation platform.",
+      "verdict_summary": "GitHub Actions wins for GitHub-native teams seeking simplicity and zero setup. GitLab CI suits end-to-end GitLab users wanting integrated security. Jenkins remains the most flexible for complex, self-hosted pipelines. CircleCI excels for Docker-first workflows.",
+      "category_id": "177ee3ea-41e3-4cd7-a91f-6be0fd8338f7",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "slug": "best-api-testing-tools-2026",
+      "question": "What Are the Best API Testing Tools in 2026?",
+      "description": "We compared API clients and testing platforms on request building, scripting/automation, team collaboration, documentation generation, and pricing to identify the best tools for developers and QA engineers.",
+      "verdict_summary": "Postman remains the most complete platform for teams with robust collaboration and monitoring. Insomnia wins for polished desktop experience. Hoppscotch is the best free open-source alternative. Bruno is ideal for Git-ops workflows that prioritize local storage.",
+      "category_id": "0bb576ef-088f-499a-8f49-45e668f5d668",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ],
+  "products": [
+    {
+      "id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "Visual Studio Code",
+      "link": "https://code.visualstudio.com/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "JetBrains IntelliJ IDEA Ultimate",
+      "link": "https://www.jetbrains.com/idea/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "Cursor",
+      "link": "https://cursor.sh/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "Windsurf",
+      "link": "https://codeium.com/windsurf",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Sublime Text",
+      "link": "https://www.sublimetext.com/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Zed",
+      "link": "https://zed.dev/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "GitHub Actions",
+      "link": "https://github.com/features/actions",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "GitLab CI/CD",
+      "link": "https://docs.gitlab.com/ee/ci/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Jenkins",
+      "link": "https://www.jenkins.io/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "CircleCI",
+      "link": "https://circleci.com/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Buildkite",
+      "link": "https://buildkite.com/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Bitbucket Pipelines",
+      "link": "https://bitbucket.org/product/features/pipelines",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "Postman",
+      "link": "https://www.postman.com/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "Insomnia",
+      "link": "https://insomnia.rest/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "Hoppscotch",
+      "link": "https://hoppscotch.io/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "Bruno",
+      "link": "https://www.usebruno.com/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "Paw",
+      "link": "https://paw.cloud/",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Thunder Client (VS Code Extension)",
+      "link": "https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ],
+  "ranking_products": [
+    {
+      "id": "9229f25b-7fcc-4af6-9223-b69898e15200",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "score": 9.6,
+      "rank_position": 1,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "score": 9.0,
+      "rank_position": 3,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "score": 8.8,
+      "rank_position": 4,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "score": 8.5,
+      "rank_position": 5,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "score": 8.2,
+      "rank_position": 6,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "score": 9.0,
+      "rank_position": 2,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "score": 8.6,
+      "rank_position": 4,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "score": 8.4,
+      "rank_position": 5,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "score": 8.0,
+      "rank_position": 6,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "score": 9.0,
+      "rank_position": 2,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "score": 8.6,
+      "rank_position": 4,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ],
+  "specifications": [
+    {
+      "id": "764e2b29-ae7f-44dd-87fd-189f86f8ea3b",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "Extension Ecosystem",
+      "value": "Largest (45,000+)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ab9a7eaf-d24b-4b1b-aefb-e8a337f772f8",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "AI Integration",
+      "value": "GitHub Copilot built-in",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4b48b8ab-5a24-4978-9410-6cf8b1b54fe8",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "Pricing",
+      "value": "Free (MIT)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7a3c208b-2d3a-4136-b953-5fcc07c49a71",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "Languages",
+      "value": "All major via extensions",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cce3cc4c-27de-4c74-8d37-e1714e75d2a1",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "Remote Dev",
+      "value": "Built-in SSH/Containers/WSL",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d97aba8b-6b4b-4bfa-a77e-4a76b3e5da28",
+      "product_id": "547dd6de-d506-4aa1-8c3f-20c2016f6fb7",
+      "name": "Performance",
+      "value": "Fast, Electron-based",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "42898ca4-e325-48a7-9ff8-a0aea8e05723",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "Language Support",
+      "value": "Java/Kotlin/Scala first-class",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "83198d2c-c753-46ce-bd18-0af1570bd0db",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "AI Integration",
+      "value": "JetBrains AI Assistant",
+      "unit": "$10/mo",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "02c2610d-a72c-4ce0-807d-1b57fb824f2b",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "Pricing",
+      "value": "$149/year (Individual)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cdda9b56-27f7-479b-820e-a5a0ba666a36",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "Debugging",
+      "value": "Best-in-class",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8caf2e6b-33c1-4cc3-b262-93a24564c0a1",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "Database Tools",
+      "value": "Built-in SQL editor",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b5c9a366-283b-4e7d-9d58-483caf21f55e",
+      "product_id": "25c253e3-ddca-4983-9301-c16408b10f53",
+      "name": "Performance",
+      "value": "Native JVM, heavier RAM",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5301cecc-7b54-46f5-9849-e37a8b1514ef",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "AI Model",
+      "value": "GPT-4/Claude 3.5 (default)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "6b8c70b4-e7b6-42e7-9698-395e947ff8c9",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "Pricing",
+      "value": "$20/mo Pro",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "255d49d1-2677-4be6-a38d-64fd5d61a395",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "Codebase Awareness",
+      "value": "Full repository indexing",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "42f823b2-bb89-45d1-939c-dfe7fd408751",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "Privacy Mode",
+      "value": "Optional (local-only)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "420c338f-d784-4bc6-8a4b-25a2d02c5c99",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "Collaboration",
+      "value": "Live sharing via Cursor Forge",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "000ec261-b9e2-4585-ad1a-b46bc4e58880",
+      "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
+      "name": "IDE Base",
+      "value": "Fork of VS Code",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "895f6d67-6fdb-4055-b7c1-4c7d300c089a",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "AI Mode",
+      "value": "Agentic workflows (Auto mode)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1d875a66-9d91-4dfa-b795-6871b55ecd77",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "Pricing",
+      "value": "$15\u2013$19/mo",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0a15f0b5-eeaa-4177-94da-e2491b15b5fe",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "Context Limits",
+      "value": "200K tokens context",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1f2b41d6-49dd-4bf4-9429-d9a114f66bc5",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "Pricing Tier",
+      "value": "$15/mo (basic)",
+      "unit": "$19/mo (premium)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "94feead7-c9da-438b-b62f-f8ecacb0f5a0",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "Supported Languages",
+      "value": "50+",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "01ed6c80-6d0d-4145-9bb4-b0f5beca7ac3",
+      "product_id": "ab18bc46-380f-45cd-a7e4-fcefeddbce54",
+      "name": "Platform",
+      "value": "VS Code fork",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5e2515cb-e516-4056-b5d3-c7de006ed370",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Pricing",
+      "value": "$99 one-time (unlicensed)",
+      "unit": "trial nag",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "297cb064-9ce7-4dce-b79f-11f79a7f951d",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Performance",
+      "value": "Extremely lightweight",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4c009ab3-e5b8-4df2-981e-ededda7b3c56",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Extensibility",
+      "value": "Python plugins",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3072ebb1-da68-4aaf-9f01-a75e8c1bfb5a",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Startup",
+      "value": "Instant (<1s)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "76ca3ced-c422-43c2-a9bf-d04116597a70",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Cross-platform",
+      "value": "Windows/Mac/Linux",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d9eea038-d583-4196-9766-f770a3bd6b30",
+      "product_id": "61dbd05f-8622-4f93-8195-7296c5969d92",
+      "name": "Vintage Mode",
+      "value": "Vim emulation",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a7e79329-5872-485b-9bae-2f745f2a3135",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Collaboration",
+      "value": "Built-in multiplayer editing",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "25823842-30d8-405f-b5f1-b2aae3f4d0a5",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Pricing",
+      "value": "Free (open-source)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7bbabd52-4e55-4989-b0e3-ed2a32e16974",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Language Server",
+      "value": "Custom LSP-based",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3c65d598-bcda-47a7-8274-3aad8c6d91d0",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Terminal",
+      "value": "Integrated GPU-accelerated",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "62e727f0-96f7-469b-8cc1-30c21ecd5d49",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Startup Speed",
+      "value": "Fast (Rust)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "82bdb324-bf05-4f39-9f2e-849e4c78d61f",
+      "product_id": "b74c49c6-77b4-4569-a9de-e722c0162ac3",
+      "name": "Remote Pair",
+      "value": "Real-time shared sessions",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d194ce60-6db7-4ced-98cb-a7a1b6925134",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "Free Tier",
+      "value": "2,000 min/month for private",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "e38f3aa9-c1d5-4cb1-8df8-69120201e270",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "Integration",
+      "value": "Native GitHub",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a98b5691-6340-40fe-9992-396c2568a39a",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "Runners",
+      "value": "Hosted (Linux/Win/macOS)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a7a64130-6aef-4577-9e18-b7b7877cbf55",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "Self-hosted",
+      "value": "Yes (unlimited)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5bd00076-5216-4d8b-84c3-c56177fa11e6",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "Matrix Builds",
+      "value": "Native support",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b81c537e-2996-4418-8a7a-8636bac2bfa4",
+      "product_id": "a972dc13-ef90-4ba8-af7c-cf3a978cf2a8",
+      "name": "Caching",
+      "value": "Layer + package cache",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1df6021d-d644-4723-9d81-06c6004a5d90",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "Free Tier",
+      "value": "400 min/month (shared)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1b158ac5-26e0-41c6-b39a-3208c8d51779",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "Integrated Security",
+      "value": "SAST/DAST built-in",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ae578e2f-a03d-4424-af90-c5df0c72759f",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "Auto DevOps",
+      "value": "Yes, preconfigured pipelines",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "c7c15fec-0c53-4243-abe3-3828e856c64b",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "Container Registry",
+      "value": "Built-in",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1558e126-d3b6-4c5e-a975-4319b41ee188",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "Multi-project",
+      "value": "Cross-pipeline triggers",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9f366731-5ca1-4955-ad4c-6ab624221607",
+      "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
+      "name": "Self-hosted",
+      "value": "Full (GitLab self-managed)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "e1779efb-dc7a-4e9d-86f7-47f06346d764",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Plugin Ecosystem",
+      "value": "2,000+ plugins",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7109ec08-04ad-4438-ae50-53a1227c1158",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Self-hosted",
+      "value": "Required (full control)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "287a0ec6-00ca-415e-b9ca-ee343cde1a8b",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Learning Curve",
+      "value": "Steep (Jenkinsfile DSL)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ab2f1f35-e820-4f79-be7c-6100bf9a65e5",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Scalability",
+      "value": "Horizontal via agents",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "6948f531-4fc4-4fb1-b1ad-63638fcd4c7b",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Cost",
+      "value": "Free (open-source)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9e8ad529-b744-49d2-9fb5-baeed1ab0877",
+      "product_id": "c6cb3d87-facc-46a8-8e38-d4d3090f45ca",
+      "name": "Corporate Use",
+      "value": "Widely adopted",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b64aa11d-5ac8-4327-9f94-413e0fb93b34",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "Free Tier",
+      "value": "3,000 build mins/month",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2b7e1480-e5d0-4a35-8d20-c1d686ecccdf",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "Orbs",
+      "value": "Reusable config packages",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8f9b4974-d052-456d-8ce1-32f7232d3cf3",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "Docker Support",
+      "value": "First-class layer caching",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9b3cdd92-cb82-4658-aa68-be4dd3681cc6",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "Parallelism",
+      "value": "Up to 8x per job",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8d928b12-9735-4947-a8d0-b23926e21419",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "Performance",
+      "value": "Fast cloud executors",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "60daaeb6-0d33-41a4-919a-b2850081f4fb",
+      "product_id": "50699751-04d8-493e-9a73-fea1a138460f",
+      "name": "VCS Support",
+      "value": "GitHub, Bitbucket, GitLab",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0cc7c9ee-51c8-44bf-ac24-4f37a86ebc8b",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Agent Model",
+      "value": "Self-hosted agents + cloud UI",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7c453741-7ea3-481a-9088-4315aa72b6be",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Pricing",
+      "value": "$15/user/mo + compute",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "be6589fa-d451-4faf-8660-faebb5ef6b40",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Security",
+      "value": "Code never leaves your infra",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d3fcdf7c-ef27-4749-8f8d-b546b2940347",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Scalability",
+      "value": "Elastic agents (AWS/GCP)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8522804c-1e77-4547-8b73-5aa4bb88d93c",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Pipeline UI",
+      "value": "Clean, real-time views",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f38327a0-1abe-44a2-a554-59eadc3aa56a",
+      "product_id": "a0e3d7ed-89d3-4316-8f2f-601f0920a132",
+      "name": "Plugins",
+      "value": "Ruby-based",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "64666ddb-7400-48f9-81b4-c48561350f08",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Free Tier",
+      "value": "500 build minutes/month",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "daa4f3e6-8a0c-4ba2-ac6a-b0cf0a3d1497",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Integration",
+      "value": "Native to Bitbucket",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7be053c1-03d5-4f94-a603-d707f54cc2f9",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Deployment Envs",
+      "value": "3 built-in (test/stage/prod)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "e9c7235f-d6e8-4eb7-8425-7cbd6de8ff53",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Docker",
+      "value": "Docker-in-Docker supported",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f19f2e86-b1aa-4eeb-995d-89016452e410",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Caching",
+      "value": "Basic dependency cache",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8e08085a-915a-4d63-a171-8f918eb93c77",
+      "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
+      "name": "Pricing",
+      "value": "Paid from $3/user/mo",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0202cdff-0c42-45e7-9f8e-90b9174a6e12",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "Free Tier",
+      "value": "1,000 requests/month",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3e8e1489-ad31-45b3-a15b-e650ea9d21a4",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "Collection Runs",
+      "value": "100 included",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "19d86ac1-5f73-40ce-b590-7177dd5f119d",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "Team Collaboration",
+      "value": "Shared workspaces + comments",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "fc125705-6a0a-4ce3-abee-b4c96aac7f80",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "Mock Servers",
+      "value": "Unlimited (free)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5a8d351f-1f35-43bb-8d73-f0d80f6bb1bd",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "API Monitoring",
+      "value": "50k calls (paid)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4d9d0648-23b1-4a1e-bd15-ce74d63c8231",
+      "product_id": "3f5c7e3a-406a-4771-93ff-64535e934528",
+      "name": "CI Integration",
+      "value": "Newman CLI runner",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8b224dd7-684e-4c1f-a33a-59047a6d4a72",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "Open Source Core",
+      "value": "Yes (MIT)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "6dce4ea8-c356-4d2d-90e0-d7a03c6c373a",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "Pricing",
+      "value": "Free + $180/yr Team",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8b36bad6-9551-428e-a3d2-6c13fefe285f",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "GraphQL",
+      "value": "First-class support",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a3736e5b-e0a5-4460-8eae-4ed8af68bcc2",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "Plugin System",
+      "value": "NPM-based",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "e9b15ed6-d9a1-46b9-8f40-e09c192d0848",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "Environment Vars",
+      "value": "Nested + dynamic",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "adcea793-694a-473e-9146-0eca90936bce",
+      "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
+      "name": "Import Formats",
+      "value": "Postman, HAR, cURL",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "c7152fb5-125c-44cd-a6c5-b28f247d6397",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "License",
+      "value": "Fully open-source (MIT)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9248bc34-4b0c-41b8-92c6-72e9a32bdc9e",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "Pricing",
+      "value": "Free (self-host or cloud)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ca475198-68ca-44ba-be6f-b84920a50117",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "Web Version",
+      "value": "Works entirely in browser",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "64b74b40-aa45-46c3-931b-df4abc8af41d",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "API Protocols",
+      "value": "REST, GraphQL, WebSocket",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5481b4ad-2442-4529-9171-4a43eb139dc9",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "Team Spaces",
+      "value": "Basic shared collections",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "110ebc27-41e1-4033-9b8e-967110be7fb0",
+      "product_id": "34fa5a02-f383-49d3-b421-98e14aa049ed",
+      "name": "CLI",
+      "value": "Hoppscotch CLI (npm)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "102f351b-7c49-4411-9882-aabe9b6ffecb",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "Storage",
+      "value": "Local filesystem (plain JSON)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8b1e63a7-a7fd-459f-8478-86e1941a6505",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "Git Friendly",
+      "value": "All collections stored as code",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2e022d7e-daab-437e-82c2-38b00a776703",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "Offline",
+      "value": "100% offline-first",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7263d07e-5c23-4dac-bcce-b15e092ec8b7",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "License",
+      "value": "MIT open-source",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "734209f7-469c-4315-b011-2decdb9753d5",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "Collaboration",
+      "value": "Git-based sharing",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "c1fc82a0-7998-4c67-85a8-6fe0f3102cc8",
+      "product_id": "5fcc7a67-6eb9-42fd-af93-b083f39f566e",
+      "name": "Environment Vars",
+      "value": "Local per-collection",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "24ce8139-9d91-40b3-ae86-b72f436e7325",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "Platform",
+      "value": "macOS only (native)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cf6e1547-0e8e-453a-8892-e1a446691e50",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "Pricing",
+      "value": "$99 one-time",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f6cb6ae9-b09f-4cc5-aed8-41fd56eb1369",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "Dynamic Values",
+      "value": "Scripting in JavaScript",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1c68a24b-c219-4630-9c9f-594be0b79162",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "SSH & SSL",
+      "value": "Built-in cert manager",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "04ec5dbf-377e-4ffc-89dc-5e1bf3ffd5ca",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "Code Gen",
+      "value": "30+ languages/sdks",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "94494bf7-c29a-4473-bc3b-00638e93cb7a",
+      "product_id": "65791637-37f6-48f6-a4d2-140747da432b",
+      "name": "Team Sync",
+      "value": "Paw Cloud (paid add-on)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "63cd52ce-679f-4fe3-80e8-74a7f0e6dbc3",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Platform",
+      "value": "VS Code extension",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "699fbb14-b2eb-4f6d-85d6-a18f2afaf22a",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Pricing",
+      "value": "Free",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "6d07fae7-a48b-4171-9c1f-5cc3c7a235f3",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Lightweight",
+      "value": "Runs inside VS Code",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8149c742-4a97-4f04-b1a5-ecd15f175876",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Collections",
+      "value": "Simple folder-based",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b7b4c119-6558-4925-af88-8b3d1d0796f2",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Environment Vars",
+      "value": "Basic scoping",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ce3ac648-74fe-4b20-8ac7-793dab8d2e0b",
+      "product_id": "09cde31c-5d0a-437e-a1c5-084797885cbc",
+      "name": "Cloud Sync",
+      "value": "None (local only)",
+      "unit": null,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ],
+  "sentiments": [
+    {
+      "id": "a1b90415-a558-46bd-b7a4-1750595fd09d",
+      "ranking_product_id": "9229f25b-7fcc-4af6-9223-b69898e15200",
+      "type": "pro",
+      "content": "Free and open-source with zero licensing cost.",
+      "headline": "Free and open-source with zero licensing cost",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cf57354d-1030-4c24-b455-5926bf55b329",
+      "ranking_product_id": "9229f25b-7fcc-4af6-9223-b69898e15200",
+      "type": "pro",
+      "content": "Largest extension marketplace by far.",
+      "headline": "Largest extension marketplace by far",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4a0950c1-2e88-4afc-93c1-fbd111d2ad27",
+      "ranking_product_id": "9229f25b-7fcc-4af6-9223-b69898e15200",
+      "type": "pro",
+      "content": "Copilot AI integration is seamless and deeply embedded.",
+      "headline": "Copilot AI integration is seamless and deeply embedded",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "dfd77b88-ae7e-4a90-8dec-1564ff487d37",
+      "ranking_product_id": "9229f25b-7fcc-4af6-9223-b69898e15200",
+      "type": "con",
+      "content": "Electron base means moderate RAM usage.",
+      "headline": "Electron base means moderate RAM usage",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cc7813bc-7383-4414-b100-ce7f92121b24",
+      "ranking_product_id": "9229f25b-7fcc-4af6-9223-b69898e15200",
+      "type": "con",
+      "content": "Occasional extension conflicts require troubleshooting.",
+      "headline": "Occasional extension conflicts require troubleshooting",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "50eed540-599f-4251-9473-a68f245f2fdd",
+      "ranking_product_id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "type": "pro",
+      "content": "Deep code understanding and refactoring for JVM languages.",
+      "headline": "Deep code understanding and refactoring for JVM languages",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "283fb301-a673-46d0-bfa1-ee2754d27945",
+      "ranking_product_id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "type": "pro",
+      "content": "Exceptional built-in tools (database, REST client, decompiler).",
+      "headline": "Exceptional built-in tools (database, REST client, decompiler)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ad30a920-1828-40c7-a768-149151f2ff22",
+      "ranking_product_id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "type": "pro",
+      "content": "Outstanding debugging and profiling capabilities.",
+      "headline": "Outstanding debugging and profiling capabilities",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8d890a76-64fe-40bb-849d-92e9d665a5ee",
+      "ranking_product_id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "type": "con",
+      "content": "Expensive compared to free editors.",
+      "headline": "Expensive compared to free editors",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "6054a20c-9819-4cff-84bb-e8ae9b5c4803",
+      "ranking_product_id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "type": "con",
+      "content": "Slower on large projects due to indexing.",
+      "headline": "Slower on large projects due to indexing",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d0a47e8d-7dae-4c4f-9137-aba9d1958fd2",
+      "ranking_product_id": "2a67e966-be45-4415-9e88-1d569c47a6ac",
+      "type": "con",
+      "content": "Resource-heavy (requires 8+ GB RAM for comfort).",
+      "headline": "Resource-heavy (requires 8+ GB RAM for comfort)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "753fb107-abb3-47db-968b-42319c075ec2",
+      "ranking_product_id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "type": "pro",
+      "content": "AI-first workflow accelerates feature development significantly.",
+      "headline": "AI-first workflow accelerates feature development significantly",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a0262792-6198-4d07-985f-05f3a4c4a733",
+      "ranking_product_id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "type": "pro",
+      "content": "Codebase-wide context really understands project conventions.",
+      "headline": "Codebase-wide context really understands project conventions",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f3cf3823-73fe-4080-b4c9-bbc5c7c5a6bc",
+      "ranking_product_id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "type": "pro",
+      "content": "Strong privacy controls keep sensitive code local.",
+      "headline": "Strong privacy controls keep sensitive code local",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ba28b967-df18-4851-89fe-c7709fb30064",
+      "ranking_product_id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "type": "con",
+      "content": "Relatively new \u2014 fewer enterprise case studies.",
+      "headline": "Relatively new \u2014 fewer enterprise case studies",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cb524542-aaf9-4ce0-b7e5-163ed3181a92",
+      "ranking_product_id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "type": "con",
+      "content": "Cost adds up for teams ($20/user/month).",
+      "headline": "Cost adds up for teams ($20/user/month)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ef4470a4-7f87-4048-b63a-95f677c7f942",
+      "ranking_product_id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
+      "type": "con",
+      "content": "Occasional AI hallucinations in complex refactors.",
+      "headline": "Occasional AI hallucinations in complex refactors",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "6c85cf82-0636-431e-ba36-d7d86390b98f",
+      "ranking_product_id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "type": "pro",
+      "content": "Agentic mode automates routine coding tasks end-to-end.",
+      "headline": "Agentic mode automates routine coding tasks end-to-end",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "05c091ff-37dd-4ef0-b985-9f4f52e9c299",
+      "ranking_product_id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "type": "pro",
+      "content": "Competitive pricing versus Cursor.",
+      "headline": "Competitive pricing versus Cursor",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a5e94795-fe89-4be8-b05a-370e0ff3c277",
+      "ranking_product_id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "type": "pro",
+      "content": "Strong multi-file reasoning across codebase.",
+      "headline": "Strong multi-file reasoning across codebase",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0fb846d6-547e-4118-8994-dc38da4986f5",
+      "ranking_product_id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "type": "con",
+      "content": "Less mature extension ecosystem than VS Code.",
+      "headline": "Less mature extension ecosystem than VS Code",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "efcc0bb7-7501-48c2-acda-c66991259745",
+      "ranking_product_id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "type": "con",
+      "content": "AI agent can run long without oversight \u2014 needs caution.",
+      "headline": "AI agent can run long without oversight \u2014 needs caution",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d212fe77-c02d-4963-b203-a9e94019ae1e",
+      "ranking_product_id": "ca79cabd-eab8-4c4d-a3ea-7498cbdb7d52",
+      "type": "con",
+      "content": "No offline AI fallback; requires cloud.",
+      "headline": "No offline AI fallback; requires cloud",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "60e2132f-88ca-4e9c-b2e5-2283d7832f37",
+      "ranking_product_id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "type": "pro",
+      "content": "Blazing fast \u2014 launches instantly even on old hardware.",
+      "headline": "Blazing fast \u2014 launches instantly even on old hardware",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3d356dcb-c732-41f2-95b6-6df2bdd5de1b",
+      "ranking_product_id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "type": "pro",
+      "content": "Extremely lightweight on system resources.",
+      "headline": "Extremely lightweight on system resources",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "00f7a8c1-e844-44a3-bfae-e0a5dd1cbaf3",
+      "ranking_product_id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "type": "pro",
+      "content": "Clean, distraction-free UI that stays out of your way.",
+      "headline": "Clean, distraction-free UI that stays out of your way",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "aaad79c8-859e-4850-aced-5f3083244ecb",
+      "ranking_product_id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "type": "con",
+      "content": "No built-in AI features (must add plugins manually).",
+      "headline": "No built-in AI features (must add plugins manually)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3fd0ae6f-8774-4a13-bfda-4d00de273181",
+      "ranking_product_id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "type": "con",
+      "content": "One-time license nag in unlicensed version.",
+      "headline": "One-time license nag in unlicensed version",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "c45993ec-17cf-4d09-b1c5-385b9c9e392f",
+      "ranking_product_id": "54c24984-299e-4a23-b887-0ba6a33f13c5",
+      "type": "con",
+      "content": "Plugin ecosystem significantly smaller than VS Code.",
+      "headline": "Plugin ecosystem significantly smaller than VS Code",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "04ad4e01-4e5a-41be-9cbe-2602c81ce791",
+      "ranking_product_id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "type": "pro",
+      "content": "Outstanding real-time collaboration for pair programming.",
+      "headline": "Outstanding real-time collaboration for pair programming",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "bdd47b87-b82e-46e6-bc0c-7e48d01a5b4c",
+      "ranking_product_id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "type": "pro",
+      "content": "Modern Rust-based editor is fast and responsive.",
+      "headline": "Modern Rust-based editor is fast and responsive",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "dce250be-b0f0-4a0f-abfc-af001f51a524",
+      "ranking_product_id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "type": "pro",
+      "content": "Completely free and open-source (Apache 2.0).",
+      "headline": "Completely free and open-source (Apache 2",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9a446ca6-1488-433f-a3ed-9008ec10e661",
+      "ranking_product_id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "type": "con",
+      "content": "Still beta \u2014 occasional crashes on edge workflows.",
+      "headline": "Still beta \u2014 occasional crashes on edge workflows",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7b7168b9-c691-4bf3-8d23-7d268009adb3",
+      "ranking_product_id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "type": "con",
+      "content": "Extension ecosystem is growing but not mature yet.",
+      "headline": "Extension ecosystem is growing but not mature yet",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ff1d4055-ac5c-4eda-a85e-98dfb0a0db14",
+      "ranking_product_id": "cd0fd6c2-3260-470a-8eb8-2b0ac803079c",
+      "type": "con",
+      "content": "Limited plugin marketplace compared to VS Code.",
+      "headline": "Limited plugin marketplace compared to VS Code",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "24c6ebdc-5221-4bb9-bdb9-cb6a84dba127",
+      "ranking_product_id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "type": "pro",
+      "content": "Seamless integration with GitHub repositories and PRs.",
+      "headline": "Seamless integration with GitHub repositories and PRs",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "9464201c-7aab-4d86-afb4-1cf9caa39988",
+      "ranking_product_id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "type": "pro",
+      "content": "Generous free tier for public and private repos.",
+      "headline": "Generous free tier for public and private repos",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1ddeb611-dc5a-4e4d-a8a4-423881b8b99b",
+      "ranking_product_id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "type": "pro",
+      "content": "Easy YAML configuration with visual editor.",
+      "headline": "Easy YAML configuration with visual editor",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "405d1c41-0c51-42b2-aac1-e0603e28b46c",
+      "ranking_product_id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "type": "con",
+      "content": "Only works well with GitHub \u2014 poor for GitLab/Bitbucket.",
+      "headline": "Only works well with GitHub \u2014 poor for GitLab/Bitbucket",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7cdde935-b06e-4566-b801-067b858a150b",
+      "ranking_product_id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "type": "con",
+      "content": "Self-hosted runner management can be tricky at scale.",
+      "headline": "Self-hosted runner management can be tricky at scale",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "491e467b-f5d3-42c3-b0b7-068ff4000548",
+      "ranking_product_id": "9b974cd3-cecd-43db-ad91-39ec2e3f2891",
+      "type": "con",
+      "content": "Limited artifact retention without paid plans.",
+      "headline": "Limited artifact retention without paid plans",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ca550e17-d873-4806-9b81-668e17f6c319",
+      "ranking_product_id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "type": "pro",
+      "content": "Single pane of glass \u2014 source, pipelines, security in one platform.",
+      "headline": "Single pane of glass \u2014 source, pipelines, security in one platform",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cfcac4c9-546a-40c8-8cd6-bfb50df782ef",
+      "ranking_product_id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "type": "pro",
+      "content": "Auto DevOps gets new projects shipping quickly.",
+      "headline": "Auto DevOps gets new projects shipping quickly",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ba620619-0ca1-4258-ac26-833508e04cf4",
+      "ranking_product_id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "type": "pro",
+      "content": "Powerful for complex, dependency-aware pipelines.",
+      "headline": "Powerful for complex, dependency-aware pipelines",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ab930ed7-11a7-4743-b784-58e638b5780b",
+      "ranking_product_id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "type": "con",
+      "content": "Less flexible than dedicated CI platforms for non-GitLab repos.",
+      "headline": "Less flexible than dedicated CI platforms for non-GitLab repos",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "fad3d818-1f6a-430d-9883-366d305ca713",
+      "ranking_product_id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "type": "con",
+      "content": "Configuration can get verbose for complex workflows.",
+      "headline": "Configuration can get verbose for complex workflows",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "07a321a2-d862-4ce8-9770-aaeebd26fb1b",
+      "ranking_product_id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
+      "type": "con",
+      "content": "Shared runners slower than dedicated cloud CI.",
+      "headline": "Shared runners slower than dedicated cloud CI",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "05950d0c-7bae-4dac-842d-1755a1237571",
+      "ranking_product_id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "type": "pro",
+      "content": "Unmatched flexibility \u2014 almost anything is possible with plugins.",
+      "headline": "Unmatched flexibility \u2014 almost anything is possible with plugins",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0d267235-a9c5-4030-b75c-ddc527f2d936",
+      "ranking_product_id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "type": "pro",
+      "content": "Completely free and open-source (no vendor lock).",
+      "headline": "Completely free and open-source (no vendor lock)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a5e9dc3b-52cb-45a0-affe-d057beaaffaa",
+      "ranking_product_id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "type": "pro",
+      "content": "Battle-tested at massive scale in enterprises.",
+      "headline": "Battle-tested at massive scale in enterprises",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "43db7cff-4aa4-4cb8-b9ab-ae0e217d51c6",
+      "ranking_product_id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "type": "con",
+      "content": "Steep learning curve and maintenance overhead.",
+      "headline": "Steep learning curve and maintenance overhead",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "5398f622-53d2-44f1-9da2-dc9b6e55b276",
+      "ranking_product_id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "type": "con",
+      "content": "Manual security patching required for self-hosted instances.",
+      "headline": "Manual security patching required for self-hosted instances",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "75eed2fb-8015-45e8-b268-688f1b770101",
+      "ranking_product_id": "3c87980b-2b4f-4f0e-a358-0697eda655d0",
+      "type": "con",
+      "content": "UI feels dated; configuration-as-code is essential.",
+      "headline": "UI feels dated; configuration-as-code is essential",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2048ca4d-372a-4c55-992d-3d16a7e0c840",
+      "ranking_product_id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "type": "pro",
+      "content": "Excellent Docker and Kubernetes support with efficient caching.",
+      "headline": "Excellent Docker and Kubernetes support with efficient caching",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "68559cbf-886a-423d-8c31-582b3c1e453b",
+      "ranking_product_id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "type": "pro",
+      "content": "Orbs marketplace accelerates pipeline setup significantly.",
+      "headline": "Orbs marketplace accelerates pipeline setup significantly",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "205deb11-66e5-459b-80d6-690d1846d665",
+      "ranking_product_id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "type": "pro",
+      "content": "Fast, reliable cloud executors with good parallelism.",
+      "headline": "Fast, reliable cloud executors with good parallelism",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cf7c3a30-03c5-4307-9078-3fef5b9107ad",
+      "ranking_product_id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "type": "con",
+      "content": "Pricing can escalate quickly for high-build-volume teams.",
+      "headline": "Pricing can escalate quickly for high-build-volume teams",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "052565f9-8f24-4f13-aa5e-4894d3f90056",
+      "ranking_product_id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "type": "con",
+      "content": "Limited built-in security scanning vs GitLab CI.",
+      "headline": "Limited built-in security scanning vs GitLab CI",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d4e8f1be-63f1-4e49-a67d-c0d5cbc662bb",
+      "ranking_product_id": "76f0409b-9b52-4c7c-84ba-74fcd1dbb977",
+      "type": "con",
+      "content": "Some configuration complexity around resource classes.",
+      "headline": "Some configuration complexity around resource classes",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "bc8d6773-fc7e-42b2-9946-5ea0a8e508bf",
+      "ranking_product_id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "type": "pro",
+      "content": "Hybrid model keeps code private while providing cloud UI.",
+      "headline": "Hybrid model keeps code private while providing cloud UI",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3066201e-476f-4d16-a68f-13f1280a07f8",
+      "ranking_product_id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "type": "pro",
+      "content": "Excellent for regulated industries (SOC2, HIPAA).",
+      "headline": "Excellent for regulated industries (SOC2, HIPAA)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "bdb369b1-3dda-42fa-b218-e9e4b623a11c",
+      "ranking_product_id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "type": "pro",
+      "content": "Elastic agent scaling on AWS/GCP simplifies ops.",
+      "headline": "Elastic agent scaling on AWS/GCP simplifies ops",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2825fcad-aa53-4c1e-9667-3c2a0c5ff8eb",
+      "ranking_product_id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "type": "con",
+      "content": "More expensive than pure open-source options.",
+      "headline": "More expensive than pure open-source options",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a73d66bb-765e-46af-bde6-0f0cb6bde64a",
+      "ranking_product_id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "type": "con",
+      "content": "Smaller community than Jenkins/GitHub Actions.",
+      "headline": "Smaller community than Jenkins/GitHub Actions",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "419bafce-2832-439e-98af-105f73853267",
+      "ranking_product_id": "b0f42a37-154b-4d4f-a1d5-75643f63867e",
+      "type": "con",
+      "content": "Less pre-built integrations out of the box.",
+      "headline": "Less pre-built integrations out of the box",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "13109f19-24da-4e6e-ac13-f0eb4169240c",
+      "ranking_product_id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "type": "pro",
+      "content": "Seamless if your code already lives in Bitbucket.",
+      "headline": "Seamless if your code already lives in Bitbucket",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2f65438f-ded8-41d3-ab15-559cfa567e21",
+      "ranking_product_id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "type": "pro",
+      "content": "Simple YAML config with good defaults for small teams.",
+      "headline": "Simple YAML config with good defaults for small teams",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "42d4cbe8-bbaf-4ebd-872c-c771b7be3ee7",
+      "ranking_product_id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "type": "pro",
+      "content": "Tight Jira integration links builds to issues automatically.",
+      "headline": "Tight Jira integration links builds to issues automatically",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8cf78fa5-4105-4bc3-8cf1-5ddb3ccab751",
+      "ranking_product_id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "type": "con",
+      "content": "Tightly coupled to Atlassian ecosystem \u2014 poor for multi-VCS teams.",
+      "headline": "Tightly coupled to Atlassian ecosystem \u2014 poor for multi-VCS teams",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "1220092f-c6d9-4577-ac1b-2616fb4e8b79",
+      "ranking_product_id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "type": "con",
+      "content": "Feature set lags behind GitHub Actions and CircleCI.",
+      "headline": "Feature set lags behind GitHub Actions and CircleCI",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "809a1406-bb37-4161-800f-9b34a48dbfe7",
+      "ranking_product_id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
+      "type": "con",
+      "content": "Limited customization of build environments.",
+      "headline": "Limited customization of build environments",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f7b43391-b65a-44ff-82e1-f2cd1ea36da2",
+      "ranking_product_id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "type": "pro",
+      "content": "Industry standard \u2014 huge community and documentation resources.",
+      "headline": "Industry standard \u2014 huge community and documentation resources",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "61f06407-a71b-40b9-985a-15e171bf87f3",
+      "ranking_product_id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "type": "pro",
+      "content": "Excellent team collaboration and versioning for collection sharing.",
+      "headline": "Excellent team collaboration and versioning for collection sharing",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f98ec736-448e-47c0-850a-1b7cdd889830",
+      "ranking_product_id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "type": "pro",
+      "content": "Powerful built-in mock servers and monitoring for API lifecycle.",
+      "headline": "Powerful built-in mock servers and monitoring for API lifecycle",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "f9c9618f-7eb5-4a5f-91b7-a6199725e876",
+      "ranking_product_id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "type": "con",
+      "content": "Expensive for larger teams (~$39/user/month at scale).",
+      "headline": "Expensive for larger teams (~$39/user/month at scale)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "241d08ab-8077-4325-b39c-e4b88c490baa",
+      "ranking_product_id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "type": "con",
+      "content": "Desktop app can feel bloated and slow to start.",
+      "headline": "Desktop app can feel bloated and slow to start",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a7ec21ff-7033-4c0c-9fa3-45449d720cf8",
+      "ranking_product_id": "82619829-2f54-493a-855c-79b09ed91b79",
+      "type": "con",
+      "content": "Complex pricing tiers make budgeting difficult.",
+      "headline": "Complex pricing tiers make budgeting difficult",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "86b95f21-552e-40c3-bff7-b2d8b3160b7b",
+      "ranking_product_id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "type": "pro",
+      "content": "Clean, fast UI with excellent GraphQL debugging tools.",
+      "headline": "Clean, fast UI with excellent GraphQL debugging tools",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "866c6804-864e-408f-8896-4e2e318913d6",
+      "ranking_product_id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "type": "pro",
+      "content": "Open-source core with no feature lock behind paywall.",
+      "headline": "Open-source core with no feature lock behind paywall",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "bc3034b1-2038-4e82-8923-0d1c6c296a73",
+      "ranking_product_id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "type": "pro",
+      "content": "Seamless import from Postman for migration teams.",
+      "headline": "Seamless import from Postman for migration teams",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "123b909d-cac7-40fb-acb4-9fc7da3ea5a1",
+      "ranking_product_id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "type": "con",
+      "content": "Team features require paid subscription for full sync.",
+      "headline": "Team features require paid subscription for full sync",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "3b53efe8-54b5-4a7d-9406-71513e026122",
+      "ranking_product_id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "type": "con",
+      "content": "Less mature API monitoring than Postman.",
+      "headline": "Less mature API monitoring than Postman",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "bb0e1cfd-7570-4710-a5ba-bf5ade8c8413",
+      "ranking_product_id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
+      "type": "con",
+      "content": "Mobile app less featured than desktop client.",
+      "headline": "Mobile app less featured than desktop client",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "14803742-269c-4eba-b40d-5c44be73be8c",
+      "ranking_product_id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "type": "pro",
+      "content": "Completely free and open-source \u2014 can self-host for privacy.",
+      "headline": "Completely free and open-source \u2014 can self-host for privacy",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "ff23ee81-f015-495f-8f42-15f917e21c76",
+      "ranking_product_id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "type": "pro",
+      "content": "Web version requires zero install; great for quick tests.",
+      "headline": "Web version requires zero install; great for quick tests",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "8c98a50c-5d92-43af-9f83-30685a1a1b26",
+      "ranking_product_id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "type": "pro",
+      "content": "Lightweight and fast, with no account required for basic use.",
+      "headline": "Lightweight and fast, with no account required for basic use",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "7a9ad5a7-7bb5-4a15-be8a-4c0d3cce9619",
+      "ranking_product_id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "type": "con",
+      "content": "Premium support only via paid priority plan ($49/mo).",
+      "headline": "Premium support only via paid priority plan ($49/mo)",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "aea07436-6b15-4ad8-9357-e31390f35d57",
+      "ranking_product_id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "type": "con",
+      "content": "Mobile app less feature-rich than desktop/web.",
+      "headline": "Mobile app less feature-rich than desktop/web",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0fd368f0-2153-4d1b-8255-821750c80aee",
+      "ranking_product_id": "14655307-4117-46c8-bf16-f0ac725b9651",
+      "type": "con",
+      "content": "Lacks advanced automation features of Postman.",
+      "headline": "Lacks advanced automation features of Postman",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "70ca3d90-c802-43b4-b1b6-4dc540c2cd65",
+      "ranking_product_id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "type": "pro",
+      "content": "Collections stored as plain Bru files \u2014 diff and merge easily.",
+      "headline": "Collections stored as plain Bru files \u2014 diff and merge easily",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0d7603c9-660b-4ec6-b8e2-b8540be55e1c",
+      "ranking_product_id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "type": "pro",
+      "content": "Perfect for Git-ops workflows; no cloud vendor dependency.",
+      "headline": "Perfect for Git-ops workflows; no cloud vendor dependency",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4a64a2da-1e9d-4073-95fb-5384c5f45328",
+      "ranking_product_id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "type": "pro",
+      "content": "Entirely offline with no telemetry, great for air-gapped environments.",
+      "headline": "Entirely offline with no telemetry, great for air-gapped environments",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "97fe8986-ea88-4176-92c5-bba1a722f7d7",
+      "ranking_product_id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "type": "con",
+      "content": "No built-in cloud collaboration \u2014 relies on Git.",
+      "headline": "No built-in cloud collaboration \u2014 relies on Git",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0a27e420-e5be-4ed0-b7bc-4dc78d166f88",
+      "ranking_product_id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "type": "con",
+      "content": "Less polished UI compared to commercial tools.",
+      "headline": "Less polished UI compared to commercial tools",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "54bcd031-9d39-4f5c-9bc4-d2fe50cae190",
+      "ranking_product_id": "7f9563af-2f4e-4951-a913-201c52c8996f",
+      "type": "con",
+      "content": "No native API monitoring or mock server hosting.",
+      "headline": "No native API monitoring or mock server hosting",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "daaf490e-3409-4da4-bdbb-7c82eddfe908",
+      "ranking_product_id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "type": "pro",
+      "content": "Native macOS performance with polished Apple-style UI.",
+      "headline": "Native macOS performance with polished Apple-style UI",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d816f2ec-8376-4df2-b3dc-e4587183ac65",
+      "ranking_product_id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "type": "pro",
+      "content": "Powerful dynamic values system for complex request chaining.",
+      "headline": "Powerful dynamic values system for complex request chaining",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4e306f90-b0ee-41c2-b33d-92c7d7a4a35b",
+      "ranking_product_id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "type": "pro",
+      "content": "One-time purchase \u2014 no subscription required for core features.",
+      "headline": "One-time purchase \u2014 no subscription required for core features",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "b6de3adc-9c44-44bd-aed5-1c9a817c145d",
+      "ranking_product_id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "type": "con",
+      "content": "macOS only \u2014 no Windows/Linux support.",
+      "headline": "macOS only \u2014 no Windows/Linux support",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "bb59b532-6a1a-4ad2-b642-85a5d283301d",
+      "ranking_product_id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "type": "con",
+      "content": "Team collaboration requires separate Paw Cloud subscription.",
+      "headline": "Team collaboration requires separate Paw Cloud subscription",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "39e51f52-9f99-4c95-a684-39e7a5331aef",
+      "ranking_product_id": "28ac6f91-1f61-44e5-b88b-43ae88730a94",
+      "type": "con",
+      "content": "Smaller community than cross-platform tools.",
+      "headline": "Smaller community than cross-platform tools",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "dee3fdb5-a9e2-4cc5-8cf1-d5021dec9c03",
+      "ranking_product_id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "type": "pro",
+      "content": "Zero context-switching \u2014 test APIs without leaving your editor.",
+      "headline": "Zero context-switching \u2014 test APIs without leaving your editor",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "a5de61cd-136b-40af-9160-e8cc7463a9a3",
+      "ranking_product_id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "type": "pro",
+      "content": "Completely free and lightweight.",
+      "headline": "Completely free and lightweight",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "0c748588-3f6a-4963-8aec-b349763f7900",
+      "ranking_product_id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "type": "pro",
+      "content": "Good enough for simple CRUD and quick debugging.",
+      "headline": "Good enough for simple CRUD and quick debugging",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cb05000a-27cc-4a19-810f-e34acc7c5a43",
+      "ranking_product_id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "type": "con",
+      "content": "No team collaboration features \u2014 strictly local.",
+      "headline": "No team collaboration features \u2014 strictly local",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "769ee323-fed7-4e22-a3c3-5441d426f5fa",
+      "ranking_product_id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "type": "con",
+      "content": "Feature set is minimal; lacks advanced scripting.",
+      "headline": "Feature set is minimal; lacks advanced scripting",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "552b02cf-770e-4f79-ae3d-3f89818eee96",
+      "ranking_product_id": "17a3c3b8-ab21-4554-a4ab-03acb170ed59",
+      "type": "con",
+      "content": "Cannot replace dedicated API client for complex workflows.",
+      "headline": "Cannot replace dedicated API client for complex workflows",
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "00fb1c36-8d55-4b5b-9433-ef38ee44893d",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "question": "Should I choose VS Code or a paid IDE like JetBrains?",
+      "answer": "Choose VS Code if you want a free, extensible editor with a massive marketplace and solid AI Copilot support. Upgrade to JetBrains if you work primarily with JVM, .NET, or need deep static analysis, refactoring, and built-in database tools.",
+      "display_order": 1,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d36c03ed-4f8b-4b39-bb74-30f1c9ec1345",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "question": "Is an AI-first editor like Cursor worth the $20/month?",
+      "answer": "Cursor is worth it if you regularly work on large codebases and want AI that understands your entire project context. For smaller projects or if you're happy with VS Code + Copilot, the free setup still delivers strong value.",
+      "display_order": 2,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "e60aa9d6-0caf-4047-bf01-74ac4d3c3f04",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "question": "What's the fastest editor for large projects?",
+      "answer": "Sublime Text remains the fastest for extremely large files and old hardware due to its native C++ core. VS Code is fast enough for most users, while JetBrains IDEs require more RAM but offer deeper analysis. Zed shows promise for collaborative speed.",
+      "display_order": 3,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "e69a812c-b038-46b3-aa16-bb32517f1659",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "question": "Do I need both an editor and a separate IDE?",
+      "answer": "Modern editors like VS Code blur the line with rich extensions. Most developers use either a lightweight editor with plugins or a full IDE. Pick one ecosystem and stick with it to avoid workflow fragmentation.",
+      "display_order": 4,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "60c22612-9970-4811-84d7-043ce2a9496f",
+      "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
+      "question": "How important is native language support vs extensions?",
+      "answer": "For mainstream languages (Python, JavaScript/TypeScript, Go), VS Code extensions are excellent. For complex typed languages (Java, Kotlin, C#), JetBrains IDEs provide deeper understanding, refactoring, and framework support out of the box.",
+      "display_order": 5,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "98aeee82-422c-4d21-8482-14b763de5b90",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "question": "GitHub Actions vs Jenkins: which should I choose?",
+      "answer": "Choose GitHub Actions if your code lives on GitHub and you want zero-maintenance hosted runners with simple YAML configs. Pick Jenkins if you need maximum customization, self-hosted control, or work across multiple VCS platforms.",
+      "display_order": 1,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "d3e97aa4-ac9a-4c00-a5e3-46b3da21d84a",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "question": "Is GitLab CI worth it if I'm not using the rest of GitLab?",
+      "answer": "GitLab CI shines when paired with the full GitLab platform for issue tracking, container registry, and security scanning. If you only need CI, GitHub Actions or CircleCI often provide better standalone experiences.",
+      "display_order": 2,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "49d90888-b28b-4674-b8a2-c487ac939efd",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "question": "What's the most cost-effective CI for small startups?",
+      "answer": "Start with GitHub Actions (2,000 free minutes/month) or CircleCI's free tier (3,000 minutes). For heavy builds, consider self-hosted Jenkins to avoid per-minute charges, but budget for maintenance overhead.",
+      "display_order": 3,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "2f37fafd-0166-4b33-9ffc-70536dfcb9d2",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "question": "When should I choose a self-hosted CI over cloud options?",
+      "answer": "Self-hosted is necessary for air-gapped environments, compliance regimes that forbid external data egress, or extreme scale where per-minute cloud costs become prohibitive. Otherwise, hosted runners typically offer better reliability.",
+      "display_order": 4,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "10366ec5-0578-4272-804a-13c0d118cf1a",
+      "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
+      "question": "Which CI/CD tool integrates best with Kubernetes?",
+      "answer": "All major tools integrate well. GitHub Actions and GitLab CI offer native Kubernetes integration and deployment strategies. CircleCI's machine executors are highly optimized for container builds. Jenkins requires more plugin configuration.",
+      "display_order": 5,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cf5f93ea-bd4a-4950-8349-7a38f993af9b",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "question": "Postman vs Insomnia: which is better for teams?",
+      "answer": "Postman excels at large-scale team collaboration, shared workspaces, and API monitoring. Insomnia offers a cleaner UI, better GraphQL support, and an open-source core. Teams should trial both and pick based on workflow fit.",
+      "display_order": 1,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "276e27cc-5e0d-46c2-80bb-7126a7ecd752",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "question": "Can I replace Postman with a free open-source tool?",
+      "answer": "Yes \u2014 Hoppscotch is a compelling free alternative with a web app and decent feature set. For local-first workflows, Bruno is excellent if your team works primarily via Git. Both cover most everyday testing needs.",
+      "display_order": 2,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "4b235d43-dadc-49aa-a165-e555a10507e6",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "question": "What's the best API tool for CI/CD automation?",
+      "answer": "Postman's Newman CLI is the most mature for CI/CD pipelines. Insomnia's CLI is improving. For pure open-source workflows, Hoppscotch CLI or Bruno with Git hooks can work, but Newman has the largest community and plugin ecosystem.",
+      "display_order": 3,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "c901dc22-7ef1-457d-a4fc-bf115a2e0cc6",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "question": "Should I store API collections in the cloud or locally?",
+      "answer": "Store locally (Bruno) if security, Git history, or offline access matters. Use cloud (Postman/Insomnia) for easy team sharing and sync. Some teams hybridize: local development with cloud sync for stakeholder preview.",
+      "display_order": 4,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    },
+    {
+      "id": "cfae16e6-5c25-4f67-b1b1-fad1798d9aa7",
+      "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
+      "question": "Are desktop-only tools like Paw worth the cost?",
+      "answer": "Paw is worth it for macOS-native teams that need advanced dynamic scripting and code generation. Its one-time $99 price avoids subscriptions, but lack of Windows/Linux support limits collaboration with cross-platform teams.",
+      "display_order": 5,
+      "created_at": "2026-04-22T21:29:48.492524+00:00",
+      "updated_at": "2026-04-22T21:29:48.492524+00:00"
+    }
+  ]
+}
