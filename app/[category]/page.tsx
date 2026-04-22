@@ -18,6 +18,7 @@ import { getEnhancedDescription, getCategoryFAQs } from '@/lib/category-enhancem
 import { CategoryLinks } from '@/components/category-links';
 import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { FeaturedRankings } from '@/components/featured-rankings';
+import { ClusterNavigation } from '@/components/cluster-navigation';
 import { UseCaseModule } from '@/components/use-case-module';
 import { ComparisonModule } from '@/components/comparison-module';
 import { ComparisonCallouts } from '@/components/comparison-callouts';
@@ -293,6 +294,14 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             relatedCategories={displayCategories.slice(0, 3)}
           />
         )}
+
+        {/* Cluster-based navigation for adjacent-category discovery */}
+        <ClusterNavigation
+          categories={allCategories}
+          rankingCounts={rankingCounts}
+          currentSlug={categorySlug}
+          title="Explore Category Clusters"
+        />
 
         {/* Related Categories - Internal Linking */}
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

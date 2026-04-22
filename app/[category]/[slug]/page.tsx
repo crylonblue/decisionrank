@@ -21,6 +21,7 @@ import { KeyTakeaways } from '@/components/key-takeaways';
 import { CategoryLinks } from '@/components/category-links';
 import { getRelatedCategorySlugs } from '@/lib/category-relations';
 import { PopularComparisons } from '@/components/popular-comparisons';
+import { ClusterNavigation } from '@/components/cluster-navigation';
 
 export const dynamic = 'force-dynamic';
 
@@ -318,13 +319,21 @@ export default async function RankingDetailPage({ params }: RankingDetailPagePro
         <MobileRankingCards rankingProducts={ranking_products} />
         </div>
 
+        {/* Cluster-based navigation for adjacent-category discovery */}
+        <ClusterNavigation
+          categories={allCategories}
+          rankingCounts={rankingCounts}
+          currentSlug={categorySlug}
+          title="Explore Category Clusters"
+        />
+
         {/* Internal Linking: Related Categories */}
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <CategoryLinks
-            categories={siblingCategories}
+            categories={displayCategories}
             rankingCounts={rankingCounts}
-            title="Explore Other Categories"
-            description="Discover rankings in other product categories"
+            title="Explore Related Categories"
+            description="Discover rankings in adjacent product categories"
           />
         </div>
 
