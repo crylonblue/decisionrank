@@ -8,6 +8,27 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-22 (Bob subagent, task 1776731224905):** Intensified backlink outreach cadence for best-performing pages — created targeted outreach campaigns for top-ranking pages:
+  - Built comprehensive backlink outreach spreadsheet (`resources/backlink-campaigns/backlink-outreach-campaign-2026-04.csv`) with 30 high-value target sites across directories, review platforms, and forums
+  - Prioritized high-DA (40+) directories and resource lists: Product Hunt (DA 90), AlternativeTo (DA 70), G2 (DA 55), SaaSHub (DA 55), Capterra (DA 50), TechRadar, PCMag, Tom's Guide, Wirecutter, TrustRadius
+  - Included startup/tool directories: BetaList, StackShare, SaaSGrep, DesignRush, Expertnaire
+  - Added community platforms: Reddit (r/product_reviews, r/gadgets, r/BuyItForLife), Hacker News, Quora
+  - Created detailed outreach campaign notes (`resources/backlink-campaigns/outreach-campaign-notes.md`) with:
+    - Qualifying criteria for target sites (DA/DR 40+, editorial standards, niche relevance)
+    - Email templates for directory submissions and review site pitches
+    - Execution checklist (4-phase plan over 4+ weeks)
+    - Tracking methodology for backlink velocity monitoring
+  - Identified 5 target pages for focused outreach: air-fryers, standing-desks, wireless-earbuds, gaming-laptops, espresso-machines
+  - Used "top sites to submit your startup" playbook adapted from european-saas backlink work
+  - Spreadsheet includes: Site name, URL, DA/DR, Contact method, Submission status, Date reached, Response, Category relevance, Notes
+  - All files committed and pushed. Task `1776731224905` moved to **done**.
+
+- **2026-04-22 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776812473377` (**high**): Seed 3 more buyer-intent categories in code only, extending the current DecisionRank seed source with 3 additional high-intent categories that deepen existing clusters, preferably around home office, creator gear, or smart home. Each category should include full rankings, specs, pros/cons, verdict copy, and category-specific FAQs, without attempting the still-blocked Convex import step. Favor candidates like monitor arms, portable monitors, docking stations, desk lamps, smart locks, or video doorbells.
+  - Created API backlog task `1776812473469` (**medium**): Add category-level buyer’s choice and quick verdict modules, such as “best for most people,” premium/budget picks, and concise buyer guidance blocks derived from existing ranking data, keeping them indexable and useful without creating thin standalone pages.
+  - Created API backlog task `1776812473493` (**medium**): Expand adjacent-category clustering and internal links for newer categories by strengthening adjacency rules, related-category sections, and contextual cross-links from established categories and discovery surfaces.
+  - Planning basis: the latest internal-link and category-page SEO work is already in place, so the next highest-leverage backlog is another code-only category seed batch plus sharper commercial-intent editorial modules and stronger cluster reinforcement for newly added categories.
+
 - **2026-04-21 (Bob subagent, task 1776803369920):** Improved homepage and category page internal linking for SEO to boost newer/under-linked categories:
   - Added 8 newer categories to buyer-intent modules for homepage and /categories visibility:
     - **home-office module:** laptop-stands, monitor-arms, desk-cable-management
