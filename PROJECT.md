@@ -8,6 +8,11 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-22 (Bob subagent, task 1773878668024):** Rewrote thin content categories for SEO refresh — identified 3 categories in `.seed-payload.json` that lacked enhanced descriptions in `lib/category-enhancements.ts`: `code-editors`, `ci-cd-tools`, `api-testing-tools`.
+  - Added 3-paragraph SEO descriptions (what/why, evaluation criteria, use cases/price tiers) for each category in `ENHANCED_CATEGORY_DESCRIPTIONS`
+  - Added 5 FAQs per category in `CATEGORY_FAQS` covering key buyer questions (VS Code vs JetBrains, CI vs CD, Postman vs Insomnia, etc.)
+  - TypeScript validation: no errors. Committed as `4e71a83`. Task moved to **done**.
+
 - **2026-04-22 (Bob):** Seeded 3 new buyer-intent modules in `lib/buyer-intent-modules.ts` (code-only, commit `4dc9e4e`):
   - `portable-creator-workstation` — portable monitors, docking stations, external SSDs (creator gear cluster)
   - `smart-home-security` — smart locks, video doorbells, smart lighting (smart home security cluster)
