@@ -8,7 +8,27 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
-- **2026-04-22 (Bob subagent, task 1776812473469):** Added category-level buyer's choice and quick verdict model to category pages.
+- **2026-04-23 (Bob subagent, task 1776898873436):** Seeded 3 new buyer-intent categories in `.seed-payload.json` (code-only, no Convex import):
+  - Portable Monitors (best-portable-monitors-2026, 6 products, 30 specs, 18 sentiments, 5 FAQs)
+  - Docking Stations (best-docking-stations-2026, 6 products, 30 specs, 18 sentiments, 5 FAQs)
+  - Desk Lamps (best-desk-lamps-2026, 6 products, 30 specs, 18 sentiments, 5 FAQs)
+  - All data includes rankings (scores 0–100), detailed specifications, pros/cons, verdict summaries, and category-specific FAQs. Updated: seed payload now totals 24 categories, 24 rankings, 138 products, 840 specs, 900+ sentiments, 93 FAQs.
+  - **Note:** Convex import remains blocked; no import attempted.
+
+- **2026-04-23 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1776898873436` (**high**): Seed 3 more buyer-intent categories in code only: `portable-monitors`, `docking-stations`, and `desk-lamps`, with full rankings, specs, pros/cons, verdict copy, and category-specific FAQs. Do not attempt the still-blocked Convex import step. Planning basis: these categories are already referenced in existing buyer-intent modules and category-cluster scaffolding, so seeding them unlocks real SEO value instead of adding disconnected inventory.
+  - Created API backlog task `1776898873501` (**medium**): Add bespoke long-tail SEO modules for newer categories likely still using generic fallbacks, especially `monitor-arms`, `laptop-stands`, `desk-cable-management`, `smart-lighting`, `stream-decks`, `code-editors`, `ci-cd-tools`, and `api-testing-tools`. Expand `lib/category-use-cases.ts` with category-specific use cases, query-intent phrases, and comparison guides.
+  - Created API backlog task `1776898873547` (**medium**): Strengthen discovery-surface cluster SEO on the homepage and `/categories` by turning `CATEGORY_CLUSTERS` into richer indexable sections with short editorial intros, stronger descriptive links, and cluster-level browse modules, especially for the portable creator, developer tools, and smart home/security families. Keep this on existing pages, not thin standalone cluster pages.
+  - Planning basis: recent internal-link, buyers-choice, and thin-content refresh work is already in place. The next highest-leverage backlog is to seed categories that existing cluster architecture already references, then deepen long-tail query coverage and surface those clusters more clearly on high-authority discovery pages.
+
+- **2026-04-23 (Bob subagent, task 1776812473493):** Expanded adjacent-category clustering and internal links for newer categories:
+  - Added 20+ categories to `BASE_RELATIONS` in `lib/category-relations.ts` across 8 defined clusters (home-office, gaming, smart-home, kitchen, wearable, content-creation, developer-tools, portable-creator) — previously only 6 categories had manual adjacency overrides
+  - Added `getClusterForCategory()` and `getClusterSiblings()` helpers; cluster siblings are now always included in `getRelatedCategorySlugs()` lookups alongside BASE_RELATIONS + MODULE_ADJ
+  - Exported `CATEGORY_CLUSTERS` array (`CATEGORY_CLUSTERS: CategoryCluster[]`) for use by navigation components
+  - Created new `ClusterNavigation` component (`components/cluster-navigation.tsx`) — renders a 4-column grid of cluster cards showing category name + ranking count per cluster; highlights the active cluster when a `currentSlug` is provided
+  - Integrated `ClusterNavigation` into `app/[category]/page.tsx` and `app/[category]/[slug]/page.tsx` as a new section before "Related Categories"
+  - Upgraded ranking detail page internal linking: replaced generic `siblingCategories` with `displayCategories` (adjacency-aware) in the Related Categories block, ensuring crawler-friendly links point to contextually related categories
+  - TypeScript: clean build. Committed as `a5a92b1`, auto-deployed via Vercel. Task moved to **done**.
   - Created new `lib/buyers-choice.ts` with logic to compute Best Overall, Best for Budget, and Best for Enterprise picks from category ranking data
   - Created `components/category-buyers-choice.tsx` component to display buyer's choice cards with badges, quick verdicts (1-2 sentences), key specs, and product links
   - Added new Convex query `getCategoryWithProducts` in `convex/rankings.ts` to fetch category with fully populated ranking products
