@@ -59,4 +59,22 @@ export const buyerIntentModules: BuyerIntentModule[] = [
     description: 'Move smartly with the best personal transportation devices and travel gear for commuting, exploring, and getting around efficiently. From electric scooters to luggage with smart features, we assess portability, durability, and real-world performance. If you\'re a frequent traveler or urban commuter, our guides help you find gear that simplifies the journey and survives the road.',
     categorySlugs: ['transportation', 'travel-gear'],
   },
+  {
+    id: 'portable-creator-workstation',
+    title: 'Portable Creator & Developer Workstation',
+    description: 'Set up a full-featured workstation anywhere with portable monitors, docking stations, and high-speed external SSDs. Whether you\'re a developer who needs a dual-screen setup on the go, a designer requiring color-accurate secondary displays, or a content creator working from different locations, our rankings help you build a portable rig that doesn\'t compromise on performance. We evaluate USB-C dock bandwidth, monitor panel quality and color accuracy, SSD transfer speeds under sustained load, and how easily everything connects with a single cable. Find the right combination of portable display, connectivity hub, and storage to turn any space into a productive workspace.',
+    categorySlugs: ['portable-monitors', 'docking-stations', 'external-ssds'],
+  },
+  {
+    id: 'smart-home-security',
+    title: 'Smart Home Entry & Security',
+    description: 'Secure and automate your home\'s entry points with smart locks, video doorbells, and smart lighting. Smart locks let you grant access without keys and monitor entry logs from anywhere, while video doorbells show who\'s at the door before you answer — even when you\'re not home. Combined with smart lighting that schedules and responds to motion, these devices form the foundation of a cohesive smart home security system. Our rankings test installation complexity, app reliability, integration with Alexa, Google Home, and Apple HomeKit, battery life, and how well each device handles the daily wear of real homes. Whether you\'re securing a rented apartment or a single-family home, we help you choose the right combination of entry-level and full-featured options.',
+    categorySlugs: ['smart-locks', 'video-doorbells', 'smart-lighting'],
+  },
+  {
+    id: 'desk-ergonomics-lighting',
+    title: 'Desk Ergonomics & Ambient Lighting',
+    description: 'Complete your desk setup with the right lighting and ergonomic support accessories. Desk lamps with adjustable color temperature reduce eye strain during long work sessions, monitor arms free up desk space and improve ergonomics, and laptop stands elevate your screen to the correct height for neutral posture. We test each product for the difference it makes in real daily use: Does the desk lamp eliminate glare on your monitor? Does the monitor arm hold ultrawides without sagging? Is the laptop stand stable enough for heavy 17-inch workstations? Our rankings cover budget-friendly basics through premium desk accessories, with testing across different desk sizes, monitor weights, and lighting conditions.',
+    categorySlugs: ['desk-lamps', 'monitor-arms', 'laptop-stands', 'desk-cable-management'],
+  },
 ];
