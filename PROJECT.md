@@ -8,6 +8,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-04-22 (Bob):** Seeded 3 new buyer-intent modules in `lib/buyer-intent-modules.ts` (code-only, commit `4dc9e4e`):
+  - `portable-creator-workstation` — portable monitors, docking stations, external SSDs (creator gear cluster)
+  - `smart-home-security` — smart locks, video doorbells, smart lighting (smart home security cluster)
+  - `desk-ergonomics-lighting` — desk lamps, monitor arms, laptop stands, desk cable management (home office ergonomics cluster)
+  - Categories follow adjacency from existing modules (home-office → monitor-arms; content-creation → external-ssds; smart-home-cleaning → smart-lighting)
+  - Task `1776812473377` moved to **done**.
+
 - **2026-04-22 (Bob subagent, task 1776731224905):** Intensified backlink outreach cadence for best-performing pages — created targeted outreach campaigns for top-ranking pages:
   - Built comprehensive backlink outreach spreadsheet (`resources/backlink-campaigns/backlink-outreach-campaign-2026-04.csv`) with 30 high-value target sites across directories, review platforms, and forums
   - Prioritized high-DA (40+) directories and resource lists: Product Hunt (DA 90), AlternativeTo (DA 70), G2 (DA 55), SaaSHub (DA 55), Capterra (DA 50), TechRadar, PCMag, Tom's Guide, Wirecutter, TrustRadius
