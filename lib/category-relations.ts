@@ -9,7 +9,7 @@
  * - gaming:          gaming-laptops, mechanical-keyboards, noise-cancelling-headphones,
  *                    microphones, stream-decks
  * - smart-home:      smart-lighting, smart-plugs-power-strips, smart-locks, video-doorbells,
- *                    robot-vacuums, air-purifiers
+ *                    smart-security-cameras, robot-vacuums, air-purifiers
  * - kitchen:        coffee-makers, air-fryers, espresso-machines
  * - wearable:        smart-watches, wireless-earbuds
  * - content-creation: smartphones, tablet-stands-mounts, webcams, microphones, stream-decks
@@ -39,12 +39,13 @@ const BASE_RELATIONS: Record<string, string[]> = {
   'stream-decks':     ['gaming-laptops', 'microphones', 'mechanical-keyboards', 'smartphones', 'webcams'],
 
   // === Smart Home cluster ===
-  'smart-lighting':   ['robot-vacuums', 'smart-plugs-power-strips', 'smart-locks', 'video-doorbells'],
+  'smart-lighting':   ['robot-vacuums', 'smart-plugs-power-strips', 'smart-locks', 'video-doorbells', 'smart-security-cameras'],
   'smart-plugs-power-strips': ['air-fryers', 'coffee-makers', 'smart-lighting', 'robot-vacuums', 'air-purifiers'],
-  'smart-locks':      ['video-doorbells', 'smart-lighting', 'smart-watches'],
-  'video-doorbells':   ['smart-locks', 'smart-lighting', 'smart-watches', 'robot-vacuums'],
-  'robot-vacuums':    ['air-purifiers', 'smart-lighting', 'smart-plugs-power-strips', 'standing-desks', 'air-fryers', 'coffee-makers'],
-  'air-purifiers':    ['standing-desks', 'robot-vacuums', 'smart-plugs-power-strips', 'coffee-makers'],
+  'smart-locks':      ['video-doorbells', 'smart-security-cameras', 'smart-lighting', 'smart-watches'],
+  'video-doorbells':   ['smart-locks', 'smart-security-cameras', 'smart-lighting', 'smart-watches', 'robot-vacuums'],
+  'smart-security-cameras': ['video-doorbells', 'smart-locks', 'smart-lighting', 'robot-vacuums', 'air-purifiers'],
+  'robot-vacuums':    ['air-purifiers', 'smart-lighting', 'smart-security-cameras', 'smart-plugs-power-strips', 'standing-desks', 'air-fryers', 'coffee-makers'],
+  'air-purifiers':    ['standing-desks', 'robot-vacuums', 'smart-security-cameras', 'smart-plugs-power-strips', 'coffee-makers'],
 
   // === Kitchen cluster ===
   'coffee-makers':   ['air-fryers', 'standing-desks', 'air-purifiers', 'espresso-machines', 'smart-plugs-power-strips', 'robot-vacuums'],
@@ -96,7 +97,7 @@ export interface CategoryCluster {
 export const CATEGORY_CLUSTERS: CategoryCluster[] = [
   { id: 'home-office',        name: 'Home Office',         slugs: ['standing-desks', 'office-chairs', 'monitors', 'monitor-arms', 'laptop-stands', 'desk-cable-management', 'usb-c-hubs', 'webcams', 'external-ssds'] },
   { id: 'gaming-streaming',    name: 'Gaming & Streaming',  slugs: ['gaming-laptops', 'mechanical-keyboards', 'noise-cancelling-headphones', 'microphones', 'stream-decks'] },
-  { id: 'smart-home',          name: 'Smart Home',           slugs: ['smart-lighting', 'smart-plugs-power-strips', 'smart-locks', 'video-doorbells', 'robot-vacuums', 'air-purifiers'] },
+  { id: 'smart-home',          name: 'Smart Home',           slugs: ['smart-lighting', 'smart-plugs-power-strips', 'smart-locks', 'video-doorbells', 'smart-security-cameras', 'robot-vacuums', 'air-purifiers'] },
   { id: 'kitchen-cooking',     name: 'Kitchen & Cooking',    slugs: ['coffee-makers', 'air-fryers', 'espresso-machines'] },
   { id: 'wearable-tech-audio', name: 'Wearable & Audio',     slugs: ['smart-watches', 'wireless-earbuds'] },
   { id: 'content-creation',   name: 'Content Creation',     slugs: ['smartphones', 'tablet-stands-mounts', 'webcams', 'microphones', 'stream-decks'] },

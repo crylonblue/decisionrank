@@ -215,6 +215,30 @@
       "description": "Best desk lamps for home offices and studios — LED, ergonomic, adjustable, with color temperature control for productivity and eye comfort.",
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "65dfc134-793b-413c-bea6-979beb38fbfa",
+      "name": "Smart Locks",
+      "slug": "smart-locks",
+      "description": "Best smart locks for apartments, rentals, and family homes, compared on security, remote access, battery life, keypad options, and smart-home compatibility.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "23d1da8a-eb41-49e9-b10c-8aa33300c557",
+      "name": "Video Doorbells",
+      "slug": "video-doorbells",
+      "description": "Best video doorbells for package alerts, visitor monitoring, and front-door security, ranked by video quality, motion detection, app speed, subscription value, and installation flexibility.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "838c59e3-e82b-4463-a172-ec27f2d34343",
+      "name": "Smart Security Cameras",
+      "slug": "smart-security-cameras",
+      "description": "Best smart security cameras for indoor monitoring and outdoor perimeter coverage, compared on image quality, night vision, motion alerts, storage options, privacy controls, and subscription value.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ],
   "rankings": [
@@ -487,6 +511,36 @@
       "category_id": "606106f7-247a-4ed9-93d0-5a414f95488b",
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "slug": "best-smart-locks-2026",
+      "question": "What Are the Best Smart Locks in 2026?",
+      "description": "We evaluated the leading smart locks across physical security, app reliability, installation difficulty, guest access, battery behavior, and ecosystem support to find the best options for renters, homeowners, and short-term rentals.",
+      "verdict_summary": "The Schlage Encode Plus is the best all-around smart lock thanks to dependable hardware, excellent keypad performance, and Apple Home Key support. August Wi-Fi Smart Lock remains the top renter-friendly retrofit, while Yale Assure Lock 2 strikes the best balance of design, integrations, and flexible access methods.",
+      "category_id": "65dfc134-793b-413c-bea6-979beb38fbfa",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "slug": "best-video-doorbells-2026",
+      "question": "What Are the Best Video Doorbells in 2026?",
+      "description": "We tested battery and wired video doorbells across image quality, package visibility, night vision, event reliability, smart alerts, and ecosystem integration to find the best choices for renters and homeowners.",
+      "verdict_summary": "The Google Nest Doorbell (Battery) is the best fit for most buyers thanks to strong smart alerts, head-to-toe framing, and easy installation. Ring Battery Doorbell Plus remains the most mainstream option, while Eufy Video Doorbell Dual is the top pick for package-heavy households that want local storage.",
+      "category_id": "23d1da8a-eb41-49e9-b10c-8aa33300c557",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "slug": "best-smart-security-cameras-2026",
+      "question": "What Are the Best Smart Security Cameras in 2026?",
+      "description": "We evaluated indoor and outdoor smart security cameras across daytime clarity, night footage, motion intelligence, local versus cloud storage, privacy features, and smart-home integration to identify the best systems for real homes.",
+      "verdict_summary": "The EufyCam S3 Pro is the best no-subscription outdoor pick with strong image quality and local storage, while the Nest Cam (Battery) is the easiest all-around option for mixed indoor and outdoor use. For indoor monitoring, the Aqara Camera Hub G3 delivers standout automation value and privacy-friendly controls.",
+      "category_id": "838c59e3-e82b-4463-a172-ec27f2d34343",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ],
   "products": [
@@ -1595,6 +1649,132 @@
       "link": "https://www.amazon.com/Quntong-Charging-Dimming-Monitor-Bedroom/dp/B09V3H2W5X",
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "name": "Schlage Encode Plus",
+      "link": "https://www.schlage.com/en/home/smart-locks/encode-plus.html",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "name": "August Wi-Fi Smart Lock",
+      "link": "https://august.com/products/august-wifi-smart-lock",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "name": "Yale Assure Lock 2",
+      "link": "https://shopyalehome.com/products/yale-assure-lock-2",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "name": "Ultraloq U-Bolt Pro WiFi",
+      "link": "https://u-tec.com/products/ultraloq-u-bolt-pro-wifi",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "name": "Level Lock+",
+      "link": "https://level.co/products/lock-plus",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "name": "Wyze Lock Bolt",
+      "link": "https://www.wyze.com/products/wyze-lock-bolt",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "name": "Google Nest Doorbell (Battery)",
+      "link": "https://store.google.com/product/nest_doorbell_battery",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "name": "Ring Battery Doorbell Plus",
+      "link": "https://ring.com/products/battery-doorbell-plus",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "name": "Eufy Video Doorbell Dual",
+      "link": "https://www.eufy.com/products/t8213",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "name": "Arlo Essential Video Doorbell (2nd Gen)",
+      "link": "https://www.arlo.com/en-us/doorbells/AVD4001.html",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "name": "Logitech Circle View Doorbell",
+      "link": "https://www.logitech.com/products/cameras/circle-view-video-doorbell.html",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "name": "Blink Video Doorbell",
+      "link": "https://www.amazon.com/blink-video-doorbell",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "name": "EufyCam S3 Pro",
+      "link": "https://www.eufy.com/products/t8894",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "name": "Google Nest Cam (Battery)",
+      "link": "https://store.google.com/product/nest_cam_battery",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "name": "Arlo Pro 5S 2K",
+      "link": "https://www.arlo.com/en-us/cameras/pro/arlo-pro-5s-2k.html",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "name": "Aqara Camera Hub G3",
+      "link": "https://www.aqara.com/en/product/camera-hub-g3",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "name": "Ring Stick Up Cam Pro",
+      "link": "https://ring.com/products/stick-up-cam-pro",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "name": "Wyze Cam v4",
+      "link": "https://www.wyze.com/products/wyze-cam-v4",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ],
   "ranking_products": [
@@ -3019,6 +3199,168 @@
       "rank_position": 6,
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "product_id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "score": 9.7,
+      "rank_position": 1,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "product_id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "score": 9.4,
+      "rank_position": 2,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "product_id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "score": 9.2,
+      "rank_position": 3,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "product_id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "score": 8.9,
+      "rank_position": 4,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "product_id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "score": 8.7,
+      "rank_position": 5,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "product_id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "score": 8.4,
+      "rank_position": 6,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "product_id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "product_id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "score": 9.0,
+      "rank_position": 3,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "product_id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "score": 8.8,
+      "rank_position": 4,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "product_id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "score": 8.6,
+      "rank_position": 5,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "product_id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "score": 8.2,
+      "rank_position": 6,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "product_id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "product_id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "score": 9.0,
+      "rank_position": 3,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "product_id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "score": 8.9,
+      "rank_position": 4,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "product_id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "score": 8.6,
+      "rank_position": 5,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "product_id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "score": 8.3,
+      "rank_position": 6,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ],
   "users": [],
@@ -11329,6 +11671,978 @@
       "headline": "No built-in USB charging port on some models.",
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "ac1c1f96-2025-4928-b421-cb46a4869370",
+      "ranking_product_id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "type": "pro",
+      "content": "Excellent physical hardware and reliable keypad entry.",
+      "headline": "Excellent physical hardware and reliable keypad entry.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "3857f9c6-3e3e-4b0a-884d-594fc1ef0334",
+      "ranking_product_id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "type": "pro",
+      "content": "Apple Home Key support makes iPhone access genuinely convenient.",
+      "headline": "Apple Home Key support makes iPhone access genuinely convenient.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "41b377f5-010d-4b31-af74-6ab8b952f30b",
+      "ranking_product_id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "type": "pro",
+      "content": "Strong remote access and audit trail features for families and guests.",
+      "headline": "Strong remote access and audit trail features for families and guests.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8e847563-921b-4e24-8546-2448694fe9b5",
+      "ranking_product_id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "type": "con",
+      "content": "More expensive than basic keypad smart locks.",
+      "headline": "More expensive than basic keypad smart locks.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "95d36028-6964-4f04-9f54-36a0e830db77",
+      "ranking_product_id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "type": "con",
+      "content": "Chunkier exterior design than minimalist alternatives.",
+      "headline": "Chunkier exterior design than minimalist alternatives.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0b84e28b-f2b8-4355-b798-cf0b9f49a71c",
+      "ranking_product_id": "e7d01d37-302a-42be-9210-bf25ca114dd3",
+      "type": "con",
+      "content": "Battery life drops faster if Wi-Fi activity is heavy.",
+      "headline": "Battery life drops faster if Wi-Fi activity is heavy.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "bcc55028-af76-4034-8301-638812b341e9",
+      "ranking_product_id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "type": "pro",
+      "content": "Best renter-friendly option because it keeps existing exterior hardware.",
+      "headline": "Best renter-friendly option because it keeps existing exterior hardware.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c97c8a9e-b231-44d6-8284-e259e0849950",
+      "ranking_product_id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "type": "pro",
+      "content": "Easy installation and removal with minimal door changes.",
+      "headline": "Easy installation and removal with minimal door changes.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5547f0f9-5d0e-4ca2-a3cd-2b09570a49c0",
+      "ranking_product_id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "type": "pro",
+      "content": "Auto-unlock and app sharing are polished and intuitive.",
+      "headline": "Auto-unlock and app sharing are polished and intuitive.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "6521e530-0528-4bef-b5ac-6605fa066d81",
+      "ranking_product_id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "type": "con",
+      "content": "Short battery life compared with bridge-based rivals.",
+      "headline": "Short battery life compared with bridge-based rivals.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f8d2d882-6f2f-4525-834e-9c4a001525b4",
+      "ranking_product_id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "type": "con",
+      "content": "No built-in keypad unless you buy one separately.",
+      "headline": "No built-in keypad unless you buy one separately.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9a487106-368b-4c2f-afe3-33835b6724b7",
+      "ranking_product_id": "930ebbe3-9712-4bc8-99fc-7fff0f30bc06",
+      "type": "con",
+      "content": "Bulky indoor housing is not the prettiest option.",
+      "headline": "Bulky indoor housing is not the prettiest option.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "aa24c068-5286-4ece-884e-06fd021a8e54",
+      "ranking_product_id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "type": "pro",
+      "content": "Wide range of trims and connectivity options fits more door setups.",
+      "headline": "Wide range of trims and connectivity options fits more door setups.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8c6ebf2d-8e93-49f9-9496-e028f14c3814",
+      "ranking_product_id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "type": "pro",
+      "content": "Compact design looks cleaner than many smart locks.",
+      "headline": "Compact design looks cleaner than many smart locks.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "3c05a472-2fb7-41ab-b3a8-63b9361aaa1e",
+      "ranking_product_id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "type": "pro",
+      "content": "Good balance of guest codes, ecosystem support, and battery efficiency.",
+      "headline": "Good balance of guest codes, ecosystem support, and battery efficiency.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7fc16ca5-0ad5-407a-8a7c-5a686256df3a",
+      "ranking_product_id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "type": "con",
+      "content": "Feature set varies by model and can be confusing to compare.",
+      "headline": "Feature set varies by model and can be confusing to compare.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "916b3ce2-4a32-46b5-81da-f7fef0befc0f",
+      "ranking_product_id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "type": "con",
+      "content": "Some advanced integrations require the right module or bridge.",
+      "headline": "Some advanced integrations require the right module or bridge.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "183a7ef3-9ece-40bf-a77d-3fbe7671502d",
+      "ranking_product_id": "cf2a6860-41eb-4ef4-a2ce-f8e8b770eefc",
+      "type": "con",
+      "content": "Keypad feel is good, not class-leading.",
+      "headline": "Keypad feel is good, not class-leading.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8525a95f-d0ca-440c-862b-8a30e446d917",
+      "ranking_product_id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "type": "pro",
+      "content": "Very flexible access options including fingerprint unlock.",
+      "headline": "Very flexible access options including fingerprint unlock.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "999474e2-1bf7-45e3-ba20-8ce076a6f645",
+      "ranking_product_id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "type": "pro",
+      "content": "Helpful for households that want codes for kids and cleaners.",
+      "headline": "Helpful for households that want codes for kids and cleaners.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4af3e125-d61c-4f54-86db-3e8ad48f0a45",
+      "ranking_product_id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "type": "pro",
+      "content": "App includes solid access logs and temporary code controls.",
+      "headline": "App includes solid access logs and temporary code controls.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "67faffba-0df1-4f58-9ce4-9ed6c508a1e8",
+      "ranking_product_id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "type": "con",
+      "content": "Industrial design will not suit every front door.",
+      "headline": "Industrial design will not suit every front door.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5be51849-a75e-4ef3-8272-deea6953cd4d",
+      "ranking_product_id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "type": "con",
+      "content": "Fingerprint reader can be less consistent in wet or cold conditions.",
+      "headline": "Fingerprint reader can be less consistent in wet or cold conditions.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0015ff86-f867-4e6c-b1e5-0830f14600c1",
+      "ranking_product_id": "45facc1d-a355-43d0-bbcc-d06ae2442768",
+      "type": "con",
+      "content": "App experience is functional but less polished than category leaders.",
+      "headline": "App experience is functional but less polished than category leaders.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b1dd3267-bf05-445f-a6bb-d1a7635bf42f",
+      "ranking_product_id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "type": "pro",
+      "content": "Beautiful minimalist design hides the smart hardware well.",
+      "headline": "Beautiful minimalist design hides the smart hardware well.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c1a4d26d-dafc-4ea7-98f5-4885c341b4c3",
+      "ranking_product_id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "type": "pro",
+      "content": "Keeps a normal lock appearance for design-conscious homes.",
+      "headline": "Keeps a normal lock appearance for design-conscious homes.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "860e22bf-0f30-4b6a-a6f5-e7733e4b53fc",
+      "ranking_product_id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "type": "pro",
+      "content": "Strong Apple ecosystem fit with Home Key support.",
+      "headline": "Strong Apple ecosystem fit with Home Key support.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c11adebe-b5a4-469a-8333-4e8e7803f388",
+      "ranking_product_id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "type": "con",
+      "content": "No built-in keypad in the base package.",
+      "headline": "No built-in keypad in the base package.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d52360d2-f478-4c5b-84df-897b8ff8595c",
+      "ranking_product_id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "type": "con",
+      "content": "Premium price for a narrower feature set.",
+      "headline": "Premium price for a narrower feature set.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "3981e85a-9e20-4647-a9d1-89e8cd58ccf9",
+      "ranking_product_id": "ee68a93c-c6ee-452b-9b63-94ffb60c1baa",
+      "type": "con",
+      "content": "Best experience leans heavily toward Apple households.",
+      "headline": "Best experience leans heavily toward Apple households.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "2d045d7d-9153-43ae-8ed3-6e1bae6dcc3a",
+      "ranking_product_id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "type": "pro",
+      "content": "Strong value for buyers who want fingerprint and keypad access cheaply.",
+      "headline": "Strong value for buyers who want fingerprint and keypad access cheaply.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "be5e58e7-b112-4f22-8c61-59fb346460be",
+      "ranking_product_id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "type": "pro",
+      "content": "Local Bluetooth operation helps battery life.",
+      "headline": "Local Bluetooth operation helps battery life.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "6fce5831-c253-4dd7-8c41-a2f0e3df01c2",
+      "ranking_product_id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "type": "pro",
+      "content": "Simple daily use once installed and configured.",
+      "headline": "Simple daily use once installed and configured.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a4cea7aa-3575-4b26-84ca-d97fe3eb835c",
+      "ranking_product_id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "type": "con",
+      "content": "No native Wi-Fi remote access out of the box.",
+      "headline": "No native Wi-Fi remote access out of the box.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "6ec00be6-4acc-4431-9063-b1811841273e",
+      "ranking_product_id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "type": "con",
+      "content": "Integration options are limited compared with premium brands.",
+      "headline": "Integration options are limited compared with premium brands.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5bc9b54a-f474-4072-a569-bae0b95c473b",
+      "ranking_product_id": "fc034594-1433-46a9-97e1-663a21e68d6b",
+      "type": "con",
+      "content": "Hardware and app polish feel more budget-oriented.",
+      "headline": "Hardware and app polish feel more budget-oriented.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ff78135c-1f58-4a7c-9211-7ed23184a949",
+      "ranking_product_id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "type": "pro",
+      "content": "Excellent head-to-toe view for visitors and packages.",
+      "headline": "Excellent head-to-toe view for visitors and packages.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "be94e13c-6b96-40ca-ae68-9bc6e5043650",
+      "ranking_product_id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "type": "pro",
+      "content": "Fast, accurate smart alerts reduce useless notifications.",
+      "headline": "Fast, accurate smart alerts reduce useless notifications.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "1d2cdeac-c096-4269-98af-e49ddccb1f33",
+      "ranking_product_id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "type": "pro",
+      "content": "Easy install makes it great for renters and first-time buyers.",
+      "headline": "Easy install makes it great for renters and first-time buyers.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "3fa5f356-f3ab-4376-afc6-6ace1db8b2d0",
+      "ranking_product_id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "type": "con",
+      "content": "Best history features require a Nest Aware subscription.",
+      "headline": "Best history features require a Nest Aware subscription.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "403d1c84-edf4-4ada-8d51-e48939c2143b",
+      "ranking_product_id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "type": "con",
+      "content": "Resolution is lower on paper than some rivals.",
+      "headline": "Resolution is lower on paper than some rivals.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f02645ff-df2a-4a16-907b-330756531b01",
+      "ranking_product_id": "c2373c96-8c8e-411c-9668-16a29c01fbdf",
+      "type": "con",
+      "content": "Live view latency can vary on weaker Wi-Fi.",
+      "headline": "Live view latency can vary on weaker Wi-Fi.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "abf92910-c6db-43fb-a0cc-783fe6bee100",
+      "ranking_product_id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "type": "pro",
+      "content": "Sharp square video format captures the doorstep very well.",
+      "headline": "Sharp square video format captures the doorstep very well.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "dc31faa6-4f45-480a-bd10-b0242ebee364",
+      "ranking_product_id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "type": "pro",
+      "content": "Ring app is easy for mainstream users to learn.",
+      "headline": "Ring app is easy for mainstream users to learn.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4eeba7b3-676b-43df-9495-de6d04432841",
+      "ranking_product_id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "type": "pro",
+      "content": "Broad accessory ecosystem including chimes and Alexa displays.",
+      "headline": "Broad accessory ecosystem including chimes and Alexa displays.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "2fde2eb9-5106-4a79-823c-f105f86738be",
+      "ranking_product_id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "type": "con",
+      "content": "Subscription is close to mandatory for best experience.",
+      "headline": "Subscription is close to mandatory for best experience.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a2b3a1e7-8e6f-4967-ba7c-48f78c1ccd08",
+      "ranking_product_id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "type": "con",
+      "content": "Battery models can miss events if settings are too conservative.",
+      "headline": "Battery models can miss events if settings are too conservative.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fee5a728-96ac-449b-a9c4-cc152f631a71",
+      "ranking_product_id": "743102db-4bec-4022-8afa-3b333f86c080",
+      "type": "con",
+      "content": "Best fit if you are already comfortable with the Ring ecosystem.",
+      "headline": "Best fit if you are already comfortable with the Ring ecosystem.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "265bd57a-dbde-451f-aa4f-b6de568d112c",
+      "ranking_product_id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "type": "pro",
+      "content": "Dual-camera setup is excellent for package monitoring.",
+      "headline": "Dual-camera setup is excellent for package monitoring.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "cd24854c-01e0-4edb-87af-9ba632193db3",
+      "ranking_product_id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "type": "pro",
+      "content": "Local storage keeps long-term ownership cost lower.",
+      "headline": "Local storage keeps long-term ownership cost lower.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7983a580-fe93-41da-8850-7742360d220a",
+      "ranking_product_id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "type": "pro",
+      "content": "Good image quality and useful doorstep visibility.",
+      "headline": "Good image quality and useful doorstep visibility.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "20395208-ea94-4ed6-a84c-1254cb50ad13",
+      "ranking_product_id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "type": "con",
+      "content": "App polish is not as refined as Ring or Google.",
+      "headline": "App polish is not as refined as Ring or Google.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5bd9807f-e623-4855-a8e9-0101d3c36f59",
+      "ranking_product_id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "type": "con",
+      "content": "Notifications can feel busier in high-traffic areas.",
+      "headline": "Notifications can feel busier in high-traffic areas.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "620e1516-4e2e-4aff-9700-6d1608720c91",
+      "ranking_product_id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
+      "type": "con",
+      "content": "Wider feature set depends on choosing the right bundle.",
+      "headline": "Wider feature set depends on choosing the right bundle.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c69f6895-10f8-41e0-ba89-f5b0365dee16",
+      "ranking_product_id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "type": "pro",
+      "content": "Very wide view is helpful for broader porch coverage.",
+      "headline": "Very wide view is helpful for broader porch coverage.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "e23d7801-09c8-4e3e-b315-daad881210c0",
+      "ranking_product_id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "type": "pro",
+      "content": "Solid video quality and night performance.",
+      "headline": "Solid video quality and night performance.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "06dc9fe2-60d7-4030-9a78-e07ef24cc274",
+      "ranking_product_id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "type": "pro",
+      "content": "Flexible power options make placement easier.",
+      "headline": "Flexible power options make placement easier.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9b0a43fc-ffdd-4cc5-a761-4bb944468ebf",
+      "ranking_product_id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "type": "con",
+      "content": "Arlo subscription improves the experience substantially.",
+      "headline": "Arlo subscription improves the experience substantially.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "e986ab8d-f3fc-4369-b2eb-2ce5d0b83b73",
+      "ranking_product_id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "type": "con",
+      "content": "Wider perspective can distort subjects up close.",
+      "headline": "Wider perspective can distort subjects up close.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4c947466-3666-4062-93ad-f648f2afe7c2",
+      "ranking_product_id": "4515e7a4-b078-4e82-aca6-b65513bebc2a",
+      "type": "con",
+      "content": "App responsiveness is decent, not class-leading.",
+      "headline": "App responsiveness is decent, not class-leading.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c959bf5b-3778-462a-847b-4e1787be0c2c",
+      "ranking_product_id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "type": "pro",
+      "content": "One of the strongest options for Apple-first households.",
+      "headline": "One of the strongest options for Apple-first households.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f7a4fed4-2df3-4cf4-8320-e835bcc9276f",
+      "ranking_product_id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "type": "pro",
+      "content": "Excellent vertical framing for front-door use.",
+      "headline": "Excellent vertical framing for front-door use.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8a2507b6-c171-4b15-8ab0-2b6749914066",
+      "ranking_product_id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "type": "pro",
+      "content": "HomeKit Secure Video is appealing for privacy-conscious buyers.",
+      "headline": "HomeKit Secure Video is appealing for privacy-conscious buyers.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5623e19d-c67d-4e95-8649-24cb700a9bc3",
+      "ranking_product_id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "type": "con",
+      "content": "Best value depends on already paying for iCloud+.",
+      "headline": "Best value depends on already paying for iCloud+.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "bf7ddde2-6c19-4557-a919-d8158472268f",
+      "ranking_product_id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "type": "con",
+      "content": "Wired install is less renter-friendly.",
+      "headline": "Wired install is less renter-friendly.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "e4cfddd1-9174-45ab-986c-99b55f982bcc",
+      "ranking_product_id": "c6a81cda-548e-44ba-81f7-f9f8a9b91e0e",
+      "type": "con",
+      "content": "Outside the Apple ecosystem it makes much less sense.",
+      "headline": "Outside the Apple ecosystem it makes much less sense.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "828be6c0-35cd-49c9-9892-3e4a509f6fdb",
+      "ranking_product_id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "type": "pro",
+      "content": "Affordable entry point into video doorbells.",
+      "headline": "Affordable entry point into video doorbells.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "2678f269-9cc3-4317-a3e1-6c5d8d57a28b",
+      "ranking_product_id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "type": "pro",
+      "content": "Optional local storage keeps costs lower than many rivals.",
+      "headline": "Optional local storage keeps costs lower than many rivals.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0af8001e-ccaa-497a-b22f-11f5acdf9caf",
+      "ranking_product_id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "type": "pro",
+      "content": "Simple install works well for light-duty apartment use.",
+      "headline": "Simple install works well for light-duty apartment use.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ed63a38a-fe47-418b-8255-cffe224d0102",
+      "ranking_product_id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "type": "con",
+      "content": "Video and app responsiveness lag premium competitors.",
+      "headline": "Video and app responsiveness lag premium competitors.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5ef21249-6197-4b45-83d8-1f610af94ab8",
+      "ranking_product_id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "type": "con",
+      "content": "Narrower field of view can miss package edges.",
+      "headline": "Narrower field of view can miss package edges.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d9e9b826-c164-4bd9-b88a-3059d0649480",
+      "ranking_product_id": "0fb33bee-2693-4a6f-a9e0-482b29ac260b",
+      "type": "con",
+      "content": "Feature depth is limited without add-ons.",
+      "headline": "Feature depth is limited without add-ons.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5933ff85-f111-4128-9d19-0a3365fd05a1",
+      "ranking_product_id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "type": "pro",
+      "content": "Strong image quality without forcing a monthly subscription.",
+      "headline": "Strong image quality without forcing a monthly subscription.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "dd58b78f-5ac4-40fd-9527-d131c4996b39",
+      "ranking_product_id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "type": "pro",
+      "content": "Local storage is attractive for long-term ownership cost.",
+      "headline": "Local storage is attractive for long-term ownership cost.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "58ecc34e-2254-46e6-b9d3-01a6139a2035",
+      "ranking_product_id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "type": "pro",
+      "content": "Outdoor-focused hardware handles harsh conditions well.",
+      "headline": "Outdoor-focused hardware handles harsh conditions well.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "676abfd2-59bb-4e03-891b-6db4ff068779",
+      "ranking_product_id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "type": "con",
+      "content": "Best experience depends on buying into the wider Eufy system.",
+      "headline": "Best experience depends on buying into the wider Eufy system.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c168803a-d51e-41a3-8198-db257a33c7dc",
+      "ranking_product_id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "type": "con",
+      "content": "Battery maintenance still exists in busy zones.",
+      "headline": "Battery maintenance still exists in busy zones.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0ae77604-3f3b-4f73-be19-66c5f72f3f2a",
+      "ranking_product_id": "566b014e-d0e5-4bde-8997-80e94cec5eb3",
+      "type": "con",
+      "content": "App search tools are not as refined as top cloud-first rivals.",
+      "headline": "App search tools are not as refined as top cloud-first rivals.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "917decdc-b771-4e1a-97c8-5c66f96d07ca",
+      "ranking_product_id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "type": "pro",
+      "content": "Easy setup and flexible placement suit first-time buyers.",
+      "headline": "Easy setup and flexible placement suit first-time buyers.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "597e527e-2940-4269-97f3-1fcea7dadbcd",
+      "ranking_product_id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "type": "pro",
+      "content": "Strong smart alerts and polished app experience.",
+      "headline": "Strong smart alerts and polished app experience.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "158d5fbc-2d44-4ce5-a1d2-a414b3528aa1",
+      "ranking_product_id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "type": "pro",
+      "content": "Works well across mixed indoor and outdoor monitoring needs.",
+      "headline": "Works well across mixed indoor and outdoor monitoring needs.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4ae62f31-a214-45c3-99b8-c92123d0dcc9",
+      "ranking_product_id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "type": "con",
+      "content": "Subscription improves the value significantly.",
+      "headline": "Subscription improves the value significantly.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "69d36342-51c7-4c79-89af-2f88e058f315",
+      "ranking_product_id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "type": "con",
+      "content": "Resolution trails premium 2K and 4K competitors.",
+      "headline": "Resolution trails premium 2K and 4K competitors.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "80617b52-385a-44d0-bbb1-da1039c6e693",
+      "ranking_product_id": "fc4c3db8-79b7-46ae-8719-47e6ebe4c838",
+      "type": "con",
+      "content": "Battery runtime drops in very active spaces.",
+      "headline": "Battery runtime drops in very active spaces.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8fdcee6b-3321-4089-b35d-fea5fbc38188",
+      "ranking_product_id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "type": "pro",
+      "content": "Very good balance of image quality, app features, and flexibility.",
+      "headline": "Very good balance of image quality, app features, and flexibility.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0b605c47-97b2-4adf-9932-c8d0afca21e0",
+      "ranking_product_id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "type": "pro",
+      "content": "Color night vision helps with driveway and yard coverage.",
+      "headline": "Color night vision helps with driveway and yard coverage.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4b7af47d-4a51-4d16-8fb5-42380c114027",
+      "ranking_product_id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "type": "pro",
+      "content": "Broad accessory ecosystem for larger multi-camera setups.",
+      "headline": "Broad accessory ecosystem for larger multi-camera setups.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5fa2f198-3af4-448a-ad3b-c87ebbfddbdc",
+      "ranking_product_id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "type": "con",
+      "content": "Arlo subscription is expensive over time.",
+      "headline": "Arlo subscription is expensive over time.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0662dbc2-3a26-46d4-ba51-c9211e2f83bb",
+      "ranking_product_id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "type": "con",
+      "content": "Local storage often requires extra hardware.",
+      "headline": "Local storage often requires extra hardware.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "1110a289-76f2-4df5-8947-7a8cce0eb48b",
+      "ranking_product_id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
+      "type": "con",
+      "content": "Not the cheapest path to multi-camera coverage.",
+      "headline": "Not the cheapest path to multi-camera coverage.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "e6e80ff3-286b-4d94-a2cd-3dbc75845d87",
+      "ranking_product_id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "type": "pro",
+      "content": "Excellent indoor automation value for smart-home enthusiasts.",
+      "headline": "Excellent indoor automation value for smart-home enthusiasts.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "437b633d-d5e2-4056-bd44-0db922ed337b",
+      "ranking_product_id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "type": "pro",
+      "content": "Built-in privacy modes and local recording are appealing.",
+      "headline": "Built-in privacy modes and local recording are appealing.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f07b9c72-b81e-4a6d-a8d8-c33f077a0822",
+      "ranking_product_id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "type": "pro",
+      "content": "Pan-tilt design covers more of a room than fixed cameras.",
+      "headline": "Pan-tilt design covers more of a room than fixed cameras.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "e80de248-2e3a-44a6-82be-3026e515dbb3",
+      "ranking_product_id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "type": "con",
+      "content": "Best fit is within Aqara or Apple-focused setups.",
+      "headline": "Best fit is within Aqara or Apple-focused setups.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "17826e78-45b7-4831-92ae-47b8a228cf50",
+      "ranking_product_id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "type": "con",
+      "content": "Indoor-only design limits versatility.",
+      "headline": "Indoor-only design limits versatility.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0e7d9aab-7c4a-4104-a443-537f88df9ed3",
+      "ranking_product_id": "0c261f43-ae3d-4b52-a3ec-f49c474846f6",
+      "type": "con",
+      "content": "App is powerful but can feel busy for casual users.",
+      "headline": "App is powerful but can feel busy for casual users.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d6824b85-d14e-4590-a366-93997634b6a2",
+      "ranking_product_id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "type": "pro",
+      "content": "Good fit for households already using Ring doorbells or alarms.",
+      "headline": "Good fit for households already using Ring doorbells or alarms.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "6167aa02-5b8a-45fb-a84d-8f74fc548c24",
+      "ranking_product_id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "type": "pro",
+      "content": "Placement flexibility is strong across indoor and outdoor spots.",
+      "headline": "Placement flexibility is strong across indoor and outdoor spots.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f862d93f-1583-4428-aa01-d5e99c93480b",
+      "ranking_product_id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "type": "pro",
+      "content": "App and alerting are straightforward for mainstream buyers.",
+      "headline": "App and alerting are straightforward for mainstream buyers.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b5123282-8227-4e5c-8cdb-b3824e90739f",
+      "ranking_product_id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "type": "con",
+      "content": "Cloud dependence raises long-term cost.",
+      "headline": "Cloud dependence raises long-term cost.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5786865d-c07e-4d6b-9adc-aa1ce3748136",
+      "ranking_product_id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "type": "con",
+      "content": "Video detail is good, not category-leading.",
+      "headline": "Video detail is good, not category-leading.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "bce67828-d03b-40ee-90c2-1a787e0b9fd0",
+      "ranking_product_id": "6034f0ea-f3a1-4a35-8012-c1748374769e",
+      "type": "con",
+      "content": "Best value is tightly tied to the Ring ecosystem.",
+      "headline": "Best value is tightly tied to the Ring ecosystem.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "345d91d3-abd5-4490-9763-0b4435adddd0",
+      "ranking_product_id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "type": "pro",
+      "content": "Excellent budget value with better detail than its price suggests.",
+      "headline": "Excellent budget value with better detail than its price suggests.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ce898451-2edf-4035-9144-8fb1def9ccc1",
+      "ranking_product_id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "type": "pro",
+      "content": "Supports local microSD recording for lower recurring costs.",
+      "headline": "Supports local microSD recording for lower recurring costs.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "45b82238-e335-4b67-963e-0d186c179267",
+      "ranking_product_id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "type": "pro",
+      "content": "Useful starter option for indoor rooms or sheltered exteriors.",
+      "headline": "Useful starter option for indoor rooms or sheltered exteriors.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "93a745e6-3f13-4847-9cd4-d2df57bce407",
+      "ranking_product_id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "type": "con",
+      "content": "App and ecosystem feel more budget-tier than premium.",
+      "headline": "App and ecosystem feel more budget-tier than premium.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d2394afa-e8dc-460a-aef8-b7b361ae8051",
+      "ranking_product_id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "type": "con",
+      "content": "Cloud upsells are frequent.",
+      "headline": "Cloud upsells are frequent.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "dab6ffd2-b44e-4159-953d-f1b18f4db5d5",
+      "ranking_product_id": "28c78b1f-a53c-4c69-8872-24b1ca53277f",
+      "type": "con",
+      "content": "Long-term reliability is less confidence-inspiring than category leaders.",
+      "headline": "Long-term reliability is less confidence-inspiring than category leaders.",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ],
   "specifications": [
@@ -18966,6 +20280,738 @@
       "value": "Single-hinge",
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "957d44fc-b9d5-4246-a867-000b1e83b4c6",
+      "product_id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "name": "Lock Type",
+      "value": "Deadbolt replacement",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "8fbbc122-26c1-434d-b1b3-b363f9e64af4",
+      "product_id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "name": "Connectivity",
+      "value": "Wi-Fi + Thread",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0a2a69fc-a96c-4db4-b8eb-da05c6e5ebef",
+      "product_id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "name": "Access Methods",
+      "value": "Keypad, app, key, Home Key",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c3f55d02-125a-457b-8f67-ed07f42ab74c",
+      "product_id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "name": "Battery Life",
+      "value": "6",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "months"
+    },
+    {
+      "id": "9e509b4b-bc2b-49dd-a71a-4c16d929a78d",
+      "product_id": "26b3196c-d08a-4f68-9b52-6f7551b0b853",
+      "name": "Matter Support",
+      "value": "Yes",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ddbced74-3d95-4582-ae9a-b3b908671dbe",
+      "product_id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "name": "Lock Type",
+      "value": "Retrofit",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c5bee39f-4549-46cb-9b3d-c0fd3d87281c",
+      "product_id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "name": "Connectivity",
+      "value": "Wi-Fi + Bluetooth",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d875ecb6-7616-4868-80b1-38e26312888b",
+      "product_id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "name": "Access Methods",
+      "value": "App, auto-unlock, existing key",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d301948f-1536-49a6-8214-0a85c9279ca2",
+      "product_id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "name": "Battery Life",
+      "value": "3",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "months"
+    },
+    {
+      "id": "3ba99a74-a54e-44b7-8168-147bad519e82",
+      "product_id": "db06c489-f0b8-488f-a35d-b237807ab1c2",
+      "name": "Matter Support",
+      "value": "No",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "97e3ea37-e57f-4004-9dca-0e33c0a136f8",
+      "product_id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "name": "Lock Type",
+      "value": "Deadbolt replacement",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "70d33230-d642-4fe7-a49b-fed6c01a595b",
+      "product_id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "name": "Connectivity",
+      "value": "Bluetooth / Wi-Fi / Matter versions",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d822045d-838a-4a4a-9f9d-6dfd82b1e732",
+      "product_id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "name": "Access Methods",
+      "value": "Keypad, app, key or key-free depending on trim",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d921e537-33bc-41cf-bf73-47c877c4985d",
+      "product_id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "name": "Battery Life",
+      "value": "9",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "months"
+    },
+    {
+      "id": "050bc22e-1cc7-40a9-b118-fdd6f2e20854",
+      "product_id": "8599ee66-95c1-45a3-b9ae-cabf6053ce89",
+      "name": "Matter Support",
+      "value": "Yes",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7c4ede98-51f3-4602-9b6f-77898083ec18",
+      "product_id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "name": "Lock Type",
+      "value": "Deadbolt replacement",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f9a7ce71-558c-4701-be3d-abbdc14f4ca3",
+      "product_id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "name": "Connectivity",
+      "value": "Wi-Fi + Bluetooth",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a09d2319-c40c-43b2-9d22-c0658da46fab",
+      "product_id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "name": "Access Methods",
+      "value": "Fingerprint, keypad, app, key",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9200a168-facf-45e9-9690-683ae33fcdc4",
+      "product_id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "name": "Battery Life",
+      "value": "8",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "months"
+    },
+    {
+      "id": "8bb12530-5f53-4f41-bd8b-e394995eda20",
+      "product_id": "b669da87-fb9b-4f64-9c07-777b237ffbb7",
+      "name": "Matter Support",
+      "value": "No",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "14e921ee-34a6-4d1e-a4d2-043dd1c6083d",
+      "product_id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "name": "Lock Type",
+      "value": "Invisible deadbolt replacement",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b0a78eb7-7d1c-4896-bcd0-7bfe2ed47dd3",
+      "product_id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "name": "Connectivity",
+      "value": "Bluetooth + Thread",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fc086341-0ee0-4eb4-ab13-6439e7a3bf8e",
+      "product_id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "name": "Access Methods",
+      "value": "App, key card, key, Home Key",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "381a691f-0187-4163-b77b-7d5c16f40b97",
+      "product_id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "name": "Battery Life",
+      "value": "12",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "months"
+    },
+    {
+      "id": "de5937f8-7477-488b-861b-564cc7fb3284",
+      "product_id": "8b3f76a7-a221-4cd4-abc0-ca46799f1719",
+      "name": "Matter Support",
+      "value": "No",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7d0921ce-6c9a-47fa-b638-aae50198a827",
+      "product_id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "name": "Lock Type",
+      "value": "Deadbolt replacement",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "caad3fff-6a24-4d81-82f4-0bf845ca03e7",
+      "product_id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "name": "Connectivity",
+      "value": "Bluetooth",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7b180923-5491-4c1f-865f-13fc4c0c1ee8",
+      "product_id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "name": "Access Methods",
+      "value": "Fingerprint, keypad, app",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d669a54f-a2df-40c3-8fc1-d8248775368e",
+      "product_id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "name": "Battery Life",
+      "value": "10",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "months"
+    },
+    {
+      "id": "44339b86-6b69-42e7-a389-f9aaaaa8bdfa",
+      "product_id": "d8a701f5-832e-4b83-bdd7-dd9e23455041",
+      "name": "Matter Support",
+      "value": "No",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ac61e4d3-64a2-4e0f-b367-12d99cbb398b",
+      "product_id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "name": "Power Type",
+      "value": "Battery / wired compatible",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "32ef05e8-2738-4614-b7be-28f5ec6f9f8a",
+      "product_id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "name": "Video Resolution",
+      "value": "960×1280",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f9ea79b6-9b7f-4d57-9758-f0a503834fab",
+      "product_id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "name": "Field of View",
+      "value": "145",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "degrees"
+    },
+    {
+      "id": "2f559152-9c3e-44f8-a608-893a9fe01ea2",
+      "product_id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "name": "Smart Alerts",
+      "value": "Person, package, animal, vehicle",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "35c38f7b-28f7-40a0-a54f-753ceed37bd5",
+      "product_id": "eb0394fd-8342-4d69-bc26-3f6c73c69d35",
+      "name": "Storage Type",
+      "value": "Cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a989efbf-599e-41f7-b576-02a43733d6d2",
+      "product_id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "name": "Power Type",
+      "value": "Battery",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "3fb2a70e-6582-4cd0-9147-f9877f428999",
+      "product_id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "name": "Video Resolution",
+      "value": "1536×1536",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0bfe186a-fa7e-4fad-8818-dd7f8b270659",
+      "product_id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "name": "Field of View",
+      "value": "150",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "degrees"
+    },
+    {
+      "id": "3f657428-5b74-4074-bfdf-700c1101a7a9",
+      "product_id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "name": "Smart Alerts",
+      "value": "Person, package",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f5dd6761-21e5-4eb1-946d-6f3ba8af03b0",
+      "product_id": "470c7db1-f08b-4b98-a338-4848185286fa",
+      "name": "Storage Type",
+      "value": "Cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5e0b7150-7d56-4798-9c9e-1fbe5cc07bf9",
+      "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "name": "Power Type",
+      "value": "Battery or wired depending on kit",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b284a5db-f7f4-4a1e-973f-b7679d294e6e",
+      "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "name": "Video Resolution",
+      "value": "2K",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0e49dd05-c268-43d8-a11b-7890ae161e54",
+      "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "name": "Field of View",
+      "value": "160",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "degrees"
+    },
+    {
+      "id": "d8497257-ca9d-48b1-a144-5f43b8ca85f2",
+      "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "name": "Smart Alerts",
+      "value": "Person, package",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "526d6d82-bb97-4cd4-a351-a106cd94c8f3",
+      "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
+      "name": "Storage Type",
+      "value": "Local",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "dfa4591c-0938-48f0-b0b0-2062f0ce8464",
+      "product_id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "name": "Power Type",
+      "value": "Battery or wired",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "2a3b0cea-131e-4a99-87fc-ddf5f7315954",
+      "product_id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "name": "Video Resolution",
+      "value": "2K",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d342c7c7-d688-4e7d-af82-d1ad3ffefe5e",
+      "product_id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "name": "Field of View",
+      "value": "180",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "degrees"
+    },
+    {
+      "id": "01e12e68-e192-4ebb-bf46-6790aa73703e",
+      "product_id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "name": "Smart Alerts",
+      "value": "Person, vehicle, package",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "df3bd410-8acd-4cf3-b7ce-e76a088567e1",
+      "product_id": "163691ef-1c8c-44f9-a2bf-b6269607fb29",
+      "name": "Storage Type",
+      "value": "Cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a364735f-7887-42c2-9389-dfbfffac9e55",
+      "product_id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "name": "Power Type",
+      "value": "Wired",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0f2eb5e8-6fcf-400f-96a1-bbc2dc25d892",
+      "product_id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "name": "Video Resolution",
+      "value": "1200×1600",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "72691f1c-6138-4102-b2d8-7026c84e2cd8",
+      "product_id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "name": "Field of View",
+      "value": "160",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "degrees"
+    },
+    {
+      "id": "0252fab6-6274-4f66-9d74-ed4eb7bf1438",
+      "product_id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "name": "Smart Alerts",
+      "value": "HomeKit Secure Video dependent",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9c9f9970-8f7e-4c56-84ab-21bc3193077d",
+      "product_id": "eda1164e-243f-4439-aac0-67fb6887d72a",
+      "name": "Storage Type",
+      "value": "Cloud via iCloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "af4b1357-a92e-425d-9db2-153bfda41048",
+      "product_id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "name": "Power Type",
+      "value": "Battery or wired",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "105edcd4-927d-47af-a4d8-731e1851282d",
+      "product_id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "name": "Video Resolution",
+      "value": "1080p",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "18c928f6-8f22-45fc-abdf-ac94798426a7",
+      "product_id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "name": "Field of View",
+      "value": "135",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z",
+      "unit": "degrees"
+    },
+    {
+      "id": "373aba56-bf5e-4166-9d6f-d59ddf51f200",
+      "product_id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "name": "Smart Alerts",
+      "value": "Motion, person with subscription",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fddf45f3-3d2d-4830-b8df-46eb4b9a0658",
+      "product_id": "a72fa946-3736-4570-aaaf-83934d90b79f",
+      "name": "Storage Type",
+      "value": "Local or cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f3e21aa4-e297-4371-9401-66c2c9ff825d",
+      "product_id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "name": "Camera Type",
+      "value": "Outdoor battery",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "58d0c966-c726-467e-9af0-6c55750c944d",
+      "product_id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "name": "Video Resolution",
+      "value": "4K",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "297c1ef1-6602-4cbf-b745-188704a69cce",
+      "product_id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "name": "Night Vision",
+      "value": "Color + infrared",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "bce0f604-0030-4b27-b534-6b4abbb6dfc6",
+      "product_id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "name": "Storage Type",
+      "value": "Local",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9a7fad67-1083-48b0-abaf-5813da460bb3",
+      "product_id": "c1091f94-28d1-4493-9a5c-55c385cad2fc",
+      "name": "Weather Rating",
+      "value": "IP67",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "86d3f96e-b7aa-4eae-a344-07cb5162d51b",
+      "product_id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "name": "Camera Type",
+      "value": "Indoor / outdoor battery",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "c552963d-6efa-47ea-9ace-4e27dbc1e724",
+      "product_id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "name": "Video Resolution",
+      "value": "1080p HDR",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "1fa10683-8e1a-4a63-b6bd-4c86880fc7f4",
+      "product_id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "name": "Night Vision",
+      "value": "Infrared",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "2841316b-cd0e-46ca-82d8-0b18d47aee68",
+      "product_id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "name": "Storage Type",
+      "value": "Cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "467a0992-ce09-4b59-b6cb-bcb3413696cc",
+      "product_id": "0441885a-debf-40a4-8434-801cd0a3a5b1",
+      "name": "Weather Rating",
+      "value": "IP54",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "994abd7c-d465-4567-a013-30d953062e87",
+      "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "name": "Camera Type",
+      "value": "Outdoor battery",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5b802cec-17f2-447c-b21d-af0814efb496",
+      "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "name": "Video Resolution",
+      "value": "2K",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "647eb985-25d6-4ab4-ae07-33b4a44864f2",
+      "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "name": "Night Vision",
+      "value": "Color",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "22e1c8d7-7364-4622-aaad-ca1d4f95909f",
+      "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "name": "Storage Type",
+      "value": "Cloud / local with base",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a2ef7dc3-8200-4f37-9721-5391f0835ce2",
+      "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
+      "name": "Weather Rating",
+      "value": "IP65",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ea0496ee-2ff6-4771-9c9d-dbe9d2daea90",
+      "product_id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "name": "Camera Type",
+      "value": "Indoor pan-tilt",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "98212b9f-34e2-4457-8ac1-9e9316a2ae9d",
+      "product_id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "name": "Video Resolution",
+      "value": "2K",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ae22499d-6f4d-489d-9fa7-ad46fc466612",
+      "product_id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "name": "Night Vision",
+      "value": "Infrared",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "44ebc784-0128-4168-97db-36dd91630fb2",
+      "product_id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "name": "Storage Type",
+      "value": "Local / cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0d05cefb-cd6f-46fd-91f8-63cb19bb19ba",
+      "product_id": "0894846d-c18d-414e-a694-4c6358cdafd9",
+      "name": "Privacy Mode",
+      "value": "Yes",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f7d68e2e-5968-4b3e-a87a-0776de269bc9",
+      "product_id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "name": "Camera Type",
+      "value": "Indoor / outdoor",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "bf234f3b-055f-40c7-8a55-496bdbf964ea",
+      "product_id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "name": "Video Resolution",
+      "value": "1080p",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7ccca77c-37e0-4d55-8f91-343b0a22697c",
+      "product_id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "name": "Night Vision",
+      "value": "Color pre-roll + infrared",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "044476b4-11c9-424e-91d7-e72f7f557d15",
+      "product_id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "name": "Storage Type",
+      "value": "Cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a8e43a94-7833-47c6-b9e3-92764e05f8e5",
+      "product_id": "66b4e8f0-e28f-41dc-ac67-cc5dc5f464c3",
+      "name": "Weather Rating",
+      "value": "Weather resistant",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "1ac8ab4f-fb19-4fb2-b2c6-a831a232163f",
+      "product_id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "name": "Camera Type",
+      "value": "Indoor / outdoor wired",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9a50bba4-e7d4-4eb2-a4b1-0af83edcf273",
+      "product_id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "name": "Video Resolution",
+      "value": "2.5K",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "006834af-5cc7-4f8d-a8b6-6935ce4ee005",
+      "product_id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "name": "Night Vision",
+      "value": "Color",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "10a97502-ee39-45d4-bff5-5c8791d581ae",
+      "product_id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "name": "Storage Type",
+      "value": "Local / cloud",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "3c294e85-2f71-4006-bc44-0a13e8a6895e",
+      "product_id": "1132bd6b-4234-4737-8919-b372acbd1173",
+      "name": "Weather Rating",
+      "value": "IP65",
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ],
   "assets": [],
@@ -19941,6 +21987,141 @@
       "display_order": 5,
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
+    },
+    {
+      "id": "f81738cc-4cea-419d-a941-e07440d753ee",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "question": "Are smart locks secure enough for a main entrance?",
+      "answer": "Yes, if you choose a well-built model with strong deadbolt hardware, solid encryption, and dependable fallback access. The physical door and strike plate still matter as much as the app features.",
+      "display_order": 1,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "eec2f17f-b271-46c9-8538-e5a48a0b914d",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "question": "What is the best smart lock for renters?",
+      "answer": "Retrofit locks like the August Wi-Fi Smart Lock are usually the safest bet because they preserve the outside hardware and are easier to remove when you move.",
+      "display_order": 2,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "e41dff55-8377-4ef9-bdea-956f00741f30",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "question": "Do smart locks still work if Wi-Fi goes down?",
+      "answer": "Usually yes. Most locks still allow keypad, Bluetooth, or manual unlocking locally, while Wi-Fi mainly affects remote control and cloud notifications.",
+      "display_order": 3,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "82cc5357-3340-4ed3-bee9-5951c1cf5734",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "question": "Is fingerprint unlock worth paying extra for?",
+      "answer": "It can be very convenient for busy households, but reader consistency varies by brand and weather. Buyers who care more about reliability than speed should still prioritize a good keypad.",
+      "display_order": 4,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "5aaa9c0d-6be6-42d6-ab2f-fbdfe6c525fc",
+      "ranking_id": "742096d4-1723-4639-bfe7-d0c29520a6a5",
+      "question": "How long do smart lock batteries last?",
+      "answer": "Expect roughly 3 to 12 months depending on the lock, connection type, and traffic. Wi-Fi locks tend to drain faster than Bluetooth or Thread-first models.",
+      "display_order": 5,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "fdf4068e-222b-407e-962f-79613bcec984",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "question": "Is wired or battery better for a video doorbell?",
+      "answer": "Wired is usually better for long-term reliability, faster wake times, and longer recordings, but battery models are easier to install and better for renters.",
+      "display_order": 1,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "49b1591d-3f13-4d4f-b9c0-632df7510a90",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "question": "Do video doorbells need a subscription?",
+      "answer": "Not always, but many of the best event history and smart-alert features are locked behind subscriptions. Buyers who want lower ownership cost should favor models with local storage.",
+      "display_order": 2,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9b9cb177-9da3-4ff4-8e64-e08d39be13f2",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "question": "What field of view matters most for a doorbell camera?",
+      "answer": "A tall head-to-toe view is often more useful than an ultra-wide landscape angle because it shows both visitors and packages near the doorstep.",
+      "display_order": 3,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "f985bfdf-538c-4493-a821-ac1688212c11",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "question": "Are 2K doorbells noticeably better than 1080p?",
+      "answer": "They can provide more detail, but app speed, HDR handling, and motion reliability often matter more than raw resolution alone.",
+      "display_order": 4,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "502cdc1d-e77e-4a2b-a300-3833c9e1af08",
+      "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
+      "question": "Can renters install a video doorbell without drilling?",
+      "answer": "Yes, many battery doorbells work with no-drill mounts or light adhesive brackets, though building rules and theft risk should still be checked first.",
+      "display_order": 5,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "d9d8a54b-0183-4434-991a-8dd6cec4daa5",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "question": "Are battery cameras good enough for outdoor security?",
+      "answer": "Yes for many homes, but wired cameras still offer more dependable recording and less maintenance in high-traffic areas like driveways and front porches.",
+      "display_order": 1,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "9baa7c7b-7400-4d1c-8a93-f498e3d19d06",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "question": "Is 4K necessary for a smart security camera?",
+      "answer": "Not always. Good motion detection, HDR, and night vision often matter more than raw resolution, though 4K can help with cropping and distant detail.",
+      "display_order": 2,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "47b65b72-11d0-4ff1-ba69-967201a77143",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "question": "Should I choose local storage or cloud storage?",
+      "answer": "Local storage lowers recurring cost and gives you more privacy control, while cloud storage usually offers better remote search, smarter timelines, and easier off-site backup.",
+      "display_order": 3,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0880f0fa-9d7b-4f09-9450-0090c03557be",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "question": "What is the best indoor security camera for privacy-conscious buyers?",
+      "answer": "Look for cameras with privacy shutters, local processing, and easy geofenced disable modes. Indoor convenience matters, but trust and control matter more.",
+      "display_order": 4,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "0b6b1470-8032-42f1-b96b-6e95af542352",
+      "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
+      "question": "Can smart security cameras replace a full alarm system?",
+      "answer": "They help a lot with visibility and deterrence, but they are strongest when paired with locks, lights, sensors, or an alarm rather than used as the only security layer.",
+      "display_order": 5,
+      "created_at": "2026-05-01T01:17:00.000Z",
+      "updated_at": "2026-05-01T01:17:00.000Z"
     }
   ]
 }

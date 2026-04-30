@@ -38,8 +38,8 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'smart-home-cleaning',
     title: 'Smart Home & Cleaning',
-    description: 'Keep your home spotless and smart with top robot vacuums, smart plugs and power strips, and smart lighting solutions. We map each bot\'s cleaning coverage, obstacle avoidance, and app usability across floor types and home layouts. For those who want a truly hands-free experience, we also evaluate self-emptying docks, mopping performance, smart plug scheduling, and lighting automation. Find the robot and smart home gear that matches your floor plan and lifestyle.',
-    categorySlugs: ['robot-vacuums', 'smart-plugs-power-strips', 'smart-lighting'],
+    description: 'Keep your home spotless and smart with top robot vacuums, smart plugs and power strips, smart lighting solutions, and smart security cameras. We map each bot\'s cleaning coverage, obstacle avoidance, and app usability across floor types and home layouts, then compare how cameras, plugs, and lights extend that automation into routines, monitoring, and peace of mind. For those who want a truly hands-free experience, we also evaluate self-emptying docks, mopping performance, smart plug scheduling, lighting automation, and camera alert quality. Find the robot and smart home gear that matches your floor plan and lifestyle.',
+    categorySlugs: ['robot-vacuums', 'smart-plugs-power-strips', 'smart-lighting', 'smart-security-cameras'],
   },
   {
     id: 'wearable-tech-audio',
@@ -68,8 +68,8 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'smart-home-security',
     title: 'Smart Home Entry & Security',
-    description: 'Secure and automate your home\'s entry points with smart locks, video doorbells, and smart lighting. Smart locks let you grant access without keys and monitor entry logs from anywhere, while video doorbells show who\'s at the door before you answer — even when you\'re not home. Combined with smart lighting that schedules and responds to motion, these devices form the foundation of a cohesive smart home security system. Our rankings test installation complexity, app reliability, integration with Alexa, Google Home, and Apple HomeKit, battery life, and how well each device handles the daily wear of real homes. Whether you\'re securing a rented apartment or a single-family home, we help you choose the right combination of entry-level and full-featured options.',
-    categorySlugs: ['smart-locks', 'video-doorbells', 'smart-lighting'],
+    description: 'Secure and automate your home\'s entry points with smart locks, video doorbells, smart security cameras, and smart lighting. Smart locks let you grant access without keys and monitor entry logs from anywhere, video doorbells show who\'s at the door before you answer, and security cameras extend that visibility across porches, driveways, and side entrances. Combined with smart lighting that schedules and responds to motion, these devices form the foundation of a cohesive smart home security system. Our rankings test installation complexity, app reliability, integration with Alexa, Google Home, and Apple HomeKit, battery life, subscription value, and how well each device handles the daily wear of real homes. Whether you\'re securing a rented apartment or a single-family home, we help you choose the right combination of entry-level and full-featured options.',
+    categorySlugs: ['smart-locks', 'video-doorbells', 'smart-security-cameras', 'smart-lighting'],
   },
   {
     id: 'desk-ergonomics-lighting',

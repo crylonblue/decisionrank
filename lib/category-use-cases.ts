@@ -1167,6 +1167,153 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Hue vs LIFX vs TP-Link", description: "Hue's reliable ecosystem vs LIFX's hubless brightness vs TP-Link's value — leading brands compared side-by-side.", queryPhrase: "Philips Hue vs LIFX vs TP-Link" },
     ]
   },
+  "smart-locks": {
+    useCases: [
+      {
+        label: "Renters",
+        title: "Best Smart Locks for Renters and Apartments",
+        description: "Retrofit smart locks that preserve exterior hardware, install quickly, and remove cleanly when you move out, while still adding app access, auto-lock, and guest codes."
+      },
+      {
+        label: "Families",
+        title: "Best Smart Locks for Families with Frequent Access",
+        description: "Keypad and fingerprint smart locks that make school runs, dog walkers, and family schedules easier without copying physical keys for everyone."
+      },
+      {
+        label: "Airbnb Hosts",
+        title: "Best Smart Locks for Short-Term Rentals",
+        description: "Locks with easy code management, remote unlock, audit trails, and reliable guest access workflows for hosts managing turnovers and cleaners."
+      },
+      {
+        label: "Security First",
+        title: "Best Smart Locks for Security-Focused Homeowners",
+        description: "Durable deadbolts with strong build quality, reliable low-battery behavior, and solid integrations with cameras, alarms, and wider smart-home routines."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best smart lock for renters", intent: "transactional" },
+      { phrase: "smart lock with keypad vs fingerprint", intent: "comparational" },
+      { phrase: "best smart lock for Airbnb", intent: "transactional" },
+      { phrase: "are smart locks safe for front door", intent: "informational" },
+      { phrase: "retrofit vs deadbolt replacement smart lock", intent: "comparational" },
+      { phrase: "best smart lock for Apple HomeKey", intent: "transactional" },
+      { phrase: "smart lock battery life comparison", intent: "informational" },
+      { phrase: "best smart lock without subscription", intent: "transactional" },
+      { phrase: "smart lock works without wifi", intent: "informational" },
+      { phrase: "August vs Yale vs Schlage smart lock", intent: "comparational" },
+      { phrase: "best smart lock for apartment door", intent: "transactional" },
+      { phrase: "smart lock installation door thickness compatibility", intent: "informational" },
+      { phrase: "Matter smart lock compatibility", intent: "informational" },
+      { phrase: "best smart lock with auto lock and guest codes", intent: "transactional" },
+      { phrase: "homekit vs alexa smart lock setup", intent: "comparational" },
+    ],
+    comparisons: [
+      { title: "Retrofit vs Full Replacement", description: "Keep your existing exterior hardware or replace the entire deadbolt? We compare installation effort, renter friendliness, and feature depth.", queryPhrase: "retrofit vs full replacement smart lock" },
+      { title: "Keypad vs Fingerprint Unlock", description: "PIN convenience versus biometric speed, with tradeoffs in reliability, guest access, and cold-weather performance.", queryPhrase: "keypad vs fingerprint smart lock" },
+      { title: "Wi-Fi vs Bluetooth vs Matter", description: "Remote access, battery drain, and ecosystem flexibility compared across the most common smart-lock connection types.", queryPhrase: "Wi-Fi vs Bluetooth vs Matter smart lock" },
+      { title: "August vs Yale vs Schlage", description: "Three of the biggest smart-lock brands compared on hardware quality, app polish, and smart-home integrations.", queryPhrase: "August vs Yale vs Schlage smart lock" },
+      { title: "Renter-Friendly vs Security-Heavy Locks", description: "Should you prioritize easy removal or maximum hardware strength? We compare the best locks for apartments versus permanent installs.", queryPhrase: "renter friendly vs security smart lock" },
+      { title: "Subscription vs No-Subscription Locks", description: "Some smart locks hide remote features behind add-ons. We break down when paid plans matter and when they do not.", queryPhrase: "subscription vs no subscription smart lock" },
+    ]
+  },
+  "video-doorbells": {
+    useCases: [
+      {
+        label: "Apartments",
+        title: "Best Video Doorbells for Apartments and Renters",
+        description: "Battery-powered doorbells that install without major wiring changes and still deliver reliable alerts, clear live view, and package visibility."
+      },
+      {
+        label: "Package Tracking",
+        title: "Best Video Doorbells for Package Deliveries",
+        description: "Doorbells with tall field-of-view framing, package zones, and useful event history for buyers dealing with frequent deliveries and porch theft concerns."
+      },
+      {
+        label: "Wired Reliability",
+        title: "Best Wired Video Doorbells for Permanent Installs",
+        description: "Hardwired models with faster response, longer clips, and more dependable recording for homeowners who want the most complete front-door coverage."
+      },
+      {
+        label: "Privacy",
+        title: "Best Video Doorbells Without Expensive Subscriptions",
+        description: "Doorbells that stay useful with local storage or generous free features, so you can monitor your porch without piling on monthly fees."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best video doorbell for apartments", intent: "transactional" },
+      { phrase: "wired vs battery video doorbell", intent: "comparational" },
+      { phrase: "best video doorbell for packages", intent: "transactional" },
+      { phrase: "video doorbell without subscription", intent: "transactional" },
+      { phrase: "best video doorbell for google home", intent: "transactional" },
+      { phrase: "ring vs nest vs eufy doorbell", intent: "comparational" },
+      { phrase: "how much voltage does wired video doorbell need", intent: "informational" },
+      { phrase: "best head to toe video doorbell view", intent: "transactional" },
+      { phrase: "video doorbell local storage vs cloud", intent: "comparational" },
+      { phrase: "best doorbell camera night vision", intent: "transactional" },
+      { phrase: "video doorbell motion detection false alerts", intent: "informational" },
+      { phrase: "best video doorbell for cold weather", intent: "transactional" },
+      { phrase: "apple homekit video doorbell options", intent: "transactional" },
+      { phrase: "do video doorbells record all the time", intent: "informational" },
+      { phrase: "best affordable video doorbell under 150", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "Wired vs Battery Doorbells", description: "Installation ease versus faster response and longer recordings. We compare which power source fits renters and homeowners best.", queryPhrase: "wired vs battery video doorbell" },
+      { title: "Ring vs Nest vs Eufy", description: "Three popular ecosystems compared on smart alerts, subscription value, and app experience.", queryPhrase: "Ring vs Nest vs Eufy doorbell" },
+      { title: "Local Storage vs Cloud", description: "Monthly fees versus easier remote review. We compare storage options for privacy, convenience, and long-term cost.", queryPhrase: "video doorbell local storage vs cloud" },
+      { title: "Head-to-Toe vs Wide View", description: "Package visibility versus walkway coverage, with guidance on choosing the right field of view for your front door.", queryPhrase: "head to toe vs wide view video doorbell" },
+      { title: "Subscription vs Free Features", description: "Some doorbells are nearly useless without a plan, others stay strong for free. We break down the real value of recurring fees.", queryPhrase: "subscription vs free video doorbell" },
+      { title: "Doorbell Camera vs Security Camera", description: "Dedicated front-door monitoring versus broader coverage from an exterior camera. Which gives you better protection per dollar?", queryPhrase: "video doorbell vs security camera" },
+    ]
+  },
+  "smart-security-cameras": {
+    useCases: [
+      {
+        label: "Outdoor Coverage",
+        title: "Best Outdoor Security Cameras for Home Perimeters",
+        description: "Weather-resistant cameras with strong night vision, dependable motion alerts, and enough image clarity to monitor driveways, yards, and side entrances."
+      },
+      {
+        label: "Indoor Monitoring",
+        title: "Best Indoor Security Cameras for Pets, Kids, and Apartments",
+        description: "Compact indoor cameras with privacy shutters, smart alerts, and clear two-way audio for buyers who want flexible monitoring without complex installs."
+      },
+      {
+        label: "No Subscription",
+        title: "Best Security Cameras Without Monthly Fees",
+        description: "Local-storage-first systems that avoid recurring cloud costs while still delivering useful notifications, event review, and dependable footage access."
+      },
+      {
+        label: "Smart Home",
+        title: "Best Smart Security Cameras for Integrated Automations",
+        description: "Cameras that pair smoothly with smart locks, lights, doorbells, and voice assistants to create stronger whole-home security routines."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best outdoor security camera without subscription", intent: "transactional" },
+      { phrase: "battery vs wired security camera", intent: "comparational" },
+      { phrase: "best indoor security camera for apartment", intent: "transactional" },
+      { phrase: "security camera local storage vs cloud", intent: "comparational" },
+      { phrase: "best smart security camera for homekit", intent: "transactional" },
+      { phrase: "what resolution do i need for security camera", intent: "informational" },
+      { phrase: "best security camera for driveway night vision", intent: "transactional" },
+      { phrase: "security camera person detection accuracy", intent: "informational" },
+      { phrase: "arlo vs eufy vs ring security camera", intent: "comparational" },
+      { phrase: "best floodlight security camera", intent: "transactional" },
+      { phrase: "continuous recording vs motion only camera", intent: "comparational" },
+      { phrase: "best security camera for cold weather", intent: "transactional" },
+      { phrase: "privacy features smart security cameras", intent: "informational" },
+      { phrase: "best wireless security camera battery life", intent: "transactional" },
+      { phrase: "security camera with local ai detection", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "Battery vs Wired Cameras", description: "Flexible placement versus stronger continuous coverage. We compare installation ease, charging burden, and event capture quality.", queryPhrase: "battery vs wired security camera" },
+      { title: "Indoor vs Outdoor Cameras", description: "Do you need weatherproofing, stronger night vision, and wider coverage, or is a compact indoor camera enough?", queryPhrase: "indoor vs outdoor security camera" },
+      { title: "Local Storage vs Cloud", description: "Lower lifetime cost and more privacy versus easier playback and remote search. Choose the storage model that fits your priorities.", queryPhrase: "security camera local storage vs cloud" },
+      { title: "Arlo vs Eufy vs Ring", description: "Major camera ecosystems compared on subscriptions, smart alerts, and whole-home integration.", queryPhrase: "Arlo vs Eufy vs Ring security camera" },
+      { title: "Continuous Recording vs Motion Clips", description: "Full-timeline footage versus battery-friendly event clips, with guidance on when each recording model is worth paying for.", queryPhrase: "continuous recording vs motion clip security camera" },
+      { title: "Floodlight Cam vs Standard Cam", description: "Extra deterrence and illumination versus lower cost and simpler placement. We compare the best use cases for each camera style.", queryPhrase: "floodlight camera vs standard security camera" },
+    ]
+  },
   "stream-decks": {
     useCases: [
       {
