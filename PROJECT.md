@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-01 (Bob subagent, task 1777590078859):** Added bespoke long-tail SEO modules for 3 portable workstation and desk categories in `lib/category-use-cases.ts`.
+  - Added 4 category-specific use-case blocks each for `portable-monitors`, `docking-stations`, and `desk-lamps`, replacing the generic use-case fallback on those category pages.
+  - Added 15 buyer-style query-intent phrases per category, covering real searches around travel setups, dual-monitor docks, eye-strain lighting, Mac/Windows compatibility, monitor light bars, and portable gaming displays.
+  - Added 6 comparison-guide cards per category so those pages now target concrete evaluation queries like USB-C vs Thunderbolt docks, touchscreen vs standard portable monitors, and monitor light bar vs desk lamp.
+  - Verified with `npx tsc --noEmit`. Changes were editorial code only.
+
 - **2026-05-01 (Bob subagent, task 1777590078843):** Added bespoke category enhancement content for 3 portable workstation and desk categories in `lib/category-enhancements.ts`.
   - Added full 3-paragraph buyer-intent descriptions for `portable-monitors`, `docking-stations`, and `desk-lamps`, replacing the generic enhancement fallback on those category pages.
   - Added 5 category-specific FAQs for each of the 3 categories so these pages now answer real buyer questions instead of reusing generic FAQ copy.

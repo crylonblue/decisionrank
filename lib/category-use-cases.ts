@@ -1020,6 +1020,153 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Aluminum vs Steel Construction", description: "Aluminum arms are lightweight and corrosion-resistant; steel arms offer maximum strength for heavy monitors. Material affects durability and weight.", queryPhrase: "aluminum vs steel monitor arm" },
     ]
   },
+  "portable-monitors": {
+    useCases: [
+      {
+        label: "Travel Work",
+        title: "Best Portable Monitors for Digital Nomads and Travel Setups",
+        description: "Slim 13 to 16-inch displays with lightweight shells, single-cable USB-C connectivity, and protective folio covers that make it easy to add a second screen in cafes, hotels, and coworking spaces."
+      },
+      {
+        label: "Laptop Productivity",
+        title: "Best Portable Monitors for Dual-Screen Laptop Work",
+        description: "Portable displays that pair cleanly with MacBooks and Windows laptops for spreadsheets, coding, design review, and side-by-side research without carrying a full desktop monitor."
+      },
+      {
+        label: "Gaming on the Go",
+        title: "Best Portable Monitors for Switch, Steam Deck, and Console Gaming",
+        description: "High-refresh or low-latency portable panels with HDMI or USB-C video input, built-in speakers, and enough brightness for hotel-room gaming or compact desk setups."
+      },
+      {
+        label: "Creative Accuracy",
+        title: "Best Portable Monitors for Photo, Design, and Client Review",
+        description: "Color-consistent portable screens with better brightness, wider gamut coverage, and strong viewing angles for photographers, designers, and creators who need a credible second display away from the studio."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best portable monitor for laptop travel", intent: "transactional" },
+      { phrase: "portable monitor for MacBook USB-C", intent: "transactional" },
+      { phrase: "portable monitor for dual screen remote work", intent: "transactional" },
+      { phrase: "best portable monitor for Steam Deck", intent: "transactional" },
+      { phrase: "portable monitor 15.6 vs 14 inch", intent: "comparational" },
+      { phrase: "touchscreen vs non touchscreen portable monitor", intent: "comparational" },
+      { phrase: "do portable monitors need external power", intent: "informational" },
+      { phrase: "portable monitor brightness nits how much needed", intent: "informational" },
+      { phrase: "best portable monitor for coding", intent: "transactional" },
+      { phrase: "portable monitor for Nintendo Switch with one cable", intent: "transactional" },
+      { phrase: "portable monitor 1080p vs 1440p", intent: "comparational" },
+      { phrase: "best portable monitor with kickstand", intent: "transactional" },
+      { phrase: "portable monitor battery built in worth it", intent: "informational" },
+      { phrase: "how to connect portable monitor to iPhone or iPad", intent: "informational" },
+      { phrase: "best budget portable monitor under 200", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "Portable Monitor vs Full-Size Monitor", description: "Extra mobility versus better ergonomics and brightness. We compare when a travel screen is enough and when a desk monitor still wins.", queryPhrase: "portable monitor vs regular monitor" },
+      { title: "14-Inch vs 15.6-Inch Portable Monitors", description: "Smaller displays travel better, while larger panels are easier for spreadsheets and multitasking. Choose based on bag space and workflow.", queryPhrase: "14 inch vs 15.6 inch portable monitor" },
+      { title: "Touchscreen vs Standard Portable Monitor", description: "Touch adds flexibility for presentations and tablet-style use, but raises price and weight. We break down who actually benefits.", queryPhrase: "touchscreen vs non touchscreen portable monitor" },
+      { title: "USB-C vs HDMI Portable Monitors", description: "Single-cable simplicity versus broader device compatibility. We compare power delivery, setup friction, and console support.", queryPhrase: "USB-C vs HDMI portable monitor" },
+      { title: "Asus ZenScreen vs ViewSonic Portable Monitor", description: "Two of the most common travel-display options compared on panel quality, case design, and connection reliability.", queryPhrase: "Asus ZenScreen vs ViewSonic portable monitor" },
+      { title: "1080p vs 1440p Portable Monitors", description: "Higher pixel density sounds great, but small-screen scaling and power draw matter. We compare sharpness, battery impact, and price.", queryPhrase: "1080p vs 1440p portable monitor" },
+    ]
+  },
+  "docking-stations": {
+    useCases: [
+      {
+        label: "Single-Cable Desk",
+        title: "Best Docking Stations for One-Cable Laptop Setups",
+        description: "Docks that let you connect displays, Ethernet, storage, and charging through one cable, making it easy to turn a laptop into a full workstation at home or in the office."
+      },
+      {
+        label: "Multi-Monitor",
+        title: "Best Docking Stations for Dual and Triple Monitor Workflows",
+        description: "Thunderbolt and USB4 docks with enough bandwidth for multiple high-resolution displays, ideal for finance, engineering, development, and other multitasking-heavy roles."
+      },
+      {
+        label: "MacBook and Windows",
+        title: "Best Docking Stations for Mixed Mac and PC Setups",
+        description: "Cross-platform docks that reduce compatibility headaches when teams switch between MacBooks and Windows laptops and still need reliable charging, networking, and display output."
+      },
+      {
+        label: "Desk Power Users",
+        title: "Best Docking Stations for Creators and Peripheral-Heavy Desks",
+        description: "Higher-end docks with fast downstream USB, SD readers, 2.5GbE or Gigabit Ethernet, and strong power delivery for users juggling cameras, SSDs, audio gear, and multiple accessories."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best docking station for MacBook Pro dual monitor", intent: "transactional" },
+      { phrase: "best docking station for Windows laptop home office", intent: "transactional" },
+      { phrase: "USB-C dock vs Thunderbolt dock", intent: "comparational" },
+      { phrase: "docking station for triple monitors laptop", intent: "transactional" },
+      { phrase: "DisplayLink vs Thunderbolt dock", intent: "comparational" },
+      { phrase: "do I need a docking station for two monitors", intent: "informational" },
+      { phrase: "best laptop dock with ethernet and charging", intent: "transactional" },
+      { phrase: "docking station not detecting monitor fix", intent: "informational" },
+      { phrase: "best docking station for M3 MacBook Air", intent: "transactional" },
+      { phrase: "universal docking station for Mac and Windows", intent: "transactional" },
+      { phrase: "docking station power delivery 65W vs 100W", intent: "comparational" },
+      { phrase: "best thunderbolt dock for external SSD workflow", intent: "transactional" },
+      { phrase: "can usb c dock run two 4k monitors", intent: "informational" },
+      { phrase: "CalDigit TS4 vs Anker docking station", intent: "comparational" },
+      { phrase: "best budget docking station under 150", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "USB-C Dock vs Thunderbolt Dock", description: "Thunderbolt gives more bandwidth and display flexibility, but many buyers can save money with a solid USB-C dock. We compare real-world needs.", queryPhrase: "USB-C dock vs Thunderbolt dock" },
+      { title: "DisplayLink vs Native Video Output", description: "DisplayLink solves some monitor limitations, especially on Macs, but adds software dependence. We compare compatibility, sharpness, and lag tradeoffs.", queryPhrase: "DisplayLink vs native docking station" },
+      { title: "65W vs 100W Docking Station Charging", description: "Enough charging headroom matters if you use power-hungry laptops. We break down when 65W is fine and when 100W class docks are safer.", queryPhrase: "65W vs 100W docking station" },
+      { title: "Desktop Dock vs Portable USB-C Hub", description: "A full dock gives more ports and stability, while a hub is cheaper and easier to travel with. Choose based on permanent desk needs versus mobility.", queryPhrase: "docking station vs USB-C hub" },
+      { title: "CalDigit TS4 vs Kensington SD5700T", description: "Two premium Thunderbolt docks compared on port layout, charging, monitor support, and long-term desk convenience.", queryPhrase: "CalDigit TS4 vs Kensington SD5700T" },
+      { title: "Mac Dock vs Windows Dock Compatibility", description: "Not every dock behaves the same across operating systems. We compare display support, driver quirks, and the safest universal options.", queryPhrase: "Mac vs Windows docking station compatibility" },
+    ]
+  },
+  "desk-lamps": {
+    useCases: [
+      {
+        label: "Focused Work",
+        title: "Best Desk Lamps for Reading, Writing, and Office Work",
+        description: "Task lamps with glare control, adjustable color temperature, and enough even illumination for paperwork, long reading sessions, and laptop-heavy desk routines."
+      },
+      {
+        label: "Home Office Video",
+        title: "Best Desk Lamps for Video Calls and Camera-Friendly Lighting",
+        description: "Desk lights that improve face lighting for Zoom and Teams without harsh shadows, helping remote workers look clearer on camera while still lighting the workspace well."
+      },
+      {
+        label: "Small Desks",
+        title: "Best Desk Lamps for Compact and Minimalist Setups",
+        description: "Slim-base and clamp-style lamps that preserve precious desk space while still offering flexible arms, dimming, and useful directional light for smaller home offices or dorm rooms."
+      },
+      {
+        label: "Eye Comfort",
+        title: "Best Desk Lamps to Reduce Eye Strain During Long Sessions",
+        description: "Flicker-free LED lamps with tunable brightness and warmer evening settings for users who spend hours studying, coding, or working under artificial light."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best desk lamp for home office", intent: "transactional" },
+      { phrase: "desk lamp for zoom calls and video meetings", intent: "transactional" },
+      { phrase: "best desk lamp to reduce eye strain", intent: "transactional" },
+      { phrase: "LED desk lamp vs traditional lamp", intent: "comparational" },
+      { phrase: "clamp desk lamp vs base lamp", intent: "comparational" },
+      { phrase: "what color temperature is best for desk lamp", intent: "informational" },
+      { phrase: "best desk lamp for small desk", intent: "transactional" },
+      { phrase: "desk lamp brightness lumens for studying", intent: "informational" },
+      { phrase: "best architect desk lamp for reading", intent: "transactional" },
+      { phrase: "desk lamp with wireless charging worth it", intent: "informational" },
+      { phrase: "best desk lamp for dual monitor setup", intent: "transactional" },
+      { phrase: "monitor light bar vs desk lamp", intent: "comparational" },
+      { phrase: "flicker free desk lamp for office work", intent: "transactional" },
+      { phrase: "how to position desk lamp to avoid glare", intent: "informational" },
+      { phrase: "best budget desk lamp under 50", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "Monitor Light Bar vs Desk Lamp", description: "A light bar saves desk space and reduces screen glare, while a traditional lamp gives more directional flexibility. We compare which setup fits different desks.", queryPhrase: "monitor light bar vs desk lamp" },
+      { title: "Clamp Lamp vs Base Desk Lamp", description: "Clamp models free up surface area, but base lamps are easier to move and often more stable. Choose by desk layout and permanence.", queryPhrase: "clamp desk lamp vs base desk lamp" },
+      { title: "LED Desk Lamp vs Traditional Bulb Lamp", description: "Integrated LED lamps are efficient and tunable, while bulb-based lamps are easier to replace and customize. We compare longevity, heat, and lighting quality.", queryPhrase: "LED desk lamp vs traditional lamp" },
+      { title: "Warm vs Cool Light for Desk Work", description: "Cooler light can feel sharper for daytime focus, while warmer tones are easier on the eyes at night. We compare the best color temperature by use case.", queryPhrase: "warm vs cool desk lamp light" },
+      { title: "BenQ ScreenBar vs Architect Lamp", description: "A premium monitor light bar versus a classic articulated task lamp, with tradeoffs in glare management, adjustability, and value.", queryPhrase: "BenQ ScreenBar vs desk lamp" },
+      { title: "Cheap vs Premium Desk Lamps", description: "Are higher-end lamps actually better for eye comfort and build quality, or do budget LED lamps get close enough? We compare the real differences.", queryPhrase: "budget vs premium desk lamp" },
+    ]
+  },
   "laptop-stands": {
     useCases: [
       {
