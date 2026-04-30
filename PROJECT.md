@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-01 (Bob subagent, task 1777590078843):** Added bespoke category enhancement content for 3 portable workstation and desk categories in `lib/category-enhancements.ts`.
+  - Added full 3-paragraph buyer-intent descriptions for `portable-monitors`, `docking-stations`, and `desk-lamps`, replacing the generic enhancement fallback on those category pages.
+  - Added 5 category-specific FAQs for each of the 3 categories so these pages now answer real buyer questions instead of reusing generic FAQ copy.
+  - Added dedicated `CATEGORY_VERDICT_GUIDANCE` entries plus `getCategoryVerdictGuidance()` helper for all 3 categories, so verdict-level buyer guidance now exists alongside descriptions and FAQs for future page modules.
+  - Verified with `npx tsc --noEmit`. No Convex import attempted because this task was code-only editorial enhancement work.
+
 - **2026-05-01 (Bob subagent, task 1777590078816):** Seeded 3 smart-home/security buyer-intent categories in code only, no Convex import attempted.
   - Added bespoke long-form category descriptions and category-specific FAQs in `lib/category-enhancements.ts` for `smart-locks`, `video-doorbells`, and `smart-security-cameras` so category hubs now have real buyer-intent copy instead of generic fallbacks.
   - Added dedicated use-case blocks, long-tail query intents, and comparison guides in `lib/category-use-cases.ts` for all 3 categories, covering renter, package-delivery, no-subscription, perimeter-security, and ecosystem-fit buying scenarios.
