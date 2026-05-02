@@ -8,11 +8,22 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-02 (Bob subagent, task 1777676503089):** Completed mechanical-keyboards category enhancement depth in code and documentation.
+  - Added a full bespoke `mechanical-keyboards` enhancement entry in `lib/category-enhancements.ts`, including a 3-paragraph buyer-intent description, 4 category-specific FAQs, and dedicated verdict guidance so the category no longer depends on the generic enhancement fallback.
+  - Refreshed the existing `mechanical-keyboards` block in `lib/category-use-cases.ts` with stronger use-case framing for gaming, programming, compact layouts, and hot-swappable customization.
+  - Updated long-tail query-intent phrases and comparison-guide copy for modern keyboard buyer searches such as wireless gaming boards, quiet office boards, hot-swap builds, and layout comparisons.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-01 (Bob subagent, task 1777590078859):** Added bespoke long-tail SEO modules for 3 portable workstation and desk categories in `lib/category-use-cases.ts`.
   - Added 4 category-specific use-case blocks each for `portable-monitors`, `docking-stations`, and `desk-lamps`, replacing the generic use-case fallback on those category pages.
   - Added 15 buyer-style query-intent phrases per category, covering real searches around travel setups, dual-monitor docks, eye-strain lighting, Mac/Windows compatibility, monitor light bars, and portable gaming displays.
   - Added 6 comparison-guide cards per category so those pages now target concrete evaluation queries like USB-C vs Thunderbolt docks, touchscreen vs standard portable monitors, and monitor light bar vs desk lamp.
   - Verified with `npx tsc --noEmit`. Changes were editorial code only.
+
+- **2026-05-02 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1777676503089` (**high**): Complete mechanical-keyboards category enhancement content in `lib/category-enhancements.ts` with bespoke long-form description + category-specific FAQs so this category stops relying on the final generic enhancement fallback. Planning basis: a quick seed/code audit shows `mechanical-keyboards` is now the only seeded category still missing a dedicated enhancement entry.
+  - Created API backlog task `1777676503114` (**medium**): Add bespoke smart-plugs-power-strips use-case blocks, long-tail query intents, and comparison-guide data in `lib/category-use-cases.ts` so this category stops relying on the generic use-case fallback. Planning basis: this is the only seeded category still missing dedicated use-case/comparison coverage, making it the cleanest next SEO depth fix.
+  - Created API backlog task `1777676503136` (**medium**): Strengthen desk-lamps adjacency and discovery-surface SEO by explicitly wiring it into `lib/category-relations.ts` and relevant buyer-intent/discovery modules alongside `monitor-arms`, `laptop-stands`, `desk-cable-management`, `standing-desks`, and `smart-lighting`. Planning basis: desk-lamps now has bespoke page content, but the cluster audit suggests it still needs stronger explicit adjacency on discovery surfaces.
 
 - **2026-05-01 (Bob subagent, task 1777590078843):** Added bespoke category enhancement content for 3 portable workstation and desk categories in `lib/category-enhancements.ts`.
   - Added full 3-paragraph buyer-intent descriptions for `portable-monitors`, `docking-stations`, and `desk-lamps`, replacing the generic enhancement fallback on those category pages.

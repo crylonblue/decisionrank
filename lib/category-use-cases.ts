@@ -682,48 +682,48 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       {
         label: "Gaming",
         title: "Best Mechanical Keyboards for Competitive Gaming",
-        description: "Low-latency switches, N-key rollover, and per-key RGB with 1000 Hz polling rate — built for esports pros and gamers who demand millisecond reaction times."
+        description: "Fast switches, low-latency wireless or wired performance, and stable key feel for players who care about clean inputs, rapid strafes, and consistent actuation under pressure."
       },
       {
-        label: "Typing",
-        title: "Best Mechanical Keyboards for Writers and Developers",
-        description: "Quiet linear or tactile switches with excellent key stability, full-size layouts, and wrist rests for all-day typing comfort without fatigue or noise complaints."
+        label: "Programming",
+        title: "Best Mechanical Keyboards for Programming and All-Day Typing",
+        description: "Comfort-focused boards with strong stabilizers, practical layouts, and switch options that make long coding sessions feel better without turning every keypress into office noise."
       },
       {
-        label: "Compact",
-        title: "Best Compact 60% and 65% Keyboards for Portability",
-        description: "Compact layouts that free up desk space for mouse movement and are easy to carry — ideal for developers, writers, and travelers who value a minimal setup."
+        label: "Compact Layouts",
+        title: "Best 75%, 65%, and Tenkeyless Mechanical Keyboards",
+        description: "Space-saving layouts that preserve the most useful keys while freeing more room for mouse movement, smaller desks, cleaner cable management, and easier transport."
       },
       {
-        label: "Budget",
-        title: "Best Mechanical Keyboards Under $100",
-        description: "Budget-mech boards with genuine Cherry MX or clone switches, solid build quality, and programmable macros that prove you don't need to spend $200+ for a great typing feel."
+        label: "Customization",
+        title: "Best Hot-Swappable Mechanical Keyboards for Easy Upgrades",
+        description: "Prebuilt boards that let you experiment with switches, keycaps, and sound without soldering, ideal for buyers who want enthusiast flexibility with much less friction."
       }
     ],
     queryIntents: [
       { phrase: "best mechanical keyboard for gaming", intent: "transactional" },
-      { phrase: "cherry mx red vs brown which switch", intent: "comparational" },
       { phrase: "best mechanical keyboard for programming", intent: "transactional" },
-      { phrase: "60% keyboard pros and cons", intent: "informational" },
-      { phrase: "best budget mechanical keyboard under 100", intent: "transactional" },
-      { phrase: "how to clean mechanical keyboard switches", intent: "informational" },
+      { phrase: "wireless mechanical keyboard for gaming", intent: "transactional" },
+      { phrase: "best hot swappable mechanical keyboard", intent: "transactional" },
+      { phrase: "best quiet mechanical keyboard for office", intent: "transactional" },
+      { phrase: "mechanical keyboard for Mac", intent: "transactional" },
+      { phrase: "cherry mx red vs brown which switch", intent: "comparational" },
       { phrase: "tactile vs linear vs clicky switches", intent: "informational" },
-      { phrase: "best keyboard for wrist pain carpal tunnel", intent: "transactional" },
-      { phrase: "hot-swappable vs solder switches", intent: "comparational" },
-      { phrase: "best mechanical keyboard for typing", intent: "transactional" },
+      { phrase: "hot-swappable vs soldered keyboard", intent: "comparational" },
+      { phrase: "75% vs tkl keyboard", intent: "comparational" },
+      { phrase: "60% keyboard pros and cons", intent: "informational" },
+      { phrase: "QMK vs VIA firmware", intent: "comparational" },
+      { phrase: "how to clean mechanical keyboard switches", intent: "informational" },
       { phrase: "how to lube mechanical keyboard switches", intent: "informational" },
       { phrase: "mechanical keyboard sound dampening", intent: "informational" },
-      { phrase: "best tenkeyless keyboard for office", intent: "transactional" },
-      { phrase: "QMK vs VIA firmware", intent: "comparational" },
-      { phrase: "mechanical keyboard for Mac", intent: "transactional" },
     ],
     comparisons: [
-      { title: "Cherry MX Red vs Brown vs Blue", description: "Linear, tactile, or clicky — switch types compared by feel, sound, and best use case for gaming vs typing.", queryPhrase: "Cherry MX Red vs Brown vs Blue" },
-      { title: "Hot-Swappable vs Soldered", description: "Swap switches without soldering vs permanent stable connections — which build style matches your tinkering comfort?", queryPhrase: "hot-swappable vs soldered keyboard" },
-      { title: "Full-Size vs Tenkeyless vs 60%", description: "Layout trade-offs: number pad convenience vs minimal desk footprint — which size fits your workflow and space?", queryPhrase: "keyboard size comparison full tenkeyless 60%" },
-      { title: "Pre-Built vs Custom", description: "Ready-to-use convenience vs hand-built customization — cost, quality, and personalization differences.", queryPhrase: "prebuilt vs custom mechanical keyboard" },
-      { title: "Wired vs Wireless", description: "Latency-free wired vs desk-clutter reduction — battery life and responsiveness compared for gaming use.", queryPhrase: "wired vs wireless mechanical keyboard" },
-      { title: "Gaming vs Programming Keyboard", description: "High-polling-rate and RGB actuation vs layout efficiency and typing comfort — features optimized for each task.", queryPhrase: "gaming vs programming mechanical keyboard" },
+      { title: "Cherry MX Red vs Brown vs Blue", description: "Linear, tactile, or clicky, we compare how the most familiar switch styles feel for gaming, typing, shared offices, and first-time buyers.", queryPhrase: "Cherry MX Red vs Brown vs Blue" },
+      { title: "Hot-Swappable vs Soldered", description: "Easy switch changes and upgrade flexibility versus a more fixed prebuilt design, with tradeoffs in customization, cost, and beginner friendliness.", queryPhrase: "hot-swappable vs soldered keyboard" },
+      { title: "75% vs TKL vs 60%", description: "Which compact layout keeps the keys you actually need while saving the most desk space? We compare portability, navigation keys, and learning curve.", queryPhrase: "75% vs TKL vs 60% keyboard" },
+      { title: "Prebuilt vs Custom Mechanical Keyboard", description: "A ready-to-use board can already be excellent, but custom builds offer more control over sound, feel, and aesthetics. We compare cost and payoff.", queryPhrase: "prebuilt vs custom mechanical keyboard" },
+      { title: "Wired vs Wireless Mechanical Keyboard", description: "Modern wireless boards are much better than they used to be. We compare latency, battery life, desk cleanliness, and when a cable still makes more sense.", queryPhrase: "wired vs wireless mechanical keyboard" },
+      { title: "Gaming Keyboard vs Typing Keyboard", description: "Some boards emphasize fast switches and RGB features, others focus on acoustics, comfort, and layout efficiency. We break down the real differences.", queryPhrase: "gaming vs typing mechanical keyboard" },
     ]
   },
   "espresso-machines": {
