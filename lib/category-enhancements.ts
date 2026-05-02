@@ -526,8 +526,8 @@ export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: str
       answer: "Clamp lamps are great for small desks because they free up surface space and usually offer more reach. Base lamps are easier to reposition and better if you move your setup often or cannot clamp to the desk edge. The better choice depends on your desk layout, not just the lamp itself."
     },
     {
-      question: "Do expensive desk lamps actually make a difference?",
-      answer: "Sometimes, yes. Premium models often deliver better arm articulation, sturdier materials, smoother dimming, and more even light diffusion, all of which matter if you use the lamp every day. That said, plenty of mid-range LED lamps already cover the basics well, so it is worth paying more only when build quality, aesthetics, or advanced light control really matter to you."
+      question: "Should I buy a monitor light bar or a traditional desk lamp?",
+      answer: "A monitor light bar is excellent when desk space is tight and you mostly want keyboard and desktop illumination with minimal screen glare. A traditional desk lamp is more flexible if you also read on paper, sketch, join video calls, or want directional lighting away from the monitor. Buyers with dual monitors or busy desks often prefer slim clamp lamps or light bars, while mixed-use desks usually benefit from a proper adjustable task lamp."
     },
     {
       question: "What should I avoid when buying a desk lamp?",
@@ -556,6 +556,31 @@ export const CATEGORY_VERDICT_GUIDANCE: Record<string, string> = {
   "docking-stations": "The right docking station should disappear into your workflow: one connection, stable displays, consistent charging, and zero drama with peripherals. Buyers with simple one-monitor setups can save money with a quality USB-C dock, while dual-display or power-user setups usually justify paying more for Thunderbolt or a higher-end desktop dock. In this category, reliability and compatibility are worth more than an extra port or two.",
   "desk-lamps": "Buy the desk lamp that matches how your desk is used, not the most feature-packed one. For focused work, prioritize adjustable brightness, glare control, and positioning flexibility. For small or design-conscious setups, footprint and aesthetics matter more than gimmicks. The strongest verdicts usually go to lamps that make long sessions easier on your eyes and feel effortless to adjust throughout the day.",
   "smart-plugs-power-strips": "The best smart plug or power strip depends less on flashy automation claims and more on how reliably it fits your real devices. A single smart plug is usually the right pick for lamps, fans, coffee makers, and simple scheduling, while smart power strips shine when you need outlet-by-outlet control for a desk, entertainment center, or charging station. Prioritize safe power ratings, dependable app behavior, strong ecosystem support, and trustworthy energy monitoring over extra features you may never use."
+};
+
+export const CATEGORY_KEYWORD_MODIFIERS: Record<string, string[]> = {
+  "desk-lamps": [
+    "best desk lamp for home office",
+    "best desk lamp for small desk",
+    "best desk lamp for dual monitor setup",
+    "best desk lamp to reduce eye strain",
+    "LED desk lamp with USB charging",
+    "clamp desk lamp for standing desk",
+    "desk lamp for zoom calls",
+    "flicker free desk lamp for studying",
+    "architect desk lamp for reading",
+    "monitor light bar alternative for desk"
+  ]
+};
+
+export const CATEGORY_FAQ_SCHEMA: Record<string, Array<{ question: string; answer: { '@type': 'Answer'; text: string } }>> = {
+  "desk-lamps": CATEGORY_FAQS["desk-lamps"].map((faq) => ({
+    question: faq.question,
+    answer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
 };
 
 // Generic category FAQs (used when a category-specific FAQ is not available)

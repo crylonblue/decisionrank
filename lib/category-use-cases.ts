@@ -34,10 +34,16 @@ export interface ComparisonGuide {
 }
 
 export interface CategoryUseCaseData {
+  /** Related category slugs used for adjacency/discovery modules */
+  clusterSlugs?: string[];
   /** Use-case blocks shown below the hero */
   useCases: UseCase[];
+  /** Alternate shape for downstream SEO/discovery modules */
+  useCaseBlocks?: Array<{ title: string; description: string; targetAudience: string }>;
   /** Long-tail query-intent phrases for section headings and SEO copy */
   queryIntents: QueryIntent[];
+  /** Alternate flat list of long-tail phrases for discovery surfaces */
+  queryIntentPhrases?: string[];
   /** Comparison guide blocks — comparative "X vs Y" style queries */
   comparisons: ComparisonGuide[];
 }
@@ -1119,6 +1125,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "desk-lamps": {
+    clusterSlugs: ["monitor-arms", "laptop-stands", "desk-cable-management", "standing-desks", "smart-lighting"],
     useCases: [
       {
         label: "Focused Work",
@@ -1141,6 +1148,28 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
         description: "Flicker-free LED lamps with tunable brightness and warmer evening settings for users who spend hours studying, coding, or working under artificial light."
       }
     ],
+    useCaseBlocks: [
+      {
+        title: "Best Desk Lamps for Dual-Monitor and Accessory-Heavy Desks",
+        description: "Slim lamps, clamp mounts, and wide-throw light bars that keep light off the screen while preserving space for monitor arms, speakers, and charging gear.",
+        targetAudience: "Remote workers, developers, and gamers building dense desk setups"
+      },
+      {
+        title: "Best Desk Lamps for Home Offices with Video Calls",
+        description: "Task lights that double as flattering fill light for Zoom, Meet, and Teams, reducing harsh shadows without making your workspace feel overlit.",
+        targetAudience: "Hybrid workers, consultants, and client-facing professionals"
+      },
+      {
+        title: "Best Desk Lamps for Students and Late-Night Study Sessions",
+        description: "Affordable flicker-free lamps with adjustable warmth and brightness that make reading, handwriting, and laptop study easier on the eyes after dark.",
+        targetAudience: "Students, exam prep buyers, and shared-room setups"
+      },
+      {
+        title: "Best Desk Lamps for Minimalist and Small-Space Desks",
+        description: "Compact base and clamp models that pair well with laptop stands and cable-managed desks where footprint matters as much as light quality.",
+        targetAudience: "Apartment dwellers, dorm users, and minimalist desk buyers"
+      }
+    ],
     queryIntents: [
       { phrase: "best desk lamp for home office", intent: "transactional" },
       { phrase: "desk lamp for zoom calls and video meetings", intent: "transactional" },
@@ -1157,6 +1186,20 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { phrase: "flicker free desk lamp for office work", intent: "transactional" },
       { phrase: "how to position desk lamp to avoid glare", intent: "informational" },
       { phrase: "best budget desk lamp under 50", intent: "transactional" },
+    ],
+    queryIntentPhrases: [
+      "best desk lamp for home office",
+      "best desk lamp for dual monitor setup",
+      "best desk lamp for small desk setup",
+      "desk lamp for zoom calls and video meetings",
+      "monitor light bar vs desk lamp for office work",
+      "best desk lamp to reduce eye strain while coding",
+      "LED desk lamp with USB charging for desk",
+      "clamp desk lamp for standing desk setup",
+      "best architect desk lamp for reading",
+      "flicker free desk lamp for studying",
+      "warm vs cool desk lamp light for productivity",
+      "how to position desk lamp to avoid screen glare"
     ],
     comparisons: [
       { title: "Monitor Light Bar vs Desk Lamp", description: "A light bar saves desk space and reduces screen glare, while a traditional lamp gives more directional flexibility. We compare which setup fits different desks.", queryPhrase: "monitor light bar vs desk lamp" },

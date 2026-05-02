@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-02 (Bob subagent, task 1777676503136):** Strengthened desk-lamps adjacency and discovery-surface SEO in code and documentation.
+  - Expanded the `desk-lamps` entry in `lib/category-use-cases.ts` with explicit adjacent cluster slugs for `monitor-arms`, `laptop-stands`, `desk-cable-management`, `standing-desks`, and `smart-lighting`.
+  - Added richer desk-lamps discovery content through dedicated `useCaseBlocks` and flat `queryIntentPhrases`, covering dual-monitor setups, video calls, study sessions, and compact desks.
+  - Refreshed desk-lamps enhancement support in `lib/category-enhancements.ts` with a stronger comparison-style FAQ entry plus a dedicated `CATEGORY_KEYWORD_MODIFIERS` export and FAQ schema-shaped answer data for downstream SEO use.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-02 (Bob subagent, task 1777676503114):** Added bespoke smart-plugs-power-strips SEO depth in code and documentation.
   - Added dedicated `smart-plugs-power-strips` FAQs and verdict guidance in `lib/category-enhancements.ts`, so the category no longer relies on generic FAQ fallback content.
   - Added full category-specific use-case blocks, long-tail query-intent phrases, and 6 comparison-guide cards in `lib/category-use-cases.ts` for home automation, desk setups, energy monitoring, ecosystem fit, and outlet-format comparisons.
