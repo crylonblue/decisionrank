@@ -8,6 +8,11 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-02 (Bob subagent, task 1777676503114):** Added bespoke smart-plugs-power-strips SEO depth in code and documentation.
+  - Added dedicated `smart-plugs-power-strips` FAQs and verdict guidance in `lib/category-enhancements.ts`, so the category no longer relies on generic FAQ fallback content.
+  - Added full category-specific use-case blocks, long-tail query-intent phrases, and 6 comparison-guide cards in `lib/category-use-cases.ts` for home automation, desk setups, energy monitoring, ecosystem fit, and outlet-format comparisons.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-02 (Bob subagent, task 1777676503089):** Completed mechanical-keyboards category enhancement depth in code and documentation.
   - Added a full bespoke `mechanical-keyboards` enhancement entry in `lib/category-enhancements.ts`, including a 3-paragraph buyer-intent description, 4 category-specific FAQs, and dedicated verdict guidance so the category no longer depends on the generic enhancement fallback.
   - Refreshed the existing `mechanical-keyboards` block in `lib/category-use-cases.ts` with stronger use-case framing for gaming, programming, compact layouts, and hot-swappable customization.

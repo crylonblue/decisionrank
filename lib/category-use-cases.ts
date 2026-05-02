@@ -1363,6 +1363,55 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Subscription vs No-Subscription Locks", description: "Some smart locks hide remote features behind add-ons. We break down when paid plans matter and when they do not.", queryPhrase: "subscription vs no subscription smart lock" },
     ]
   },
+  "smart-plugs-power-strips": {
+    useCases: [
+      {
+        label: "Home Automation",
+        title: "Best Smart Plugs for Simple Home Automation",
+        description: "Reliable single-outlet smart plugs that make lamps, coffee makers, fans, and seasonal lighting easy to schedule, voice-control, and automate without building a full smart-home stack."
+      },
+      {
+        label: "Desk and Gaming",
+        title: "Best Smart Power Strips for Desks, Offices, and Gaming Setups",
+        description: "Multi-outlet smart strips with individual socket control, surge protection, and USB charging for monitors, speakers, chargers, and accessory-heavy workstations."
+      },
+      {
+        label: "Energy Monitoring",
+        title: "Best Smart Plugs for Energy Tracking and Cost Control",
+        description: "Energy-monitoring plugs that help you spot standby drain, understand appliance costs, and create automations based on real power draw instead of guesswork."
+      },
+      {
+        label: "Voice and Ecosystem Fit",
+        title: "Best Smart Plugs for Alexa, Google Home, Apple Home, and Matter",
+        description: "Smart plugs and strips that integrate cleanly with major ecosystems, respond quickly to routines, and avoid the app headaches that ruin otherwise useful automations."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best smart plug for home automation", intent: "transactional" },
+      { phrase: "best smart power strip for desk setup", intent: "transactional" },
+      { phrase: "smart plug with energy monitoring accuracy", intent: "transactional" },
+      { phrase: "best smart plug for alexa and google home", intent: "transactional" },
+      { phrase: "smart plug vs smart power strip", intent: "comparational" },
+      { phrase: "wifi vs zigbee vs matter smart plug", intent: "comparational" },
+      { phrase: "can smart plugs work without internet", intent: "informational" },
+      { phrase: "best smart plug for lamps and coffee maker", intent: "transactional" },
+      { phrase: "smart power strip with individual outlet control", intent: "transactional" },
+      { phrase: "best smart plug for renters apartment", intent: "transactional" },
+      { phrase: "smart plug energy monitoring for appliances", intent: "informational" },
+      { phrase: "best smart power strip for gaming setup", intent: "transactional" },
+      { phrase: "smart plug for schedule and away mode", intent: "transactional" },
+      { phrase: "can you use a smart plug with a space heater", intent: "informational" },
+      { phrase: "best smart power strip 2026", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "Smart Plug vs Smart Power Strip", description: "A single automated outlet is often enough for lamps and coffee makers, while power strips make more sense for desks and entertainment centers. We compare when each format is the better buy.", queryPhrase: "smart plug vs smart power strip" },
+      { title: "Wi-Fi vs Zigbee vs Matter Smart Plugs", description: "The easiest smart plugs are not always the most reliable. We compare setup simplicity, local control, response time, and ecosystem flexibility across the main connection standards.", queryPhrase: "Wi-Fi vs Zigbee vs Matter smart plug" },
+      { title: "Energy-Monitoring vs Basic Smart Plugs", description: "Some plugs just switch power, others help you understand what devices actually cost to run. We break down when energy tracking is worth paying extra for.", queryPhrase: "energy monitoring vs basic smart plug" },
+      { title: "Alexa vs Apple Home vs Google Home Compatibility", description: "Not every smart plug behaves equally well across ecosystems. We compare the best options for voice control, scenes, routines, and multi-platform households.", queryPhrase: "Alexa vs Apple Home vs Google Home smart plug" },
+      { title: "Indoor Smart Plugs vs Outdoor Smart Plugs", description: "Outdoor-rated plugs handle weather, holiday lights, and garden gear, while indoor models focus on compact size and desk-friendliness. We compare the tradeoffs.", queryPhrase: "indoor vs outdoor smart plug" },
+      { title: "Budget Smart Plugs vs Premium Brands", description: "Cheap four-packs can look tempting, but reliability, app quality, and safety ratings vary widely. We compare value-focused smart plugs with the better-known premium options.", queryPhrase: "budget vs premium smart plug" },
+    ]
+  },
   "video-doorbells": {
     useCases: [
       {

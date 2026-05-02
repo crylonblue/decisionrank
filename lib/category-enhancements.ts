@@ -76,6 +76,24 @@ export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: str
       answer: "Most smart locks still lock and unlock locally over Bluetooth, keypad PIN, or manual thumb turn even if Wi-Fi is down. Wi-Fi mainly powers remote access, alerts, and voice assistant routines. Battery behavior varies by model, but good locks provide weeks of low-battery warning and either a physical key backup or emergency power contacts so you are not locked out unexpectedly."
     }
   ],
+  "smart-plugs-power-strips": [
+    {
+      question: "Should I buy a smart plug or a smart power strip?",
+      answer: "Choose a smart plug when you only need to automate one device like a lamp, fan, coffee maker, or humidifier. Choose a smart power strip when you want to control several devices at one desk, TV console, or kitchen counter, especially if individual outlet control or surge protection matters. In practice, smart plugs are the simpler entry point, while smart strips make more sense for multi-device setups."
+    },
+    {
+      question: "Do smart plugs work without a hub or internet connection?",
+      answer: "Many Wi-Fi smart plugs work without a separate hub, but remote access and cloud automations may fail during internet outages. Zigbee, Z-Wave, Thread, and some Matter devices often depend on a compatible hub or border router, but they can be more reliable for local automations once set up. The best option depends on whether you value easy setup, local control, or ecosystem flexibility most."
+    },
+    {
+      question: "Can I use a smart plug with heaters, kettles, or other high-wattage appliances?",
+      answer: "Only if the smart plug is explicitly rated for the appliance's voltage and maximum current draw. Space heaters, kettles, air fryers, and other high-wattage devices can exceed the safe load of cheaper plugs, which is a real fire-risk concern. Check the wattage rating carefully, avoid daisy chaining, and use heavy-load smart plugs only when the manufacturer clearly supports that use case."
+    },
+    {
+      question: "Is energy monitoring on a smart plug actually useful?",
+      answer: "Yes, especially if you want to find standby drain, monitor office gear, or understand what appliances cost to run over time. The best energy-monitoring plugs make it easy to spot always-on devices, compare usage between products, and build automations around power draw, such as shutting off a charger once a device is full. Accuracy varies by brand, so energy data is most useful when the plug is well-reviewed for measurement consistency."
+    }
+  ],
   "video-doorbells": [
     {
       question: "Is a wired or battery video doorbell better?",
@@ -536,7 +554,8 @@ export const CATEGORY_VERDICT_GUIDANCE: Record<string, string> = {
   "mechanical-keyboards": "The best mechanical keyboard is the one that fits how you actually use your desk. Gamers should care about latency, switch feel, and layout space for mouse movement, while writers and programmers should care more about typing comfort, acoustics, and practical layouts like TKL or 75%. Hot-swap support, solid stabilizers, and better firmware matter more long term than flashy RGB alone, so the smartest buy is usually the board that gets the fundamentals right and still leaves room to grow.",
   "portable-monitors": "Choose a portable monitor based on where you actually work. Travelers and hybrid workers should prioritize low weight, bright panels, and dependable one-cable USB-C support. If you mostly work from one desk, a sturdier stand, better color accuracy, or extra features like touch may be more valuable than shaving off a few ounces. The best verdict is usually the model that makes your daily setup frictionless, not the one with the longest spec sheet.",
   "docking-stations": "The right docking station should disappear into your workflow: one connection, stable displays, consistent charging, and zero drama with peripherals. Buyers with simple one-monitor setups can save money with a quality USB-C dock, while dual-display or power-user setups usually justify paying more for Thunderbolt or a higher-end desktop dock. In this category, reliability and compatibility are worth more than an extra port or two.",
-  "desk-lamps": "Buy the desk lamp that matches how your desk is used, not the most feature-packed one. For focused work, prioritize adjustable brightness, glare control, and positioning flexibility. For small or design-conscious setups, footprint and aesthetics matter more than gimmicks. The strongest verdicts usually go to lamps that make long sessions easier on your eyes and feel effortless to adjust throughout the day."
+  "desk-lamps": "Buy the desk lamp that matches how your desk is used, not the most feature-packed one. For focused work, prioritize adjustable brightness, glare control, and positioning flexibility. For small or design-conscious setups, footprint and aesthetics matter more than gimmicks. The strongest verdicts usually go to lamps that make long sessions easier on your eyes and feel effortless to adjust throughout the day.",
+  "smart-plugs-power-strips": "The best smart plug or power strip depends less on flashy automation claims and more on how reliably it fits your real devices. A single smart plug is usually the right pick for lamps, fans, coffee makers, and simple scheduling, while smart power strips shine when you need outlet-by-outlet control for a desk, entertainment center, or charging station. Prioritize safe power ratings, dependable app behavior, strong ecosystem support, and trustworthy energy monitoring over extra features you may never use."
 };
 
 // Generic category FAQs (used when a category-specific FAQ is not available)
