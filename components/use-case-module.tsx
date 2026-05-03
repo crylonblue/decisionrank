@@ -99,8 +99,14 @@ interface UseCaseModuleProps {
   categorySlug: string;
 }
 
+const RANKING_BLOCK_LABELS: Record<string, string> = {
+  'use-case': 'Use Cases',
+  comparison: 'Compare',
+  'buyer-questions': 'Buyer Questions',
+};
+
 export function UseCaseModule({ categorySlug }: UseCaseModuleProps) {
-  const { useCases, queryIntents } = getCategoryUseCaseData(categorySlug);
+  const { useCases, queryIntents, rankingDetailBlocks } = getCategoryUseCaseData(categorySlug);
 
   return (
     <>
@@ -151,7 +157,7 @@ export function UseCaseModule({ categorySlug }: UseCaseModuleProps) {
               Common Questions &amp; Search Queries
             </h2>
             <p className="text-sm text-muted-foreground mb-6">
-              Long-tail phrases real buyers search alongside &ldquo;{categorySlug.replace(/-/g, ' ')}&rdquo; —
+              Long-tail phrases real buyers search alongside &ldquo;{categorySlug.replace(/-/g, ' ')}&rdquo;,
               each links to ranked results filtered for that intent.
             </p>
 
@@ -163,6 +169,51 @@ export function UseCaseModule({ categorySlug }: UseCaseModuleProps) {
                   intent={qi.intent}
                   categorySlug={categorySlug}
                 />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {rankingDetailBlocks && rankingDetailBlocks.length > 0 && (
+        <section className="py-12 sm:py-14 border-t border-border/50">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-3 mb-2">
+              <BarChart2 className="h-5 w-5 text-emerald-600" />
+              <span className="text-sm font-medium text-emerald-700 uppercase tracking-wide">
+                Ranking Detail Intent
+              </span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground mb-2">
+              Deep-dive ranking paths buyers actually search
+            </h2>
+            <p className="text-sm text-muted-foreground mb-8 max-w-3xl">
+              These grouped long-tail modules turn existing category scenarios, comparisons, and buyer questions into stronger ranking-detail entry points.
+            </p>
+
+            <div className="grid gap-5 lg:grid-cols-3">
+              {rankingDetailBlocks.map((block) => (
+                <Card key={block.title} className="h-full border-slate-200/80">
+                  <CardHeader className="pb-3">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="secondary" className="text-xs font-medium tracking-wide uppercase">
+                        {RANKING_BLOCK_LABELS[block.type] ?? 'Ranking'}
+                      </Badge>
+                    </div>
+                    <CardTitle className="text-lg leading-snug">{block.title}</CardTitle>
+                    <CardDescription>{block.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    {block.queryPhrases.map((phrase) => (
+                      <QueryIntentRow
+                        key={`${block.title}-${phrase}`}
+                        phrase={phrase}
+                        intent={block.type === 'comparison' ? 'comparational' : 'transactional'}
+                        categorySlug={categorySlug}
+                      />
+                    ))}
+                  </CardContent>
+                </Card>
               ))}
             </div>
           </div>

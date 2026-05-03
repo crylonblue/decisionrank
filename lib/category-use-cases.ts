@@ -33,6 +33,17 @@ export interface ComparisonGuide {
   queryPhrase: string;
 }
 
+export interface RankingDetailBlock {
+  /** Section headline for the ranking-detail module */
+  title: string;
+  /** Supporting context for why these queries matter */
+  description: string;
+  /** Long-tail ranking phrases grouped under this block */
+  queryPhrases: string[];
+  /** High-level module type for styling and future logic */
+  type: 'use-case' | 'comparison' | 'buyer-questions';
+}
+
 export interface CategoryUseCaseData {
   /** Related category slugs used for adjacency/discovery modules */
   clusterSlugs?: string[];
@@ -44,8 +55,12 @@ export interface CategoryUseCaseData {
   queryIntents: QueryIntent[];
   /** Alternate flat list of long-tail phrases for discovery surfaces */
   queryIntentPhrases?: string[];
+  /** Ranking-detail intent modules built from existing category data */
+  rankingDetailBlocks?: RankingDetailBlock[];
   /** Comparison guide blocks — comparative "X vs Y" style queries */
   comparisons: ComparisonGuide[];
+  /** Alias used by ranking-detail modules and downstream comparison surfaces */
+  comparisonGuides?: ComparisonGuide[];
 }
 
 export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
@@ -2904,19 +2919,93 @@ function buildGenericFallback(slug: string): CategoryUseCaseData {
   };
 }
 
+function dedupePhrases(phrases: string[]): string[] {
+  const seen = new Set<string>();
+  return phrases.filter((phrase) => {
+    const normalized = phrase.trim().toLowerCase();
+    if (!normalized || seen.has(normalized)) {
+      return false;
+    }
+    seen.add(normalized);
+    return true;
+  });
+}
+
+function formatCategoryName(slug: string): string {
+  return slug.replace(/-/g, ' ');
+}
+
+function buildRankingDetailBlocks(slug: string, data: CategoryUseCaseData): RankingDetailBlock[] {
+  const categoryName = formatCategoryName(slug);
+  const useCaseQueries = data.useCases
+    .slice(0, 4)
+    .map((useCase) => useCase.title.toLowerCase());
+  const comparisonQueries = data.comparisons
+    .slice(0, 4)
+    .map((comparison) => comparison.queryPhrase);
+  const buyerQuestionQueries = data.queryIntents
+    .filter((query) => query.intent === 'informational' || query.intent === 'transactional')
+    .slice(0, 6)
+    .map((query) => query.phrase);
+
+  const blocks: RankingDetailBlock[] = [
+    {
+      title: `Best ${categoryName} by use case`,
+      description: `Ranking-detail coverage for the buyer scenarios people search most often, from budget picks to niche workflow fits.`,
+      queryPhrases: dedupePhrases(useCaseQueries),
+      type: 'use-case',
+    },
+    {
+      title: `${categoryName.replace(/\b\w/g, c => c.toUpperCase())} comparisons that drive decisions`,
+      description: `Comparison-focused ranking queries that capture buyers deciding between formats, brands, or feature tiers.`,
+      queryPhrases: dedupePhrases(comparisonQueries),
+      type: 'comparison',
+    },
+    {
+      title: `Questions buyers ask before choosing ${categoryName}`,
+      description: `Practical ranking-intent queries pulled from existing informational and transactional search patterns.`,
+      queryPhrases: dedupePhrases(buyerQuestionQueries),
+      type: 'buyer-questions',
+    },
+  ];
+
+  return blocks.filter((block) => block.queryPhrases.length > 0);
+}
+
+function enrichCategoryUseCaseData(slug: string, data: CategoryUseCaseData): CategoryUseCaseData {
+  const rankingDetailBlocks = data.rankingDetailBlocks?.length
+    ? data.rankingDetailBlocks
+    : buildRankingDetailBlocks(slug, data);
+
+  const derivedRankingPhrases = rankingDetailBlocks.flatMap((block) => block.queryPhrases);
+  const existingPhraseList = data.queryIntentPhrases ?? data.queryIntents.map((query) => query.phrase);
+  const enrichedQueryIntentPhrases = dedupePhrases([
+    ...existingPhraseList,
+    ...data.queryIntents.map((query) => query.phrase),
+    ...derivedRankingPhrases,
+  ]);
+
+  return {
+    ...data,
+    queryIntentPhrases: enrichedQueryIntentPhrases,
+    rankingDetailBlocks,
+    comparisonGuides: data.comparisonGuides?.length ? data.comparisonGuides : data.comparisons,
+  };
+}
+
 /**
  * Retrieve use-case + query-intent data for a given category slug.
  * Falls back to generic patterns for any category not in the map.
  */
 export function getCategoryUseCaseData(slug: string): CategoryUseCaseData {
   if (CATEGORY_USE_CASE_DATA[slug]) {
-    return CATEGORY_USE_CASE_DATA[slug];
+    return enrichCategoryUseCaseData(slug, CATEGORY_USE_CASE_DATA[slug]);
   }
-  return buildGenericFallback(slug);
+  return enrichCategoryUseCaseData(slug, buildGenericFallback(slug));
 }
 
 /** Retrieve comparison guide data for a given category slug */
 export function getCategoryComparisonData(slug: string): ComparisonGuide[] {
   const data = getCategoryUseCaseData(slug);
-  return data.comparisons || [];
+  return data.comparisonGuides || data.comparisons || [];
 }

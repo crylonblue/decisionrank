@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-03 (Bob subagent, task 1777762889846):** Added ranking-detail long-tail intent modules from existing category data.
+  - Extended `lib/category-use-cases.ts` with a new `rankingDetailBlocks` model plus `comparisonGuides` alias support, then derived those modules from each category’s existing use cases, comparison queries, and buyer-intent phrases instead of adding thin standalone filler data.
+  - Enriched returned category data so ranking-detail pages now get deduplicated long-tail `queryIntentPhrases`, structured ranking-intent blocks, and comparison-guide data from the same shared source.
+  - Updated `components/use-case-module.tsx` to render a dedicated ranking-detail intent section that groups use-case, comparison, and buyer-question query paths into linkable modules on category pages.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-03 (Bob subagent, task 1777762889838):** Replaced remaining generic category SEO fallback metadata in code and documentation.
   - Added explicit `clusterSlugs`, `useCaseBlocks`, and `queryIntentPhrases` to every seeded category in `lib/category-use-cases.ts` that was still falling back to generic downstream metadata, so discovery surfaces now use category-specific audience targeting and long-tail phrases instead of generic defaults.
   - Reworked `buildGenericFallback()` in `lib/category-use-cases.ts` to remove placeholder-style SEO phrases like `[use case]`, `[budget]`, and `[persona]`, replacing them with cleaner category-aware fallback copy for any future unseeded slug.
