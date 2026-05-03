@@ -8,6 +8,17 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-03 (Bob subagent, task 1777762889826):** Seeded 3 adjacent desk-ergonomics categories more deeply in code only: `monitor-arms`, `laptop-stands`, and `desk-cable-management`.
+  - Added bespoke category-specific FAQs plus structured FAQ schema support and dedicated verdict guidance for all 3 categories in `lib/category-enhancements.ts`, so they no longer depend on generic fallback FAQ/verdict behavior.
+  - Expanded `lib/category-use-cases.ts` for all 3 categories with explicit adjacent `clusterSlugs`, richer `useCaseBlocks`, and flat `queryIntentPhrases` for stronger buyer-intent coverage and topical clustering alongside standing desks, desk lamps, and related desk-setup categories.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
+- **2026-05-03 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
+  - Created API backlog task `1777762889826` (**high**): Seed 3 more adjacent buyer-intent categories in code only, choosing the next highest-leverage categories that deepen clusters already exposed on discovery surfaces or adjacency modules instead of creating isolated inventory. Favor adjacent commercial-intent categories in families like portable creator, desk ergonomics, smart home/security, or wearable/mobile. For each category, add full ranking copy, products, specs, pros/cons, verdict guidance, and category-specific FAQs in the current seed source, plus any necessary category-relations or buyer-intent-module updates so the categories plug cleanly into existing internal-link paths. Do not attempt the still-blocked Convex import step.
+  - Created API backlog task `1777762889838` (**medium**): Replace remaining generic SEO snippet and metadata fallbacks on category, homepage, and `/categories` surfaces with stronger category-specific copy generated from enhanced descriptions, use-case/query-intent data, and cluster context. Keep the implementation reusable and avoid thin standalone pages.
+  - Created API backlog task `1777762889846` (**medium**): Add ranking-detail long-tail intent modules derived from existing category use-case, comparison, and buyer-guidance data, such as best-for-use-case summaries, related buyer questions, or adjacent comparison prompts, to capture more long-tail queries and strengthen internal links without bloating UX.
+  - Planning basis: the latest smart-home/security and portable workstation depth passes are now in place, so the next best backlog is another adjacent category seed batch plus SEO improvements that reduce generic SERP copy and push more long-tail intent coverage onto existing ranking-detail pages.
+
 - **2026-05-02 (Bob subagent, task 1777676503136):** Strengthened desk-lamps adjacency and discovery-surface SEO in code and documentation.
   - Expanded the `desk-lamps` entry in `lib/category-use-cases.ts` with explicit adjacent cluster slugs for `monitor-arms`, `laptop-stands`, `desk-cable-management`, `standing-desks`, and `smart-lighting`.
   - Added richer desk-lamps discovery content through dedicated `useCaseBlocks` and flat `queryIntentPhrases`, covering dual-monitor setups, video calls, study sessions, and compact desks.

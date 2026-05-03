@@ -978,6 +978,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "monitor-arms": {
+    clusterSlugs: ["laptop-stands", "desk-cable-management", "standing-desks", "desk-lamps", "monitors"],
     useCases: [
       {
         label: "Desk Space Saver",
@@ -1000,6 +1001,28 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
         description: "Fully adjustable arms with height, depth, tilt, and rotation to position your screen at eye level and reduce neck strain during long work sessions."
       }
     ],
+    useCaseBlocks: [
+      {
+        title: "Best Monitor Arms for Dual-Monitor Workstations",
+        description: "Stable dual-arm and stacked-arm options that keep two displays aligned for coding, finance, editing, and multitasking-heavy desk setups.",
+        targetAudience: "Power users, developers, analysts, and creators"
+      },
+      {
+        title: "Best Monitor Arms for Standing Desks and Dynamic Workstations",
+        description: "Arms with smooth height travel, strong joints, and reliable clamp security that keep monitors comfortable as the desk moves throughout the day.",
+        targetAudience: "Standing-desk buyers and ergonomic home-office users"
+      },
+      {
+        title: "Best Heavy-Duty Monitor Arms for Ultrawides",
+        description: "High-capacity arms built for 34-inch to 49-inch displays where weight range, tilt hold, and anti-sag performance matter more than extras.",
+        targetAudience: "Ultrawide owners, gamers, and creator setups"
+      },
+      {
+        title: "Best Monitor Arms for Small and Minimalist Desks",
+        description: "Compact arms that reclaim desk surface area while still giving enough tilt, swivel, and cable routing for a clean daily setup.",
+        targetAudience: "Apartment workers, students, and compact desk buyers"
+      }
+    ],
     queryIntents: [
       { phrase: "best monitor arm for dual monitors", intent: "transactional" },
       { phrase: "monitor arm vs stand which is better", intent: "comparational" },
@@ -1016,6 +1039,20 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { phrase: "how to install monitor arm clamp", intent: "informational" },
       { phrase: "monitor arm for sit stand desk", intent: "transactional" },
       { phrase: "monitor arm weight capacity limit", intent: "informational" },
+    ],
+    queryIntentPhrases: [
+      "best monitor arm for dual monitors",
+      "best monitor arm for ultrawide monitor",
+      "best monitor arm for standing desk",
+      "clamp vs grommet monitor arm",
+      "gas spring vs mechanical monitor arm",
+      "monitor arm weight capacity for 34 inch ultrawide",
+      "best budget monitor arm for home office",
+      "how to choose a monitor arm for desk thickness",
+      "monitor arm vs monitor stand for ergonomics",
+      "best monitor arm for small desk setup",
+      "how to stop monitor arm wobble",
+      "best heavy duty monitor arm for 49 inch display"
     ],
     comparisons: [
       { title: "Gas Spring vs Mechanical Spring", description: "Gas-spring arms offer smooth, effortless adjustment; mechanical spring arms are durable and cheaper. Which fits your budget and usage pattern?", queryPhrase: "gas spring vs mechanical monitor arm" },
@@ -1211,6 +1248,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "laptop-stands": {
+    clusterSlugs: ["monitor-arms", "desk-cable-management", "standing-desks", "portable-monitors", "usb-c-hubs"],
     useCases: [
       {
         label: "Ergonomic Posture",
@@ -1233,6 +1271,28 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
         description: "Height-telescoping stands that transition seamlessly between sitting and standing work positions, with sturdy construction and smooth mechanisms."
       }
     ],
+    useCaseBlocks: [
+      {
+        title: "Best Laptop Stands for External Keyboard Desk Setups",
+        description: "Stands that raise the screen to a healthier viewing height while leaving enough room for a separate keyboard, mouse, and tidy cable layout.",
+        targetAudience: "Remote workers, programmers, and daily desk users"
+      },
+      {
+        title: "Best Laptop Stands for Travel and Hybrid Work",
+        description: "Foldable stands that pack flat, set up quickly, and still feel stable enough for hotel desks, coworking spaces, and client-site work.",
+        targetAudience: "Digital nomads, consultants, and hybrid workers"
+      },
+      {
+        title: "Best Laptop Stands for Better Cooling and Heavy Workloads",
+        description: "Open-frame and fan-assisted stands that improve airflow for hotter ultrabooks, gaming laptops, and creator machines under sustained load.",
+        targetAudience: "Creators, engineers, and power users"
+      },
+      {
+        title: "Best Laptop Stands for Small Desks and Minimal Workspaces",
+        description: "Compact risers that improve posture without eating the whole desk, especially when paired with monitor arms, dock setups, or standing desks.",
+        targetAudience: "Students, apartment dwellers, and minimalist setups"
+      }
+    ],
     queryIntents: [
       { phrase: "best laptop stand for posture", intent: "transactional" },
       { phrase: "laptop stand vs desk height ergonomics", intent: "comparational" },
@@ -1250,6 +1310,20 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { phrase: "foldable laptop stand stability", intent: "informational" },
       { phrase: "laptop stand for external keyboard", intent: "transactional" },
     ],
+    queryIntentPhrases: [
+      "best laptop stand for posture and ergonomics",
+      "best portable laptop stand for travel",
+      "best laptop stand for 16 inch laptop",
+      "laptop stand for standing desk setup",
+      "fixed vs adjustable laptop stand",
+      "laptop stand with cooling fan worth it",
+      "best laptop stand for external keyboard and mouse",
+      "foldable laptop stand stability comparison",
+      "best laptop stand for small desk",
+      "aluminum vs plastic laptop stand",
+      "how high should a laptop stand be",
+      "best laptop stand for work from home setup"
+    ],
     comparisons: [
       { title: "Fixed vs Adjustable Height", description: "Fixed stands are simple and cheap; adjustable stands offer ergonomic flexibility for sit-stand transitions. Which matches your workflow?", queryPhrase: "fixed vs adjustable laptop stand" },
       { title: "Aluminum vs Wood vs Plastic", description: "Material affects durability, heat dissipation, and aesthetics. Compare aluminum's cooling, wood's warmth, and plastic's affordability.", queryPhrase: "aluminum vs wood laptop stand" },
@@ -1260,6 +1334,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "desk-cable-management": {
+    clusterSlugs: ["monitor-arms", "laptop-stands", "standing-desks", "desk-lamps", "smart-plugs-power-strips"],
     useCases: [
       {
         label: "Cable Concealment",
@@ -1282,6 +1357,28 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
         description: "Cord covers, mounts, and sleeves specifically designed to bundle power adapters and keep surge protectors out of the way."
       }
     ],
+    useCaseBlocks: [
+      {
+        title: "Best Cable Management for Standing Desks",
+        description: "Flexible trays, mounted power strips, and vertical cable spines that keep cords secure during sit-stand movement without creating tug points.",
+        targetAudience: "Standing-desk owners and ergonomic workspace builders"
+      },
+      {
+        title: "Best Cable Management for Dual-Monitor Home Offices",
+        description: "Solutions for routing monitor power, docking cables, chargers, and accessories into a cleaner layout that is easier to maintain over time.",
+        targetAudience: "Remote workers, developers, and productivity-focused buyers"
+      },
+      {
+        title: "Best Cable Management for Gaming and Creator Setups",
+        description: "Stronger trays, sleeves, and desk-edge routing tools for heavier power bricks, audio gear, RGB accessories, and frequent desk reconfiguration.",
+        targetAudience: "Gamers, streamers, and content creators"
+      },
+      {
+        title: "Best No-Drill Cable Management for Renters",
+        description: "Adhesive clips, reusable ties, and surface-friendly organizers that tidy up the desk without permanent holes in walls or furniture.",
+        targetAudience: "Renters, students, and temporary office setups"
+      }
+    ],
     queryIntents: [
       { phrase: "best cable management for desk", intent: "transactional" },
       { phrase: "how to organize cables behind desk", intent: "informational" },
@@ -1298,6 +1395,20 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { phrase: "cable management for home office", intent: "transactional" },
       { phrase: "how to label cables effectively", intent: "informational" },
       { phrase: "cable management box for power strip", intent: "transactional" },
+    ],
+    queryIntentPhrases: [
+      "best cable management for desk setup",
+      "best cable management for standing desk",
+      "under desk cable tray vs cable box",
+      "best no drill cable management for renters",
+      "how to hide monitor and laptop cables",
+      "cable sleeve vs spiral wrap for desk",
+      "best cable clips for under desk routing",
+      "how to organize power strip under desk",
+      "best cable management for dual monitor setup",
+      "adhesive vs screw in cable clips",
+      "best cable management kit for home office",
+      "how to keep standing desk cables from pulling"
     ],
     comparisons: [
       { title: "Adhesive Clips vs Screw Mounts", description: " adhesive clips are easy to install; screw mounts provide permanent security. Choose based on desk material and permanence preferences.", queryPhrase: "adhesive vs screw cable clips" },

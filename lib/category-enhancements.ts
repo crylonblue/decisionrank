@@ -136,6 +136,48 @@ export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: str
       answer: "Electric desks provide smooth, one-touch height adjustment and multiple memory positions, making them ideal for shared spaces or frequent switches. Manual (crank or pneumatic) desks are more affordable and work without power, but require physical effort to adjust. Choose based on your budget and how often you change positions."
     }
   ],
+  "monitor-arms": [
+    {
+      question: "How do I know if a monitor arm can safely hold my display?",
+      answer: "Check both the monitor's weight without its stock stand and its VESA pattern, then match those against the arm's supported range. A 27-inch office monitor is often easy to fit, but ultrawides, older heavy panels, and Apple displays can sit near the top end of many arms. If you are close to the arm's maximum load, stability and tilt hold become more important than price."
+    },
+    {
+      question: "Is a clamp mount or grommet mount better for a monitor arm?",
+      answer: "Clamp mounts are easier to install and great for renters or anyone who does not want to drill into a desk. Grommet mounts usually feel more secure for permanent setups, especially with heavier monitors or dual-arm loads. The right choice depends on your desk thickness, whether you already have a cable hole, and how often you expect to move the arm."
+    },
+    {
+      question: "Are monitor arms worth it for standing desks?",
+      answer: "Yes, especially if you raise and lower your desk often. A good arm keeps the screen at a better viewing height, reduces wobble compared with many stock stands, and frees desk space for keyboards, notebooks, and lighting. The main thing to watch is overall stability, because a weak arm or flimsy desktop can still introduce shake at full standing height."
+    }
+  ],
+  "laptop-stands": [
+    {
+      question: "Is a laptop stand still useful if I only use my laptop screen?",
+      answer: "Yes, but only if the stand gets the display close enough to eye level and you pair it with an external keyboard and mouse. Raising the laptop alone helps posture, but typing directly on an elevated keyboard is awkward for long sessions. Buyers who will keep using the built-in keyboard should lean toward lower-angle stands instead of tall risers."
+    },
+    {
+      question: "Do laptop stands actually help with heat and performance?",
+      answer: "Often they do. Even a simple open-frame stand can improve airflow by lifting the chassis off the desk and exposing bottom vents, which matters for hot ultrabooks and performance laptops. Active cooling stands with fans help more in sustained workloads, but the biggest win for most people is just better ventilation and less heat trapped under the machine."
+    },
+    {
+      question: "What type of laptop stand is best for travel versus a permanent desk?",
+      answer: "Foldable aluminum or composite stands make the most sense for travel because they are light and easy to pack, even if they give up some stability. For a permanent desk, a heavier fixed or height-adjustable stand usually feels better day to day, especially with larger 15-inch and 17-inch laptops. Choose based on how often you move your setup, not just the lowest listed weight."
+    }
+  ],
+  "desk-cable-management": [
+    {
+      question: "What is the best cable management approach for a standing desk?",
+      answer: "Start with an under-desk tray or mounted power strip, then use a flexible cable spine or sleeve to handle the movement down to the wall outlet. The key is giving cables enough slack for full height travel without letting them snag or hang visibly. Standing desks usually need a more deliberate plan than fixed desks because one loose power brick can ruin the whole setup."
+    },
+    {
+      question: "Can I do clean cable management without drilling into my desk or wall?",
+      answer: "Usually yes. Adhesive clips, velcro ties, cable boxes, magnetic mounts, and no-drill under-desk trays can go a long way, especially in rentals. They are not always as strong as screwed-in hardware, but for lighter office setups they are often good enough if you prep the surface well and avoid overloading each mount point."
+    },
+    {
+      question: "Should I buy a cable management kit or piece together my own setup?",
+      answer: "A kit is great if you want a quick cleanup and your desk setup is fairly standard. Custom combinations work better when you have a standing desk, dual monitors, audio gear, or awkward power brick sizes that make generic bundles less useful. In practice, many buyers get the best result by starting with a tray and velcro ties, then adding clips or sleeves only where they solve a real mess."
+    }
+  ],
   "wireless-earbuds": [
     {
       question: "Are wireless earbuds good for exercising?",
@@ -555,7 +597,10 @@ export const CATEGORY_VERDICT_GUIDANCE: Record<string, string> = {
   "portable-monitors": "Choose a portable monitor based on where you actually work. Travelers and hybrid workers should prioritize low weight, bright panels, and dependable one-cable USB-C support. If you mostly work from one desk, a sturdier stand, better color accuracy, or extra features like touch may be more valuable than shaving off a few ounces. The best verdict is usually the model that makes your daily setup frictionless, not the one with the longest spec sheet.",
   "docking-stations": "The right docking station should disappear into your workflow: one connection, stable displays, consistent charging, and zero drama with peripherals. Buyers with simple one-monitor setups can save money with a quality USB-C dock, while dual-display or power-user setups usually justify paying more for Thunderbolt or a higher-end desktop dock. In this category, reliability and compatibility are worth more than an extra port or two.",
   "desk-lamps": "Buy the desk lamp that matches how your desk is used, not the most feature-packed one. For focused work, prioritize adjustable brightness, glare control, and positioning flexibility. For small or design-conscious setups, footprint and aesthetics matter more than gimmicks. The strongest verdicts usually go to lamps that make long sessions easier on your eyes and feel effortless to adjust throughout the day.",
-  "smart-plugs-power-strips": "The best smart plug or power strip depends less on flashy automation claims and more on how reliably it fits your real devices. A single smart plug is usually the right pick for lamps, fans, coffee makers, and simple scheduling, while smart power strips shine when you need outlet-by-outlet control for a desk, entertainment center, or charging station. Prioritize safe power ratings, dependable app behavior, strong ecosystem support, and trustworthy energy monitoring over extra features you may never use."
+  "smart-plugs-power-strips": "The best smart plug or power strip depends less on flashy automation claims and more on how reliably it fits your real devices. A single smart plug is usually the right pick for lamps, fans, coffee makers, and simple scheduling, while smart power strips shine when you need outlet-by-outlet control for a desk, entertainment center, or charging station. Prioritize safe power ratings, dependable app behavior, strong ecosystem support, and trustworthy energy monitoring over extra features you may never use.",
+  "monitor-arms": "The best monitor arm is the one that safely handles your display while making the desk easier to use every day. Weight range, height travel, and mount quality matter more than flashy extras, especially for ultrawides and standing desks. If an arm feels stable, adjusts without fuss, and gives you cleaner ergonomics plus reclaimed desk space, it is probably the right buy even if it has fewer bonus features.",
+  "laptop-stands": "A good laptop stand should solve a real ergonomic or space problem, not just make the desk look nicer. For fixed desks, stability and viewing height matter most, while travel buyers should care more about packability and setup speed. The strongest picks usually balance posture, airflow, and footprint without forcing awkward typing angles or adding unnecessary bulk.",
+  "desk-cable-management": "The best cable management setup is the one you will actually maintain after the first cleanup. Start with the highest-impact fixes like an under-desk tray, mounted power strip, and reusable ties, then add clips, sleeves, or raceways where they reduce visible mess or snag risk. In this category, practical fit for your desk and devices matters more than buying the biggest kit on the page."
 };
 
 export const CATEGORY_KEYWORD_MODIFIERS: Record<string, string[]> = {
@@ -575,6 +620,27 @@ export const CATEGORY_KEYWORD_MODIFIERS: Record<string, string[]> = {
 
 export const CATEGORY_FAQ_SCHEMA: Record<string, Array<{ question: string; answer: { '@type': 'Answer'; text: string } }>> = {
   "desk-lamps": CATEGORY_FAQS["desk-lamps"].map((faq) => ({
+    question: faq.question,
+    answer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+  "monitor-arms": CATEGORY_FAQS["monitor-arms"].map((faq) => ({
+    question: faq.question,
+    answer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+  "laptop-stands": CATEGORY_FAQS["laptop-stands"].map((faq) => ({
+    question: faq.question,
+    answer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+  "desk-cable-management": CATEGORY_FAQS["desk-cable-management"].map((faq) => ({
     question: faq.question,
     answer: {
       '@type': 'Answer',
