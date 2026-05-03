@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-03 (Bob subagent, task 1777762889838):** Replaced remaining generic category SEO fallback metadata in code and documentation.
+  - Added explicit `clusterSlugs`, `useCaseBlocks`, and `queryIntentPhrases` to every seeded category in `lib/category-use-cases.ts` that was still falling back to generic downstream metadata, so discovery surfaces now use category-specific audience targeting and long-tail phrases instead of generic defaults.
+  - Reworked `buildGenericFallback()` in `lib/category-use-cases.ts` to remove placeholder-style SEO phrases like `[use case]`, `[budget]`, and `[persona]`, replacing them with cleaner category-aware fallback copy for any future unseeded slug.
+  - Replaced the thin generic fallback string in `lib/category-enhancements.ts` with a richer category-aware description generator for categories that still lack a bespoke long-form enhancement entry.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-03 (Bob subagent, task 1777762889826):** Seeded 3 adjacent desk-ergonomics categories more deeply in code only: `monitor-arms`, `laptop-stands`, and `desk-cable-management`.
   - Added bespoke category-specific FAQs plus structured FAQ schema support and dedicated verdict guidance for all 3 categories in `lib/category-enhancements.ts`, so they no longer depend on generic fallback FAQ/verdict behavior.
   - Expanded `lib/category-use-cases.ts` for all 3 categories with explicit adjacent `clusterSlugs`, richer `useCaseBlocks`, and flat `queryIntentPhrases` for stronger buyer-intent coverage and topical clustering alongside standing desks, desk lamps, and related desk-setup categories.

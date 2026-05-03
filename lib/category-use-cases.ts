@@ -50,6 +50,43 @@ export interface CategoryUseCaseData {
 
 export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
   "air-fryers": {
+    clusterSlugs: ["coffee-makers", "espresso-machines", "smart-plugs-power-strips", "robot-vacuums", "air-purifiers"],
+    useCaseBlocks: [
+      {
+        title: "Best Air Fryers for Small Kitchens",
+        description: "Compact models with 2–3 quart capacity that fit any countertop without sacrificing performance. Ideal for apartments, solo users, and dorm rooms.",
+        targetAudience: "Apartment dwellers and small-kitchen cooks"
+      },
+      {
+        title: "Best Large-Capacity Air Fryers for Families",
+        description: "5–7 quart baskets that handle family-sized portions, whole chickens, and batch cooking with even heat distribution and fast preheat times.",
+        targetAudience: "Families cooking larger batches"
+      },
+      {
+        title: "Best Affordable Air Fryers Under $100",
+        description: "Entry-level models that deliver crispy results without the premium price tag — perfect for first-time buyers or casual home cooks.",
+        targetAudience: "Budget shoppers and first-time air fryer buyers"
+      },
+      {
+        title: "Easiest-to-Clean Air Fryers",
+        description: "Dishwasher-safe baskets and nonstick coatings that cut down cleanup time so you can enjoy your meal without the post-cooking scrub.",
+        targetAudience: "Busy cooks who hate cleanup"
+      }
+    ],
+    queryIntentPhrases: [
+      "best air fryer for small kitchen",
+      "air fryer vs oven which is better",
+      "how to use an air fryer for beginners",
+      "air fryer recipes healthy",
+      "air fryer family size 6 quart",
+      "air fryer dishwasher safe basket",
+      "quiet air fryer for apartments",
+      "air fryer temperature guide",
+      "air fryer vs convection oven comparison",
+      "best air fryer under $50",
+      "air fryer vs toaster oven",
+      "how to clean air fryer basket"
+    ],
     useCases: [
       {
         label: "Small Spaces",
@@ -145,6 +182,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "coffee-makers": {
+    clusterSlugs: ["espresso-machines", "air-fryers", "smart-plugs-power-strips", "smart-lighting", "robot-vacuums"],
+    useCaseBlocks: [
+      {
+        title: "Best Coffee Makers for Quick Morning Brews",
+        description: "Fast brew times under 5 minutes, programmable timers, and thermal carafes that keep coffee hot without a hot plate. Built for busy mornings.",
+        targetAudience: "Busy households that need quick coffee"
+      },
+      {
+        title: "Best Espresso Machines Under $500",
+        description: "Semi-automatic machines that pull cafe-quality shots without the professional price tag. Ideal for espresso lovers who want to master the craft at home.",
+        targetAudience: "Home baristas shopping for espresso value"
+      },
+      {
+        title: "Best Single-Serve Coffee Makers",
+        description: "Pod-compatible machines with fast startup and minimal cleanup — great for offices or households where one person drinks at a time.",
+        targetAudience: "Single-cup drinkers and office setups"
+      },
+      {
+        title: "Best Coffee Makers for Iced Coffee and Cold Brew",
+        description: "Built-in cold brew makers and fast-cooling carafes that produce smooth, less acidic iced coffee without dilution or long steep times.",
+        targetAudience: "Iced coffee fans and cold-brew drinkers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best coffee maker for morning routine",
+      "drip coffee maker vs espresso machine",
+      "best espresso machine under $500",
+      "single serve coffee maker for office",
+      "how to make cold brew coffee at home",
+      "coffee maker thermal carafe vs glass",
+      "best coffee maker for two people",
+      "programmable coffee maker with auto on",
+      "pour over vs drip coffee",
+      "best coffee maker under $100",
+      "burr vs blade grinder coffee",
+      "how to descale coffee maker"
+    ],
     useCases: [
       {
         label: "Morning Routine",
@@ -194,6 +268,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "external-ssds": {
+    clusterSlugs: ["portable-monitors", "docking-stations", "usb-c-hubs", "gaming-laptops", "smartphones"],
+    useCaseBlocks: [
+      {
+        title: "Best External SSDs for 4K and 8K Video Editing",
+        description: "Thunderbolt 4 and USB4 drives that sustain high-speed transfers for ProRes and RAW video workflows without thermal throttling.",
+        targetAudience: "Video editors and filmmakers"
+      },
+      {
+        title: "Best External SSDs for Game Libraries",
+        description: "Fast load times and large capacity for storing AAA titles on PS5, Xbox, or PC. Look for durable designs that survive frequent transport.",
+        targetAudience: "Console and PC gamers"
+      },
+      {
+        title: "Best External SSDs for Photographers",
+        description: "Fast sequential reads that accelerate Lightroom catalog access and large file transfers from SD and CFexpress cards.",
+        targetAudience: "Photographers and creators"
+      },
+      {
+        title: "Most Rugged Portable SSDs for Travel",
+        description: "IP55+ rated drives with shock, water, and dust resistance for on-location shoots, fieldwork, and travel journalists who need reliable storage anywhere.",
+        targetAudience: "Traveling professionals and field teams"
+      }
+    ],
+    queryIntentPhrases: [
+      "best external SSD for video editing",
+      "Thunderbolt 4 vs USB4 external SSD",
+      "external SSD for PS5 game storage",
+      "fastest portable SSD 2026",
+      "external SSD for photography workflow",
+      "rugged portable SSD waterproof",
+      "how long do external SSDs last",
+      "external SSD heat throttling fix",
+      "Samsung T7 vs SanDisk Extreme",
+      "external SSD vs flash drive speed",
+      "best external SSD for MacBook",
+      "how to format external SSD for Mac and Windows"
+    ],
     useCases: [
       {
         label: "Video Production",
@@ -243,6 +354,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "microphones": {
+    clusterSlugs: ["webcams", "stream-decks", "gaming-laptops", "noise-cancelling-headphones", "monitors"],
+    useCaseBlocks: [
+      {
+        title: "Best Microphones for Twitch and YouTube Streaming",
+        description: "USB condenser mics with built-in monitoring, mute buttons, and good off-axis rejection for gaming streamers who need clear voice in echoey rooms.",
+        targetAudience: "Twitch and YouTube streamers"
+      },
+      {
+        title: "Best Microphones for Podcast Recording",
+        description: "XLR and USB podcast mics optimized for voice clarity, with cardioid pickup patterns that isolate speech from room noise and background chatter.",
+        targetAudience: "Podcasters and interview-based creators"
+      },
+      {
+        title: "Best Microphones for Video Calls and Remote Work",
+        description: "Plug-and-play USB mics that elevate call quality beyond laptop built-ins, with noise suppression compatibility and compact desk footprints.",
+        targetAudience: "Remote workers and frequent callers"
+      },
+      {
+        title: "Best XLR Microphones for Home Studios",
+        description: "Professional-grade XLR condensers with wide frequency response and low self-noise for voice-over, audiobook, and music recording.",
+        targetAudience: "Home-studio musicians and voice-over artists"
+      }
+    ],
+    queryIntentPhrases: [
+      "best USB microphone for streaming",
+      "XLR vs USB microphone for podcast",
+      "best microphone for remote work video calls",
+      "how to set up a home recording studio microphone",
+      "cardioid vs omnidirectional microphone",
+      "best budget microphone for YouTube",
+      "pop filter and shock mount worth it",
+      "microphone for acoustic guitar recording",
+      "dynamic vs condenser microphone",
+      "best microphone for streaming on a budget",
+      "how to reduce microphone background noise",
+      "USB vs XLR audio quality"
+    ],
     useCases: [
       {
         label: "Streaming",
@@ -292,6 +440,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "monitors": {
+    clusterSlugs: ["monitor-arms", "laptop-stands", "standing-desks", "desk-lamps", "portable-monitors"],
+    useCaseBlocks: [
+      {
+        title: "Best Gaming Monitors for Competitive and Casual Play",
+        description: "High refresh rate (144–360 Hz) with low response times and adaptive sync — from esports panels to immersive OLED gaming displays.",
+        targetAudience: "Competitive gamers and esports players"
+      },
+      {
+        title: "Best Monitors for Photo and Video Editing",
+        description: "Wide gamut displays (AdobeRGB, DCI-P3) with factory calibration and hardware LUT support for color-accurate photo and video work.",
+        targetAudience: "Photographers, video editors, and designers"
+      },
+      {
+        title: "Best Ultrawide Monitors for Productivity",
+        description: "34-inch+ ultrawide monitors that replace dual-screen setups with a single expansive canvas — ideal for analysts, developers, and content writers.",
+        targetAudience: "Developers, analysts, and multitaskers"
+      },
+      {
+        title: "Best Budget Monitors Under $250",
+        description: "1080p IPS monitors that deliver solid color accuracy and 60–75 Hz performance for students and home office users on a tight budget.",
+        targetAudience: "Students and home-office buyers on a budget"
+      }
+    ],
+    queryIntentPhrases: [
+      "best gaming monitor 144hz 4k",
+      "IPS vs VA vs OLED monitor which is best",
+      "best monitor for photo editing color accuracy",
+      "ultrawide monitor for software development",
+      "how to calibrate monitor colors at home",
+      "best budget monitor for home office 2026",
+      "monitor refresh rate explained 60 vs 144 vs 240",
+      "USB-C monitor hub built in",
+      "1080p vs 1440p vs 4K monitor",
+      "best ultrawide monitor for productivity",
+      "monitor response time 1ms vs 5ms",
+      "how to reduce monitor eye strain"
+    ],
     useCases: [
       {
         label: "Gaming",
@@ -341,6 +526,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "noise-cancelling-headphones": {
+    clusterSlugs: ["wireless-earbuds", "microphones", "smart-watches", "smartphones", "gaming-laptops"],
+    useCaseBlocks: [
+      {
+        title: "Best Noise-Cancelling Headphones for Air Travel",
+        description: "Industry-leading ANC with 25+ hour battery life, compact folding design, and optional airline adapter — engineered to silence engine noise and cabin chatter.",
+        targetAudience: "Frequent flyers and commuters"
+      },
+      {
+        title: "Best ANC Headphones for the Office",
+        description: "Comfortable over-ear design for all-day wear with multipoint Bluetooth for switching between laptop and phone, plus transparency mode for quick conversations.",
+        targetAudience: "Remote workers in noisy environments"
+      },
+      {
+        title: "Best Noise-Cancelling Headphones for Sound Quality",
+        description: "Flagship ANC headphones that don't compromise on audio fidelity — with LDAC/aptX support, customizable EQ, and detailed soundstage.",
+        targetAudience: "Listeners who care most about audio quality"
+      },
+      {
+        title: "Best Sweat-Resistant ANC Headphones for Workouts",
+        description: "IPX4+ rated ANC headphones with secure fit, stable wings, and ambient awareness modes for gym users who need silence but also situational awareness.",
+        targetAudience: "Gym users and active buyers who still want ANC"
+      }
+    ],
+    queryIntentPhrases: [
+      "best noise cancelling headphones for flying",
+      "over ear vs earbuds noise cancellation",
+      "best ANC headphones for office work",
+      "how does active noise cancellation work",
+      "best sounding noise cancelling headphones 2026",
+      "ANC headphones battery life comparison",
+      "best wireless headphones for big ears",
+      "can you use noise cancelling headphones with cable",
+      "Sony WH-1000XM5 vs Bose QC45",
+      "best noise cancelling headphones under $300",
+      "how to clean noise cancelling headphones",
+      "ANC vs transparency mode"
+    ],
     useCases: [
       {
         label: "Frequent Flyers",
@@ -390,6 +612,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "office-chairs": {
+    clusterSlugs: ["standing-desks", "monitor-arms", "laptop-stands", "desk-cable-management", "desk-lamps"],
+    useCaseBlocks: [
+      {
+        title: "Best Ergonomic Office Chairs Under $300",
+        description: "Value-driven chairs with adjustable lumbar, armrests, and breathable mesh that deliver 80% of an ergonomic chair's comfort at a fraction of the cost.",
+        targetAudience: "Budget-conscious home-office buyers"
+      },
+      {
+        title: "Best Premium Ergonomic Chairs for All-Day Comfort",
+        description: "High-end chairs with fully articulated lumbar, 4D armrests, and premium materials for users who spend 6+ hours per day in a chair and need maximum support.",
+        targetAudience: "Executives and all-day desk workers"
+      },
+      {
+        title: "Best Office Chairs for Tall and Big People",
+        description: "Chairs rated for 300+ lbs with tall backrests, deep seat pans, and wide seat widths designed for taller frames without sacrificing adjustability.",
+        targetAudience: "Tall users and plus-size buyers"
+      },
+      {
+        title: "Best Office Chairs for Gaming and Long Sessions",
+        description: "Gaming-style ergonomic chairs with bold aesthetics, recline locks, and neck pillow support — built for extended gaming marathons without sacrificing spine health.",
+        targetAudience: "Gamers and long-session desk users"
+      }
+    ],
+    queryIntentPhrases: [
+      "best ergonomic office chair under 300",
+      "Herman Miller Aeron vs Steelcase Leap",
+      "office chair for back pain relief",
+      "mesh vs foam office chair which is better",
+      "best office chair for tall people",
+      "how to adjust office chair lumbar support",
+      "gaming chair vs office chair ergonomic",
+      "office chair warranty what to look for",
+      "best office chair for short person",
+      "kneeling chair vs ergonomic",
+      "how to assemble office chair",
+      "office chair yoga poses for back"
+    ],
     useCases: [
       {
         label: "Budget",
@@ -439,6 +698,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "robot-vacuums": {
+    clusterSlugs: ["air-purifiers", "smart-security-cameras", "smart-lighting", "smart-plugs-power-strips", "video-doorbells"],
+    useCaseBlocks: [
+      {
+        title: "Best Robot Vacuums for Pet Hair and Allergies",
+        description: "High-Pa suction, tangle-free brush rolls, and HEPA filtration that handles shedding pets without clogging. Self-emptying docks reduce hands-on maintenance.",
+        targetAudience: "Pet owners dealing with shedding and allergens"
+      },
+      {
+        title: "Best Robot Vacuums for Mixed Floor Types",
+        description: "Adaptive bristle/barbar combo brushes that transition from low-pile carpet to hardwood without scattering debris — plus carpet boost modes for deeper clean.",
+        targetAudience: "Homes with mixed hard floors and carpet"
+      },
+      {
+        title: "Best Robot Vacuums with Mopping",
+        description: "2-in-1 units with active mopping plates, water tank management, and scrubbing patterns that handle everyday kitchen and bathroom floor maintenance.",
+        targetAudience: "Buyers who want light mopping help"
+      },
+      {
+        title: "Best Robot Vacuums for Large Homes Over 2,000 sq ft",
+        description: "120+ minute runtime, multi-floor mapping, and self-recharging resume that covers expansive layouts without leaving sections uncleaned.",
+        targetAudience: "Large-home owners who need less manual cleaning"
+      }
+    ],
+    queryIntentPhrases: [
+      "best robot vacuum for pet hair",
+      "robot vacuum with self emptying dock",
+      "roomba vs Roborock which is better",
+      "can robot vacuum replace regular vacuum",
+      "best robot vacuum for carpet and hardwood",
+      "how to map multiple floors with robot vacuum",
+      "robot vacuum mop combo effectiveness",
+      "how often to run robot vacuum",
+      "robot vacuum vs manual vacuum",
+      "best robot vacuum for stairs",
+      "robot vacuum maintenance schedule",
+      "best robot vacuum for thick carpet"
+    ],
     useCases: [
       {
         label: "Pet Owners",
@@ -537,6 +833,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "standing-desks": {
+    clusterSlugs: ["office-chairs", "monitor-arms", "laptop-stands", "desk-cable-management", "desk-lamps"],
+    useCaseBlocks: [
+      {
+        title: "Best Standing Desks Under $400",
+        description: "Affordable electric and manual desks with solid stability, smooth height adjustment, and reliable memory presets — built for home offices on a budget.",
+        targetAudience: "Home-office buyers on a budget"
+      },
+      {
+        title: "Best Standing Desks for Dual Monitors and Heavy Loads",
+        description: "Desks rated for 300+ lbs with rigid frames, large surface area, and high wattage motors that lift heavy monitor setups without wobbling.",
+        targetAudience: "Power users with heavy monitor setups"
+      },
+      {
+        title: "Best Standing Desks for Small Home Offices",
+        description: "Compact footprint desks with full height range that fit in tight apartments and closets without sacrificing the ability to sit and stand.",
+        targetAudience: "Small-space apartment workers"
+      },
+      {
+        title: "Best Standing Desks for Multiple Users",
+        description: "Desks with four+ memory presets, fast adjustment speed, and anti-collision sensors that accommodate households or offices with multiple people sharing the same desk.",
+        targetAudience: "Shared offices and multi-user households"
+      }
+    ],
+    queryIntentPhrases: [
+      "best standing desk under 400 dollars",
+      "electric vs manual standing desk",
+      "standing desk for heavy monitor setup",
+      "how to prevent back pain with standing desk",
+      "best standing desk for small apartment",
+      "standing desk bamboo top vs wood",
+      "standing desk converter vs full size",
+      "best standing desk for shared office",
+      "standing desk motor noise level",
+      "dual motor vs single motor standing desk",
+      "how to program standing desk memory presets",
+      "best standing desk mat for comfort"
+    ],
     useCases: [
       {
         label: "Budget",
@@ -586,6 +919,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "webcams": {
+    clusterSlugs: ["microphones", "desk-lamps", "monitors", "stream-decks", "laptop-stands"],
+    useCaseBlocks: [
+      {
+        title: "Best Webcams for Professional Video Calls",
+        description: "1080p at 30 fps webcams with auto-exposure, noise-reducing microphones, and wide field of view — designed for daily Zoom, Teams, and Meet calls.",
+        targetAudience: "Remote workers and client-facing professionals"
+      },
+      {
+        title: "Best Webcams for Twitch and YouTube Streaming",
+        description: "60 fps webcams at 1080p or 4K with background removal, color correction, and face-tracking that give streamers a polished on-camera presence.",
+        targetAudience: "Streamers and creators"
+      },
+      {
+        title: "Best Webcams for Dark Home Offices",
+        description: "Large pixel sensors with excellent low-light performance — no more grainy evening calls thanks to hardware-based light correction and HDR.",
+        targetAudience: "Users with dark home-office setups"
+      },
+      {
+        title: "Best Portable Webcams for Travel and Digital Nomads",
+        description: "Compact, lightweight webcams that slip into a laptop bag and work reliably across hotel Wi-Fi and shared workspaces worldwide.",
+        targetAudience: "Digital nomads and travel-heavy workers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best webcam for zoom calls professional",
+      "1080p vs 4K webcam which is better",
+      "best webcam for streaming twitch",
+      "how to improve webcam video quality lighting",
+      "webcam with microphone for mac",
+      "best budget webcam 2026",
+      "external webcam vs built-in macbook camera",
+      "best webcam for low light office",
+      "Logitech Brio vs StreamCam",
+      "webcam vs smartphone camera for streaming",
+      "best webcam for podcasting interviews",
+      "how to mount webcam on monitor"
+    ],
     useCases: [
       {
         label: "Remote Work",
@@ -684,6 +1054,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "mechanical-keyboards": {
+    clusterSlugs: ["monitors", "gaming-laptops", "office-chairs", "monitor-arms", "desk-lamps"],
+    useCaseBlocks: [
+      {
+        title: "Best Mechanical Keyboards for Competitive Gaming",
+        description: "Fast switches, low-latency wireless or wired performance, and stable key feel for players who care about clean inputs, rapid strafes, and consistent actuation under pressure.",
+        targetAudience: "Competitive PC gamers"
+      },
+      {
+        title: "Best Mechanical Keyboards for Programming and All-Day Typing",
+        description: "Comfort-focused boards with strong stabilizers, practical layouts, and switch options that make long coding sessions feel better without turning every keypress into office noise.",
+        targetAudience: "Programmers and heavy typists"
+      },
+      {
+        title: "Best 75%, 65%, and Tenkeyless Mechanical Keyboards",
+        description: "Space-saving layouts that preserve the most useful keys while freeing more room for mouse movement, smaller desks, cleaner cable management, and easier transport.",
+        targetAudience: "Buyers who want smaller desk footprints"
+      },
+      {
+        title: "Best Hot-Swappable Mechanical Keyboards for Easy Upgrades",
+        description: "Prebuilt boards that let you experiment with switches, keycaps, and sound without soldering, ideal for buyers who want enthusiast flexibility with much less friction.",
+        targetAudience: "Enthusiasts who want easy switch upgrades"
+      }
+    ],
+    queryIntentPhrases: [
+      "best mechanical keyboard for gaming",
+      "best mechanical keyboard for programming",
+      "wireless mechanical keyboard for gaming",
+      "best hot swappable mechanical keyboard",
+      "best quiet mechanical keyboard for office",
+      "mechanical keyboard for Mac",
+      "cherry mx red vs brown which switch",
+      "tactile vs linear vs clicky switches",
+      "hot-swappable vs soldered keyboard",
+      "75% vs tkl keyboard",
+      "60% keyboard pros and cons",
+      "QMK vs VIA firmware"
+    ],
     useCases: [
       {
         label: "Gaming",
@@ -782,6 +1189,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "usb-c-hubs": {
+    clusterSlugs: ["docking-stations", "portable-monitors", "laptop-stands", "monitors", "external-ssds"],
+    useCaseBlocks: [
+      {
+        title: "Best USB-C Hubs with HDMI and USB-A",
+        description: "All-in-one hubs that add HDMI video, USB-A ports, SD card readers, and power delivery through a single USB-C connection — perfect for laptops with minimal ports.",
+        targetAudience: "Laptop users replacing lost ports"
+      },
+      {
+        title: "Best USB-C Hubs for Dual 4K Monitors",
+        description: "Hubs with dual HDMI or DisplayPort outputs that drive two high-resolution displays for productivity multitaskers and developers.",
+        targetAudience: "Dual-monitor productivity buyers"
+      },
+      {
+        title: "Best USB-C Hubs with Fast Charging",
+        description: "Hubs that deliver 60W+ power pass-through to charge your laptop while simultaneously powering connected peripherals.",
+        targetAudience: "MacBook and ultrabook owners who need charging"
+      },
+      {
+        title: "Most Compact USB-C Hubs for Travel",
+        description: "Lightweight, pocketable hubs that weigh under 100g — essential for digital nomads and business travelers who need connectivity on the go.",
+        targetAudience: "Travelers who need a compact desk-in-a-bag setup"
+      }
+    ],
+    queryIntentPhrases: [
+      "best USB-C hub for MacBook",
+      "USB-C hub with HDMI and Ethernet",
+      "can USB-C hub power dual monitors",
+      "USB-C hub vs docking station",
+      "best USB-C hub for laptop with one port",
+      "USB-C hub power delivery 100W",
+      "how to connect printer to USB-C hub",
+      "USB-C hub SD card reader speed",
+      "Anker vs CalDigit USB-C hub",
+      "best budget USB-C hub under $50",
+      "USB-C hub for gaming laptop",
+      "does USB-C hub reduce speed"
+    ],
     useCases: [
       {
         label: "Multi-Port Expansion",
@@ -831,6 +1275,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "tablet-stands-mounts": {
+    clusterSlugs: ["laptop-stands", "portable-monitors", "usb-c-hubs", "desk-lamps", "smartphones"],
+    useCaseBlocks: [
+      {
+        title: "Best Tablet Stands for Desk and Office",
+        description: "Adjustable-angle stands that position your tablet at eye level for video calls, note-taking, and second-screen productivity.",
+        targetAudience: "Desk workers and note-takers"
+      },
+      {
+        title: "Best Tablet Mounts for Kitchen Use",
+        description: "Sturdy arms and clamps that hold tablets steady while cooking, with easy-clean surfaces and 360° swivel for recipe viewing from any angle.",
+        targetAudience: "Home cooks and kitchen tablet users"
+      },
+      {
+        title: "Best Tablet Stands for Bed and Couch",
+        description: "Flexible gooseneck mounts that clamp to bed frames or rest on surfaces, enabling hands-free viewing in reclined positions.",
+        targetAudience: "Readers and media watchers in bed or on the couch"
+      },
+      {
+        title: "Best Car Tablet Mounts for Road Trips",
+        description: "Vent and windshield mounts that keep tablets secure for passengers, with vibration damping and quick-release mechanisms.",
+        targetAudience: "Families planning car and travel tablet setups"
+      }
+    ],
+    queryIntentPhrases: [
+      "best tablet stand for desk",
+      "tablet mount for kitchen cabinet",
+      "adjustable vs fixed tablet stand",
+      "best tablet stand for drawing art",
+      "tablet stand for bed with remote control",
+      "tablet wall mount for kitchen",
+      "how to mount tablet in car",
+      "tablet stand with charging cable hole",
+      "Lamicall vs Nulaxy tablet stand",
+      "best tablet stand for video calls",
+      "tablet stand for small space",
+      "how to make DIY tablet stand"
+    ],
     useCases: [
       {
         label: "Desk Setup",
@@ -880,6 +1361,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "gaming-laptops": {
+    clusterSlugs: ["monitors", "mechanical-keyboards", "microphones", "external-ssds", "stream-decks"],
+    useCaseBlocks: [
+      {
+        title: "Best Gaming Laptops for Competitive Esports",
+        description: "High-refresh-rate (360Hz) displays, fastest GPU response times, and mechanical keyboards built for esports titles like CS2, Valorant, and Overwatch 2.",
+        targetAudience: "Esports players chasing high refresh rates"
+      },
+      {
+        title: "Best Gaming Laptops for AAA Titles",
+        description: "RTX 4070+ GPUs with high-wattage designs, excellent cooling, and QHD displays that handle Cyberpunk, Elden Ring, and future-proofed releases.",
+        targetAudience: "Players focused on demanding AAA games"
+      },
+      {
+        title: "Best Thin-and-Light Gaming Laptops",
+        description: "Sub-2kg laptops with RTX 4060-level performance in sleek chassis that won't embarrass you in a coffee shop or conference room.",
+        targetAudience: "Students and travelers who still want gaming power"
+      },
+      {
+        title: "Best Gaming Laptops for Streaming",
+        description: "Laptops with powerful CPUs (Ryzen 9 or i9), strong multi-core performance, and high-quality webcams/mics for Twitch and YouTube creators.",
+        targetAudience: "Creators who stream and game on one machine"
+      }
+    ],
+    queryIntentPhrases: [
+      "best gaming laptop for competitive esports",
+      "RTX 4080 vs RTX 4090 gaming laptop",
+      "gaming laptop vs desktop PC which is better",
+      "best thin gaming laptop 2026",
+      "gaming laptop for streaming and recording",
+      "how to improve gaming laptop thermals",
+      "best gaming laptop under $1500",
+      "gaming laptop battery life expectations",
+      "AMD Ryzen vs Intel gaming laptop",
+      "best gaming laptop for AAA games",
+      "gaming laptop screen size 15 vs 17 inch",
+      "how to clean gaming laptop fans"
+    ],
     useCases: [
       {
         label: "Competitive Esports",
@@ -929,6 +1447,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "smartphones": {
+    clusterSlugs: ["smart-watches", "wireless-earbuds", "smart-security-cameras", "smart-lighting", "portable-monitors"],
+    useCaseBlocks: [
+      {
+        title: "Best Smartphones for Mobile Photography",
+        description: "Flagship phones with large sensors, optical zoom, and computational photography that outperform point-and-shoot cameras for travel and everyday shooting.",
+        targetAudience: "Mobile photographers and content creators"
+      },
+      {
+        title: "Best Smartphones with Longest Battery Life",
+        description: "Phones with 5000mAh+ batteries and efficient chipsets that last 2+ days between charges — perfect for travelers and heavy users.",
+        targetAudience: "Heavy users who care about battery endurance"
+      },
+      {
+        title: "Best Mid-Range Smartphones Under $700",
+        description: "Phones that deliver 90% of flagship features at a fraction of the cost — great value for users who don't need every bell and whistle.",
+        targetAudience: "Value-focused buyers chasing flagship feel"
+      },
+      {
+        title: "Best Gaming Smartphones for Mobile Games",
+        description: "Phones with 120Hz+ AMOLED displays, shoulder triggers, and active cooling systems optimized for Genshin Impact, Honkai, and PUBG Mobile.",
+        targetAudience: "Mobile gamers who want high refresh and cooling"
+      }
+    ],
+    queryIntentPhrases: [
+      "best smartphone for camera photography",
+      "iPhone vs Android which is better 2026",
+      "best phone battery life long lasting",
+      "smartphone under $700 flagship features",
+      "best gaming phone for mobile games",
+      "how to extend smartphone battery life",
+      "smartphone refresh rate 120Hz vs 60Hz",
+      "best phone for video recording",
+      "Samsung Galaxy vs iPhone comparison",
+      "best small smartphone one-handed use",
+      "smartphone overheating issues fix",
+      "best foldable smartphone 2026"
+    ],
     useCases: [
       {
         label: "Photography",
@@ -1064,6 +1619,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "portable-monitors": {
+    clusterSlugs: ["docking-stations", "usb-c-hubs", "laptop-stands", "external-ssds", "gaming-laptops"],
+    useCaseBlocks: [
+      {
+        title: "Best Portable Monitors for Digital Nomads and Travel Setups",
+        description: "Slim 13 to 16-inch displays with lightweight shells, single-cable USB-C connectivity, and protective folio covers that make it easy to add a second screen in cafes, hotels, and coworking spaces.",
+        targetAudience: "Travel-heavy remote workers"
+      },
+      {
+        title: "Best Portable Monitors for Dual-Screen Laptop Work",
+        description: "Portable displays that pair cleanly with MacBooks and Windows laptops for spreadsheets, coding, design review, and side-by-side research without carrying a full desktop monitor.",
+        targetAudience: "Laptop users who need a second screen"
+      },
+      {
+        title: "Best Portable Monitors for Switch, Steam Deck, and Console Gaming",
+        description: "High-refresh or low-latency portable panels with HDMI or USB-C video input, built-in speakers, and enough brightness for hotel-room gaming or compact desk setups.",
+        targetAudience: "Switch, Steam Deck, and console players"
+      },
+      {
+        title: "Best Portable Monitors for Photo, Design, and Client Review",
+        description: "Color-consistent portable screens with better brightness, wider gamut coverage, and strong viewing angles for photographers, designers, and creators who need a credible second display away from the studio.",
+        targetAudience: "Designers and photographers reviewing work on the go"
+      }
+    ],
+    queryIntentPhrases: [
+      "best portable monitor for laptop travel",
+      "portable monitor for MacBook USB-C",
+      "portable monitor for dual screen remote work",
+      "best portable monitor for Steam Deck",
+      "portable monitor 15.6 vs 14 inch",
+      "touchscreen vs non touchscreen portable monitor",
+      "do portable monitors need external power",
+      "portable monitor brightness nits how much needed",
+      "best portable monitor for coding",
+      "portable monitor for Nintendo Switch with one cable",
+      "portable monitor 1080p vs 1440p",
+      "best portable monitor with kickstand"
+    ],
     useCases: [
       {
         label: "Travel Work",
@@ -1113,6 +1705,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "docking-stations": {
+    clusterSlugs: ["usb-c-hubs", "portable-monitors", "external-ssds", "monitors", "laptop-stands"],
+    useCaseBlocks: [
+      {
+        title: "Best Docking Stations for One-Cable Laptop Setups",
+        description: "Docks that let you connect displays, Ethernet, storage, and charging through one cable, making it easy to turn a laptop into a full workstation at home or in the office.",
+        targetAudience: "Hybrid workers building one-cable desks"
+      },
+      {
+        title: "Best Docking Stations for Dual and Triple Monitor Workflows",
+        description: "Thunderbolt and USB4 docks with enough bandwidth for multiple high-resolution displays, ideal for finance, engineering, development, and other multitasking-heavy roles.",
+        targetAudience: "Analysts and developers with multi-monitor needs"
+      },
+      {
+        title: "Best Docking Stations for Mixed Mac and PC Setups",
+        description: "Cross-platform docks that reduce compatibility headaches when teams switch between MacBooks and Windows laptops and still need reliable charging, networking, and display output.",
+        targetAudience: "MacBook and Windows mixed-device offices"
+      },
+      {
+        title: "Best Docking Stations for Creators and Peripheral-Heavy Desks",
+        description: "Higher-end docks with fast downstream USB, SD readers, 2.5GbE or Gigabit Ethernet, and strong power delivery for users juggling cameras, SSDs, audio gear, and multiple accessories.",
+        targetAudience: "Creators with many drives and accessories"
+      }
+    ],
+    queryIntentPhrases: [
+      "best docking station for MacBook Pro dual monitor",
+      "best docking station for Windows laptop home office",
+      "USB-C dock vs Thunderbolt dock",
+      "docking station for triple monitors laptop",
+      "DisplayLink vs Thunderbolt dock",
+      "do I need a docking station for two monitors",
+      "best laptop dock with ethernet and charging",
+      "docking station not detecting monitor fix",
+      "best docking station for M3 MacBook Air",
+      "universal docking station for Mac and Windows",
+      "docking station power delivery 65W vs 100W",
+      "best thunderbolt dock for external SSD workflow"
+    ],
     useCases: [
       {
         label: "Single-Cable Desk",
@@ -1420,6 +2049,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "smart-lighting": {
+    clusterSlugs: ["smart-plugs-power-strips", "video-doorbells", "smart-security-cameras", "desk-lamps", "smart-locks"],
+    useCaseBlocks: [
+      {
+        title: "Best Smart Lighting for Ambient Atmosphere",
+        description: "Color-changing bulbs and LED strips that set the perfect mood for relaxing, entertaining, or focusing. Voice and app control for effortless scenes.",
+        targetAudience: "Buyers creating mood and ambient scenes"
+      },
+      {
+        title: "Best Smart Lighting for Home Security",
+        description: "Automated schedules, random-on timers, and motion-triggered lights that deter burglars and simulate occupancy when you're away.",
+        targetAudience: "Homeowners focused on occupancy simulation"
+      },
+      {
+        title: "Best Energy-Efficient Smart Bulbs",
+        description: "Low-wattage LED smart bulbs with Energy Star ratings, scheduling, and dimming to reduce electricity bills without sacrificing ambiance.",
+        targetAudience: "Energy-conscious households"
+      },
+      {
+        title: "Best Outdoor Smart Lighting",
+        description: "Weather-resistant fixtures, pathway lights, and floodlights with IP65+ ratings that withstand rain, snow, and temperature extremes.",
+        targetAudience: "Outdoor and weather-exposed lighting buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best smart bulbs for ambiance",
+      "smart lighting for home security",
+      "Philips Hue vs alternatives",
+      "how to set up smart lighting scenes",
+      "best outdoor smart lights weatherproof",
+      "Wi-Fi vs Zigbee smart bulbs",
+      "smart lighting energy savings calculation",
+      "best smart lighting for Alexa",
+      "color temperature smart lighting effects",
+      "smart lighting for home theater",
+      "how to sync smart lights with music",
+      "best smart lighting for Google Home"
+    ],
     useCases: [
       {
         label: "Ambient Mood",
@@ -1469,6 +2135,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "smart-locks": {
+    clusterSlugs: ["video-doorbells", "smart-security-cameras", "smart-lighting", "smart-plugs-power-strips", "smartphones"],
+    useCaseBlocks: [
+      {
+        title: "Best Smart Locks for Renters and Apartments",
+        description: "Retrofit smart locks that preserve exterior hardware, install quickly, and remove cleanly when you move out, while still adding app access, auto-lock, and guest codes.",
+        targetAudience: "Renters and apartment dwellers"
+      },
+      {
+        title: "Best Smart Locks for Families with Frequent Access",
+        description: "Keypad and fingerprint smart locks that make school runs, dog walkers, and family schedules easier without copying physical keys for everyone.",
+        targetAudience: "Families sharing frequent access"
+      },
+      {
+        title: "Best Smart Locks for Short-Term Rentals",
+        description: "Locks with easy code management, remote unlock, audit trails, and reliable guest access workflows for hosts managing turnovers and cleaners.",
+        targetAudience: "Airbnb hosts and property managers"
+      },
+      {
+        title: "Best Smart Locks for Security-Focused Homeowners",
+        description: "Durable deadbolts with strong build quality, reliable low-battery behavior, and solid integrations with cameras, alarms, and wider smart-home routines.",
+        targetAudience: "Homeowners prioritizing security integrations"
+      }
+    ],
+    queryIntentPhrases: [
+      "best smart lock for renters",
+      "smart lock with keypad vs fingerprint",
+      "best smart lock for Airbnb",
+      "are smart locks safe for front door",
+      "retrofit vs deadbolt replacement smart lock",
+      "best smart lock for Apple HomeKey",
+      "smart lock battery life comparison",
+      "best smart lock without subscription",
+      "smart lock works without wifi",
+      "August vs Yale vs Schlage smart lock",
+      "best smart lock for apartment door",
+      "smart lock installation door thickness compatibility"
+    ],
     useCases: [
       {
         label: "Renters",
@@ -1518,6 +2221,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "smart-plugs-power-strips": {
+    clusterSlugs: ["smart-lighting", "smart-locks", "video-doorbells", "desk-cable-management", "coffee-makers"],
+    useCaseBlocks: [
+      {
+        title: "Best Smart Plugs for Simple Home Automation",
+        description: "Reliable single-outlet smart plugs that make lamps, coffee makers, fans, and seasonal lighting easy to schedule, voice-control, and automate without building a full smart-home stack.",
+        targetAudience: "First-time smart-home buyers"
+      },
+      {
+        title: "Best Smart Power Strips for Desks, Offices, and Gaming Setups",
+        description: "Multi-outlet smart strips with individual socket control, surge protection, and USB charging for monitors, speakers, chargers, and accessory-heavy workstations.",
+        targetAudience: "Desk, office, and gaming setup builders"
+      },
+      {
+        title: "Best Smart Plugs for Energy Tracking and Cost Control",
+        description: "Energy-monitoring plugs that help you spot standby drain, understand appliance costs, and create automations based on real power draw instead of guesswork.",
+        targetAudience: "People tracking appliance energy costs"
+      },
+      {
+        title: "Best Smart Plugs for Alexa, Google Home, Apple Home, and Matter",
+        description: "Smart plugs and strips that integrate cleanly with major ecosystems, respond quickly to routines, and avoid the app headaches that ruin otherwise useful automations.",
+        targetAudience: "Alexa, Google Home, and Apple Home households"
+      }
+    ],
+    queryIntentPhrases: [
+      "best smart plug for home automation",
+      "best smart power strip for desk setup",
+      "smart plug with energy monitoring accuracy",
+      "best smart plug for alexa and google home",
+      "smart plug vs smart power strip",
+      "wifi vs zigbee vs matter smart plug",
+      "can smart plugs work without internet",
+      "best smart plug for lamps and coffee maker",
+      "smart power strip with individual outlet control",
+      "best smart plug for renters apartment",
+      "smart plug energy monitoring for appliances",
+      "best smart power strip for gaming setup"
+    ],
     useCases: [
       {
         label: "Home Automation",
@@ -1567,6 +2307,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "video-doorbells": {
+    clusterSlugs: ["smart-locks", "smart-security-cameras", "smart-lighting", "smartphones", "smart-plugs-power-strips"],
+    useCaseBlocks: [
+      {
+        title: "Best Video Doorbells for Apartments and Renters",
+        description: "Battery-powered doorbells that install without major wiring changes and still deliver reliable alerts, clear live view, and package visibility.",
+        targetAudience: "Renters and apartment buyers"
+      },
+      {
+        title: "Best Video Doorbells for Package Deliveries",
+        description: "Doorbells with tall field-of-view framing, package zones, and useful event history for buyers dealing with frequent deliveries and porch theft concerns.",
+        targetAudience: "Frequent online shoppers tracking packages"
+      },
+      {
+        title: "Best Wired Video Doorbells for Permanent Installs",
+        description: "Hardwired models with faster response, longer clips, and more dependable recording for homeowners who want the most complete front-door coverage.",
+        targetAudience: "Homeowners who prefer wired reliability"
+      },
+      {
+        title: "Best Video Doorbells Without Expensive Subscriptions",
+        description: "Doorbells that stay useful with local storage or generous free features, so you can monitor your porch without piling on monthly fees.",
+        targetAudience: "Buyers avoiding recurring subscription fees"
+      }
+    ],
+    queryIntentPhrases: [
+      "best video doorbell for apartments",
+      "wired vs battery video doorbell",
+      "best video doorbell for packages",
+      "video doorbell without subscription",
+      "best video doorbell for google home",
+      "ring vs nest vs eufy doorbell",
+      "how much voltage does wired video doorbell need",
+      "best head to toe video doorbell view",
+      "video doorbell local storage vs cloud",
+      "best doorbell camera night vision",
+      "video doorbell motion detection false alerts",
+      "best video doorbell for cold weather"
+    ],
     useCases: [
       {
         label: "Apartments",
@@ -1616,6 +2393,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "smart-security-cameras": {
+    clusterSlugs: ["video-doorbells", "smart-locks", "smart-lighting", "smartphones", "smart-plugs-power-strips"],
+    useCaseBlocks: [
+      {
+        title: "Best Outdoor Security Cameras for Home Perimeters",
+        description: "Weather-resistant cameras with strong night vision, dependable motion alerts, and enough image clarity to monitor driveways, yards, and side entrances.",
+        targetAudience: "Homeowners protecting outdoor perimeters"
+      },
+      {
+        title: "Best Indoor Security Cameras for Pets, Kids, and Apartments",
+        description: "Compact indoor cameras with privacy shutters, smart alerts, and clear two-way audio for buyers who want flexible monitoring without complex installs.",
+        targetAudience: "Apartment dwellers monitoring indoors"
+      },
+      {
+        title: "Best Security Cameras Without Monthly Fees",
+        description: "Local-storage-first systems that avoid recurring cloud costs while still delivering useful notifications, event review, and dependable footage access.",
+        targetAudience: "Buyers who want local storage over subscriptions"
+      },
+      {
+        title: "Best Smart Security Cameras for Integrated Automations",
+        description: "Cameras that pair smoothly with smart locks, lights, doorbells, and voice assistants to create stronger whole-home security routines.",
+        targetAudience: "Smart-home users building broader automations"
+      }
+    ],
+    queryIntentPhrases: [
+      "best outdoor security camera without subscription",
+      "battery vs wired security camera",
+      "best indoor security camera for apartment",
+      "security camera local storage vs cloud",
+      "best smart security camera for homekit",
+      "what resolution do i need for security camera",
+      "best security camera for driveway night vision",
+      "security camera person detection accuracy",
+      "arlo vs eufy vs ring security camera",
+      "best floodlight security camera",
+      "continuous recording vs motion only camera",
+      "best security camera for cold weather"
+    ],
     useCases: [
       {
         label: "Outdoor Coverage",
@@ -1665,6 +2479,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "stream-decks": {
+    clusterSlugs: ["microphones", "webcams", "gaming-laptops", "monitors", "mechanical-keyboards"],
+    useCaseBlocks: [
+      {
+        title: "Best Stream Decks for Live Streaming",
+        description: "Programmable LCD button panels that trigger OBS scenes, media playback, chat commands, and app launches — essential tools for Twitch and YouTube streamers.",
+        targetAudience: "Live streamers running OBS and chat actions"
+      },
+      {
+        title: "Best Stream Decks for Video Editors",
+        description: "Custom macros for timeline navigation, effect toggles, and export shortcuts that cut editing time in Premiere Pro, DaVinci Resolve, or Final Cut.",
+        targetAudience: "Video editors building shortcut-heavy workflows"
+      },
+      {
+        title: "Best Stream Decks for Productivity",
+        description: "One-touch shortcuts for common workflows — window management, app switching, clipboard snippets, and system commands to speed up daily tasks.",
+        targetAudience: "Knowledge workers automating repetitive tasks"
+      },
+      {
+        title: "Best Stream Decks for Audio Mixing",
+        description: " Dedicated mute/unmute, volume faders, and EQ preset buttons for Discord, OBS, and streaming audio interfaces without reaching for mouse.",
+        targetAudience: "Audio mixers, podcasters, and music creators"
+      }
+    ],
+    queryIntentPhrases: [
+      "best stream deck for twitch streaming",
+      "Elgato Stream Deck vs Loupedeck",
+      "how to set up stream deck for OBS",
+      "stream deck for video editing",
+      "best budget stream deck alternative",
+      "stream deck vs macro keyboard",
+      "stream deck keyboard shortcuts",
+      "best large stream deck 32 keys",
+      "stream deck for podcasting",
+      "Stream Deck XL vs standard",
+      "stream deck software alternatives",
+      "how to create stream deck icons"
+    ],
     useCases: [
       {
         label: "Streaming Controls",
@@ -1714,6 +2565,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "code-editors": {
+    clusterSlugs: ["ci-cd-tools", "api-testing-tools", "gaming-laptops", "monitors", "mechanical-keyboards"],
+    useCaseBlocks: [
+      {
+        title: "Best Code Editors for Web Development",
+        description: "Feature-packed editors with HTML/CSS/JS support, live preview, and integrated terminal for front-end and full-stack web development workflows.",
+        targetAudience: "Frontend and full-stack web developers"
+      },
+      {
+        title: "Best Code Editors for Data Science",
+        description: "Editors with Jupyter notebook integration, Python auto-completion, data visualization tools, and scientific computing extensions for analysts and researchers.",
+        targetAudience: "Python users and data scientists"
+      },
+      {
+        title: "Best Code Editors for Large Projects",
+        description: "Fast, memory-efficient editors with strong project indexing, code navigation, and multi-file refactoring tools for enterprise-scale codebases.",
+        targetAudience: "Engineers working in big codebases"
+      },
+      {
+        title: "Best Code Editors for Beginners",
+        description: "Simple, intuitive interfaces with helpful error messages, built-in tutorials, and gentle learning curves for new programmers.",
+        targetAudience: "Beginners learning to code for the first time"
+      }
+    ],
+    queryIntentPhrases: [
+      "best code editor for web development",
+      "VS Code vs JetBrains which is better",
+      "best code editor for Python",
+      "lightweight code editor for old laptop",
+      "code editor with best autocomplete",
+      "how to choose code editor as beginner",
+      "best code editor for JavaScript",
+      "code editor with built-in terminal",
+      "VS Code vs Sublime Text vs Atom",
+      "code editor for remote development",
+      "best free code editor 2026",
+      "code editor with best debugging"
+    ],
     useCases: [
       {
         label: "Web Development",
@@ -1763,6 +2651,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "ci-cd-tools": {
+    clusterSlugs: ["code-editors", "api-testing-tools", "cloud-hosting", "issue-tracking", "project-management"],
+    useCaseBlocks: [
+      {
+        title: "Best CI/CD Tools for Team Workflows",
+        description: "Platforms with pull request checks, shared pipelines, and fine-grained permissions that keep development teams coordinated and releases reliable.",
+        targetAudience: "Software teams standardizing delivery workflows"
+      },
+      {
+        title: "Best CI/CD for Open Source Projects",
+        description: "Free-tier-friendly services with community features, contribution automation, and public repository support for maintainers and contributors.",
+        targetAudience: "Open-source maintainers and contributors"
+      },
+      {
+        title: "Best Self-Hosted CI/CD Platforms",
+        description: "On-premise runners and private installations for teams with strict data residency, security, or compliance requirements — full control over infrastructure.",
+        targetAudience: "Security-conscious teams that need self-hosting"
+      },
+      {
+        title: "Best CI/CD for Mobile and IoT Apps",
+        description: "Specialized tooling for iOS/Android builds, device farm integration, and firmware over-the-air updates for mobile and embedded developers.",
+        targetAudience: "Mobile and embedded development teams"
+      }
+    ],
+    queryIntentPhrases: [
+      "best CI/CD tool for startups",
+      "Jenkins vs GitHub Actions comparison",
+      "CI/CD for monorepo best practices",
+      "self-hosted CI/CD for enterprise",
+      "best CI/CD for Docker containers",
+      "how does CI/CD pipeline work",
+      "CI/CD for microservices best tools",
+      "GitLab CI vs CircleCI",
+      "best free CI/CD for open source",
+      "CI/CD pipeline security scanning",
+      "CI/CD tools for small teams",
+      "continuous integration vs continuous delivery difference"
+    ],
     useCases: [
       {
         label: "Team Collaboration",
@@ -1812,6 +2737,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "api-testing-tools": {
+    clusterSlugs: ["code-editors", "ci-cd-tools", "cloud-hosting", "issue-tracking", "project-management"],
+    useCaseBlocks: [
+      {
+        title: "Best API Testing Tools for Developers",
+        description: "Feature-rich platforms for manual and automated API testing with scripting, environment variables, and team collaboration for building robust APIs.",
+        targetAudience: "Backend and platform engineers"
+      },
+      {
+        title: "Best API Testing Tools for Automation",
+        description: "Tools with strong scripting engines, CI/CD integration, and test scheduling that enable continuous API testing and regression prevention.",
+        targetAudience: "Teams comparing GUI API clients"
+      },
+      {
+        title: "Best API Load Testing Tools",
+        description: "High-concurrency platforms designed for stress testing, load testing, and benchmarking API performance under realistic traffic conditions.",
+        targetAudience: "Developers automating contract and CI tests"
+      },
+      {
+        title: "Best API Mocking Tools",
+        description: "Service virtualization and mock API servers that simulate external dependencies during development and testing without hitting production.",
+        targetAudience: "Smaller teams choosing a first API workflow tool"
+      }
+    ],
+    queryIntentPhrases: [
+      "best API testing tool for REST",
+      "Postman vs Insomnia comparison",
+      "automated API testing for CI/CD",
+      "best free API testing tool",
+      "API load testing tools comparison",
+      "how to test REST API manually",
+      "best API testing for GraphQL",
+      "Postman alternatives open source",
+      "API testing with JavaScript examples",
+      "best API testing tool for teams",
+      "API contract testing best practices",
+      "best API mocking tool for development"
+    ],
     useCases: [
       {
         label: "API Development",
@@ -1864,52 +2826,80 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
 
 /**
  * Generic fallback for categories not yet in the data map.
- * Returns a minimal set of three use cases and three query intents
- * derived from the category slug for immediate SEO coverage.
+ * Returns category-aware default coverage for slugs not yet seeded in the map,
+ * without placeholder copy leaking into SEO-facing modules.
  */
 function buildGenericFallback(slug: string): CategoryUseCaseData {
-  const name = slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
-  const kebab = slug.toLowerCase();
+  const words = slug.split("-").filter(Boolean);
+  const name = words.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+  const shortName = words.join(" ");
+  const singular = words.length > 1 ? (words.slice(0, -1).join(" ") || shortName) : shortName;
+
   return {
+    clusterSlugs: [],
     useCases: [
       {
-        label: "Top Rated",
-        title: `Best ${name} for Every Budget`,
-        description: `Expert-ranked ${name.toLowerCase()} across price tiers — from entry-level picks to premium options for discerning buyers.`
+        label: "Best Overall",
+        title: `Best ${name} for Most Buyers`,
+        description: `Balanced picks that combine strong performance, dependable build quality, and sensible pricing for mainstream ${shortName} shoppers.`
       },
       {
-        label: "For Beginners",
-        title: `Best ${name} for First-Time Buyers`,
-        description: `Accessible options that deliver great results without a steep learning curve or overwhelming feature sets.`
+        label: "Value Pick",
+        title: `Best Budget-Friendly ${name}`,
+        description: `Lower-cost options that still cover the essentials for buyers who want dependable ${shortName} performance without overspending.`
       },
       {
-        label: "For Professionals",
-        title: `Best ${name} for Professional Use`,
-        description: `High-performance models built for demanding workloads, frequent use, and long-term reliability.`
+        label: "Premium Choice",
+        title: `Best Premium ${name} for Demanding Use`,
+        description: `Higher-end models built for heavier workloads, deeper feature sets, and buyers who plan to rely on their ${singular} every day.`
       },
+    ],
+    useCaseBlocks: [
+      {
+        title: `Best ${name} for Everyday Buying Decisions`,
+        description: `A buyer-focused overview of the ${shortName} options that make the most sense for performance, usability, and long-term value.`,
+        targetAudience: `${shortName} shoppers`
+      },
+      {
+        title: `Best ${name} for Budget-Conscious Shoppers`,
+        description: `Coverage aimed at lower-cost options, where price discipline matters just as much as feature quality.`,
+        targetAudience: "price-sensitive buyers"
+      },
+      {
+        title: `Best ${name} for Higher-End Requirements`,
+        description: `A premium lens on the category, including durability, advanced features, and ownership tradeoffs for power users.`,
+        targetAudience: `power users comparing ${shortName}`
+      }
     ],
     queryIntents: [
-      { phrase: `best ${kebab} 2026`, intent: "transactional" },
-      { phrase: `${kebab} buying guide`, intent: "informational" },
-      { phrase: `how to choose a ${kebab}`, intent: "informational" },
-      { phrase: `${kebab} vs competing brands`, intent: "comparational" },
-      { phrase: `top rated ${kebab} reviews`, intent: "informational" },
-      { phrase: `affordable ${kebab} under $200`, intent: "transactional" },
-      { phrase: `${kebab} for [use case]`, intent: "transactional" },
-      { phrase: `best ${kebab} for [budget]`, intent: "transactional" },
-      { phrase: `${kebab} problems common issues`, intent: "informational" },
-      { phrase: `${kebab} vs alternative brands`, intent: "comparational" },
-      { phrase: `which ${kebab} is best for [persona]`, intent: "informational" },
-      { phrase: `${kebab} specifications explained`, intent: "informational" },
-      { phrase: `best ${kebab} 2026 comparison`, intent: "comparational" },
-      { phrase: `${kebab} deals discounts`, intent: "transactional" },
-      { phrase: `${kebab} warranty support`, intent: "informational" },
+      { phrase: `best ${shortName} for most people`, intent: "transactional" },
+      { phrase: `${shortName} buying guide`, intent: "informational" },
+      { phrase: `how to choose the right ${singular}`, intent: "informational" },
+      { phrase: `best budget ${shortName}`, intent: "transactional" },
+      { phrase: `${shortName} comparison`, intent: "comparational" },
+      { phrase: `${shortName} features to look for`, intent: "informational" },
+      { phrase: `best ${shortName} for beginners`, intent: "transactional" },
+      { phrase: `premium vs budget ${shortName}`, intent: "comparational" },
+      { phrase: `${shortName} pros and cons`, intent: "informational" },
+      { phrase: `best ${shortName} under $200`, intent: "transactional" },
+      { phrase: `${shortName} brand comparison`, intent: "comparational" },
+      { phrase: `${shortName} maintenance and support`, intent: "informational" },
+    ],
+    queryIntentPhrases: [
+      `best ${shortName} for most people`,
+      `${shortName} buying guide`,
+      `how to choose the right ${singular}`,
+      `best budget ${shortName}`,
+      `${shortName} comparison`,
+      `${shortName} features to look for`,
+      `best ${shortName} for beginners`,
+      `premium vs budget ${shortName}`
     ],
     comparisons: [
-      { title: `Best ${name} Overall vs Budget Pick`, description: `Compare our top overall recommendation with a budget-friendly alternative that still delivers great value.`, queryPhrase: `best ${kebab} overall vs budget` },
-      { title: `Premium vs Mid-Range ${name}`, description: `Weigh the benefits of high-end features against cost savings of mid-range models.`, queryPhrase: `premium vs mid-range ${kebab}` },
-      { title: `Top Brands Compared`, description: `How leading ${name.toLowerCase()} brands stack up in terms of quality, features, and price.`, queryPhrase: `${kebab} brands comparison` },
-      { title: `Old vs New Generation`, description: `Is it worth upgrading from the previous generation? We compare specs and real-world performance.`, queryPhrase: `new vs old ${kebab} generation` },
+      { title: `Best ${name} Overall vs Budget Pick`, description: `Compare the safest all-around choice with a cheaper ${singular} that still covers the essentials.`, queryPhrase: `best ${shortName} overall vs budget` },
+      { title: `Premium vs Mid-Range ${name}`, description: `See where higher-end features genuinely improve the experience and where mid-range picks already do enough.`, queryPhrase: `premium vs mid-range ${shortName}` },
+      { title: `${name} Brand Comparison`, description: `A direct look at the brands buyers shortlist most often when comparing ${shortName} options.`, queryPhrase: `${shortName} brand comparison` },
+      { title: `New vs Older ${name} Models`, description: `We compare the latest releases with older models to see when upgrades are worth paying for.`, queryPhrase: `new vs old ${shortName}` },
     ],
   };
 }

@@ -702,14 +702,24 @@ export function getEnhancedDescription(categorySlug: string, currentDescription:
   if (enhanced) {
     return enhanced;
   }
-  // Fallback: if current description is very short (< 100 chars), provide a generic expansion
   if (currentDescription && currentDescription.length >= 100) {
     return currentDescription;
   }
-  const categoryName = categorySlug
+
+  const words = categorySlug
     .split("-")
+    .filter(Boolean);
+  const categoryName = words
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
-  // Generic fallback (rare)
-  return `Explore our expertly researched rankings and comparisons in ${categoryName}. We test and evaluate top products to help you make an informed purchase decision.`;
+  const categoryLabel = words.join(" ");
+  const singularLabel = words.length > 1
+    ? (words.slice(0, -1).join(" ") || categoryLabel)
+    : categoryLabel;
+
+  return `${categoryName} buyers usually care about three things first: real-world performance, how well the product fits their specific use case, and whether the price is justified by long-term value. Our rankings compare ${categoryLabel} across the specs and tradeoffs that actually shape buying decisions, including build quality, feature depth, ease of use, and ownership costs.
+
+Instead of recycling generic top-pick language, we organize the category around the questions shoppers really ask, such as which ${singularLabel} is best for everyday use, where premium models meaningfully outperform cheaper ones, and which features are worth prioritizing before you buy. That makes these comparisons useful whether you are narrowing a shortlist or trying to avoid an expensive mistake.
+
+We update our ${categoryLabel} recommendations as new models launch, pricing changes, and older options fall behind, so the page stays focused on current best buys rather than stale catalog copy.`;
 }
