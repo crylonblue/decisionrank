@@ -5,12 +5,14 @@ import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import { HeroSection } from '@/components/hero-section';
 import { BuyerIntentModules } from '@/components/buyer-intent-modules';
+import { ThinFamilyClusterSections } from '@/components/thin-family-cluster-sections';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Clock } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getBaseUrl, generateWebSiteJsonLd, generateOrganizationJsonLd } from '@/lib/seo';
+import { buildThinFamilyClusterSections } from '@/lib/thin-family-clusters';
 
 const getCategoryIntro = (name: string, description?: string | null) => {
   const fallback = `Browse DecisionRank's ${name.toLowerCase()} rankings to compare standout options, key features, and buyer-focused recommendations.`;
@@ -79,6 +81,7 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   // Fetch categories for the landing page (when no search)
   const allCategories = searchQuery ? [] : await getAllCategories();
   const rankingCounts = searchQuery ? {} : await getRankingCountsByCategory();
+  const thinFamilyClusters = searchQuery ? [] : buildThinFamilyClusterSections(allCategories);
   // Sort by created_at descending to prioritize newer categories for better SEO link equity distribution
   const sortedCategories = searchQuery ? [] : [...allCategories].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
   const categories = sortedCategories.slice(0, 6);
@@ -281,6 +284,13 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
 
         {/* Buyer Intent Discovery Modules */}
         <BuyerIntentModules categories={allCategories} rankingCounts={rankingCounts} />
+
+        <ThinFamilyClusterSections
+          clusters={thinFamilyClusters}
+          rankingCounts={rankingCounts}
+          title="Category Families Worth Exploring Next"
+          description="These underlinked families now get richer intros, browse blocks, and buyer-search paths directly on the homepage so newer category hubs have stronger internal-link coverage."
+        />
 
         {/* Categories Section */}
         {categories.length > 0 && (

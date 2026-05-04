@@ -10,6 +10,8 @@ import type { Metadata } from 'next';
 import { getBaseUrl } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { BuyerIntentModules } from '@/components/buyer-intent-modules';
+import { ThinFamilyClusterSections } from '@/components/thin-family-cluster-sections';
+import { buildThinFamilyClusterSections } from '@/lib/thin-family-clusters';
 
 const getCategoryIntro = (name: string, description?: string | null) => {
   const fallback = `Explore ${name.toLowerCase()} rankings, comparison criteria, and recommendation guides for the best options in this category.`;
@@ -49,6 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function CategoriesPage() {
   const categories = await getAllCategories();
   const rankingCounts = await getRankingCountsByCategory();
+  const thinFamilyClusters = buildThinFamilyClusterSections(categories);
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -90,6 +93,13 @@ export default async function CategoriesPage() {
 
           {/* Buyer Intent Discovery Modules */}
           <BuyerIntentModules categories={categories} rankingCounts={rankingCounts} />
+
+          <ThinFamilyClusterSections
+            clusters={thinFamilyClusters}
+            rankingCounts={rankingCounts}
+            title="Browse Category Families with Buyer Intent Context"
+            description="These family spotlights add descriptive intros, grouped category browsing, and long-tail buyer paths for the thinnest clusters on DecisionRank."
+          />
 
           {/* Categories Grid */}
           {categories.length === 0 ? (

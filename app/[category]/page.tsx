@@ -23,6 +23,8 @@ import { UseCaseModule } from '@/components/use-case-module';
 import { ComparisonModule } from '@/components/comparison-module';
 import { ComparisonCallouts } from '@/components/comparison-callouts';
 import { TrustIndicators } from '@/components/trust-indicators';
+import { ThinFamilyClusterSections } from '@/components/thin-family-cluster-sections';
+import { buildThinFamilyClusterSections } from '@/lib/thin-family-clusters';
 
 export const dynamic = 'force-dynamic';
 
@@ -101,6 +103,9 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   // Fetch all categories and ranking counts for internal linking
   const allCategories = await getAllCategories();
   const rankingCounts = await getRankingCountsByCategory();
+  const thinFamilyClusters = buildThinFamilyClusterSections(allCategories).filter((cluster) =>
+    cluster.categorySlugs.includes(categorySlug)
+  );
 
   const currentPage = Math.max(1, parseInt(page || '1', 10));
   const totalRankings = rankings.length;
@@ -294,6 +299,14 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             relatedCategories={displayCategories.slice(0, 3)}
           />
         )}
+
+        <ThinFamilyClusterSections
+          clusters={thinFamilyClusters}
+          rankingCounts={rankingCounts}
+          currentCategorySlug={categorySlug}
+          title={`More ${category.name} buyer paths`}
+          description="This family spotlight adds richer cluster context, grouped browsing, and related buyer-intent links without creating a thin standalone hub page."
+        />
 
         {/* Cluster-based navigation for adjacent-category discovery */}
         <ClusterNavigation

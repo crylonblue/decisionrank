@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-04 (Bob subagent, task 1777849362373):** Added cluster-level SEO modules for underdeveloped category families on existing discovery surfaces.
+  - Created reusable thin-family cluster scaffolding in `lib/thin-family-clusters.ts` for the thinnest DecisionRank families: wearable/audio, kitchen, and developer-tools.
+  - Added new `ThinFamilyClusterSections` component that renders family intros, grouped browse cards, buyer-search links derived from existing query-intent data, and adjacent-category cross-links pulled from the related-category graph.
+  - Integrated those family spotlights into the homepage, `/categories`, and matching category pages only, so thin families gain stronger internal-link coverage without creating standalone cluster pages.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-04 (Bob subagent, task 1777849362234):** Backfilled 3 legacy live categories into the current code seed source.
   - Added full `.seed-payload` inventory for `air-purifiers`, `smart-watches`, and `wireless-earbuds` in `scripts/.seed-payload.json`, including categories, rankings, 18 products total, specs, pros/cons sentiments, verdict summaries, and 15 ranking FAQs so these live categories are no longer missing from the current seed snapshot source.
   - Expanded `lib/category-use-cases.ts` for all 3 categories with explicit `clusterSlugs`, richer `useCaseBlocks`, and flat `queryIntentPhrases`, aligning their downstream metadata shape with newer seeded categories instead of relying on thinner legacy-only definitions.
