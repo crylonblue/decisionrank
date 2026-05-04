@@ -8,6 +8,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-04 (Bob subagent, task 1777849362306):** Finished remaining legacy seed-source parity and retired split seed helpers.
+  - Added full canonical `.seed-payload` inventory for the last two missing live legacy categories, `espresso-machines` and `mattresses`, including category records, rankings, 12 products total, specifications, pros/cons sentiments, verdict summaries, and 10 ranking FAQs so the code seed snapshot now matches the full live category set.
+  - Expanded `lib/category-use-cases.ts` with full `espresso-machines` downstream metadata parity (`clusterSlugs`, `useCaseBlocks`, `queryIntentPhrases`) and added a new `mattresses` `CATEGORY_USE_CASE_DATA` entry with bespoke use cases, long-tail query intents, and comparison guides.
+  - Added dedicated verdict guidance and FAQ schema coverage for `espresso-machines` and `mattresses` in `lib/category-enhancements.ts`, keeping enhancement-layer coverage aligned with the now-complete seed snapshot.
+  - Deprecated the old helper/generator scripts (`scripts/new-categories-seed.mjs`, `scripts/seed-new-categories.mjs`, `scripts/generate-new-categories.py`, `scripts/add_new_categories.py`) so future category expansion is clearly routed through the canonical code seed path instead of split legacy helpers. Updated `scripts/run-seed.mjs` docs accordingly.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+
 - **2026-05-04 (Bob subagent, task 1777849362373):** Added cluster-level SEO modules for underdeveloped category families on existing discovery surfaces.
   - Created reusable thin-family cluster scaffolding in `lib/thin-family-clusters.ts` for the thinnest DecisionRank families: wearable/audio, kitchen, and developer-tools.
   - Added new `ThinFamilyClusterSections` component that renders family intros, grouped browse cards, buyer-search links derived from existing query-intent data, and adjacent-category cross-links pulled from the related-category graph.

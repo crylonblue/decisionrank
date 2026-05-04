@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 /**
- * Seed 3 new categories: Standing Desks, Wireless Earbuds, Air Purifiers
- * 
+ * Import the canonical DecisionRank seed snapshot from scripts/.seed-payload.json.
+ *
+ * Canonical source of truth for seed content now lives in:
+ *   - scripts/.seed-payload.json
+ *   - lib/category-enhancements.ts
+ *   - lib/category-use-cases.ts
+ *
+ * This script only imports the existing payload. It does not generate or merge category data.
+ *
  * Usage:
- *   1. Make sure you're logged into Convex: npx convex login
- *   2. Run: node scripts/seed-new-categories.mjs  (generates .seed-payload.json)
- *   3. Run: npx convex run imports:importSnapshot "$(cat scripts/.seed-payload.json)"
- * 
- * Or use the HTTP client approach (set CONVEX_URL):
  *   CONVEX_URL=https://your-deployment.convex.cloud node scripts/run-seed.mjs
  */
 import { ConvexHttpClient } from "convex/browser";

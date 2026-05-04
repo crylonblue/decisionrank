@@ -1266,6 +1266,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "espresso-machines": {
+    clusterSlugs: ["coffee-makers", "air-fryers", "smart-plugs-power-strips", "air-purifiers", "mattresses"],
+    useCaseBlocks: [
+      {
+        title: "Best Espresso Machines for Beginners",
+        description: "Guided semi-automatic and approachable super-automatic machines that reduce early mistakes without flattening the espresso learning curve entirely.",
+        targetAudience: "First-time home baristas"
+      },
+      {
+        title: "Best Espresso Machines for Milk Drinks",
+        description: "Machines with stronger steam power, faster recovery, and better workflow for lattes, cappuccinos, and flat whites instead of espresso-only routines.",
+        targetAudience: "Latte and cappuccino drinkers"
+      },
+      {
+        title: "Best Espresso Machines for Enthusiasts",
+        description: "58 mm, temperature-stable, upgrade-friendly machines that reward a separate grinder and more manual dialing-in control.",
+        targetAudience: "Hobbyist home baristas"
+      },
+      {
+        title: "Best Compact Espresso Machines for Small Kitchens",
+        description: "Counter-friendly picks that still make credible espresso for apartments, smaller kitchens, and buyers who cannot dedicate a full coffee station.",
+        targetAudience: "Apartment and small-space buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best espresso machine for beginners home",
+      "super automatic vs semi automatic espresso",
+      "best espresso machine for small kitchen",
+      "best espresso machine with grinder built in",
+      "best espresso machine for latte art",
+      "dual boiler vs heat exchanger espresso machine",
+      "best espresso machine under $500",
+      "58mm vs 54mm portafilter",
+      "how often to descale espresso machine",
+      "best super automatic espresso machine",
+      "espresso machine for cappuccino at home",
+      "best prosumer espresso machine"
+    ],
     useCases: [
       {
         label: "Beginners",
@@ -1312,6 +1349,92 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Breville vs De'Longhi", description: "Two consumer espresso giants compared — build quality, software, and long-term reliability for home baristas.", queryPhrase: "Breville vs DeLonghi espresso machine" },
       { title: "Commercial vs Home Machine", description: "$2000+ group heads vs $300 consumer models — are commercial features attainable on a home budget?", queryPhrase: "commercial vs home espresso machine" },
       { title: "Portafilter Size: 58mm vs 54mm", description: "Standard commercial size vs proprietary — accessories and basket compatibility differences explained.", queryPhrase: "58mm vs 54mm portafilter" },
+    ]
+  },
+  "mattresses": {
+    clusterSlugs: ["air-purifiers", "smart-watches", "wireless-earbuds", "robot-vacuums", "espresso-machines"],
+    useCaseBlocks: [
+      {
+        title: "Best Mattresses for Side Sleepers",
+        description: "Pressure-relieving mattresses with enough cushioning for shoulders and hips without letting the spine drift out of alignment overnight.",
+        targetAudience: "Side sleepers and pressure-relief buyers"
+      },
+      {
+        title: "Best Mattresses for Back Pain and Support",
+        description: "Supportive medium-firm and firmer options that keep the torso and hips better aligned for buyers focused on lower-back comfort.",
+        targetAudience: "Back-pain-conscious sleepers"
+      },
+      {
+        title: "Best Mattresses for Couples",
+        description: "Beds with strong motion isolation, usable edge support, and enough responsiveness that two sleepers can move around without constant disturbance.",
+        targetAudience: "Couples and shared-bed buyers"
+      },
+      {
+        title: "Best Cooling Mattresses for Hot Sleepers",
+        description: "Hybrid and latex-leaning builds that run cooler than dense all-foam beds and feel more breathable through warm nights.",
+        targetAudience: "Hot sleepers and warm-climate buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best mattress for side sleepers",
+      "best mattress for back pain",
+      "memory foam vs hybrid mattress",
+      "best cooling mattress for hot sleepers",
+      "best mattress for couples motion isolation",
+      "mattress firmness guide sleep position",
+      "best mattress under $1000",
+      "latex vs memory foam mattress",
+      "how long should a mattress last",
+      "best mattress for heavy sleepers",
+      "Saatva vs Helix mattress",
+      "mattress trial period worth it"
+    ],
+    useCases: [
+      {
+        label: "Side Sleepers",
+        title: "Best Mattresses for Side Sleepers",
+        description: "Pressure-relieving mattresses with enough cushioning for shoulders and hips without letting the spine drift out of alignment overnight."
+      },
+      {
+        label: "Back Support",
+        title: "Best Mattresses for Back Pain and Support",
+        description: "Supportive medium-firm and firmer options that keep the torso and hips better aligned for buyers focused on lower-back comfort."
+      },
+      {
+        label: "Couples",
+        title: "Best Mattresses for Couples",
+        description: "Beds with strong motion isolation, usable edge support, and enough responsiveness that two sleepers can move around without constant disturbance."
+      },
+      {
+        label: "Cooling",
+        title: "Best Cooling Mattresses for Hot Sleepers",
+        description: "Hybrid and latex-leaning builds that run cooler than dense all-foam beds and feel more breathable through warm nights."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best mattress for side sleepers", intent: "transactional" },
+      { phrase: "best mattress for back pain", intent: "transactional" },
+      { phrase: "memory foam vs hybrid mattress", intent: "comparational" },
+      { phrase: "best cooling mattress for hot sleepers", intent: "transactional" },
+      { phrase: "best mattress for couples motion isolation", intent: "transactional" },
+      { phrase: "mattress firmness guide sleep position", intent: "informational" },
+      { phrase: "best mattress under $1000", intent: "transactional" },
+      { phrase: "latex vs memory foam mattress", intent: "comparational" },
+      { phrase: "how long should a mattress last", intent: "informational" },
+      { phrase: "best mattress for heavy sleepers", intent: "transactional" },
+      { phrase: "Saatva vs Helix mattress", intent: "comparational" },
+      { phrase: "mattress trial period worth it", intent: "informational" },
+      { phrase: "hybrid vs innerspring mattress", intent: "comparational" },
+      { phrase: "best mattress for stomach sleepers", intent: "transactional" },
+      { phrase: "when to replace a mattress", intent: "informational" }
+    ],
+    comparisons: [
+      { title: "Memory Foam vs Hybrid", description: "Deep contouring and motion isolation versus more bounce, airflow, and edge support. We compare which feel works better for different bodies and sleep styles.", queryPhrase: "memory foam vs hybrid mattress" },
+      { title: "Latex vs Memory Foam", description: "Responsive cooling comfort versus slow, body-hugging contour. Choose based on heat, movement, and pressure-relief preferences.", queryPhrase: "latex vs memory foam mattress" },
+      { title: "Luxury vs Budget Mattress", description: "When do premium materials and service actually change sleep quality, and when is a mid-range bed already enough?", queryPhrase: "luxury vs budget mattress" },
+      { title: "Saatva vs Helix", description: "Two of the most common premium online shortlists compared on feel, support, motion isolation, and who each suits best.", queryPhrase: "Saatva vs Helix mattress" },
+      { title: "Hybrid vs Innerspring", description: "Modern foam-and-coil hybrids versus more traditional spring-first beds, with tradeoffs in contouring, bounce, and temperature.", queryPhrase: "hybrid vs innerspring mattress" },
+      { title: "Firm vs Medium Mattress", description: "How firmness changes spinal alignment, pressure relief, and comfort across side, back, stomach, and combination sleepers.", queryPhrase: "firm vs medium mattress" }
     ]
   },
   "usb-c-hubs": {

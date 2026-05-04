@@ -263,6 +263,22 @@
       "description": "Top wireless earbuds for sound quality, ANC, call clarity, battery life, and fit across iPhone, Android, gym, and commute use cases.",
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "b77d5e15-7f31-4b95-a4d6-91faad0d4111",
+      "name": "Espresso Machines",
+      "slug": "espresso-machines",
+      "description": "Top espresso machines for beginners, home baristas, and latte lovers, compared on extraction quality, steam power, ease of use, and long-term value."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "8cfd446d-714b-458b-aa63-e8671fca6d73",
+      "name": "Mattresses",
+      "slug": "mattresses",
+      "description": "Best mattresses for side sleepers, back sleepers, couples, and hot sleepers, ranked on pressure relief, support, cooling, motion isolation, and long-term value."
     }
   ],
   "rankings": [
@@ -595,6 +611,26 @@
       "category_id": "a97c995a-a076-47d8-b367-a1507cfb2d87",
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "slug": "best-espresso-machines-2026",
+      "question": "What Are the Best Espresso Machines in 2026?",
+      "description": "We compared beginner-friendly, enthusiast, and premium espresso machines on shot consistency, temperature stability, milk steaming, maintenance, and value for home baristas.",
+      "verdict_summary": "The Breville Barista Express Impress is the best all-around espresso machine for most buyers thanks to its guided workflow and built-in grinder. The Gaggia Classic Pro remains the value enthusiast pick, while the Profitec Pro 600 is the upgrade choice for serious home baristas who want dual-boiler control and better steaming performance.",
+      "category_id": "b77d5e15-7f31-4b95-a4d6-91faad0d4111"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "slug": "best-mattresses-2026",
+      "question": "What Are the Best Mattresses in 2026?",
+      "description": "We compared foam, hybrid, and latex mattresses on pressure relief, spinal support, motion isolation, edge support, cooling, trial terms, and overall value for different sleep styles.",
+      "verdict_summary": "The Helix Midnight Luxe is the best all-around mattress for most sleepers thanks to its balanced pressure relief and support. Saatva Classic is the best luxury innerspring-style pick, the Nectar Premier offers the strongest budget value, and the Tempur-Pedic ProAdapt remains the premium choice for buyers who care most about pressure relief and motion isolation.",
+      "category_id": "8cfd446d-714b-458b-aa63-e8671fca6d73"
     }
   ],
   "products": [
@@ -1955,6 +1991,90 @@
       "link": "https://www.soundcore.com/products/liberty-4-nc",
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "Breville Barista Express Impress",
+      "link": "https://www.breville.com/us/en/products/espresso/bes876.html"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Gaggia Classic Pro",
+      "link": "https://www.gaggia-na.com/products/gaggia-classic-pro"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "De'Longhi La Specialista Arte Evo",
+      "link": "https://www.delonghi.com/en-us/la-specialista-arte-evo-manual-espresso-machine/p/EC9255M"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "Rancilio Silvia Pro X",
+      "link": "https://www.ranciliogroupna.com/product/rancilio-silvia-pro-x/"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Profitec Pro 600",
+      "link": "https://clivecoffee.com/products/profitec-pro-600-dual-boiler-espresso-machine"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "Philips 4400 LatteGo",
+      "link": "https://www.usa.philips.com/c-p/EP4444_90/4400-series-fully-automatic-espresso-machines"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Helix Midnight Luxe",
+      "link": "https://helixsleep.com/products/midnight-luxe"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Saatva Classic",
+      "link": "https://www.saatva.com/mattresses/saatva-classic"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Nectar Premier",
+      "link": "https://www.nectarsleep.com/premier-mattress"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Tempur-Pedic Tempur-Adapt ProAdapt",
+      "link": "https://www.tempurpedic.com/shop-mattresses/proadapt/"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "WinkBed Luxury Firm",
+      "link": "https://www.winkbeds.com/pages/shop-winkbed"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Birch Natural Mattress",
+      "link": "https://birchliving.com/products/birch-natural-mattress"
     }
   ],
   "ranking_products": [
@@ -3703,6 +3823,114 @@
       "rank_position": 6,
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "score": 9.4,
+      "rank_position": 1
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "score": 9.1,
+      "rank_position": 2
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "score": 8.8,
+      "rank_position": 3
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "score": 8.7,
+      "rank_position": 4
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "score": 8.6,
+      "rank_position": 5
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "score": 8.3,
+      "rank_position": 6
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "score": 9.4,
+      "rank_position": 1
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "score": 9.2,
+      "rank_position": 2
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "score": 8.9,
+      "rank_position": 3
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "score": 8.8,
+      "rank_position": 4
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "score": 8.6,
+      "rank_position": 5
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "score": 8.3,
+      "rank_position": 6
     }
   ],
   "users": [],
@@ -14173,6 +14401,654 @@
       "description": null,
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-f32ca48b-4fd9-409f-a645-308d117cbf0f-pro-1",
+      "ranking_product_id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "type": "pro",
+      "headline": "Guided tamping and dosing reduce beginner mistakes",
+      "content": "The Impress puck system makes it much easier to get repeatable shots early on."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-f32ca48b-4fd9-409f-a645-308d117cbf0f-pro-2",
+      "ranking_product_id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "type": "pro",
+      "headline": "Built-in grinder keeps the workflow compact",
+      "content": "You do not need to buy a separate grinder to get started."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-f32ca48b-4fd9-409f-a645-308d117cbf0f-pro-3",
+      "ranking_product_id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "type": "pro",
+      "headline": "Strong milk steaming for cappuccinos and flat whites",
+      "content": "The steam wand is capable enough for real microfoam once you learn timing."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-f32ca48b-4fd9-409f-a645-308d117cbf0f-con-1",
+      "ranking_product_id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "type": "con",
+      "headline": "54 mm ecosystem is less standard than 58 mm",
+      "content": "Accessory and basket options are narrower than commercial-size machines."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-f32ca48b-4fd9-409f-a645-308d117cbf0f-con-2",
+      "ranking_product_id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "type": "con",
+      "headline": "Grinder is good, not enthusiast-level great",
+      "content": "Serious home baristas may still outgrow the integrated grinder."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-f32ca48b-4fd9-409f-a645-308d117cbf0f-con-3",
+      "ranking_product_id": "f32ca48b-4fd9-409f-a645-308d117cbf0f",
+      "type": "con",
+      "headline": "Regular cleaning is non-negotiable",
+      "content": "The guided workflow is friendly, but maintenance still takes routine effort."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-b9357e8b-921a-4eeb-9bc2-34c931f2a628-pro-1",
+      "ranking_product_id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "type": "pro",
+      "headline": "Excellent shot quality for the price",
+      "content": "The Classic Pro still punches above its price once paired with a capable grinder."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-b9357e8b-921a-4eeb-9bc2-34c931f2a628-pro-2",
+      "ranking_product_id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "type": "pro",
+      "headline": "58 mm portafilter opens the door to better accessories",
+      "content": "It fits the standard enthusiast ecosystem for baskets, tampers, and tools."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-b9357e8b-921a-4eeb-9bc2-34c931f2a628-pro-3",
+      "ranking_product_id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "type": "pro",
+      "headline": "Simple internals and huge mod community",
+      "content": "Parts, guides, and upgrade paths are unusually strong."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-b9357e8b-921a-4eeb-9bc2-34c931f2a628-con-1",
+      "ranking_product_id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "type": "con",
+      "headline": "Single-boiler workflow slows milk drinks",
+      "content": "You need to switch between brew and steam temperature modes."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-b9357e8b-921a-4eeb-9bc2-34c931f2a628-con-2",
+      "ranking_product_id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "type": "con",
+      "headline": "No built-in grinder means higher real setup cost",
+      "content": "Budget for a proper burr grinder or the machine will feel wasted."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-b9357e8b-921a-4eeb-9bc2-34c931f2a628-con-3",
+      "ranking_product_id": "b9357e8b-921a-4eeb-9bc2-34c931f2a628",
+      "type": "con",
+      "headline": "Learning curve is steeper than appliance-style rivals",
+      "content": "It rewards good technique rather than hiding mistakes."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-6fe6dd70-9502-473d-a778-5d64ca9457d7-pro-1",
+      "ranking_product_id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "type": "pro",
+      "headline": "Friendly controls and integrated grinder suit beginners",
+      "content": "It feels approachable for buyers who want espresso without full hobbyist friction."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-6fe6dd70-9502-473d-a778-5d64ca9457d7-pro-2",
+      "ranking_product_id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "type": "pro",
+      "headline": "Good steam power for the class",
+      "content": "Milk drinks come together faster than on many entry machines."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-6fe6dd70-9502-473d-a778-5d64ca9457d7-pro-3",
+      "ranking_product_id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "type": "pro",
+      "headline": "Useful extra drink modes add flexibility",
+      "content": "Cold brew and americano options broaden what the machine can do."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-6fe6dd70-9502-473d-a778-5d64ca9457d7-con-1",
+      "ranking_product_id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "type": "con",
+      "headline": "Smaller 51 mm portafilter limits upgrade paths",
+      "content": "It is not ideal for buyers who expect to tinker heavily over time."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-6fe6dd70-9502-473d-a778-5d64ca9457d7-con-2",
+      "ranking_product_id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "type": "con",
+      "headline": "Temperature stability is only decent",
+      "content": "Back-to-back shots are less consistent than on pricier machines."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-6fe6dd70-9502-473d-a778-5d64ca9457d7-con-3",
+      "ranking_product_id": "6fe6dd70-9502-473d-a778-5d64ca9457d7",
+      "type": "con",
+      "headline": "Long-term value is weaker than enthusiast classics",
+      "content": "You pay a premium for convenience and styling."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-37d951f8-0e20-4f86-bf98-b681ea60be16-pro-1",
+      "ranking_product_id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "type": "pro",
+      "headline": "Dual boilers make milk-drink workflow much better",
+      "content": "You can brew and steam with far less waiting or compromise."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-37d951f8-0e20-4f86-bf98-b681ea60be16-pro-2",
+      "ranking_product_id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "type": "pro",
+      "headline": "Excellent temperature control and repeatability",
+      "content": "PID tuning helps the Silvia Pro X feel serious rather than fussy."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-37d951f8-0e20-4f86-bf98-b681ea60be16-pro-3",
+      "ranking_product_id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "type": "pro",
+      "headline": "Commercial-size 58 mm group supports advanced tools",
+      "content": "It fits nicely into a more enthusiast-oriented setup."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-37d951f8-0e20-4f86-bf98-b681ea60be16-con-1",
+      "ranking_product_id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "type": "con",
+      "headline": "Expensive jump from entry-level machines",
+      "content": "The price only makes sense if you know you want the extra control."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-37d951f8-0e20-4f86-bf98-b681ea60be16-con-2",
+      "ranking_product_id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "type": "con",
+      "headline": "Still needs a quality grinder beside it",
+      "content": "This machine exposes grinder weaknesses immediately."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-37d951f8-0e20-4f86-bf98-b681ea60be16-con-3",
+      "ranking_product_id": "37d951f8-0e20-4f86-bf98-b681ea60be16",
+      "type": "con",
+      "headline": "Larger footprint demands more counter space",
+      "content": "It is not a compact-apartment choice."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-65d9749f-eb63-4389-a278-31ed836ca542-pro-1",
+      "ranking_product_id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "type": "pro",
+      "headline": "Superb steam power and thermal stability",
+      "content": "The Pro 600 is built for buyers who care about milk texture and repeatable shots."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-65d9749f-eb63-4389-a278-31ed836ca542-pro-2",
+      "ranking_product_id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "type": "pro",
+      "headline": "E61 platform and dual-boiler layout feel premium",
+      "content": "It delivers the kind of control enthusiasts actually pay extra for."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-65d9749f-eb63-4389-a278-31ed836ca542-pro-3",
+      "ranking_product_id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "type": "pro",
+      "headline": "Strong build quality supports long-term ownership",
+      "content": "This is the sort of machine you buy to keep for years."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-65d9749f-eb63-4389-a278-31ed836ca542-con-1",
+      "ranking_product_id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "type": "con",
+      "headline": "Price moves firmly into prosumer territory",
+      "content": "It is overkill for casual weekend espresso drinkers."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-65d9749f-eb63-4389-a278-31ed836ca542-con-2",
+      "ranking_product_id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "type": "con",
+      "headline": "Warm-up time is longer than thermoblock machines",
+      "content": "You get stability, but not instant convenience."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-65d9749f-eb63-4389-a278-31ed836ca542-con-3",
+      "ranking_product_id": "65d9749f-eb63-4389-a278-31ed836ca542",
+      "type": "con",
+      "headline": "No grinder included",
+      "content": "Total system cost climbs quickly once you add accessories."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-3d6525d0-179d-46e6-b6a5-5ac07d93d1a6-pro-1",
+      "ranking_product_id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "type": "pro",
+      "headline": "One-touch convenience is genuinely useful for busy households",
+      "content": "It handles everyday espresso and milk drinks with very little effort."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-3d6525d0-179d-46e6-b6a5-5ac07d93d1a6-pro-2",
+      "ranking_product_id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "type": "pro",
+      "headline": "Automatic milk system simplifies lattes and cappuccinos",
+      "content": "The LatteGo setup is easier to clean than many rival milk containers."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-3d6525d0-179d-46e6-b6a5-5ac07d93d1a6-pro-3",
+      "ranking_product_id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "type": "pro",
+      "headline": "Great fit for buyers who value consistency over tinkering",
+      "content": "It removes most of the manual work and skill barrier."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-3d6525d0-179d-46e6-b6a5-5ac07d93d1a6-con-1",
+      "ranking_product_id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "type": "con",
+      "headline": "Espresso nuance is weaker than good semi-automatics",
+      "content": "It prioritizes convenience over barista-style control."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-3d6525d0-179d-46e6-b6a5-5ac07d93d1a6-con-2",
+      "ranking_product_id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "type": "con",
+      "headline": "Repairs can be costly once the warranty ends",
+      "content": "Super-automatic internals are more complex and less DIY-friendly."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-3d6525d0-179d-46e6-b6a5-5ac07d93d1a6-con-3",
+      "ranking_product_id": "3d6525d0-179d-46e6-b6a5-5ac07d93d1a6",
+      "type": "con",
+      "headline": "Not the right choice for hobbyists who want to dial in every variable",
+      "content": "The machine decides too much for buyers who enjoy the craft."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-41ea2bda-7c38-4f50-9bfe-31f4899b0f4f-pro-1",
+      "ranking_product_id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "type": "pro",
+      "headline": "Balanced support and pressure relief suit a wide range of sleepers",
+      "content": "It is especially strong for side sleepers who still want enough support under the hips."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-41ea2bda-7c38-4f50-9bfe-31f4899b0f4f-pro-2",
+      "ranking_product_id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "type": "pro",
+      "headline": "Strong motion isolation for a hybrid",
+      "content": "Couples get less partner disturbance than on many spring-forward beds."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-41ea2bda-7c38-4f50-9bfe-31f4899b0f4f-pro-3",
+      "ranking_product_id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "type": "pro",
+      "headline": "Cooling and edge support are better than average",
+      "content": "It feels more stable and breathable than many all-foam rivals."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-41ea2bda-7c38-4f50-9bfe-31f4899b0f4f-con-1",
+      "ranking_product_id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "type": "con",
+      "headline": "Not the absolute cheapest route into a good mattress",
+      "content": "You pay more for the Luxe upgrades than bare-bones online options."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-41ea2bda-7c38-4f50-9bfe-31f4899b0f4f-con-2",
+      "ranking_product_id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "type": "con",
+      "headline": "May feel too soft for some strict stomach sleepers",
+      "content": "Heavier front sleepers often need a firmer surface."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-41ea2bda-7c38-4f50-9bfe-31f4899b0f4f-con-3",
+      "ranking_product_id": "41ea2bda-7c38-4f50-9bfe-31f4899b0f4f",
+      "type": "con",
+      "headline": "Brand lineup can be confusing at first",
+      "content": "Helix has many similar names and firmness tiers."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-eefc43f0-02a6-4355-b4c2-315277ecef59-pro-1",
+      "ranking_product_id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "type": "pro",
+      "headline": "Excellent service package and long trial",
+      "content": "White-glove delivery and a full-year trial reduce purchase friction."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-eefc43f0-02a6-4355-b4c2-315277ecef59-pro-2",
+      "ranking_product_id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "type": "pro",
+      "headline": "Responsive support works well for back sleepers",
+      "content": "The Classic feels buoyant and easier to move on than memory foam."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-eefc43f0-02a6-4355-b4c2-315277ecef59-pro-3",
+      "ranking_product_id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "type": "pro",
+      "headline": "Multiple firmness and height options improve fit",
+      "content": "It is easier to tailor than one-feel-only boxed mattresses."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-eefc43f0-02a6-4355-b4c2-315277ecef59-con-1",
+      "ranking_product_id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "type": "con",
+      "headline": "Motion isolation is weaker than top foam beds",
+      "content": "Couples sensitive to movement may notice more bounce."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-eefc43f0-02a6-4355-b4c2-315277ecef59-con-2",
+      "ranking_product_id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "type": "con",
+      "headline": "Luxury pricing climbs quickly with upgrades",
+      "content": "It is not the value pick once add-ons enter the picture."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-eefc43f0-02a6-4355-b4c2-315277ecef59-con-3",
+      "ranking_product_id": "eefc43f0-02a6-4355-b4c2-315277ecef59",
+      "type": "con",
+      "headline": "Some side sleepers will prefer deeper contouring",
+      "content": "Pressure relief is not as body-hugging as foam-heavy options."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0dac6483-e799-4a44-8ffb-cc3020a717c0-pro-1",
+      "ranking_product_id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "type": "pro",
+      "headline": "Aggressive pricing and promotions make it easy to recommend",
+      "content": "It frequently undercuts other mattresses that offer similar comfort."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0dac6483-e799-4a44-8ffb-cc3020a717c0-pro-2",
+      "ranking_product_id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "type": "pro",
+      "headline": "Strong memory-foam motion isolation helps couples",
+      "content": "Partner movement stays nicely damped for the price."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0dac6483-e799-4a44-8ffb-cc3020a717c0-pro-3",
+      "ranking_product_id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "type": "pro",
+      "headline": "Long trial and warranty terms lower the risk",
+      "content": "Budget buyers still get generous policy coverage."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0dac6483-e799-4a44-8ffb-cc3020a717c0-con-1",
+      "ranking_product_id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "type": "con",
+      "headline": "Edge support is only average",
+      "content": "Sitting and sleeping near the side feels less stable than on better hybrids."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0dac6483-e799-4a44-8ffb-cc3020a717c0-con-2",
+      "ranking_product_id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "type": "con",
+      "headline": "Can sleep warmer than top cooling-focused rivals",
+      "content": "Hot sleepers may want hybrid or latex alternatives."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0dac6483-e799-4a44-8ffb-cc3020a717c0-con-3",
+      "ranking_product_id": "0dac6483-e799-4a44-8ffb-cc3020a717c0",
+      "type": "con",
+      "headline": "Recovery feel is slower and less responsive",
+      "content": "It is not ideal if you hate the classic memory-foam sink-in sensation."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96-pro-1",
+      "ranking_product_id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "type": "pro",
+      "headline": "Top-tier pressure relief for shoulders and hips",
+      "content": "It is one of the strongest picks for buyers who want deep contouring."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96-pro-2",
+      "ranking_product_id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "type": "pro",
+      "headline": "Excellent motion isolation for couples",
+      "content": "Movement transfer is minimal even with restless partners."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96-pro-3",
+      "ranking_product_id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "type": "pro",
+      "headline": "Material feel is premium and very consistent",
+      "content": "Tempur still nails that dense, slow-response foam experience."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96-con-1",
+      "ranking_product_id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "type": "con",
+      "headline": "Price is hard to justify for value-first shoppers",
+      "content": "You are paying heavily for the Tempur name and feel."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96-con-2",
+      "ranking_product_id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "type": "con",
+      "headline": "Less bounce makes changing positions slower",
+      "content": "Some combination sleepers may find it harder to move around."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96-con-3",
+      "ranking_product_id": "0058dc0e-ce5b-4fea-8ed2-e6b530b6ca96",
+      "type": "con",
+      "headline": "Trial is shorter than many bed-in-a-box rivals",
+      "content": "It gives you less runway than the common 100- to 365-night offers."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-c4dd3990-53a4-4608-ad46-b6e42aef1cfa-pro-1",
+      "ranking_product_id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "type": "pro",
+      "headline": "Supportive luxury-firm feel works well for back sleepers",
+      "content": "It balances pushback and cushioning better than many hybrids."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-c4dd3990-53a4-4608-ad46-b6e42aef1cfa-pro-2",
+      "ranking_product_id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "type": "pro",
+      "headline": "Multiple firmness options broaden appeal",
+      "content": "Heavier sleepers and shoppers with back pain get more tailored choices."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-c4dd3990-53a4-4608-ad46-b6e42aef1cfa-pro-3",
+      "ranking_product_id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "type": "pro",
+      "headline": "Edge support is genuinely strong",
+      "content": "It uses the full mattress surface better than many boxed competitors."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-c4dd3990-53a4-4608-ad46-b6e42aef1cfa-con-1",
+      "ranking_product_id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "type": "con",
+      "headline": "It is not the cheapest premium hybrid",
+      "content": "Value is good, but price still lands above mass-market beds."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-c4dd3990-53a4-4608-ad46-b6e42aef1cfa-con-2",
+      "ranking_product_id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "type": "con",
+      "headline": "Motion isolation trails softer all-foam options",
+      "content": "Light sleepers may prefer denser foam designs."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-c4dd3990-53a4-4608-ad46-b6e42aef1cfa-con-3",
+      "ranking_product_id": "c4dd3990-53a4-4608-ad46-b6e42aef1cfa",
+      "type": "con",
+      "headline": "Not every sleeper will love the springier feel",
+      "content": "People wanting a deep foam hug may find it too buoyant."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-67d342c8-0729-4ff5-9cb3-753704ab0a7c-pro-1",
+      "ranking_product_id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "type": "pro",
+      "headline": "Latex-hybrid build stays cooler than many foam rivals",
+      "content": "Hot sleepers get better airflow and less trapped heat."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-67d342c8-0729-4ff5-9cb3-753704ab0a7c-pro-2",
+      "ranking_product_id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "type": "pro",
+      "headline": "Natural-material positioning appeals to eco-conscious buyers",
+      "content": "Organic cotton, wool, and latex are a meaningful differentiator."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-67d342c8-0729-4ff5-9cb3-753704ab0a7c-pro-3",
+      "ranking_product_id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "type": "pro",
+      "headline": "Responsive feel is easy to move around on",
+      "content": "It avoids the stuck-in-bed sensation some foam buyers dislike."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-67d342c8-0729-4ff5-9cb3-753704ab0a7c-con-1",
+      "ranking_product_id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "type": "con",
+      "headline": "Pressure relief is less plush than softer foam beds",
+      "content": "Very lightweight side sleepers may want more cushioning."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-67d342c8-0729-4ff5-9cb3-753704ab0a7c-con-2",
+      "ranking_product_id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "type": "con",
+      "headline": "Latex feel is not universally loved",
+      "content": "Some buyers simply prefer slower, deeper foam contouring."
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "sent-67d342c8-0729-4ff5-9cb3-753704ab0a7c-con-3",
+      "ranking_product_id": "67d342c8-0729-4ff5-9cb3-753704ab0a7c",
+      "type": "con",
+      "headline": "Price is above basic online mattress options",
+      "content": "Natural materials still carry a cost premium."
     }
   ],
   "specifications": [
@@ -23514,6 +24390,582 @@
       "unit": null,
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-0170f66f-fd58-4f9f-9580-f7332fa9d6f1-machine-type",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "Machine Type",
+      "value": "Semi-automatic with grinder"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-0170f66f-fd58-4f9f-9580-f7332fa9d6f1-boiler-system",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "Boiler System",
+      "value": "Thermocoil"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-0170f66f-fd58-4f9f-9580-f7332fa9d6f1-portafilter-size",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "Portafilter Size",
+      "value": "54 mm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-0170f66f-fd58-4f9f-9580-f7332fa9d6f1-milk-frothing",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "Milk Frothing",
+      "value": "Manual steam wand"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-0170f66f-fd58-4f9f-9580-f7332fa9d6f1-water-tank",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "Water Tank",
+      "value": "2 L"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-0170f66f-fd58-4f9f-9580-f7332fa9d6f1-pid-control",
+      "product_id": "0170f66f-fd58-4f9f-9580-f7332fa9d6f1",
+      "name": "PID Control",
+      "value": "Guided temperature control"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea-machine-type",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Machine Type",
+      "value": "Semi-automatic"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea-boiler-system",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Boiler System",
+      "value": "Single boiler"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea-portafilter-size",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Portafilter Size",
+      "value": "58 mm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea-milk-frothing",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Milk Frothing",
+      "value": "Commercial steam wand"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea-water-tank",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Water Tank",
+      "value": "2.1 L"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea-warm-up-time",
+      "product_id": "a41d7bc5-fdd7-47d9-bf6d-b792c4aa1bea",
+      "name": "Warm-Up Time",
+      "value": "~5 minutes"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-88c26058-6f3c-49f8-b839-e1e7d0959370-machine-type",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "Machine Type",
+      "value": "Semi-automatic with grinder"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-88c26058-6f3c-49f8-b839-e1e7d0959370-boiler-system",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "Boiler System",
+      "value": "Thermoblock"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-88c26058-6f3c-49f8-b839-e1e7d0959370-portafilter-size",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "Portafilter Size",
+      "value": "51 mm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-88c26058-6f3c-49f8-b839-e1e7d0959370-milk-frothing",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "Milk Frothing",
+      "value": "Manual steam wand"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-88c26058-6f3c-49f8-b839-e1e7d0959370-water-tank",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "Water Tank",
+      "value": "1.7 L"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-88c26058-6f3c-49f8-b839-e1e7d0959370-cold-brew-mode",
+      "product_id": "88c26058-6f3c-49f8-b839-e1e7d0959370",
+      "name": "Cold Brew Mode",
+      "value": "Yes"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1-machine-type",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "Machine Type",
+      "value": "Dual-boiler semi-automatic"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1-boiler-system",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "Boiler System",
+      "value": "Dual boiler"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1-portafilter-size",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "Portafilter Size",
+      "value": "58 mm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1-milk-frothing",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "Milk Frothing",
+      "value": "Professional steam wand"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1-water-tank",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "Water Tank",
+      "value": "2 L"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1-pid-control",
+      "product_id": "4e0c0c4e-1eb3-4df3-8632-c6842ad5f0e1",
+      "name": "PID Control",
+      "value": "Dual PID"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-f6c48a14-f625-465f-95ba-fd14bbf9639f-machine-type",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Machine Type",
+      "value": "Dual-boiler semi-automatic"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-f6c48a14-f625-465f-95ba-fd14bbf9639f-boiler-system",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Boiler System",
+      "value": "Dual boiler with E61"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-f6c48a14-f625-465f-95ba-fd14bbf9639f-portafilter-size",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Portafilter Size",
+      "value": "58 mm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-f6c48a14-f625-465f-95ba-fd14bbf9639f-milk-frothing",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Milk Frothing",
+      "value": "Commercial steam wand"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-f6c48a14-f625-465f-95ba-fd14bbf9639f-water-tank",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Water Tank",
+      "value": "2.8 L"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-f6c48a14-f625-465f-95ba-fd14bbf9639f-pressure-gauge",
+      "product_id": "f6c48a14-f625-465f-95ba-fd14bbf9639f",
+      "name": "Pressure Gauge",
+      "value": "Brew and steam"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-92bf5e14-4a8c-4a08-8d16-859a5b7128f5-machine-type",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "Machine Type",
+      "value": "Super-automatic"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-92bf5e14-4a8c-4a08-8d16-859a5b7128f5-boiler-system",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "Boiler System",
+      "value": "Thermoblock"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-92bf5e14-4a8c-4a08-8d16-859a5b7128f5-portafilter",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "Portafilter",
+      "value": "Internal brew group"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-92bf5e14-4a8c-4a08-8d16-859a5b7128f5-milk-frothing",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "Milk Frothing",
+      "value": "LatteGo automatic milk system"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-92bf5e14-4a8c-4a08-8d16-859a5b7128f5-water-tank",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "Water Tank",
+      "value": "1.8 L"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-92bf5e14-4a8c-4a08-8d16-859a5b7128f5-user-profiles",
+      "product_id": "92bf5e14-4a8c-4a08-8d16-859a5b7128f5",
+      "name": "User Profiles",
+      "value": "4 saved drinks"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c240127f-e0ee-4210-ba23-300d0dd871d0-type",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Type",
+      "value": "Hybrid"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c240127f-e0ee-4210-ba23-300d0dd871d0-firmness",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Firmness",
+      "value": "Medium"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c240127f-e0ee-4210-ba23-300d0dd871d0-height",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Height",
+      "value": "13.5 in"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c240127f-e0ee-4210-ba23-300d0dd871d0-trial",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Trial",
+      "value": "100 nights"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c240127f-e0ee-4210-ba23-300d0dd871d0-warranty",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Warranty",
+      "value": "15 years"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c240127f-e0ee-4210-ba23-300d0dd871d0-best-for",
+      "product_id": "c240127f-e0ee-4210-ba23-300d0dd871d0",
+      "name": "Best For",
+      "value": "Side sleepers and combo sleepers"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-cc60153d-6601-4e19-9cdb-998604776f71-type",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Type",
+      "value": "Innerspring hybrid"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-cc60153d-6601-4e19-9cdb-998604776f71-firmness",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Firmness",
+      "value": "Plush Soft, Luxury Firm, Firm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-cc60153d-6601-4e19-9cdb-998604776f71-height",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Height",
+      "value": "11.5 or 14.5 in"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-cc60153d-6601-4e19-9cdb-998604776f71-trial",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Trial",
+      "value": "365 nights"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-cc60153d-6601-4e19-9cdb-998604776f71-warranty",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Warranty",
+      "value": "Lifetime"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-cc60153d-6601-4e19-9cdb-998604776f71-delivery",
+      "product_id": "cc60153d-6601-4e19-9cdb-998604776f71",
+      "name": "Delivery",
+      "value": "White glove"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-785a2a2a-94de-406d-9df1-b63b319e45bd-type",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Type",
+      "value": "Memory foam"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-785a2a2a-94de-406d-9df1-b63b319e45bd-firmness",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Firmness",
+      "value": "Medium-firm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-785a2a2a-94de-406d-9df1-b63b319e45bd-height",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Height",
+      "value": "13 in"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-785a2a2a-94de-406d-9df1-b63b319e45bd-trial",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Trial",
+      "value": "365 nights"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-785a2a2a-94de-406d-9df1-b63b319e45bd-warranty",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Warranty",
+      "value": "Lifetime"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-785a2a2a-94de-406d-9df1-b63b319e45bd-best-for",
+      "product_id": "785a2a2a-94de-406d-9df1-b63b319e45bd",
+      "name": "Best For",
+      "value": "Budget shoppers and couples"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-37304273-e232-4cff-b773-8dd9d40bd3cf-type",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Type",
+      "value": "Memory foam"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-37304273-e232-4cff-b773-8dd9d40bd3cf-firmness",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Firmness",
+      "value": "Medium or Firm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-37304273-e232-4cff-b773-8dd9d40bd3cf-height",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Height",
+      "value": "12 in"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-37304273-e232-4cff-b773-8dd9d40bd3cf-trial",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Trial",
+      "value": "90 nights"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-37304273-e232-4cff-b773-8dd9d40bd3cf-warranty",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Warranty",
+      "value": "10 years"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-37304273-e232-4cff-b773-8dd9d40bd3cf-best-for",
+      "product_id": "37304273-e232-4cff-b773-8dd9d40bd3cf",
+      "name": "Best For",
+      "value": "Pressure relief and motion isolation"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c86f4350-3b31-48b0-bbcc-8ff190f1e685-type",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "Type",
+      "value": "Hybrid"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c86f4350-3b31-48b0-bbcc-8ff190f1e685-firmness",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "Firmness",
+      "value": "Softer, Luxury Firm, Firmer, Plus"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c86f4350-3b31-48b0-bbcc-8ff190f1e685-height",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "Height",
+      "value": "13.5 in"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c86f4350-3b31-48b0-bbcc-8ff190f1e685-trial",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "Trial",
+      "value": "120 nights"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c86f4350-3b31-48b0-bbcc-8ff190f1e685-warranty",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "Warranty",
+      "value": "Lifetime"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c86f4350-3b31-48b0-bbcc-8ff190f1e685-best-for",
+      "product_id": "c86f4350-3b31-48b0-bbcc-8ff190f1e685",
+      "name": "Best For",
+      "value": "Back sleepers and heavier sleepers"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c2a69db3-7ab1-4f9c-ad16-8720878c6a18-type",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Type",
+      "value": "Latex hybrid"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c2a69db3-7ab1-4f9c-ad16-8720878c6a18-firmness",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Firmness",
+      "value": "Medium-firm"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c2a69db3-7ab1-4f9c-ad16-8720878c6a18-height",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Height",
+      "value": "11 in"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c2a69db3-7ab1-4f9c-ad16-8720878c6a18-trial",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Trial",
+      "value": "100 nights"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c2a69db3-7ab1-4f9c-ad16-8720878c6a18-warranty",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Warranty",
+      "value": "25 years"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "spec-c2a69db3-7ab1-4f9c-ad16-8720878c6a18-best-for",
+      "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
+      "name": "Best For",
+      "value": "Eco-conscious and hot sleepers"
     }
   ],
   "assets": [],
@@ -24759,6 +26211,96 @@
       "display_order": 5,
       "created_at": "2026-05-04T01:08:38.724Z",
       "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-espresso-machines-1",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "question": "Do I need a built-in grinder, or can I use pre-ground coffee?",
+      "answer": "Freshly ground coffee right before extraction is crucial for espresso. A built-in grinder is convenient and often the easiest way to get started, but a separate quality burr grinder can outperform many integrated ones if you want better long-term control.",
+      "display_order": 1
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-espresso-machines-2",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "question": "What matters more than a 15-bar or 19-bar pressure claim?",
+      "answer": "Real espresso is brewed around 9 bars, so the headline pressure number is mostly marketing. Temperature stability, steam performance, and repeatable extraction matter much more than a machine claiming 15 or 19 bars.",
+      "display_order": 2
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-espresso-machines-3",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "question": "Should beginners buy a semi-automatic or a super-automatic espresso machine?",
+      "answer": "Semi-automatic machines are better if you want to learn espresso and improve over time. Super-automatics are better if you want speed, consistency, and milk drinks with minimal effort.",
+      "display_order": 3
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-espresso-machines-4",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "question": "How much should I budget for a good home espresso setup?",
+      "answer": "A solid entry setup usually starts around $500 to $900 if you need both machine and grinder. Enthusiast setups with better temperature control and stronger steaming often land between $1,500 and $3,000 once grinder and accessories are included.",
+      "display_order": 4
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-espresso-machines-5",
+      "ranking_id": "74e1d6ab-01a9-437f-a55f-a3896822d275",
+      "question": "How often should I descale and clean an espresso machine?",
+      "answer": "Backflushing, wiping the steam wand, and rinsing parts should happen regularly, while descaling depends on water hardness and usage. Many home users descale every two to three months, but filtered water can stretch that interval.",
+      "display_order": 5
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-mattresses-1",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "question": "How do I choose mattress firmness for my sleep position?",
+      "answer": "Side sleepers usually do best on soft to medium beds with enough pressure relief, back sleepers tend to like medium-firm support, and stomach sleepers often need firmer surfaces that keep the hips from sagging too far.",
+      "display_order": 1
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-mattresses-2",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "question": "Are foam or hybrid mattresses better for couples?",
+      "answer": "Foam usually wins on motion isolation, while hybrids tend to offer stronger edge support and easier movement. The better pick depends on whether you care more about reduced partner disturbance or a more responsive feel.",
+      "display_order": 2
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-mattresses-3",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "question": "How important is a mattress trial period?",
+      "answer": "It matters a lot because mattress comfort is hard to judge in a few minutes. A long trial gives your body time to adjust and gives you a realistic way to return a mattress that looks good on paper but feels wrong at home.",
+      "display_order": 3
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-mattresses-4",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "question": "What should hot sleepers prioritize in a mattress?",
+      "answer": "Look for breathable covers, coil or latex construction, and marketing claims that are backed by an actually less heat-trapping build. Dense memory foam can feel great for pressure relief but often sleeps warmer than latex or hybrid alternatives.",
+      "display_order": 4
+    },
+    {
+      "created_at": "2026-05-04T03:11:00.000Z",
+      "updated_at": "2026-05-04T03:11:00.000Z",
+      "id": "faq-mattresses-5",
+      "ranking_id": "4be53f89-454c-4f3d-8f42-4fc224f90b35",
+      "question": "How long should a good mattress last?",
+      "answer": "A good mattress commonly lasts seven to ten years, though latex and premium hybrids can last longer. Material quality, body weight, usage, and support foundation all affect lifespan.",
+      "display_order": 5
     }
   ]
 }

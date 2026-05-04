@@ -603,7 +603,9 @@ export const CATEGORY_VERDICT_GUIDANCE: Record<string, string> = {
   "smart-plugs-power-strips": "The best smart plug or power strip depends less on flashy automation claims and more on how reliably it fits your real devices. A single smart plug is usually the right pick for lamps, fans, coffee makers, and simple scheduling, while smart power strips shine when you need outlet-by-outlet control for a desk, entertainment center, or charging station. Prioritize safe power ratings, dependable app behavior, strong ecosystem support, and trustworthy energy monitoring over extra features you may never use.",
   "monitor-arms": "The best monitor arm is the one that safely handles your display while making the desk easier to use every day. Weight range, height travel, and mount quality matter more than flashy extras, especially for ultrawides and standing desks. If an arm feels stable, adjusts without fuss, and gives you cleaner ergonomics plus reclaimed desk space, it is probably the right buy even if it has fewer bonus features.",
   "laptop-stands": "A good laptop stand should solve a real ergonomic or space problem, not just make the desk look nicer. For fixed desks, stability and viewing height matter most, while travel buyers should care more about packability and setup speed. The strongest picks usually balance posture, airflow, and footprint without forcing awkward typing angles or adding unnecessary bulk.",
-  "desk-cable-management": "The best cable management setup is the one you will actually maintain after the first cleanup. Start with the highest-impact fixes like an under-desk tray, mounted power strip, and reusable ties, then add clips, sleeves, or raceways where they reduce visible mess or snag risk. In this category, practical fit for your desk and devices matters more than buying the biggest kit on the page."
+  "desk-cable-management": "The best cable management setup is the one you will actually maintain after the first cleanup. Start with the highest-impact fixes like an under-desk tray, mounted power strip, and reusable ties, then add clips, sleeves, or raceways where they reduce visible mess or snag risk. In this category, practical fit for your desk and devices matters more than buying the biggest kit on the page.",
+  "espresso-machines": "The best espresso machine depends first on how much effort you actually want between craving a drink and pulling a shot. Buyers who love the craft should prioritize temperature stability, steam power, and grinder quality over flashy automation, while convenience-first households may get more real value from a strong super-automatic than a cheaper semi-automatic they never fully learn. Good verdicts in this category balance workflow, milk-drink performance, upgrade path, and how forgiving a machine feels day to day.",
+  "mattresses": "The best mattress is the one that keeps your spine supported and your pressure points comfortable for your body, sleep position, and temperature needs. Side sleepers usually benefit from more cushioning, back and stomach sleepers often need firmer support, and couples should weigh motion isolation against edge support and ease of movement. In this category, fit matters more than hype, so the smartest verdicts focus on feel, support, cooling, trial terms, and long-term durability rather than brand buzz alone."
 };
 
 export const CATEGORY_KEYWORD_MODIFIERS: Record<string, string[]> = {
@@ -644,6 +646,20 @@ export const CATEGORY_FAQ_SCHEMA: Record<string, Array<{ question: string; answe
     },
   })),
   "desk-cable-management": CATEGORY_FAQS["desk-cable-management"].map((faq) => ({
+    question: faq.question,
+    answer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+  "espresso-machines": CATEGORY_FAQS["espresso-machines"].map((faq) => ({
+    question: faq.question,
+    answer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+  "mattresses": CATEGORY_FAQS["mattresses"].map((faq) => ({
     question: faq.question,
     answer: {
       '@type': 'Answer',
