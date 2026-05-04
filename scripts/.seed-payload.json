@@ -239,6 +239,30 @@
       "description": "Best smart security cameras for indoor monitoring and outdoor perimeter coverage, compared on image quality, night vision, motion alerts, storage options, privacy controls, and subscription value.",
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "7c5f955a-036b-49f6-b59a-a5f22dcd5358",
+      "name": "Air Purifiers",
+      "slug": "air-purifiers",
+      "description": "Best air purifiers for allergies, smoke, pets, and large rooms, ranked by CADR, filtration quality, noise, and long-term value.",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "3085f607-718e-486f-9b9e-6e69b90b8168",
+      "name": "Smart Watches",
+      "slug": "smart-watches",
+      "description": "The best smartwatches ranked by health tracking, battery life, app ecosystem, durability, and platform compatibility.",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a97c995a-a076-47d8-b367-a1507cfb2d87",
+      "name": "Wireless Earbuds",
+      "slug": "wireless-earbuds",
+      "description": "Top wireless earbuds for sound quality, ANC, call clarity, battery life, and fit across iPhone, Android, gym, and commute use cases.",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ],
   "rankings": [
@@ -541,6 +565,36 @@
       "category_id": "838c59e3-e82b-4463-a172-ec27f2d34343",
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "slug": "best-air-purifiers-2026",
+      "question": "What Are the Best Air Purifiers in 2026?",
+      "description": "We compared leading air purifiers across CADR, HEPA and carbon filtration, room coverage, noise, filter cost, and app features to find the best picks for allergies, pets, smoke, and large spaces.",
+      "verdict_summary": "The Coway Airmega AP-1512HH remains the best all-around value for most rooms, the Blueair Blue Pure 211i Max is our favorite for larger spaces, and the Levoit Core 400S is the easiest smart pick for buyers who want strong performance without overspending.",
+      "category_id": "7c5f955a-036b-49f6-b59a-a5f22dcd5358",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "slug": "best-smart-watches-2026",
+      "question": "What Are the Best Smart Watches in 2026?",
+      "description": "We evaluated the top smartwatches on health tracking accuracy, battery life, ecosystem fit, comfort, maps, training tools, and daily usability to find the best options for iPhone users, Android users, fitness athletes, and casual wearers.",
+      "verdict_summary": "The Apple Watch Ultra 3 is still the most complete smartwatch for iPhone owners, the Samsung Galaxy Watch Ultra is the most balanced Android flagship, and Garmin’s Fenix 8 is the clear choice for buyers who care more about battery life and serious training tools than app polish.",
+      "category_id": "3085f607-718e-486f-9b9e-6e69b90b8168",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "slug": "best-wireless-earbuds-2026",
+      "question": "What Are the Best Wireless Earbuds in 2026?",
+      "description": "We tested leading wireless earbuds on sound quality, ANC, call performance, fit security, comfort, battery life, and ecosystem features to find the best picks for commuting, workouts, iPhone users, and Android buyers.",
+      "verdict_summary": "The AirPods Pro 2 remain the easiest recommendation for iPhone users, the Sony WF-1000XM5 offers the strongest mix of ANC and sound quality overall, and the Jabra Elite 8 Active stands out for buyers who care more about rugged fit and workout durability than ecosystem lock-in.",
+      "category_id": "a97c995a-a076-47d8-b367-a1507cfb2d87",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ],
   "products": [
@@ -1775,6 +1829,132 @@
       "link": "https://www.wyze.com/products/wyze-cam-v4",
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "Coway Airmega AP-1512HH Mighty",
+      "link": "https://cowaymega.com/products/airmega-ap-1512hh-mighty",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "Blueair Blue Pure 211i Max",
+      "link": "https://www.blueair.com/us/air-purifiers/blue-pure-211i-max/3525.html",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "Levoit Core 400S",
+      "link": "https://levoit.com/products/core-400s-smart-true-hepa-air-purifier",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "Winix 5500-2",
+      "link": "https://www.winixamerica.com/product/5500-2/",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Dyson Purifier Hot+Cool Formaldehyde HP09",
+      "link": "https://www.dyson.com/air-treatment/air-purifiers/hot-cool-formaldehyde-hp09",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "Honeywell HPA300",
+      "link": "https://www.honeywellstore.com/store/products/hpa300-true-hepa-whole-room-air-purifier.htm",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Apple Watch Ultra 3",
+      "link": "https://www.apple.com/apple-watch-ultra-3/",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Samsung Galaxy Watch Ultra",
+      "link": "https://www.samsung.com/us/watches/galaxy-watch-ultra/",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "Garmin Fenix 8",
+      "link": "https://www.garmin.com/en-US/p/garmin-fenix-8",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Google Pixel Watch 3",
+      "link": "https://store.google.com/product/pixel_watch_3",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "OnePlus Watch 3",
+      "link": "https://www.oneplus.com/us/oneplus-watch-3",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "Withings ScanWatch Nova",
+      "link": "https://www.withings.com/us/en/scanwatch-nova",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "Apple AirPods Pro 2",
+      "link": "https://www.apple.com/airpods-pro/",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "Sony WF-1000XM5",
+      "link": "https://electronics.sony.com/audio/headphones/truly-wireless-earbuds/p/wf1000xm5-b",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "Jabra Elite 8 Active Gen 2",
+      "link": "https://www.jabra.com/bluetooth-headsets/jabra-elite-8-active-gen-2",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "Bose QuietComfort Ultra Earbuds",
+      "link": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "Nothing Ear (2025)",
+      "link": "https://nothing.tech/products/ear",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "Anker Soundcore Liberty 4 NC",
+      "link": "https://www.soundcore.com/products/liberty-4-nc",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ],
   "ranking_products": [
@@ -2727,7 +2907,7 @@
       "id": "6fe798fc-2274-4493-8d20-73218571249a",
       "ranking_id": "34cd7a17-c1a4-4bd2-a6fb-1a270543eff7",
       "product_id": "3958f489-6228-438c-9a78-2ff5bcc4ceee",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 2,
       "created_at": "2026-04-20T02:29:11.859Z",
       "updated_at": "2026-04-20T02:29:11.859Z"
@@ -2781,7 +2961,7 @@
       "id": "b82d98f4-93f5-48f4-95f1-c14c45b835ec",
       "ranking_id": "c6b2994f-2f10-44ed-a9be-b724b695966c",
       "product_id": "d0051811-cea4-44be-aac7-63246d2dc9d4",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 2,
       "created_at": "2026-04-20T02:29:11.859Z",
       "updated_at": "2026-04-20T02:29:11.859Z"
@@ -2862,7 +3042,7 @@
       "id": "50153fe7-4717-4c14-9ade-ee8c5247227d",
       "ranking_id": "300ff8f7-01e5-47c2-896a-c7570bcbba64",
       "product_id": "2f7f3319-265f-4c01-aade-37c3cc275ef9",
-      "score": 8.0,
+      "score": 8,
       "rank_position": 5,
       "created_at": "2026-04-20T02:29:11.859Z",
       "updated_at": "2026-04-20T02:29:11.859Z"
@@ -2898,7 +3078,7 @@
       "id": "63655465-c241-4d19-b8b5-4812ef54cdfd",
       "ranking_id": "dc20281a-0408-486f-aa6d-0ed032061d01",
       "product_id": "844390ef-cf19-4a58-977b-11b3662c60f5",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 3,
       "created_at": "2026-04-22T21:29:48.492524+00:00",
       "updated_at": "2026-04-22T21:29:48.492524+00:00"
@@ -2943,7 +3123,7 @@
       "id": "00fb7731-d6bf-4964-a28a-dde5bc99f58c",
       "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
       "product_id": "f50e3b87-7ace-4a34-92ca-f28f1ba79a3b",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 2,
       "created_at": "2026-04-22T21:29:48.492524+00:00",
       "updated_at": "2026-04-22T21:29:48.492524+00:00"
@@ -2979,7 +3159,7 @@
       "id": "849e633d-54c1-4b84-b4c7-8e20baf85477",
       "ranking_id": "ef415196-f429-4b97-bd04-2b93bcb93a87",
       "product_id": "5202ad70-8c41-46f1-89ae-1e42f885d4af",
-      "score": 8.0,
+      "score": 8,
       "rank_position": 6,
       "created_at": "2026-04-22T21:29:48.492524+00:00",
       "updated_at": "2026-04-22T21:29:48.492524+00:00"
@@ -2997,7 +3177,7 @@
       "id": "7eb4c07b-7826-4a22-87b7-5cf424b088d4",
       "ranking_id": "8c07db48-5942-4cbc-b5fa-185be864df14",
       "product_id": "983ab993-5bb8-459b-bd4e-a808d4463cb3",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 2,
       "created_at": "2026-04-22T21:29:48.492524+00:00",
       "updated_at": "2026-04-22T21:29:48.492524+00:00"
@@ -3087,7 +3267,7 @@
       "id": "a38c81aa-421f-4d7f-b288-5cbe30167c20",
       "ranking_id": "8023f73a-16f5-4649-bebd-52016f3e2cfc",
       "product_id": "743c6106-1447-49aa-aa1e-d41b1ce98761",
-      "score": 8.0,
+      "score": 8,
       "rank_position": 6,
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
@@ -3195,7 +3375,7 @@
       "id": "f5918df3-a598-4a93-8fe8-d46c7d235041",
       "ranking_id": "65bb900c-63c2-49ab-9be4-ca04ab1fa3f4",
       "product_id": "dea04f3c-76d4-497b-9a69-96d827d2e1bb",
-      "score": 8.0,
+      "score": 8,
       "rank_position": 6,
       "created_at": "2026-04-23T01:00:00.000Z",
       "updated_at": "2026-04-23T01:00:00.000Z"
@@ -3276,7 +3456,7 @@
       "id": "f1839778-1eba-43de-b9f4-ba6aba2ce633",
       "ranking_id": "1c457e4f-2bd5-45e2-8cd8-8b18254993f4",
       "product_id": "a9343abe-279c-4095-877f-5e8e47e0a887",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 3,
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
@@ -3330,7 +3510,7 @@
       "id": "fd6907e7-ec15-4a6f-b7ce-552af432ff52",
       "ranking_id": "33795820-d056-4548-a44a-01a27c63bc07",
       "product_id": "eb836ca0-0b87-4b85-8881-dcdb6cd40857",
-      "score": 9.0,
+      "score": 9,
       "rank_position": 3,
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
@@ -3361,6 +3541,168 @@
       "rank_position": 6,
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "score": 8.6,
+      "rank_position": 4,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d348a58c-4331-4291-a757-481e17366397",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "score": 9,
+      "rank_position": 3,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "score": 8.7,
+      "rank_position": 4,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "score": 9.2,
+      "rank_position": 2,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7dd04749-308b-409b-959d-d518b166200d",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "score": 8.7,
+      "rank_position": 4,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "score": 8.4,
+      "rank_position": 5,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "score": 8,
+      "rank_position": 6,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ],
   "users": [],
@@ -12643,6 +12985,1194 @@
       "headline": "Long-term reliability is less confidence-inspiring than category leaders.",
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "b3778603-aa6e-4ac9-afcd-c81e648ce822",
+      "ranking_product_id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent clean-air performance for the price with consistently strong smoke and dust removal.",
+      "headline": "Excellent clean-air performance for the price with consistently strong smoke and dust removal",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ba98150c-faec-4b0f-9604-d30d03336173",
+      "ranking_product_id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "user_id": null,
+      "type": "pro",
+      "content": "Compact footprint makes it easier to place in bedrooms and offices than many high-CADR rivals.",
+      "headline": "Compact footprint makes it easier to place in bedrooms and offices than many high-CADR rivals",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "742fd7f4-7e13-4afb-a0ce-b7cad38d7f2a",
+      "ranking_product_id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "user_id": null,
+      "type": "pro",
+      "content": "Long-term filter cost stays reasonable, which matters more than sticker price over time.",
+      "headline": "Long-term filter cost stays reasonable, which matters more than sticker price over time",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "724ab9f2-0f6c-423d-b55b-1dc80257d2b4",
+      "ranking_product_id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "user_id": null,
+      "type": "con",
+      "content": "No app control or remote scheduling for buyers who want a fully connected setup.",
+      "headline": "No app control or remote scheduling for buyers who want a fully connected setup",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0d3cd465-5d07-488c-b616-3d37a882f6fb",
+      "ranking_product_id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "user_id": null,
+      "type": "con",
+      "content": "Looks utilitarian rather than premium in living-room spaces.",
+      "headline": "Looks utilitarian rather than premium in living-room spaces",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2beaf61c-7ac8-4a9c-be17-0818b643d963",
+      "ranking_product_id": "b0947e75-ef38-496a-b671-e5f2954d41f8",
+      "user_id": null,
+      "type": "con",
+      "content": "Best for medium rooms, not huge open-plan areas.",
+      "headline": "Best for medium rooms, not huge open-plan areas",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "bfa0c5f8-6667-4188-9c07-24d85197347f",
+      "ranking_product_id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "user_id": null,
+      "type": "pro",
+      "content": "Outstanding coverage and airflow make it one of the best choices for large living rooms and open layouts.",
+      "headline": "Outstanding coverage and airflow make it one of the best choices for large living rooms and open layouts",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b9beab82-dfdf-4e67-8f6b-d3b90d665780",
+      "ranking_product_id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "user_id": null,
+      "type": "pro",
+      "content": "Quiet operation relative to its airflow output keeps it usable even at higher settings.",
+      "headline": "Quiet operation relative to its airflow output keeps it usable even at higher settings",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "bb808cdc-19d4-4725-aa1e-22e3caf423ed",
+      "ranking_product_id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "user_id": null,
+      "type": "pro",
+      "content": "App control and air-quality automation are polished and easy to live with.",
+      "headline": "App control and air-quality automation are polished and easy to live with",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "fe9db0d6-c991-48f0-b15e-4880e1328adc",
+      "ranking_product_id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "user_id": null,
+      "type": "con",
+      "content": "Replacement filters are pricier than simpler mid-range purifiers.",
+      "headline": "Replacement filters are pricier than simpler mid-range purifiers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a39bb200-154b-4fdf-bc90-e3ac77fda5cb",
+      "ranking_product_id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "user_id": null,
+      "type": "con",
+      "content": "Larger body takes up noticeable floor space.",
+      "headline": "Larger body takes up noticeable floor space",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8ee57a1b-2abe-408f-99ea-4164f2ed8375",
+      "ranking_product_id": "1fa658a0-3c35-4b16-aab0-625e4e7709d0",
+      "user_id": null,
+      "type": "con",
+      "content": "Premium pricing is harder to justify for small bedrooms.",
+      "headline": "Premium pricing is harder to justify for small bedrooms",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4652ed10-198f-43ac-b7cb-68f6e9f51cb3",
+      "ranking_product_id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Smart controls are genuinely useful, with simple scheduling and responsive air-quality auto mode.",
+      "headline": "Smart controls are genuinely useful, with simple scheduling and responsive air-quality auto mode",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4b4a3a76-2482-456f-b291-e8bdb25de6fb",
+      "ranking_product_id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Strong balance of filtration, size, and price makes it easy to recommend to most buyers.",
+      "headline": "Strong balance of filtration, size, and price makes it easy to recommend to most buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a144b56e-9937-4f0c-b07e-f42cf6a53307",
+      "ranking_product_id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "user_id": null,
+      "type": "pro",
+      "content": "Sleep mode is quiet enough for bedroom use without feeling underpowered.",
+      "headline": "Sleep mode is quiet enough for bedroom use without feeling underpowered",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4c313abb-86d1-441c-a839-9bd5515fab2d",
+      "ranking_product_id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "user_id": null,
+      "type": "con",
+      "content": "Round form factor can feel bulky on smaller floorspace footprints.",
+      "headline": "Round form factor can feel bulky on smaller floorspace footprints",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "065be15c-c1f1-4029-bb57-f0f9bffd503f",
+      "ranking_product_id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "user_id": null,
+      "type": "con",
+      "content": "Carbon stage is solid for odors, but not as robust as premium smoke-focused models.",
+      "headline": "Carbon stage is solid for odors, but not as robust as premium smoke-focused models",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "014368ee-e530-421c-a8af-6d60e0653509",
+      "ranking_product_id": "c531aeb6-86a0-4dee-b6cc-5d3e5eed3dc3",
+      "user_id": null,
+      "type": "con",
+      "content": "Filter subscriptions add up if you run it constantly.",
+      "headline": "Filter subscriptions add up if you run it constantly",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "72c5b4a8-b5c3-4ff4-b00a-e5c67a55d251",
+      "ranking_product_id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "user_id": null,
+      "type": "pro",
+      "content": "Washable carbon pre-filter helps with recurring odor and pet-hair maintenance costs.",
+      "headline": "Washable carbon pre-filter helps with recurring odor and pet-hair maintenance costs",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "be570a2a-0fe2-4d7e-bba8-191c28abb482",
+      "ranking_product_id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "user_id": null,
+      "type": "pro",
+      "content": "Very good smoke and allergen performance for a frequently discounted mid-range unit.",
+      "headline": "Very good smoke and allergen performance for a frequently discounted mid-range unit",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "562c0f2c-47f0-411e-b2ff-6d4bb111bd1d",
+      "ranking_product_id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "user_id": null,
+      "type": "pro",
+      "content": "Auto mode works well for set-it-and-forget-it buyers.",
+      "headline": "Auto mode works well for set-it-and-forget-it buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "86c8d14c-e9ed-463c-9895-449cfbc3998d",
+      "ranking_product_id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "user_id": null,
+      "type": "con",
+      "content": "Industrial design feels dated next to newer minimalist competitors.",
+      "headline": "Industrial design feels dated next to newer minimalist competitors",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "363f0fff-b52c-4691-b234-cff4a5701f0f",
+      "ranking_product_id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "user_id": null,
+      "type": "con",
+      "content": "Plasma feature is divisive and often turned off by cautious buyers.",
+      "headline": "Plasma feature is divisive and often turned off by cautious buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "5ea1f468-e4d3-4ed9-be62-b2ab230fc837",
+      "ranking_product_id": "7f4e718e-e20a-4725-823d-9d34444f95ac",
+      "user_id": null,
+      "type": "con",
+      "content": "Noise rises quickly on turbo mode.",
+      "headline": "Noise rises quickly on turbo mode",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9841e3cc-e426-4aed-9e58-cf19f390f401",
+      "ranking_product_id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent if you specifically want one device that purifies, heats, and circulates air year-round.",
+      "headline": "Excellent if you specifically want one device that purifies, heats, and circulates air year-round",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7892b175-d926-457f-bb2b-4f0bce312be1",
+      "ranking_product_id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "user_id": null,
+      "type": "pro",
+      "content": "App experience, sensor detail, and build quality all feel premium.",
+      "headline": "App experience, sensor detail, and build quality all feel premium",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "597abd21-a447-4deb-a23f-9d8120264407",
+      "ranking_product_id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "user_id": null,
+      "type": "pro",
+      "content": "Formaldehyde filtration and fan-only use give it more utility than a plain purifier.",
+      "headline": "Formaldehyde filtration and fan-only use give it more utility than a plain purifier",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c4c35d17-b273-45c9-864b-c71b9a7e95e4",
+      "ranking_product_id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "user_id": null,
+      "type": "con",
+      "content": "Expensive compared with dedicated purifiers that clean air just as well or better.",
+      "headline": "Expensive compared with dedicated purifiers that clean air just as well or better",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e7fca7d4-471e-4e58-9b16-0f529abed570",
+      "ranking_product_id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "user_id": null,
+      "type": "con",
+      "content": "Tall tower shape is convenient, but airflow can feel more directional than box-style units.",
+      "headline": "Tall tower shape is convenient, but airflow can feel more directional than box-style units",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d2d091e7-a448-46ae-9f81-71e83ac71f0e",
+      "ranking_product_id": "2e12d1ef-5cf8-4232-8041-b708ce0698ba",
+      "user_id": null,
+      "type": "con",
+      "content": "Replacement filters are costly.",
+      "headline": "Replacement filters are costly",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "be3aff9b-8624-4154-87ee-ed77b8516c3f",
+      "ranking_product_id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "user_id": null,
+      "type": "pro",
+      "content": "Powerful raw cleaning performance for larger rooms and heavy allergy seasons.",
+      "headline": "Powerful raw cleaning performance for larger rooms and heavy allergy seasons",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f114e895-fffd-4f3e-b65d-83b86c685ae8",
+      "ranking_product_id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "user_id": null,
+      "type": "pro",
+      "content": "Simple physical controls appeal to buyers who do not want apps or account setup.",
+      "headline": "Simple physical controls appeal to buyers who do not want apps or account setup",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "61db83be-bae6-4651-9020-29db1f388c3f",
+      "ranking_product_id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "user_id": null,
+      "type": "pro",
+      "content": "Widely available filters make upkeep straightforward.",
+      "headline": "Widely available filters make upkeep straightforward",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "765b9b89-765b-4299-a16c-0701552aa4f1",
+      "ranking_product_id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "user_id": null,
+      "type": "con",
+      "content": "Noticeably louder than newer premium models at high speed.",
+      "headline": "Noticeably louder than newer premium models at high speed",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1e360dee-846d-455b-8361-28f25866dc98",
+      "ranking_product_id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "user_id": null,
+      "type": "con",
+      "content": "Bulky body is harder to hide in smaller rooms.",
+      "headline": "Bulky body is harder to hide in smaller rooms",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "647e775f-2c0c-4994-96dd-d65bc5cfa37e",
+      "ranking_product_id": "d2474166-ca10-4c8a-92d5-f2e8a5b2330c",
+      "user_id": null,
+      "type": "con",
+      "content": "Lacks modern automation or air-quality intelligence.",
+      "headline": "Lacks modern automation or air-quality intelligence",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8cab7b67-0441-464f-9136-afc2def45506",
+      "ranking_product_id": "d348a58c-4331-4291-a757-481e17366397",
+      "user_id": null,
+      "type": "pro",
+      "content": "Best-in-class app ecosystem, notifications, and health feature integration for iPhone users.",
+      "headline": "Best-in-class app ecosystem, notifications, and health feature integration for iPhone users",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f79cae9c-3f1a-4d01-859b-cb17a02f91aa",
+      "ranking_product_id": "d348a58c-4331-4291-a757-481e17366397",
+      "user_id": null,
+      "type": "pro",
+      "content": "Rugged titanium design and brighter display make it genuinely useful outdoors.",
+      "headline": "Rugged titanium design and brighter display make it genuinely useful outdoors",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "350eee41-f031-4d2e-82ad-a4a3e16221be",
+      "ranking_product_id": "d348a58c-4331-4291-a757-481e17366397",
+      "user_id": null,
+      "type": "pro",
+      "content": "Dual-frequency GPS and strong workout ecosystem keep it from feeling like a pure lifestyle watch.",
+      "headline": "Dual-frequency GPS and strong workout ecosystem keep it from feeling like a pure lifestyle watch",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d34df140-ab94-4408-97c4-6e6b0b132c60",
+      "ranking_product_id": "d348a58c-4331-4291-a757-481e17366397",
+      "user_id": null,
+      "type": "con",
+      "content": "Locked to iPhone, which instantly rules it out for Android buyers.",
+      "headline": "Locked to iPhone, which instantly rules it out for Android buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0be0436c-3455-4388-a0b4-1df68420b967",
+      "ranking_product_id": "d348a58c-4331-4291-a757-481e17366397",
+      "user_id": null,
+      "type": "con",
+      "content": "Premium pricing makes it hard to justify if you do not need the Ultra hardware.",
+      "headline": "Premium pricing makes it hard to justify if you do not need the Ultra hardware",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1f7c9e17-8199-414f-92ea-ab1081115244",
+      "ranking_product_id": "d348a58c-4331-4291-a757-481e17366397",
+      "user_id": null,
+      "type": "con",
+      "content": "Still trails Garmin on true multi-week battery life.",
+      "headline": "Still trails Garmin on true multi-week battery life",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a0607fc7-1dbb-48db-a3b8-025cfdf05fde",
+      "ranking_product_id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "user_id": null,
+      "type": "pro",
+      "content": "The strongest overall smartwatch for Android users, especially inside Samsung’s ecosystem.",
+      "headline": "The strongest overall smartwatch for Android users, especially inside Samsung’s ecosystem",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "48d36e7b-1f2e-479e-9bba-b50f3fb0a99d",
+      "ranking_product_id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "user_id": null,
+      "type": "pro",
+      "content": "Good mix of health features, durable hardware, and everyday smartwatch polish.",
+      "headline": "Good mix of health features, durable hardware, and everyday smartwatch polish",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2476f61e-6dec-42a3-a090-c93e90be890e",
+      "ranking_product_id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "user_id": null,
+      "type": "pro",
+      "content": "Wear OS gives it much better app depth than most fitness-first rivals.",
+      "headline": "Wear OS gives it much better app depth than most fitness-first rivals",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "5c0953bf-3312-4548-9816-1a9587e2df64",
+      "ranking_product_id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "user_id": null,
+      "type": "con",
+      "content": "Some advanced health features work best or only with Samsung phones.",
+      "headline": "Some advanced health features work best or only with Samsung phones",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "75a69e91-db36-4a07-af62-8125830cd817",
+      "ranking_product_id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is good, but not category-leading.",
+      "headline": "Battery life is good, but not category-leading",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "764d2bc2-3f9c-43be-baed-565a18c38335",
+      "ranking_product_id": "26928da3-922a-48c9-90d7-0c2547333e73",
+      "user_id": null,
+      "type": "con",
+      "content": "Large case can feel chunky on smaller wrists.",
+      "headline": "Large case can feel chunky on smaller wrists",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f289042b-8110-4627-b30f-7800b8d0b447",
+      "ranking_product_id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "user_id": null,
+      "type": "pro",
+      "content": "Outstanding battery life and elite training tools make it the serious-athlete benchmark.",
+      "headline": "Outstanding battery life and elite training tools make it the serious-athlete benchmark",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "da23141a-f8f8-4043-a4a0-1698a6db9148",
+      "ranking_product_id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "user_id": null,
+      "type": "pro",
+      "content": "Offline maps, navigation, and durable build are far better than mainstream smartwatches for adventure use.",
+      "headline": "Offline maps, navigation, and durable build are far better than mainstream smartwatches for adventure use",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c6bbb702-93a0-426e-bfcc-3140e0fea752",
+      "ranking_product_id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "user_id": null,
+      "type": "pro",
+      "content": "Works across iPhone and Android without feeling overly compromised.",
+      "headline": "Works across iPhone and Android without feeling overly compromised",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2b06cdda-93fc-468b-a439-3659475099a3",
+      "ranking_product_id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "user_id": null,
+      "type": "con",
+      "content": "App ecosystem and smart features are weaker than Apple or Wear OS watches.",
+      "headline": "App ecosystem and smart features are weaker than Apple or Wear OS watches",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8b78f3cb-b406-45a6-92a9-8738ae33f420",
+      "ranking_product_id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "user_id": null,
+      "type": "con",
+      "content": "Expensive and arguably overbuilt for casual buyers.",
+      "headline": "Expensive and arguably overbuilt for casual buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8718b1f3-8b9c-437d-a1cf-fd8b4b05d45b",
+      "ranking_product_id": "3a32c98d-e6ad-490a-a253-8b4df808d522",
+      "user_id": null,
+      "type": "con",
+      "content": "Learning curve is steeper than lifestyle-oriented watches.",
+      "headline": "Learning curve is steeper than lifestyle-oriented watches",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "6bb0e9c7-fb50-49e5-adc0-23afc7ec3b3b",
+      "ranking_product_id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "user_id": null,
+      "type": "pro",
+      "content": "Clean Wear OS experience with strong Google Assistant and Fitbit integration.",
+      "headline": "Clean Wear OS experience with strong Google Assistant and Fitbit integration",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "494ee594-82b1-4e10-9657-493a6fcb1a92",
+      "ranking_product_id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "user_id": null,
+      "type": "pro",
+      "content": "Compact, comfortable design is easier to wear all day and all night than larger rugged models.",
+      "headline": "Compact, comfortable design is easier to wear all day and all night than larger rugged models",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4f8ea0f8-43dc-4518-a971-fc39eb933964",
+      "ranking_product_id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent choice for Android users who want polish over extreme sports features.",
+      "headline": "Excellent choice for Android users who want polish over extreme sports features",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "5aa3b0c2-f126-47ab-b457-354889daedc3",
+      "ranking_product_id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is merely acceptable, especially with always-on display enabled.",
+      "headline": "Battery life is merely acceptable, especially with always-on display enabled",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c9f86820-e1d2-4920-b3d3-39a2caddfdb2",
+      "ranking_product_id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "user_id": null,
+      "type": "con",
+      "content": "Best health insights still push buyers toward Fitbit subscription upsells.",
+      "headline": "Best health insights still push buyers toward Fitbit subscription upsells",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e94b619d-57c6-47fd-ae70-60d294e8142f",
+      "ranking_product_id": "8e64347e-9c43-4fd0-9baa-301782003200",
+      "user_id": null,
+      "type": "con",
+      "content": "Less rugged than Ultra-class competitors.",
+      "headline": "Less rugged than Ultra-class competitors",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "15b37843-75b8-43c9-a766-b7587623c786",
+      "ranking_product_id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent battery life for a full-featured Wear OS-style watch.",
+      "headline": "Excellent battery life for a full-featured Wear OS-style watch",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7dd709b4-02ec-45cb-9174-935d642ce590",
+      "ranking_product_id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Fast performance and responsive interface make it pleasant as a daily driver.",
+      "headline": "Fast performance and responsive interface make it pleasant as a daily driver",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0b27828c-5979-48e5-b9d2-94a5c07e743c",
+      "ranking_product_id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Strong value for Android buyers who want something between Pixel polish and Garmin endurance.",
+      "headline": "Strong value for Android buyers who want something between Pixel polish and Garmin endurance",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "bd6b04f6-c766-4e01-9a5f-f133ff535e7a",
+      "ranking_product_id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "user_id": null,
+      "type": "con",
+      "content": "App ecosystem and third-party support are not as deep as Samsung or Google options.",
+      "headline": "App ecosystem and third-party support are not as deep as Samsung or Google options",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "36aa8746-3a03-4d95-a017-5339ed812f35",
+      "ranking_product_id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "user_id": null,
+      "type": "con",
+      "content": "Health metrics are solid, but not the benchmark for accuracy.",
+      "headline": "Health metrics are solid, but not the benchmark for accuracy",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "624ff09a-eacf-4bb6-82a8-91e3ae8350ac",
+      "ranking_product_id": "082e4599-30d2-48a1-830f-024264da4f3b",
+      "user_id": null,
+      "type": "con",
+      "content": "Limited appeal for iPhone users.",
+      "headline": "Limited appeal for iPhone users",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8347516d-4a42-4706-ae1d-f575f2297aa7",
+      "ranking_product_id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "user_id": null,
+      "type": "pro",
+      "content": "Looks like a real analog watch, which many buyers still strongly prefer.",
+      "headline": "Looks like a real analog watch, which many buyers still strongly prefer",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ae81dd36-d035-4851-858f-b21fffebd1c5",
+      "ranking_product_id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "user_id": null,
+      "type": "pro",
+      "content": "Long battery life is refreshing if you hate daily charging.",
+      "headline": "Long battery life is refreshing if you hate daily charging",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d6321bb3-22db-4d6d-8659-c87808391ccc",
+      "ranking_product_id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "user_id": null,
+      "type": "pro",
+      "content": "Good health basics without the visual bulk of a mini phone on your wrist.",
+      "headline": "Good health basics without the visual bulk of a mini phone on your wrist",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f2d8fdc4-8371-4cfd-8192-f4b11f27ce80",
+      "ranking_product_id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "user_id": null,
+      "type": "con",
+      "content": "Hybrid design means weaker notifications, apps, and interaction depth.",
+      "headline": "Hybrid design means weaker notifications, apps, and interaction depth",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1ad5db14-e429-47d9-ac62-6cabdee294d9",
+      "ranking_product_id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "user_id": null,
+      "type": "con",
+      "content": "No built-in GPS limits it for serious outdoor training.",
+      "headline": "No built-in GPS limits it for serious outdoor training",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "006f9077-05cf-4437-9d85-5e7d49b1f318",
+      "ranking_product_id": "28c4ff23-04ef-4ab3-89c0-35f17d4fe391",
+      "user_id": null,
+      "type": "con",
+      "content": "Small display is less convenient for reading and replying.",
+      "headline": "Small display is less convenient for reading and replying",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2cef07a7-2888-4fb9-b4cd-5042e8c24144",
+      "ranking_product_id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "user_id": null,
+      "type": "pro",
+      "content": "Still the easiest and most satisfying earbuds for iPhone owners thanks to seamless pairing and device switching.",
+      "headline": "Still the easiest and most satisfying earbuds for iPhone owners thanks to seamless pairing and device switching",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9d2e3c07-37fc-4309-a51c-32f245e5d6a6",
+      "ranking_product_id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent transparency mode and very strong real-world ANC make them great daily commuters.",
+      "headline": "Excellent transparency mode and very strong real-world ANC make them great daily commuters",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "765db5a4-9679-41a7-84c6-0643381ca604",
+      "ranking_product_id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "user_id": null,
+      "type": "pro",
+      "content": "Call quality and comfort are consistently strong for mainstream buyers.",
+      "headline": "Call quality and comfort are consistently strong for mainstream buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "59537093-6a66-4d46-ab4d-5f8307841a8a",
+      "ranking_product_id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "user_id": null,
+      "type": "con",
+      "content": "Android support is fine, but much of the magic is lost outside Apple devices.",
+      "headline": "Android support is fine, but much of the magic is lost outside Apple devices",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d5cab39c-4508-4f95-95b8-c16643ea50d5",
+      "ranking_product_id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is good rather than class-leading.",
+      "headline": "Battery life is good rather than class-leading",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a161cd91-d85b-4644-b425-7686094d2af8",
+      "ranking_product_id": "54a4ccf8-1638-4d0d-a966-9b315d1f55af",
+      "user_id": null,
+      "type": "con",
+      "content": "Sound tuning is polished, but not the richest or most customizable in class.",
+      "headline": "Sound tuning is polished, but not the richest or most customizable in class",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "5f775774-9f8a-489c-a738-c66f0c33bc95",
+      "ranking_product_id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "user_id": null,
+      "type": "pro",
+      "content": "Superb mix of sound quality, customization, and noise cancellation.",
+      "headline": "Superb mix of sound quality, customization, and noise cancellation",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "79aa503f-1809-4f89-9b2c-bbf7cba6eabd",
+      "ranking_product_id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "user_id": null,
+      "type": "pro",
+      "content": "LDAC support and strong EQ options make them especially appealing for Android audio enthusiasts.",
+      "headline": "LDAC support and strong EQ options make them especially appealing for Android audio enthusiasts",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c92c433e-80ed-41aa-a298-45d24e30c677",
+      "ranking_product_id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "user_id": null,
+      "type": "pro",
+      "content": "Smaller shells than the previous generation improve comfort for more ears.",
+      "headline": "Smaller shells than the previous generation improve comfort for more ears",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4c99d051-b8f0-44d0-aa65-d05bcfedc949",
+      "ranking_product_id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "user_id": null,
+      "type": "con",
+      "content": "Expensive enough that buyers should make sure they will actually use the premium features.",
+      "headline": "Expensive enough that buyers should make sure they will actually use the premium features",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "24db7ef1-bdc1-4c07-b638-9916816ea181",
+      "ranking_product_id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "user_id": null,
+      "type": "con",
+      "content": "Microphone performance is good, but not the absolute category leader.",
+      "headline": "Microphone performance is good, but not the absolute category leader",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2efdd145-65f7-4337-954b-43a903e6a973",
+      "ranking_product_id": "2eaae90c-f2e9-4609-b56e-a03b254e6062",
+      "user_id": null,
+      "type": "con",
+      "content": "Fit can still be hit or miss depending on ear shape.",
+      "headline": "Fit can still be hit or miss depending on ear shape",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7d41ea3c-37ce-4cde-8f9e-6122380e8f54",
+      "ranking_product_id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "user_id": null,
+      "type": "pro",
+      "content": "One of the best workout earbuds thanks to secure fit and exceptional durability.",
+      "headline": "One of the best workout earbuds thanks to secure fit and exceptional durability",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ebaf345f-751b-4309-ae44-0e0b972e617a",
+      "ranking_product_id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Balanced sound and dependable controls make them strong beyond just gym use.",
+      "headline": "Balanced sound and dependable controls make them strong beyond just gym use",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "34615015-44b1-496c-a6fd-ea1dd65ef490",
+      "ranking_product_id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Good battery life and multipoint support add real everyday versatility.",
+      "headline": "Good battery life and multipoint support add real everyday versatility",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "6635be40-4275-4283-8afe-079f9592d9cf",
+      "ranking_product_id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "user_id": null,
+      "type": "con",
+      "content": "ANC is strong, but not as class-leading as Sony or Bose.",
+      "headline": "ANC is strong, but not as class-leading as Sony or Bose",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "36dfebc7-04aa-4fb8-82b2-66d5dab44bf9",
+      "ranking_product_id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "user_id": null,
+      "type": "con",
+      "content": "Case is a bit bulkier than the sleekest commuting-focused rivals.",
+      "headline": "Case is a bit bulkier than the sleekest commuting-focused rivals",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a1a001c4-0fdd-4da6-9118-fbe139a8a24f",
+      "ranking_product_id": "f2736935-b808-456a-b8ca-96426e28c54b",
+      "user_id": null,
+      "type": "con",
+      "content": "Brand ecosystem is less sticky, which matters to some buyers and not at all to others.",
+      "headline": "Brand ecosystem is less sticky, which matters to some buyers and not at all to others",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "78a14c9a-05a6-4c10-854b-bae2ded0fef7",
+      "ranking_product_id": "7dd04749-308b-409b-959d-d518b166200d",
+      "user_id": null,
+      "type": "pro",
+      "content": "Among the very best earbuds for raw noise cancellation, especially on flights and trains.",
+      "headline": "Among the very best earbuds for raw noise cancellation, especially on flights and trains",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2c529cfa-eb05-437a-9239-239d8b97d7dd",
+      "ranking_product_id": "7dd04749-308b-409b-959d-d518b166200d",
+      "user_id": null,
+      "type": "pro",
+      "content": "Comfortable fit and warm tuning make them easy to enjoy for long listening sessions.",
+      "headline": "Comfortable fit and warm tuning make them easy to enjoy for long listening sessions",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "36170cda-e5f1-440e-9d11-6b8e33c62246",
+      "ranking_product_id": "7dd04749-308b-409b-959d-d518b166200d",
+      "user_id": null,
+      "type": "pro",
+      "content": "Immersive audio features are genuinely fun when they match your content.",
+      "headline": "Immersive audio features are genuinely fun when they match your content",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "522f775a-8d2f-45d4-859f-449787dfabce",
+      "ranking_product_id": "7dd04749-308b-409b-959d-d518b166200d",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is only average for a premium pair.",
+      "headline": "Battery life is only average for a premium pair",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "efcc7092-90c7-4241-b0cd-3bb2c9cbac2f",
+      "ranking_product_id": "7dd04749-308b-409b-959d-d518b166200d",
+      "user_id": null,
+      "type": "con",
+      "content": "Large shells may not suit smaller ears.",
+      "headline": "Large shells may not suit smaller ears",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "3647ad63-3076-4830-bbe6-2cff6215567a",
+      "ranking_product_id": "7dd04749-308b-409b-959d-d518b166200d",
+      "user_id": null,
+      "type": "con",
+      "content": "Price is premium even before occasional app frustrations.",
+      "headline": "Price is premium even before occasional app frustrations",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9e41fbf2-6737-442f-873f-9b213505d2fd",
+      "ranking_product_id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent value with fun design and a very tweakable sound profile.",
+      "headline": "Excellent value with fun design and a very tweakable sound profile",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "98ca3cd6-b413-46ba-a0d4-6048520a3598",
+      "ranking_product_id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "user_id": null,
+      "type": "pro",
+      "content": "Strong battery life makes them a practical everyday pair.",
+      "headline": "Strong battery life makes them a practical everyday pair",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c4613fa3-8e43-4e6d-9da2-58fc924c1381",
+      "ranking_product_id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "user_id": null,
+      "type": "pro",
+      "content": "Good cross-platform behavior gives them broader appeal than ecosystem-locked buds.",
+      "headline": "Good cross-platform behavior gives them broader appeal than ecosystem-locked buds",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "23380c92-0302-433c-9f8d-50df8f3867c4",
+      "ranking_product_id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "user_id": null,
+      "type": "con",
+      "content": "ANC is good for the price, but not truly flagship level.",
+      "headline": "ANC is good for the price, but not truly flagship level",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "fdbe5b20-cb8e-4784-90ef-112d754020cd",
+      "ranking_product_id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "user_id": null,
+      "type": "con",
+      "content": "Stem design and styling are distinctive enough to be polarizing.",
+      "headline": "Stem design and styling are distinctive enough to be polarizing",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f7426fdd-ae3c-4132-b7fe-e9e4b9b54aad",
+      "ranking_product_id": "e026cb82-5017-4053-808e-660c1fc0b20a",
+      "user_id": null,
+      "type": "con",
+      "content": "App polish is improving, but not best-in-class.",
+      "headline": "App polish is improving, but not best-in-class",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "dae2914f-9241-4709-8035-1b64366644cd",
+      "ranking_product_id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "user_id": null,
+      "type": "pro",
+      "content": "One of the best budget-friendly ANC earbuds for buyers who want features without flagship pricing.",
+      "headline": "One of the best budget-friendly ANC earbuds for buyers who want features without flagship pricing",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "63927649-87f4-4e92-838b-2a31ec71a76a",
+      "ranking_product_id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "user_id": null,
+      "type": "pro",
+      "content": "Very strong battery life and useful companion app outperform many rivals at the price.",
+      "headline": "Very strong battery life and useful companion app outperform many rivals at the price",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "49463f51-82d0-417c-90ea-42c7326ed9ab",
+      "ranking_product_id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "user_id": null,
+      "type": "pro",
+      "content": "LDAC and multipoint give it unusually broad value for Android-heavy buyers.",
+      "headline": "LDAC and multipoint give it unusually broad value for Android-heavy buyers",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "3d939028-e3f3-4ade-be33-a8b0f4266f86",
+      "ranking_product_id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "user_id": null,
+      "type": "con",
+      "content": "Fit and case quality feel less premium than top-tier competitors.",
+      "headline": "Fit and case quality feel less premium than top-tier competitors",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9e67a068-b789-4ac0-803e-ed789ac25164",
+      "ranking_product_id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "user_id": null,
+      "type": "con",
+      "content": "ANC is impressive for value tier, but not as refined as Sony, Bose, or Apple.",
+      "headline": "ANC is impressive for value tier, but not as refined as Sony, Bose, or Apple",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f1033bdd-46fa-4806-b91d-d1439d840a0b",
+      "ranking_product_id": "302f5a9b-c6c3-4eb9-8230-44301e282e29",
+      "user_id": null,
+      "type": "con",
+      "content": "Call quality is decent rather than standout.",
+      "headline": "Call quality is decent rather than standout",
+      "description": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ],
   "specifications": [
@@ -21012,6 +22542,978 @@
       "value": "IP65",
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "a6de100a-8da1-4703-aa00-0c3c478aa472",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "Coverage",
+      "value": "361",
+      "unit": "sq ft",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ebe6989d-7cc8-4d28-9d0a-38c17d8e932d",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "Filtration",
+      "value": "True HEPA + activated carbon",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7d550fa0-b85a-4833-ac9f-b664e1fbf463",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "CADR",
+      "value": "246/240/233",
+      "unit": "CFM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "160ce9df-b9f5-447f-840f-4dc7c8a77e08",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "Noise",
+      "value": "24.4-53.8",
+      "unit": "dB",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "5a15bee2-0b79-44b9-b98a-c07cdff01934",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "Power Draw",
+      "value": "77",
+      "unit": "W",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f9950799-5c97-424a-af74-36273e4e207c",
+      "product_id": "ea66ddf4-dd9e-4212-ba80-1fcea90ee055",
+      "name": "Smart Features",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e44db394-db41-4a5a-9bac-91bbdf80269c",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "Coverage",
+      "value": "635",
+      "unit": "sq ft",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0b139db4-7158-4480-8f7c-395764b32b16",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "Filtration",
+      "value": "HEPASilent + carbon",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d9306e2f-5a5e-4ee6-9aff-516a24bf6dc6",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "CADR",
+      "value": "410",
+      "unit": "CFM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "6f5ba0da-57eb-4678-9ea3-e7af07419ce1",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "Noise",
+      "value": "23-53",
+      "unit": "dB",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "67cb9e40-8986-47a0-9b7e-1e58a91fb8cb",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "Connectivity",
+      "value": "Wi-Fi",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "224ed108-0452-4f76-989e-76bcc06acd38",
+      "product_id": "500ba85d-0ff5-46f9-b809-014cb85834ac",
+      "name": "Weight",
+      "value": "16.2",
+      "unit": "lb",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "27fb2aa6-9fb0-4ec6-ad83-fc1583abdaa6",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "Coverage",
+      "value": "403",
+      "unit": "sq ft",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "fc8da58c-84d2-4f2d-bb3d-4df9e532e404",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "Filtration",
+      "value": "True HEPA + activated carbon",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d3db0048-34f8-426f-b9f3-44fe0d9ed1e4",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "CADR",
+      "value": "260",
+      "unit": "CFM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "3479ccc1-5d00-4777-b90c-0803988d9fdc",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "Noise",
+      "value": "24-52",
+      "unit": "dB",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "36eb6e45-804b-468c-be3a-7b1f5e0cf324",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "Connectivity",
+      "value": "Wi-Fi",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "975b8028-212e-4b80-a26f-4869375eaabd",
+      "product_id": "9c87f4c7-789d-468a-8517-26f4bf4d4a71",
+      "name": "Voice Control",
+      "value": "Alexa/Google",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "de035154-344d-4614-a02d-32603354728e",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "Coverage",
+      "value": "360",
+      "unit": "sq ft",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2319ca61-b229-46aa-a038-0607d2cf7d6e",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "Filtration",
+      "value": "True HEPA + washable AOC carbon",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b81be47e-3c74-4bbf-89ce-c1980ec5c718",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "CADR",
+      "value": "243/246/232",
+      "unit": "CFM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "137ea9c2-04c9-4e92-b6de-2a09f07eade1",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "Noise",
+      "value": "27.8-58.1",
+      "unit": "dB",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a149bf09-66ac-4fc7-b3f6-aeb7c06c7d28",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "Sensors",
+      "value": "Auto mode + air quality",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9e1f6a54-2775-4dc6-8699-57e6b20a9082",
+      "product_id": "47998ca7-e68f-4442-8e15-46302deeb515",
+      "name": "Plasma",
+      "value": "PlasmaWave",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "e420069b-9903-45ff-8214-ae77696a3fa2",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Coverage",
+      "value": "290",
+      "unit": "sq ft",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "59a1a35a-95f3-4204-a7fd-b362bfe9186d",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Filtration",
+      "value": "HEPA H13 + carbon + formaldehyde filter",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f9bee394-3d2d-495c-b9c1-0f1112f07579",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Modes",
+      "value": "Purify + fan + heat",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4a27fb0c-f73a-4f21-ad34-59731c513bd8",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Connectivity",
+      "value": "Wi-Fi",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2819c616-9470-4d0b-862e-26210f0af5bf",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Oscillation",
+      "value": "350",
+      "unit": "degrees",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4a5f5d06-bcdb-4d94-88f5-a0460f745485",
+      "product_id": "81028058-a2ae-4996-bea6-0f756a2e27eb",
+      "name": "Noise",
+      "value": "Up to 61",
+      "unit": "dB",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1c424df1-0054-48cd-8caa-f318dc6ed6e7",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "Coverage",
+      "value": "465",
+      "unit": "sq ft",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1cef6b56-d673-4c70-bb45-fe2e4262247c",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "Filtration",
+      "value": "True HEPA",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d46ac473-748b-4a09-99df-8668b9a5da5f",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "CADR",
+      "value": "300/320/300",
+      "unit": "CFM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c7f9140a-aeb4-451f-8e6d-fbc563737e1c",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "Noise",
+      "value": "Low to high",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d127179b-7cd0-44f7-a671-a661838b4d56",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "Speed Settings",
+      "value": "4",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7586ed66-7bc6-4f11-9084-4cd3e1e7a803",
+      "product_id": "c80fb3f2-2e89-4293-9254-4d04f677f346",
+      "name": "Smart Features",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "91170eb3-e261-4f6e-9851-9a666f360740",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Case Size",
+      "value": "49",
+      "unit": "mm",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d282399f-16ac-4c95-8941-4650a470a189",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Battery Life",
+      "value": "72",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2f834626-d15b-4ca8-900e-4b180e40b37b",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Display",
+      "value": "LTPO OLED",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "43b0ded8-0196-43e9-8df0-e82fcffc4e7b",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Connectivity",
+      "value": "GPS + Cellular",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "162edf6b-8258-493f-85dc-46719b7cd1fc",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Water Resistance",
+      "value": "100",
+      "unit": "m",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0508b26e-0418-4841-8ee5-3a98158cfad0",
+      "product_id": "bce6a55e-713b-44e3-8ce8-0f2e6123818f",
+      "name": "Platform",
+      "value": "iPhone only",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4bf3a3e1-a116-44e1-8896-f8b217a8fd36",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Case Size",
+      "value": "47",
+      "unit": "mm",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "aa1bc62d-e4b4-4838-b708-d18a97c2874f",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Battery Life",
+      "value": "60",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b699d75f-d94c-445f-b613-41f7b859a728",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Display",
+      "value": "AMOLED",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4b7527f8-4e7d-44ae-a658-c7bfeb8fdace",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Operating System",
+      "value": "Wear OS",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0ae604af-8fe1-4a62-b9eb-3ebe9514e9af",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Water Resistance",
+      "value": "10",
+      "unit": "ATM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "df1ea73d-9807-4267-a5a1-cb216778623c",
+      "product_id": "fe70f7ab-3c80-4db1-a02e-c365f80fa699",
+      "name": "Platform",
+      "value": "Android",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f7c40aee-8738-4337-8135-dddac17a1ee2",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "Battery Life",
+      "value": "Up to 29",
+      "unit": "days",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8c4132aa-5892-4aab-a709-387012864185",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "GPS",
+      "value": "Multi-band GNSS",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9e20401f-acae-48fd-b5bc-476da0e1648e",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "Maps",
+      "value": "Topo maps",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ae17377b-64f7-456e-b0b0-2f72a36bf172",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "Water Resistance",
+      "value": "10",
+      "unit": "ATM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8f92b4d8-031b-4d8f-9a93-6045e36e0eb1",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "Sensors",
+      "value": "HR, SpO2, ECG",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1c62d576-fc65-45ec-8ab1-92542cb8082d",
+      "product_id": "b93f8449-f0d3-487e-8613-edea08a18ae6",
+      "name": "Platform",
+      "value": "iPhone + Android",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a8ec1bc7-6ef7-4805-9427-cdd143cbc734",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Case Size",
+      "value": "45",
+      "unit": "mm",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b9141590-4ee1-40d3-8c69-c7f7cc2e85e7",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Battery Life",
+      "value": "36",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "30da9e1d-f667-4cb8-98bb-435049951f13",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Display",
+      "value": "AMOLED",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b6a696e9-5d09-4601-be15-f364b985b56e",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Operating System",
+      "value": "Wear OS",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1b84e503-032a-41a6-88cd-c8a3c2a16336",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Water Resistance",
+      "value": "5",
+      "unit": "ATM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0a852c94-7be4-4c41-97cb-000ccda7e0a9",
+      "product_id": "8963419c-e994-4830-8358-397f9c3acb77",
+      "name": "Platform",
+      "value": "Android",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7a923e40-904c-43b3-bce7-6466b1e4a784",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "Battery Life",
+      "value": "5",
+      "unit": "days",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "27139b52-f969-4878-acf4-b66c929d2bee",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "Display",
+      "value": "AMOLED",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0c227e91-06b8-4bb3-8e18-b427daaa1efe",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "Operating System",
+      "value": "Wear OS hybrid",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ea4b3c49-bd74-4774-b443-4ee38512ba34",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "Health Sensors",
+      "value": "HR + SpO2 + sleep",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "695b0172-53f0-40bd-bfb6-5767aaf45e90",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "GPS",
+      "value": "Dual-frequency",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1e9d57e7-133d-4afc-901e-d836950801f8",
+      "product_id": "f2efa14f-1a4d-4cba-9ec0-8b2f3aa6f8ec",
+      "name": "Platform",
+      "value": "Android",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "61d05cd7-8c6a-478b-9307-0a6246bf670f",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "Battery Life",
+      "value": "30",
+      "unit": "days",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "10266b08-3c23-414c-a861-d3687dcf0f0c",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "Type",
+      "value": "Hybrid smartwatch",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "cd0a62d8-a548-4d21-a129-9f90ebabe5d2",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "Sensors",
+      "value": "ECG + SpO2 + temp",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "de4ff625-2e0e-4ec6-9759-3201016f2e82",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "Water Resistance",
+      "value": "10",
+      "unit": "ATM",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "868d7b25-6b66-42ff-b41e-571a0748be93",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "GPS",
+      "value": "Connected GPS",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "07dc3352-7901-44d7-9507-e5fa9c2eff14",
+      "product_id": "86efcc0c-4c24-45bc-b9e0-dd1dd5e7af2e",
+      "name": "Platform",
+      "value": "iPhone + Android",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7f5e4c01-953a-482b-8f4e-10a044dfe60f",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "ANC",
+      "value": "Adaptive ANC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "6e48daf8-e281-4906-a558-68977200df95",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "Battery Life",
+      "value": "6",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c55a9901-358d-4332-99a8-3711dde228d3",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "Case Battery",
+      "value": "30",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "a687a455-62d7-4417-af1c-3827cd0475da",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "Charging",
+      "value": "USB-C + MagSafe",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "5a2a8e72-a2db-4fc6-9f34-2d699fdc6dbd",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "Water Resistance",
+      "value": "IP54",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "491e5208-4ecd-4287-a092-e2a0c26694b4",
+      "product_id": "1293ef78-127d-42d1-afc5-8067f7d4f9c7",
+      "name": "Platform Fit",
+      "value": "Best for iPhone",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1f3860b7-7052-4cf8-ad07-e8fbf5caab2c",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "ANC",
+      "value": "Advanced ANC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7887c980-a380-4dbd-95c7-bfa0fe1ae30b",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "Battery Life",
+      "value": "8",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "69b75808-5d31-4be4-82fc-ded2cfd33dd5",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "Case Battery",
+      "value": "24",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ef68288f-f091-4be3-a726-3e419f1f7e14",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "Codec",
+      "value": "LDAC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "cd7f2e2c-d031-4639-be89-f63f1d48e4f4",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "Water Resistance",
+      "value": "IPX4",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9f41c29e-d9d1-4962-98f5-4906637bb6bd",
+      "product_id": "58ba2c4e-e93c-4cb4-9cfc-ef16dbe73c8d",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "910a0dbb-ec57-4fbd-9d9d-75dd1c1fbe40",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "Water Resistance",
+      "value": "IP68",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "70798507-7b1b-4251-813e-57a56110dce1",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "Battery Life",
+      "value": "8",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "21a4b73e-32c3-42c8-baf1-e5489d9ce096",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "Case Battery",
+      "value": "32",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4e7c6e85-8abb-4f85-a09e-ce6f00298362",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "ANC",
+      "value": "Adaptive hybrid ANC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "644d2c2e-c4ea-4e2c-a25f-ae4b4348adc7",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4bf071ad-3960-431f-bc74-27e3cc388b5d",
+      "product_id": "e89771b4-a929-4df9-9bbf-e820ab73050c",
+      "name": "Fit",
+      "value": "Secure sport fit",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "9e5d339f-ca7c-4535-b306-77b64d4a96ee",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "ANC",
+      "value": "Top-tier ANC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d8f430ad-9004-4403-ad33-a44b0690d040",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "Battery Life",
+      "value": "6",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8a8cec8b-2a81-493a-9542-94673a48a2af",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "Case Battery",
+      "value": "24",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "8f9640bb-1140-4044-ad02-6e03e87feb39",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "Immersive Audio",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "598a31d4-271e-41ca-b563-d1aaf451a471",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "Water Resistance",
+      "value": "IPX4",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f58c7bc8-b431-43e3-ada1-e61d4a4a6d5b",
+      "product_id": "e58ad845-3cbf-43e9-899d-6d7fcfc856db",
+      "name": "Bluetooth",
+      "value": "5.3",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "58cda89d-e065-4ca7-adf0-9c93d7df5100",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "Battery Life",
+      "value": "8.5",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "6de54c92-29a4-4855-b6ba-89ee3345ef50",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "Case Battery",
+      "value": "40.5",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7c188e58-5b5f-445a-b83d-168277cdd660",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "Codec",
+      "value": "LHDC/AAC/SBC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "c688b929-236c-4c05-93fd-7b3231865307",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "ANC",
+      "value": "Smart ANC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "75a48f2a-3438-407c-87f4-fc7549ef4a83",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "Water Resistance",
+      "value": "IP54",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ef89a45e-4f78-490f-8d1c-3e139cd49b36",
+      "product_id": "7fe8c1a3-9282-4416-bef2-15af1ac6c271",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "fb9df967-a756-4055-b413-4a83beea9754",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "Battery Life",
+      "value": "10",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "eb4ec79d-657b-4b64-89fb-10ca3df07786",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "Case Battery",
+      "value": "50",
+      "unit": "hours",
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "b5895eee-e0b7-4d31-8ace-7ee9b59dfa76",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "ANC",
+      "value": "Adaptive ANC 2.0",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "ec3ea081-d51a-41f6-9677-de5ea3621b84",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "Codec",
+      "value": "LDAC",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "172b4580-aae3-4475-a105-84c9071d587b",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "Water Resistance",
+      "value": "IPX4",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "532865a3-3916-4d69-a6a8-2d99806b6df9",
+      "product_id": "2b50f1bb-09bb-4b0c-9def-c1a3ae1e09a1",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ],
   "assets": [],
@@ -22122,6 +24624,141 @@
       "display_order": 5,
       "created_at": "2026-05-01T01:17:00.000Z",
       "updated_at": "2026-05-01T01:17:00.000Z"
+    },
+    {
+      "id": "19070dd9-1ab4-42e8-8373-e02a1bad4b9a",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "question": "What size air purifier do I need for my room?",
+      "answer": "Match the purifier to your real room size, not just the largest marketing number on the box. For allergies and smoke, aim for enough airflow to deliver at least 4 to 5 air changes per hour in the room you actually use most. That usually means buying slightly larger than the bare minimum coverage rating.",
+      "display_order": 1,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "354d93ef-5ba0-45d8-ba0e-5bb12e69fbc5",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "question": "Do air purifiers help with allergies, asthma, and pet dander?",
+      "answer": "Yes, if you choose a purifier with true HEPA filtration and run it consistently. They are most effective against airborne triggers like pollen, dust, smoke particles, and pet dander, but they do not replace source control like vacuuming, ventilation, and keeping bedding clean.",
+      "display_order": 2,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "3c238e93-f592-4cf5-99bd-b2979ee69fb2",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "question": "Is a smart air purifier worth paying extra for?",
+      "answer": "Usually only if you will use the automation. App control, filter reminders, and auto mode are genuinely helpful in living rooms and open spaces, but a non-smart purifier with better CADR and cheaper filters is often the smarter buy for bedrooms or simple setups.",
+      "display_order": 3,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "0160ae40-ab10-409d-9083-d4a1e1edcbff",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "question": "How often do air purifier filters need replacing?",
+      "answer": "Most HEPA filters last around 6 to 12 months and carbon stages may need replacement sooner, depending on smoke, pets, and runtime. Real replacement cost matters a lot, because an affordable purifier can become expensive if it burns through pricey filters.",
+      "display_order": 4,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "4ca6b006-559f-4360-a734-f5ff29329b79",
+      "ranking_id": "4def9d72-df26-42c9-ad0a-fb7cbf7107aa",
+      "question": "Should I avoid air purifiers with ionizers?",
+      "answer": "Not always, but you should know what the feature does. Many buyers prefer mechanical HEPA plus carbon filtration alone because it is simple and effective. If a purifier includes an ionizer or plasma mode, it is better when that feature can be turned off easily.",
+      "display_order": 5,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "38eb8c8c-57f2-41ef-bd06-68f629d7e101",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "question": "Do I need a smartwatch or just a fitness tracker?",
+      "answer": "Buy a fitness tracker if you mainly care about steps, sleep, and basic workouts at the lowest cost. Buy a smartwatch if you also want notifications, payments, maps, music controls, apps, and better integration with your phone.",
+      "display_order": 1,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "2b8fdceb-7732-48bd-8e56-10ca857b9c8f",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "question": "How much smartwatch battery life is actually enough?",
+      "answer": "For most buyers, 2 to 5 days is the sweet spot because it supports sleep tracking without constant charging anxiety. Daily charging is manageable if the software and app ecosystem are great, but athletes and travelers often benefit much more from multi-day or multi-week battery life.",
+      "display_order": 2,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "07af4fa3-7d7f-4022-86c0-260c291c12d6",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "question": "Which smartwatch is best for iPhone users?",
+      "answer": "Apple Watch is still the best overall choice if you want the deepest iPhone integration, smoother notifications, and the strongest app ecosystem. If battery life matters more than app polish, Garmin and some hybrid watches can still make sense with an iPhone.",
+      "display_order": 3,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "d5784032-fe5b-4b8b-88e7-b4bbf3a86cf3",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "question": "Are smartwatch health readings accurate enough to trust?",
+      "answer": "They are useful for trends and early warnings, especially for heart rate, sleep, recovery, and some ECG features, but they are not a substitute for medical-grade diagnostics. The best watches are directionally helpful, not a replacement for a doctor.",
+      "display_order": 4,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "7ba4eacc-7e2c-42a0-b3a9-6d4aaf0306c4",
+      "ranking_id": "005aff39-0e69-49fe-89e5-f7a8fa2ad4a2",
+      "question": "What matters more: smart features or fitness features?",
+      "answer": "That depends on whether you see the watch as a phone companion or a training tool. Apple, Samsung, and Google lean stronger on everyday smart features, while Garmin and similar brands prioritize battery life, outdoor navigation, and deep workout metrics.",
+      "display_order": 5,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "422066b3-17d7-4328-b162-ab91f669df72",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "question": "Are wireless earbuds good enough for calls and meetings?",
+      "answer": "Yes, many current premium earbuds are good enough for daily calls, especially if they use beamforming mics and background-noise suppression. The main catch is wind, where dedicated headsets or over-ear mics can still do better.",
+      "display_order": 1,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "fc82da4c-1ac1-440c-a176-c6eed8798396",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "question": "What matters most when choosing earbuds for the gym?",
+      "answer": "Secure fit and sweat resistance matter more than absolute sound quality. A slightly less audiophile pair that stays locked in during runs and lifts is usually the better choice than a slippery premium pair with better ANC.",
+      "display_order": 2,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "1e407b7f-9c89-453e-b61d-f5fed13f5146",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "question": "Should I buy earbuds or over-ear headphones for commuting?",
+      "answer": "Choose earbuds if you care more about portability, lighter carry, and convenience. Choose over-ear headphones if you want better passive isolation, longer battery life, and often a more spacious sound.",
+      "display_order": 3,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "f5c29dec-8a9b-43f1-baab-165f3c379e5d",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "question": "Do expensive wireless earbuds really sound better?",
+      "answer": "Usually yes, but the biggest improvements are often in ANC, call clarity, fit options, and tuning consistency rather than some dramatic audiophile leap. Mid-range earbuds are much better than they used to be, so value still matters a lot in this category.",
+      "display_order": 4,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
+    },
+    {
+      "id": "35b5c01c-e48b-4250-bb1a-a491a76eea92",
+      "ranking_id": "1085a006-f15c-4ec1-9313-2618d64cae0d",
+      "question": "Are AirPods worth it if I use Android?",
+      "answer": "Usually not, unless you switch between iPhone and Android or specifically love the AirPods fit. Android buyers typically get better value and better codec support from Sony, Samsung, Nothing, Jabra, or Soundcore.",
+      "display_order": 5,
+      "created_at": "2026-05-04T01:08:38.724Z",
+      "updated_at": "2026-05-04T01:08:38.724Z"
     }
   ]
 }

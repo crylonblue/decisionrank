@@ -148,6 +148,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "air-purifiers": {
+    clusterSlugs: ["standing-desks", "robot-vacuums", "smart-security-cameras", "smart-plugs-power-strips", "coffee-makers"],
+    useCaseBlocks: [
+      {
+        title: "Best Air Purifiers for Allergies and Dust",
+        description: "True HEPA-focused purifiers that reduce pollen, dust, and pet dander in the rooms where allergy sufferers spend the most time.",
+        targetAudience: "Allergy-prone households and asthma-conscious buyers"
+      },
+      {
+        title: "Best Air Purifiers for Large Rooms and Open Plans",
+        description: "High-CADR units that can actually move enough air for bigger living rooms, lofts, and combined kitchen-living spaces.",
+        targetAudience: "Large-room and open-plan buyers"
+      },
+      {
+        title: "Best Air Purifiers for Pet Dander and Odors",
+        description: "Purifiers with strong particle capture plus useful carbon stages for homes with dogs, cats, litter boxes, and everyday smells.",
+        targetAudience: "Pet owners dealing with dander and odor"
+      },
+      {
+        title: "Quietest Air Purifiers for Bedrooms",
+        description: "Low-noise purifiers that can run overnight without ruining sleep, while still cleaning enough air to matter by morning.",
+        targetAudience: "Bedroom buyers and light sleepers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best air purifier for allergies",
+      "air purifier CADR rating explained",
+      "HEPA vs carbon filter air purifier",
+      "air purifier for pet dander",
+      "quiet air purifier for bedroom",
+      "air purifier for large room 500 sq ft",
+      "how often to replace air purifier filter",
+      "air purifier energy consumption cost",
+      "air purifier for smoke removal",
+      "true HEPA vs HEPA-type",
+      "best air purifier for asthma",
+      "air purifier ionizer pros cons"
+    ],
     useCases: [
       {
         label: "Allergies",
@@ -799,6 +836,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "smart-watches": {
+    clusterSlugs: ["wireless-earbuds", "smartphones", "noise-cancelling-headphones", "smart-locks", "video-doorbells"],
+    useCaseBlocks: [
+      {
+        title: "Best Smartwatches for Fitness and Running",
+        description: "GPS-equipped watches with accurate heart-rate tracking, structured workout support, and recovery metrics for everyday training.",
+        targetAudience: "Runners, gym users, and fitness-focused buyers"
+      },
+      {
+        title: "Best Apple Watch Alternatives for iPhone",
+        description: "Smartwatches that still play nicely with iPhone while offering better battery life, different styling, or more fitness depth than Apple.",
+        targetAudience: "iPhone owners considering non-Apple options"
+      },
+      {
+        title: "Best Smartwatches with Long Battery Life",
+        description: "Multi-day and multi-week watches for buyers who care more about sleep tracking and travel convenience than daily charging.",
+        targetAudience: "Battery-conscious buyers"
+      },
+      {
+        title: "Best Rugged Smartwatches for Hiking and Outdoor Sports",
+        description: "Durable watches with mapping, altitude data, and dependable GPS for buyers who spend more time outside than inside apps.",
+        targetAudience: "Outdoor athletes and adventure buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best smartwatch for fitness tracking and running",
+      "Apple Watch vs Garmin which is better",
+      "best smartwatch for iPhone users",
+      "how long does smartwatch battery last",
+      "rugged smartwatch for hiking",
+      "best lightweight smartwatch for women",
+      "sleep tracking smartwatch accuracy",
+      "Wear OS vs Apple Watch",
+      "best smartwatch for text messages",
+      "how to improve GPS accuracy smartwatch",
+      "smartwatch with ECG and blood pressure",
+      "best smartwatch for swimming waterproof"
+    ],
     useCases: [
       {
         label: "Fitness Tracking",
@@ -1020,6 +1094,43 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "wireless-earbuds": {
+    clusterSlugs: ["smart-watches", "smartphones", "noise-cancelling-headphones", "microphones", "gaming-laptops"],
+    useCaseBlocks: [
+      {
+        title: "Best Wireless Earbuds for Exercise and Sports",
+        description: "Sweat-resistant earbuds with secure fit, stable controls, and enough battery to survive regular runs, rides, and gym sessions.",
+        targetAudience: "Workout and running buyers"
+      },
+      {
+        title: "Best Wireless Earbuds for Long Flights and Commutes",
+        description: "Compact ANC earbuds that stay comfortable for hours and do a credible job cutting engine rumble and daily transit noise.",
+        targetAudience: "Frequent travelers and commuters"
+      },
+      {
+        title: "Best Wireless Earbuds for iPhone Users",
+        description: "Earbuds that deliver the smoothest Apple-device pairing, switching, and spatial-audio style features without constant fiddling.",
+        targetAudience: "iPhone and Apple ecosystem users"
+      },
+      {
+        title: "Best Wireless Earbuds for Voice and Video Calls",
+        description: "Earbuds with strong microphone pickup, useful noise suppression, and multipoint support for hybrid work and everyday calls.",
+        targetAudience: "Remote workers and call-heavy buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best wireless earbuds for gym and working out",
+      "best earbuds for long flights noise cancelling",
+      "AirPods Pro vs Sony WF-1000XM5",
+      "best earbuds for voice calls and meetings",
+      "how to get best fit wireless earbuds",
+      "earbuds with best battery life 2026",
+      "waterproof wireless earbuds for swimming",
+      "best earbuds for small ears",
+      "earbuds vs headphones for commuting",
+      "best affordable wireless earbuds under $100",
+      "how to clean wireless earbuds",
+      "wireless earbuds that stay in during running"
+    ],
     useCases: [
       {
         label: "Gym and Workout",
