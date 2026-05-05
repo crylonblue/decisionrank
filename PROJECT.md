@@ -8,6 +8,11 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-05 (Bob subagent, task 1777935688631):** Seeded 3 adjacent developer-tools categories to deepen the thinnest family in code only.
+  - Added full canonical `.seed-payload` inventory for `cloud-hosting`, `issue-tracking`, and `project-management`, including category records, rankings, 12 products total, specifications, pros/cons sentiments, verdict summaries, and category FAQs.
+  - Expanded `lib/category-enhancements.ts` with bespoke long-form buyer-intent descriptions, category-specific FAQs, and dedicated verdict guidance for all 3 new categories.
+  - Added full `CATEGORY_USE_CASE_DATA` coverage in `lib/category-use-cases.ts` plus stronger adjacency/discovery support in `lib/category-relations.ts`, `lib/thin-family-clusters.ts`, and `lib/buyer-intent-modules.ts` so the new pages plug cleanly into the existing developer-tools family.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
 - **2026-05-05 (Bob subagent, task 1777935688587):** Fixed broken discovery-surface category references and tightened thin-module rendering integrity.
   - Replaced the stale `travel-mobility` buyer-intent module references to nonexistent `transportation` and `travel-gear` slugs with real seeded portable-workstation categories: `portable-monitors`, `docking-stations`, `laptop-stands`, `usb-c-hubs`, and `external-ssds`.
   - Updated the module title and editorial copy so the discovery surface now matches the actual seeded inventory instead of pointing crawlers and users toward dead category concepts.

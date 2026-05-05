@@ -36,7 +36,7 @@ export const THIN_FAMILY_CLUSTERS: ThinFamilyClusterConfig[] = [
     title: 'Developer Tools & Software',
     intro:
       'Developer-tool searches tend to spread across workflows rather than single products, from code editing and debugging to CI pipelines and API collaboration. This cluster brings those categories into one richer browse surface so each guide picks up stronger internal links from related evaluation, comparison, and buyer-intent paths.',
-    categorySlugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools'],
+    categorySlugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools', 'cloud-hosting', 'issue-tracking', 'project-management'],
   },
 ];
 

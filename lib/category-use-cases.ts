@@ -3071,6 +3071,264 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Postman vs Paw vs HTTPie", description: "Cross-platform Postman vs macOS-native Paw vs CLI-first HTTPie — platform preferences dictate the best tool.", queryPhrase: "Postman vs Paw vs HTTPie" },
     ]
   },
+  "cloud-hosting": {
+    clusterSlugs: ["ci-cd-tools", "api-testing-tools", "code-editors", "issue-tracking", "project-management"],
+    useCaseBlocks: [
+      {
+        title: "Best Cloud Hosting for Startups",
+        description: "Platforms with predictable pricing, fast deployment paths, and enough managed services to ship product quickly without hiring a full platform team too early.",
+        targetAudience: "Startups and lean SaaS teams"
+      },
+      {
+        title: "Best Cloud Hosting for EU Data Residency",
+        description: "Infrastructure providers with strong European region coverage, clearer data-sovereignty posture, and practical options for teams that care about compliance and locality.",
+        targetAudience: "EU-based teams and privacy-conscious buyers"
+      },
+      {
+        title: "Best Cloud Hosting for Kubernetes Workloads",
+        description: "Cloud platforms with managed clusters, strong networking, and scalable compute options for teams running containerized applications in production.",
+        targetAudience: "Platform engineers and container-heavy teams"
+      },
+      {
+        title: "Best Cloud Hosting for Cost Control",
+        description: "Providers that keep compute, egress, and managed-service pricing transparent enough for operators who want fewer billing surprises as traffic grows.",
+        targetAudience: "Cost-sensitive engineering and finance stakeholders"
+      }
+    ],
+    queryIntentPhrases: [
+      "best cloud hosting for startups",
+      "AWS vs Hetzner for SaaS",
+      "best EU cloud hosting provider",
+      "cloud hosting with predictable pricing",
+      "best managed Kubernetes hosting",
+      "cloud hosting with low egress fees",
+      "Fly.io vs Render vs AWS",
+      "best cloud hosting for self hosted apps",
+      "how to choose cloud hosting provider",
+      "best cloud platform for small engineering team",
+      "cloud hosting for GDPR compliance",
+      "best VPS vs cloud platform for SaaS"
+    ],
+    useCases: [
+      {
+        label: "Startup Infrastructure",
+        title: "Best Cloud Hosting for Startups",
+        description: "Platforms with predictable pricing, fast deployment paths, and enough managed services to ship product quickly without hiring a full platform team too early."
+      },
+      {
+        label: "EU Data Residency",
+        title: "Best Cloud Hosting for EU Data Residency",
+        description: "Infrastructure providers with strong European region coverage, clearer data-sovereignty posture, and practical options for teams that care about compliance and locality."
+      },
+      {
+        label: "Kubernetes Workloads",
+        title: "Best Cloud Hosting for Kubernetes Workloads",
+        description: "Cloud platforms with managed clusters, strong networking, and scalable compute options for teams running containerized applications in production."
+      },
+      {
+        label: "Cost Control",
+        title: "Best Cloud Hosting for Cost Control",
+        description: "Providers that keep compute, egress, and managed-service pricing transparent enough for operators who want fewer billing surprises as traffic grows."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best cloud hosting for startups", intent: "transactional" },
+      { phrase: "AWS vs Hetzner for SaaS", intent: "comparational" },
+      { phrase: "best EU cloud hosting provider", intent: "transactional" },
+      { phrase: "cloud hosting with predictable pricing", intent: "transactional" },
+      { phrase: "best managed Kubernetes hosting", intent: "transactional" },
+      { phrase: "cloud hosting with low egress fees", intent: "transactional" },
+      { phrase: "Fly.io vs Render vs AWS", intent: "comparational" },
+      { phrase: "best cloud hosting for self hosted apps", intent: "transactional" },
+      { phrase: "how to choose cloud hosting provider", intent: "informational" },
+      { phrase: "best cloud platform for small engineering team", intent: "transactional" },
+      { phrase: "cloud hosting for GDPR compliance", intent: "informational" },
+      { phrase: "best VPS vs cloud platform for SaaS", intent: "comparational" },
+      { phrase: "cloud hosting for postgres apps", intent: "transactional" },
+      { phrase: "best alternative to AWS for startups", intent: "transactional" },
+      { phrase: "cloud pricing egress explained", intent: "informational" }
+    ],
+    comparisons: [
+      { title: "AWS vs Hetzner", description: "Hyperscaler depth versus EU-first price-performance. Compare managed-service breadth, billing complexity, and operating overhead.", queryPhrase: "AWS vs Hetzner for SaaS" },
+      { title: "Fly.io vs Render vs AWS", description: "Developer-led app platforms versus full cloud infrastructure. Best fit depends on deployment simplicity, global reach, and service breadth.", queryPhrase: "Fly.io vs Render vs AWS" },
+      { title: "Managed Kubernetes vs Simpler App Platforms", description: "Kubernetes flexibility versus lower operational overhead. Evaluate whether you really need clusters this early.", queryPhrase: "managed kubernetes vs app platform" },
+      { title: "EU Cloud Providers vs US Hyperscalers", description: "Compare data residency posture, regional coverage, service breadth, and pricing for teams that care about sovereignty and simplicity.", queryPhrase: "EU cloud provider vs AWS" },
+      { title: "VPS vs Cloud Platform", description: "Raw virtual servers versus higher-level managed platforms. The tradeoff is control, speed, and operational burden.", queryPhrase: "VPS vs cloud platform for SaaS" },
+      { title: "Predictable Pricing vs Service Depth", description: "The cheapest monthly bill is not always the best platform, but pricing clarity often matters more than theoretical platform breadth for smaller teams.", queryPhrase: "predictable cloud pricing comparison" },
+    ]
+  },
+  "issue-tracking": {
+    clusterSlugs: ["code-editors", "ci-cd-tools", "api-testing-tools", "cloud-hosting", "project-management"],
+    useCaseBlocks: [
+      {
+        title: "Best Issue Trackers for Product and Engineering Teams",
+        description: "Fast, collaborative issue trackers that keep bug triage, backlog refinement, and delivery planning aligned without excessive workflow admin.",
+        targetAudience: "Product and engineering organizations"
+      },
+      {
+        title: "Best Lightweight Issue Trackers for GitHub-Native Teams",
+        description: "Lean tools that stay close to pull requests, releases, and repos so small teams can track work without adopting a heavyweight process stack.",
+        targetAudience: "Startups and code-centric teams"
+      },
+      {
+        title: "Best Issue Tracking for Enterprise Workflows",
+        description: "Platforms with custom issue types, permissions, auditability, and advanced automation for larger organizations with stricter delivery processes.",
+        targetAudience: "Enterprise and regulated software teams"
+      },
+      {
+        title: "Best Issue Trackers for Support and Bug Intake",
+        description: "Tools that make incoming bugs, incidents, and customer requests easier to route, prioritize, and connect back to engineering execution.",
+        targetAudience: "Support, QA, and ops-heavy teams"
+      }
+    ],
+    queryIntentPhrases: [
+      "best issue tracker for software teams",
+      "Linear vs Jira comparison",
+      "best issue tracker for GitHub teams",
+      "Jira alternatives for startups",
+      "issue tracking vs project management",
+      "best bug tracking tool for developers",
+      "YouTrack vs Jira which is better",
+      "best issue tracker for product managers",
+      "GitHub Issues vs Linear",
+      "issue tracker with best automation",
+      "best open source issue tracking tool",
+      "how to choose issue tracking software"
+    ],
+    useCases: [
+      {
+        label: "Product + Engineering",
+        title: "Best Issue Trackers for Product and Engineering Teams",
+        description: "Fast, collaborative issue trackers that keep bug triage, backlog refinement, and delivery planning aligned without excessive workflow admin."
+      },
+      {
+        label: "GitHub Native",
+        title: "Best Lightweight Issue Trackers for GitHub-Native Teams",
+        description: "Lean tools that stay close to pull requests, releases, and repos so small teams can track work without adopting a heavyweight process stack."
+      },
+      {
+        label: "Enterprise Workflows",
+        title: "Best Issue Tracking for Enterprise Workflows",
+        description: "Platforms with custom issue types, permissions, auditability, and advanced automation for larger organizations with stricter delivery processes."
+      },
+      {
+        label: "Bug Intake",
+        title: "Best Issue Trackers for Support and Bug Intake",
+        description: "Tools that make incoming bugs, incidents, and customer requests easier to route, prioritize, and connect back to engineering execution."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best issue tracker for software teams", intent: "transactional" },
+      { phrase: "Linear vs Jira comparison", intent: "comparational" },
+      { phrase: "best issue tracker for GitHub teams", intent: "transactional" },
+      { phrase: "Jira alternatives for startups", intent: "transactional" },
+      { phrase: "issue tracking vs project management", intent: "informational" },
+      { phrase: "best bug tracking tool for developers", intent: "transactional" },
+      { phrase: "YouTrack vs Jira which is better", intent: "comparational" },
+      { phrase: "best issue tracker for product managers", intent: "transactional" },
+      { phrase: "GitHub Issues vs Linear", intent: "comparational" },
+      { phrase: "issue tracker with best automation", intent: "transactional" },
+      { phrase: "best open source issue tracking tool", intent: "transactional" },
+      { phrase: "how to choose issue tracking software", intent: "informational" },
+      { phrase: "best issue tracker for support handoff", intent: "transactional" },
+      { phrase: "Jira vs Linear vs GitHub Issues", intent: "comparational" },
+      { phrase: "issue tracker for agile teams", intent: "transactional" }
+    ],
+    comparisons: [
+      { title: "Linear vs Jira", description: "Speed and cleaner defaults versus maximum configurability. Compare workflow friction, reporting, and admin overhead.", queryPhrase: "Linear vs Jira comparison" },
+      { title: "GitHub Issues vs Linear", description: "Code-native issue tracking versus a dedicated modern tracker. The right choice depends on planning depth and team size.", queryPhrase: "GitHub Issues vs Linear" },
+      { title: "Jira vs YouTrack", description: "Enterprise-standard customization versus a more technical, lighter-weight alternative for engineering-centric teams.", queryPhrase: "YouTrack vs Jira which is better" },
+      { title: "Issue Tracking vs Project Management", description: "Bug/backlog execution tools versus broader cross-functional planning software. Many teams need both, but not at the same layer.", queryPhrase: "issue tracking vs project management" },
+      { title: "Dedicated Tracker vs Git Platform Features", description: "Separate issue systems versus GitHub- or GitLab-native workflows. Simplicity and context often beat feature sprawl for smaller teams.", queryPhrase: "issue tracker vs github issues" },
+      { title: "Startup-Friendly Alternatives to Jira", description: "Compare modern tools that deliver cleaner defaults, lower setup burden, and less workflow bloat for small engineering teams.", queryPhrase: "Jira alternatives for startups" },
+    ]
+  },
+  "project-management": {
+    clusterSlugs: ["issue-tracking", "cloud-hosting", "code-editors", "ci-cd-tools", "api-testing-tools"],
+    useCaseBlocks: [
+      {
+        title: "Best Project Management Software for Cross-Functional Teams",
+        description: "Platforms that coordinate marketing, product, operations, and leadership with clear ownership, timelines, and status views.",
+        targetAudience: "Cross-functional teams beyond pure engineering"
+      },
+      {
+        title: "Best Project Management Tools for Startups",
+        description: "Tools that stay lightweight enough for fast-moving teams while still creating structure around priorities, deadlines, and execution.",
+        targetAudience: "Startups and smaller remote teams"
+      },
+      {
+        title: "Best PM Platforms for Agencies and Client Work",
+        description: "Project systems with templates, workload views, and reporting that help agencies manage multiple clients, deadlines, and handoffs cleanly.",
+        targetAudience: "Agencies and service businesses"
+      },
+      {
+        title: "Best Project Management for Operational Visibility",
+        description: "Platforms with stronger dashboards, portfolio views, and automation for managers who need to see delivery risk before work slips.",
+        targetAudience: "Operations leads and team managers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best project management software for teams",
+      "Asana vs ClickUp comparison",
+      "best project management tool for startups",
+      "Monday vs Asana which is better",
+      "best project management software for remote teams",
+      "project management tool with best dashboards",
+      "Notion vs Asana for project management",
+      "best project management software for agencies",
+      "ClickUp vs Monday comparison",
+      "project management software for cross functional teams",
+      "how to choose project management software",
+      "best lightweight project management tool"
+    ],
+    useCases: [
+      {
+        label: "Cross-Functional Planning",
+        title: "Best Project Management Software for Cross-Functional Teams",
+        description: "Platforms that coordinate marketing, product, operations, and leadership with clear ownership, timelines, and status views."
+      },
+      {
+        label: "Startup Execution",
+        title: "Best Project Management Tools for Startups",
+        description: "Tools that stay lightweight enough for fast-moving teams while still creating structure around priorities, deadlines, and execution."
+      },
+      {
+        label: "Agency Workflows",
+        title: "Best PM Platforms for Agencies and Client Work",
+        description: "Project systems with templates, workload views, and reporting that help agencies manage multiple clients, deadlines, and handoffs cleanly."
+      },
+      {
+        label: "Operational Visibility",
+        title: "Best Project Management for Operational Visibility",
+        description: "Platforms with stronger dashboards, portfolio views, and automation for managers who need to see delivery risk before work slips."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best project management software for teams", intent: "transactional" },
+      { phrase: "Asana vs ClickUp comparison", intent: "comparational" },
+      { phrase: "best project management tool for startups", intent: "transactional" },
+      { phrase: "Monday vs Asana which is better", intent: "comparational" },
+      { phrase: "best project management software for remote teams", intent: "transactional" },
+      { phrase: "project management tool with best dashboards", intent: "transactional" },
+      { phrase: "Notion vs Asana for project management", intent: "comparational" },
+      { phrase: "best project management software for agencies", intent: "transactional" },
+      { phrase: "ClickUp vs Monday comparison", intent: "comparational" },
+      { phrase: "project management software for cross functional teams", intent: "transactional" },
+      { phrase: "how to choose project management software", intent: "informational" },
+      { phrase: "best lightweight project management tool", intent: "transactional" },
+      { phrase: "project management vs task management software", intent: "informational" },
+      { phrase: "best project management software with automations", intent: "transactional" },
+      { phrase: "Asana vs Monday vs ClickUp", intent: "comparational" }
+    ],
+    comparisons: [
+      { title: "Asana vs ClickUp", description: "Balanced clarity versus maximum feature depth. The tradeoff is ease of adoption against configurability.", queryPhrase: "Asana vs ClickUp comparison" },
+      { title: "Monday vs Asana", description: "Visual coordination and broad team adoption versus stronger structure and goals visibility for growing organizations.", queryPhrase: "Monday vs Asana which is better" },
+      { title: "Notion vs Asana", description: "Docs-first flexibility versus a more disciplined project system with stronger reporting and accountability.", queryPhrase: "Notion vs Asana for project management" },
+      { title: "ClickUp vs Monday", description: "Feature-rich all-in-one workspace versus friendlier cross-functional coordination. Pick based on process maturity and stakeholder mix.", queryPhrase: "ClickUp vs Monday comparison" },
+      { title: "Task Management vs Full PM Suites", description: "Simple to-do systems can work early, but broader project software wins once teams need timelines, dependencies, and reporting.", queryPhrase: "project management vs task management software" },
+      { title: "Asana vs Monday vs ClickUp", description: "Three leading PM tools with different strengths in structure, breadth, and ease of use. Compare before standardizing across teams.", queryPhrase: "Asana vs Monday vs ClickUp" },
+    ]
+  },
 };
 
 /**

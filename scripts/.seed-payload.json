@@ -279,6 +279,30 @@
       "name": "Mattresses",
       "slug": "mattresses",
       "description": "Best mattresses for side sleepers, back sleepers, couples, and hot sleepers, ranked on pressure relief, support, cooling, motion isolation, and long-term value."
+    },
+    {
+      "id": "0f453a5b-dae9-4023-9e42-2176d1aed627",
+      "name": "Cloud Hosting",
+      "slug": "cloud-hosting",
+      "description": "Best cloud hosting platforms for startups, SaaS teams, and self-hosted infrastructure, compared on performance, pricing transparency, managed services, regional coverage, and developer experience.",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "5c0cf7a6-e07e-4334-8391-512f20627b2e",
+      "name": "Issue Tracking",
+      "slug": "issue-tracking",
+      "description": "Best issue tracking tools for product, engineering, and support teams, compared on workflow flexibility, backlog management, automation, integrations, reporting, and speed for modern software delivery.",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "06f62249-390c-482a-be19-fc55dad1662f",
+      "name": "Project Management",
+      "slug": "project-management",
+      "description": "Best project management software for cross-functional teams, compared on planning views, collaboration, automation, reporting, resource management, and how well each platform scales from startup to enterprise.",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ],
   "rankings": [
@@ -631,6 +655,36 @@
       "description": "We compared foam, hybrid, and latex mattresses on pressure relief, spinal support, motion isolation, edge support, cooling, trial terms, and overall value for different sleep styles.",
       "verdict_summary": "The Helix Midnight Luxe is the best all-around mattress for most sleepers thanks to its balanced pressure relief and support. Saatva Classic is the best luxury innerspring-style pick, the Nectar Premier offers the strongest budget value, and the Tempur-Pedic ProAdapt remains the premium choice for buyers who care most about pressure relief and motion isolation.",
       "category_id": "8cfd446d-714b-458b-aa63-e8671fca6d73"
+    },
+    {
+      "id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "slug": "best-cloud-hosting-2026",
+      "question": "What Are the Best Cloud Hosting Platforms in 2026?",
+      "description": "We compared cloud hosting platforms for compute performance, managed databases, Kubernetes support, egress pricing, European region strength, and day-to-day developer experience to find the best options for modern teams.",
+      "verdict_summary": "Hetzner Cloud is the value leader for European teams that want fast infrastructure without hyperscaler pricing. AWS remains the most capable option for teams that need the broadest service catalog, while Fly.io is the most developer-friendly choice for shipping globally distributed apps without a heavyweight platform team.",
+      "category_id": "0f453a5b-dae9-4023-9e42-2176d1aed627",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "slug": "best-issue-tracking-tools-2026",
+      "question": "What Are the Best Issue Tracking Tools in 2026?",
+      "description": "We evaluated issue trackers on workflow speed, custom fields, sprint planning, automation, reporting, Git integrations, and usability for engineering and product teams ranging from startups to larger organizations.",
+      "verdict_summary": "Linear is the best overall issue tracker for modern product and engineering teams that want speed, sane defaults, and low admin overhead. Jira still wins for highly customized enterprise workflows, while GitHub Issues is the smartest lightweight choice for teams that already live in GitHub and want execution close to code.",
+      "category_id": "5c0cf7a6-e07e-4334-8391-512f20627b2e",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "slug": "best-project-management-software-2026",
+      "question": "What Is the Best Project Management Software in 2026?",
+      "description": "We compared project management platforms on task structure, planning views, collaboration, automation, reporting, docs, and executive visibility to find the best options for startups, agencies, and growing teams.",
+      "verdict_summary": "Asana is the best all-around project management platform for most growing teams because it balances structure, collaboration, and executive visibility without becoming too heavy. ClickUp offers the broadest feature depth for teams willing to invest in setup, while Monday.com is the easiest choice for visual, cross-functional coordination outside pure engineering workflows.",
+      "category_id": "06f62249-390c-482a-be19-fc55dad1662f",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ],
   "products": [
@@ -2075,6 +2129,90 @@
       "id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
       "name": "Birch Natural Mattress",
       "link": "https://birchliving.com/products/birch-natural-mattress"
+    },
+    {
+      "id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "name": "Hetzner Cloud",
+      "link": "https://www.hetzner.com/cloud",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "name": "Amazon Web Services",
+      "link": "https://aws.amazon.com/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "name": "Fly.io",
+      "link": "https://fly.io/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "name": "Google Cloud Platform",
+      "link": "https://cloud.google.com/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "name": "Linear",
+      "link": "https://linear.app/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "name": "Jira Software",
+      "link": "https://www.atlassian.com/software/jira",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "name": "GitHub Issues",
+      "link": "https://github.com/features/issues",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "name": "YouTrack",
+      "link": "https://www.jetbrains.com/youtrack/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "name": "Asana",
+      "link": "https://asana.com/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "name": "ClickUp",
+      "link": "https://clickup.com/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "name": "Monday.com",
+      "link": "https://monday.com/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "name": "Notion",
+      "link": "https://www.notion.so/",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ],
   "ranking_products": [
@@ -3931,6 +4069,114 @@
       "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
       "score": 8.3,
       "rank_position": 6
+    },
+    {
+      "id": "c0c60b34-9f41-4075-8040-e832584bb47f",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "product_id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "f5d5b8a2-d60e-41f1-befb-2b9897e9c60d",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "product_id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "591fd74a-65ee-43b2-a811-9a3c23f6cabc",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "product_id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "49b3e754-f560-4b53-b7da-f2167d5d8303",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "product_id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "score": 8.7,
+      "rank_position": 4,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "8a26d196-1eb2-4194-b304-d36948c8d0fa",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "product_id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "score": 9.5,
+      "rank_position": 1,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "29260031-addc-44db-8156-e20a411c0055",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "product_id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "6d7b4756-0d6b-4441-806d-f188f1dbdcd6",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "product_id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "c9d79ccb-7a55-4849-8906-3ca26f08d264",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "product_id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "17020265-0c4a-4eb1-aaf8-ac9e36e94f01",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "product_id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e2025c22-b360-496d-92df-9f0d1a9dc966",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "product_id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "score": 9,
+      "rank_position": 2,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "95dc83a2-3652-4b7c-a61a-280c61a0406f",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "product_id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "score": 8.7,
+      "rank_position": 3,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "70fc4969-0e09-4213-b753-a15a916237f9",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "product_id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "score": 8.4,
+      "rank_position": 4,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ],
   "users": [],
@@ -15049,6 +15295,438 @@
       "type": "con",
       "headline": "Price is above basic online mattress options",
       "content": "Natural materials still carry a cost premium."
+    },
+    {
+      "id": "e5c9f699-26e7-4adb-b207-33f0a40df98e",
+      "ranking_product_id": "c0c60b34-9f41-4075-8040-e832584bb47f",
+      "type": "pro",
+      "content": "Outstanding price-to-performance for VPS and dedicated workloads.",
+      "headline": "Outstanding price-to-performance for VPS and dedicated workloads",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "99ff7ad4-2ec2-4bc0-bac3-c32ec1d5c6db",
+      "ranking_product_id": "c0c60b34-9f41-4075-8040-e832584bb47f",
+      "type": "pro",
+      "content": "Strong EU data residency story with simple, transparent billing.",
+      "headline": "Strong EU data residency story with simple, transparent billing",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3ec76030-6197-4211-9ca7-1de5e7ab081a",
+      "ranking_product_id": "c0c60b34-9f41-4075-8040-e832584bb47f",
+      "type": "pro",
+      "content": "Reliable networking and snapshots without hyperscaler complexity.",
+      "headline": "Reliable networking and snapshots without hyperscaler complexity",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "c28958a5-1fa3-47aa-b0d3-2c3807da5702",
+      "ranking_product_id": "c0c60b34-9f41-4075-8040-e832584bb47f",
+      "type": "con",
+      "content": "Smaller managed-service catalog than AWS, GCP, or Azure.",
+      "headline": "Smaller managed-service catalog than AWS, GCP, or Azure",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "60407e83-b2a2-44af-9309-f40eec4782b9",
+      "ranking_product_id": "f5d5b8a2-d60e-41f1-befb-2b9897e9c60d",
+      "type": "pro",
+      "content": "Deepest service catalog for databases, AI, networking, and enterprise controls.",
+      "headline": "Deepest service catalog for databases, AI, networking, and enterprise controls",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "18fdf78a-4d73-404f-8aa7-7e9961197583",
+      "ranking_product_id": "f5d5b8a2-d60e-41f1-befb-2b9897e9c60d",
+      "type": "pro",
+      "content": "Mature IAM, observability, and multi-region architecture patterns.",
+      "headline": "Mature IAM, observability, and multi-region architecture patterns",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3b210dca-201a-4ede-b4c2-58070ae54b00",
+      "ranking_product_id": "f5d5b8a2-d60e-41f1-befb-2b9897e9c60d",
+      "type": "pro",
+      "content": "Huge ecosystem and hiring pool for scaling teams.",
+      "headline": "Huge ecosystem and hiring pool for scaling teams",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "34f9e241-038c-496a-aebd-8373706a39a2",
+      "ranking_product_id": "f5d5b8a2-d60e-41f1-befb-2b9897e9c60d",
+      "type": "con",
+      "content": "Pricing and network egress can become expensive fast.",
+      "headline": "Pricing and network egress can become expensive fast",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "960ba112-57d9-4c19-a04c-6fcac430bb32",
+      "ranking_product_id": "591fd74a-65ee-43b2-a811-9a3c23f6cabc",
+      "type": "pro",
+      "content": "Excellent developer workflow for shipping close to users worldwide.",
+      "headline": "Excellent developer workflow for shipping close to users worldwide",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "28b014ad-6007-4b1f-a30d-2852e33874f4",
+      "ranking_product_id": "591fd74a-65ee-43b2-a811-9a3c23f6cabc",
+      "type": "pro",
+      "content": "Simple app deployment model without a full Kubernetes platform team.",
+      "headline": "Simple app deployment model without a full Kubernetes platform team",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e0ec2bd3-5b05-4934-93f5-0f0c735a04b1",
+      "ranking_product_id": "591fd74a-65ee-43b2-a811-9a3c23f6cabc",
+      "type": "pro",
+      "content": "Strong fit for Postgres-backed apps with regional placement needs.",
+      "headline": "Strong fit for Postgres-backed apps with regional placement needs",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "a65a7ede-da4d-4de8-96b6-47590045bd28",
+      "ranking_product_id": "591fd74a-65ee-43b2-a811-9a3c23f6cabc",
+      "type": "con",
+      "content": "Less suitable for enterprises that need a huge managed-service portfolio.",
+      "headline": "Less suitable for enterprises that need a huge managed-service portfolio",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "db9f96c0-14d1-4693-9c9e-addce61e4467",
+      "ranking_product_id": "49b3e754-f560-4b53-b7da-f2167d5d8303",
+      "type": "pro",
+      "content": "Excellent Kubernetes, data analytics, and internal networking stack.",
+      "headline": "Excellent Kubernetes, data analytics, and internal networking stack",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "8c254881-4c1e-4d5e-bcb2-434de4897afd",
+      "ranking_product_id": "49b3e754-f560-4b53-b7da-f2167d5d8303",
+      "type": "pro",
+      "content": "Strong default developer tooling for containers and observability.",
+      "headline": "Strong default developer tooling for containers and observability",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "4524288d-b085-409e-91a9-82ce1cb50ed9",
+      "ranking_product_id": "49b3e754-f560-4b53-b7da-f2167d5d8303",
+      "type": "pro",
+      "content": "Often the cleanest hyperscaler UX for infra-native teams.",
+      "headline": "Often the cleanest hyperscaler UX for infra-native teams",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "a140dc98-b896-42b9-b7d9-a0e3b1811f23",
+      "ranking_product_id": "49b3e754-f560-4b53-b7da-f2167d5d8303",
+      "type": "con",
+      "content": "Still expensive for teams that do not need hyperscale-level services.",
+      "headline": "Still expensive for teams that do not need hyperscale-level services",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "39c1bd42-eeab-4213-b3c5-82aa1481c791",
+      "ranking_product_id": "8a26d196-1eb2-4194-b304-d36948c8d0fa",
+      "type": "pro",
+      "content": "Fast, polished interface that teams actually enjoy using daily.",
+      "headline": "Fast, polished interface that teams actually enjoy using daily",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "b27b825d-8e26-4c20-bc50-f57c5198fee9",
+      "ranking_product_id": "8a26d196-1eb2-4194-b304-d36948c8d0fa",
+      "type": "pro",
+      "content": "Excellent defaults for triage, sprint cycles, and product planning.",
+      "headline": "Excellent defaults for triage, sprint cycles, and product planning",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "969b0de1-f23c-4732-9174-9cb1739e49e6",
+      "ranking_product_id": "8a26d196-1eb2-4194-b304-d36948c8d0fa",
+      "type": "pro",
+      "content": "Strong GitHub integration without heavy administration overhead.",
+      "headline": "Strong GitHub integration without heavy administration overhead",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "840418f6-e520-449b-8f37-8eb82ef41540",
+      "ranking_product_id": "8a26d196-1eb2-4194-b304-d36948c8d0fa",
+      "type": "con",
+      "content": "Less flexible than Jira for deeply customized enterprise processes.",
+      "headline": "Less flexible than Jira for deeply customized enterprise processes",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "8c7babba-01ab-43fb-a5fe-9fb46cd8f168",
+      "ranking_product_id": "29260031-addc-44db-8156-e20a411c0055",
+      "type": "pro",
+      "content": "Unmatched configurability for complex workflows, permissions, and field structures.",
+      "headline": "Unmatched configurability for complex workflows, permissions, and field structures",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "ce0fbb2f-a9bd-4988-a2c0-df3c2b4a6d8c",
+      "ranking_product_id": "29260031-addc-44db-8156-e20a411c0055",
+      "type": "pro",
+      "content": "Mature ecosystem for support, docs, roadmaps, and service management.",
+      "headline": "Mature ecosystem for support, docs, roadmaps, and service management",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "a925fae9-2d6e-40b2-8ae9-3a4d4e80ec83",
+      "ranking_product_id": "29260031-addc-44db-8156-e20a411c0055",
+      "type": "pro",
+      "content": "Powerful reporting and automation once fully configured.",
+      "headline": "Powerful reporting and automation once fully configured",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "d4cdddd8-be60-4096-a82a-8325217291b8",
+      "ranking_product_id": "29260031-addc-44db-8156-e20a411c0055",
+      "type": "con",
+      "content": "Can become slow, cluttered, and admin-heavy for smaller teams.",
+      "headline": "Can become slow, cluttered, and admin-heavy for smaller teams",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "2901b8ab-74a1-40f7-8d7b-5e47bb34497b",
+      "ranking_product_id": "6d7b4756-0d6b-4441-806d-f188f1dbdcd6",
+      "type": "pro",
+      "content": "Keeps planning, issues, pull requests, and releases in one place.",
+      "headline": "Keeps planning, issues, pull requests, and releases in one place",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "b355c591-4334-4349-8685-eb18ca4db430",
+      "ranking_product_id": "6d7b4756-0d6b-4441-806d-f188f1dbdcd6",
+      "type": "pro",
+      "content": "Great value for teams already standardized on GitHub.",
+      "headline": "Great value for teams already standardized on GitHub",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3187cc32-cfff-4199-be7c-188f2faf7f19",
+      "ranking_product_id": "6d7b4756-0d6b-4441-806d-f188f1dbdcd6",
+      "type": "pro",
+      "content": "Excellent for open source and lean internal tooling workflows.",
+      "headline": "Excellent for open source and lean internal tooling workflows",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "612aefc8-dca1-4347-955e-9d14107304ed",
+      "ranking_product_id": "6d7b4756-0d6b-4441-806d-f188f1dbdcd6",
+      "type": "con",
+      "content": "Weaker custom workflow depth and reporting than dedicated trackers.",
+      "headline": "Weaker custom workflow depth and reporting than dedicated trackers",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "c1a02bb6-d2e8-467d-acef-bc07efb3fcb0",
+      "ranking_product_id": "c9d79ccb-7a55-4849-8906-3ca26f08d264",
+      "type": "pro",
+      "content": "Flexible enough for technical teams without feeling as bloated as Jira.",
+      "headline": "Flexible enough for technical teams without feeling as bloated as Jira",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "763e718c-d551-41ce-886c-26500205fd6e",
+      "ranking_product_id": "c9d79ccb-7a55-4849-8906-3ca26f08d264",
+      "type": "pro",
+      "content": "Powerful search syntax, custom workflows, and time tracking.",
+      "headline": "Powerful search syntax, custom workflows, and time tracking",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "f3a75ae8-47a2-4363-937f-fd9b18db55a0",
+      "ranking_product_id": "c9d79ccb-7a55-4849-8906-3ca26f08d264",
+      "type": "pro",
+      "content": "Strong value for teams already in the JetBrains ecosystem.",
+      "headline": "Strong value for teams already in the JetBrains ecosystem",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "16e4dcc4-964f-4b6c-9168-d489cd9d31f8",
+      "ranking_product_id": "c9d79ccb-7a55-4849-8906-3ca26f08d264",
+      "type": "con",
+      "content": "UI is capable but less intuitive than Linear for non-technical stakeholders.",
+      "headline": "UI is capable but less intuitive than Linear for non-technical stakeholders",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "50108f6a-c542-4934-a437-92e3d8c9d9b5",
+      "ranking_product_id": "17020265-0c4a-4eb1-aaf8-ac9e36e94f01",
+      "type": "pro",
+      "content": "Balanced platform that works well across marketing, ops, product, and leadership.",
+      "headline": "Balanced platform that works well across marketing, ops, product, and leadership",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "d34477f4-96fa-459e-b1d5-cb5e88b3c925",
+      "ranking_product_id": "17020265-0c4a-4eb1-aaf8-ac9e36e94f01",
+      "type": "pro",
+      "content": "Strong timeline, goal tracking, and portfolio views for visibility.",
+      "headline": "Strong timeline, goal tracking, and portfolio views for visibility",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "576ec255-3087-4c8c-b0f6-b6cd282c1c3a",
+      "ranking_product_id": "17020265-0c4a-4eb1-aaf8-ac9e36e94f01",
+      "type": "pro",
+      "content": "Clean enough for non-technical stakeholders to adopt quickly.",
+      "headline": "Clean enough for non-technical stakeholders to adopt quickly",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "fbf847aa-9220-4575-b906-f73ed1b1c5b2",
+      "ranking_product_id": "17020265-0c4a-4eb1-aaf8-ac9e36e94f01",
+      "type": "con",
+      "content": "Advanced features can get expensive as teams and seats scale.",
+      "headline": "Advanced features can get expensive as teams and seats scale",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "25b2ab9e-a3df-4d66-bcdb-0263d3c17bb6",
+      "ranking_product_id": "e2025c22-b360-496d-92df-9f0d1a9dc966",
+      "type": "pro",
+      "content": "Huge feature set that can replace several adjacent tools.",
+      "headline": "Huge feature set that can replace several adjacent tools",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3c495f49-1e2b-42f9-8a59-6f0b649e61fc",
+      "ranking_product_id": "e2025c22-b360-496d-92df-9f0d1a9dc966",
+      "type": "pro",
+      "content": "Very flexible hierarchy, docs, dashboards, and custom workflows.",
+      "headline": "Very flexible hierarchy, docs, dashboards, and custom workflows",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "9eafdfc8-b79d-48da-8570-38bf91067676",
+      "ranking_product_id": "e2025c22-b360-496d-92df-9f0d1a9dc966",
+      "type": "pro",
+      "content": "Good fit for teams that want one system for many functions.",
+      "headline": "Good fit for teams that want one system for many functions",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "285a40ef-a651-485e-8cc9-0be47684e5a6",
+      "ranking_product_id": "e2025c22-b360-496d-92df-9f0d1a9dc966",
+      "type": "con",
+      "content": "Can feel overwhelming or inconsistent if not intentionally configured.",
+      "headline": "Can feel overwhelming or inconsistent if not intentionally configured",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "fa382fe4-22f9-490a-900b-b68beba7d1a6",
+      "ranking_product_id": "95dc83a2-3652-4b7c-a61a-280c61a0406f",
+      "type": "pro",
+      "content": "Very approachable for non-technical teams and mixed departments.",
+      "headline": "Very approachable for non-technical teams and mixed departments",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "16222cfe-9a27-4220-81cf-72719e7faf59",
+      "ranking_product_id": "95dc83a2-3652-4b7c-a61a-280c61a0406f",
+      "type": "pro",
+      "content": "Excellent visual boards and dashboarding for status communication.",
+      "headline": "Excellent visual boards and dashboarding for status communication",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "cfe91a87-4b5d-42e1-941e-d81c2f819210",
+      "ranking_product_id": "95dc83a2-3652-4b7c-a61a-280c61a0406f",
+      "type": "pro",
+      "content": "Strong automation templates for recurring business workflows.",
+      "headline": "Strong automation templates for recurring business workflows",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "5947fab6-8539-42d7-9705-6405e4745912",
+      "ranking_product_id": "95dc83a2-3652-4b7c-a61a-280c61a0406f",
+      "type": "con",
+      "content": "Can feel less opinionated and rigorous for software delivery teams.",
+      "headline": "Can feel less opinionated and rigorous for software delivery teams",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "4a396813-6154-446a-8bcc-e67fee1abb1c",
+      "ranking_product_id": "70fc4969-0e09-4213-b753-a15a916237f9",
+      "type": "pro",
+      "content": "Excellent when docs, wikis, and lightweight planning need to live together.",
+      "headline": "Excellent when docs, wikis, and lightweight planning need to live together",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "0cf092cd-98e0-4d17-9b8a-54f7f10f1836",
+      "ranking_product_id": "70fc4969-0e09-4213-b753-a15a916237f9",
+      "type": "pro",
+      "content": "Flexible database model supports custom team workflows.",
+      "headline": "Flexible database model supports custom team workflows",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "1816eb30-a64b-4339-918d-b0d77a6d37e2",
+      "ranking_product_id": "70fc4969-0e09-4213-b753-a15a916237f9",
+      "type": "pro",
+      "content": "Strong adoption among startups and async teams.",
+      "headline": "Strong adoption among startups and async teams",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "669ddc75-dfa1-4356-9b69-004c9388d549",
+      "ranking_product_id": "70fc4969-0e09-4213-b753-a15a916237f9",
+      "type": "con",
+      "content": "Less robust reporting and workflow discipline than dedicated PM tools.",
+      "headline": "Less robust reporting and workflow discipline than dedicated PM tools",
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ],
   "specifications": [
@@ -24966,6 +25644,546 @@
       "product_id": "c2a69db3-7ab1-4f9c-ad16-8720878c6a18",
       "name": "Best For",
       "value": "Eco-conscious and hot sleepers"
+    },
+    {
+      "id": "4e6b9a5d-35d0-47df-9a3d-65195854e46f",
+      "product_id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "name": "Starting Price",
+      "value": "€4.35/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "835021ec-c0db-47e0-9050-7e9a3de117f5",
+      "product_id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "name": "Primary Regions",
+      "value": "Germany + Finland + US + Singapore",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "b738abed-3896-43cc-b85b-7482a92b80c6",
+      "product_id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "name": "Managed Kubernetes",
+      "value": "Available via managed control plane",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "86d357d3-6188-420e-9bfa-9c7a6ed772fa",
+      "product_id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "name": "Egress Pricing",
+      "value": "Low and predictable",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "ec6d7c62-6867-48d7-b10a-847d5700f311",
+      "product_id": "8c0a7543-9c64-4fd3-9b12-4ec10fb1ca66",
+      "name": "Best For",
+      "value": "Cost-efficient EU-first infrastructure",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "cf17caa7-7263-4095-b507-eef92f6ad377",
+      "product_id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "name": "Starting Price",
+      "value": "Pay-as-you-go",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "66c67417-29da-469e-9a8b-084bf19ef39c",
+      "product_id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "name": "Primary Regions",
+      "value": "Global hyperscale footprint",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "9bdd09f2-1dd9-4e72-a243-5cad4446f020",
+      "product_id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "name": "Managed Kubernetes",
+      "value": "EKS",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "feeb4c79-d66e-44ff-8b16-f35e8c58e6a0",
+      "product_id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "name": "Egress Pricing",
+      "value": "High and complex",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "edfc0fe0-5bc2-4f04-a7ff-28198cb06f1b",
+      "product_id": "849ae000-7df9-4c47-ba33-ba4c1336e895",
+      "name": "Best For",
+      "value": "Teams needing maximum service breadth",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "449b7584-4384-4cae-9617-8d78882d7368",
+      "product_id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "name": "Starting Price",
+      "value": "$5/mo apps + usage",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e3885c3c-556a-4873-85e9-9611c0707a72",
+      "product_id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "name": "Primary Regions",
+      "value": "Global edge-style regions",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e4f0e494-481f-411a-a929-d3efd6364f3c",
+      "product_id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "name": "Managed Kubernetes",
+      "value": "No, app platform model instead",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "c42f30ec-2f72-4e20-8319-73b7b512e68e",
+      "product_id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "name": "Egress Pricing",
+      "value": "Moderate",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "429f5a6c-dded-41d6-8361-2212190f6344",
+      "product_id": "a7597ea1-5045-46a7-a9a0-1c105780fb6d",
+      "name": "Best For",
+      "value": "Distributed apps and developer-led deployments",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "2ecbaa42-4b59-4747-aede-c3bbfaf567ea",
+      "product_id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "name": "Starting Price",
+      "value": "Pay-as-you-go",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "b5e01fb8-5bae-42ba-afd4-a7e8365ca3c8",
+      "product_id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "name": "Primary Regions",
+      "value": "Global hyperscale footprint",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "496b20eb-4a66-4193-a9c5-ca0c1590fdea",
+      "product_id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "name": "Managed Kubernetes",
+      "value": "GKE",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "2d74fa9c-8950-4f95-98de-8e5233f7c68b",
+      "product_id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "name": "Egress Pricing",
+      "value": "Premium-tier networking costs",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "513936f3-936d-46d5-83ab-a594fcef42d1",
+      "product_id": "54e30cea-fb84-409c-8df3-1707526f97d2",
+      "name": "Best For",
+      "value": "Data-heavy workloads and Kubernetes teams",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "0848d483-dffe-4d4b-8830-b7f631305afd",
+      "product_id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "name": "Starting Price",
+      "value": "$10/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "6821d708-8ff1-41a4-8634-0e8a339afe36",
+      "product_id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "name": "Best Fit",
+      "value": "Modern product and engineering teams",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "18028527-6efc-4c3d-a73f-737bb8d2efbb",
+      "product_id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "name": "Automation",
+      "value": "Built-in workflows + triage",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "161cef8e-7559-407f-8899-ae4d98bbaf9d",
+      "product_id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "name": "Integrations",
+      "value": "GitHub, Slack, Figma, Sentry",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "f724aa30-83c4-44bb-b3d1-5c5a54fd4f8a",
+      "product_id": "e44a6000-05e7-4e58-9ab0-fba6511e639c",
+      "name": "Reporting",
+      "value": "Cycles, velocity, roadmap views",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "75225f7b-4229-415c-bc30-ec1b35af4599",
+      "product_id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "name": "Starting Price",
+      "value": "$8.15/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "06790b74-e883-413b-8dbe-79789942694e",
+      "product_id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "name": "Best Fit",
+      "value": "Complex and enterprise workflows",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "7d1a0ad3-cfd5-446c-bd35-bb91c89b52c8",
+      "product_id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "name": "Automation",
+      "value": "Advanced rule engine",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "316f05a3-63dc-467e-b94a-9641850b4f73",
+      "product_id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "name": "Integrations",
+      "value": "Atlassian ecosystem + broad marketplace",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "1fadfac6-5126-45ab-9a7d-d8eaedcf3af5",
+      "product_id": "d11867e9-16cd-4845-a71a-5368cb2e1971",
+      "name": "Reporting",
+      "value": "Deep dashboards and custom reports",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "ad543fcb-a045-4232-b6ee-f8afcf0ae996",
+      "product_id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "name": "Starting Price",
+      "value": "Included with GitHub plans",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "b7065127-32eb-4375-ada2-1e34829f9b79",
+      "product_id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "name": "Best Fit",
+      "value": "Code-centric teams and OSS",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "fcec54a2-0bc6-495c-bdb8-8f25a996d667",
+      "product_id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "name": "Automation",
+      "value": "GitHub Actions + Projects automations",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "7245705d-0db1-4d98-bb93-a72537479912",
+      "product_id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "name": "Integrations",
+      "value": "Native GitHub ecosystem",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "5f674a21-de6a-42ed-bec3-d72123b2d7a0",
+      "product_id": "215b8e79-e43e-4c65-a37c-45be12d1ae96",
+      "name": "Reporting",
+      "value": "Basic project and workflow views",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "00e89bd1-7d9f-4bdf-82d8-d5c9b7b140dd",
+      "product_id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "name": "Starting Price",
+      "value": "$4.40/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "162d2b33-2936-475d-b474-53a9a67b3b28",
+      "product_id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "name": "Best Fit",
+      "value": "Technical teams wanting customization without Jira bloat",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "d5a46f07-77ea-4834-b59b-62c634cfc5ff",
+      "product_id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "name": "Automation",
+      "value": "Workflows in JavaScript",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "f30f4071-beb3-4183-a12a-59701470b23c",
+      "product_id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "name": "Integrations",
+      "value": "JetBrains + VCS + helpdesk options",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "f36116a3-301a-431a-9ffe-fa7962e71e12",
+      "product_id": "176373a4-6a4a-4189-90d0-a0f2b73b072d",
+      "name": "Reporting",
+      "value": "Agile boards + time tracking",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "1655622c-a77e-4529-8eab-94ec466207f6",
+      "product_id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "name": "Starting Price",
+      "value": "$10.99/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "8177e394-b0b6-4cda-871c-9aa061c72c4e",
+      "product_id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "name": "Best Fit",
+      "value": "Cross-functional teams and operations",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "8bedb9a1-4e41-47a2-b851-f64d19dbeece",
+      "product_id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "name": "Views",
+      "value": "List, board, timeline, goals",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "77e710a9-4cc4-4109-8a33-f37ed2c55a0e",
+      "product_id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "name": "Automation",
+      "value": "Rules + forms + templates",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "34a0917f-e720-44e1-810f-798110e99274",
+      "product_id": "085ee5bb-6397-43dd-b207-88fa90b8bad4",
+      "name": "Reporting",
+      "value": "Dashboards + goals reporting",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "7de5ab4d-bd44-4219-b76a-d9af7f43fc16",
+      "product_id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "name": "Starting Price",
+      "value": "$10/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "41765680-d46a-44ca-8544-04d4987833fd",
+      "product_id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "name": "Best Fit",
+      "value": "Teams wanting maximum configurability",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "afd19a0f-2b48-406f-8c1d-585e3838c860",
+      "product_id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "name": "Views",
+      "value": "Extensive list, board, docs, whiteboards, dashboards",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e6e751e6-5ca4-4c58-b571-ac329c63d9a7",
+      "product_id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "name": "Automation",
+      "value": "Rich automations and custom fields",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "315c55e0-57da-4745-99da-a14d2525b35e",
+      "product_id": "edd31a1e-3a31-4e56-8b15-5548c10e5344",
+      "name": "Reporting",
+      "value": "Custom dashboards and workload views",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "1a79b601-c624-4bf4-92c8-cc7a57ef6b6c",
+      "product_id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "name": "Starting Price",
+      "value": "$9/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "ce3bedf8-0e5c-47cc-a74e-cd5d8bc52995",
+      "product_id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "name": "Best Fit",
+      "value": "Visual coordination across departments",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "690d98fc-724b-4288-b6f7-b20349910312",
+      "product_id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "name": "Views",
+      "value": "Boards, timeline, workload, dashboards",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3b4fab6a-e70b-434c-88df-6a8f8491c331",
+      "product_id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "name": "Automation",
+      "value": "No-code automation recipes",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "0183bbe4-2c24-4588-9253-53c640f31d89",
+      "product_id": "3e27895f-a84c-4ef8-b405-ae7fdc4b5989",
+      "name": "Reporting",
+      "value": "Executive-friendly dashboards",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "d52741e7-cf45-488b-a2a5-d1ec8b7ad691",
+      "product_id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "name": "Starting Price",
+      "value": "$10/user/mo",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "71d9a4f3-88c0-441a-8089-7580e25c2b64",
+      "product_id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "name": "Best Fit",
+      "value": "Docs-first planning and lightweight PM",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "13d6fe57-5962-4ecf-bb28-a32c926cf61d",
+      "product_id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "name": "Views",
+      "value": "Databases, boards, timelines, docs",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e76d64da-eb89-4e37-b94e-fa03b8eef03e",
+      "product_id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "name": "Automation",
+      "value": "Basic automations + AI assistance",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "5217619e-e83a-45ea-bbf1-adbc93c4ffb5",
+      "product_id": "a4e7cdeb-363f-4dde-ac6e-f962c2b9fbc5",
+      "name": "Reporting",
+      "value": "Limited compared with dedicated PM suites",
+      "unit": null,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ],
   "assets": [],
@@ -26301,6 +27519,141 @@
       "question": "How long should a good mattress last?",
       "answer": "A good mattress commonly lasts seven to ten years, though latex and premium hybrids can last longer. Material quality, body weight, usage, and support foundation all affect lifespan.",
       "display_order": 5
+    },
+    {
+      "id": "89e096fc-d651-4da0-952a-1e8ee52c894c",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "question": "What matters most when choosing a cloud hosting platform?",
+      "answer": "Start with the shape of your workload and your team size. If you mostly need virtual machines, databases, and predictable monthly costs, simpler providers like Hetzner often deliver better value than hyperscalers. If you need managed queues, event systems, AI APIs, or heavy compliance features, AWS or Google Cloud usually justify the complexity.",
+      "display_order": 1,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "04d7af88-348e-4a0b-a5b3-386cf467a820",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "question": "Is cloud hosting pricing usually predictable?",
+      "answer": "Not always. Compute is easy to compare, but bandwidth egress, managed databases, backups, and observability can materially change the bill. Buyers who care about budget control should prioritize pricing transparency and model real traffic patterns before committing.",
+      "display_order": 2,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "e787d442-ce64-4f05-b7d6-83128e3e54d4",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "question": "Should startups use AWS or a simpler host first?",
+      "answer": "Many startups are better off starting with a simpler platform until product demand proves they need hyperscaler breadth. The best early platform is usually the one your team can operate confidently without building a platform-engineering function too soon.",
+      "display_order": 3,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "15f882ad-38a3-4c35-88bf-47e82a1ef6f9",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "question": "What is the best cloud host for European data residency?",
+      "answer": "Hetzner, OVHcloud, and Scaleway tend to be the most buyer-friendly options when EU data residency is a top concern. Hyperscalers also offer EU regions, but buyers should verify where backups, logs, support tooling, and third-party add-ons actually process data.",
+      "display_order": 4,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "1f88855b-403d-4383-89bf-5048bf8a7c16",
+      "ranking_id": "424d8b15-a782-4e12-95cc-7ee483be7b9b",
+      "question": "When is Kubernetes worth paying for in a cloud platform?",
+      "answer": "Kubernetes is worth it when you have multiple services, clear scaling or portability needs, and a team that can handle cluster operations responsibly. If you are shipping a smaller app with one or two services, a simpler app platform often gets you to production faster with less operational drag.",
+      "display_order": 5,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "c53ca59f-090c-422a-804d-d2912f2de559",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "question": "What is the difference between issue tracking and project management software?",
+      "answer": "Issue trackers are usually optimized for bugs, tasks, backlog flow, and engineering execution, while project management tools often emphasize broader planning, dependencies, docs, and cross-functional coordination. Many teams need both layers, but software teams should usually get issue tracking right first.",
+      "display_order": 1,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "ac06cb9d-9c83-4366-a7c1-339535a5db24",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "question": "Is Jira still worth it for small teams?",
+      "answer": "Only if you truly need its customization depth. Many small teams move faster in Linear, GitHub Issues, or YouTrack because they avoid Jira's setup overhead and workflow sprawl.",
+      "display_order": 2,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "64da8ea3-4ec6-4cf8-a513-66ea4a785f34",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "question": "What is the best issue tracker for GitHub-native teams?",
+      "answer": "GitHub Issues is the most natural lightweight fit when issues, pull requests, and releases already live in GitHub. Teams that need stronger planning and triage on top of GitHub often end up happiest with Linear.",
+      "display_order": 3,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "dd93158d-3327-45ba-8dc1-34035add87a4",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "question": "Can non-engineering teams use issue trackers effectively?",
+      "answer": "Yes, but only if the tool stays simple enough for them to participate. Product, design, and support teams tend to engage more in systems with clean views, light workflow friction, and strong notification hygiene.",
+      "display_order": 4,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "f30779e4-0886-4735-a210-2df2c9a8c92f",
+      "ranking_id": "796560d1-92df-4139-a841-3052cfa0d542",
+      "question": "Which issue tracker is best for complex workflows and permissions?",
+      "answer": "Jira still leads when you need layered permissions, custom issue types, elaborate approval states, and tight process governance. That power is useful, but it comes with a real administrative cost.",
+      "display_order": 5,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "3f71219b-d4fa-4835-a3b1-72fe8520f9bb",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "question": "What should I look for in project management software first?",
+      "answer": "Start with the planning views your team will actually use, then check collaboration quality, automation, reporting, and how the platform handles ownership and due dates. The best tool is usually the one that improves execution clarity without creating a second job in administration.",
+      "display_order": 1,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "18e12c6a-d22b-4f17-96ba-8bfdfe627302",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "question": "Do startups need a full project management suite?",
+      "answer": "Not always. Early teams often work better with a lighter tool until process complexity becomes real. A bloated system adopted too early can slow the team down more than it helps.",
+      "display_order": 2,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "56ee5e1a-3069-40c2-8a6c-1427b54d50c3",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "question": "Which project management tool is best for cross-functional teams?",
+      "answer": "Asana and Monday.com are usually the easiest starting points for teams that mix marketing, operations, product, and leadership. They create enough structure for coordination without assuming everyone works like an engineering team.",
+      "display_order": 3,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "a34873af-1084-40c7-980c-a630646b8388",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "question": "Is ClickUp too complex for small teams?",
+      "answer": "It can be if you turn everything on at once. ClickUp is powerful, but teams get the best results when they standardize a few views and workflows first instead of exposing every feature immediately.",
+      "display_order": 4,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
+    },
+    {
+      "id": "27fa1935-ed86-48ed-a20f-07f277f513e0",
+      "ranking_id": "99adf66a-7f85-4521-b832-09c7a4de228c",
+      "question": "Can Notion replace project management software?",
+      "answer": "For lightweight planning, yes. But once a team needs dependable reporting, workload management, recurring process automation, or stronger operational discipline, dedicated project management tools tend to hold up better.",
+      "display_order": 5,
+      "created_at": "2026-05-05T05:40:00.000Z",
+      "updated_at": "2026-05-05T05:40:00.000Z"
     }
   ]
 }

@@ -13,7 +13,8 @@
  * - kitchen:        coffee-makers, air-fryers, espresso-machines
  * - wearable:        smart-watches, wireless-earbuds
  * - content-creation: smartphones, tablet-stands-mounts, webcams, microphones, stream-decks
- * - developer-tools: code-editors, ci-cd-tools, api-testing-tools
+ * - developer-tools: code-editors, ci-cd-tools, api-testing-tools, cloud-hosting,
+ *                    issue-tracking, project-management
  * - portable-creator: portable-monitors, docking-stations, external-ssds, laptop-stands
  */
 import { buyerIntentModules } from './buyer-intent-modules';
@@ -61,9 +62,12 @@ const BASE_RELATIONS: Record<string, string[]> = {
   'tablet-stands-mounts': ['laptop-stands', 'monitors', 'smartphones'],
 
   // === Developer tools cluster ===
-  'code-editors':    ['ci-cd-tools', 'api-testing-tools'],
-  'ci-cd-tools':     ['code-editors', 'api-testing-tools'],
-  'api-testing-tools': ['code-editors', 'ci-cd-tools'],
+  'code-editors':    ['ci-cd-tools', 'api-testing-tools', 'issue-tracking', 'project-management'],
+  'ci-cd-tools':     ['code-editors', 'api-testing-tools', 'cloud-hosting', 'issue-tracking'],
+  'api-testing-tools': ['code-editors', 'ci-cd-tools', 'cloud-hosting', 'issue-tracking'],
+  'cloud-hosting':   ['ci-cd-tools', 'api-testing-tools', 'project-management', 'issue-tracking'],
+  'issue-tracking':  ['code-editors', 'ci-cd-tools', 'api-testing-tools', 'project-management'],
+  'project-management': ['issue-tracking', 'cloud-hosting', 'code-editors', 'ci-cd-tools'],
 
   // === Portable creator workstation cluster ===
   'portable-monitors': ['docking-stations', 'external-ssds', 'laptop-stands', 'usb-c-hubs'],
@@ -101,7 +105,7 @@ export const CATEGORY_CLUSTERS: CategoryCluster[] = [
   { id: 'kitchen-cooking',     name: 'Kitchen & Cooking',    slugs: ['coffee-makers', 'air-fryers', 'espresso-machines'] },
   { id: 'wearable-tech-audio', name: 'Wearable & Audio',     slugs: ['smart-watches', 'wireless-earbuds'] },
   { id: 'content-creation',   name: 'Content Creation',     slugs: ['smartphones', 'tablet-stands-mounts', 'webcams', 'microphones', 'stream-decks'] },
-  { id: 'developer-tools',    name: 'Developer Tools',      slugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools'] },
+  { id: 'developer-tools',    name: 'Developer Tools',      slugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools', 'cloud-hosting', 'issue-tracking', 'project-management'] },
   { id: 'portable-creator',   name: 'Portable Creator',     slugs: ['portable-monitors', 'docking-stations', 'external-ssds', 'laptop-stands'] },
 ];
 

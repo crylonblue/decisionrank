@@ -80,7 +80,7 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'developer-tools',
     title: 'Developer Tools & Software',
-    description: 'Choose the best code editors, CI/CD platforms, and API testing tools for your development workflow. We evaluate developer software on extensibility, integration ecosystem, automation capabilities, and team collaboration features. Whether you\'re a solo developer or part of a large engineering organization, our hands-on testing highlights the tools that boost productivity without adding complexity. Compare pricing, self-hosting options, AI assistance, and how each platform scales with team size.',
-    categorySlugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools'],
+    description: 'Choose the best code editors, CI/CD platforms, API testing tools, cloud hosting providers, issue trackers, and project management software for your development workflow. We evaluate developer software on extensibility, integration ecosystem, automation capabilities, deployment ergonomics, and team collaboration features. Whether you\'re a solo developer or part of a larger engineering organization, our hands-on testing highlights the tools that boost productivity without adding unnecessary process or platform overhead. Compare pricing, self-hosting options, AI assistance, and how each platform scales with team size.',
+    categorySlugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools', 'cloud-hosting', 'issue-tracking', 'project-management'],
   },
 ];
