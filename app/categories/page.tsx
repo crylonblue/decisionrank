@@ -7,7 +7,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { ArrowRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import type { Metadata } from 'next';
-import { getBaseUrl } from '@/lib/seo';
+import {
+  getBaseUrl,
+  generateBreadcrumbJsonLd,
+  generateItemListJsonLd,
+  generateCollectionPageJsonLd,
+} from '@/lib/seo';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { BuyerIntentModules } from '@/components/buyer-intent-modules';
 import { ThinFamilyClusterSections } from '@/components/thin-family-cluster-sections';
@@ -52,9 +57,51 @@ export default async function CategoriesPage() {
   const categories = await getAllCategories();
   const rankingCounts = await getRankingCountsByCategory();
   const thinFamilyClusters = buildThinFamilyClusterSections(categories);
+  const baseUrl = getBaseUrl();
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd([
+    { name: 'Home', url: `${baseUrl}/` },
+    { name: 'All Categories', url: `${baseUrl}/categories` },
+  ]);
+  const categoriesItemListJsonLd = generateItemListJsonLd(
+    'DecisionRank categories',
+    categories.map((category, index) => ({
+      name: category.name,
+      url: `${baseUrl}/${category.slug}`,
+      position: index + 1,
+      description: getCategoryIntro(category.name, category.description),
+    })),
+  );
+  const clusterCollectionJsonLd = thinFamilyClusters.map((cluster) =>
+    generateCollectionPageJsonLd({
+      name: cluster.title,
+      url: `${baseUrl}/categories`,
+      description: cluster.intro,
+      items: cluster.categories.map((category, index) => ({
+        name: category.name,
+        url: `${baseUrl}/${category.slug}`,
+        position: index + 1,
+        description: getCategoryIntro(category.name, category.description),
+      })),
+    }),
+  );
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categoriesItemListJsonLd) }}
+      />
+      {clusterCollectionJsonLd.map((schema, index) => (
+        <script
+          key={`categories-cluster-schema-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

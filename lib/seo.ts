@@ -106,6 +106,13 @@ export interface ItemListEntry {
   description?: string;
 }
 
+export interface CollectionPageJsonLdInput {
+  name: string;
+  url: string;
+  description?: string;
+  items: ItemListEntry[];
+}
+
 /**
  * Generate JSON-LD for a Product with AggregateRating.
  * Maps DecisionRank's 0-100 score to a 1-5 star scale for schema.org compatibility.
@@ -286,5 +293,18 @@ export function generateItemListJsonLd(
       url: item.url,
       ...(item.description ? { description: item.description } : {}),
     })),
+  };
+}
+
+export function generateCollectionPageJsonLd(
+  page: CollectionPageJsonLdInput,
+): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: page.name,
+    url: page.url,
+    ...(page.description ? { description: page.description } : {}),
+    mainEntity: generateItemListJsonLd(page.name, page.items),
   };
 }

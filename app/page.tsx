@@ -11,7 +11,13 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Clock } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getBaseUrl, generateWebSiteJsonLd, generateOrganizationJsonLd } from '@/lib/seo';
+import {
+  getBaseUrl,
+  generateWebSiteJsonLd,
+  generateOrganizationJsonLd,
+  generateItemListJsonLd,
+  generateCollectionPageJsonLd,
+} from '@/lib/seo';
 import { buildThinFamilyClusterSections } from '@/lib/thin-family-clusters';
 
 const getCategoryIntro = (name: string, description?: string | null) => {
@@ -180,6 +186,28 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   // Landing page with hero and showcase
   const webSiteJsonLd = generateWebSiteJsonLd();
   const orgJsonLd = generateOrganizationJsonLd();
+  const homepageCategoryItemListJsonLd = generateItemListJsonLd(
+    'Homepage featured categories',
+    categories.map((category, index) => ({
+      name: category.name,
+      url: `${getBaseUrl()}/${category.slug}`,
+      position: index + 1,
+      description: getCategoryIntro(category.name, category.description),
+    })),
+  );
+  const homepageClusterJsonLd = thinFamilyClusters.map((cluster) =>
+    generateCollectionPageJsonLd({
+      name: cluster.title,
+      url: `${getBaseUrl()}/categories`,
+      description: cluster.intro,
+      items: cluster.categories.map((category, index) => ({
+        name: category.name,
+        url: `${getBaseUrl()}/${category.slug}`,
+        position: index + 1,
+        description: getCategoryIntro(category.name, category.description),
+      })),
+    }),
+  );
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -193,6 +221,17 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageCategoryItemListJsonLd) }}
+      />
+      {homepageClusterJsonLd.map((schema, index) => (
+        <script
+          key={`homepage-cluster-schema-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Suspense fallback={
         <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

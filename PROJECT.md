@@ -8,6 +8,13 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-05 (Bob subagent, task 1777935688697):** Added stronger schema and crawl signals to cluster spotlight discovery surfaces.
+  - Added reusable `generateCollectionPageJsonLd()` support in `lib/seo.ts` and reused the existing breadcrumb, item-list, and FAQ helpers instead of hand-rolling page schema.
+  - Homepage now emits ItemList schema for featured categories plus CollectionPage-style JSON-LD for each thin-family spotlight so those browse sections read as real editorial collections to crawlers.
+  - `/categories` now emits BreadcrumbList, a full category ItemList, and cluster-level CollectionPage schema for the thin-family family spotlights.
+  - Category hub pages now emit CollectionPage schema for their ranking listings, reuse the shared FAQ helper, and add family-spotlight collection schema when a category belongs to one of the thin clusters.
+  - Tightened cluster spotlight CTA/internal-link copy to be more descriptive and crawl-friendly without creating any standalone thin pages.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
 - **2026-05-05 (Bob subagent, task 1777935688631):** Seeded 3 adjacent developer-tools categories to deepen the thinnest family in code only.
   - Added full canonical `.seed-payload` inventory for `cloud-hosting`, `issue-tracking`, and `project-management`, including category records, rankings, 12 products total, specifications, pros/cons sentiments, verdict summaries, and category FAQs.
   - Expanded `lib/category-enhancements.ts` with bespoke long-form buyer-intent descriptions, category-specific FAQs, and dedicated verdict guidance for all 3 new categories.

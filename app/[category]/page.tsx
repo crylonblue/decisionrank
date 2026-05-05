@@ -10,7 +10,13 @@ import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
 import type { Ranking, Category } from '@/lib/types';
 import type { Metadata } from 'next';
-import { getBaseUrl, generateBreadcrumbJsonLd, generateItemListJsonLd } from '@/lib/seo';
+import {
+  getBaseUrl,
+  generateBreadcrumbJsonLd,
+  generateItemListJsonLd,
+  generateFAQJsonLd,
+  generateCollectionPageJsonLd,
+} from '@/lib/seo';
 import { ChevronLeft, ChevronRight, Clock, ArrowRight, Quote } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Breadcrumbs } from '@/components/breadcrumbs';
@@ -141,9 +147,20 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     })),
   );
 
-
+  const collectionPageJsonLd = generateCollectionPageJsonLd({
+    name: `${category.name} Rankings`,
+    url: currentPage > 1 ? `${baseUrl}/${categorySlug}?page=${currentPage}` : `${baseUrl}/${categorySlug}`,
+    description: getEnhancedDescription(categorySlug, category.description),
+    items: paginatedRankings.map((ranking: Ranking, index: number) => ({
+      name: ranking.question,
+      url: `${baseUrl}/${category.slug}/${ranking.slug}`,
+      position: startIndex + index + 1,
+      description: ranking.description || undefined,
+    })),
+  });
 
   const faqs = getCategoryFAQs(categorySlug);
+  const faqJsonLd = generateFAQJsonLd(faqs);
 
 
   // Compute related categories based on adjacency mapping
@@ -155,6 +172,20 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     relatedCategories.length > 0
       ? relatedCategories
       : allCategories.filter((c: Category) => c.slug !== categorySlug).slice(0, 4);
+  const thinFamilyClusterJsonLd = thinFamilyClusters.map((cluster) =>
+    generateCollectionPageJsonLd({
+      name: `${cluster.title} for ${category.name}`,
+      url: `${baseUrl}/${categorySlug}`,
+      description: cluster.intro,
+      items: cluster.categories.map((clusterCategory, index) => ({
+        name: clusterCategory.name,
+        url: `${baseUrl}/${clusterCategory.slug}`,
+        position: index + 1,
+        description: clusterCategory.description || undefined,
+      })),
+    }),
+  );
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <section className="py-12 bg-muted/30" id="faq">
@@ -187,21 +218,19 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": faqs.map(faq => ({
-              "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer,
-              },
-            })),
-          })
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      {thinFamilyClusterJsonLd.map((schema, index) => (
+        <script
+          key={`category-cluster-schema-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       {/* Buyer's Choice JSON-LD */}
       {buyersChoicePicks.length > 0 && (
         <script

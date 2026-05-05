@@ -86,7 +86,7 @@ export function ThinFamilyClusterSections({
                               </CardHeader>
                               <CardContent>
                                 <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
-                                  Compare the best {category.name}
+                                  Compare the best {category.name} rankings
                                   <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </div>
                               </CardContent>
@@ -104,7 +104,7 @@ export function ThinFamilyClusterSections({
                         Buyer search paths
                       </div>
                       <p className="mt-2 text-sm text-muted-foreground">
-                        Internal links based on existing long-tail buyer-intent phrases from the family&apos;s category data.
+                        Crawl-friendly internal links built from existing long-tail buyer-intent phrases in this family&apos;s category data.
                       </p>
                       <div className="mt-4 flex flex-wrap gap-2">
                         {cluster.buyerSearchLinks.map((link) => (
