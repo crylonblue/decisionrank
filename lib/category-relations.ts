@@ -11,7 +11,7 @@
  * - smart-home:      smart-lighting, smart-plugs-power-strips, smart-locks, video-doorbells,
  *                    smart-security-cameras, robot-vacuums, air-purifiers
  * - kitchen:        coffee-makers, air-fryers, espresso-machines
- * - wearable:        smart-watches, wireless-earbuds
+ * - wearable:        smart-watches, fitness-trackers, wireless-earbuds, over-ear-headphones, bluetooth-speakers
  * - content-creation: smartphones, tablet-stands-mounts, webcams, microphones, stream-decks
  * - developer-tools: code-editors, ci-cd-tools, api-testing-tools, cloud-hosting,
  *                    issue-tracking, project-management
@@ -54,8 +54,11 @@ const BASE_RELATIONS: Record<string, string[]> = {
   'espresso-machines': ['coffee-makers', 'air-fryers'],
 
   // === Wearable cluster ===
-  'smart-watches':   ['wireless-earbuds', 'smart-locks', 'video-doorbells', 'noise-cancelling-headphones'],
-  'wireless-earbuds': ['smart-watches', 'noise-cancelling-headphones', 'smartphones'],
+  'smart-watches':   ['fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'smart-locks', 'video-doorbells', 'noise-cancelling-headphones'],
+  'fitness-trackers': ['smart-watches', 'wireless-earbuds', 'over-ear-headphones', 'smartphones', 'bluetooth-speakers'],
+  'wireless-earbuds': ['smart-watches', 'fitness-trackers', 'over-ear-headphones', 'bluetooth-speakers', 'noise-cancelling-headphones', 'smartphones'],
+  'over-ear-headphones': ['wireless-earbuds', 'bluetooth-speakers', 'noise-cancelling-headphones', 'smart-watches', 'smartphones'],
+  'bluetooth-speakers': ['over-ear-headphones', 'wireless-earbuds', 'smartphones', 'smart-watches', 'fitness-trackers'],
 
   // === Content creation cluster ===
   'smartphones':      ['microphones', 'stream-decks', 'wireless-earbuds', 'webcams'],
@@ -103,7 +106,7 @@ export const CATEGORY_CLUSTERS: CategoryCluster[] = [
   { id: 'gaming-streaming',    name: 'Gaming & Streaming',  slugs: ['gaming-laptops', 'mechanical-keyboards', 'noise-cancelling-headphones', 'microphones', 'stream-decks'] },
   { id: 'smart-home',          name: 'Smart Home',           slugs: ['smart-lighting', 'smart-plugs-power-strips', 'smart-locks', 'video-doorbells', 'smart-security-cameras', 'robot-vacuums', 'air-purifiers'] },
   { id: 'kitchen-cooking',     name: 'Kitchen & Cooking',    slugs: ['coffee-makers', 'air-fryers', 'espresso-machines'] },
-  { id: 'wearable-tech-audio', name: 'Wearable & Audio',     slugs: ['smart-watches', 'wireless-earbuds'] },
+  { id: 'wearable-tech-audio', name: 'Wearable & Audio',     slugs: ['smart-watches', 'fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'] },
   { id: 'content-creation',   name: 'Content Creation',     slugs: ['smartphones', 'tablet-stands-mounts', 'webcams', 'microphones', 'stream-decks'] },
   { id: 'developer-tools',    name: 'Developer Tools',      slugs: ['code-editors', 'ci-cd-tools', 'api-testing-tools', 'cloud-hosting', 'issue-tracking', 'project-management'] },
   { id: 'portable-creator',   name: 'Portable Creator',     slugs: ['portable-monitors', 'docking-stations', 'external-ssds', 'laptop-stands'] },

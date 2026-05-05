@@ -44,8 +44,8 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'wearable-tech-audio',
     title: 'Wearable Tech & Audio',
-    description: 'Stay connected and listen freely with the best smartwatches and wireless earbuds for fitness, notifications, and music on the go. We measure GPS accuracy, health sensor reliability, earbud fit security, and battery longevity. Whether you need a rugged workout companion or a subtle daily driver, our rankings highlight devices that deliver on their promises and integrate seamlessly into your ecosystem.',
-    categorySlugs: ['smart-watches', 'wireless-earbuds'],
+    description: 'Build a better on-the-go tech setup with smartwatches, fitness trackers, wireless earbuds, over-ear headphones, and Bluetooth speakers that fit real daily routines. We compare health tracking accuracy, comfort, battery life, ecosystem fit, ruggedness, and audio quality so buyers can move from workouts to commutes to desk time without guessing which device actually fits their habits.',
+    categorySlugs: ['smart-watches', 'fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'],
   },
   {
     id: 'healthy-home',

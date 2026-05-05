@@ -835,6 +835,92 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Mid-Range vs Premium", description: "$300-500 vs $800+ models — do expensive features like self-cleaning mops and object avoidance justify the cost?", queryPhrase: "mid-range vs premium robot vacuum" },
     ]
   },
+  "fitness-trackers": {
+    clusterSlugs: ["smart-watches", "wireless-earbuds", "over-ear-headphones", "bluetooth-speakers", "smartphones"],
+    useCaseBlocks: [
+      {
+        title: "Best Fitness Trackers for Sleep and Recovery",
+        description: "Lightweight wearables that stay comfortable overnight and deliver useful readiness, sleep-stage, and recovery trends instead of just basic step counts.",
+        targetAudience: "Health-focused buyers and sleep trackers"
+      },
+      {
+        title: "Best Fitness Trackers for Running and Daily Training",
+        description: "Trackers with dependable heart-rate data, GPS support or connected GPS, and enough workout depth for casual runners and gym users.",
+        targetAudience: "Active buyers and beginner runners"
+      },
+      {
+        title: "Best Fitness Trackers with Long Battery Life",
+        description: "Wearables that keep logging steps, sleep, and recovery for a week or more so you are not constantly thinking about charging.",
+        targetAudience: "Battery-conscious buyers"
+      },
+      {
+        title: "Best Screen-Free or Minimal Fitness Trackers",
+        description: "Recovery-first bands and rings for buyers who want passive health data without a distracting mini-smartphone on the wrist.",
+        targetAudience: "Minimalist and screen-averse buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best fitness tracker for sleep tracking",
+      "fitness tracker vs smartwatch which is better",
+      "best fitness tracker with long battery life",
+      "Whoop vs Fitbit vs Garmin",
+      "best fitness tracker for beginners",
+      "fitness tracker without subscription",
+      "best tracker for heart rate and recovery",
+      "smart ring vs fitness tracker",
+      "best slim fitness tracker for women",
+      "best tracker for running without smartwatch bulk",
+      "how accurate are fitness tracker calories",
+      "best fitness tracker under 150 dollars"
+    ],
+    useCases: [
+      {
+        label: "Sleep and Recovery",
+        title: "Best Fitness Trackers for Sleep and Recovery",
+        description: "Trackers that stay comfortable overnight and provide actionable sleep, resting-heart-rate, and readiness insights for buyers building healthier routines."
+      },
+      {
+        label: "Running and Training",
+        title: "Best Fitness Trackers for Running and Daily Training",
+        description: "Slim wearables with dependable workout logging, useful GPS support, and health metrics that help casual athletes stay consistent."
+      },
+      {
+        label: "Battery Life",
+        title: "Best Fitness Trackers with Long Battery Life",
+        description: "Multi-day and multi-week trackers for buyers who want passive health tracking without adding one more daily charger to the nightstand."
+      },
+      {
+        label: "Minimal Screen",
+        title: "Best Screen-Free or Minimal Fitness Trackers",
+        description: "Bands and rings that focus on passive data collection and habit feedback instead of trying to replace your phone or watch."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best fitness tracker for sleep tracking", intent: "transactional" },
+      { phrase: "fitness tracker vs smartwatch which is better", intent: "comparational" },
+      { phrase: "best fitness tracker with long battery life", intent: "transactional" },
+      { phrase: "Whoop vs Fitbit vs Garmin", intent: "comparational" },
+      { phrase: "best fitness tracker for beginners", intent: "transactional" },
+      { phrase: "fitness tracker without subscription", intent: "transactional" },
+      { phrase: "best tracker for heart rate and recovery", intent: "transactional" },
+      { phrase: "smart ring vs fitness tracker", intent: "comparational" },
+      { phrase: "best slim fitness tracker for women", intent: "transactional" },
+      { phrase: "best tracker for running without smartwatch bulk", intent: "transactional" },
+      { phrase: "how accurate are fitness tracker calories", intent: "informational" },
+      { phrase: "best fitness tracker under 150 dollars", intent: "transactional" },
+      { phrase: "Fitbit Premium worth it", intent: "informational" },
+      { phrase: "best fitness tracker for iPhone users", intent: "transactional" },
+      { phrase: "garmin vivosmart vs fitbit charge", intent: "comparational" },
+    ],
+    comparisons: [
+      { title: "Fitness Tracker vs Smartwatch", description: "Focused health tracking and battery life versus richer apps and notifications, so buyers can choose the right wearable style without overbuying.", queryPhrase: "fitness tracker vs smartwatch" },
+      { title: "Whoop vs Fitbit", description: "Subscription-driven recovery coaching versus mainstream screen-based tracking, with clear trade-offs in daily usability and long-term cost.", queryPhrase: "Whoop vs Fitbit" },
+      { title: "Garmin vs Fitbit", description: "Training depth and battery life versus simpler lifestyle tracking, which matters most for active buyers comparing the two biggest names.", queryPhrase: "Garmin vs Fitbit fitness tracker" },
+      { title: "Smart Ring vs Wrist Tracker", description: "Discrete passive recovery data versus richer workout stats and on-device feedback, for buyers deciding between rings and bands.", queryPhrase: "smart ring vs fitness tracker" },
+      { title: "Subscription vs No Subscription", description: "When premium coaching unlocks real value and when a tracker already includes enough insight without ongoing fees.", queryPhrase: "fitness tracker subscription worth it" },
+      { title: "Built-in GPS vs Connected GPS", description: "Phone-free run tracking versus lighter, cheaper designs that lean on your phone for location data.", queryPhrase: "built-in GPS vs connected GPS fitness tracker" },
+    ]
+  },
   "smart-watches": {
     clusterSlugs: ["wireless-earbuds", "smartphones", "noise-cancelling-headphones", "smart-locks", "video-doorbells"],
     useCaseBlocks: [
@@ -919,6 +1005,178 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Round vs Square Display", description: "Classic watch aesthetics vs more screen real estate for notifications — ergonomics and readability comparison.", queryPhrase: "round vs square smartwatch display" },
       { title: "AMOLED vs LCD Display", description: "Vibrant colors and deep blacks vs always-on visibility and battery — screen technology trade-offs.", queryPhrase: "AMOLED vs LCD smartwatch display" },
       { title: "Cellular vs GPS-Only", description: "Leave your phone behind with LTE vs save battery and money with Wi-Fi only — which connectivity model fits your routine?", queryPhrase: "cellular vs GPS-only smartwatch" },
+    ]
+  },
+  "over-ear-headphones": {
+    clusterSlugs: ["wireless-earbuds", "bluetooth-speakers", "noise-cancelling-headphones", "smart-watches", "smartphones"],
+    useCaseBlocks: [
+      {
+        title: "Best Over-Ear Headphones for Flights and Commuting",
+        description: "Comfortable wireless headphones with strong ANC, foldable designs, and reliable battery life for buyers who travel often.",
+        targetAudience: "Frequent travelers and commuters"
+      },
+      {
+        title: "Best Over-Ear Headphones for Office Focus and Calls",
+        description: "Headphones that balance call clarity, comfort, and enough isolation to make open offices and home distractions easier to manage.",
+        targetAudience: "Remote workers and hybrid professionals"
+      },
+      {
+        title: "Best Over-Ear Headphones for Sound Quality",
+        description: "Music-first wireless headphones that prioritize richer tuning, spacious sound, and long-session listening comfort.",
+        targetAudience: "Music-focused buyers"
+      },
+      {
+        title: "Best Over-Ear Headphones Under Premium Flagship Prices",
+        description: "Models that deliver most of the comfort and ANC benefits buyers want without forcing them into the very highest tier.",
+        targetAudience: "Value-conscious buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best over ear headphones for flights",
+      "over ear headphones vs earbuds for commuting",
+      "best wireless over ear headphones for work",
+      "Sony vs Bose over ear headphones",
+      "best headphones for long listening comfort",
+      "best over ear headphones with long battery life",
+      "best headphones for calls and zoom meetings",
+      "premium vs mid range over ear headphones",
+      "best headphones for Android phones",
+      "best foldable over ear headphones travel",
+      "how important is ANC on over ear headphones",
+      "best over ear headphones under 300 dollars"
+    ],
+    useCases: [
+      {
+        label: "Travel",
+        title: "Best Over-Ear Headphones for Flights and Commuting",
+        description: "Wireless ANC headphones with foldable designs, stable Bluetooth, and enough comfort to wear for hours in planes, trains, and shared offices."
+      },
+      {
+        label: "Work and Calls",
+        title: "Best Over-Ear Headphones for Office Focus and Calls",
+        description: "Comfortable over-ear models that reduce distraction and handle laptop-to-phone switching well for remote work and hybrid schedules."
+      },
+      {
+        label: "Sound Quality",
+        title: "Best Over-Ear Headphones for Sound Quality",
+        description: "Headphones for buyers who care as much about tuning, detail, and immersive listening as they do about convenience features."
+      },
+      {
+        label: "Value",
+        title: "Best Over-Ear Headphones Under Premium Flagship Prices",
+        description: "The smartest picks for buyers who want strong wireless performance, useful ANC, and comfort without going straight to the most expensive badges."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best over ear headphones for flights", intent: "transactional" },
+      { phrase: "over ear headphones vs earbuds for commuting", intent: "comparational" },
+      { phrase: "best wireless over ear headphones for work", intent: "transactional" },
+      { phrase: "Sony vs Bose over ear headphones", intent: "comparational" },
+      { phrase: "best headphones for long listening comfort", intent: "transactional" },
+      { phrase: "best over ear headphones with long battery life", intent: "transactional" },
+      { phrase: "best headphones for calls and zoom meetings", intent: "transactional" },
+      { phrase: "premium vs mid range over ear headphones", intent: "comparational" },
+      { phrase: "best headphones for Android phones", intent: "transactional" },
+      { phrase: "best foldable over ear headphones travel", intent: "transactional" },
+      { phrase: "how important is ANC on over ear headphones", intent: "informational" },
+      { phrase: "best over ear headphones under 300 dollars", intent: "transactional" },
+      { phrase: "AirPods Max vs Sony headphones", intent: "comparational" },
+      { phrase: "best headphones for home office focus", intent: "transactional" },
+      { phrase: "wired vs wireless over ear headphones", intent: "comparational" },
+    ],
+    comparisons: [
+      { title: "Over-Ear Headphones vs Earbuds", description: "Larger drivers, longer comfort, and stronger isolation versus pocketable portability and gym convenience for daily listening buyers.", queryPhrase: "over ear headphones vs earbuds" },
+      { title: "Sony vs Bose", description: "Feature-rich tuning and battery life versus comfort-first ANC, the classic premium travel-headphone comparison.", queryPhrase: "Sony vs Bose over ear headphones" },
+      { title: "AirPods Max vs Sony", description: "Apple ecosystem polish and premium materials versus lighter comfort, better battery life, and broader cross-platform value.", queryPhrase: "AirPods Max vs Sony headphones" },
+      { title: "Premium vs Mid-Range", description: "What extra money really buys in comfort, ANC, call quality, and materials when shopping wireless over-ear headphones.", queryPhrase: "premium vs mid range over ear headphones" },
+      { title: "Wired vs Wireless", description: "Convenience and ANC versus simpler longevity and zero-charge listening, for buyers debating their core use case.", queryPhrase: "wired vs wireless over ear headphones" },
+      { title: "Travel Headphones vs Home Headphones", description: "Foldable ANC portability versus comfort and sound tuning optimized for desk or couch listening.", queryPhrase: "travel headphones vs home headphones" },
+    ]
+  },
+  "bluetooth-speakers": {
+    clusterSlugs: ["over-ear-headphones", "wireless-earbuds", "smartphones", "smart-watches", "fitness-trackers"],
+    useCaseBlocks: [
+      {
+        title: "Best Bluetooth Speakers for Travel and Everyday Carry",
+        description: "Compact speakers with useful battery life, splash resistance, and enough sound quality to justify carrying them regularly.",
+        targetAudience: "Travelers and casual portable-audio buyers"
+      },
+      {
+        title: "Best Bluetooth Speakers for Backyard and Pool Use",
+        description: "Rugged waterproof speakers that get loud enough for outdoor listening without becoming huge party bricks.",
+        targetAudience: "Outdoor and summer-use buyers"
+      },
+      {
+        title: "Best Bluetooth Speakers for Home and Portable Hybrid Use",
+        description: "Speakers that sound good enough to live on a shelf at home but still make sense to move around the house or take away for the weekend.",
+        targetAudience: "Buyers who want one do-it-all speaker"
+      },
+      {
+        title: "Best Bluetooth Speakers for Value Under Premium Prices",
+        description: "Portable speakers that deliver strong sound and practical durability without charging flagship-speaker money.",
+        targetAudience: "Budget-conscious buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best bluetooth speaker for travel",
+      "best waterproof bluetooth speaker for pool",
+      "JBL vs Bose bluetooth speaker",
+      "best bluetooth speaker with long battery life",
+      "small speaker with big sound",
+      "best portable speaker for backyard party",
+      "bluetooth speaker vs smart speaker",
+      "best speaker under 150 dollars",
+      "speaker for beach and camping",
+      "best bluetooth speaker for sound quality",
+      "stereo pair bluetooth speakers worth it",
+      "best speaker for kitchen and patio"
+    ],
+    useCases: [
+      {
+        label: "Travel",
+        title: "Best Bluetooth Speakers for Travel and Everyday Carry",
+        description: "Portable speakers that strike the best balance between bag-friendly size, battery life, toughness, and enough volume for hotel rooms, parks, and kitchens."
+      },
+      {
+        label: "Outdoor Use",
+        title: "Best Bluetooth Speakers for Backyard and Pool Use",
+        description: "Waterproof and dust-resistant speakers that survive patios, beaches, and pool days while still sounding fun and full outdoors."
+      },
+      {
+        label: "Home and Portable",
+        title: "Best Bluetooth Speakers for Home and Portable Hybrid Use",
+        description: "One-speaker solutions for buyers who want easy room-to-room flexibility without giving up too much sound quality."
+      },
+      {
+        label: "Value",
+        title: "Best Bluetooth Speakers for Value Under Premium Prices",
+        description: "The smartest speaker buys for people who want very good sound and durability without paying luxury-brand premiums."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best bluetooth speaker for travel", intent: "transactional" },
+      { phrase: "best waterproof bluetooth speaker for pool", intent: "transactional" },
+      { phrase: "JBL vs Bose bluetooth speaker", intent: "comparational" },
+      { phrase: "best bluetooth speaker with long battery life", intent: "transactional" },
+      { phrase: "small speaker with big sound", intent: "transactional" },
+      { phrase: "best portable speaker for backyard party", intent: "transactional" },
+      { phrase: "bluetooth speaker vs smart speaker", intent: "comparational" },
+      { phrase: "best speaker under 150 dollars", intent: "transactional" },
+      { phrase: "speaker for beach and camping", intent: "transactional" },
+      { phrase: "best bluetooth speaker for sound quality", intent: "transactional" },
+      { phrase: "stereo pair bluetooth speakers worth it", intent: "informational" },
+      { phrase: "best speaker for kitchen and patio", intent: "transactional" },
+      { phrase: "Bose SoundLink Max vs JBL Charge", intent: "comparational" },
+      { phrase: "portable speaker battery bank feature useful", intent: "informational" },
+      { phrase: "best compact speaker for hotel room", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "JBL vs Bose Bluetooth Speakers", description: "Durability and value versus richer premium tuning, one of the most common portable-speaker trade-offs for mainstream buyers.", queryPhrase: "JBL vs Bose bluetooth speaker" },
+      { title: "Bluetooth Speaker vs Smart Speaker", description: "Portable battery power and outdoor flexibility versus voice assistants and room-first convenience for home listening.", queryPhrase: "bluetooth speaker vs smart speaker" },
+      { title: "Small Speaker vs Large Portable Speaker", description: "Bag-friendly portability versus louder output and fuller bass, which matters most for your actual listening habits.", queryPhrase: "small vs large portable bluetooth speaker" },
+      { title: "Premium vs Budget Portable Speaker", description: "When extra money buys better sound, build quality, and app support and when cheaper speakers already cover the essentials.", queryPhrase: "premium vs budget bluetooth speaker" },
+      { title: "Mono vs Stereo Pair", description: "One speaker simplicity versus wider sound and more room-filling playback for buyers thinking about pairing two speakers.", queryPhrase: "mono vs stereo pair bluetooth speakers" },
+      { title: "Pool Speaker vs Party Speaker", description: "Rugged floatable portability versus max-volume crowd power, which speaker style fits your weekends better.", queryPhrase: "pool speaker vs party speaker" },
     ]
   },
   "standing-desks": {

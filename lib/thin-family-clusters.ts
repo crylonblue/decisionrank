@@ -21,8 +21,8 @@ export const THIN_FAMILY_CLUSTERS: ThinFamilyClusterConfig[] = [
     id: 'wearable-tech-audio',
     title: 'Wearable Tech & Audio',
     intro:
-      'Wearable and personal-audio buyers usually compare comfort, battery life, ecosystem fit, and how reliably a device stays useful across workouts, commutes, and daily notifications. This family is still compact on DecisionRank, so these links group the core smartwatch and earbud guides together with adjacent buyer paths to make the cluster easier to crawl and easier to browse.',
-    categorySlugs: ['smart-watches', 'wireless-earbuds'],
+      'Wearable and personal-audio buyers usually compare comfort, battery life, ecosystem fit, and how reliably a device stays useful across workouts, commutes, travel, workouts, and daily notifications. This family now covers wrist-based trackers, compact earbuds, bigger over-ear listening options, and portable speakers so the cluster is easier to crawl and genuinely more useful to browse as one connected buyer journey.',
+    categorySlugs: ['smart-watches', 'fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'],
   },
   {
     id: 'kitchen-cooking',
