@@ -55,9 +55,9 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   },
   {
     id: 'travel-mobility',
-    title: 'Travel & Mobility',
-    description: 'Move smartly with the best personal transportation devices and travel gear for commuting, exploring, and getting around efficiently. From electric scooters to luggage with smart features, we assess portability, durability, and real-world performance. If you\'re a frequent traveler or urban commuter, our guides help you find gear that simplifies the journey and survives the road.',
-    categorySlugs: ['transportation', 'travel-gear'],
+    title: 'Travel-Friendly Work & Mobile Gear',
+    description: 'Build a travel-ready setup with portable monitors, docking stations, laptop stands, USB-C hubs, and external SSDs that make mobile work easier without turning your bag into a brick. We focus on single-cable convenience, packability, port selection, durability, and how well each product handles hotel desks, hot desks, client sites, and hybrid commutes. If you work from multiple locations, these rankings help you choose gear that travels well and still feels dependable when it is time to get real work done.',
+    categorySlugs: ['portable-monitors', 'docking-stations', 'laptop-stands', 'usb-c-hubs', 'external-ssds'],
   },
   {
     id: 'portable-creator-workstation',

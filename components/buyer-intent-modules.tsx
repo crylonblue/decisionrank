@@ -24,7 +24,7 @@ export function BuyerIntentModules({ categories, rankingCounts }: BuyerIntentMod
           .map(slug => categoryMap.get(slug))
           .filter((c): c is Category => !!c);
 
-        if (moduleCategories.length === 0) return null;
+        if (moduleCategories.length < 2) return null;
 
         return (
           <section key={module.id} className="py-16 sm:py-20">

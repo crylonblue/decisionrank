@@ -85,5 +85,5 @@ export function buildThinFamilyClusterSections(categories: Category[]): ThinFami
       buyerSearchLinks,
       relatedCategories,
     };
-  }).filter((cluster) => cluster.categories.length > 0);
+  }).filter((cluster) => cluster.categories.length >= 2);
 }
