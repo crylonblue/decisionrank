@@ -87,7 +87,7 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
   // Fetch categories for the landing page (when no search)
   const allCategories = searchQuery ? [] : await getAllCategories();
   const rankingCounts = searchQuery ? {} : await getRankingCountsByCategory();
-  const thinFamilyClusters = searchQuery ? [] : buildThinFamilyClusterSections(allCategories);
+  const thinFamilyClusters = searchQuery ? [] : buildThinFamilyClusterSections(allCategories, rankingCounts);
   // Sort by created_at descending to prioritize newer categories for better SEO link equity distribution
   const sortedCategories = searchQuery ? [] : [...allCategories].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
   const categories = sortedCategories.slice(0, 6);

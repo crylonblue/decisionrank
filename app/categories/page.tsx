@@ -56,7 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function CategoriesPage() {
   const categories = await getAllCategories();
   const rankingCounts = await getRankingCountsByCategory();
-  const thinFamilyClusters = buildThinFamilyClusterSections(categories);
+  const thinFamilyClusters = buildThinFamilyClusterSections(categories, rankingCounts);
   const baseUrl = getBaseUrl();
   const breadcrumbJsonLd = generateBreadcrumbJsonLd([
     { name: 'Home', url: `${baseUrl}/` },
@@ -145,7 +145,7 @@ export default async function CategoriesPage() {
             clusters={thinFamilyClusters}
             rankingCounts={rankingCounts}
             title="Browse Category Families with Buyer Intent Context"
-            description="These family spotlights add descriptive intros, grouped category browsing, and long-tail buyer paths for the thinnest clusters on DecisionRank."
+            description="These family spotlights add stronger family intros, grouped browse cards for seeded categories, and clearer internal-link paths for the thinner wearable/audio and kitchen clusters."
           />
 
           {/* Categories Grid */}

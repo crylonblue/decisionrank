@@ -109,7 +109,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   // Fetch all categories and ranking counts for internal linking
   const allCategories = await getAllCategories();
   const rankingCounts = await getRankingCountsByCategory();
-  const thinFamilyClusters = buildThinFamilyClusterSections(allCategories).filter((cluster) =>
+  const thinFamilyClusters = buildThinFamilyClusterSections(allCategories, rankingCounts).filter((cluster) =>
     cluster.categorySlugs.includes(categorySlug)
   );
 
@@ -334,7 +334,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           rankingCounts={rankingCounts}
           currentCategorySlug={categorySlug}
           title={`More ${category.name} buyer paths`}
-          description="This family spotlight adds richer cluster context, grouped browsing, and related buyer-intent links without creating a thin standalone hub page."
+          description="This family spotlight adds stronger family context, grouped browse cards, and related buyer-intent links without creating a thin standalone hub page."
         />
 
         {/* Cluster-based navigation for adjacent-category discovery */}
