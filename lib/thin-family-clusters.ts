@@ -21,14 +21,14 @@ export const THIN_FAMILY_CLUSTERS: ThinFamilyClusterConfig[] = [
     id: 'wearable-tech-audio',
     title: 'Wearable Tech & Audio',
     intro:
-      'Wearable and personal-audio buyers usually compare comfort, battery life, ecosystem fit, and how reliably a device stays useful across workouts, commutes, travel, workouts, and daily notifications. This family now covers wrist-based trackers, compact earbuds, bigger over-ear listening options, and portable speakers so the cluster is easier to crawl and genuinely more useful to browse as one connected buyer journey.',
+      'Find the best wearable tech and audio gear for your life. Our expert rankings compare smartwatches, fitness trackers, wireless earbuds, over-ear headphones, and Bluetooth speakers on comfort, battery life, sound quality, ecosystem integration, and durability. Whether you\'re working out, commuting, traveling, or just enjoying music at home, discover which devices deliver the most value for your needs.',
     categorySlugs: ['smart-watches', 'fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'],
   },
   {
     id: 'kitchen-cooking',
     title: 'Kitchen & Cooking Essentials',
     intro:
-      'Kitchen buyers rarely shop one appliance in isolation. They compare countertop footprint, cleanup, speed, consistency, and whether a device actually improves the daily cooking routine. Grouping the strongest kitchen categories together gives air fryers, coffee makers, and espresso machines more shared context and more internal-link support from high-authority discovery pages.',
+      'Equip your kitchen with appliances that make cooking easier and more enjoyable. We\'ve tested and ranked the best air fryers, coffee makers, and espresso machines to help you choose based on performance, ease of use, cleanup, and value. From healthy fried alternatives to café-quality coffee at home, find the right tool for every culinary task.',
     categorySlugs: ['air-fryers', 'coffee-makers', 'espresso-machines'],
   },
   {
@@ -49,13 +49,18 @@ const uniqueBySlug = (categories: Category[]) => {
   });
 };
 
-export function buildThinFamilyClusterSections(categories: Category[]): ThinFamilyClusterSection[] {
+export function buildThinFamilyClusterSections(categories: Category[], rankingCounts?: Record<string, number>): ThinFamilyClusterSection[] {
   const categoryMap = new Map(categories.map((category) => [category.slug, category]));
 
   return THIN_FAMILY_CLUSTERS.map((cluster) => {
     const clusterCategories = cluster.categorySlugs
       .map((slug) => categoryMap.get(slug))
-      .filter((category): category is Category => !!category);
+      .filter((category): category is Category => {
+        if (!category) return false;
+        if (rankingCounts && !(category.id in rankingCounts)) return false;
+        if (rankingCounts && (rankingCounts[category.id] || 0) <= 0) return false;
+        return true;
+      });
 
     const buyerSearchLinks = cluster.categorySlugs.flatMap((slug) => {
       const data = getCategoryUseCaseData(slug);

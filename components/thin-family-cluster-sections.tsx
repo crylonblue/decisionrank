@@ -65,7 +65,7 @@ export function ThinFamilyClusterSections({
 
                 <div className="mt-6 grid gap-5 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]">
                   <div>
-                    <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-600">Browse this family</h4>
+                    <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-600">Explore this family</h4>
                     <div className="mt-3 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                       {cluster.categories.map((category) => {
                         const count = rankingCounts[category.id] || 0;
@@ -86,7 +86,7 @@ export function ThinFamilyClusterSections({
                               </CardHeader>
                               <CardContent>
                                 <div className="flex items-center text-sm font-medium text-slate-600 group-hover:gap-2 transition-all">
-                                  Compare the best {category.name} rankings
+                                  See our top-rated {category.name} picks
                                   <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </div>
                               </CardContent>
@@ -132,7 +132,7 @@ export function ThinFamilyClusterSections({
                               href={`/${category.slug}`}
                               className="rounded-full border border-border bg-muted/40 px-3 py-2 text-xs font-medium text-slate-700 transition-colors hover:border-slate-400/50 hover:bg-background"
                             >
-                              Explore {category.name}
+                              View {category.name} rankings
                             </Link>
                           ))}
                         </div>

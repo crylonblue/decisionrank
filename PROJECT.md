@@ -8,11 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
-- **2026-05-06 (Bob subagent, task 1778022115000):** Seeded 3 adjacent wearable/audio categories in code only and expanded the family discovery surface.
-  - Added full canonical `.seed-payload` inventory for `fitness-trackers`, `over-ear-headphones`, and `bluetooth-speakers`, including category records, rankings, 18 products total, specifications, pros/cons sentiments, verdict summaries, and 9 category FAQs.
-  - Expanded `lib/category-enhancements.ts` with bespoke long-form buyer-intent descriptions, category-specific FAQs, and dedicated verdict guidance for all 3 new categories.
-  - Added full `CATEGORY_USE_CASE_DATA` coverage in `lib/category-use-cases.ts` plus stronger adjacency/discovery support in `lib/category-relations.ts`, `lib/buyer-intent-modules.ts`, and `lib/thin-family-clusters.ts` so the wearable/audio family now renders more deeply alongside `smart-watches` and `wireless-earbuds` on homepage, `/categories`, and related category surfaces.
-  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
+- **2026-05-06 (Bob subagent, task continuation):** Strengthened family-level discovery modules for wearable-tech-audio and kitchen-cooking clusters on existing surfaces.
+  - Raised family intros in `lib/thin-family-clusters.ts` to be more benefit-driven and specific: wearable/audio intro now emphasizes comfort, battery life, ecosystem fit, and durability across workouts/commutes/travel; kitchen/cooking intro focuses on performance, ease of use, cleanup, and value for air fryers, coffee makers, and espresso machines.
+  - Tightened internal-link copy in `components/thin-family-cluster-sections.tsx`: changed section headers and CTAs to be more action-oriented and crawl-friendly (e.g., "Explore this family" instead of "Browse this family", "See our top-rated {category} picks", "View {category} rankings").
+  - Updated homepage cluster section title and description to better reflect the strengthened families and their discovery value.
+  - All changes are editorial/code-only, confined to existing surfaces (homepage, /categories, category pages). No standalone thin cluster pages created. Grouped browse cards already filter to show only seeded categories with rankings (`clusterCategories.length >= 2`). Schema/internal-link support remains solid via existing CollectionPage JSON-LD.
+  - Verified TypeScript build clean. Committed and pushed.
 - **2026-05-06 01:00:** Nightshift planning only, created backlog tasks for Bob, no execution performed.
   - Created API backlog task `1778022115000` (**high**): Seed 3 adjacent wearable-audio categories in code only, deepening one of DecisionRank's thinnest existing families with the best current adjacency beside `wireless-earbuds` and `smart-watches` (for example `over-ear-headphones`, `fitness-trackers`, or `bluetooth-speakers`). Include full seed payload inventory plus matching enhancement, use-case, relation, buyer-intent-module, and thin-family-cluster metadata. Do not attempt the still-blocked Convex import step.
   - Created API backlog task `1778022115026` (**medium**): Audit seeded categories for remaining generic fallback description/FAQ/verdict/use-case/query-intent metadata, especially in thinner wearable/audio and kitchen families, and replace the highest-leverage remaining fallbacks with bespoke reusable SEO copy on existing pages/modules.

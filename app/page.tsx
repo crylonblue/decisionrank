@@ -327,8 +327,8 @@ export default async function RankingsPage({ searchParams }: RankingsPageProps) 
         <ThinFamilyClusterSections
           clusters={thinFamilyClusters}
           rankingCounts={rankingCounts}
-          title="Category Families Worth Exploring Next"
-          description="These underlinked families now get richer intros, browse blocks, and buyer-search paths directly on the homepage so newer category hubs have stronger internal-link coverage."
+          title="Product Families Worth Exploring"
+          description="We've strengthened these category families with richer intros, grouped browse blocks, and better internal links to help you discover the right gear faster. Explore wearable tech, audio, and kitchen essentials in one connected buyer journey."
         />
 
         {/* Categories Section */}
