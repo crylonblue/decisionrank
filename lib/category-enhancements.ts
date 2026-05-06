@@ -195,6 +195,20 @@ export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: str
       answer: "Only if you actively use the extra coaching, recovery scores, or long-term analytics. Some buyers get real value from deeper guidance, but many are better off with a tracker that includes enough insight upfront and avoids another monthly bill."
     }
   ],
+  "smart-watches": [
+    {
+      question: "Should I buy a smartwatch or a fitness tracker?",
+      answer: "Buy a smartwatch if notifications, calls, payments, maps, and app support matter as much as health data. Buy a fitness tracker if you mainly want sleep, recovery, steps, and workouts with less charging and less wrist distraction. Many buyers overpay for smartwatch features they barely use, so be honest about whether you want a mini phone on your wrist or a simpler health tool."
+    },
+    {
+      question: "How much battery life is actually good for a smartwatch?",
+      answer: "For app-heavy smartwatches like Apple Watch or Wear OS models, roughly one to two days is normal. Once you move into Garmin-style or hybrid territory, five days to two weeks becomes realistic. The real question is whether the charging routine annoys you enough to stop wearing the watch overnight, because that directly hurts sleep and recovery tracking."
+    },
+    {
+      question: "Is a smartwatch worth it if I already carry my phone everywhere?",
+      answer: "Often yes, but mostly for convenience rather than necessity. Smartwatches are most useful when quick glances, workout tracking, payments, timers, and phone-free moments save friction during the day. If you do not care about fitness, notifications, or leaving your phone in a pocket or bag, a smartwatch may feel redundant rather than essential."
+    }
+  ],
   "wireless-earbuds": [
     {
       question: "Are wireless earbuds good for exercising?",
@@ -385,6 +399,20 @@ export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: str
     {
       question: "Do expensive over-ear headphones really sound better?",
       answer: "Sometimes, but not always in proportion to the price jump. Premium models often improve comfort, materials, app polish, call quality, and ANC just as much as pure sound. Many buyers are happiest when they shop for the best overall daily experience instead of chasing tiny audio gains alone."
+    }
+  ],
+  "bluetooth-speakers": [
+    {
+      question: "How loud does a Bluetooth speaker really need to be?",
+      answer: "Less than many buyers think. For kitchens, hotel rooms, desks, and casual patio use, balanced sound at low and medium volume matters more than headline loudness. Only buyers planning for outdoor groups or noisy environments should prioritize bigger drivers and higher output over portability."
+    },
+    {
+      question: "Is it worth paying more for a waterproof Bluetooth speaker?",
+      answer: "Usually yes if the speaker will leave the house often. Better water and dust resistance adds peace of mind for kitchens, bathrooms, patios, beaches, and travel, even if you never fully submerge it. For a speaker that mostly stays on a shelf indoors, sound quality and charging convenience may matter more than ruggedness."
+    },
+    {
+      question: "Should I buy one larger Bluetooth speaker or two smaller ones for stereo pairing?",
+      answer: "One larger speaker is usually the simpler and smarter buy if you mainly want better bass, fuller sound, and less setup hassle. Two smaller speakers can create a wider stereo image, but only if you actually use them together often and do not mind charging and carrying two devices. Most casual buyers get more value from one good speaker than from managing a pair."
     }
   ],
   "noise-cancelling-headphones": [
@@ -666,7 +694,9 @@ export const CATEGORY_FAQS: Record<string, Array<{ question: string; answer: str
 };
 
 export const CATEGORY_VERDICT_GUIDANCE: Record<string, string> = {
+  "air-fryers": "The best air fryer is the one that fits how you actually cook, not the one with the most presets. Capacity, even cooking, cleanup, and countertop practicality usually matter more than flashy marketing about extra functions. Small households should avoid oversized basket monsters they will never fill, while families often regret buying too small and cooking in frustrating batches.",
   "air-purifiers": "The best air purifier is the one that is correctly sized for your room, quiet enough to run consistently, and affordable to maintain with replacement filters. Strong CADR, credible HEPA filtration, and sensible long-term costs matter more than flashy extras. Buyers with allergies, pets, or smoke concerns should prioritize clean-air performance first, then decide whether smart controls and premium design are actually worth the added cost.",
+  "coffee-makers": "The best coffee maker depends on how you actually drink coffee on normal mornings, not on aspirational weekend habits. Buyers who want speed and consistency should prioritize brew reliability, thermal retention, and cleanup ease, while enthusiasts may care more about grinder quality, brew control, and flavor clarity. In this category, workflow fit usually matters more than raw feature count.",
   "fitness-trackers": "The best fitness tracker is usually the one you will actually keep wearing, charging, and paying attention to. Long battery life, comfort, and clear health insights often matter more than flashy extras. Buyers who mainly want sleep, recovery, and daily activity data should resist overbuying smartwatch features they will barely use, while athletes should weigh GPS depth and coaching quality more carefully.",
   "smart-watches": "The best smartwatch depends on whether you care more about smart features or training depth. iPhone users usually get the best overall experience from Apple Watch, Android users should compare Samsung and Google first, and serious athletes often get more value from Garmin-style battery life and fitness tools than from extra apps. In this category, ecosystem fit and charging tolerance matter just as much as sensors and screen quality.",
   "wireless-earbuds": "The best wireless earbuds are the pair you will actually enjoy wearing for hours, not just the ones with the fanciest ANC headline. Fit, comfort, and call quality often matter more day to day than tiny sound-quality differences. iPhone users can justify paying for seamless AirPods convenience, while Android buyers often get better codec support and value elsewhere, so the smartest verdict balances sound, noise cancellation, ecosystem fit, and real-world comfort.",

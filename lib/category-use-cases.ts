@@ -242,9 +242,9 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
         targetAudience: "Busy households that need quick coffee"
       },
       {
-        title: "Best Espresso Machines Under $500",
-        description: "Semi-automatic machines that pull cafe-quality shots without the professional price tag. Ideal for espresso lovers who want to master the craft at home.",
-        targetAudience: "Home baristas shopping for espresso value"
+        title: "Best Coffee Makers with Built-In Grinders",
+        description: "Bean-to-brew drip machines and grind-and-brew models that improve freshness without adding a separate grinder to the morning routine.",
+        targetAudience: "Fresh-bean buyers who want more flavor with low extra effort"
       },
       {
         title: "Best Single-Serve Coffee Makers",
@@ -278,9 +278,9 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
         description: "Fast brew times under 5 minutes, programmable timers, and thermal carafes that keep coffee hot without a hot plate. Built for busy mornings."
       },
       {
-        label: "Espresso Home Barista",
-        title: "Best Espresso Machines Under $500",
-        description: "Semi-automatic machines that pull cafe-quality shots without the professional price tag. Ideal for espresso lovers who want to master the craft at home."
+        label: "Built-In Grinder",
+        title: "Best Coffee Makers with Built-In Grinders",
+        description: "Coffee makers that deliver fresher flavor and better aroma by grinding beans right before brewing, without making the workflow overly fussy."
       },
       {
         label: "Single Serve",
@@ -296,7 +296,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     queryIntents: [
       { phrase: "best coffee maker for morning routine", intent: "transactional" },
       { phrase: "drip coffee maker vs espresso machine", intent: "comparational" },
-      { phrase: "best espresso machine under $500", intent: "transactional" },
+      { phrase: "best coffee maker with built in grinder", intent: "transactional" },
       { phrase: "single serve coffee maker for office", intent: "transactional" },
       { phrase: "how to make cold brew coffee at home", intent: "informational" },
       { phrase: "coffee maker thermal carafe vs glass", intent: "comparational" },
@@ -987,7 +987,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { phrase: "best smartwatch for iPhone users", intent: "transactional" },
       { phrase: "how long does smartwatch battery last", intent: "informational" },
       { phrase: "rugged smartwatch for hiking", intent: "transactional" },
-      { phrase: "血氧和心率监测 智能手表推荐", intent: "transactional" },
+      { phrase: "best smartwatch with blood oxygen and heart rate tracking", intent: "transactional" },
       { phrase: "best lightweight smartwatch for women", intent: "transactional" },
       { phrase: "sleep tracking smartwatch accuracy", intent: "informational" },
       { phrase: "Wear OS vs Apple Watch", intent: "comparational" },

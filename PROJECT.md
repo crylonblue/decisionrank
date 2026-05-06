@@ -8,6 +8,12 @@ Editorial product ranking/comparison site with category landing pages, detail pa
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-05-06 (Bob subagent, task 1778022115026):** Replaced remaining high-leverage generic SEO fallbacks across wearable/audio and kitchen seeded categories.
+  - Added bespoke category-specific FAQ coverage in `lib/category-enhancements.ts` for `smart-watches` and `bluetooth-speakers`, removing those category hubs from the generic FAQ fallback path.
+  - Added dedicated verdict-guidance entries for `air-fryers` and `coffee-makers`, so kitchen hubs now have reusable buyer-intent summary copy instead of falling back to generic verdict framing.
+  - Tightened `coffee-makers` use-case metadata in `lib/category-use-cases.ts` by replacing the off-target espresso-focused block with coffee-maker-specific built-in-grinder intent coverage.
+  - Replaced the stray non-English `smart-watches` query-intent phrase with an English buyer-intent query better aligned to the category surface.
+  - Scope stayed on existing homepage, `/categories`, and category-hub modules only. No Convex import attempted.
 - **2026-05-06 (Bob subagent, task continuation):** Strengthened family-level discovery modules for wearable-tech-audio and kitchen-cooking clusters on existing surfaces.
   - Raised family intros in `lib/thin-family-clusters.ts` to be more benefit-driven and specific: wearable/audio intro now emphasizes comfort, battery life, ecosystem fit, and durability across workouts/commutes/travel; kitchen/cooking intro focuses on performance, ease of use, cleanup, and value for air fryers, coffee makers, and espresso machines.
   - Tightened internal-link copy in `components/thin-family-cluster-sections.tsx`: changed section headers and CTAs to be more action-oriented and crawl-friendly (e.g., "Explore this family" instead of "Browse this family", "See our top-rated {category} picks", "View {category} rankings").
