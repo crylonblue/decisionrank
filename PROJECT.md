@@ -3,11 +3,36 @@
 ## What Is This
 Editorial product ranking/comparison site with category landing pages, detail pages, and quick search.
 
+## Monitoring: Indexing Status for New Categories (task 1778099383710)
+- **2026-06-11 (Bob):** Indexing monitoring completed.
+  - Checked live sitemap at https://www.decisionrank.com/sitemap.xml
+  - New categories added in recent code seed (smart-rings, open-ear-headphones, sleep-trackers, cloud-hosting, issue-tracking, project-management, smart-watches, wireless-earbuds, air-purifiers, espresso-machines, mattresses) are NOT present in the live sitemap.
+  - Live sitemap shows only 13 top-level category URLs: audio-headphones, automotive, electronics, fitness, gaming, home-kitchen, office, outdoor, personal-care, photography, transportation, travel-gear.
+  - **Root cause:** The new categories exist in code seed (`scripts/.seed-payload.json`) but have NOT been imported into the live Convex database. All recent seeding work has been "code-only, no Convex import attempted" per earlier task notes.
+  - **Status:** Until the Convex import step is unblocked, these new categories will not appear in the sitemap or become indexed.
+  - **Action needed:** Convex import pipeline must be restored to seed new categories into the live database.
+
 ## Status
 - **Convex migration: COMPLETE** ✅ (Supabase fully removed)
 - Stack: Next.js 16, React 19, Tailwind, Convex
 
 ## Recent Updates
+- **2026-06-11 (Bob, task 1778099383643):** Refreshed 3 thin DecisionRank category pages with richer content.
+  - Identified thin category descriptions (under 100 chars, generic 1-2 sentence entries) by cross-referencing seed data descriptions against `ENHANCED_CATEGORY_DESCRIPTIONS` map in `lib/category-enhancements.ts`.
+  - Replaced thin entries for `audio-headphones`, `automotive`, and `electronics` with multi-paragraph rich content matching the depth of richer entries like `e-commerce` and `robot-vacuums`.
+  - New entries include: specific testing methodology, buyer decision factors, use-case guidance, and category-specific details.
+  - Git committed and pushed to main.
+- **2026-05-09 (Bob subagent, tasks 1778099383557 & 1778099383599):** Completed desk-ergonomics category expansion and SEO enhancements (code-only, Convex import blocked).
+  - Verified existing seed data for `monitor-arms`, `laptop-stands`, and `desk-cable-management` was already complete with full rankings, products, specs, pros/cons, and FAQs in `scripts/.seed-payload.json`.
+  - Confirmed bespoke category enhancements present in `lib/category-enhancements.ts`: long-form buyer-intent descriptions, category-specific FAQs, and verdict guidance for all 3 categories.
+  - Confirmed full `CATEGORY_USE_CASE_DATA` coverage in `lib/category-use-cases.ts` with explicit cluster adjacency, use-case blocks, and query-intent phrases.
+  - These categories already integrate with discovery modules and thin-family clusters (desk-ergonomics cluster alongside `desk-lamps`, `standing-desks`).
+  - Verified with `npx tsc --noEmit`. Editorial/code-only validation; no Convex import attempted.
+- **2026-05-06 (Bob subagent, task 1778022115000):** Seeded 3 new adjacent wearable/audio categories in code only.
+  - Added full canonical `.seed-payload` inventory for `smart-rings`, `open-ear-headphones`, and `sleep-trackers`, including category records, rankings, 18 products total, specifications, pros/cons sentiments, verdict summaries, and 15 ranking FAQs.
+  - Expanded `lib/category-enhancements.ts` with bespoke long-form buyer-intent descriptions, category-specific FAQs, and dedicated verdict guidance for all 3 new categories.
+  - Added full `CATEGORY_USE_CASE_DATA` coverage in `lib/category-use-cases.ts` and extended `lib/category-relations.ts`, `lib/buyer-intent-modules.ts`, and `lib/thin-family-clusters.ts` so the wearable/audio family now links through sleep, recovery, awareness-audio, and personal-audio adjacency more coherently.
+  - Verified with `npx tsc --noEmit`. Editorial/code-only task, no Convex import attempted.
 - **2026-05-06 (Bob subagent, task 1778022115034):** Strengthened wearable/audio and kitchen family discovery modules on existing DecisionRank surfaces only.
   - Expanded `lib/thin-family-clusters.ts` with stronger family intros plus reusable grouped browse-card definitions for wearable/audio and kitchen families, while filtering the rendered groups down to valid seeded categories with rankings only.
   - Updated `components/thin-family-cluster-sections.tsx` to render those grouped browse cards and tightened internal-link copy across family cards and adjacent-category links so the homepage, `/categories`, and relevant category pages read more like connected buyer journeys.

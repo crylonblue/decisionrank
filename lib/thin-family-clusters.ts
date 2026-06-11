@@ -34,20 +34,20 @@ export const THIN_FAMILY_CLUSTERS: ThinFamilyClusterConfig[] = [
     id: 'wearable-tech-audio',
     title: 'Wearable Tech & Audio',
     intro:
-      'Wearable and personal-audio shoppers usually compare portability, fit, battery life, comfort, and everyday usefulness across commuting, workouts, calls, and casual listening. This family groups the seeded smartwatch, fitness-tracker, earbuds, headphone, and speaker categories into one stronger browse surface so buyers and crawlers can move across the full decision journey without hitting thin dead ends.',
-    categorySlugs: ['smart-watches', 'fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'],
+      'Wearable and personal-audio shoppers usually compare portability, overnight comfort, battery life, fit, awareness, and everyday usefulness across sleep, recovery, workouts, calls, commuting, and casual listening. This family groups the seeded smartwatch, tracker, smart-ring, earbud, headphone, and speaker categories into one stronger browse surface so buyers and crawlers can move across the full decision journey without hitting thin dead ends.',
+    categorySlugs: ['smart-watches', 'fitness-trackers', 'sleep-trackers', 'smart-rings', 'wireless-earbuds', 'open-ear-headphones', 'over-ear-headphones', 'bluetooth-speakers'],
     browseGroups: [
       {
         id: 'wearables',
-        title: 'Track health, workouts, and daily notifications',
-        intro: 'Start with wrist-based categories when the buyer journey is about wellness data, training, recovery, and all-day convenience.',
-        categorySlugs: ['smart-watches', 'fitness-trackers'],
+        title: 'Track health, recovery, and daily readiness',
+        intro: 'Start here when the buyer journey is about wellness data, sleep quality, training load, recovery, and low-friction all-day wear.',
+        categorySlugs: ['smart-watches', 'fitness-trackers', 'sleep-trackers', 'smart-rings'],
       },
       {
         id: 'personal-audio',
         title: 'Choose the right audio format for every setting',
-        intro: 'Compare compact earbuds, immersive over-ear listening, and room-filling speaker setups depending on where and how people listen most.',
-        categorySlugs: ['wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'],
+        intro: 'Compare compact earbuds, awareness-first open-ear listening, immersive over-ear headphones, and room-filling speaker setups depending on where and how people listen most.',
+        categorySlugs: ['wireless-earbuds', 'open-ear-headphones', 'over-ear-headphones', 'bluetooth-speakers'],
       },
     ],
   },

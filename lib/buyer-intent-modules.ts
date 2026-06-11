@@ -44,8 +44,8 @@ export const buyerIntentModules: BuyerIntentModule[] = [
   {
     id: 'wearable-tech-audio',
     title: 'Wearable Tech & Audio',
-    description: 'Build a better on-the-go tech setup with smartwatches, fitness trackers, wireless earbuds, over-ear headphones, and Bluetooth speakers that fit real daily routines. We compare health tracking accuracy, comfort, battery life, ecosystem fit, ruggedness, and audio quality so buyers can move from workouts to commutes to desk time without guessing which device actually fits their habits.',
-    categorySlugs: ['smart-watches', 'fitness-trackers', 'wireless-earbuds', 'over-ear-headphones', 'bluetooth-speakers'],
+    description: 'Build a better on-the-go tech setup with smartwatches, fitness trackers, sleep trackers, smart rings, wireless earbuds, open-ear headphones, over-ear headphones, and Bluetooth speakers that fit real daily routines. We compare health tracking accuracy, overnight comfort, battery life, ecosystem fit, awareness-friendly audio, ruggedness, and sound quality so buyers can move from sleep and recovery to workouts, commutes, and desk time without guessing which device actually fits their habits.',
+    categorySlugs: ['smart-watches', 'fitness-trackers', 'sleep-trackers', 'smart-rings', 'wireless-earbuds', 'open-ear-headphones', 'over-ear-headphones', 'bluetooth-speakers'],
   },
   {
     id: 'healthy-home',

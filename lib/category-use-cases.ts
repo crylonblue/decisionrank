@@ -836,7 +836,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "fitness-trackers": {
-    clusterSlugs: ["smart-watches", "wireless-earbuds", "over-ear-headphones", "bluetooth-speakers", "smartphones"],
+    clusterSlugs: ["smart-watches", "sleep-trackers", "smart-rings", "wireless-earbuds", "open-ear-headphones", "over-ear-headphones", "bluetooth-speakers", "smartphones"],
     useCaseBlocks: [
       {
         title: "Best Fitness Trackers for Sleep and Recovery",
@@ -921,8 +921,180 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Built-in GPS vs Connected GPS", description: "Phone-free run tracking versus lighter, cheaper designs that lean on your phone for location data.", queryPhrase: "built-in GPS vs connected GPS fitness tracker" },
     ]
   },
+  "sleep-trackers": {
+    clusterSlugs: ["smart-rings", "fitness-trackers", "smart-watches", "wireless-earbuds", "bluetooth-speakers"],
+    useCaseBlocks: [
+      {
+        title: "Best Sleep Trackers for People Who Hate Wearing Devices to Bed",
+        description: "Under-mattress and ultra-low-friction options for buyers who want overnight insights without a bulky watch or annoying band.",
+        targetAudience: "Sleep-focused buyers who dislike wearable friction"
+      },
+      {
+        title: "Best Sleep Trackers for Recovery and Training Readiness",
+        description: "Sleep-first devices that tie HRV, resting heart rate, strain, and readiness together for active buyers who want more than a generic sleep score.",
+        targetAudience: "Athletes and recovery-focused buyers"
+      },
+      {
+        title: "Best Sleep Trackers with No Subscription",
+        description: "Products that keep long-term sleep trends and useful nightly guidance available without adding another monthly fee.",
+        targetAudience: "Value-conscious buyers avoiding recurring costs"
+      },
+      {
+        title: "Best Sleep Trackers for Long Battery Life and Low Maintenance",
+        description: "Sleep trackers that stay out of the way for days or weeks at a time so you are not constantly breaking the routine to recharge.",
+        targetAudience: "Low-maintenance and battery-conscious buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best sleep tracker for adults",
+      "best sleep tracker without wearing a watch",
+      "oura vs whoop for sleep",
+      "best sleep tracker no subscription",
+      "how accurate are sleep trackers",
+      "best sleep tracker for recovery",
+      "smart ring vs smartwatch for sleep",
+      "best under mattress sleep tracker",
+      "best sleep tracker for women",
+      "sleep tracker with long battery life",
+      "do sleep trackers help improve sleep",
+      "best sleep tracker under 200 dollars"
+    ],
+    useCases: [
+      {
+        label: "No-Wear Sleep Tracking",
+        title: "Best Sleep Trackers for People Who Hate Wearing Devices to Bed",
+        description: "Under-mattress pads and ultra-comfortable devices for buyers who want useful sleep data without waking up annoyed by what they slept in."
+      },
+      {
+        label: "Recovery",
+        title: "Best Sleep Trackers for Recovery and Training Readiness",
+        description: "Sleep trackers that connect overnight metrics to recovery, strain, and readiness for buyers who train or simply want clearer energy signals."
+      },
+      {
+        label: "No Subscription",
+        title: "Best Sleep Trackers with No Subscription",
+        description: "Smart buys for shoppers who want meaningful sleep trends and habit guidance without stacking another app membership onto the budget."
+      },
+      {
+        label: "Low Maintenance",
+        title: "Best Sleep Trackers for Long Battery Life and Low Maintenance",
+        description: "Sleep-focused devices that keep charging friction low enough to support consistent overnight tracking week after week."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best sleep tracker for adults", intent: "transactional" },
+      { phrase: "best sleep tracker without wearing a watch", intent: "transactional" },
+      { phrase: "oura vs whoop for sleep", intent: "comparational" },
+      { phrase: "best sleep tracker no subscription", intent: "transactional" },
+      { phrase: "how accurate are sleep trackers", intent: "informational" },
+      { phrase: "best sleep tracker for recovery", intent: "transactional" },
+      { phrase: "smart ring vs smartwatch for sleep", intent: "comparational" },
+      { phrase: "best under mattress sleep tracker", intent: "transactional" },
+      { phrase: "best sleep tracker for women", intent: "transactional" },
+      { phrase: "sleep tracker with long battery life", intent: "transactional" },
+      { phrase: "do sleep trackers help improve sleep", intent: "informational" },
+      { phrase: "best sleep tracker under 200 dollars", intent: "transactional" },
+      { phrase: "whoop membership worth it for sleep", intent: "informational" },
+      { phrase: "ring vs band sleep tracker", intent: "comparational" },
+      { phrase: "best sleep tracker for side sleepers", intent: "transactional" },
+    ],
+    comparisons: [
+      { title: "Oura vs Whoop for Sleep", description: "Polished ring-based sleep and readiness insight versus coaching-first strain and recovery guidance for buyers deciding how hands-on they want the platform to be.", queryPhrase: "Oura vs Whoop for sleep" },
+      { title: "Ring vs Watch for Sleep Tracking", description: "Lower-friction overnight comfort versus broader daytime features, helping buyers choose the form factor they will actually keep using.", queryPhrase: "ring vs watch for sleep tracking" },
+      { title: "Wearable vs Under-Mattress Sleep Tracker", description: "Body-worn trend depth versus no-wear convenience for buyers who want better sleep data without sacrificing comfort.", queryPhrase: "wearable vs under mattress sleep tracker" },
+      { title: "Subscription vs No-Subscription Sleep Tracker", description: "When recurring coaching unlocks real value and when one-time purchase devices already cover the essentials well enough.", queryPhrase: "subscription vs no subscription sleep tracker" },
+      { title: "Sleep Tracker vs Fitness Tracker", description: "Sleep-first focus versus broader daily activity tracking for shoppers deciding whether they need a dedicated overnight tool.", queryPhrase: "sleep tracker vs fitness tracker" },
+      { title: "Smart Ring vs Smartwatch for Sleep", description: "Low-maintenance recovery tracking versus all-purpose smartwatch convenience, especially for buyers who care about overnight comfort most.", queryPhrase: "smart ring vs smartwatch for sleep" },
+    ]
+  },
+  "smart-rings": {
+    clusterSlugs: ["sleep-trackers", "fitness-trackers", "smart-watches", "wireless-earbuds", "smartphones"],
+    useCaseBlocks: [
+      {
+        title: "Best Smart Rings for Sleep and Recovery",
+        description: "Rings that stay comfortable overnight and turn sleep, HRV, and readiness data into genuinely useful recovery guidance.",
+        targetAudience: "Sleep-first and recovery-focused wearable buyers"
+      },
+      {
+        title: "Best Smart Rings with No Subscription",
+        description: "High-value smart rings that keep ongoing ownership costs predictable without paywalling the most useful long-term insights.",
+        targetAudience: "Subscription-averse buyers"
+      },
+      {
+        title: "Best Smart Rings for Existing Watch Users",
+        description: "Complementary wearables for buyers who already own a smartwatch but want lower-friction overnight tracking and passive recovery data.",
+        targetAudience: "Smartwatch owners adding a second wearable"
+      },
+      {
+        title: "Best Smart Rings for Everyday Comfort and Long Battery Life",
+        description: "Rings that disappear on the finger, need less charging, and feel realistic to keep wearing all day and all night.",
+        targetAudience: "Comfort- and battery-conscious buyers"
+      }
+    ],
+    queryIntentPhrases: [
+      "best smart ring for sleep tracking",
+      "oura ring alternative",
+      "best smart ring no subscription",
+      "smart ring vs smartwatch",
+      "best smart ring for women",
+      "best smart ring battery life",
+      "ringconn vs oura",
+      "ultrahuman ring vs oura",
+      "best smart ring for Android users",
+      "are smart rings worth it",
+      "best smart ring for recovery",
+      "smart ring sizing kit explained"
+    ],
+    useCases: [
+      {
+        label: "Sleep and Recovery",
+        title: "Best Smart Rings for Sleep and Recovery",
+        description: "Smart rings for buyers who want the most comfortable path to reliable overnight trends, readiness feedback, and lower-friction health tracking."
+      },
+      {
+        label: "No Subscription",
+        title: "Best Smart Rings with No Subscription",
+        description: "Rings that make sense financially beyond the first month, especially for shoppers who dislike turning wellness tracking into another recurring bill."
+      },
+      {
+        label: "Watch Companion",
+        title: "Best Smart Rings for Existing Watch Users",
+        description: "Lower-friction sleep companions for buyers who like their smartwatch during the day but would rather not wear it to bed every night."
+      },
+      {
+        label: "Comfort and Battery",
+        title: "Best Smart Rings for Everyday Comfort and Long Battery Life",
+        description: "The most realistic smart ring picks for people who care less about hype and more about whether the device stays easy to wear and charge."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best smart ring for sleep tracking", intent: "transactional" },
+      { phrase: "oura ring alternative", intent: "transactional" },
+      { phrase: "best smart ring no subscription", intent: "transactional" },
+      { phrase: "smart ring vs smartwatch", intent: "comparational" },
+      { phrase: "best smart ring for women", intent: "transactional" },
+      { phrase: "best smart ring battery life", intent: "transactional" },
+      { phrase: "ringconn vs oura", intent: "comparational" },
+      { phrase: "ultrahuman ring vs oura", intent: "comparational" },
+      { phrase: "best smart ring for Android users", intent: "transactional" },
+      { phrase: "are smart rings worth it", intent: "informational" },
+      { phrase: "best smart ring for recovery", intent: "transactional" },
+      { phrase: "smart ring sizing kit explained", intent: "informational" },
+      { phrase: "best smart ring for small fingers", intent: "transactional" },
+      { phrase: "smart ring subscription worth it", intent: "informational" },
+      { phrase: "smart ring vs fitness tracker", intent: "comparational" },
+    ],
+    comparisons: [
+      { title: "Oura vs Ultrahuman", description: "Polished premium sleep-and-readiness coaching versus subscription-free value and a more experimental wellness angle.", queryPhrase: "Oura vs Ultrahuman ring" },
+      { title: "Oura vs RingConn", description: "Premium app polish versus no-subscription battery-friendly value for buyers comparing the most practical alternatives to the category leader.", queryPhrase: "Oura vs RingConn" },
+      { title: "Smart Ring vs Smartwatch", description: "Low-friction passive tracking versus richer apps, notifications, and workout interaction for buyers deciding which wearable style fits real life better.", queryPhrase: "smart ring vs smartwatch" },
+      { title: "Smart Ring vs Fitness Tracker", description: "Discreet finger-based recovery data versus broader wrist-based training and activity tracking, with clearer trade-offs in comfort and versatility.", queryPhrase: "smart ring vs fitness tracker" },
+      { title: "Subscription vs No-Subscription Smart Ring", description: "When monthly coaching feels worth paying for and when a one-time purchase ring already covers the core sleep and readiness needs.", queryPhrase: "subscription vs no subscription smart ring" },
+      { title: "Ring vs Band for Sleep Tracking", description: "Finger comfort and passive wear versus the broader data and workout tools of a wrist-based tracker.", queryPhrase: "ring vs band for sleep tracking" },
+    ]
+  },
   "smart-watches": {
-    clusterSlugs: ["wireless-earbuds", "smartphones", "noise-cancelling-headphones", "smart-locks", "video-doorbells"],
+    clusterSlugs: ["fitness-trackers", "sleep-trackers", "smart-rings", "wireless-earbuds", "open-ear-headphones", "smartphones", "noise-cancelling-headphones", "smart-locks", "video-doorbells"],
     useCaseBlocks: [
       {
         title: "Best Smartwatches for Fitness and Running",
@@ -1007,8 +1179,94 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
       { title: "Cellular vs GPS-Only", description: "Leave your phone behind with LTE vs save battery and money with Wi-Fi only — which connectivity model fits your routine?", queryPhrase: "cellular vs GPS-only smartwatch" },
     ]
   },
+  "open-ear-headphones": {
+    clusterSlugs: ["wireless-earbuds", "over-ear-headphones", "fitness-trackers", "smart-watches", "bluetooth-speakers"],
+    useCaseBlocks: [
+      {
+        title: "Best Open-Ear Headphones for Running and Outdoor Workouts",
+        description: "Awareness-first headphones with stable fit, sweat resistance, and enough battery life for regular runs, rides, and outdoor sessions.",
+        targetAudience: "Runners, cyclists, and active outdoor buyers"
+      },
+      {
+        title: "Best Open-Ear Headphones for Office and Work-from-Home Use",
+        description: "Open designs that let you stay reachable and aware while still handling background music, podcasts, and calls comfortably through the workday.",
+        targetAudience: "Remote workers and office listeners"
+      },
+      {
+        title: "Best Open-Ear Headphones for Buyers Who Hate Earbuds",
+        description: "Comfort-first options for people who dislike in-ear pressure, occlusion, or ear-tip fit drama but still want portable personal audio.",
+        targetAudience: "Earbud-averse buyers"
+      },
+      {
+        title: "Best Open-Ear Headphones for Value",
+        description: "Open-ear designs that get the basics right without charging a premium just for category novelty.",
+        targetAudience: "Value-conscious buyers trying open-ear audio"
+      }
+    ],
+    queryIntentPhrases: [
+      "best open ear headphones for running",
+      "open ear headphones vs earbuds",
+      "best bone conduction headphones",
+      "best open ear headphones for office use",
+      "Shokz vs Bose open earbuds",
+      "open ear headphones for cycling",
+      "best headphones if you hate earbuds",
+      "are open ear headphones safe for running",
+      "best open ear headphones with long battery life",
+      "bone conduction vs air conduction headphones",
+      "best open ear headphones under 200 dollars",
+      "open ear headphones for phone calls"
+    ],
+    useCases: [
+      {
+        label: "Running and Outdoor Safety",
+        title: "Best Open-Ear Headphones for Running and Outdoor Workouts",
+        description: "Awareness-friendly headphones for runners and cyclists who want to hear traffic, other people, and their own surroundings without giving up personal audio entirely."
+      },
+      {
+        label: "Work and Awareness",
+        title: "Best Open-Ear Headphones for Office and Work-from-Home Use",
+        description: "Open-ear options that keep you connected to coworkers, kids, or doorbells while still handling calls, playlists, and podcasts well enough for daily desk use."
+      },
+      {
+        label: "Earbud Alternative",
+        title: "Best Open-Ear Headphones for Buyers Who Hate Earbuds",
+        description: "The smartest picks for buyers who want portable audio but dislike ear-tip pressure, ear fatigue, or the plugged-up feeling of sealed earbuds."
+      },
+      {
+        label: "Value",
+        title: "Best Open-Ear Headphones for Value",
+        description: "Practical open-ear buys for people testing the category who still want usable battery life, decent calls, and comfortable all-day wear."
+      }
+    ],
+    queryIntents: [
+      { phrase: "best open ear headphones for running", intent: "transactional" },
+      { phrase: "open ear headphones vs earbuds", intent: "comparational" },
+      { phrase: "best bone conduction headphones", intent: "transactional" },
+      { phrase: "best open ear headphones for office use", intent: "transactional" },
+      { phrase: "Shokz vs Bose open earbuds", intent: "comparational" },
+      { phrase: "open ear headphones for cycling", intent: "transactional" },
+      { phrase: "best headphones if you hate earbuds", intent: "transactional" },
+      { phrase: "are open ear headphones safe for running", intent: "informational" },
+      { phrase: "best open ear headphones with long battery life", intent: "transactional" },
+      { phrase: "bone conduction vs air conduction headphones", intent: "comparational" },
+      { phrase: "best open ear headphones under 200 dollars", intent: "transactional" },
+      { phrase: "open ear headphones for phone calls", intent: "transactional" },
+      { phrase: "open ear headphones vs over ear headphones", intent: "comparational" },
+      { phrase: "best open headphones for walking city", intent: "transactional" },
+      { phrase: "are open ear headphones good for gym", intent: "informational" },
+    ],
+    comparisons: [
+      { title: "Open-Ear Headphones vs Earbuds", description: "Awareness and lower ear fatigue versus stronger isolation and richer bass for buyers deciding what really fits commuting, workouts, and workdays.", queryPhrase: "open ear headphones vs earbuds" },
+      { title: "Bone Conduction vs Air Conduction", description: "Different ways to keep your ears open, with meaningful trade-offs in comfort, sound, and activity fit.", queryPhrase: "bone conduction vs air conduction headphones" },
+      { title: "Shokz vs Bose Open Earbuds", description: "Sport-first stability and awareness versus premium lifestyle comfort and fuller casual sound.", queryPhrase: "Shokz vs Bose open earbuds" },
+      { title: "Open-Ear vs Over-Ear Headphones", description: "Awareness and portability versus immersion, ANC, and richer long-session sound for buyers comparing two very different listening styles.", queryPhrase: "open ear vs over ear headphones" },
+      { title: "Open-Ear Headphones vs Bluetooth Speaker", description: "Private awareness-friendly listening versus shared room audio for buyers choosing how to listen around home or outdoors.", queryPhrase: "open ear headphones vs bluetooth speaker" },
+      { title: "Premium vs Budget Open-Ear Headphones", description: "Where spending more actually improves comfort, fit stability, call quality, and battery life in this still-young category.", queryPhrase: "premium vs budget open ear headphones" },
+    ]
+  },
   "over-ear-headphones": {
-    clusterSlugs: ["wireless-earbuds", "bluetooth-speakers", "noise-cancelling-headphones", "smart-watches", "smartphones"],
+    clusterSlugs: ["wireless-earbuds", "open-ear-headphones", "bluetooth-speakers", "noise-cancelling-headphones", "smart-watches", "smartphones"],
     useCaseBlocks: [
       {
         title: "Best Over-Ear Headphones for Flights and Commuting",
@@ -1094,7 +1352,7 @@ export const CATEGORY_USE_CASE_DATA: Record<string, CategoryUseCaseData> = {
     ]
   },
   "bluetooth-speakers": {
-    clusterSlugs: ["over-ear-headphones", "wireless-earbuds", "smartphones", "smart-watches", "fitness-trackers"],
+    clusterSlugs: ["over-ear-headphones", "open-ear-headphones", "wireless-earbuds", "smartphones", "smart-watches", "fitness-trackers"],
     useCaseBlocks: [
       {
         title: "Best Bluetooth Speakers for Travel and Everyday Carry",

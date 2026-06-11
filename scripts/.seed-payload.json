@@ -327,6 +327,30 @@
       "description": "The best Bluetooth speakers ranked by sound quality, battery life, portability, durability, and party-friendly usability for home, travel, and outdoor listening.",
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "a11d9294-6eb0-4a2d-91af-2f6c99b7ecd0",
+      "name": "Smart Rings",
+      "slug": "smart-rings",
+      "description": "Top smart rings for sleep tracking, recovery insights, comfort, battery life, and app quality across wellness-focused wearable buyers.",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d3067286-551c-451f-a072-3f34cc0b5076",
+      "name": "Open-Ear Headphones",
+      "slug": "open-ear-headphones",
+      "description": "Top open-ear headphones for runners, cyclists, office listeners, and safety-conscious buyers who want audio without sealing off the world.",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "768edce0-cc6c-4f73-912b-ae24e02ee6bc",
+      "name": "Sleep Trackers",
+      "slug": "sleep-trackers",
+      "description": "Top sleep trackers for overnight comfort, sleep-stage accuracy, recovery guidance, battery life, and long-term habit-building insights.",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ],
   "rankings": [
@@ -739,6 +763,36 @@
       "category_id": "6d453dbf-15de-4c5e-9637-1c2db44cf8db",
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "slug": "best-smart-rings-2026",
+      "question": "What Are the Best Smart Rings in 2026?",
+      "description": "We compared leading smart rings on sleep tracking, readiness insights, comfort, battery life, sizing support, and app usefulness to find the best picks for health-focused buyers who want lower-friction wearables.",
+      "verdict_summary": "The Oura Ring 4 remains the safest premium recommendation for most buyers, the Ultrahuman Ring Air is the strongest no-subscription alternative, and the RingConn Gen 2 stands out for battery-conscious buyers who want strong sleep data without daily friction.",
+      "category_id": "a11d9294-6eb0-4a2d-91af-2f6c99b7ecd0",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "slug": "best-open-ear-headphones-2026",
+      "question": "What Are the Best Open-Ear Headphones in 2026?",
+      "description": "We tested open-ear headphones on comfort, awareness, call quality, battery life, fit security, and real-world sound performance to find the best options for runners, commuters, and desk listeners who do not want sealed earbuds.",
+      "verdict_summary": "The Shokz OpenRun Pro 2 is the most balanced recommendation for active buyers, the Bose Ultra Open Earbuds are the easiest premium lifestyle pick, and the Shokz OpenFit 2 offers the best crossover option for buyers who want open-ear comfort without a full bone-conduction feel.",
+      "category_id": "d3067286-551c-451f-a072-3f34cc0b5076",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "slug": "best-sleep-trackers-2026",
+      "question": "What Are the Best Sleep Trackers in 2026?",
+      "description": "We evaluated sleep trackers on overnight comfort, sleep-stage consistency, recovery coaching, battery life, and trend reporting to find the best picks for buyers who care more about better sleep habits than smartwatch extras.",
+      "verdict_summary": "The Oura Ring 4 is still the strongest all-around sleep tracker for most buyers, Whoop MG best fits coaching-first recovery users who train hard, and the Withings Sleep Analyzer remains the best non-wearable option for people who want sleep data without wearing anything to bed.",
+      "category_id": "768edce0-cc6c-4f73-912b-ae24e02ee6bc",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ],
   "products": [
@@ -2393,6 +2447,132 @@
       "link": "https://us.soundcore.com/products/motion-300",
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Oura Ring 4",
+      "link": "https://ouraring.com/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Ultrahuman Ring Air",
+      "link": "https://www.ultrahuman.com/ring/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "RingConn Gen 2",
+      "link": "https://ringconn.com/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Samsung Galaxy Ring",
+      "link": "https://www.samsung.com/us/rings/galaxy-ring/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Amazfit Helio Ring",
+      "link": "https://www.amazfit.com/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Circular Ring Slim",
+      "link": "https://www.circular.xyz/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Shokz OpenRun Pro 2",
+      "link": "https://shokz.com/products/openrun-pro-2",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Bose Ultra Open Earbuds",
+      "link": "https://www.bose.com/p/earbuds/bose-ultra-open-earbuds/ULT-HEADPHONEIN.html",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Shokz OpenFit 2",
+      "link": "https://shokz.com/products/openfit-2",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Sony LinkBuds Open",
+      "link": "https://electronics.sony.com/audio/headphones/truly-wireless-earbuds/p/linkbudsopen",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Cleer ARC 3 Sport Pro",
+      "link": "https://cleeraudio.com/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Soundcore AeroFit 2",
+      "link": "https://www.soundcore.com/products/aerofit-2",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Oura Ring 4",
+      "link": "https://ouraring.com/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Whoop MG",
+      "link": "https://www.whoop.com/",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Withings Sleep Analyzer",
+      "link": "https://www.withings.com/us/en/sleep-analyzer",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Google Pixel Watch 3",
+      "link": "https://store.google.com/product/pixel_watch_3",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "Garmin Venu 3",
+      "link": "https://www.garmin.com/en-US/p/873008",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "Fitbit Charge 6",
+      "link": "https://store.google.com/product/fitbit_charge_6",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ],
   "ranking_products": [
@@ -4519,6 +4699,168 @@
       "rank_position": 6,
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "score": 9.1,
+      "rank_position": 2,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "score": 8.9,
+      "rank_position": 3,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "score": 8.2,
+      "rank_position": 5,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "score": 7.8,
+      "rank_position": 6,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "score": 9.3,
+      "rank_position": 1,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "score": 9,
+      "rank_position": 2,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "score": 8.1,
+      "rank_position": 5,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "score": 7.7,
+      "rank_position": 6,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "score": 9.4,
+      "rank_position": 1,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "score": 9,
+      "rank_position": 2,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "score": 8.8,
+      "rank_position": 3,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "score": 8.5,
+      "rank_position": 4,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "score": 8.3,
+      "rank_position": 5,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "score": 7.9,
+      "rank_position": 6,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ],
   "users": [],
@@ -17257,6 +17599,1194 @@
       "description": null,
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "eb26c548-601f-4a7e-8cd4-eaf20dcce4c6",
+      "ranking_product_id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "user_id": null,
+      "type": "pro",
+      "content": "Still the cleanest overall app and recovery experience for mainstream buyers.",
+      "headline": "Still the cleanest overall app and recovery experience for mainstream buyers.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "fd352eda-72d0-4da2-8a2c-0c65740e68ad",
+      "ranking_product_id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent overnight comfort makes it easy to wear consistently.",
+      "headline": "Excellent overnight comfort makes it easy to wear consistently.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "27794fff-6e57-43d1-b494-8e220c8c5100",
+      "ranking_product_id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "user_id": null,
+      "type": "pro",
+      "content": "Sleep and readiness reporting feel polished instead of overly raw.",
+      "headline": "Sleep and readiness reporting feel polished instead of overly raw.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2378b908-35da-4d13-8ae1-666aa20a3b8e",
+      "ranking_product_id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "user_id": null,
+      "type": "con",
+      "content": "Subscription cost raises the real long-term price.",
+      "headline": "Subscription cost raises the real long-term price.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7a398b3e-53f4-4826-9779-e89e56d3aed0",
+      "ranking_product_id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "user_id": null,
+      "type": "con",
+      "content": "No display or workout-first interaction for buyers who want live metrics.",
+      "headline": "No display or workout-first interaction for buyers who want live metrics.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "86f56e31-e34c-470b-a0be-a731373bdf2b",
+      "ranking_product_id": "1d5ec2e4-966e-4d63-bafe-1dde7b7f0e9f",
+      "user_id": null,
+      "type": "con",
+      "content": "Sizing process still adds friction before purchase.",
+      "headline": "Sizing process still adds friction before purchase.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "901fc54f-da9d-4db3-841a-c7058e3cdd57",
+      "ranking_product_id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "user_id": null,
+      "type": "pro",
+      "content": "Best premium smart ring pick for buyers who refuse another subscription.",
+      "headline": "Best premium smart ring pick for buyers who refuse another subscription.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "9281c110-ff81-4a99-8a0d-6415f45c9d17",
+      "ranking_product_id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "user_id": null,
+      "type": "pro",
+      "content": "Metabolic and recovery framing feels ambitious and genuinely engaging.",
+      "headline": "Metabolic and recovery framing feels ambitious and genuinely engaging.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f821ea78-95e8-44e6-a33a-7ab8a7108727",
+      "ranking_product_id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "user_id": null,
+      "type": "pro",
+      "content": "Lightweight design disappears on the finger quickly.",
+      "headline": "Lightweight design disappears on the finger quickly.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "77fa13e8-c3b8-4388-a4dc-b1407f83b7e5",
+      "ranking_product_id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "user_id": null,
+      "type": "con",
+      "content": "App polish and coaching consistency still trail Oura.",
+      "headline": "App polish and coaching consistency still trail Oura.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "55a89857-2098-4f38-9b93-cddfceb2b43f",
+      "ranking_product_id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is good, but not the category leader.",
+      "headline": "Battery life is good, but not the category leader.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "91fb12a4-fe6a-43a4-aba9-e3becbb94e29",
+      "ranking_product_id": "5652af01-52ae-4775-910f-d136e8ab957d",
+      "user_id": null,
+      "type": "con",
+      "content": "Some insights can feel more experimental than foundational.",
+      "headline": "Some insights can feel more experimental than foundational.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f3f17095-385d-4a4b-8265-67fc1da0f2a3",
+      "ranking_product_id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent battery life and the charging case reduce day-to-day maintenance.",
+      "headline": "Excellent battery life and the charging case reduce day-to-day maintenance.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d484adf4-2296-41d9-96be-fc174849465d",
+      "ranking_product_id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "user_id": null,
+      "type": "pro",
+      "content": "No-subscription pricing is easy to justify for value-focused buyers.",
+      "headline": "No-subscription pricing is easy to justify for value-focused buyers.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "de605717-5294-4653-91f2-4ab7e9ad488c",
+      "ranking_product_id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Sleep tracking and comfort are strong enough to make it a real Oura alternative.",
+      "headline": "Sleep tracking and comfort are strong enough to make it a real Oura alternative.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "76fb2af0-512d-4957-b861-3065c5232855",
+      "ranking_product_id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "user_id": null,
+      "type": "con",
+      "content": "App ecosystem and third-party integrations are still thinner than top rivals.",
+      "headline": "App ecosystem and third-party integrations are still thinner than top rivals.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "347dd8df-3c80-4ccc-9f62-b35ea4c7fc99",
+      "ranking_product_id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "user_id": null,
+      "type": "con",
+      "content": "Recovery insights are useful, but less refined than Oura.",
+      "headline": "Recovery insights are useful, but less refined than Oura.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "4c18c7cf-8a79-4d98-8660-3926ed8d2320",
+      "ranking_product_id": "107b7994-e84a-4986-963b-c129ca7f890b",
+      "user_id": null,
+      "type": "con",
+      "content": "Brand trust is still developing compared with category leaders.",
+      "headline": "Brand trust is still developing compared with category leaders.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6ce0abcf-5b51-4253-904c-7c83376542a7",
+      "ranking_product_id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "user_id": null,
+      "type": "pro",
+      "content": "Best ecosystem fit for Samsung buyers who want ring plus watch data.",
+      "headline": "Best ecosystem fit for Samsung buyers who want ring plus watch data.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "40bc8cb8-4f68-4632-9f49-8ea20ca1bba4",
+      "ranking_product_id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "user_id": null,
+      "type": "pro",
+      "content": "Comfort and battery life are solid for a first-gen mainstream push.",
+      "headline": "Comfort and battery life are solid for a first-gen mainstream push.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "608277f5-2127-4b50-bedb-35d9b4d5a2a0",
+      "ranking_product_id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "user_id": null,
+      "type": "pro",
+      "content": "No-subscription approach makes the value proposition easier to understand.",
+      "headline": "No-subscription approach makes the value proposition easier to understand.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7fadc1bd-d383-45fb-a618-5ca11365c8ee",
+      "ranking_product_id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "user_id": null,
+      "type": "con",
+      "content": "Best features lean heavily toward Samsung phone owners.",
+      "headline": "Best features lean heavily toward Samsung phone owners.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "12d2610b-4a4b-4103-b5db-c9106bd98c80",
+      "ranking_product_id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "user_id": null,
+      "type": "con",
+      "content": "Insights are less mature than Oura for sleep-first buyers.",
+      "headline": "Insights are less mature than Oura for sleep-first buyers.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1c35c984-7bd1-479d-81f3-29567ee7f8a3",
+      "ranking_product_id": "b31c2cc1-f81f-4cd9-a686-d3d9c231cf63",
+      "user_id": null,
+      "type": "con",
+      "content": "Broad platform compatibility is not its strongest selling point.",
+      "headline": "Broad platform compatibility is not its strongest selling point.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3daddb2a-79d8-45e3-962b-cb239b3f3f39",
+      "ranking_product_id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "user_id": null,
+      "type": "pro",
+      "content": "Appealing choice for existing Amazfit users who want deeper recovery data.",
+      "headline": "Appealing choice for existing Amazfit users who want deeper recovery data.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "37508f19-3186-4b9c-9af7-6a8307df9466",
+      "ranking_product_id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "user_id": null,
+      "type": "pro",
+      "content": "No-subscription model keeps ownership cost predictable.",
+      "headline": "No-subscription model keeps ownership cost predictable.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "19532505-9e95-48f7-8d98-fc58f2cc8696",
+      "ranking_product_id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "user_id": null,
+      "type": "pro",
+      "content": "Training-focused buyers may like the readiness positioning.",
+      "headline": "Training-focused buyers may like the readiness positioning.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a0f951af-4ea8-402c-b3d7-aeba3041340d",
+      "ranking_product_id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is only average for a ring.",
+      "headline": "Battery life is only average for a ring.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "87293f8e-d2d7-42fb-9c78-5cfffc9a6a8f",
+      "ranking_product_id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "user_id": null,
+      "type": "con",
+      "content": "App experience is less polished than Oura or Ultrahuman.",
+      "headline": "App experience is less polished than Oura or Ultrahuman.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "45783a70-709e-43ed-8735-b5b7852f8fff",
+      "ranking_product_id": "fac11db0-0c2c-4895-89ca-5a227478b897",
+      "user_id": null,
+      "type": "con",
+      "content": "Category newcomers may prefer a more established ecosystem.",
+      "headline": "Category newcomers may prefer a more established ecosystem.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "60d6223a-244a-4c9b-9ac1-b3207ecdaaf6",
+      "ranking_product_id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "user_id": null,
+      "type": "pro",
+      "content": "Slim shape appeals to buyers who want the least bulky feel possible.",
+      "headline": "Slim shape appeals to buyers who want the least bulky feel possible.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6c2d436f-2ff7-4408-a1fa-836d53ff7d7b",
+      "ranking_product_id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "user_id": null,
+      "type": "pro",
+      "content": "No subscription helps offset the rougher software edges.",
+      "headline": "No subscription helps offset the rougher software edges.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "357fa983-8067-4ef6-84be-79a38b6856d3",
+      "ranking_product_id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "user_id": null,
+      "type": "pro",
+      "content": "Feature ambition is high for sleep and wellness tracking.",
+      "headline": "Feature ambition is high for sleep and wellness tracking.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a7240bfc-b06f-4932-9a43-e93d6d058509",
+      "ranking_product_id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "user_id": null,
+      "type": "con",
+      "content": "Execution and app reliability still feel less mature than top competitors.",
+      "headline": "Execution and app reliability still feel less mature than top competitors.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d9344f2f-1735-4f98-9a9b-a49183098e32",
+      "ranking_product_id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life and consistency are not class-leading.",
+      "headline": "Battery life and consistency are not class-leading.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3c2fb247-562e-4e5c-86da-341032c66c03",
+      "ranking_product_id": "82e0f9bb-6bc7-4537-8cbc-ba1e6de73a7a",
+      "user_id": null,
+      "type": "con",
+      "content": "Harder to recommend unless the slimmer shape is your main priority.",
+      "headline": "Harder to recommend unless the slimmer shape is your main priority.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c0b9b508-5f73-4826-b89e-b6ab33e237b2",
+      "ranking_product_id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "user_id": null,
+      "type": "pro",
+      "content": "Best all-around fit for runners who want awareness without constant earbud adjustments.",
+      "headline": "Best all-around fit for runners who want awareness without constant earbud adjustments.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5fbe4abb-550e-43e6-8cfd-93a3105fd7ea",
+      "ranking_product_id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "user_id": null,
+      "type": "pro",
+      "content": "Comfort and stability stay excellent through long workouts.",
+      "headline": "Comfort and stability stay excellent through long workouts.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1d648cb9-d79f-4f53-9dba-a21bcede09ba",
+      "ranking_product_id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "user_id": null,
+      "type": "pro",
+      "content": "Battery life is strong enough for serious training weeks.",
+      "headline": "Battery life is strong enough for serious training weeks.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2866d182-fcc3-4542-bad6-d0ee8b3fc66b",
+      "ranking_product_id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "user_id": null,
+      "type": "con",
+      "content": "Sound quality is enjoyable, but still not as full as sealed earbuds or over-ears.",
+      "headline": "Sound quality is enjoyable, but still not as full as sealed earbuds or over-ears.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "fd58f499-e871-4434-bcba-596483c9980f",
+      "ranking_product_id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "user_id": null,
+      "type": "con",
+      "content": "Price is high for a niche listening format.",
+      "headline": "Price is high for a niche listening format.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c5d86498-7573-4287-8108-2045b63e601b",
+      "ranking_product_id": "46e43c47-0241-40d3-9fb8-2a6bf1560440",
+      "user_id": null,
+      "type": "con",
+      "content": "Open design naturally leaks more audio in quiet spaces.",
+      "headline": "Open design naturally leaks more audio in quiet spaces.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "8b270362-7126-4ffe-9912-1695f8dbb9f3",
+      "ranking_product_id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Most premium-feeling open-ear option for casual everyday listening.",
+      "headline": "Most premium-feeling open-ear option for casual everyday listening.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7681a389-24be-4009-bcfc-9e47d3f7aa94",
+      "ranking_product_id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Comfort is surprisingly strong once the fit clicks.",
+      "headline": "Comfort is surprisingly strong once the fit clicks.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5db1e450-020c-4f65-b9d9-223c820c2363",
+      "ranking_product_id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "user_id": null,
+      "type": "pro",
+      "content": "Sound is fuller and more mainstream-friendly than most bone-conduction options.",
+      "headline": "Sound is fuller and more mainstream-friendly than most bone-conduction options.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "faffd5cc-faf4-441d-a7fc-c71c2a13eaad",
+      "ranking_product_id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "user_id": null,
+      "type": "con",
+      "content": "Expensive enough that buyers should be sure they want open-ear convenience specifically.",
+      "headline": "Expensive enough that buyers should be sure they want open-ear convenience specifically.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "090dd330-685d-49bf-bf66-42402813f004",
+      "ranking_product_id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "user_id": null,
+      "type": "con",
+      "content": "Not the best pick for intense workouts compared with sport-first rivals.",
+      "headline": "Not the best pick for intense workouts compared with sport-first rivals.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "73a5c918-25ae-4cce-bbd7-1d24aa635cec",
+      "ranking_product_id": "02471ab2-5bbd-4302-b343-4a3cbe08f8f2",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is good, but not class-leading.",
+      "headline": "Battery life is good, but not class-leading.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a9e5785e-9173-4b49-b562-6c14088bd6b4",
+      "ranking_product_id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent crossover pick for buyers who want open-ear awareness with a more familiar earbud feel.",
+      "headline": "Excellent crossover pick for buyers who want open-ear awareness with a more familiar earbud feel.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a46b4209-0b55-4c85-8711-1366a172f78e",
+      "ranking_product_id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "user_id": null,
+      "type": "pro",
+      "content": "Very strong total battery life with the case.",
+      "headline": "Very strong total battery life with the case.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "37ec92f5-032f-4967-86fb-979bf637912c",
+      "ranking_product_id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "user_id": null,
+      "type": "pro",
+      "content": "Comfort works for long desk sessions as well as lighter workouts.",
+      "headline": "Comfort works for long desk sessions as well as lighter workouts.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3308b200-3d69-4069-ab14-11a5aaf979ef",
+      "ranking_product_id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "user_id": null,
+      "type": "con",
+      "content": "Still cannot match sealed earbuds for bass weight and isolation.",
+      "headline": "Still cannot match sealed earbuds for bass weight and isolation.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "37a07a6b-daae-4ca5-8ebf-a3e81bfd24f2",
+      "ranking_product_id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "user_id": null,
+      "type": "con",
+      "content": "Fit security depends more on ear shape than neckband-style Shokz models.",
+      "headline": "Fit security depends more on ear shape than neckband-style Shokz models.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "599b5010-23fc-4328-995a-32659e698440",
+      "ranking_product_id": "788bdd6d-91b8-40af-9591-2a15c0ad5579",
+      "user_id": null,
+      "type": "con",
+      "content": "Premium pricing keeps it out of impulse-buy territory.",
+      "headline": "Premium pricing keeps it out of impulse-buy territory.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f24fcff5-f9e0-4e87-88d8-aab8efd9c5ce",
+      "ranking_product_id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent awareness for office and urban-walking use.",
+      "headline": "Excellent awareness for office and urban-walking use.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b5899ea2-ff93-4071-a377-6ac2454415e3",
+      "ranking_product_id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Light, unusual fit works well for buyers who dislike in-ear pressure.",
+      "headline": "Light, unusual fit works well for buyers who dislike in-ear pressure.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e6348186-3f30-4b01-b857-b391019dacc8",
+      "ranking_product_id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "user_id": null,
+      "type": "pro",
+      "content": "Sony app features and controls are deeper than many open rivals.",
+      "headline": "Sony app features and controls are deeper than many open rivals.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2036a997-315b-4647-aa5f-c7b8cf400716",
+      "ranking_product_id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "user_id": null,
+      "type": "con",
+      "content": "Open ring design is polarizing for both fit and sound.",
+      "headline": "Open ring design is polarizing for both fit and sound.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b610e075-164f-42b6-a1bd-4ce0ff4bed6f",
+      "ranking_product_id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "user_id": null,
+      "type": "con",
+      "content": "Not the best choice for noisy gyms or public transport.",
+      "headline": "Not the best choice for noisy gyms or public transport.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6a3adc4b-daf8-40b0-8217-ca61a2af969e",
+      "ranking_product_id": "e6121505-ef9d-4a9a-85ac-f014972a3f7b",
+      "user_id": null,
+      "type": "con",
+      "content": "Case battery is merely average.",
+      "headline": "Case battery is merely average.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b046e1fa-263e-4bc3-9ed8-1461aa6c1737",
+      "ranking_product_id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "user_id": null,
+      "type": "pro",
+      "content": "Sporty ear-hook fit gives active buyers reassuring stability.",
+      "headline": "Sporty ear-hook fit gives active buyers reassuring stability.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7cfae811-fd0f-4eef-b0a2-9f715ec3692b",
+      "ranking_product_id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "user_id": null,
+      "type": "pro",
+      "content": "Water resistance is among the strongest in this category.",
+      "headline": "Water resistance is among the strongest in this category.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "62316283-596b-404c-9d76-ecbcb8c1f673",
+      "ranking_product_id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "user_id": null,
+      "type": "pro",
+      "content": "Battery life and case endurance are both very solid.",
+      "headline": "Battery life and case endurance are both very solid.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "fd6f2dc2-0d78-4a1a-ac60-f0a427e14436",
+      "ranking_product_id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "user_id": null,
+      "type": "con",
+      "content": "Bulkier than more lifestyle-oriented open-ear designs.",
+      "headline": "Bulkier than more lifestyle-oriented open-ear designs.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "46c23ade-0a52-4619-a649-61f9a79da997",
+      "ranking_product_id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "user_id": null,
+      "type": "con",
+      "content": "Sound tuning is fun, but not the most natural.",
+      "headline": "Sound tuning is fun, but not the most natural.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "8cf1df43-3929-425a-8e17-800527daf490",
+      "ranking_product_id": "6966d3d1-2b1c-41c8-ad60-dbf1b0b83cc0",
+      "user_id": null,
+      "type": "con",
+      "content": "Brand confidence and software polish trail Sony and Bose.",
+      "headline": "Brand confidence and software polish trail Sony and Bose.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "4c86585b-a997-4e7c-a22a-aec41b285d11",
+      "ranking_product_id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "user_id": null,
+      "type": "pro",
+      "content": "Good value for buyers who want to try open-ear audio without paying Bose money.",
+      "headline": "Good value for buyers who want to try open-ear audio without paying Bose money.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3fba0db9-3b19-4bce-81c9-d3b581ebff1f",
+      "ranking_product_id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "user_id": null,
+      "type": "pro",
+      "content": "Battery life and comfort are competitive for the price.",
+      "headline": "Battery life and comfort are competitive for the price.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "57a8eae3-3406-4791-8620-a91e7bd5f93d",
+      "ranking_product_id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "user_id": null,
+      "type": "pro",
+      "content": "Multipoint and app EQ help it feel less stripped down than cheap alternatives.",
+      "headline": "Multipoint and app EQ help it feel less stripped down than cheap alternatives.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "4ef2e393-09b5-4666-814d-1293aa2ccc72",
+      "ranking_product_id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "user_id": null,
+      "type": "con",
+      "content": "Sound still feels clearly less refined than pricier leaders.",
+      "headline": "Sound still feels clearly less refined than pricier leaders.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "84c26386-de87-40b7-bec1-5c87072e6ddf",
+      "ranking_product_id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "user_id": null,
+      "type": "con",
+      "content": "Case and materials do not feel especially premium.",
+      "headline": "Case and materials do not feel especially premium.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d646badb-93c1-482b-85e8-c85f6c2637ee",
+      "ranking_product_id": "d480c6fa-7405-4034-a2ab-0e0f33d3093c",
+      "user_id": null,
+      "type": "con",
+      "content": "Fit and call quality can be merely decent rather than standout.",
+      "headline": "Fit and call quality can be merely decent rather than standout.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "77c17557-8a8d-4dc5-bdd1-7176cc1cfaa3",
+      "ranking_product_id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "user_id": null,
+      "type": "pro",
+      "content": "Still the strongest blend of sleep insights, comfort, and app polish in the category.",
+      "headline": "Still the strongest blend of sleep insights, comfort, and app polish in the category.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "93a168c3-96c4-44d5-92bb-70237acf08d7",
+      "ranking_product_id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "user_id": null,
+      "type": "pro",
+      "content": "Low-friction overnight wear makes long-term habit tracking realistic.",
+      "headline": "Low-friction overnight wear makes long-term habit tracking realistic.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7f2bacc0-6edf-4fdc-889b-f9b0a8a6f05e",
+      "ranking_product_id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "user_id": null,
+      "type": "pro",
+      "content": "Recovery and readiness trends are genuinely useful for most people.",
+      "headline": "Recovery and readiness trends are genuinely useful for most people.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "02cfb49b-d538-4197-ab3f-b43c31e94754",
+      "ranking_product_id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "user_id": null,
+      "type": "con",
+      "content": "Subscription raises the true ownership cost.",
+      "headline": "Subscription raises the true ownership cost.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6c6a388a-617b-49a4-bc1b-ddd1df4ea1f5",
+      "ranking_product_id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "user_id": null,
+      "type": "con",
+      "content": "Buyers who dislike jewelry-style wearables may bounce off the form factor.",
+      "headline": "Buyers who dislike jewelry-style wearables may bounce off the form factor.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3d389551-d65d-49c3-a226-cb6341432c2c",
+      "ranking_product_id": "5acea7de-6fc7-4ac6-9c67-903ca2b22b11",
+      "user_id": null,
+      "type": "con",
+      "content": "Workout experience is secondary to sleep and recovery.",
+      "headline": "Workout experience is secondary to sleep and recovery.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "90924968-92c5-4f09-977c-b8df879d8e92",
+      "ranking_product_id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "user_id": null,
+      "type": "pro",
+      "content": "Best coaching-first sleep and recovery platform for hard-training buyers.",
+      "headline": "Best coaching-first sleep and recovery platform for hard-training buyers.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b252f64c-a975-4f7f-982a-df8326e96c2f",
+      "ranking_product_id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "user_id": null,
+      "type": "pro",
+      "content": "On-wrist charging reduces compliance friction.",
+      "headline": "On-wrist charging reduces compliance friction.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6d55e91e-8cb9-4225-b001-b2f26c11cf6f",
+      "ranking_product_id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "user_id": null,
+      "type": "pro",
+      "content": "Excellent long-term trend framing for people who actually act on data.",
+      "headline": "Excellent long-term trend framing for people who actually act on data.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a868e2ec-b33d-4abe-a90a-6f90fa992eb5",
+      "ranking_product_id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "user_id": null,
+      "type": "con",
+      "content": "Membership pricing is hard to justify for casual users.",
+      "headline": "Membership pricing is hard to justify for casual users.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b387ba97-6211-4df2-ad79-7c23d517d6e4",
+      "ranking_product_id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "user_id": null,
+      "type": "con",
+      "content": "No screen means it is terrible for buyers who want immediate wrist feedback.",
+      "headline": "No screen means it is terrible for buyers who want immediate wrist feedback.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a6483495-8bd5-4eed-877d-d2d2512644ee",
+      "ranking_product_id": "a2884f3e-0cd7-4582-9d99-5d39819e0b5e",
+      "user_id": null,
+      "type": "con",
+      "content": "More training-centric than some pure sleep buyers need.",
+      "headline": "More training-centric than some pure sleep buyers need.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "80a695ba-2ff2-43e7-ad72-3dd0a88539a4",
+      "ranking_product_id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "user_id": null,
+      "type": "pro",
+      "content": "Best option for people who want sleep data without wearing anything to bed.",
+      "headline": "Best option for people who want sleep data without wearing anything to bed.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "82d10e34-4723-4800-b5cd-387b0ae638b4",
+      "ranking_product_id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "user_id": null,
+      "type": "pro",
+      "content": "Great for buyers who find rings and bands annoying overnight.",
+      "headline": "Great for buyers who find rings and bands annoying overnight.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e3108c9e-7035-436a-bf3d-332faf928c24",
+      "ranking_product_id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "user_id": null,
+      "type": "pro",
+      "content": "Set-and-forget behavior makes compliance almost effortless.",
+      "headline": "Set-and-forget behavior makes compliance almost effortless.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "4cd6acab-0ae2-49c5-a108-ce687864bab3",
+      "ranking_product_id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "user_id": null,
+      "type": "con",
+      "content": "Less useful for daytime recovery context than wearable rivals.",
+      "headline": "Less useful for daytime recovery context than wearable rivals.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c538815c-1bfe-4e22-bb65-575e004aea5d",
+      "ranking_product_id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "user_id": null,
+      "type": "con",
+      "content": "Shared beds and changing sleep positions can complicate the experience.",
+      "headline": "Shared beds and changing sleep positions can complicate the experience.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0480554c-0890-4b89-a569-d918436721a2",
+      "ranking_product_id": "3eb4fea5-720d-4505-ab4f-fada05050257",
+      "user_id": null,
+      "type": "con",
+      "content": "Not ideal if you frequently sleep away from home.",
+      "headline": "Not ideal if you frequently sleep away from home.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f7c59bc3-bb11-4812-9e9a-16f0152745d3",
+      "ranking_product_id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "user_id": null,
+      "type": "pro",
+      "content": "Strong choice for buyers who want one device for sleep plus full smartwatch duties.",
+      "headline": "Strong choice for buyers who want one device for sleep plus full smartwatch duties.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5a2cb6f7-665e-49f8-a7bf-75e3ff8467a7",
+      "ranking_product_id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "user_id": null,
+      "type": "pro",
+      "content": "Fitbit sleep experience remains approachable and mainstream-friendly.",
+      "headline": "Fitbit sleep experience remains approachable and mainstream-friendly.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "ec75d44a-189a-466b-b4d2-6a89f8d33a09",
+      "ranking_product_id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "user_id": null,
+      "type": "pro",
+      "content": "Comfort is good enough that overnight wear feels realistic for many users.",
+      "headline": "Comfort is good enough that overnight wear feels realistic for many users.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "ae63f5ca-b3f5-4f13-839e-4cf8a17fe3f8",
+      "ranking_product_id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "user_id": null,
+      "type": "con",
+      "content": "Battery life is mediocre for dedicated sleep tracking.",
+      "headline": "Battery life is mediocre for dedicated sleep tracking.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "dd0091bc-ed45-482e-b848-e73020635a96",
+      "ranking_product_id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "user_id": null,
+      "type": "con",
+      "content": "Less specialized than ring- or band-first sleep trackers.",
+      "headline": "Less specialized than ring- or band-first sleep trackers.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "eb33d21a-22dc-43b7-8eb7-6decba1e6f4b",
+      "ranking_product_id": "5184d44e-0590-4183-8f1f-3464915dd791",
+      "user_id": null,
+      "type": "con",
+      "content": "Best experience still leans Android.",
+      "headline": "Best experience still leans Android.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6c3bdf07-5628-4658-bb0a-b670568b78d4",
+      "ranking_product_id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "user_id": null,
+      "type": "pro",
+      "content": "Great pick for buyers who want serious sleep data without giving up fitness depth.",
+      "headline": "Great pick for buyers who want serious sleep data without giving up fitness depth.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "04ac7b4c-39d2-4787-9b37-1c3dae6131b8",
+      "ranking_product_id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "user_id": null,
+      "type": "pro",
+      "content": "Battery life is much better than most mainstream smartwatches.",
+      "headline": "Battery life is much better than most mainstream smartwatches.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "923c830e-f6fc-4d1b-b988-956a75a436a3",
+      "ranking_product_id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "user_id": null,
+      "type": "pro",
+      "content": "Garmin recovery tools help connect sleep to training decisions.",
+      "headline": "Garmin recovery tools help connect sleep to training decisions.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "068ce58a-8aed-4af5-93ca-7ad73310513e",
+      "ranking_product_id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "user_id": null,
+      "type": "con",
+      "content": "Interface and insights can feel denser than casual users want.",
+      "headline": "Interface and insights can feel denser than casual users want.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7854e5e6-0ca4-4b3a-a2a7-4d2f49b2a3b1",
+      "ranking_product_id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "user_id": null,
+      "type": "con",
+      "content": "Not as discreet or sleep-first comfortable as a ring.",
+      "headline": "Not as discreet or sleep-first comfortable as a ring.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7e7860af-8499-4d1d-9428-080f4716652b",
+      "ranking_product_id": "767650f8-ac3d-444b-9d19-7e4247fd28be",
+      "user_id": null,
+      "type": "con",
+      "content": "More device than pure sleep buyers usually need.",
+      "headline": "More device than pure sleep buyers usually need.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f4f27dbb-3724-41ee-9c66-7f98eacbcf4a",
+      "ranking_product_id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "user_id": null,
+      "type": "pro",
+      "content": "Easy recommendation for buyers who want sleep tracking in a simple mainstream band.",
+      "headline": "Easy recommendation for buyers who want sleep tracking in a simple mainstream band.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "29097f1b-f1ac-497d-8f73-60ac115735f0",
+      "ranking_product_id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "user_id": null,
+      "type": "pro",
+      "content": "Good balance of comfort, app clarity, and everyday health tracking.",
+      "headline": "Good balance of comfort, app clarity, and everyday health tracking.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2eac5617-4a52-41eb-a3be-06d688de3251",
+      "ranking_product_id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "user_id": null,
+      "type": "pro",
+      "content": "More affordable than premium rings and coaching platforms.",
+      "headline": "More affordable than premium rings and coaching platforms.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "59d4bb28-e75b-4f1e-b0db-2b5fe484ab69",
+      "ranking_product_id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "user_id": null,
+      "type": "con",
+      "content": "Insights feel less advanced than Oura or Whoop.",
+      "headline": "Insights feel less advanced than Oura or Whoop.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e8ec1808-4586-4f36-aa73-909cfe882e11",
+      "ranking_product_id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "user_id": null,
+      "type": "con",
+      "content": "Band-style wear is not as invisible overnight as a ring or under-mattress tracker.",
+      "headline": "Band-style wear is not as invisible overnight as a ring or under-mattress tracker.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "9ac5d184-886f-4842-9fc1-2aa257afc427",
+      "ranking_product_id": "2f96a7c5-0026-468d-b934-fcd9380555bc",
+      "user_id": null,
+      "type": "con",
+      "content": "Google/Fitbit ecosystem uncertainty may give some buyers pause.",
+      "headline": "Google/Fitbit ecosystem uncertainty may give some buyers pause.",
+      "description": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ],
   "specifications": [
@@ -28686,6 +30216,978 @@
       "unit": null,
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "1139bd58-441a-4c60-aa5c-c952e8471ea8",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Battery Life",
+      "value": "8",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "99e25ede-ce66-487d-bf25-5b6e0473a546",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Subscription",
+      "value": "Required for full insights",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b0b25e2e-8991-4df1-83fb-8c40ca109ced",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Sensors",
+      "value": "Heart rate, temperature, SpO2, movement",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6482d0a2-9b35-4ff1-b14c-b74fd0af2a1a",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Materials",
+      "value": "Titanium",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0be53044-d4de-4d51-ae89-424b41347300",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Sizes",
+      "value": "4-15",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a7a13b2e-851b-4d3f-9e31-ea410acce151",
+      "product_id": "54be0ea3-7a37-4108-91a1-53d7936f4ce4",
+      "name": "Water Resistance",
+      "value": "100 m",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f6e20093-3e6e-48d9-9013-c67705b4bc76",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Battery Life",
+      "value": "6",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c601b9e7-3896-4246-8b33-60a7e5c36c7b",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Subscription",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "f30148d8-3211-4d8b-b9d2-54bdee0d01eb",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Sensors",
+      "value": "Heart rate, temperature, movement",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "05aff21e-084c-42c9-a7e4-3a29ab9a06c9",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Weight",
+      "value": "2.4-3.6",
+      "unit": "g",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3d8b40bc-0fa7-4a85-ad03-afccff3d56fb",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Materials",
+      "value": "Titanium",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "304b471f-ebb5-481e-a446-4e122b5c2ec4",
+      "product_id": "49d39d95-df5f-4ea6-a72d-338b81c31461",
+      "name": "Water Resistance",
+      "value": "100 m",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e5a810fa-b68c-45ef-98c0-aab5ff96f097",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "Battery Life",
+      "value": "10",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1b07602f-8f20-41c4-977f-e477536933cc",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "Subscription",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "83848c07-5295-4667-bdec-e2332de16161",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "Sensors",
+      "value": "Heart rate, SpO2, skin temperature",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6b0777f9-7c6a-4d6d-b778-309ea9d83879",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "Charging Case",
+      "value": "Included",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "cd348f28-143c-4dfb-b8c4-430294b00363",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "Materials",
+      "value": "Titanium",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0a0c4547-0c02-4a30-9d1b-60b0cbfcda3d",
+      "product_id": "f20c523f-2a07-4a23-bf7a-020652ff7240",
+      "name": "Water Resistance",
+      "value": "100 m",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "babe4747-4b00-4c28-b01a-e8cbf12e76ce",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Battery Life",
+      "value": "7",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "cbf2e690-2d15-47bb-a229-9e779a260b5d",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Subscription",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c4951097-fe55-40a4-b37d-3e85ffa2d472",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Sensors",
+      "value": "Heart rate, skin temperature, movement",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "33ded926-1b5c-4662-b42c-27703deccbf2",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Platform Fit",
+      "value": "Best with Samsung phones",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "33515cf8-9a9c-44b1-90d0-f40a4ed54b1d",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Materials",
+      "value": "Titanium",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3ae43f81-9486-425a-8db8-cbbf5be179ed",
+      "product_id": "69203b13-b632-4ca1-a4b0-bd1291e1dc5c",
+      "name": "Water Resistance",
+      "value": "10 ATM",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "fc2adc58-0d3b-41a4-84ce-6a2db103f309",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Battery Life",
+      "value": "4",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d717a042-b0b4-4308-821a-5ca9a23cd891",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Subscription",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7f723b0e-32af-4283-978b-055f69f05ac0",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Sensors",
+      "value": "Heart rate, skin temperature, recovery metrics",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1cfe09e3-8470-423a-ab06-1df6456bb0b5",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Platform Fit",
+      "value": "Pairs well with Amazfit ecosystem",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "9dfb6172-1b36-46e0-9294-0c757f018719",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Materials",
+      "value": "Titanium alloy",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "6e1a1c93-6c56-4aeb-9eb9-37121c4055aa",
+      "product_id": "2bf52629-7ebb-4d3b-9860-bdf53a022a21",
+      "name": "Water Resistance",
+      "value": "10 ATM",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d63ea21f-eb35-4052-bcde-7d58315a82e6",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Battery Life",
+      "value": "5",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7f066e1f-5fa8-42b6-84e7-5ec93231c236",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Subscription",
+      "value": "No",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "97a0d749-21f0-4876-98df-29b574df322c",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Sensors",
+      "value": "Heart rate, SpO2, temperature",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "49dfc18e-8e7c-4744-8ea9-32d8dae6f341",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Form Factor",
+      "value": "Slim ring",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2a8eacf4-90de-42c8-9f6f-7db617950593",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Materials",
+      "value": "Metal shell",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3701939d-63af-4eb0-b213-ccb450a34136",
+      "product_id": "30829437-dfdb-4e17-8e65-70c80e92022d",
+      "name": "Water Resistance",
+      "value": "IPX8",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b9bba149-dcdb-4219-834d-d526cdee5e7b",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Type",
+      "value": "Bone conduction",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0bc873a0-af2d-408a-9a04-c243933b5094",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Battery Life",
+      "value": "12",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e26ac4d6-5993-4237-a1e2-5b13cdc7ae97",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Weight",
+      "value": "30.3",
+      "unit": "g",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0f2e5237-4d63-408b-9951-7f22ea08c72b",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Water Resistance",
+      "value": "IP55",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1b08e240-59a2-4c00-8c00-3a5dbfab867a",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Fast Charge",
+      "value": "5 min = 2.5 hours",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d968dd17-d599-4195-986a-e956e1d69baa",
+      "product_id": "b0d63659-8177-44bb-a3b2-264334ad4af5",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a049cc28-f61b-4fd0-978e-27a0509350d7",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Type",
+      "value": "Clip-on open earbuds",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b5d4f984-848f-4099-b7d7-1a1c72dc50d6",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Battery Life",
+      "value": "7.5",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a33b5efa-ffe9-4234-bea8-7b32c7ef92e8",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Case Battery",
+      "value": "27",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "131f345e-872c-4095-b172-ab054fe2ea2a",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Water Resistance",
+      "value": "IPX4",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "ff1edaae-1d97-44f3-88f5-db4c0b4a7763",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "9225a7b1-c1ef-4ee2-831d-c598386e8738",
+      "product_id": "f95ddcc4-861e-4f48-b50c-efadee286a87",
+      "name": "Platform Fit",
+      "value": "Lifestyle and casual daily wear",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "de5a9919-b9d0-49f1-bed6-b215e5023687",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Type",
+      "value": "Air conduction earbuds",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e6868d79-e84f-4056-a254-9e9b402f9cc1",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Battery Life",
+      "value": "11",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "320e67a4-8efd-44d9-bf8c-c1b27b29c47f",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Case Battery",
+      "value": "48",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5e45c5e4-a532-4ad1-85ce-c5297289de8f",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Water Resistance",
+      "value": "IP55",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "39df16c0-e9f2-489d-bde0-7adf8e1b4aaf",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "830c9c64-cce9-452b-a239-10ee96b920e8",
+      "product_id": "f42de4ae-f504-48b7-b0fb-923d96188ad7",
+      "name": "Controls",
+      "value": "Physical + touch",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5958b198-cf05-4c47-bc20-7b9498208f9e",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Type",
+      "value": "Open ring earbuds",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e4a28195-71af-4c35-a006-303beb5da090",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Battery Life",
+      "value": "8",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d6be79a3-9f71-4b52-90ee-62b51ea24cea",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Case Battery",
+      "value": "22",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "17854271-7a5f-419a-b89e-4d601e8b3072",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Water Resistance",
+      "value": "IPX4",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "983d9cd6-583a-44dc-92b6-8726023baa49",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "c9a935c5-de8b-46ec-a868-bfb115faecc9",
+      "product_id": "559832d7-0ad1-4e33-8064-437583fc6f52",
+      "name": "Assistant Support",
+      "value": "Alexa / Google",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5574cd8e-0d3e-4b2b-a3e6-63178e0267fa",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Type",
+      "value": "Open-ear hook earbuds",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "14d89e7c-5dc5-4aed-b136-7bd1fe51dcbd",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Battery Life",
+      "value": "10",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "38ee2c59-a6e2-465e-a67d-521447b1f1bb",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Case Battery",
+      "value": "40",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d83839bb-2de5-4107-970d-0a04b804bb51",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Water Resistance",
+      "value": "IPX7",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d4d86916-5380-4931-b3df-f174ca9464c1",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Fit",
+      "value": "Ear hook",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "4279dfec-99ca-4545-9f9c-a27b0252e9f6",
+      "product_id": "6dc27bb9-2303-4f6c-aee1-a7ca17ce561a",
+      "name": "Spatial Audio",
+      "value": "Supported",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "ef482392-70a7-4b0a-ba7d-c65ecedcb26b",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Type",
+      "value": "Open-ear hook earbuds",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7ac514cd-d00b-450d-aded-edd0ab412ed5",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Battery Life",
+      "value": "10",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5887b695-d62f-4762-918a-ecf74da65706",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Case Battery",
+      "value": "42",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "da097d31-2d22-486c-bbd2-0a43bdaefa47",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Water Resistance",
+      "value": "IP55",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "13773381-f408-4fc7-96fa-0b33b332184c",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Multipoint",
+      "value": "Yes",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d81fdb35-cd0b-4353-a6be-cc4953e6cb81",
+      "product_id": "f6275c83-167e-473c-a0ff-63e1facfe28d",
+      "name": "Price Tier",
+      "value": "Mid-range value",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "66d9caa9-745e-4a46-9caf-f4b70c0fb7c2",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Form Factor",
+      "value": "Ring",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "dbb4fefb-3c00-45d7-923a-9216f9f66af4",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Battery Life",
+      "value": "8",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d892ac9c-770f-4764-8405-924c8de0db33",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Subscription",
+      "value": "Required for full insights",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "ed551957-531c-463c-8db9-2f317ee5e09f",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Sleep Tracking",
+      "value": "Stages + readiness + temperature",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "5b9a4294-e43e-4e75-9901-14af8b9d24fa",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Comfort",
+      "value": "Excellent for overnight wear",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0f2e95fa-8574-481c-bea2-cac26ef670ef",
+      "product_id": "f877a6a1-e0ec-4b51-961b-62be993908e2",
+      "name": "Water Resistance",
+      "value": "100 m",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "d55a94d5-6f09-4686-acb9-c46ea973f8bb",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Form Factor",
+      "value": "Screenless band",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "fa6c94c4-b1eb-46d1-92ce-ba3cc914b10e",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Battery Life",
+      "value": "14",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "41c5a6c5-c5d3-4ea9-947e-30d60ca26286",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Subscription",
+      "value": "Membership required",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "317e8950-32ba-4cf2-b4a6-4cb6529be177",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Sleep Tracking",
+      "value": "Sleep need + strain + recovery",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "89e028ae-52f4-480b-9ba4-193d9efd47ad",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Charging",
+      "value": "On-wrist battery pack",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a87d086d-db02-413a-a821-b5b9d67750a4",
+      "product_id": "c25925e6-23a6-42fc-94d2-66ec6a4ebdfd",
+      "name": "Water Resistance",
+      "value": "IP68",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0df5b954-1937-460a-92ed-dd4328637c8c",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Form Factor",
+      "value": "Under-mattress pad",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "4cf8a813-267a-452f-ae4d-22ef339f2c93",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Battery Life",
+      "value": "Plug-in",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "dd4010f4-02ac-4dc4-b9c5-0d748307babd",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Sleep Tracking",
+      "value": "Sleep cycles, snoring, heart rate",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "3479428d-52cf-459a-a9bb-0ef3bea29f72",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Sleep Apnea Detection",
+      "value": "Supported in select regions",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "379ce566-ba8a-4ec9-afa4-14a0ece3e9c8",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Wear Requirement",
+      "value": "None",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "ee25c34c-37b5-46da-963f-af8342b88144",
+      "product_id": "b6ccf8a5-1daf-41a9-90b9-731049382df3",
+      "name": "Platform",
+      "value": "iOS / Android",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "352f2729-513a-499c-bba5-39706a6bb43d",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Form Factor",
+      "value": "Smartwatch",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "cc37ff29-e99c-48e3-894a-bce2214b7b7c",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Battery Life",
+      "value": "36",
+      "unit": "hours",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "91ee5e17-2d4e-4d2c-a802-e489c746ce7b",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Sleep Tracking",
+      "value": "Fitbit sleep score + stages",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "894f57c5-d608-4635-a27a-5de426580988",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Subscription",
+      "value": "Fitbit Premium optional",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1a6fb024-e00a-4a31-bc01-59c3692dc7fc",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Comfort",
+      "value": "Good for smaller wrists",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "05650e36-5360-44a0-9ee9-515eea126368",
+      "product_id": "87341ed6-2f0b-4fe8-a12a-cd71313c8740",
+      "name": "Platform Fit",
+      "value": "Android-first",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "b0b1ac53-3829-47ae-9033-88b33e1784fb",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "Form Factor",
+      "value": "Smartwatch",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "75d36797-ce33-4e01-b346-37baf97e1a07",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "Battery Life",
+      "value": "14",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "8b2ef1fe-2d24-4954-8b65-18e0bcf8e480",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "Sleep Tracking",
+      "value": "Sleep coach + HRV status",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e3482347-8f42-41b2-88b6-7d0bf8fdacd1",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "Training Metrics",
+      "value": "Recovery and body battery",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "073f6d76-d8bf-49ea-a0de-2d6174044cf8",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "GPS",
+      "value": "Built in",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2dc79455-652d-4335-a515-5a18a5dcdc73",
+      "product_id": "7c47faf7-329b-4d15-a36c-fb4398b4457b",
+      "name": "Platform",
+      "value": "iOS / Android",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0ab03e56-d7ed-4762-a514-8da41a785de6",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "Form Factor",
+      "value": "Tracker band",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7bb5f071-2c11-4c90-a4d9-1996d8dadd99",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "Battery Life",
+      "value": "7",
+      "unit": "days",
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "7985bde9-37c4-4af5-bef2-59315ba24ce7",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "Sleep Tracking",
+      "value": "Sleep score + stages",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "bc9e4631-a974-4c0d-8faf-58185596d9b1",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "GPS",
+      "value": "Built in",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "06640243-65b8-4ca3-bb5b-10672052c25e",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "Subscription",
+      "value": "Fitbit Premium optional",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "24acc2ca-a684-4f08-8db9-1b8020581c73",
+      "product_id": "05b49709-43e0-4d24-8a8a-5b451fc30183",
+      "name": "Platform",
+      "value": "iOS / Android",
+      "unit": null,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ],
   "assets": [],
@@ -30237,6 +32739,141 @@
       "display_order": 3,
       "created_at": "2026-05-06T00:00:00.000Z",
       "updated_at": "2026-05-06T00:00:00.000Z"
+    },
+    {
+      "id": "ac5d67b0-c0bb-4f83-adad-cf70fa5d50a6",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "question": "Are smart rings better than smartwatches for sleep tracking?",
+      "answer": "Often yes for comfort. Smart rings are usually lighter, less distracting at night, and easier to wear consistently, which matters a lot for useful sleep data. Smartwatches still win if you want notifications, screens, workouts, and a broader all-day device.",
+      "display_order": 1,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "9391730c-f319-4510-8439-b2490a376054",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "question": "Do smart rings need a subscription?",
+      "answer": "Some do, some do not. Oura still relies on a subscription for full insight depth, while brands like Ultrahuman and RingConn lean harder on one-time purchase pricing. Buyers should always compare total first-year and second-year cost, not just sticker price.",
+      "display_order": 2,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "e888f7be-c693-468d-b766-c108b4bdf31a",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "question": "What matters most when buying a smart ring?",
+      "answer": "Comfort, sizing confidence, battery life, and app usefulness matter more than flashy sensor claims. A ring that feels awkward or has weak reporting will not stay on your finger long enough to create useful health trends.",
+      "display_order": 3,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0b660de6-0b96-4cf3-ba31-0edaef586f85",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "question": "Can a smart ring replace a fitness tracker?",
+      "answer": "Sometimes, but not always. Smart rings are strong for sleep, readiness, and passive health trends, but weaker for live workout interaction, screens, and some exercise-specific metrics. Buyers who train often may still prefer a watch or tracker alongside a ring.",
+      "display_order": 4,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0c190d04-c8e5-47c5-be8b-499b2b635422",
+      "ranking_id": "d084c83a-dfda-4c79-9501-be6a376c69bf",
+      "question": "How long should a good smart ring battery last?",
+      "answer": "Around 5 to 8 days is now the practical sweet spot, with some rings stretching closer to 10. Anything that needs charging every couple of days adds enough friction to hurt overnight tracking consistency.",
+      "display_order": 5,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a4a0c1a1-685c-4665-8455-c2c252916508",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "question": "Who should buy open-ear headphones instead of earbuds?",
+      "answer": "Buyers who want situational awareness while running, cycling, walking, or working in shared spaces are the best fit. Open-ear models are also helpful for people who dislike the pressure or occlusion feeling of in-ear buds.",
+      "display_order": 1,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "1ca1eaa2-0bdd-419b-b335-a80408d4db1a",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "question": "Do open-ear headphones sound worse than regular earbuds?",
+      "answer": "Usually yes in pure sound-quality terms. They trade bass weight and isolation for comfort and awareness, so the best way to judge them is by whether that trade-off fits your routine instead of expecting closed-off earbud sound.",
+      "display_order": 2,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "2c3c7f8d-c26c-4d68-a6f5-11c86c4d0671",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "question": "Are bone-conduction headphones and open-ear earbuds the same thing?",
+      "answer": "Not exactly. Bone-conduction models send vibration through your cheekbones, while open-ear earbuds usually sit near the ear and fire sound toward it. Both keep your ears open, but they can feel and sound quite different.",
+      "display_order": 3,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "23d50b4d-a2f1-4371-8523-b61337c989f5",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "question": "Are open-ear headphones good for office use?",
+      "answer": "They can be, especially if you want background audio while staying aware of coworkers or kids at home. They are less ideal in noisy offices because the open design cannot block distractions the way ANC earbuds or over-ear headphones can.",
+      "display_order": 4,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "366496ae-195f-4e81-864b-daa1d255d131",
+      "ranking_id": "1a46a0b7-971b-4e78-ae60-39c5dd484c1d",
+      "question": "What matters most when choosing open-ear headphones for running?",
+      "answer": "Fit stability, comfort, water resistance, and usable battery life matter most. Open-ear buyers should also pay attention to control quality because fiddly touch controls are especially annoying mid-run.",
+      "display_order": 5,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "8d8df2e0-c868-4071-bb49-384d1f6c6661",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "question": "What is the best form factor for sleep tracking?",
+      "answer": "The best form factor is the one you will actually tolerate all night. Rings are excellent for low-friction wear, slim bands work well for buyers who already like trackers, and under-mattress sensors are best for people who hate wearing anything to bed.",
+      "display_order": 1,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "deb09f64-f2de-4657-84bf-2bb038de88aa",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "question": "How accurate are consumer sleep trackers?",
+      "answer": "They are usually good for trend tracking and rough sleep-stage patterns, but not perfect substitutes for clinical sleep studies. The biggest value is spotting consistent changes over time, not obsessing over every single nightly score.",
+      "display_order": 2,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "a559a6bb-5021-4364-8f33-2ceb27137ad7",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "question": "Should I buy a dedicated sleep tracker or use my smartwatch?",
+      "answer": "Use your smartwatch if you already wear it comfortably overnight and like its app. Buy a dedicated sleep tracker if your watch battery, comfort, or sleep insights keep you from using it consistently.",
+      "display_order": 3,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "33031788-8d7b-43b9-8ebb-b51097c8687d",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "question": "Do I need a subscription for useful sleep tracking?",
+      "answer": "Not always. Some products lock deeper coaching behind subscriptions, while others provide solid baseline sleep and recovery data with no recurring fee. Buyers should decide whether they want raw trends, lightweight coaching, or a more hands-on health platform.",
+      "display_order": 4,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
+    },
+    {
+      "id": "0b1efada-476d-4137-8d8e-818bcf0ea1f6",
+      "ranking_id": "07273ba1-5137-4b5f-8362-b4d54508c2dd",
+      "question": "What matters more: comfort or feature depth in a sleep tracker?",
+      "answer": "Comfort usually wins. If a tracker annoys you, overheats, pinches, or runs out of battery too often, the extra features do not matter because the device will spend more time on the charger or nightstand than on your body.",
+      "display_order": 5,
+      "created_at": "2026-05-06T01:10:57.788Z",
+      "updated_at": "2026-05-06T01:10:57.788Z"
     }
   ]
 }
